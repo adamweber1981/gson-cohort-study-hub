@@ -40,6 +40,44 @@ footer{text-align:center;background:#e8edf4;color:#6c788a;padding:24px;font-size
         width: min(300px, 80vw);
     }
 }
+.exam-top {
+    cursor: pointer;
+    user-select: none;
+}
+
+.exam-top:hover {
+    background: #f7f9fc;
+}
+
+.exam-top {
+    margin: -10px -10px 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.exam-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.accordion-arrow {
+    display: inline-block;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.exam.collapsed .accordion-arrow {
+    transform: rotate(-90deg);
+}
+
+.exam.collapsed .versions {
+    display: none;
+}
+
+.exam.collapsed .exam-top {
+    margin-bottom: -10px;
+}
 </style>
 </head>
 <body>
@@ -185,7 +223,7 @@ function renderHub() {
     } else {
       course.exams.forEach(exam => {
         const examBox = document.createElement("div");
-        examBox.className = "exam";
+        examBox.className = "exam collapsed";
 
         const versions = exam.versions.map(v => `
           <div class="version">
@@ -195,14 +233,30 @@ function renderHub() {
           </div>
         `).join("");
 
-        examBox.innerHTML = `
-          <div class="exam-top">
-            <h3>${exam.name} Practice</h3>
-            <span class="badge">${exam.versions.length} ${exam.versions.length === 1 ? "version" : "versions"}</span>
-          </div>
-          <div class="versions">${versions}</div>
-        `;
-        section.appendChild(examBox);
+        eexamBox.innerHTML = `
+  <div class="exam-top">
+    <div class="exam-title">
+      <span class="accordion-arrow">▼</span>
+      <h3>${exam.name} Practice</h3>
+    </div>
+    <span class="badge">
+      ${exam.versions.length}
+      ${exam.versions.length === 1 ? "version" : "versions"}
+    </span>
+  </div>
+
+  <div class="versions">
+    ${versions}
+  </div>
+`;
+
+const examHeader = examBox.querySelector(".exam-top");
+
+examHeader.addEventListener("click", function () {
+  examBox.classList.toggle("collapsed");
+});
+
+section.appendChild(examBox);
       });
     }
 
