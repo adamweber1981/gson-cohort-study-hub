@@ -20,10 +20,34 @@ h2{margin:0;font-size:25px}.sub,.count{color:var(--muted);font-size:13px;margin-
 .empty{border:2px dashed #cad5e2;border-radius:15px;padding:24px;text-align:center;color:var(--muted);background:#ffffff66}.empty b{display:block;color:var(--ink);margin-bottom:5px}
 footer{text-align:center;background:#e8edf4;color:#6c788a;padding:24px;font-size:13px}
 @media(max-width:760px){.versions{grid-template-columns:1fr}.count{display:none}.exam-top{align-items:flex-start}}
+.school-brand {
+    margin-bottom: 28px;
+}
+
+.school-brand img {
+    display: block;
+    width: min(340px, 80vw);
+    height: auto;
+}
+
+@media (max-width: 760px) {
+    .school-brand {
+        text-align: center;
+    }
+
+    .school-brand img {
+        margin: 0 auto;
+        width: min(300px, 80vw);
+    }
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header>
+<div class="wrap">
+<div class="school-brand">
+  <img src="assets/BJC_GSON_Small.svg" alt="BJC Goldfarb School of Nursing">
+</div>   
 <div class="eyebrow">GSON Cohort 1 - Term 1 - Nursing School • Practice Exams</div>
 <h1>Nursing Study Hub</h1>
 <p>Practice. Review. Learn. Repeat. Choose a course, select an exam, and launch a practice version with immediate answer feedback and rationales.</p>
