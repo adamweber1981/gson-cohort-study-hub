@@ -14,10 +14,10 @@ h1{font-size:clamp(38px,7vw,66px);letter-spacing:-.05em;line-height:1;margin:12p
 main{padding:35px 20px 70px}.welcome{background:#fff;border:1px solid var(--line);border-radius:17px;padding:20px;box-shadow:0 5px 18px #12233f0b;margin-bottom:38px}.welcome b{display:block;margin-bottom:5px}.welcome span{color:var(--muted)}
 .course{margin:44px 0;scroll-margin-top:15px}.course-head{display:flex;justify-content:space-between;align-items:end;gap:15px;border-bottom:2px solid var(--line);padding-bottom:12px;margin-bottom:17px}.title{display:flex;gap:12px;align-items:center}.icon{width:43px;height:43px;border-radius:12px;background:#e7f1fb;display:grid;place-items:center;font-size:21px}
 h2{margin:0;font-size:25px}.sub,.count{color:var(--muted);font-size:13px;margin-top:3px}.exam{background:#fff;border:1px solid var(--line);border-radius:17px;padding:21px;margin:14px 0;box-shadow:0 4px 14px #12233f0a}
-.exam-top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:15px}.exam h3{margin:0;font-size:20px}.badge{color:var(--green);background:#e9f6f1;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}.badge.soon{color:#7b6688;background:#f3edf7}
+.exam-top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:15px}.exam h3{margin:0;font-size:20px}.badge{color:var(--green);background:#e9f6f1;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
 .versions{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.version{border:1px solid var(--line);border-radius:13px;padding:16px;display:flex;flex-direction:column;min-height:145px}.version strong{font-size:17px}.version p{color:var(--muted);font-size:13px;line-height:1.45;margin:6px 0 15px}
 .start{margin-top:auto;text-align:center;text-decoration:none;color:#fff;background:var(--blue);border-radius:9px;padding:10px;font-weight:800}.start:hover{filter:brightness(.94)}
-.placeholder{border:2px dashed #cad5e2;border-radius:15px;padding:24px;text-align:center;color:var(--muted);background:#ffffff66}.placeholder b{display:block;color:var(--ink);margin-bottom:5px}
+.empty{border:2px dashed #cad5e2;border-radius:15px;padding:24px;text-align:center;color:var(--muted);background:#ffffff66}.empty b{display:block;color:var(--ink);margin-bottom:5px}
 footer{text-align:center;background:#e8edf4;color:#6c788a;padding:24px;font-size:13px}
 @media(max-width:760px){.versions{grid-template-columns:1fr}.count{display:none}.exam-top{align-items:flex-start}}
 </style>
@@ -27,38 +27,150 @@ footer{text-align:center;background:#e8edf4;color:#6c788a;padding:24px;font-size
 <div class="eyebrow">Nursing School • Practice Exams</div>
 <h1>Nursing Study Hub</h1>
 <p>Practice. Review. Learn. Repeat. Choose a course, select an exam, and launch a practice version with immediate answer feedback and rationales.</p>
-<nav class="nav"><a href="#pathophysiology">Pathophysiology</a><a href="#pharmacology">Pharmacology</a><a href="#health-assessment">Health Assessment</a></nav>
+<nav class="nav" id="courseNav"></nav>
 </div></header>
 
 <main class="wrap">
 <div class="welcome"><b>🩺 Choose what you want to study.</b><span>The hub is organized by course, then exam, then practice version so it can keep growing throughout nursing school.</span></div>
-
-<section class="course" id="pathophysiology">
-<div class="course-head"><div class="title"><div class="icon">🧬</div><div><h2>Pathophysiology</h2><div class="sub">Disease processes, mechanisms & clinical application</div></div></div><div class="count">Exam 2 available</div></div>
-
-<div class="exam">
-<div class="exam-top"><h3>Exam 2 Practice</h3><span class="badge">3 versions</span></div>
-<div class="versions">
-<div class="version"><strong>Exam 2A</strong><p>Practice version A with immediate study feedback.</p><a class="start" href="Pathophysiology/Exam%202/Pathophysiology%20Exam%202a.html">Start 2A →</a></div>
-<div class="version"><strong>Exam 2B</strong><p>Practice version B for additional review and repetition.</p><a class="start" href="Pathophysiology/Exam%202/Pathophysiology%20Exam%202b.html">Start 2B →</a></div>
-<div class="version"><strong>Exam 2C</strong><p>Practice version C with another mix of questions.</p><a class="start" href="Pathophysiology/Exam%202/Pathophysiology%20Exam%202c.html">Start 2C →</a></div>
-</div></div>
-
-<div class="exam">
-<div class="exam-top"><h3>Exam 3 Practice</h3><span class="badge soon">Coming soon</span></div>
-<div class="placeholder"><b>Ready for Exam 3.</b>Future Exam 3A, 3B, 3C, and additional versions can be added here.</div>
-</div>
-</section>
-
-<section class="course" id="pharmacology">
-<div class="course-head"><div class="title"><div class="icon">💊</div><div><h2>Pharmacology</h2><div class="sub">Medication classes, safety, adverse effects & nursing considerations</div></div></div><div class="count">Ready to expand</div></div>
-<div class="exam"><div class="exam-top"><h3>Practice Exams</h3><span class="badge soon">Coming soon</span></div><div class="placeholder"><b>Pharmacology is ready.</b>Each exam will get its own folder with A, B, C, and future practice versions.</div></div>
-</section>
-
-<section class="course" id="health-assessment">
-<div class="course-head"><div class="title"><div class="icon">🩻</div><div><h2>Health Assessment</h2><div class="sub">Assessment techniques, findings, documentation & clinical judgment</div></div></div><div class="count">Ready to expand</div></div>
-<div class="exam"><div class="exam-top"><h3>Practice Exams</h3><span class="badge soon">Coming soon</span></div><div class="placeholder"><b>Health Assessment is ready.</b>Future exams can be organized using the same course → exam → practice-version structure.</div></div>
-</section>
+<div id="studyHub"></div>
 </main>
+
 <footer>Nursing Study Hub • Built for focused practice and review</footer>
-</body></html>
+
+<script>
+/* ============================================================
+   STUDY HUB EXAM LIST
+   ============================================================
+   THIS IS THE ONLY SECTION YOU NEED TO EDIT TO ADD NEW TESTS.
+
+   Example new test:
+   {
+     version: "2A",
+     file: "Pharmacology/Exam 2/Pharmacology Exam 2a.html",
+     description: "Practice version A."
+   }
+
+   Add it inside the appropriate exam's "versions" list.
+   ============================================================ */
+
+const STUDY_HUB = [
+  {
+    course: "Pathophysiology",
+    icon: "🧬",
+    description: "Disease processes, mechanisms & clinical application",
+    exams: [
+      {
+        name: "Exam 2",
+        versions: [
+          {
+            version: "2A",
+            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2a.html",
+            description: "Practice version A with immediate study feedback."
+          },
+          {
+            version: "2B",
+            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2b.html",
+            description: "Practice version B for additional review and repetition."
+          },
+          {
+            version: "2C",
+            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2c.html",
+            description: "Practice version C with another mix of questions."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    course: "Pharmacology",
+    icon: "💊",
+    description: "Medication classes, safety, adverse effects & nursing considerations",
+    exams: []
+  },
+  {
+    course: "Health Assessment",
+    icon: "🩻",
+    description: "Assessment techniques, findings, documentation & clinical judgment",
+    exams: []
+  }
+];
+
+/* ============================================================
+   PAGE BUILDER — YOU SHOULD NOT NEED TO EDIT BELOW THIS LINE
+   ============================================================ */
+
+function slugify(text) {
+  return text.toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+}
+
+function totalVersions(course) {
+  return course.exams.reduce((sum, exam) => sum + exam.versions.length, 0);
+}
+
+function renderHub() {
+  const hub = document.getElementById("studyHub");
+  const nav = document.getElementById("courseNav");
+
+  STUDY_HUB.forEach(course => {
+    const id = slugify(course.course);
+
+    const navLink = document.createElement("a");
+    navLink.href = "#" + id;
+    navLink.textContent = course.course;
+    nav.appendChild(navLink);
+
+    const section = document.createElement("section");
+    section.className = "course";
+    section.id = id;
+
+    const count = totalVersions(course);
+    section.innerHTML = `
+      <div class="course-head">
+        <div class="title">
+          <div class="icon">${course.icon}</div>
+          <div>
+            <h2>${course.course}</h2>
+            <div class="sub">${course.description}</div>
+          </div>
+        </div>
+        <div class="count">${count ? count + " practice " + (count === 1 ? "exam" : "exams") : "Ready to expand"}</div>
+      </div>
+    `;
+
+    if (course.exams.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "empty";
+      empty.innerHTML = `<b>${course.course} is ready.</b>Add an exam to the STUDY_HUB list when you have one.`;
+      section.appendChild(empty);
+    } else {
+      course.exams.forEach(exam => {
+        const examBox = document.createElement("div");
+        examBox.className = "exam";
+
+        const versions = exam.versions.map(v => `
+          <div class="version">
+            <strong>Exam ${v.version}</strong>
+            <p>${v.description || "Interactive practice exam with immediate feedback."}</p>
+            <a class="start" href="${encodeURI(v.file)}">Start ${v.version} →</a>
+          </div>
+        `).join("");
+
+        examBox.innerHTML = `
+          <div class="exam-top">
+            <h3>${exam.name} Practice</h3>
+            <span class="badge">${exam.versions.length} ${exam.versions.length === 1 ? "version" : "versions"}</span>
+          </div>
+          <div class="versions">${versions}</div>
+        `;
+        section.appendChild(examBox);
+      });
+    }
+
+    hub.appendChild(section);
+  });
+}
+
+renderHub();
+</script>
+</body>
+</html>
