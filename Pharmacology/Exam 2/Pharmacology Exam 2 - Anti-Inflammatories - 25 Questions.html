@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pharmacology Exam 2 — Anti-Inflammatories — 25-Question Clinical Practice</title>
+<style>
+:root{--navy:#12233f;--blue:#376aa4;--bg:#f4f7fb;--ink:#172238;--muted:#627287;--line:#dce4ed}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(135deg,#12233f,#1d3c68);color:#fff;padding:24px 16px 30px}.wrap{max-width:960px;margin:auto}
+.top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:9px;padding:10px 14px;font-weight:750;cursor:pointer;text-decoration:none;display:inline-block}
+.btn-light{background:#fff;color:#173354}.btn-ref{background:#dbe9f7;color:#173354}.btn-main{background:var(--blue);color:white}.btn-muted{background:#e8edf4;color:#173354}
+h1{font-size:clamp(27px,5vw,43px);margin:22px 0 6px}header p{color:#d9e6f4;margin:0 0 15px;line-height:1.5}.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill{background:#ffffff20;border:1px solid #ffffff33;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:750}
+main{padding:22px 16px 60px}.progress{position:sticky;top:0;background:#f4f7fbef;backdrop-filter:blur(8px);padding:10px 0 14px;z-index:4}
+.track{height:8px;background:#dce5ef;border-radius:10px;overflow:hidden}.track span{display:block;height:100%;width:0;background:var(--blue)}
+.counter{font-size:13px;color:var(--muted);margin-top:6px}
+.question{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px;margin:14px 0;box-shadow:0 3px 10px #0e274208}
+.qhead{display:flex;justify-content:space-between;gap:12px}.qnumber{font-weight:800}.category{font-size:11px;color:#345e89;background:#eaf2fa;border-radius:20px;padding:5px 9px;font-weight:800}
+.stem{font-size:17px;font-weight:750;line-height:1.48;margin:14px 0}.instruction{color:var(--muted);font-size:13px;margin-bottom:10px}
+.choice{display:block;border:1px solid var(--line);border-radius:10px;padding:11px 12px;margin:8px 0;cursor:pointer;line-height:1.4}
+.choice:hover{background:#f5f9fd}.choice input{margin-right:9px}.check{margin-top:10px}
+.matchrow{display:grid;grid-template-columns:minmax(160px,1fr) minmax(170px,1.5fr);gap:10px;align-items:center;margin:11px 0}
+.matchrow label{font-weight:650}select{width:100%;padding:10px;border:1px solid #bdccdc;border-radius:9px;background:#fff;color:var(--ink);font-size:14px}
+.feedback{display:none;margin-top:15px;padding:14px;border-radius:11px;line-height:1.55}.feedback.show{display:block}
+.feedback.correct{background:#e8f7f0;border:1px solid #b7e1cb}.feedback.partial{background:#fff7df;border:1px solid #e6d18e}
+.feedback.incorrect{background:#fcecec;border:1px solid #e8bbbb}.feedback .headline{font-weight:850;margin-bottom:5px}
+.reference-link{font-weight:750;color:#1b5b99;text-decoration:underline}.refline{margin-top:9px;font-size:13px}
+.summary{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:18px;background:#fff;border:1px solid var(--line);border-radius:13px;margin-top:24px}
+#scoreResult{font-weight:850;font-size:17px;margin-left:auto}
+dialog{width:min(1050px,95vw);height:min(87vh,840px);border:0;padding:0;border-radius:14px;box-shadow:0 20px 70px #0007}
+dialog::backdrop{background:#091728bd}.modalbar{height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);color:#fff;padding:10px 14px}
+.modalbar strong{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.viewer{width:100%;height:calc(100% - 60px);border:0;background:#fff}
+.ref-list{padding:18px}.ref-list button{width:100%;text-align:left;background:#fff;border:1px solid var(--line);padding:12px;border-radius:8px;margin:5px 0;color:#245d98;font-weight:750;cursor:pointer}
+@media(max-width:600px){.question{padding:15px}.matchrow{grid-template-columns:1fr;gap:4px}#scoreResult{margin-left:0;width:100%}}
+</style></head><body>
+<header><div class="wrap"><div class="top"><a class="btn btn-light" href="../../index.html">← Return to Study Hub</a><button class="btn btn-ref" type="button" onclick="showReferenceList()">📚 References</button></div>
+<h1>Pharmacology Exam 2 — Anti-Inflammatories — 25-Question Clinical Practice</h1><p>Exam 2 topic review • 45 topic questions + 5 Exam 1 review questions • Instant feedback and linked rationales</p>
+<div class="pills"><span class="pill">25 questions</span><span class="pill">37 multiple choice</span><span class="pill">8 Select All That Apply</span><span class="pill">5 matching sets</span><span class="pill">Partial credit for SATA and matching</span></div></div></header>
+<main class="wrap"><div class="progress"><div class="track"><span id="progressBar"></span></div><div class="counter" id="progressText">0 of 25 answered</div></div>
+<div id="questionContainer"></div><div class="summary"><button class="btn btn-main" type="button" onclick="scoreExam()">View Current Score</button><button class="btn btn-muted" type="button" onclick="resetExam()">Reset Exam</button><div id="scoreResult"></div></div></main>
+<dialog id="referenceViewer"><div class="modalbar"><strong id="referenceTitle">Reference</strong><button class="btn btn-light" type="button" onclick="closeReference()">✕ Close</button></div><iframe class="viewer" id="referenceFrame" title="Reference PDF"></iframe></dialog>
+<dialog id="referenceList"><div class="modalbar"><strong>Exam 2 Reference Documents (including Jeopardy)</strong><button class="btn btn-light" type="button" onclick="document.getElementById('referenceList').close()">✕ Close</button></div><div class="ref-list" id="referenceListContent"></div></dialog>
+<script>
+"use strict";
+const REFERENCES={"drug": ["Exam 2 Drug Sheet", "../../References/Pharmacology/Exams/Exam 2/Exam 2 Drug Sheet.pdf"], "tanner": ["Pharm Exam 2 - Tanner Doc", "../../References/Pharmacology/Exams/Exam 2/Pharm Exam 2 - Tanner Doc.pdf"], "bp1": ["Exam 1 Blueprint for Students Pharm", "../../References/Pharmacology/Exams/Exam 2/Exam 1 Blueprint for Students Pharm.pdf"], "bp2": ["Exam 2 Blueprint for Students Pharm", "../../References/Pharmacology/Exams/Exam 2/Exam 2 Blueprint for Students Pharm.pdf"], "quiz": ["pharm exam 2 quiz", "../../References/Pharmacology/Exams/Exam 2/pharm exam 2 quiz.pdf"], "jeopardy": ["pharm exam jeopardy", "../../References/Pharmacology/Exams/Exam 2/pharm exam jeopardy.pdf"]};
+const QUESTIONS=[{"topic": "Exam 1 Review", "type": "mc", "stem": "The nurse reviews an incomplete order that lists a medication name and dose but omits two essential details. What else must be specified?", "options": ["Route and frequency", "Only the client’s height and weight", "The medication color and shape", "The pharmacy address and price"], "answer": 0, "rationale": "The instructor review identifies medication name, dose, route, and frequency as essential order elements.", "src": "jeopardy"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "An older adult with impaired renal function asks about prolonged ibuprofen use. Which organ toxicity is important to discuss?", "options": ["Cardiotoxicity from HER2 blockade", "Tuberculosis reactivation", "Permanent tooth discoloration", "Kidney injury"], "answer": 3, "rationale": "Ibuprofen can contribute to nephrotoxicity.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client with chronic inflammatory disease has developed central weight gain and a rounded face on prednisone. Which effect is illustrated?", "options": ["Cushingoid appearance", "Reye syndrome", "Peripheral neuropathy", "Tendon rupture"], "answer": 0, "rationale": "Cushingoid changes are recognized corticosteroid adverse effects.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which teaching statements about acetaminophen are supported? Select all that apply.", "options": ["Excess dosing can injure the liver", "Its antidote is acetylcysteine", "Check combination OTC products", "It is used for fever", "It is a TNF blocker"], "answer": [2, 0, 3, 1], "rationale": "Supported selections: Check combination OTC products, Excess dosing can injure the liver, It is used for fever, Its antidote is acetylcysteine. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client taking ibuprofen daily reports black, tarry stools and lightheadedness. Which complication is the priority?", "options": ["Expected anti-inflammatory effect", "Harmless fluid discoloration", "Retinal toxicity", "Gastrointestinal bleeding"], "answer": 3, "rationale": "First-generation NSAIDs can injure GI mucosa and cause bleeding.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which are legitimate anti-inflammatory medication safety checks? Select all that apply.", "options": ["Review infection precautions with prednisone", "Review GI bleeding symptoms with NSAIDs", "Review cardiac symptoms with celecoxib", "Review liver risk with acetaminophen", "Assume OTC drugs cannot interact", "Review glucose changes with prednisone"], "answer": [1, 3, 2, 5, 0], "rationale": "Supported selections: Review GI bleeding symptoms with NSAIDs, Review liver risk with acetaminophen, Review cardiac symptoms with celecoxib, Review glucose changes with prednisone, Review infection precautions with prednisone. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client on prednisone reports increased thirst and elevated home glucose values. Which adverse effect best explains this?", "options": ["Corticosteroid-induced hypoglycemia", "Expected antiplatelet action", "Corticosteroid-induced hyperglycemia", "Acute ototoxicity"], "answer": 2, "rationale": "Prednisone can increase blood glucose.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which statements about aspirin are correct? Select all that apply.", "options": ["It treats tuberculosis", "It is selective for COX-2 only", "It is linked to Reye syndrome in children", "It has antiplatelet effects", "It can increase bleeding risk"], "answer": [3, 4, 2], "rationale": "Supported selections: It has antiplatelet effects, It can increase bleeding risk, It is linked to Reye syndrome in children. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Exam 1 Review", "type": "mc", "stem": "A client asks why an oral drug has less active medication in circulation after passing through the liver. Which process explains this?", "options": ["Platelet aggregation", "Immune stimulation", "First-pass metabolism", "Receptor antagonism"], "answer": 2, "rationale": "Oral medications may undergo hepatic first-pass metabolism before reaching systemic circulation.", "src": "jeopardy"}, {"topic": "Exam 1 Review", "type": "mc", "stem": "The nurse reviews how an oral medication is absorbed, distributed, metabolized, and excreted. Which concept is being assessed?", "options": ["Pharmacodynamics", "Immunosuppression", "Antiplatelet action", "Pharmacokinetics"], "answer": 3, "rationale": "Pharmacokinetics describes what the body does to a medication.", "src": "jeopardy"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client asks which medication reduces pain and fever without being a traditional NSAID. Which is correct?", "options": ["Aspirin", "Celecoxib", "Acetaminophen", "Ibuprofen"], "answer": 2, "rationale": "Acetaminophen is classified separately from NSAIDs in the course notes.", "src": "tanner"}, {"topic": "Anti-inflammatory", "type": "match", "stem": "Match each medication to a major risk.", "prompts": ["Aspirin", "Celecoxib", "Acetaminophen"], "options": ["Cardiovascular events", "Hepatotoxicity", "Retinopathy", "Bleeding"], "answer": [3, 0, 1], "rationale": "The medication sheet emphasizes these adverse effects.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client has taken prednisone for several months. Which discharge instruction requires correction?", "options": ["“I will follow the prescribed taper.”", "“I will take it with food.”", "“I will monitor for infection.”", "“I can stop prednisone immediately once swelling is gone.”"], "answer": 3, "rationale": "Long-term corticosteroids should not be stopped abruptly.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client asks whether celecoxib provides the same platelet protection as low-dose aspirin. What is the best response?", "options": ["Yes; celecoxib is an anticoagulant", "No; selective COX-2 inhibition is not equivalent to aspirin’s antiplatelet action", "No; celecoxib treats only fungal infections", "Yes; both irreversibly inhibit platelets"], "answer": 1, "rationale": "The course distinguishes aspirin’s antiplatelet activity from celecoxib’s COX-2 selectivity.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client asks about the major organ affected by acetaminophen overdose. Which answer is correct?", "options": ["Inner ear", "Retina", "Liver", "Bladder lining"], "answer": 2, "rationale": "Excess acetaminophen can cause severe hepatotoxicity.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client with a history of GI irritation asks how celecoxib differs from ibuprofen. Which explanation is best?", "options": ["Celecoxib irreversibly blocks platelets like aspirin", "Celecoxib cannot cause serious adverse effects", "Celecoxib selectively inhibits COX-2 and generally causes less GI bleeding", "Celecoxib is a corticosteroid"], "answer": 2, "rationale": "COX-2 selectivity can reduce GI toxicity relative to nonselective NSAIDs, though it does not eliminate risks.", "src": "jeopardy"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client taking aspirin for an antiplatelet effect asks which additional finding should be reported. Which is most concerning?", "options": ["Gum overgrowth from calcineurin inhibition", "Unusual bruising or GI bleeding", "Mild transient red urine", "Photosensitivity from tetracycline"], "answer": 1, "rationale": "Aspirin inhibits platelet activity and can increase bleeding risk.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which drugs are first-generation NSAIDs in the course materials? Select all that apply.", "options": ["Aspirin", "Ibuprofen", "Prednisone", "Acetaminophen", "Celecoxib"], "answer": [1, 0], "rationale": "Supported selections: Ibuprofen, Aspirin. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client takes acetaminophen and two combination cold products. Which nursing question is most important?", "options": ["Does the client have gum hyperplasia?", "Do any of the cold products also contain acetaminophen?", "Were they taken with an antitubercular medication?", "Do the products contain live vaccines?"], "answer": 1, "rationale": "Duplicate acetaminophen exposure increases risk of hepatotoxicity.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client prescribed celecoxib reports sudden unilateral weakness and difficulty speaking. Which medication risk is most relevant?", "options": ["C. difficile infection", "Stroke or other cardiovascular event", "Retinal damage", "Hemorrhagic cystitis"], "answer": 1, "rationale": "Celecoxib carries cardiovascular and cerebrovascular risk.", "src": "tanner"}, {"topic": "Anti-inflammatory", "type": "match", "stem": "Match each medication to its class.", "prompts": ["Ibuprofen", "Celecoxib", "Prednisone"], "options": ["First-generation NSAID", "Glucocorticoid", "Antiviral", "Second-generation NSAID"], "answer": [0, 3, 1], "rationale": "These are the classes identified in the blueprint.", "src": "bp2"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client receiving high-dose prednisone asks about immunizations. Which teaching is appropriate?", "options": ["All live vaccines are mandatory during therapy", "Vaccines eliminate the need for infection precautions", "Only dairy intake affects vaccine safety", "Avoid live vaccines during immunosuppressive treatment unless the treating team advises otherwise"], "answer": 3, "rationale": "The course notes advise against live vaccines during immunosuppressive corticosteroid therapy.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client arrives after a large acetaminophen ingestion. Which antidote should the nurse anticipate?", "options": ["Acetylcysteine", "Atropine", "Naloxone", "Protamine sulfate"], "answer": 0, "rationale": "Acetylcysteine is the antidote listed for acetaminophen poisoning.", "src": "tanner"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A parent asks whether aspirin is appropriate for a child with influenza. Which concern should guide teaching?", "options": ["Expected gingival hyperplasia", "Risk of hemorrhagic cystitis", "Risk of TB reactivation", "Risk of Reye syndrome"], "answer": 3, "rationale": "Aspirin is avoided in children with viral illness because of Reye syndrome.", "src": "jeopardy"}, {"topic": "Anti-Inflammatories", "type": "mc", "stem": "A client taking high doses of aspirin reports ringing in the ears. What should the nurse suspect?", "options": ["Expected selective COX-2 effect", "Salicylate toxicity", "Benign prednisone withdrawal", "Methotrexate-related liver injury"], "answer": 1, "rationale": "Tinnitus is identified as a possible sign of aspirin toxicity.", "src": "drug"}];
+const points=Array(QUESTIONS.length).fill(null);
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const letter=i=>String.fromCharCode(65+i);
+function openReference(key){
+  const ref=REFERENCES[key];
+  $("referenceTitle").textContent=ref[0];
+  $("referenceFrame").src=encodeURI(ref[1]);
+  $("referenceViewer").showModal();
+}
+function closeReference(){$("referenceFrame").src="about:blank";$("referenceViewer").close();}
+function showReferenceList(){
+  $("referenceListContent").innerHTML=Object.entries(REFERENCES).map(([key,r])=>
+    `<button type="button" onclick="document.getElementById('referenceList').close();openReference('${key}')">📄 ${esc(r[0])}</button>`).join("");
+  $("referenceList").showModal();
+}
+function render(){
+  $("questionContainer").innerHTML=QUESTIONS.map((q,i)=>{
+    let controls="";
+    if(q.type==="mc"){
+      controls=q.options.map((o,j)=>`<label class="choice"><input type="radio" name="q${i}" value="${j}" onchange="gradeMC(${i},${j})"><b>${letter(j)}.</b> ${esc(o)}</label>`).join("");
+    }else if(q.type==="sata"){
+      controls=`<div class="instruction">Select all that apply, then click Check Answer.</div>`+
+        q.options.map((o,j)=>`<label class="choice"><input type="checkbox" name="q${i}" value="${j}"><b>${letter(j)}.</b> ${esc(o)}</label>`).join("")+
+        `<button class="btn btn-main check" type="button" onclick="gradeSATA(${i})">Check Answer</button>`;
+    }else{
+      controls=`<div class="instruction">Match each item using the dropdown, then click Check Matches. Each correct match earns partial credit.</div>`+
+        q.prompts.map((p,k)=>`<div class="matchrow"><label for="q${i}m${k}">${k+1}. ${esc(p)}</label><select id="q${i}m${k}"><option value="">Choose a match…</option>${q.options.map((o,j)=>`<option value="${j}">${letter(j)}. ${esc(o)}</option>`).join("")}</select></div>`).join("")+
+        `<button class="btn btn-main check" type="button" onclick="gradeMatch(${i})">Check Matches</button>`;
+    }
+    return `<section class="question" id="question${i}"><div class="qhead"><span class="qnumber">Question ${i+1}</span><span class="category">${esc(q.topic)}</span></div><div class="stem">${esc(q.stem)}</div>${controls}<div class="feedback" id="feedback${i}" aria-live="polite"></div></section>`;
+  }).join("");
+}
+function report(i,credit){
+  const q=QUESTIONS[i],fb=$("feedback"+i);
+  const kind=credit===1?"correct":credit>0?"partial":"incorrect";
+  const label=credit===1?"✓ Correct":credit>0?"◐ Partially correct":"✗ Incorrect";
+  let answers;
+  if(q.type==="match")answers=q.prompts.map((p,k)=>`${esc(p)} → ${letter(q.answer[k])}. ${esc(q.options[q.answer[k]])}`).join("; ");
+  else if(q.type==="sata")answers=q.answer.map(j=>`${letter(j)}. ${esc(q.options[j])}`).join("; ");
+  else answers=`${letter(q.answer)}. ${esc(q.options[q.answer])}`;
+  fb.className="feedback show "+kind;
+  fb.innerHTML=`<div class="headline">${label} — ${Math.round(credit*100)}% credit</div><div><b>Correct answer${q.type==="mc"?"":"s"}:</b> ${answers}</div><div><b>Rationale:</b> ${esc(q.rationale)}</div><div class="refline"><b>Reference:</b> <a href="#" class="reference-link" onclick="openReference('${q.src}');return false">${esc(REFERENCES[q.src][0])}</a></div>`;
+  points[i]=credit;updateProgress();
+}
+function gradeMC(i,j){report(i,j===QUESTIONS[i].answer?1:0);}
+function gradeSATA(i){
+  const q=QUESTIONS[i],chosen=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(el=>Number(el.value));
+  const correctChosen=q.answer.filter(x=>chosen.includes(x)).length;
+  const wrongChosen=chosen.filter(x=>!q.answer.includes(x)).length;
+  const credit=Math.max(0,(correctChosen-wrongChosen)/q.answer.length);
+  report(i,credit);
+}
+function gradeMatch(i){
+  const q=QUESTIONS[i];
+  const credit=q.answer.reduce((n,correct,k)=>n+(Number($(`q${i}m${k}`).value)===correct && $(`q${i}m${k}`).value!==""?1:0),0)/q.answer.length;
+  report(i,credit);
+}
+function updateProgress(){
+  const done=points.filter(p=>p!==null).length;
+  $("progressText").textContent=`${done} of ${QUESTIONS.length} questions answered`;
+  $("progressBar").style.width=(done/QUESTIONS.length*100)+"%";
+}
+function scoreExam(){
+  const total=points.reduce((sum,x)=>sum+(x??0),0);
+  const attempted=points.filter(x=>x!==null).length;
+  $("scoreResult").textContent=`${total.toFixed(2)} / 25 (${(total/25*100).toFixed(1)}%) • ${attempted} answered`;
+}
+function resetExam(){
+  if(!confirm("Reset all 25 answers and scores?"))return;
+  points.fill(null);render();updateProgress();$("scoreResult").textContent="";window.scrollTo({top:0,behavior:"smooth"});
+}
+render();updateProgress();
+</script></body></html>

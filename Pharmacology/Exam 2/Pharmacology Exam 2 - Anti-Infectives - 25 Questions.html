@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pharmacology Exam 2 — Anti-Infectives — 25-Question Clinical Practice</title>
+<style>
+:root{--navy:#12233f;--blue:#376aa4;--bg:#f4f7fb;--ink:#172238;--muted:#627287;--line:#dce4ed}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(135deg,#12233f,#1d3c68);color:#fff;padding:24px 16px 30px}.wrap{max-width:960px;margin:auto}
+.top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:9px;padding:10px 14px;font-weight:750;cursor:pointer;text-decoration:none;display:inline-block}
+.btn-light{background:#fff;color:#173354}.btn-ref{background:#dbe9f7;color:#173354}.btn-main{background:var(--blue);color:white}.btn-muted{background:#e8edf4;color:#173354}
+h1{font-size:clamp(27px,5vw,43px);margin:22px 0 6px}header p{color:#d9e6f4;margin:0 0 15px;line-height:1.5}.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill{background:#ffffff20;border:1px solid #ffffff33;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:750}
+main{padding:22px 16px 60px}.progress{position:sticky;top:0;background:#f4f7fbef;backdrop-filter:blur(8px);padding:10px 0 14px;z-index:4}
+.track{height:8px;background:#dce5ef;border-radius:10px;overflow:hidden}.track span{display:block;height:100%;width:0;background:var(--blue)}
+.counter{font-size:13px;color:var(--muted);margin-top:6px}
+.question{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px;margin:14px 0;box-shadow:0 3px 10px #0e274208}
+.qhead{display:flex;justify-content:space-between;gap:12px}.qnumber{font-weight:800}.category{font-size:11px;color:#345e89;background:#eaf2fa;border-radius:20px;padding:5px 9px;font-weight:800}
+.stem{font-size:17px;font-weight:750;line-height:1.48;margin:14px 0}.instruction{color:var(--muted);font-size:13px;margin-bottom:10px}
+.choice{display:block;border:1px solid var(--line);border-radius:10px;padding:11px 12px;margin:8px 0;cursor:pointer;line-height:1.4}
+.choice:hover{background:#f5f9fd}.choice input{margin-right:9px}.check{margin-top:10px}
+.matchrow{display:grid;grid-template-columns:minmax(160px,1fr) minmax(170px,1.5fr);gap:10px;align-items:center;margin:11px 0}
+.matchrow label{font-weight:650}select{width:100%;padding:10px;border:1px solid #bdccdc;border-radius:9px;background:#fff;color:var(--ink);font-size:14px}
+.feedback{display:none;margin-top:15px;padding:14px;border-radius:11px;line-height:1.55}.feedback.show{display:block}
+.feedback.correct{background:#e8f7f0;border:1px solid #b7e1cb}.feedback.partial{background:#fff7df;border:1px solid #e6d18e}
+.feedback.incorrect{background:#fcecec;border:1px solid #e8bbbb}.feedback .headline{font-weight:850;margin-bottom:5px}
+.reference-link{font-weight:750;color:#1b5b99;text-decoration:underline}.refline{margin-top:9px;font-size:13px}
+.summary{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:18px;background:#fff;border:1px solid var(--line);border-radius:13px;margin-top:24px}
+#scoreResult{font-weight:850;font-size:17px;margin-left:auto}
+dialog{width:min(1050px,95vw);height:min(87vh,840px);border:0;padding:0;border-radius:14px;box-shadow:0 20px 70px #0007}
+dialog::backdrop{background:#091728bd}.modalbar{height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--navy);color:#fff;padding:10px 14px}
+.modalbar strong{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.viewer{width:100%;height:calc(100% - 60px);border:0;background:#fff}
+.ref-list{padding:18px}.ref-list button{width:100%;text-align:left;background:#fff;border:1px solid var(--line);padding:12px;border-radius:8px;margin:5px 0;color:#245d98;font-weight:750;cursor:pointer}
+@media(max-width:600px){.question{padding:15px}.matchrow{grid-template-columns:1fr;gap:4px}#scoreResult{margin-left:0;width:100%}}
+</style></head><body>
+<header><div class="wrap"><div class="top"><a class="btn btn-light" href="../../index.html">← Return to Study Hub</a><button class="btn btn-ref" type="button" onclick="showReferenceList()">📚 References</button></div>
+<h1>Pharmacology Exam 2 — Anti-Infectives — 25-Question Clinical Practice</h1><p>Exam 2 topic review • 45 topic questions + 5 Exam 1 review questions • Instant feedback and linked rationales</p>
+<div class="pills"><span class="pill">25 questions</span><span class="pill">37 multiple choice</span><span class="pill">8 Select All That Apply</span><span class="pill">5 matching sets</span><span class="pill">Partial credit for SATA and matching</span></div></div></header>
+<main class="wrap"><div class="progress"><div class="track"><span id="progressBar"></span></div><div class="counter" id="progressText">0 of 25 answered</div></div>
+<div id="questionContainer"></div><div class="summary"><button class="btn btn-main" type="button" onclick="scoreExam()">View Current Score</button><button class="btn btn-muted" type="button" onclick="resetExam()">Reset Exam</button><div id="scoreResult"></div></div></main>
+<dialog id="referenceViewer"><div class="modalbar"><strong id="referenceTitle">Reference</strong><button class="btn btn-light" type="button" onclick="closeReference()">✕ Close</button></div><iframe class="viewer" id="referenceFrame" title="Reference PDF"></iframe></dialog>
+<dialog id="referenceList"><div class="modalbar"><strong>Exam 2 Reference Documents (including Jeopardy)</strong><button class="btn btn-light" type="button" onclick="document.getElementById('referenceList').close()">✕ Close</button></div><div class="ref-list" id="referenceListContent"></div></dialog>
+<script>
+"use strict";
+const REFERENCES={"drug": ["Exam 2 Drug Sheet", "../../References/Pharmacology/Exams/Exam 2/Exam 2 Drug Sheet.pdf"], "tanner": ["Pharm Exam 2 - Tanner Doc", "../../References/Pharmacology/Exams/Exam 2/Pharm Exam 2 - Tanner Doc.pdf"], "bp1": ["Exam 1 Blueprint for Students Pharm", "../../References/Pharmacology/Exams/Exam 2/Exam 1 Blueprint for Students Pharm.pdf"], "bp2": ["Exam 2 Blueprint for Students Pharm", "../../References/Pharmacology/Exams/Exam 2/Exam 2 Blueprint for Students Pharm.pdf"], "quiz": ["pharm exam 2 quiz", "../../References/Pharmacology/Exams/Exam 2/pharm exam 2 quiz.pdf"], "jeopardy": ["pharm exam jeopardy", "../../References/Pharmacology/Exams/Exam 2/pharm exam jeopardy.pdf"]};
+const QUESTIONS=[{"topic": "Anti-Infectives", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which statements about amphotericin B are correct? Select all that apply.", "options": ["It prevents all electrolyte abnormalities", "Kidney injury can occur", "Potassium may decrease", "Magnesium may decrease", "Infusion reactions may occur", "It is used for serious fungal infections"], "answer": [1, 2, 3, 4, 5], "rationale": "Supported selections: Kidney injury can occur, Potassium may decrease, Magnesium may decrease, Infusion reactions may occur, It is used for serious fungal infections. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Anti-infectives", "type": "match", "stem": "Match each medication to its hallmark adverse effect.", "prompts": ["Gentamicin", "Ciprofloxacin", "TMP-SMX"], "options": ["Uterine cancer", "Ototoxicity", "Tendon rupture", "Stevens-Johnson syndrome"], "answer": [1, 2, 3], "rationale": "The course notes identify these serious adverse effects.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking metronidazole asks about alcohol during therapy and shortly afterward. Which instruction matches the course notes?", "options": ["Take alcohol to prevent metallic taste", "Alcohol improves antimicrobial activity", "Avoid alcohol during therapy and for 72 hours after completion", "Limit fluid intake to prevent neuropathy"], "answer": 2, "rationale": "Tanner emphasizes avoidance of alcohol around metronidazole therapy.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client beginning rifampin for tuberculosis notices orange-red urine and tears. Which response is appropriate?", "options": ["Stop the drug permanently without assessment", "Assume this indicates ototoxicity", "Explain that body-fluid discoloration is an expected effect", "Diagnose hemorrhagic cystitis based on color alone"], "answer": 2, "rationale": "Rifampin can discolor body fluids orange-red.", "src": "jeopardy"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client receiving IV acyclovir for a severe herpes infection is at risk for kidney injury. Which intervention is appropriate?", "options": ["Administer by rapid IV bolus", "Obtain an audiogram as the primary prevention", "Maintain adequate hydration and monitor renal function", "Restrict all fluids"], "answer": 2, "rationale": "IV acyclovir is associated with nephrotoxicity; adequate hydration supports renal safety.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking ciprofloxacin asks about antacids and milk. Which instruction best protects absorption?", "options": ["Avoid taking antacids or dairy close to the ciprofloxacin dose", "Combine with an iron tablet", "Take each dose with a calcium supplement", "Stop the antibiotic once symptoms improve"], "answer": 0, "rationale": "Cations can interfere with fluoroquinolone absorption; the course advises separation.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "During a rapid IV vancomycin infusion, a client develops facial flushing and chest redness without airway compromise. Which reaction is most likely?", "options": ["Tetracycline photosensitivity", "Cyclophosphamide cystitis", "Acetaminophen toxicity", "Vancomycin infusion reaction"], "answer": 3, "rationale": "Rapid vancomycin administration can cause histamine-mediated flushing; assess severity and follow infusion-reaction protocol.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client receiving amphotericin B develops low potassium and magnesium. Which toxicity is the nurse monitoring?", "options": ["Expected harmless color change", "Reye syndrome", "Severe electrolyte disturbance associated with nephrotoxicity", "Retinal damage"], "answer": 2, "rationale": "Amphotericin B can cause kidney injury and hypokalemia/hypomagnesemia.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client on tetracycline plans a beach vacation. Which teaching should the nurse reinforce?", "options": ["Use sunscreen and limit intense sun exposure", "Avoid all fluids while outdoors", "Take aspirin to prevent photosensitivity", "Expect harmless orange tears"], "answer": 0, "rationale": "Tetracycline can cause photosensitivity.", "src": "tanner"}, {"topic": "Exam 1 Review", "type": "mc", "stem": "The nurse reviews how an oral medication is absorbed, distributed, metabolized, and excreted. Which concept is being assessed?", "options": ["Pharmacodynamics", "Immunosuppression", "Antiplatelet action", "Pharmacokinetics"], "answer": 3, "rationale": "Pharmacokinetics describes what the body does to a medication.", "src": "jeopardy"}, {"topic": "Anti-Infectives", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which two anti-infectives are associated with hearing-related toxicity in the supplied drug sheet? Select all that apply.", "options": ["Oseltamivir", "Gentamicin", "Rifampin", "Fluconazole", "Vancomycin"], "answer": [1, 4], "rationale": "Supported selections: Gentamicin, Vancomycin. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking fluconazole also receives warfarin. Which concern warrants careful monitoring?", "options": ["Improved influenza treatment", "Guaranteed protection from bleeding", "Permanent tooth discoloration", "Increased anticoagulant effect and bleeding risk"], "answer": 3, "rationale": "Fluconazole can increase warfarin levels and anticoagulant effect.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking TMP-SMX reports a spreading rash and mouth blisters. What is the priority instruction?", "options": ["Continue treatment with an OTC antihistamine only", "Reduce the dose independently", "Take the next dose with milk", "Stop the medication and seek emergency evaluation"], "answer": 3, "rationale": "Mucosal blistering raises concern for Stevens–Johnson syndrome, a serious reaction.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking clindamycin develops severe watery diarrhea and cramping. Which complication should the nurse suspect?", "options": ["Expected benign drug effect", "Clostridioides difficile infection", "Reye syndrome", "Retinal toxicity"], "answer": 1, "rationale": "Clindamycin is associated with C. difficile-associated diarrhea.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking ciprofloxacin for complicated UTI reports new Achilles tendon pain. Which action should the nurse recommend?", "options": ["Reassure this is harmless fluid discoloration", "Take the next dose with antacids", "Increase exercise to loosen the tendon", "Stop activity and promptly contact the prescriber about possible tendon injury"], "answer": 3, "rationale": "Fluoroquinolones can cause tendinitis and tendon rupture.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client on gentamicin has worsening creatinine. Which second major toxicity must the nurse consider?", "options": ["Aspirin-associated bleeding", "Retinal toxicity", "Nephrotoxicity", "Uterine malignancy"], "answer": 2, "rationale": "Gentamicin carries both kidney and ear toxicity risks.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which statements about metronidazole are supported? Select all that apply.", "options": ["Avoid alcohol during the specified window", "It treats some anaerobic bacterial infections", "It treats certain protozoal infections", "It is the preferred influenza antiviral", "It may cause metallic taste"], "answer": [1, 2, 0, 4], "rationale": "Supported selections: It treats some anaerobic bacterial infections, It treats certain protozoal infections, Avoid alcohol during the specified window, It may cause metallic taste. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Exam 1 Review", "type": "mc", "stem": "The nurse reviews an incomplete order that lists a medication name and dose but omits two essential details. What else must be specified?", "options": ["Only the client’s height and weight", "The pharmacy address and price", "The medication color and shape", "Route and frequency"], "answer": 3, "rationale": "The instructor review identifies medication name, dose, route, and frequency as essential order elements.", "src": "jeopardy"}, {"topic": "Anti-infectives", "type": "match", "stem": "Match each medication to the infection it treats.", "prompts": ["Oseltamivir", "Fluconazole", "Rifampin"], "options": ["Influenza A and B", "Tuberculosis", "Oral thrush", "Herpes simplex"], "answer": [0, 2, 1], "rationale": "These indications are listed in the drug sheet.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client taking rifampin also uses oral contraceptives. Which interaction should the nurse discuss?", "options": ["Increased calcium absorption", "Reduced contraceptive effectiveness", "Improved contraceptive effectiveness", "Reversal of aspirin antiplatelet effects"], "answer": 1, "rationale": "The course drug sheet highlights interactions between rifampin and oral contraceptives.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "Before administering amoxicillin, the nurse discovers a history of anaphylaxis to cephalexin. Which action is safest?", "options": ["Withhold the dose and clarify the allergy with the prescriber", "Assume all beta-lactams are unrelated", "Give the medication with food and proceed", "Double the infusion speed"], "answer": 0, "rationale": "A history of severe beta-lactam allergy warrants assessment before giving a potentially cross-reactive agent.", "src": "drug"}, {"topic": "Anti-Infectives", "type": "sata", "stem": "The nurse reviews a medication-safety plan for a client. Which drugs are antivirals in the Exam 2 materials? Select all that apply.", "options": ["Oseltamivir", "Zidovudine", "Rifampin", "Fluconazole", "Acyclovir"], "answer": [4, 0, 1], "rationale": "Supported selections: Acyclovir, Oseltamivir, Zidovudine. Other selections do not match the supplied medication references.", "src": "drug"}, {"topic": "Exam 1 Review", "type": "mc", "stem": "A client asks why an oral drug has less active medication in circulation after passing through the liver. Which process explains this?", "options": ["Platelet aggregation", "Receptor antagonism", "First-pass metabolism", "Immune stimulation"], "answer": 2, "rationale": "Oral medications may undergo hepatic first-pass metabolism before reaching systemic circulation.", "src": "jeopardy"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client receiving IV gentamicin reports tinnitus and dizziness. Which adverse effect should the nurse suspect?", "options": ["Selective COX-2 inhibition", "Ototoxicity", "Reye syndrome", "Harmless red-orange body fluids"], "answer": 1, "rationale": "Aminoglycosides may damage auditory and vestibular structures.", "src": "tanner"}, {"topic": "Anti-Infectives", "type": "mc", "stem": "A client prescribed tetracycline for acne says they take it with milk and iron each morning. Which teaching is most important?", "options": ["Discontinue sun protection", "Take it with more dairy to increase absorption", "Take it only during pregnancy", "Separate tetracycline from dairy products and iron supplements"], "answer": 3, "rationale": "Dairy calcium and iron reduce tetracycline absorption.", "src": "tanner"}];
+const points=Array(QUESTIONS.length).fill(null);
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const letter=i=>String.fromCharCode(65+i);
+function openReference(key){
+  const ref=REFERENCES[key];
+  $("referenceTitle").textContent=ref[0];
+  $("referenceFrame").src=encodeURI(ref[1]);
+  $("referenceViewer").showModal();
+}
+function closeReference(){$("referenceFrame").src="about:blank";$("referenceViewer").close();}
+function showReferenceList(){
+  $("referenceListContent").innerHTML=Object.entries(REFERENCES).map(([key,r])=>
+    `<button type="button" onclick="document.getElementById('referenceList').close();openReference('${key}')">📄 ${esc(r[0])}</button>`).join("");
+  $("referenceList").showModal();
+}
+function render(){
+  $("questionContainer").innerHTML=QUESTIONS.map((q,i)=>{
+    let controls="";
+    if(q.type==="mc"){
+      controls=q.options.map((o,j)=>`<label class="choice"><input type="radio" name="q${i}" value="${j}" onchange="gradeMC(${i},${j})"><b>${letter(j)}.</b> ${esc(o)}</label>`).join("");
+    }else if(q.type==="sata"){
+      controls=`<div class="instruction">Select all that apply, then click Check Answer.</div>`+
+        q.options.map((o,j)=>`<label class="choice"><input type="checkbox" name="q${i}" value="${j}"><b>${letter(j)}.</b> ${esc(o)}</label>`).join("")+
+        `<button class="btn btn-main check" type="button" onclick="gradeSATA(${i})">Check Answer</button>`;
+    }else{
+      controls=`<div class="instruction">Match each item using the dropdown, then click Check Matches. Each correct match earns partial credit.</div>`+
+        q.prompts.map((p,k)=>`<div class="matchrow"><label for="q${i}m${k}">${k+1}. ${esc(p)}</label><select id="q${i}m${k}"><option value="">Choose a match…</option>${q.options.map((o,j)=>`<option value="${j}">${letter(j)}. ${esc(o)}</option>`).join("")}</select></div>`).join("")+
+        `<button class="btn btn-main check" type="button" onclick="gradeMatch(${i})">Check Matches</button>`;
+    }
+    return `<section class="question" id="question${i}"><div class="qhead"><span class="qnumber">Question ${i+1}</span><span class="category">${esc(q.topic)}</span></div><div class="stem">${esc(q.stem)}</div>${controls}<div class="feedback" id="feedback${i}" aria-live="polite"></div></section>`;
+  }).join("");
+}
+function report(i,credit){
+  const q=QUESTIONS[i],fb=$("feedback"+i);
+  const kind=credit===1?"correct":credit>0?"partial":"incorrect";
+  const label=credit===1?"✓ Correct":credit>0?"◐ Partially correct":"✗ Incorrect";
+  let answers;
+  if(q.type==="match")answers=q.prompts.map((p,k)=>`${esc(p)} → ${letter(q.answer[k])}. ${esc(q.options[q.answer[k]])}`).join("; ");
+  else if(q.type==="sata")answers=q.answer.map(j=>`${letter(j)}. ${esc(q.options[j])}`).join("; ");
+  else answers=`${letter(q.answer)}. ${esc(q.options[q.answer])}`;
+  fb.className="feedback show "+kind;
+  fb.innerHTML=`<div class="headline">${label} — ${Math.round(credit*100)}% credit</div><div><b>Correct answer${q.type==="mc"?"":"s"}:</b> ${answers}</div><div><b>Rationale:</b> ${esc(q.rationale)}</div><div class="refline"><b>Reference:</b> <a href="#" class="reference-link" onclick="openReference('${q.src}');return false">${esc(REFERENCES[q.src][0])}</a></div>`;
+  points[i]=credit;updateProgress();
+}
+function gradeMC(i,j){report(i,j===QUESTIONS[i].answer?1:0);}
+function gradeSATA(i){
+  const q=QUESTIONS[i],chosen=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(el=>Number(el.value));
+  const correctChosen=q.answer.filter(x=>chosen.includes(x)).length;
+  const wrongChosen=chosen.filter(x=>!q.answer.includes(x)).length;
+  const credit=Math.max(0,(correctChosen-wrongChosen)/q.answer.length);
+  report(i,credit);
+}
+function gradeMatch(i){
+  const q=QUESTIONS[i];
+  const credit=q.answer.reduce((n,correct,k)=>n+(Number($(`q${i}m${k}`).value)===correct && $(`q${i}m${k}`).value!==""?1:0),0)/q.answer.length;
+  report(i,credit);
+}
+function updateProgress(){
+  const done=points.filter(p=>p!==null).length;
+  $("progressText").textContent=`${done} of ${QUESTIONS.length} questions answered`;
+  $("progressBar").style.width=(done/QUESTIONS.length*100)+"%";
+}
+function scoreExam(){
+  const total=points.reduce((sum,x)=>sum+(x??0),0);
+  const attempted=points.filter(x=>x!==null).length;
+  $("scoreResult").textContent=`${total.toFixed(2)} / 25 (${(total/25*100).toFixed(1)}%) • ${attempted} answered`;
+}
+function resetExam(){
+  if(!confirm("Reset all 25 answers and scores?"))return;
+  points.fill(null);render();updateProgress();$("scoreResult").textContent="";window.scrollTo({top:0,behavior:"smooth"});
+}
+render();updateProgress();
+</script></body></html>
