@@ -1,368 +1,568 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Nursing Study Hub</title>
-<style>
-:root{--navy:#12233f;--navy2:#1d3c68;--blue:#376aa4;--bg:#f4f7fb;--ink:#172238;--muted:#69768a;--line:#dce4ee;--green:#26775f}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink)}
-header{background:radial-gradient(circle at 90% 15%,#3b74a866,transparent 30%),linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:62px 22px 52px}
-.wrap{max-width:1100px;margin:auto}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#bcd6f0}
-h1{font-size:clamp(38px,7vw,66px);letter-spacing:-.05em;line-height:1;margin:12px 0 14px}header p{max-width:720px;color:#dbe8f5;font-size:17px;line-height:1.6;margin:0}
-.nav{display:flex;gap:9px;flex-wrap:wrap;margin-top:25px}.nav a{color:#fff;text-decoration:none;border:1px solid #ffffff3d;background:#ffffff12;border-radius:999px;padding:8px 13px;font-size:14px;font-weight:700}
-main{padding:35px 20px 70px}.welcome{background:#fff;border:1px solid var(--line);border-radius:17px;padding:20px;box-shadow:0 5px 18px #12233f0b;margin-bottom:38px}.welcome b{display:block;margin-bottom:5px}.welcome span{color:var(--muted)}
-.course{margin:44px 0;scroll-margin-top:15px}.course-head{display:flex;justify-content:space-between;align-items:end;gap:15px;border-bottom:2px solid var(--line);padding-bottom:12px;margin-bottom:17px}.title{display:flex;gap:12px;align-items:center}.icon{width:43px;height:43px;border-radius:12px;background:#e7f1fb;display:grid;place-items:center;font-size:21px}
-h2{margin:0;font-size:25px}.sub,.count{color:var(--muted);font-size:13px;margin-top:3px}.exam{background:#fff;border:1px solid var(--line);border-radius:17px;padding:21px;margin:14px 0;box-shadow:0 4px 14px #12233f0a}
-.exam-top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:15px}.exam h3{margin:0;font-size:20px}.badge{color:var(--green);background:#e9f6f1;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
-.versions{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.version{border:1px solid var(--line);border-radius:13px;padding:16px;display:flex;flex-direction:column;min-height:145px}.version strong{font-size:17px}.version p{color:var(--muted);font-size:13px;line-height:1.45;margin:6px 0 15px}
-.start{margin-top:auto;text-align:center;text-decoration:none;color:#fff;background:var(--blue);border-radius:9px;padding:10px;font-weight:800}.start:hover{filter:brightness(.94)}
-.empty{border:2px dashed #cad5e2;border-radius:15px;padding:24px;text-align:center;color:var(--muted);background:#ffffff66}.empty b{display:block;color:var(--ink);margin-bottom:5px}
-footer{text-align:center;background:#e8edf4;color:#6c788a;padding:24px;font-size:13px}
-@media(max-width:760px){.versions{grid-template-columns:1fr}.count{display:none}.exam-top{align-items:flex-start}}
-.school-brand {
-    margin-bottom: 28px;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nursing school practice exams organized by course and exam.">
+  <title>Nursing Study Hub</title>
 
-.school-brand img {
-    display: block;
-    width: min(340px, 80vw);
-    height: auto;
-}
-
-@media (max-width: 760px) {
-    .school-brand {
-        text-align: center;
+  <style>
+    /* ================================================================
+       1. DESIGN TOKENS
+       Change these variables to adjust the site's overall color scheme.
+       ================================================================ */
+    :root {
+      --navy: #12233f;
+      --navy2: #1d3c68;
+      --blue: #376aa4;
+      --bg: #f4f7fb;
+      --ink: #172238;
+      --muted: #69768a;
+      --line: #dce4ee;
+      --green: #26775f;
     }
 
+    /* 2. GLOBAL LAYOUT AND TYPOGRAPHY */
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    .wrap { max-width: 1100px; margin: auto; }
+
+    /* 3. HEADER, SCHOOL LOGO, AND COURSE NAVIGATION */
+    header {
+      background: radial-gradient(circle at 90% 15%, #3b74a866, transparent 30%),
+                  linear-gradient(135deg, var(--navy), var(--navy2));
+      color: #fff;
+      padding: 62px 22px 52px;
+    }
+    header .wrap { text-align: center; }
+    .school-brand { margin-bottom: 28px; }
     .school-brand img {
-        margin: 0 auto;
-        width: min(300px, 80vw);
+      display: block;
+      width: min(340px, 80vw);
+      height: auto;
+      margin: 0 auto;
     }
-}
-.exam-top {
-    cursor: pointer;
-    user-select: none;
-}
+    .eyebrow {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #bcd6f0;
+    }
+    h1 {
+      font-size: clamp(38px, 7vw, 66px);
+      letter-spacing: -0.05em;
+      line-height: 1;
+      margin: 12px 0 14px;
+    }
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      color: #dbe8f5;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 9px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #ffffff3d;
+      background: #ffffff12;
+      border-radius: 999px;
+      padding: 8px 13px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .nav a:hover, .nav a:focus-visible { background: #ffffff30; }
 
-.exam-top:hover {
-    background: #f7f9fc;
-}
+    /* 4. MAIN CONTENT, COURSE HEADINGS, AND EMPTY COURSE STATES */
+    main { padding: 35px 20px 70px; }
+    .welcome {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      padding: 20px;
+      box-shadow: 0 5px 18px #12233f0b;
+      margin-bottom: 38px;
+    }
+    .welcome b { display: block; margin-bottom: 5px; }
+    .welcome span { color: var(--muted); }
+    .course { margin: 44px 0; scroll-margin-top: 15px; }
+    .course-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 15px;
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 12px;
+      margin-bottom: 17px;
+    }
+    .title { display: flex; gap: 12px; align-items: center; }
+    .icon {
+      width: 43px;
+      height: 43px;
+      border-radius: 12px;
+      background: #e7f1fb;
+      display: grid;
+      place-items: center;
+      font-size: 21px;
+    }
+    h2 { margin: 0; font-size: 25px; }
+    .sub, .count { color: var(--muted); font-size: 13px; margin-top: 3px; }
+    .empty {
+      border: 2px dashed #cad5e2;
+      border-radius: 15px;
+      padding: 24px;
+      text-align: center;
+      color: var(--muted);
+      background: #ffffff66;
+    }
+    .empty b { display: block; color: var(--ink); margin-bottom: 5px; }
 
-.exam-top {
-    margin: -10px -10px 15px;
-    padding: 10px;
-    border-radius: 10px;
-}
+    /* 5. EXPANDABLE EXAM GROUPS (ACCORDION) */
+    .exam {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      padding: 21px;
+      margin: 14px 0;
+      box-shadow: 0 4px 14px #12233f0a;
+    }
+    .exam-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      width: calc(100% + 20px);
+      margin: -10px -10px 15px;
+      padding: 10px;
+      border: 0;
+      border-radius: 10px;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      text-align: left;
+      cursor: pointer;
+      user-select: none;
+    }
+    .exam-top:hover, .exam-top:focus-visible { background: #f7f9fc; }
+    .exam-title { display: flex; align-items: center; gap: 10px; }
+    .exam h3 { margin: 0; font-size: 20px; }
+    .accordion-arrow { font-size: 14px; transition: transform 0.2s ease; }
+    .exam.collapsed .accordion-arrow { transform: rotate(-90deg); }
+    .exam.collapsed .versions { display: none; }
+    .exam.collapsed .exam-top { margin-bottom: -10px; }
+    .badge {
+      color: var(--green);
+      background: #e9f6f1;
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
 
-.exam-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+    /* 6. INDIVIDUAL PRACTICE EXAM CARDS AND START LINKS */
+    .versions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .version {
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      min-height: 145px;
+    }
+    .version strong { font-size: 17px; }
+    .version p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      margin: 6px 0 15px;
+    }
+    .start {
+      margin-top: auto;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background: var(--blue);
+      border-radius: 9px;
+      padding: 10px;
+      font-weight: 800;
+    }
+    .start:hover, .start:focus-visible { filter: brightness(0.94); }
+    footer { text-align: center; background: #e8edf4; color: #6c788a; padding: 24px; font-size: 13px; }
 
-.accordion-arrow {
-    display: inline-block;
-    font-size: 14px;
-    transition: transform 0.2s ease;
-}
-
-.exam.collapsed .accordion-arrow {
-    transform: rotate(-90deg);
-}
-
-.exam.collapsed .versions {
-    display: none;
-}
-
-.exam.collapsed .exam-top {
-    margin-bottom: -10px;
-}
-header .wrap {
-    text-align: center;
-}
-
-header p {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.school-brand img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav {
-    justify-content: center;
-}
-</style>
+    /* 7. MOBILE / NARROW SCREEN ADJUSTMENTS */
+    @media (max-width: 760px) {
+      .versions { grid-template-columns: 1fr; }
+      .count { display: none; }
+      .exam-top { align-items: flex-start; }
+      .school-brand img { width: min(300px, 80vw); }
+    }
+    /* Respect users who request reduced animation. */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .accordion-arrow { transition: none; }
+    }
+  </style>
 </head>
 <body>
-<header>
-<div class="wrap">
-<div class="school-brand">
-  <img src="assets/BJC_GSON_Small.svg" alt="BJC Goldfarb School of Nursing">
-</div>   
-<div class="eyebrow">GSON Cohort 1 - Term 1 - Nursing School • Practice Exams</div>
-<h1>Nursing Study Hub</h1>
-<p>Practice. Review. Learn. Repeat. Choose a course, select an exam, and launch a practice version with immediate answer feedback and rationales.</p>
-<nav class="nav" id="courseNav"></nav>
-</div></header>
+  <!-- The header navigation is populated automatically from STUDY_HUB below. -->
+  <header>
+    <div class="wrap">
+      <div class="school-brand">
+        <!-- Keep this SVG at assets/BJC_GSON_Small.svg in your GitHub repo. -->
+        <img src="assets/BJC_GSON_Small.svg" alt="BJC Goldfarb School of Nursing">
+      </div>
+      <div class="eyebrow">GSON Cohort 1 - Term 1 - Nursing School • Practice Exams</div>
+      <h1>Nursing Study Hub</h1>
+      <p>Practice. Review. Learn. Repeat. Choose a course, select an exam, and launch a practice version with immediate answer feedback and rationales.</p>
+      <nav class="nav" id="courseNav" aria-label="Courses"></nav>
+    </div>
+  </header>
 
-<main class="wrap">
-<div class="welcome"><b>🩺 Choose what you want to study.</b><span>The hub is organized by course, then exam, then practice version so it can keep growing throughout nursing school.</span></div>
-<div id="studyHub"></div>
-</main>
+  <main class="wrap">
+    <div class="welcome">
+      <b>🩺 Choose what you want to study.</b>
+      <span>The hub is organized by course, then exam, then practice version so it can keep growing throughout nursing school.</span>
+    </div>
+    <!-- All course sections and exam cards are inserted into this container. -->
+    <div id="studyHub"></div>
+  </main>
 
-<footer>Nursing Study Hub • Built for focused practice and review</footer>
+  <footer>Nursing Study Hub • Built for focused practice and review</footer>
 
-<script>
-/* ============================================================
-   STUDY HUB EXAM LIST
-   ============================================================
-   THIS IS THE ONLY SECTION YOU NEED TO EDIT TO ADD NEW TESTS.
+  <script>
+    "use strict";
 
-   Example new test:
-   {
-     version: "2A",
-     file: "Pharmacology/Exam 2/Pharmacology Exam 2a.html",
-     description: "Practice version A."
-   }
+    /* ================================================================
+       8. STUDY HUB DATA — EDIT THIS SECTION TO ADD COURSES OR EXAMS
 
-   Add it inside the appropriate exam's "versions" list.
-   ============================================================ */
+       Hierarchy:
+         STUDY_HUB (array of courses)
+           course, icon, description
+           exams (array of exams within that course)
+             name (e.g. "Exam 2")
+             versions (array of clickable HTML practice tests)
+               version (label), file (relative path), description
 
-const STUDY_HUB = [
-  {
-    course: "Pathophysiology",
-    icon: "🧬",
-    description: "Disease processes, mechanisms & clinical application",
-    exams: [
+       TO ADD A COURSE:
+         Copy an existing course object, change its fields, and set
+         exams: [] until practice exams are available.
+
+       TO ADD AN EXAM:
+         Inside a course's exams array, add:
+           { name: "Exam 1", versions: [] }
+
+       TO ADD A PRACTICE VERSION:
+         Inside the appropriate versions array, add:
+           {
+             version: "1A",
+             file: "Fundamentals/Exam 1/Fundamentals Exam 1a.html",
+             description: "Practice version A."
+           }
+
+       Paths are relative to index.html and must match GitHub filenames.
+       Keep commas between objects, but not after the last object.
+       No changes to the rendering functions below are necessary.
+       ================================================================ */
+
+    const STUDY_HUB = [
+      // COURSE 1: Pathophysiology
       {
-        name: "Exam 2",
-        versions: [
+        course: "Pathophysiology",
+        icon: "🧬",
+        description: "Disease processes, mechanisms & clinical application",
+        exams: [
+          // Exam 2: each entry below becomes one clickable practice-exam card.
           {
-            version: "2A",
-            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2a.html",
-            description: "Practice version A with immediate study feedback."
-          },
+            name: "Exam 2",
+            versions: [
+              {
+                version: "2A",
+                file: "Pathophysiology/Exam 2/Pathophysiology Exam 2a.html",
+                description: "Practice version A with immediate study feedback."
+              },
+              {
+                version: "2B",
+                file: "Pathophysiology/Exam 2/Pathophysiology Exam 2b.html",
+                description: "Practice version B for additional review and repetition."
+              },
+              {
+                version: "2C",
+                file: "Pathophysiology/Exam 2/Pathophysiology Exam 2c.html",
+                description: "Practice version C with another mix of questions."
+              },
+              {
+                version: "2D",
+                file: "Pathophysiology/Exam 2/Pathophysiology Exam 2d.html",
+                description: "Practice version D."
+              }
+            ]
+          }
+        ]
+      },
+
+      // COURSE 2: Pharmacology
+      {
+        course: "Pharmacology",
+        icon: "💊",
+        description: "Medication classes, safety, adverse effects & nursing considerations",
+        exams: [
+          // Exam 2: each entry below becomes one clickable practice-exam card.
           {
-            version: "2B",
-            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2b.html",
-            description: "Practice version B for additional review and repetition."
-          },
-          {
-            version: "2C",
-            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2c.html",
-            description: "Practice version C with another mix of questions."
-          },
-          {
-            version: "2D",
-            file: "Pathophysiology/Exam 2/Pathophysiology Exam 2d.html",
-            description: "Practice version D."
-          }      
+            name: "Exam 2",
+            versions: [
+              {
+                version: "Immunomodulators - 25Q",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Immunomodulators - 25 Questions.html",
+                description: "25-question NCLEX-style clinical practice exam."
+              },
+              {
+                version: "Immunomodulators",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Immunomodulators.html",
+                description: "50-question focused review of immunomodulators, including Exam 1 content."
+              },
+              {
+                version: "Immunomodulators V2",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Immunomodulators - Version 2.html",
+                description: "50-question immunomodulator review, Version 2."
+              },
+              {
+                version: "Anti-Inflammatories - 25Q",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Inflammatories - 25 Questions.html",
+                description: "25-question NCLEX-style clinical practice exam."
+              },
+              {
+                version: "Anti-Inflammatories",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Inflammatories.html",
+                description: "50-question focused review of anti-inflammatory medications, including Exam 1 content."
+              },
+              {
+                version: "Anti-Inflammatories V2",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Inflammatories - Version 2.html",
+                description: "50-question anti-inflammatory review, Version 2."
+              },
+              {
+                version: "Antineoplastics - 25Q",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Antineoplastics - 25 Questions.html",
+                description: "25-question NCLEX-style clinical practice exam."
+              },
+              {
+                version: "Antineoplastics",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Antineoplastics.html",
+                description: "50-question focused review of antineoplastic medications, including Exam 1 content."
+              },
+              {
+                version: "Antineoplastics V2",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Antineoplastics - Version 2.html",
+                description: "50-question antineoplastic review, Version 2."
+              },
+              {
+                version: "Anti-Infectives - 25Q",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Infectives - 25 Questions.html",
+                description: "25-question NCLEX-style clinical practice exam."
+              },
+              {
+                version: "Anti-Infectives",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Infectives.html",
+                description: "50-question focused review of anti-infective medications, including Exam 1 content."
+              },
+              {
+                version: "Anti-Infectives V2",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Infectives - Version 2.html",
+                description: "50-question anti-infective review, Version 2."
+              },
+              {
+                version: "2A",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2a.html",
+                description: "Practice version A with immediate feedback and rationales."
+              },
+              {
+                version: "2B",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2b.html",
+                description: "Practice version B with immediate feedback, rationales, and linked references."
+              },
+              {
+                version: "2C",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2c.html",
+                description: "Instructor-style NCLEX practice with immediate feedback and linked references."
+              },
+              {
+                version: "2D",
+                file: "Pharmacology/Exam 2/Pharmacology Exam 2d.html",
+                description: "Shuffled NCLEX-style practice with immediate feedback and linked references."
+              }
+            ]
+          }
+        ]
+      },
+
+      // COURSE 3: Health Assessment
+      {
+        course: "Health Assessment",
+        icon: "🩺",
+        description: "Assessment techniques, findings, documentation & clinical judgment",
+        exams: [
+        ]
+      },
+
+      // COURSE 4: Fundamentals
+      {
+        course: "Fundamentals",
+        icon: "📋",
+        description: "Fundamentals of Nursing, patient safety, nursing care & clinical judgment",
+        exams: [
         ]
       }
-    ]
-  },
-  {
-  course: "Pharmacology",
-  icon: "💊",
-  description: "Medication classes, safety, adverse effects & nursing considerations",
-  exams: [
-    {
-      name: "Exam 2",
-      versions: [
-{
-  version: "Immunomodulators - 25Q",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Immunomodulators - 25 Questions.html",
-  description: "25-question NCLEX-style clinical practice exam."
-},        
-{
-  version: "Immunomodulators",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Immunomodulators.html",
-  description: "50-question focused review of immunomodulators, including Exam 1 content."
-},
-{
-  version: "Immunomodulators V2",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Immunomodulators - Version 2.html",
-  description: "50-question immunomodulator review, Version 2."
-},
-{
-  version: "Anti-Inflammatories - 25Q",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Inflammatories - 25 Questions.html",
-  description: "25-question NCLEX-style clinical practice exam."
-},
-          {
-  version: "Anti-Inflammatories",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Inflammatories.html",
-  description: "50-question focused review of anti-inflammatory medications, including Exam 1 content."
-},
-{
-  version: "Anti-Inflammatories V2",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Inflammatories - Version 2.html",
-  description: "50-question anti-inflammatory review, Version 2."
-},
-{
-  version: "Antineoplastics - 25Q",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Antineoplastics - 25 Questions.html",
-  description: "25-question NCLEX-style clinical practice exam."
-},
-          {
-  version: "Antineoplastics",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Antineoplastics.html",
-  description: "50-question focused review of antineoplastic medications, including Exam 1 content."
-},
-{
-  version: "Antineoplastics V2",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Antineoplastics - Version 2.html",
-  description: "50-question antineoplastic review, Version 2."
-},
-{
-  version: "Anti-Infectives - 25Q",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Infectives - 25 Questions.html",
-  description: "25-question NCLEX-style clinical practice exam."
-},
-          {
-  version: "Anti-Infectives",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Infectives.html",
-  description: "50-question focused review of anti-infective medications, including Exam 1 content."
-},
-{
-  version: "Anti-Infectives V2",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2 - Anti-Infectives - Version 2.html",
-  description: "50-question anti-infective review, Version 2."
-},
-          {
-          version: "2A",
-          file: "Pharmacology/Exam 2/Pharmacology Exam 2a.html",
-          description: "Practice version A with immediate feedback and rationales."
-        },
-        {
-  version: "2B",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2b.html",
-  description: "Practice version B with immediate feedback, rationales, and linked references."
-},
-          {
-  version: "2C",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2c.html",
-  description: "Instructor-style NCLEX practice with immediate feedback and linked references."
-},
-          {
-  version: "2D",
-  file: "Pharmacology/Exam 2/Pharmacology Exam 2d.html",
-  description: "Shuffled NCLEX-style practice with immediate feedback and linked references."
-}
-      ]
+
+    ];
+
+    /* ================================================================
+       9. PAGE RENDERING — USUALLY NO CHANGES REQUIRED BELOW THIS LINE
+       ================================================================ */
+
+    /** Convert a course name into a stable HTML section ID. */
+    function slugify(value) {
+      return value.toLowerCase()
+        .replace(/&/g, "and")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
     }
-  ]
-},
-  {
-    course: "Health Assessment",
-    icon: "🩺",
-    description: "Assessment techniques, findings, documentation & clinical judgment",
-    exams: []
-  },
-    {
-  course: "Fundamentals",
-  icon: "📋",
-  description: "Fundamentals of Nursing, patient safety, nursing care & clinical judgment",
-  exams: []
-}
-];
 
-/* ============================================================
-   PAGE BUILDER — YOU SHOULD NOT NEED TO EDIT BELOW THIS LINE
-   ============================================================ */
+    /** Count the individual practice versions across all exams in a course. */
+    function totalVersions(course) {
+      return course.exams.reduce((sum, exam) => sum + exam.versions.length, 0);
+    }
 
-function slugify(text) {
-  return text.toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-}
+    /**
+     * Build a DOM element containing text without interpreting it as HTML.
+     * This keeps course names and descriptions safe to edit in the data list.
+     */
+    function makeElement(tag, className, text) {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    }
 
-function totalVersions(course) {
-  return course.exams.reduce((sum, exam) => sum + exam.versions.length, 0);
-}
+    /**
+     * Create the navigation, course headings, collapsible exam sections,
+     * and launch links from the STUDY_HUB configuration above.
+     */
+    function renderHub() {
+      const hub = document.getElementById("studyHub");
+      const nav = document.getElementById("courseNav");
 
-function renderHub() {
-  const hub = document.getElementById("studyHub");
-  const nav = document.getElementById("courseNav");
+      // Clear existing content so a future re-render cannot duplicate cards.
+      hub.replaceChildren();
+      nav.replaceChildren();
 
-  STUDY_HUB.forEach(course => {
-    const id = slugify(course.course);
+      STUDY_HUB.forEach((course) => {
+        const sectionId = slugify(course.course);
 
-    const navLink = document.createElement("a");
-    navLink.href = "#" + id;
-    navLink.textContent = course.course;
-    nav.appendChild(navLink);
+        // One top-of-page navigation link is created for EVERY course.
+        const navLink = makeElement("a", "", course.course);
+        navLink.href = `#${sectionId}`;
+        nav.appendChild(navLink);
 
-    const section = document.createElement("section");
-    section.className = "course";
-    section.id = id;
+        // Each course receives a matching anchor and section heading.
+        const section = makeElement("section", "course");
+        section.id = sectionId;
+        const courseHead = makeElement("div", "course-head");
+        const title = makeElement("div", "title");
+        const icon = makeElement("div", "icon", course.icon);
+        icon.setAttribute("aria-hidden", "true");
+        const headingText = makeElement("div");
+        headingText.append(
+          makeElement("h2", "", course.course),
+          makeElement("div", "sub", course.description)
+        );
+        title.append(icon, headingText);
 
-    const count = totalVersions(course);
-    section.innerHTML = `
-      <div class="course-head">
-        <div class="title">
-          <div class="icon">${course.icon}</div>
-          <div>
-            <h2>${course.course}</h2>
-            <div class="sub">${course.description}</div>
-          </div>
-        </div>
-        <div class="count">${count ? count + " practice " + (count === 1 ? "exam" : "exams") : "Ready to expand"}</div>
-      </div>
-    `;
+        const count = totalVersions(course);
+        const countLabel = count
+          ? `${count} practice ${count === 1 ? "exam" : "exams"}`
+          : "Ready to expand";
+        courseHead.append(title, makeElement("div", "count", countLabel));
+        section.appendChild(courseHead);
 
-    if (course.exams.length === 0) {
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      empty.innerHTML = `<b>${course.course} is ready.</b>Add an exam to the STUDY_HUB list when you have one.`;
-      section.appendChild(empty);
-    } else {
-      course.exams.forEach(exam => {
-        const examBox = document.createElement("div");
-        examBox.className = "exam collapsed";
+        // An empty exams array displays a placeholder until tests are added.
+        if (course.exams.length === 0) {
+          const empty = makeElement("div", "empty");
+          empty.append(
+            makeElement("b", "", `${course.course} is ready.`),
+            document.createTextNode("Add an exam to the STUDY_HUB list when you have one.")
+          );
+          section.appendChild(empty);
+        } else {
+          course.exams.forEach((exam, examIndex) => {
+            // Each exam is initially collapsed, just like the original hub.
+            const examBox = makeElement("div", "exam collapsed");
+            const versionsId = `${sectionId}-exam-${examIndex}-versions`;
 
-        const versions = exam.versions.map(v => `
-          <div class="version">
-            <strong>Exam ${v.version}</strong>
-            <p>${v.description || "Interactive practice exam with immediate feedback."}</p>
-            <a class="start" href="${encodeURI(v.file)}">Start ${v.version} →</a>
-          </div>
-        `).join("");
+            // A real button enables keyboard operation and exposes state.
+            const examHeader = makeElement("button", "exam-top");
+            examHeader.type = "button";
+            examHeader.setAttribute("aria-expanded", "false");
+            examHeader.setAttribute("aria-controls", versionsId);
+            const examTitle = makeElement("div", "exam-title");
+            examTitle.append(
+              makeElement("span", "accordion-arrow", "▼"),
+              makeElement("h3", "", `${exam.name} Practice`)
+            );
+            const versionCount = exam.versions.length;
+            const badgeText = `${versionCount} ${versionCount === 1 ? "version" : "versions"}`;
+            examHeader.append(examTitle, makeElement("span", "badge", badgeText));
 
-        examBox.innerHTML = `
-  <div class="exam-top">
-    <div class="exam-title">
-      <span class="accordion-arrow">▼</span>
-      <h3>${exam.name} Practice</h3>
-    </div>
-    <span class="badge">
-      ${exam.versions.length}
-      ${exam.versions.length === 1 ? "version" : "versions"}
-    </span>
-  </div>
+            // Create one card and launch link per version.
+            const versions = makeElement("div", "versions");
+            versions.id = versionsId;
+            exam.versions.forEach((version) => {
+              const card = makeElement("div", "version");
+              const description = version.description ||
+                "Interactive practice exam with immediate feedback.";
+              const link = makeElement("a", "start", `Start ${version.version} →`);
+              // Assigning href via DOM safely encodes spaces and punctuation.
+              link.href = version.file;
+              card.append(
+                makeElement("strong", "", `Exam ${version.version}`),
+                makeElement("p", "", description),
+                link
+              );
+              versions.appendChild(card);
+            });
 
-  <div class="versions">
-    ${versions}
-  </div>
-`;
+            // Keep the visible accordion and accessible expanded state in sync.
+            examHeader.addEventListener("click", () => {
+              const collapsed = examBox.classList.toggle("collapsed");
+              examHeader.setAttribute("aria-expanded", String(!collapsed));
+            });
 
-const examHeader = examBox.querySelector(".exam-top");
+            examBox.append(examHeader, versions);
+            section.appendChild(examBox);
+          });
+        }
 
-examHeader.addEventListener("click", function () {
-  examBox.classList.toggle("collapsed");
-});
-
-section.appendChild(examBox);
+        hub.appendChild(section);
       });
     }
 
-    hub.appendChild(section);
-  });
-}
-
-renderHub();
-</script>
+    // Populate the page after the HTML containers have been parsed.
+    renderHub();
+  </script>
 </body>
 </html>
