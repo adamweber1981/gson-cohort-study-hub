@@ -291,7 +291,11 @@
              description: "Practice version A."
            }
 
-       Paths are relative to index.html and must match GitHub filenames.
+       NEWEST COURSE FIRST: Add addedAt: "YYYY-MM-DD" to a new exam or version.
+        The course with the newest date moves to the top automatically.
+        You can also set updatedAt on a course.
+
+        Paths are relative to index.html and must match GitHub filenames.
        Keep commas between objects, but not after the last object.
        No changes to the rendering functions below are necessary.
        ================================================================ */
@@ -431,6 +435,7 @@
       
 {
   course: "Health Assessment",
+  updatedAt: "2026-10-18", // Baseline date for the latest course update.
   icon: "🩺",
   description: "Dynamically Randomized Assessments exploriong techniques, findings, documentation & clinical judgment used every day by nurses everywhere",
   exams: [
@@ -503,6 +508,10 @@
     /**
      * Create the navigation, course headings, collapsible exam sections,
      * and launch links from the STUDY_HUB configuration above.
+     *
+     * Courses sort newest-first by their latest dated exam/version, or
+     * by the course's updatedAt date. Missing dates sort last, while
+     * preserving their original relative order.
      */
     function renderHub() {
       const hub = document.getElementById("studyHub");
@@ -512,7 +521,24 @@
       hub.replaceChildren();
       nav.replaceChildren();
 
-      STUDY_HUB.forEach((course) => {
+      // Newest additions appear at the top of both the course navigation
+      // and the page. Add an addedAt date to any new exam/version entry.
+      function latestCourseUpdate(course) {
+        const dates = [course.updatedAt];
+        for (const exam of course.exams) {
+          dates.push(exam.addedAt);
+          for (const version of exam.versions) dates.push(version.addedAt);
+        }
+        return Math.max(0, ...dates
+          .filter(date => typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date))
+          .map(date => Date.parse(date + "T00:00:00Z"))
+          .filter(Number.isFinite));
+      }
+
+      const coursesNewestFirst = [...STUDY_HUB].sort(
+        (a, b) => latestCourseUpdate(b) - latestCourseUpdate(a)
+      );
+      coursesNewestFirst.forEach((course) => {
         const sectionId = slugify(course.course);
 
         // One top-of-page navigation link is created for EVERY course.
