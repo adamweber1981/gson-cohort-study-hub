@@ -32,6 +32,22 @@ HOW TO UPDATE:
 The link in index.html NEVER needs to change.
 -->
 <article>
+<h2>Study Hub Analytics — Launch and Verification</h2>
+<div class="date">October 19, 2026</div>
+<ul>
+<li>Launched a public Study Hub Analytics dashboard with reporting periods of 7 days, 30 days, and all time.</li>
+<li>Integrated Cloudflare Web Analytics into deployed HTML pages for site traffic reporting.</li>
+<li>Added anonymous exam engagement tracking for Health Assessment Exam 2 Versions 1–8 and Fundamentals Exam 2 Versions 1–8, covering starts, scoring actions, completed attempts, resets, reference opens, and PDF downloads.</li>
+<li>Deployed a Cloudflare Worker and D1 database to collect and aggregate exam events without collecting student identities.</li>
+<li>Configured GitHub Actions to inject tracking into the 16 supported exams and connect the dashboard to the analytics service automatically during deployment.</li>
+<li>Resolved tracking configuration issues and confirmed successful event submissions and dashboard updates.</li>
+<li>Configured score reporting to count completed attempts only after all 50 questions are answered and the exam is scored; mean and median remain hidden until five completed attempts have been recorded for that exam version.</li>
+<li><strong>Next steps:</strong> verify full-exam completion and score recording, add collapsible course and exam sections to the dashboard, and extend automatic engagement tracking and categorization to future exams. New exams currently receive page-view analytics, but not automatic detailed exam engagement tracking.</li>
+<li><strong>Testing note:</strong> ad blockers may prevent analytics requests. Test scores can be cleared from Cloudflare D1, but aggregate records cannot distinguish test attempts from student attempts, so cleanup must be performed carefully.</li>
+</ul>
+</article>
+
+<article>
 <h2>Health Assessment, Fundamentals &amp; Study Hub Updates</h2>
 <div class="date">October 18, 2026</div>
 <ul>
