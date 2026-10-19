@@ -1,0 +1,60 @@
+name: Deploy Study Hub with Analytics
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Prepare site and inject Cloudflare Analytics
+        env:
+          CLOUDFLARE_ANALYTICS_TOKEN: 9fb09ccbfb45400daea8055042914f47
+        run: |
+          python3 - <<'PY'
+          import os, pathlib, re, shutil
+          root = pathlib.Path('.')
+          output = pathlib.Path(os.environ['RUNNER_TEMP']) / 'study-hub-site'
+          shutil.copytree(root, output, ignore=shutil.ignore_patterns('.git', '.github', '.DS_Store', 'node_modules', '.venv'))
+          token = os.environ['CLOUDFLARE_ANALYTICS_TOKEN']
+          snippet = '<!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token":"' + token + '"}\'></script><!-- End Cloudflare Web Analytics -->'
+          count = 0
+          for page in output.rglob('*.html'):
+              html = page.read_text(encoding='utf-8-sig')
+              if 'static.cloudflareinsights.com/beacon.min.js' in html:
+                  continue
+              if re.search(r'</body\s*>', html, flags=re.I):
+                  html = re.sub(r'</body\s*>', lambda m: snippet + '\n' + m.group(0), html, count=1, flags=re.I)
+              elif re.search(r'</head\s*>', html, flags=re.I):
+                  html = re.sub(r'</head\s*>', lambda m: snippet + '\n' + m.group(0), html, count=1, flags=re.I)
+              else:
+                  html += '\n' + snippet + '\n'
+              page.write_text(html, encoding='utf-8')
+              count += 1
+          print(f'Cloudflare Analytics added to {count} HTML files.')
+          PY
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/study-hub-site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
