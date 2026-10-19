@@ -3,7 +3,7 @@
 const API='__WORKER_URL__';
 const path=decodeURIComponent(location.pathname);
 const match=path.match(/\/(Assessments|Fundamentals)\/Exam 2\/(?:Health Assessment|Fundamentals) Exam 2 - Version ([1-8])\.html$/i);
-if(!match || API.includes('__WORKER_URL__'))return;
+if(!match || !API || API==='__WORKER_URL__')return;
 const exam=(match[1].toLowerCase()==='assessments'?'assessment':'fundamentals')+'-2-v'+match[2];
 let started=false,completed=false,attempt=0;
 function send(event, extra={}){
