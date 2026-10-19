@@ -61,7 +61,7 @@ jobs:
                       html = re.sub(r'</body\s*>', lambda m: '<script>' + client + '</script>\n' + m.group(0), html, count=1, flags=re.I)
                       page.write_text(html, encoding='utf-8')
               dash = output / 'analytics.html'
-              dash.write_text(dash.read_text(encoding='utf-8').replace('__WORKER_URL__', api), encoding='utf-8')
+              dash.write_text(dash.read_text(encoding='utf-8').replace("const API='__WORKER_URL__';", "const API=" + repr(api) + ";"), encoding='utf-8')
               print('Exam analytics injected into 16 exam pages and dashboard configured.')
           else:
               print('STUDY_HUB_ANALYTICS_API unset; analytics dashboard will display setup instructions.')
