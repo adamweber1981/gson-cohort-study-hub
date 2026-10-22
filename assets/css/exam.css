@@ -32,3 +32,12 @@
 
 /* iOS Safari auto-zooms focused inputs with computed font sizes below 16px. */
 @media(max-width:767px){.exam-card input[type=number],.exam-card input[type=text],.exam-card select,#report-form select,#report-form textarea,#report-preview{font-size:16px!important;line-height:1.4}.exam-card input[type=number]{width:min(100%,240px);min-height:48px;box-sizing:border-box}.exam-card .match-row select{width:100%}}
+
+/* Keep dosage label and input on separate lines to prevent horizontal viewport expansion on iPhone. */
+html,body{max-width:100%;overflow-x:clip}
+.exam-layout,.exam-card,#exam-root,.exam-card fieldset{min-width:0;max-width:100%}
+.exam-card h1,.exam-card legend,.exam-card p,.dosage-entry{overflow-wrap:anywhere}
+.dosage-entry{display:flex;flex-direction:column;align-items:flex-start;gap:12px;max-width:100%;font-size:16px;line-height:1.5}
+.dosage-entry span{display:block;max-width:100%}
+.exam-card .dosage-entry input[type=number]{display:block;width:min(100%,280px);max-width:100%;font-size:16px!important;min-height:48px}
+@media(max-width:600px){.exam-layout{padding-top:16px}.exam-card{padding:18px 14px}.exam-card h1{font-size:clamp(22px,6vw,28px);line-height:1.3}.exam-card legend{font-size:17px}}
