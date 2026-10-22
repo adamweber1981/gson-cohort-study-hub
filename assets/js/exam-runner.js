@@ -21,7 +21,7 @@ function showReview(){const items=engine.review();resetUI();root.append(Object.a
 
 // A Google Form destination must be configured by the owner before submissions are enabled.
 // The student can still prepare and copy a report without losing the exam attempt.
-const REPORT_FORM_URL=""; // Paste the published Google Form URL (https://docs.google.com/forms/d/e/.../viewform).
+const REPORT_FORM_URL="https://docs.google.com/forms/d/e/1FAIpQLScP6UDpwn6ExIfPvgenZqRz4DSBVPHcFmusnU4MC1BPI7W8MQ/viewform"; // Paste the published Google Form URL (https://docs.google.com/forms/d/e/.../viewform).
 const reportReasons=["Incorrect answer or rationale","Confusing or unclear wording","Missing or incorrect information","Technical issue","Other"];
 function reportLink(q,number){const b=document.createElement("button");b.type="button";b.className="report-link";b.textContent="⚑ Report a problem with this question";b.addEventListener("click",()=>openReport(q,number));return b}
 function openReport(q,number){
