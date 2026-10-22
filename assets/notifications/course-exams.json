@@ -49,13 +49,14 @@
       "date": "2026-10-02",
       "term": "Fall 2026",
       "dateConfirmedFromSource": false,
-      "dateBasis": "Inferred Friday of syllabus week 4, assuming week 1 begins Friday September 11, 2026",
+      "dateBasis": "Friday of syllabus exam week; week alignment confirmed by cohort: Exam 2 Friday October 23, 2026",
       "reminderDays": [
         7,
         3,
         1
       ],
-      "provisional": true
+      "provisional": false,
+      "dateConfirmedByCohort": true
     },
     {
       "id": "path-2",
@@ -103,13 +104,14 @@
       "date": "2026-10-23",
       "term": "Fall 2026",
       "dateConfirmedFromSource": false,
-      "dateBasis": "Inferred Friday of syllabus week 7, assuming week 1 begins Friday September 11, 2026",
+      "dateBasis": "Friday of syllabus exam week; week alignment confirmed by cohort: Exam 2 Friday October 23, 2026",
       "reminderDays": [
         7,
         3,
         1
       ],
-      "provisional": true
+      "provisional": false,
+      "dateConfirmedByCohort": true
     },
     {
       "id": "path-3",
@@ -157,13 +159,14 @@
       "date": "2026-11-13",
       "term": "Fall 2026",
       "dateConfirmedFromSource": false,
-      "dateBasis": "Inferred Friday of syllabus week 10, assuming week 1 begins Friday September 11, 2026",
+      "dateBasis": "Friday of syllabus exam week; week alignment confirmed by cohort: Exam 2 Friday October 23, 2026",
       "reminderDays": [
         7,
         3,
         1
       ],
-      "provisional": true
+      "provisional": false,
+      "dateConfirmedByCohort": true
     },
     {
       "id": "path-4",
@@ -224,13 +227,14 @@
       "date": "2026-12-11",
       "term": "Fall 2026",
       "dateConfirmedFromSource": false,
-      "dateBasis": "Inferred Friday of syllabus week 14, assuming week 1 begins Friday September 11, 2026",
+      "dateBasis": "Friday of syllabus exam week; week alignment confirmed by cohort: Exam 2 Friday October 23, 2026",
       "reminderDays": [
         7,
         3,
         1
       ],
-      "provisional": true
+      "provisional": false,
+      "dateConfirmedByCohort": true
     },
     {
       "id": "pharm-5",
@@ -265,6 +269,6 @@
     "Pathophysiology syllabus says Summer 2026 although exam dates align with September–December; verify term.",
     "Dates are source-derived; scheduled push delivery requires a backend.",
     "All-day events unless explicit exam start time is provided.",
-    "Health Assessment exams meet Friday only. Proposed dates inferred from numbered syllabus weeks; confirm week-one alignment before scheduling push reminders."
+    "Health Assessment Friday exam schedule confirmed by cohort using Exam 2 on October 23, 2026. Other Friday dates follow syllabus week alignment."
   ]
 }
