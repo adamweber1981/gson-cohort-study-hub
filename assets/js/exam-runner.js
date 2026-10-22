@@ -47,7 +47,7 @@ function openReport(q,number){
  };
 }
 $("close-report").addEventListener("click",()=>$("report-dialog").close());$("report-dialog").addEventListener("close",()=>{$("report-frame").removeAttribute("src")});
-let referencePdfUrl="",referencePage=1,referenceDocument=null,referenceRenderToken=0;
+let referencePdfUrl="",referencePage=1,referenceDocument=null,referenceRenderToken=0,referenceOpenToken=0;
 let pdfLibraryPromise=null;
 const pdfJsBase="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/";
 function loadPdfLibrary(){
@@ -90,6 +90,7 @@ async function setReferencePage(page){
 }
 async function openReference(url,title){
  const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
+ const openToken=++referenceOpenToken;
  $("reference-heading").textContent=title||"Exam reference";
  ++referenceRenderToken;referenceDocument=null;referencePdfUrl="";referencePage=1;
  frame.hidden=true;frame.removeAttribute("src");textPanel.hidden=true;textPanel.textContent="";
@@ -110,7 +111,10 @@ async function openReference(url,title){
    nav.hidden=false;
    $("reference-open-direct").href=referencePdfUrl+"#page="+referencePage;
    const pdfjs=await loadPdfLibrary();
-   referenceDocument=await pdfjs.getDocument({url:referencePdfUrl}).promise;
+   if(openToken!==referenceOpenToken||!dialog.open)return;
+   const loadedDocument=await pdfjs.getDocument({url:referencePdfUrl}).promise;
+   if(openToken!==referenceOpenToken||!dialog.open){loadedDocument.destroy();return}
+   referenceDocument=loadedDocument;
    $("reference-canvas-wrap").hidden=false;
    await setReferencePage(referencePage);
   }else{
@@ -120,12 +124,12 @@ async function openReference(url,title){
    if(type.includes("text/")){textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent=""}
    else{frame.src=parsed.href;frame.hidden=false;status.textContent="If the document does not display, use your browser to open the document."}
   }
- }catch(err){status.textContent="Unable to render reference here. Use Open PDF to view it directly. "+err.message}
+ }catch(err){if(openToken===referenceOpenToken&&dialog.open)status.textContent="Unable to render reference here. Use Open PDF to view it directly. "+err.message}
 }
 $("reference-previous").addEventListener("click",()=>setReferencePage(referencePage-1));
 $("reference-next").addEventListener("click",()=>setReferencePage(referencePage+1));
 $("reference-page").addEventListener("change",e=>setReferencePage(e.target.value));
-$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{$("reference-frame").removeAttribute("src")});
+$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{++referenceOpenToken;++referenceRenderToken;$("reference-frame").removeAttribute("src");const oldDocument=referenceDocument;referenceDocument=null;if(oldDocument)oldDocument.destroy().catch(()=>{});$("reference-canvas").hidden=true;});
 $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("report-preview").value);$("report-status").textContent="Report copied. Paste it into the Google Form when available."}catch(_){$("report-preview").focus();$("report-preview").select();$("report-status").textContent="Select and copy the highlighted report text."}});
 
 function confirmLeave(){return !engine||!["active","submitted"].includes(engine.phase)||confirm("Leave this exam? Your current attempt will be lost.")}
