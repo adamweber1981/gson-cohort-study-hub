@@ -102,8 +102,8 @@ if(bankId==="fundamentals-exam-2-qa-standard"){
   const tagMap=(await tagResponse.json()).assignments;
   for(const item of supplement.questions)bank.questions.push({id:item.id,topic:item.topic,type:"truefalse",stem:"True or false: "+item.statement,options:[{id:"true",text:"True"},{id:"false",text:"False"}],correct:String(item.correct),rationale:item.rationale,source:{name:item.source,path:sourceBase+encodeURIComponent(item.source),page:item.page},approved:true});
   for(const q of bank.questions){q.subtopic=tagMap[q.id]||null;}
-  bank.practiceName="Standard Exam · Detailed Blueprint Preview";
-  bank.notice="Exact 50-question topic and subtopic quotas plus SATA/matching/true-false ranges enforced. COPD case study currently selects six COPD-themed questions rather than a linked vignette.";
+  bank.practiceName="Standard Exam Engine";
+  bank.notice="Exact topic and subtopic quotas and question-type ranges enforced. COPD case-study slots use six COPD-themed questions.";
   delete bank.previewCount;
  }
 }
