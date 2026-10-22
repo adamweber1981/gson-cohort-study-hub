@@ -4,7 +4,7 @@
   "examNumber": "Exam 2",
   "practiceName": "Med Math · QA Preview",
   "qaPreview": true,
-  "notice": "Unapproved question-bank preview. Full-bank run, not blueprint-constrained.",
+  "notice": "QA preview: 30 random questions per attempt from unapproved legacy pool; does NOT enforce course topic/type blueprint. Source links open the QA policy until original PDF hosting is configured.",
   "questions": [
     {
       "id": "fundamentals-med-math-1-q001",
@@ -1112,5 +1112,6 @@
       "units": "tablets",
       "instructions": "Use the rounding instruction in the question."
     }
-  ]
+  ],
+  "previewCount": 30
 }
