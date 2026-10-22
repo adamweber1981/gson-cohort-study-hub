@@ -49,3 +49,33 @@ html:not([data-answer-palette="default"]) .answer-option.answer-color-2{backgrou
 html:not([data-answer-palette="default"]) .answer-option.answer-color-3{background:var(--answer-bg-3);color:var(--answer-fg-3);border-color:transparent}
 html:not([data-answer-palette="default"]) .answer-option input{accent-color:currentColor}
 .answer-option:has(input:checked){outline:3px solid var(--focus);outline-offset:1px}
+
+/* Phase 2 mobile navigation: keep Return to Hub reachable during iOS rubber-band scrolling. */
+.exam-top{
+ position:sticky;
+ top:0;
+ z-index:30;
+ background:var(--bg);
+ border-bottom:1px solid var(--border);
+ padding-top:12px;
+ padding-bottom:12px;
+}
+@supports (padding-top:env(safe-area-inset-top)){
+ .exam-top{padding-top:max(12px,env(safe-area-inset-top))}
+}
+.exam-top #return-hub{
+ display:inline-flex;
+ align-items:center;
+ min-height:44px;
+ padding:6px 10px;
+ border-radius:10px;
+ background:var(--surface);
+ border:1px solid var(--border);
+ text-decoration:none;
+}
+.exam-top #return-hub:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+@media(max-width:600px){
+ .exam-top{gap:8px 10px;align-items:center}
+ .exam-top #exam-meta{order:3;width:100%;font-size:13px;line-height:1.35}
+ .exam-top #reset-exam{padding:8px 12px}
+}
