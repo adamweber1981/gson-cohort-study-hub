@@ -9,3 +9,6 @@ html[data-theme=slate]{color-scheme:dark;--bg:#1f2937;--surface:#37465c;--surfac
 
 /* Restore the original school SVG; center the hero composition while retaining left-aligned study content. */
 .hero-school-brand{display:flex;justify-content:center;margin:0 auto 24px}.hero-school-brand img{display:block;width:min(300px,78vw);height:auto}.hero{text-align:center}.hero p{margin-left:auto;margin-right:auto}.hero-actions{justify-content:center}.brand{line-height:1.25}.footer{max-width:1120px;margin:0 auto;text-align:center}
+
+/* Phase 1 refinement: centered school branding and concise, centered hero. */
+.hero{display:flex;flex-direction:column;align-items:center;text-align:center}.hero-school-brand{width:100%;justify-content:center}.hero h1,.hero p{text-align:center}.hero-actions{width:100%;justify-content:center}
