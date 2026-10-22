@@ -1,0 +1,186 @@
+{
+  "id": "demo-health-assessment",
+  "course": "Health Assessment",
+  "examNumber": "Demo Exam (not a course exam)",
+  "practiceName": "Phase 2 Interface Test",
+  "demo": true,
+  "questions": [
+    {
+      "id": "demo-mcq",
+      "topic": "Interface testing",
+      "subtopic": "Single selection",
+      "type": "mcq",
+      "stem": "Which option is the correct answer for this multiple-choice demo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A"
+        },
+        {
+          "id": "b",
+          "text": "Option B"
+        },
+        {
+          "id": "c",
+          "text": "Option C"
+        }
+      ],
+      "correct": "b",
+      "rationale": "Option B is deliberately keyed as correct to test single-answer grading.",
+      "source": {
+        "name": "Phase 2 demo questions (synthetic testing content)",
+        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+      }
+    },
+    {
+      "id": "demo-sata",
+      "topic": "Interface testing",
+      "subtopic": "Multiple selection",
+      "type": "sata",
+      "stem": "Select all options marked as correct for this SATA demo.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Correct choice A"
+        },
+        {
+          "id": "b",
+          "text": "Incorrect choice B"
+        },
+        {
+          "id": "c",
+          "text": "Correct choice C"
+        },
+        {
+          "id": "d",
+          "text": "Incorrect choice D"
+        }
+      ],
+      "correct": [
+        "a",
+        "c"
+      ],
+      "rationale": "Only A and C are correct. SATA uses exact-set grading with no partial credit.",
+      "source": {
+        "name": "Phase 2 demo questions (synthetic testing content)",
+        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+      }
+    },
+    {
+      "id": "demo-matching",
+      "topic": "Interface testing",
+      "subtopic": "Matching",
+      "type": "matching",
+      "stem": "Match each numbered item with its corresponding letter.",
+      "pairs": [
+        {
+          "id": "p1",
+          "prompt": "Item 1",
+          "correct": "a"
+        },
+        {
+          "id": "p2",
+          "prompt": "Item 2",
+          "correct": "b"
+        },
+        {
+          "id": "p3",
+          "prompt": "Item 3",
+          "correct": "c"
+        }
+      ],
+      "targets": [
+        {
+          "id": "a",
+          "text": "Letter A"
+        },
+        {
+          "id": "b",
+          "text": "Letter B"
+        },
+        {
+          "id": "c",
+          "text": "Letter C"
+        }
+      ],
+      "correct": {
+        "p1": "a",
+        "p2": "b",
+        "p3": "c"
+      },
+      "rationale": "The keyed pairs are 1–A, 2–B, and 3–C. All pairs must match.",
+      "source": {
+        "name": "Phase 2 demo questions (synthetic testing content)",
+        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+      }
+    },
+    {
+      "id": "demo-tf",
+      "topic": "Interface testing",
+      "subtopic": "True or false",
+      "type": "truefalse",
+      "stem": "True or false: A submitted answer can be changed during this exam attempt.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "false",
+      "rationale": "The practice engine locks answers after submission and only allows read-only review after scoring.",
+      "source": {
+        "name": "Phase 2 demo questions (synthetic testing content)",
+        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+      }
+    },
+    {
+      "id": "demo-dosage",
+      "topic": "Interface testing",
+      "subtopic": "Numeric calculation",
+      "type": "dosage",
+      "stem": "Demo calculation: An order is for 100 mg, and the sample solution contains 50 mg/mL. How many mL are required?",
+      "instructions": "Enter a number; round to the nearest tenth if necessary",
+      "units": "mL",
+      "correct": 2,
+      "tolerance": 0,
+      "rationale": "100 mg ÷ (50 mg/mL) = 2 mL. This is a synthetic calculation for interface testing.",
+      "source": {
+        "name": "Phase 2 demo questions (synthetic testing content)",
+        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+      }
+    },
+    {
+      "id": "demo-case",
+      "topic": "Interface testing",
+      "subtopic": "Case study",
+      "type": "mcq",
+      "caseId": "demo-case-1",
+      "caseText": "SIMULATED CASE STUDY: A fictional student has completed four questions and is ready to submit the next response. This scenario tests whether shared case details display alongside a single question.",
+      "stem": "What must the student do before seeing the rationale for this question?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Select an answer and click Submit Answer"
+        },
+        {
+          "id": "b",
+          "text": "Click Next Question without answering"
+        },
+        {
+          "id": "c",
+          "text": "Open the score page immediately"
+        }
+      ],
+      "correct": "a",
+      "rationale": "Feedback appears only after explicit submission. The case panel demonstrates case-study context rendering.",
+      "source": {
+        "name": "Phase 2 demo questions (synthetic testing content)",
+        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+      }
+    }
+  ]
+}
