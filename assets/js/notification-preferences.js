@@ -14,5 +14,5 @@
   checkbox.addEventListener("change",()=>{preferences[key]=checkbox.checked;try{localStorage.setItem(KEY,JSON.stringify(preferences))}catch(_){};document.dispatchEvent(new CustomEvent("gson:notification-preferences-changed",{detail:{...preferences}}))});
   row.append(checkbox,document.createTextNode(label));root.append(row);
  }
- const note=document.createElement("p");note.className="muted small";note.textContent="These preferences are saved on this device. Server-side delivery preferences will be activated when the notification backend is connected.";root.append(note);
+ const note=document.createElement("p");note.className="muted small";note.textContent="These preferences are saved on this device and synced with the notification server when a subscription is active.";root.append(note);
 })();
