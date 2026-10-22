@@ -136,7 +136,7 @@ const STUDY_HUB = [
         course: "Health Assessment",
         updatedAt: "2026-10-22",
         icon: "🩺",
-        description: "Assessment techniques, findings, documentation and clinical judgment",
+        description: "Nursing assessment techniques, findings, documentation and clinical judgment",
         exams: [
           {
             name: "Exam 2",
@@ -144,7 +144,7 @@ const STUDY_HUB = [
               {
                 version: "Standard Exam Engine",
                 file: "exam.html?bank=health-assessment-exam-2-standard",
-                description: "50 randomized practice questions drawn from the deduplicated course-source bank, with blueprint chapter and question-format quotas."
+                description: "50 randomized questions following the Fall 2026 Health Assessment Exam 2 chapter, subtopic and 35/12/3 question-format blueprint."
               }
             ]
           }
