@@ -15,7 +15,7 @@ function showQuestion(){resetUI();selection=null;const q=engine.current();const 
  else{const feedback=document.createElement("section");feedback.className="feedback "+(prior.correct?"feedback-correct":"feedback-incorrect");feedback.setAttribute("role","status");const verdict=document.createElement("h2");verdict.textContent=prior.correct?"Correct":"Incorrect";feedback.append(verdict);const correct=document.createElement("p");correct.textContent="Correct answer: "+formatAnswer(q,q.correct);feedback.append(correct,Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q));root.append(feedback);if(engine.index===engine.total-1)button("Score Exam",showResults);else button("Next Question",()=>{engine.next();showQuestion()})}
 }
 function formatAnswer(q,key){if(q.type==="matching")return q.pairs.map(p=>p.prompt+" → "+(q.targets.find(t=>t.id===(key?.[p.id]||p.correct))?.text||(key?.[p.id]||p.correct))).join("; ");if(q.type==="dosage")return key+" "+(q.units||"");const ids=Array.isArray(key)?key:[key];return ids.map(id=>q.options?.find(o=>o.id===id)?.text||id).join("; ")}
-function showIntro(){resetUI();meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.innerHTML="<h1>Ready to practice?</h1><p>"+(engine.bank.previewCount||engine.bank.blueprint?.total||engine.bank.questions.length)+" questions per attempt. Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>"+(engine.bank.qaPreview?"<p role=\"note\"><strong>QA PREVIEW — NOT BLUEPRINT-COMPLIANT.</strong> "+escapeHTML(engine.bank.notice||"Questions are not yet approved.")+"</p>":"");button("Start Exam",()=>{engine.begin();showQuestion()})}
+function showIntro(){resetUI();meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.innerHTML="<h1>Ready to practice?</h1><p>"+(engine.bank.blueprint?.total||engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt. Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>"+(engine.bank.qaPreview?"<p role=\"note\"><strong>QA PREVIEW — PRACTICE CONTENT UNDER REVIEW.</strong> "+escapeHTML(engine.bank.notice||"Questions are not yet approved.")+"</p>":"");button("Start Exam",()=>{engine.begin();showQuestion()})}
 function showResults(){const result=engine.score();resetUI();root.innerHTML="<h1>Exam results</h1><p class='score'>"+result.percent+"%</p><p>"+result.correct+" correct · "+result.incorrect+" incorrect · "+result.total+" questions</p>";button("Review Entire Exam",showReview)}
 function showReview(){const items=engine.review();resetUI();root.append(Object.assign(document.createElement("h1"),{textContent:"Read-only exam review"}));items.forEach(({question:q,answer:a},i)=>{const section=document.createElement("section");section.className="review-item";section.append(Object.assign(document.createElement("h2"),{textContent:(i+1)+". "+q.stem}),Object.assign(document.createElement("p"),{textContent:"Your answer: "+formatAnswer(q,a.response)}),Object.assign(document.createElement("p"),{textContent:"Correct answer: "+formatAnswer(q,q.correct)}),Object.assign(document.createElement("p"),{textContent:a.correct?"Correct":"Incorrect"}),Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q),reportLink(q,i+1));root.append(section)})}
 
@@ -79,4 +79,25 @@ $("return-hub").addEventListener("click",e=>{if(!confirmLeave())e.preventDefault
 $("references").addEventListener("click",()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();sources.forEach(s=>{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name)});list.append(b)});dialog.showModal()});
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
-(async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
+(async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
+if(bankId==="fundamentals-exam-2-qa-standard"||bankId==="fundamentals-exam-2-qa-med-math"){
+ const sourceBase="References/Fundamentals/Exams/Exam%202/";
+ for(const q of bank.questions){
+  const sourceName=q.source?.name==="Fundies course materials"?"fundies med math.pdf":q.source?.name;
+  if(sourceName)q.source.path=sourceBase+encodeURIComponent(sourceName);
+  q.approved=!["fund-e2-rebuilt-1-q001","fund-e2-rebuilt-1-q003"].includes(q.id);
+ }
+ if(bankId==="fundamentals-exam-2-qa-standard"){
+  const [bpResponse,tfResponse]=await Promise.all([fetch("assets/question-banks/blueprints/fundamentals-exam-2-standard.json"),fetch("assets/question-banks/fundamentals-exam-2-supplement.json")]);
+  if(!bpResponse.ok||!tfResponse.ok)throw Error("Fundamentals blueprint supplement unavailable");
+  bank.blueprint=await bpResponse.json();
+  const supplement=await tfResponse.json();
+  for(const item of supplement.questions)bank.questions.push({id:item.id,topic:item.topic,type:"truefalse",stem:"True or false: "+item.statement,options:[{id:"true",text:"True"},{id:"false",text:"False"}],correct:String(item.correct),rationale:item.rationale,source:{name:item.source,path:sourceBase+encodeURIComponent(item.source),page:item.page},approved:true});
+  bank.practiceName="Standard Exam · Blueprint Preview";
+  bank.notice="50-question topic quotas and SATA/matching/true-false ranges enforced. Detailed subtopic quotas are not yet verified.";
+  delete bank.previewCount;
+ }else{
+  bank.notice="Med Math practice preview; separate Med Math topic blueprint has not been provided.";
+ }
+}
+engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
