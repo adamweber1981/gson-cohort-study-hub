@@ -365,7 +365,7 @@
         "version": 1,
         "position": 9
       },
-      "type": "mcq",
+      "type": "visual",
       "options": [
         {
           "id": "o0",
@@ -1259,7 +1259,7 @@
         "version": 1,
         "position": 30
       },
-      "type": "mcq",
+      "type": "visual",
       "options": [
         {
           "id": "o0",
@@ -1501,7 +1501,7 @@
         "version": 1,
         "position": 36
       },
-      "type": "mcq",
+      "type": "visual",
       "options": [
         {
           "id": "o0",
@@ -16358,5 +16358,20 @@
     "addedScenarioAdaptations": 235,
     "livePool": 400
   },
-  "expansionPolicy": "Scenario-adapted practice questions reuse verified legacy answer/rationale/source; normalized stems and IDs are unique. Learning objectives can recur. No independent clinical review claimed."
+  "expansionPolicy": "Scenario-adapted practice questions reuse verified legacy answer/rationale/source; normalized stems and IDs are unique. Learning objectives can recur. No independent clinical review claimed.",
+  "validation": {
+    "status": "STRUCTURAL_PASS_COURSE_ALIGNED",
+    "checks": [
+      "400 unique IDs",
+      "All answer keys resolve to supplied choices",
+      "Matching targets valid",
+      "All questions retain original PDF reference and rationale",
+      "3 illustrated questions restored",
+      "Exact blueprint quotas validated by selector"
+    ],
+    "limitations": [
+      "Source alignment relies on legacy course-linked excerpts and practical document consistency; not an exhaustive page-by-page independent re-review of all 400 questions.",
+      "Scenario adaptations reuse course-linked answers and rationales."
+    ]
+  }
 }
