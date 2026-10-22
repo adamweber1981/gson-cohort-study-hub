@@ -1,0 +1,42 @@
+{
+  "id": "fundamentals-exam-2-dosage-qa-summary",
+  "scope": "All 137 dosage items: 79 Med Math plus 58 standard dosage",
+  "status": "ARITHMETIC_CHECK_COMPLETE_SOURCE_VERIFICATION_PARTIAL",
+  "sourceReviewed": {
+    "file": "References/Fundamentals/Exams/Exam 2/fundies med math.pdf",
+    "localPdfPages": 20,
+    "courseStatements": [
+      "Gravity flow uses volume in mL × drop factor in gtt/mL divided by minutes; round to whole drops (PDF page 12)",
+      "Pump flow uses mL divided by hours; follow specified rounding (PDF page 13)",
+      "Lecture distinguishes whole-number maintenance-fluid rates and tenths-place medication rates (PDF page 14)"
+    ]
+  },
+  "results": {
+    "medMathFormulasIndependentlyRecomputed": 79,
+    "medMathFormulaDiscrepancies": 0,
+    "standardStemRecomputedAutomatically": 56,
+    "standardStemManuallyChecked": 2,
+    "standardAnswerDiscrepancies": 0
+  },
+  "manualChecks": [
+    {
+      "id": "fundamentals-exam-2-version-1-q012",
+      "computation": "150 mg ÷ 75 mg/tablet = 2 tablets",
+      "result": "PASS"
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q030",
+      "computation": "200 mg ÷ (40 mg / 5 mL) = 25 mL",
+      "result": "PASS"
+    }
+  ],
+  "limitations": [
+    "For the 79 Med Math entries, the printed formula was independently evaluated; a separate complete check that each formula is derived correctly from every stem is still required.",
+    "Independent calculation validates the numeric key, not medication order appropriateness, drug administration safety, or every source citation.",
+    "No user-facing activation or final clinical approval implied."
+  ],
+  "auditReferences": [
+    "fundamentals-exam-2-med-math-arithmetic-79.json",
+    "fundamentals-standard-dosage-independent-check.json"
+  ]
+}
