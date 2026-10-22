@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "timezone": "America/Chicago",
+  "source": "Uploaded course syllabuses and course calendar, October 2026",
+  "events": [
+    {
+      "id": "fund-1",
+      "course": "Fundamentals",
+      "title": "Exam 1",
+      "date": "2026-10-01",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "fund-2",
+      "course": "Fundamentals",
+      "title": "Exam 2",
+      "date": "2026-10-22",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "fund-3",
+      "course": "Fundamentals",
+      "title": "Exam 3",
+      "date": "2026-11-12",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "fund-ati",
+      "course": "Fundamentals",
+      "title": "Proctored Fundamentals ATI",
+      "date": "2026-12-10",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "fund-4",
+      "course": "Fundamentals",
+      "title": "Exam 4",
+      "date": "2026-12-17",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-1",
+      "course": "Pharmacology",
+      "title": "Exam 1",
+      "date": "2026-09-24",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-2",
+      "course": "Pharmacology",
+      "title": "Exam 2",
+      "date": "2026-10-09",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-3",
+      "course": "Pharmacology",
+      "title": "Exam 3",
+      "date": "2026-10-30",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-4",
+      "course": "Pharmacology",
+      "title": "Exam 4",
+      "date": "2026-11-19",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-5",
+      "course": "Pharmacology",
+      "title": "Exam 5",
+      "date": "2026-12-14",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ],
+      "time": "08:00"
+    },
+    {
+      "id": "path-1",
+      "course": "Pathophysiology",
+      "title": "Exam 1",
+      "date": "2026-09-23",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "path-2",
+      "course": "Pathophysiology",
+      "title": "Exam 2",
+      "date": "2026-10-07",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "path-3",
+      "course": "Pathophysiology",
+      "title": "Exam 3",
+      "date": "2026-10-28",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "path-4",
+      "course": "Pathophysiology",
+      "title": "Exam 4",
+      "date": "2026-11-18",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "path-5",
+      "course": "Pathophysiology",
+      "title": "Exam 5",
+      "date": "2026-12-09",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    }
+  ],
+  "pendingDateConfirmation": [
+    {
+      "course": "Health Assessment",
+      "exam": "Exam 1",
+      "week": 4
+    },
+    {
+      "course": "Health Assessment",
+      "exam": "Exam 2",
+      "week": 7
+    },
+    {
+      "course": "Health Assessment",
+      "exam": "Exam 3",
+      "week": 10
+    },
+    {
+      "course": "Health Assessment",
+      "exam": "Exam 4",
+      "week": 14
+    }
+  ],
+  "notes": [
+    "Health Assessment dates not inferred from week numbers.",
+    "Pathophysiology syllabus says Summer 2026 although exam dates align with September–December; verify term.",
+    "Dates are source-derived; scheduled push delivery requires a backend.",
+    "All-day events unless explicit exam start time is provided."
+  ]
+}
