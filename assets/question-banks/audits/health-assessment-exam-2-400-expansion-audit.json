@@ -1,0 +1,27 @@
+{
+  "id": "health-assessment-exam-2-400-expansion-audit",
+  "date": "2026-10-22",
+  "bank": "assets/question-banks/health-assessment-exam-2-standard.json",
+  "total": 400,
+  "approved": 400,
+  "originalCourseAlignedItems": 165,
+  "scenarioAdaptations": 235,
+  "duplicateIds": 0,
+  "duplicateNormalizedStems": 0,
+  "topicCoverage": "All eight blueprint chapter groups represented",
+  "subtopicCoverage": "Every required blueprint subtopic represented with at least its minimum count",
+  "typePool": {
+    "mcq": 331,
+    "sata": 50,
+    "matching": 19,
+    "diagramEnabled": 6
+  },
+  "validationBasis": "Retained answer, rationale, and original course-PDF reference for adapted questions; mechanical validation only",
+  "importantLimitations": [
+    "The 235 new items are contextual rewrites of existing source-aligned questions. They are not 235 independent learning objectives; substantive overlap with originals is expected.",
+    "Exact/normalized stem uniqueness does not establish semantic deduplication.",
+    "No fresh item-by-item source review of the 235 adapted scenarios has been completed.",
+    "Randomized end-to-end blueprint generation and browser acceptance tests remain outstanding."
+  ],
+  "releaseRecommendation": "Keep branch changes for editorial QA; do not claim the 400-item bank is independently authored or semantically deduplicated."
+}
