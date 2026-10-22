@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "categories": {
+    "updatedExams": {
+      "defaultEnabled": true,
+      "trigger": "Meaningful published exam or question-bank revision",
+      "deeplink": "exam"
+    },
+    "newSources": {
+      "defaultEnabled": true,
+      "trigger": "New published course reference",
+      "deeplink": "reference"
+    },
+    "examReminders": {
+      "defaultEnabled": true,
+      "offsetDays": [
+        7,
+        3,
+        1
+      ],
+      "trigger": "Published cohort exam calendar event",
+      "deeplink": "practice-exam"
+    },
+    "majorUpdates": {
+      "defaultEnabled": true,
+      "trigger": "Major feature release or significant experience change",
+      "deeplink": "announcement"
+    }
+  },
+  "calendar": {
+    "model": "shared-cohort-calendar",
+    "formats": [
+      "ics",
+      "admin-managed-events"
+    ],
+    "timezoneRequired": true,
+    "examEventFields": [
+      "id",
+      "course",
+      "title",
+      "start",
+      "timezone",
+      "practiceExamUrl"
+    ],
+    "deduplicationKey": "eventId:offsetDays",
+    "rescheduleBehavior": "Recalculate reminders when exam dates change",
+    "cancellationBehavior": "Cancel pending reminders"
+  },
+  "delivery": {
+    "requiresBackend": true,
+    "requiresStudentOptIn": true,
+    "requiresDeviceSubscription": true,
+    "avoidDuplicates": true
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "gson-flagged-review-v1",
+  "description": "Only questions explicitly flagged in the completed preliminary audit; other questions remain unverified, not approved.",
+  "count": 26,
+  "flags": [
+    {
+      "id": "fund-e2-rebuilt-1-q001",
+      "reason": "The stem describes an informal walk, but the rationale names a six-minute walk assessment without establishing standardized test conditions. Specify a six-minute walk test or remove that specificity.",
+      "category": "Editorial revision"
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q003",
+      "reason": "Correct ignition-risk concept, but three unrelated distractors make the answer trivial; replace with plausible home-safety questions.",
+      "category": "Editorial revision"
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q010",
+      "reason": "Generic patient safety event description ('incident that reaches a patient') can overlap sentinel/never events; matching categories are not mutually exclusive. Clarify terminology or replace one pair.",
+      "category": "Editorial revision"
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q018",
+      "reason": "Classification terminology such as 'bioenergetic' needs exact course-source verification; check whether Reiki is labeled energy therapy and whether classification schema is current.",
+      "category": "Editorial revision"
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q001",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q013",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q022",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q045",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q015",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q030",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q031",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q019",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q027",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q046",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q007",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q018",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q024",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q014",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q016",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q049",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q006",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q015",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q018",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q007",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q031",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q037",
+      "reason": "Diagram requires visual and mobile review",
+      "category": "Diagram / visual check"
+    }
+  ]
+}

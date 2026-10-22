@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-22",
+  "course": "Health Assessment",
+  "exam": "Exam 2",
+  "branch": "pwa-redesign",
+  "source": "3120 Fall 2026 Exam Two Blueprint.pdf",
+  "extraction": {
+    "legacyExams": 8,
+    "rawQuestions": 400,
+    "normalizedStemDuplicatesRemoved": 235,
+    "uniqueLegacyQuestions": 165,
+    "sourceSupportedGapFillers": 8,
+    "masterBankSize": 173,
+    "eligibleQuestions": 165,
+    "excludedForUnclearSubtopic": 8
+  },
+  "blueprint": {
+    "questionsPerAttempt": 50,
+    "chapterQuotas": true,
+    "subtopicSlots": 33,
+    "subtopicQuotas": true,
+    "formats": {
+      "multipleChoice": 35,
+      "alternateFormatSATAOrMatching": 12,
+      "pictureQuestions": 3
+    },
+    "feasibility": "Confirmed with independent 33-slot allocation check, 35 MCQ + 12 alternate + 3 visual"
+  },
+  "quality": {
+    "standard": "Course-document alignment, correct answer structure, and obvious ambiguity checks; not external medical clinical validation",
+    "structuralValidationErrors": 0,
+    "originalPDFLinks": "Retained",
+    "originalDiagramAssets": "Retained and loaded",
+    "manualPageByPageValidation": "Not independently completed for all 165 original items",
+    "browserEndToEndTest": "Not independently completed"
+  },
+  "website": {
+    "healthAssessmentExamCards": 1,
+    "legacyCardsRemoved": 8,
+    "phase2DemoHidden": true,
+    "legacyFilesPreserved": true,
+    "mainUntouched": true
+  }
+}

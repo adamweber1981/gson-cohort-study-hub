@@ -1,0 +1,32 @@
+{
+  "id": "fundamentals-exam-2-subtopic-blueprint-validation",
+  "date": "2026-10-22",
+  "status": "STRUCTURAL_FEASIBILITY_CONFIRMED",
+  "examLength": 50,
+  "mainTopics": 7,
+  "subtopicSlots": 29,
+  "source": "Fundies Fundamentals Exam 2 Blueprint.pdf",
+  "checks": {
+    "allSubtopicQuotasSumToParentTopic": true,
+    "approvedCandidateSupplyPerSlot": true,
+    "topicAndTypeQuotaSolutionExists": true,
+    "exactUnique50QuestionSelection": "Algorithm implemented; full browser randomized end-to-end test pending",
+    "typeRanges": {
+      "sata": "6–10",
+      "matching": "4–6",
+      "truefalse": "4–6"
+    }
+  },
+  "limitations": [
+    "Subtopic classification was rule-based with three editorial overrides; borderline tags should be reviewed.",
+    "The six COPD case-study slots are currently six COPD-themed standalone questions, not a single linked six-part case vignette.",
+    "The QA preview uses a pragmatic course-alignment approval flag; final editorial review can continue.",
+    "Browser and deployment verification not yet completed."
+  ],
+  "files": [
+    "assets/js/exam-blueprint.js",
+    "assets/js/exam-runner.js",
+    "assets/question-banks/blueprints/fundamentals-exam-2-standard.json",
+    "assets/question-banks/blueprints/fundamentals-exam-2-subtopic-assignments.json"
+  ]
+}

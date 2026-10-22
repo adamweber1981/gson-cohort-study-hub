@@ -1,0 +1,591 @@
+{
+  "id": "fundamentals-standard-dosage-independent-check",
+  "scope": "58 standard dosage questions",
+  "method": "Calculate from quantities in the stem using weight conversion, IV pump/gravity, dose/concentration, or tablets; compare to keyed option. Unparsed cases are explicitly not verified.",
+  "counts": {
+    "PASS_INDEPENDENT_STEM_CALC": 56,
+    "NEEDS_MANUAL_CALCULATION": 2
+  },
+  "results": [
+    {
+      "id": "fund-e2-rebuilt-1-q008",
+      "method": "gravity gtt/min",
+      "computed": 30,
+      "stored": 30,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An order is to infuse 600 mL over 5 hours using tubing calibrated at 15 gtt/mL. What is the drip rate to the nearest whole drop?",
+      "explanation": "600 × 15 ÷ 300 min = 30 gtt/min."
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q012",
+      "method": "dose/concentration",
+      "computed": 10,
+      "stored": 10,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A child has an order for 80 mg of an oral liquid. The bottle reads 40 mg/5 mL. How many mL are required?",
+      "explanation": "80 ÷ 40 × 5 = 10 mL."
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q016",
+      "method": "dose/concentration",
+      "computed": 10,
+      "stored": 10,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The order is 150 mg PO. Liquid medication contains 75 mg per 5 mL. How many mL are required?",
+      "explanation": "150 ÷ 75 × 5 = 10 mL."
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q017",
+      "method": "kg to lb",
+      "computed": 119.9,
+      "stored": 119.9,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A client weighs 54.5 kg. Convert to pounds using 2.2 lb/kg and round to the nearest tenth.",
+      "explanation": "54.5 × 2.2 = 119.9 lb."
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q024",
+      "method": "tablets",
+      "computed": 2,
+      "stored": 2,
+      "unit": "",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An order is for 500 mg PO. Tablets are labeled 250 mg each. How many tablets should the nurse give?",
+      "explanation": "500 ÷ 250 = 2 tablets."
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q043",
+      "method": "dose/concentration",
+      "computed": 0.6,
+      "stored": 0.6,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IM order is 30 mg. A vial contains 50 mg/mL. How many mL should the nurse draw up?",
+      "explanation": "30 ÷ 50 = 0.6 mL."
+    },
+    {
+      "id": "fund-e2-rebuilt-2-q017",
+      "method": "pump mL/hr",
+      "computed": 90,
+      "stored": 90,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV infusion contains 720 mL to run over 8 hours. What pump rate is needed?",
+      "explanation": "720 ÷ 8 = 90 mL/hr."
+    },
+    {
+      "id": "fund-e2-rebuilt-2-q019",
+      "method": "gravity gtt/min",
+      "computed": 25,
+      "stored": 25,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A 500 mL IV bag must infuse over 4 hours. The drop factor is 12 gtt/mL. What is the drip rate to the nearest whole drop?",
+      "explanation": "500 × 12 ÷ 240 min = 25 gtt/min."
+    },
+    {
+      "id": "fund-e2-rebuilt-2-q023",
+      "method": "kg to lb",
+      "computed": 149.6,
+      "stored": 149.6,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient weighs 68 kg. Using 2.2 lb/kg, what is the weight in pounds to the nearest tenth?",
+      "explanation": "68 × 2.2 = 149.6 lb."
+    },
+    {
+      "id": "fund-e2-rebuilt-2-q028",
+      "method": "pump mL/hr",
+      "computed": 100,
+      "stored": 100,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient must receive 1,000 mL over 10 hours. What rate should the nurse set on the IV pump?",
+      "explanation": "1,000 ÷ 10 = 100 mL/hr."
+    },
+    {
+      "id": "fund-e2-rebuilt-2-q034",
+      "method": "dose/concentration",
+      "computed": 0.6,
+      "stored": 0.6,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A provider orders 45 mg IM. The medication concentration is 75 mg/mL. How many mL should be prepared?",
+      "explanation": "45 ÷ 75 = 0.6 mL."
+    },
+    {
+      "id": "fund-e2-rebuilt-2-q047",
+      "method": "tablets",
+      "computed": 3,
+      "stored": 3,
+      "unit": "",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A prescription calls for 375 mg PO. Tablets are 125 mg each. How many tablets should be administered?",
+      "explanation": "375 ÷ 125 = 3 tablets."
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q003",
+      "method": "pump mL/hr",
+      "computed": 104.2,
+      "stored": 104.2,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient admitted with dehydration is prescribed 625 mL of 0.9% sodium chloride to infuse over 6 hours. The IV pump is functioning normally. What rate in mL/hr should the nurse program? Round to the nearest tenth.",
+      "explanation": "Divide 625 mL by 6 hours = 104.166..., rounded to 104.2 mL/hr."
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q012",
+      "method": "",
+      "computed": null,
+      "stored": 2,
+      "unit": "tablets",
+      "status": "NEEDS_MANUAL_CALCULATION",
+      "stem": "A postoperative patient is prescribed 150 mg of a medication by mouth. The medication is supplied as scored 75 mg tablets. How many tablets should the nurse administer?",
+      "explanation": "150 mg ÷ 75 mg per tablet = 2 tablets."
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q026",
+      "method": "gravity gtt/min",
+      "computed": 16,
+      "stored": 16,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient recovering from surgery needs 675 mL of IV fluid infused over 7 hours. The pump is unavailable; the gravity tubing has a drop factor of 10 gtt/mL. At how many gtt/min should the nurse regulate the infusion? Round to the nearest whole drop.",
+      "explanation": "(675 mL × 10 gtt/mL) ÷ (7 × 60 minutes) = 16.07 gtt/min, rounded to 16 gtt/min."
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q030",
+      "method": "",
+      "computed": null,
+      "stored": 25,
+      "unit": "mL",
+      "status": "NEEDS_MANUAL_CALCULATION",
+      "stem": "A patient with difficulty swallowing tablets is prescribed 200 mg of an oral liquid medication. The bottle reads 40 mg per 5 mL. How many mL should the nurse administer?",
+      "explanation": "(200 mg ÷ 40 mg) × 5 mL = 25 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q031",
+      "method": "dose/concentration",
+      "computed": 0.6,
+      "stored": 0.6,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient being treated for an infection has an order for 30 mg of a medication IM. The vial is labeled 50 mg/mL. How many mL should the nurse draw into the syringe?",
+      "explanation": "30 mg ÷ 50 mg/mL = 0.6 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-1-q036",
+      "method": "kg to lb",
+      "computed": 122.5,
+      "stored": 122.5,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient weighs 55.7 kg on admission. The chart requires the weight in pounds. Using 1 kg = 2.2 lb, what is the weight in pounds? Round to the nearest tenth.",
+      "explanation": "55.7 kg × 2.2 lb/kg = 122.54 lb, rounded to 122.5 lb."
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q017",
+      "method": "dose/concentration",
+      "computed": 0.88,
+      "stored": 0.88,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 35 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "35 mg ÷ 40 mg/mL = 0.875 mL; rounded to the nearest hundredth = 0.88 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q027",
+      "method": "tablets",
+      "computed": 2,
+      "stored": 2,
+      "unit": "tablets",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse checks a prescribed oral medication against the unit-dose package. The order is 250 mg PO. Tablets contain 125 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+      "explanation": "250 mg ordered ÷ 125 mg per tablet = 2 whole tablets. Verify the order and medication before administration."
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q032",
+      "method": "kg to lb",
+      "computed": 128.5,
+      "stored": 128.5,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 58.4 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "58.4 × 2.2 = 128.5 lb"
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q035",
+      "method": "gravity gtt/min",
+      "computed": 23,
+      "stored": 23,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 750 mL over 8 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(750 × 15) ÷ (8 × 60) = 23.44, rounded to 23 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q037",
+      "method": "pump mL/hr",
+      "computed": 107.1,
+      "stored": 107.1,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 750 mL over 7 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "750 ÷ 7 = 107.1 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-2-q049",
+      "method": "dose/concentration",
+      "computed": 22,
+      "stored": 22,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 220 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+      "explanation": "(220 ÷ 50) × 5 = 22 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q005",
+      "method": "kg to lb",
+      "computed": 134.4,
+      "stored": 134.4,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 61.1 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "61.1 × 2.2 = 134.4 lb"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q006",
+      "method": "tablets",
+      "computed": 3,
+      "stored": 3,
+      "unit": "tablets",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse checks a prescribed oral medication against the unit-dose package. The order is 225 mg PO. Tablets contain 75 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+      "explanation": "225 ÷ 75 = 3 tablets"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q017",
+      "method": "dose/concentration",
+      "computed": 30,
+      "stored": 30,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 240 mg PO. The liquid label reads 40 mg/5 mL. How many mL should be administered?",
+      "explanation": "(240 ÷ 40) × 5 = 30 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q024",
+      "method": "dose/concentration",
+      "computed": 0.8,
+      "stored": 0.8,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 40 mg IM. The vial contains 50 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "40 mg ÷ 50 mg/mL = 0.8 mL; rounded to the nearest hundredth = 0.80 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q041",
+      "method": "gravity gtt/min",
+      "computed": 23,
+      "stored": 23,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 825 mL over 6 hours using gravity tubing calibrated at 10 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(825 × 10) ÷ (6 × 60) = 22.92, rounded to 23 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-3-q048",
+      "method": "pump mL/hr",
+      "computed": 109.4,
+      "stored": 109.4,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 875 mL over 8 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "875 ÷ 8 = 109.4 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q007",
+      "method": "tablets",
+      "computed": 2,
+      "stored": 2,
+      "unit": "tablets",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse checks a prescribed oral medication against the unit-dose package. The order is 250 mg PO. Tablets contain 125 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+      "explanation": "250 ÷ 125 = 2 tablets"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q015",
+      "method": "dose/concentration",
+      "computed": 26,
+      "stored": 26,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 260 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+      "explanation": "(260 ÷ 50) × 5 = 26 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q028",
+      "method": "dose/concentration",
+      "computed": 1.13,
+      "stored": 1.13,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 45 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "45 mg ÷ 40 mg/mL = 1.125 mL; rounded to the nearest hundredth = 1.13 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q031",
+      "method": "gravity gtt/min",
+      "computed": 32,
+      "stored": 32,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 900 mL over 7 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(900 × 15) ÷ (7 × 60) = 32.14, rounded to 32 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q042",
+      "method": "pump mL/hr",
+      "computed": 200,
+      "stored": 200,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1000 mL over 5 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "1000 ÷ 5 = 200 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-4-q044",
+      "method": "kg to lb",
+      "computed": 140.4,
+      "stored": 140.4,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 63.8 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "63.8 × 2.2 = 140.4 lb"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q011",
+      "method": "kg to lb",
+      "computed": 146.3,
+      "stored": 146.3,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 66.5 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "66.5 × 2.2 = 146.3 lb"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q013",
+      "method": "pump mL/hr",
+      "computed": 187.5,
+      "stored": 187.5,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1125 mL over 6 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "1125 ÷ 6 = 187.5 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q022",
+      "method": "dose/concentration",
+      "computed": 35,
+      "stored": 35,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 280 mg PO. The liquid label reads 40 mg/5 mL. How many mL should be administered?",
+      "explanation": "(280 ÷ 40) × 5 = 35 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q028",
+      "method": "gravity gtt/min",
+      "computed": 20,
+      "stored": 20,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 975 mL over 8 hours using gravity tubing calibrated at 10 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(975 × 10) ÷ (8 × 60) = 20.31, rounded to 20 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q037",
+      "method": "dose/concentration",
+      "computed": 1,
+      "stored": 1,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 50 mg IM. The vial contains 50 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "50 mg ÷ 50 mg/mL = 1 mL; rounded to the nearest hundredth = 1.00 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-5-q041",
+      "method": "tablets",
+      "computed": 4,
+      "stored": 4,
+      "unit": "tablets",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse checks a prescribed oral medication against the unit-dose package. The order is 300 mg PO. Tablets contain 75 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+      "explanation": "300 mg ordered ÷ 75 mg per tablet = 4 whole tablets. Verify the order and medication before administration."
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q001",
+      "method": "dose/concentration",
+      "computed": 30,
+      "stored": 30,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 300 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+      "explanation": "(300 ÷ 50) × 5 = 30 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q002",
+      "method": "dose/concentration",
+      "computed": 1.38,
+      "stored": 1.38,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 55 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "55 mg ÷ 40 mg/mL = 1.375 mL; rounded to the nearest hundredth = 1.38 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q009",
+      "method": "kg to lb",
+      "computed": 152.2,
+      "stored": 152.2,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 69.2 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "69.2 × 2.2 = 152.2 lb"
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q040",
+      "method": "pump mL/hr",
+      "computed": 178.6,
+      "stored": 178.6,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1250 mL over 7 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "1250 ÷ 7 = 178.6 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-6-q044",
+      "method": "gravity gtt/min",
+      "computed": 44,
+      "stored": 44,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 1050 mL over 6 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(1050 × 15) ÷ (6 × 60) = 43.75, rounded to 44 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q009",
+      "method": "dose/concentration",
+      "computed": 1.2,
+      "stored": 1.2,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 60 mg IM. The vial contains 50 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "60 mg ÷ 50 mg/mL = 1.2 mL; rounded to the nearest hundredth = 1.20 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q028",
+      "method": "dose/concentration",
+      "computed": 40,
+      "stored": 40,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 320 mg PO. The liquid label reads 40 mg/5 mL. How many mL should be administered?",
+      "explanation": "(320 ÷ 40) × 5 = 40 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q035",
+      "method": "pump mL/hr",
+      "computed": 171.9,
+      "stored": 171.9,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1375 mL over 8 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "1375 ÷ 8 = 171.9 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q043",
+      "method": "gravity gtt/min",
+      "computed": 27,
+      "stored": 27,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 1125 mL over 7 hours using gravity tubing calibrated at 10 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(1125 × 10) ÷ (7 × 60) = 26.79, rounded to 27 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-7-q045",
+      "method": "kg to lb",
+      "computed": 158.2,
+      "stored": 158.2,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 71.9 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "71.9 × 2.2 = 158.2 lb"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q003",
+      "method": "dose/concentration",
+      "computed": 1.63,
+      "stored": 1.63,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse is preparing a prescribed intramuscular medication. The prescription is 65 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+      "explanation": "65 mg ÷ 40 mg/mL = 1.625 mL; rounded to the nearest hundredth = 1.63 mL."
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q010",
+      "method": "gravity gtt/min",
+      "computed": 38,
+      "stored": 38,
+      "unit": "gtt/min",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 1200 mL over 8 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+      "explanation": "(1200 × 15) ÷ (8 × 60) = 37.50, rounded to 38 gtt/min"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q024",
+      "method": "dose/concentration",
+      "computed": 34,
+      "stored": 34,
+      "unit": "mL",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse prepares a prescribed oral liquid medication. The provider orders 340 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+      "explanation": "(340 ÷ 50) × 5 = 34 mL"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q026",
+      "method": "tablets",
+      "computed": 3,
+      "stored": 3,
+      "unit": "tablets",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse checks a prescribed oral medication against the unit-dose package. The order is 375 mg PO. Tablets contain 125 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+      "explanation": "375 mg ordered ÷ 125 mg per tablet = 3 whole tablets. Verify the order and medication before administration."
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q040",
+      "method": "pump mL/hr",
+      "computed": 300,
+      "stored": 300,
+      "unit": "mL/hr",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1500 mL over 5 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+      "explanation": "1500 ÷ 5 = 300 mL/hr"
+    },
+    {
+      "id": "fundamentals-exam-2-version-8-q049",
+      "method": "kg to lb",
+      "computed": 164.1,
+      "stored": 164.1,
+      "unit": "lb",
+      "status": "PASS_INDEPENDENT_STEM_CALC",
+      "stem": "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 74.6 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+      "explanation": "74.6 × 2.2 = 164.1 lb"
+    }
+  ]
+}

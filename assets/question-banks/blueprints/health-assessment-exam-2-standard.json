@@ -1,0 +1,82 @@
+{
+  "id": "health-assessment-exam-2-standard",
+  "course": "Health Assessment",
+  "examNumber": "Exam 2",
+  "total": 50,
+  "topics": {
+    "Chapter 15": 8,
+    "Chapter 16": 9,
+    "Chapter 17": 7,
+    "Chapter 18": 5,
+    "Chapter 19": 6,
+    "Chapter 6": 3,
+    "Chapter 25": 7,
+    "Chapter 24": 5
+  },
+  "types": {
+    "mcq": {
+      "min": 35,
+      "max": 35
+    },
+    "visual": {
+      "min": 3,
+      "max": 3
+    }
+  },
+  "policy": {
+    "selection": "Exactly 35 MCQ, 12 alternate-format (SATA/matching), 3 visual and exact topic/subtopic quotas; only approved questions.",
+    "source": "3120 Fall 2026 Exam Two Blueprint.pdf"
+  },
+  "subtopics": {
+    "Chapter 15": {
+      "Thyroid disorders": 1,
+      "Lymph nodes": 2,
+      "TBI prevention": 1,
+      "Headaches": 3,
+      "Abnormal thyroid follow-up": 1
+    },
+    "Chapter 16": {
+      "Objective eye assessment": 4,
+      "Eye diseases": 3,
+      "Eye terminology": 1,
+      "Exophthalmos": 1
+    },
+    "Chapter 17": {
+      "Tinnitus": 1,
+      "Tympanic membrane": 4,
+      "Hearing loss prevention": 1,
+      "Older adult presbycusis": 1
+    },
+    "Chapter 18": {
+      "Tonsils": 1,
+      "Nose and sinuses": 1,
+      "Sinusitis teaching": 1,
+      "Tongue": 1,
+      "Oral cancer risk": 1
+    },
+    "Chapter 19": {
+      "Breath sound locations": 1,
+      "COPD": 2,
+      "Lung cancer risk": 1,
+      "Lung auscultation technique": 1,
+      "Respiratory terminology": 1
+    },
+    "Chapter 6": {
+      "Substance misuse": 1,
+      "Alzheimer assessment": 1,
+      "Level of consciousness": 1
+    },
+    "Chapter 25": {
+      "Cranial nerves": 5,
+      "Stroke risks": 1,
+      "Romberg": 1
+    },
+    "Chapter 24": {
+      "Elbow and wrist range of motion": 2,
+      "Osteoporosis risk": 1,
+      "Feet/ankles and gout": 1,
+      "Older adult fall risk": 1
+    }
+  },
+  "alternateFormatCount": 12
+}

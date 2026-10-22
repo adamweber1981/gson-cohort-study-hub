@@ -1,0 +1,51 @@
+{
+  "id": "health-assessment-exam-2-bank-audit",
+  "date": "2026-10-22",
+  "status": "MASTER_BANK_CREATED",
+  "originalExams": 8,
+  "extractedQuestions": 400,
+  "uniqueLegacyQuestions": 165,
+  "duplicatesRemoved": 235,
+  "cranialNerveSupplementQuestions": 24,
+  "blueprintGapSupplementQuestions": 5,
+  "totalBankQuestions": 194,
+  "cranialNerves": {
+    "I": 2,
+    "II": 2,
+    "III": 2,
+    "IV": 2,
+    "V": 2,
+    "VI": 2,
+    "VII": 2,
+    "VIII": 2,
+    "IX": 2,
+    "X": 2,
+    "XI": 2,
+    "XII": 2
+  },
+  "chapterCounts": {
+    "6": 15,
+    "15": 25,
+    "16": 29,
+    "17": 21,
+    "18": 15,
+    "19": 18,
+    "24": 16,
+    "25": 55
+  },
+  "structuralErrors": [],
+  "coverageGapsFilled": [
+    "Chapter 15 TBI prevention",
+    "Chapter 16 eye terminology",
+    "Chapter 16 exophthalmos",
+    "Chapter 18 sinusitis education",
+    "Chapter 19 lung cancer risk factors"
+  ],
+  "notes": [
+    "Deduplication used normalized question-stem equality; similar paraphrases may remain.",
+    "Existing legacy question answers and rationales were preserved, not independently reverified against every PDF.",
+    "Five missing topic questions were added using relevant course PDFs.",
+    "Three legacy diagram questions were converted to text-only MCQ and flagged visualReviewNeeded; image assets are not embedded.",
+    "Bank creation only. Exam blueprint selection and website link replacement are separate tasks."
+  ]
+}

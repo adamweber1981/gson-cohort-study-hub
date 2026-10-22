@@ -1,0 +1,15 @@
+{
+  "id": "health-assessment-exam-2-key-structure-audit",
+  "date": "2026-10-22",
+  "questionCount": 165,
+  "checks": [
+    "Answer indices in range",
+    "Matching prompt-to-answer cardinality",
+    "Citation metadata",
+    "Rationale present",
+    "Diagram references for picture items"
+  ],
+  "faults": [],
+  "warnings": [],
+  "interpretation": "All structural checks passing does not establish semantic accuracy against the course PDFs; separate source-content review required."
+}

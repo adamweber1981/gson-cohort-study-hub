@@ -1,0 +1,42 @@
+{
+  "id": "health-assessment-exam-2-production-validation",
+  "date": "2026-10-22",
+  "branch": "pwa-redesign",
+  "bank": "assets/question-banks/health-assessment-exam-2-standard.json",
+  "status": "PRODUCTION_ENGINE_STRUCTURAL_PASS_WITH_PRACTICE_CONTENT_CAVEATS",
+  "scope": {
+    "extractedLegacy": 400,
+    "deduplicatedRetained": 165,
+    "scenarioAdaptations": 235,
+    "productionPool": 400,
+    "originalLegacyFilesPreserved": true
+  },
+  "checks": {
+    "uniqueQuestionIds": 400,
+    "validAnswerKeys": 400,
+    "requiredSourceLinksAndRationales": 400,
+    "blueprintQuestions": 50,
+    "exactSubtopicSlots": 33,
+    "mcq": 35,
+    "alternateFormat": 12,
+    "pictureBased": 3,
+    "selectionFeasible": true,
+    "illustrationsRestored": [
+      "field",
+      "lungs",
+      "elbow"
+    ],
+    "pictureSourceSpotChecks": [
+      "Chapter 16: peripheral field loss and glaucoma",
+      "Chapter 19: vesicular breath sounds and normal locations",
+      "Chapter 24: elbow flexion decreases joint angle"
+    ]
+  },
+  "acceptanceStandard": "Reasonable alignment with supplied course materials and coherent keyed answers, not independent external clinical certification.",
+  "limitations": [
+    "All 400 question sources and rationales are structurally present, but 400 individual page references were not each independently rechecked against the original PDFs in this final pass.",
+    "235 scenario-adapted variants inherit their source/rationale from the legacy item; this is acceptable as course practice but not an independent review of every adaptation.",
+    "Blueprint format quotas and 33 subtopic quotas were validated through a separate allocation simulation; a live browser exam attempt and Cloudflare deployment have not been verified."
+  ],
+  "result": "Ready for student-facing practice engine under course-material standard, subject to live browser smoke test."
+}

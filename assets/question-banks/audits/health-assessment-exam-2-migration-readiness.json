@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22",
+  "branch": "pwa-redesign",
+  "course": "Health Assessment",
+  "exam": "Exam 2",
+  "status": "READY_FOR_BROWSER_ACCEPTANCE_NOT_YET_MERGED",
+  "migration": {
+    "legacyExamPages": 8,
+    "legacyQuestionsExtracted": 400,
+    "distinctLegacyQuestions": 157,
+    "courseAlignedSupplementalQuestions": 8,
+    "retainedBank": 165,
+    "discardedArtificialPrefixRewrites": 235,
+    "oldExamCardsRemoved": true,
+    "phase2DemoRemoved": true,
+    "legacyFilesPreserved": true
+  },
+  "blueprint": {
+    "total": 50,
+    "chapterQuotas": true,
+    "subtopicQuotas": true,
+    "questionFormats": {
+      "multipleChoice": 35,
+      "alternateSataMatching": 12,
+      "visual": 3
+    },
+    "structuralFeasibilityConfirmed": true,
+    "uniqueSelectionEnforced": true
+  },
+  "diagrams": {
+    "remaining": 3,
+    "requiredForPictureQuestionFormat": true,
+    "unnecessaryRemoved": 3
+  },
+  "questionQA": {
+    "allKeysStructurallyValid": true,
+    "allQuestionsHaveSourcePage": true,
+    "reviewLevel": "Course-document alignment, not independent medical-level clinical review",
+    "fullManualSourcePageByPageVerification": false
+  },
+  "releaseGates": {
+    "githubMainUnchanged": true,
+    "liveBrowserAttemptNotVerified": true,
+    "cloudflareDeploymentNotVerified": true
+  },
+  "notes": [
+    "Original eight HTML exams remain in the repository but are not linked on Health Assessment course page.",
+    "165-question bank is substantively broader than one 50-question attempt; artificial stem-prefix clones were removed.",
+    "Picture-based questions retain exactly three instructional diagrams as required by the supplied blueprint."
+  ]
+}

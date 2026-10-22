@@ -1,0 +1,175 @@
+{
+  "id": "fundamentals-exam-2-audit-batch-01",
+  "scope": "Rebuilt Exam 1 questions 001–020",
+  "status": "EDITORIAL_FIRST_PASS_SOURCE_VERIFICATION_PENDING",
+  "reviewedAt": "2026-10-22",
+  "counts": {
+    "reviewed": 20,
+    "provisionalPass": 16,
+    "revise": 4,
+    "approved": 0
+  },
+  "rules": "PROVISIONAL_PASS is not clinical/source-approved; all 20 excluded from active bank pending source verification and mobile/visual checks.",
+  "questions": [
+    {
+      "id": "fund-e2-rebuilt-1-q001",
+      "status": "REVISE",
+      "notes": "The stem describes an informal walk, but the rationale names a six-minute walk assessment without establishing standardized test conditions. Specify a six-minute walk test or remove that specificity.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q002",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Clear safety priority and appropriate less-restrictive-first answer; verify facility-policy wording.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q003",
+      "status": "REVISE",
+      "notes": "Correct ignition-risk concept, but three unrelated distractors make the answer trivial; replace with plausible home-safety questions.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q004",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Stem and response align; reducing competing stimuli is appropriate. Confirm source terminology.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q005",
+      "status": "PROVISIONAL_PASS",
+      "notes": "SATA choices align with nonpharmacologic comfort measures; preserve caveat that analgesia is not withheld.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q006",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Appropriate away-from-window tornado response; clarify relocation to designated interior area when feasible.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q007",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Clear evaluation of bronchodilator benefit; key is clinically coherent.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q008",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Independently checked 600 mL × 15 gtt/mL ÷ 300 min = 30 gtt/min; key matches.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q009",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Clear localized-pain distinction and appropriate keyed choice.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q010",
+      "status": "REVISE",
+      "notes": "Generic patient safety event description ('incident that reaches a patient') can overlap sentinel/never events; matching categories are not mutually exclusive. Clarify terminology or replace one pair.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q011",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Recognizes opioid-associated respiratory depression and prioritizes airway/breathing and urgent escalation; may strengthen with emergency protocol.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q012",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Independently checked 80 mg × 5 mL / 40 mg = 10 mL; key matches. Pediatric appropriateness of ordered dose is not assessable from stem.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q013",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Correctly identifies medication-to-wrong-patient event even without apparent injury.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q014",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Oxygen fire-safety teaching is coherent; check institutional product guidance.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q015",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Correct SATA set on participation, functional goals, and PCA safety.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q016",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Independently checked 150 mg × 5 mL / 75 mg = 10 mL; key matches.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q017",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Independently checked 54.5 × 2.2 = 119.9 lb; keyed rounding correct.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q018",
+      "status": "REVISE",
+      "notes": "Classification terminology such as 'bioenergetic' needs exact course-source verification; check whether Reiki is labeled energy therapy and whether classification schema is current.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q019",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Clearly tests loss of protective sensation; no pain does not exclude injury.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    },
+    {
+      "id": "fund-e2-rebuilt-1-q020",
+      "status": "PROVISIONAL_PASS",
+      "notes": "Appropriate electrical-device safety priority; remove from service and report.",
+      "sourceVerification": "Course PDF page not independently inspected.",
+      "visualAndMobile": "NOT_TESTED",
+      "approvedForActiveBank": false
+    }
+  ]
+}

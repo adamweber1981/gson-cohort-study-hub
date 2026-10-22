@@ -1,0 +1,86 @@
+.exam-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:22px;padding-bottom:22px}.exam-top a{font-weight:700;color:var(--accent)}#exam-meta{font-weight:750}.exam-top button,.exam-layout button{border:1px solid var(--border);border-radius:12px;background:var(--surface2);color:var(--ink);padding:11px 16px}.exam-layout{max-width:850px;padding-top:28px;padding-bottom:65px}.exam-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:clamp(18px,4vw,32px)}.exam-card h1{font-size:clamp(23px,3vw,34px);line-height:1.3}.exam-card fieldset{border:0;padding:0;margin:24px 0}.exam-card legend{font-weight:700;margin-bottom:12px}.answer-option{display:flex;align-items:flex-start;gap:12px;padding:14px;margin:10px 0;border:1px solid var(--border);border-radius:12px;background:var(--surface2);cursor:pointer}.answer-option input{margin-top:5px;accent-color:var(--accent)}.match-row{display:grid;gap:8px;margin:14px 0}.match-row select,.match-row input,.exam-card input[type=number]{background:var(--surface2);color:var(--ink);border:1px solid var(--border);padding:12px;border-radius:9px;max-width:100%}#exam-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}#exam-actions button:first-child{background:var(--accent);color:var(--accent-ink);font-weight:800}button:disabled{opacity:.45;cursor:not-allowed}.feedback{border-left:4px solid var(--accent);background:var(--surface2);padding:16px 20px;border-radius:12px}.source,.source a{color:var(--accent)}.case-panel{background:var(--surface2);padding:18px;border-radius:12px;white-space:pre-wrap}.score{font-size:56px;font-weight:850;color:var(--accent);margin:8px 0}.review-item{border-top:1px solid var(--border);padding:24px 0}.review-item h2{font-size:20px}.exam-layout>button{margin-top:20px}@media(max-width:600px){.exam-top{align-items:flex-start}.exam-top #exam-meta{order:3;width:100%}}
+/* Phase 2: semantic exam action colors; available in all five themes. */
+:root{--exam-purple:#7254ba;--exam-teal:#176c8a;--exam-green:#237653;--exam-slate:#44536a}
+#exam-actions button.action-submit{background:var(--exam-purple);color:#fff;border-color:transparent}
+#exam-actions button.action-next{background:var(--exam-teal);color:#fff;border-color:transparent}
+#exam-actions button.action-score{background:var(--exam-green);color:#fff;border-color:transparent}
+#exam-actions button.action-review{background:var(--exam-slate);color:#fff;border-color:transparent}
+#exam-actions button:focus-visible,.report-link:focus-visible{outline:3px solid var(--exam-teal);outline-offset:3px}
+.feedback-correct{border-left-color:#237653;background:rgba(35,118,83,.12)}
+.feedback-incorrect{border-left-color:#bc4e4e;background:rgba(188,78,78,.12)}
+.feedback-correct h2{color:#3ba77d}.feedback-incorrect h2{color:#e06d6d}
+[data-theme="light"] .feedback-correct h2{color:#166244}
+[data-theme="light"] .feedback-incorrect h2{color:#9c3030}
+.report-link{display:inline-flex;align-items:center;margin:4px 0 16px;padding:7px 0!important;border:0!important;background:transparent!important;color:var(--ink)!important;text-decoration:underline;text-underline-offset:3px;font-size:.9rem;cursor:pointer}
+#report-dialog{width:min(94vw,560px);max-height:90vh;overflow:auto;border:1px solid var(--border);border-radius:16px;padding:24px;background:var(--surface);color:var(--ink);box-shadow:0 16px 65px #0005}
+#report-dialog::backdrop{background:rgba(0,0,0,.65)}
+.report-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.report-head h2{margin:0}.report-head button{background:transparent;border:1px solid var(--border);color:var(--ink);border-radius:9px;padding:8px 12px}
+#report-form{display:grid;gap:12px;margin-top:18px}#report-form label{font-weight:650}#report-form select,#report-form textarea,#report-preview{width:100%;box-sizing:border-box;padding:12px;border:1px solid var(--border);border-radius:10px;background:var(--surface2);color:var(--ink)}
+#report-form button,#copy-report{background:var(--exam-teal);color:#fff;border:0;border-radius:10px;padding:12px 16px;font-weight:700;cursor:pointer}
+#report-preview{margin:12px 0;white-space:pre-wrap}#report-status{font-size:.92rem}
+
+/* In-page overlays keep exam attempts and review state intact. */
+#report-dialog{width:min(96vw,850px)}#report-frame{width:100%;height:min(65vh,680px);border:1px solid var(--border);border-radius:10px;margin-top:12px;background:#fff}
+.exam-overlay{width:min(96vw,1050px);height:min(92vh,900px);max-height:92vh;padding:18px;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:16px;box-shadow:0 16px 65px #0005}
+.exam-overlay::backdrop{background:rgba(0,0,0,.65)}.exam-overlay .report-head{margin-bottom:12px}.exam-overlay iframe{width:100%;height:calc(100% - 65px);border:1px solid var(--border);border-radius:8px;background:#fff}
+#references-dialog{height:auto;max-height:85vh}#references-list{display:grid;gap:10px;margin-top:18px}#references-list button{padding:14px;text-align:left;border:1px solid var(--border);border-radius:10px;background:var(--surface2);color:var(--ink);cursor:pointer}
+.source a{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.source a:hover,.report-link:hover{opacity:.75}
+
+#report-fallback{display:block;margin:12px 0;color:var(--accent);text-decoration:underline}#report-fallback[hidden],#report-frame[hidden],#report-form[hidden],#copy-report[hidden],#report-preview[hidden]{display:none!important}
+
+#reference-text{white-space:pre-wrap;overflow:auto;overflow-wrap:anywhere;font:inherit;line-height:1.65;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:22px;max-height:calc(90vh - 120px);margin:0}#reference-text[hidden],#reference-frame[hidden]{display:none!important}#reference-status{margin:12px 0}
+
+/* iOS Safari auto-zooms focused inputs with computed font sizes below 16px. */
+@media(max-width:767px){.exam-card input[type=number],.exam-card input[type=text],.exam-card select,#report-form select,#report-form textarea,#report-preview{font-size:16px!important;line-height:1.4}.exam-card input[type=number]{width:min(100%,240px);min-height:48px;box-sizing:border-box}.exam-card .match-row select{width:100%}}
+
+/* Keep dosage label and input on separate lines to prevent horizontal viewport expansion on iPhone. */
+html,body{max-width:100%;overflow-x:clip}
+.exam-layout,.exam-card,#exam-root,.exam-card fieldset{min-width:0;max-width:100%}
+.exam-card h1,.exam-card legend,.exam-card p,.dosage-entry{overflow-wrap:anywhere}
+.dosage-entry{display:flex;flex-direction:column;align-items:flex-start;gap:12px;max-width:100%;font-size:16px;line-height:1.5}
+.dosage-entry span{display:block;max-width:100%}
+.exam-card .dosage-entry input[type=number]{display:block;width:min(100%,280px);max-width:100%;font-size:16px!important;min-height:48px}
+@media(max-width:600px){.exam-layout{padding-top:16px}.exam-card{padding:18px 14px}.exam-card h1{font-size:clamp(22px,6vw,28px);line-height:1.3}.exam-card legend{font-size:17px}}
+
+/* Optional student palette: colors follow displayed position, never correctness. */
+html:not([data-answer-palette="default"]) .answer-option.answer-color-0{background:var(--answer-bg-0);color:var(--answer-fg-0);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option.answer-color-1{background:var(--answer-bg-1);color:var(--answer-fg-1);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option.answer-color-2{background:var(--answer-bg-2);color:var(--answer-fg-2);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option.answer-color-3{background:var(--answer-bg-3);color:var(--answer-fg-3);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option input{accent-color:currentColor}
+.answer-option:has(input:checked){outline:3px solid var(--focus);outline-offset:1px}
+
+/* Phase 2 mobile navigation: keep Return to Hub reachable during iOS rubber-band scrolling. */
+.exam-top{
+ position:sticky;
+ top:0;
+ z-index:30;
+ background:var(--bg);
+ border-bottom:1px solid var(--border);
+ padding-top:12px;
+ padding-bottom:12px;
+}
+@supports (padding-top:env(safe-area-inset-top)){
+ .exam-top{padding-top:max(12px,env(safe-area-inset-top))}
+}
+.exam-top #return-hub{
+ display:inline-flex;
+ align-items:center;
+ min-height:44px;
+ padding:6px 10px;
+ border-radius:10px;
+ background:var(--surface);
+ border:1px solid var(--border);
+ text-decoration:none;
+}
+.exam-top #return-hub:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+@media(max-width:600px){
+ .exam-top{gap:8px 10px;align-items:center}
+ .exam-top #exam-meta{order:3;width:100%;font-size:13px;line-height:1.35}
+ .exam-top #reset-exam{padding:8px 12px}
+}
+
+/* Mobile reference PDF navigation */
+.reference-navigation{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0;padding:8px 0}.reference-navigation[hidden]{display:none!important}.reference-navigation button,.reference-navigation a{padding:9px 11px;border-radius:8px;min-height:42px}.reference-navigation label{display:flex;align-items:center;gap:6px}.reference-navigation input{width:65px;min-height:42px;padding:6px;color:var(--ink);background:var(--surface);border:1px solid var(--border);border-radius:6px}.reference-navigation a{color:var(--ink);background:var(--surface2);border:1px solid var(--border);text-decoration:none}.exam-overlay:has(.reference-navigation:not([hidden])) #reference-frame{height:calc(100% - 145px);min-height:180px}@media(max-width:600px){#reference-dialog{width:100vw;max-width:100vw;height:100dvh;max-height:100dvh;margin:0;border-radius:0;padding:12px;overflow:auto}.reference-navigation{position:sticky;top:0;z-index:2;background:var(--surface)}.exam-overlay:has(.reference-navigation:not([hidden])) #reference-frame{height:calc(100dvh - 240px);min-height:240px}}
+
+#reference-canvas-wrap{overflow:auto;overscroll-behavior:contain;height:calc(100% - 160px);min-height:250px;text-align:center;background:#e5e5e5;border-radius:8px;padding:8px;-webkit-overflow-scrolling:touch}#reference-canvas-wrap[hidden],#reference-canvas[hidden]{display:none!important}#reference-canvas{display:block;width:auto;max-width:100%;height:auto;margin:0 auto;background:#fff;box-shadow:0 2px 8px #0003}@media(max-width:600px){#reference-canvas-wrap{height:calc(100dvh - 220px);min-height:200px}.reference-navigation{gap:6px}.reference-navigation button,.reference-navigation a{font-size:13px}}
