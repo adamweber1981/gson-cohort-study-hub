@@ -132,60 +132,24 @@ const STUDY_HUB = [
       },
 
       // COURSE 3: Health Assessment
-      
-{
-  course: "Health Assessment",
-  updatedAt: "2026-10-18", // Baseline date for the latest course update.
-  icon: "🩺",
-  description: "Dynamically Randomized Assessments exploriong techniques, findings, documentation & clinical judgment used every day by nurses everywhere",
-  exams: [
-    {
-      name: "Exam 2",
-      versions: [
-        {
-          version: "2A",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 1.html",
-          description: "50-question NCLEX-style practice exam with immediate feedback."
-        },
-        {
-          version: "2B",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 2.html",
-          description: "Second 50-question clinical assessment practice exam."
-        },
-        {
-          version: "2C",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 3.html",
-          description: "Randomized 50-question review with an alternate mix of assessment scenarios."
-        },
-        {
-          version: "2D",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 4.html",
-          description: "Fourth randomized 50-question practice set with source-linked rationales."
-        },
-                {
-          version: "2E",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 5.html",
-          description: "50-question randomized practice exam, Version 5, with in-page source review and downloadable references."
-        },
-        {
-          version: "2F",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 6.html",
-          description: "50-question randomized practice exam, Version 6, with in-page source review and downloadable references."
-        },
-        {
-          version: "2G",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 7.html",
-          description: "50-question randomized practice exam, Version 7, with in-page source review and downloadable references."
-        },
-        {
-          version: "2H",
-          file: "Assessments/Exam 2/Health Assessment Exam 2 - Version 8.html",
-          description: "50-question randomized practice exam, Version 8, with in-page source review and downloadable references."
-        }
-      ]
-    }
-  ]
-},
+      {
+        course: "Health Assessment",
+        updatedAt: "2026-10-22",
+        icon: "🩺",
+        description: "Assessment techniques, findings, documentation and clinical judgment",
+        exams: [
+          {
+            name: "Exam 2",
+            versions: [
+              {
+                version: "Standard Exam Engine",
+                file: "exam.html?bank=health-assessment-exam-2-standard",
+                description: "50 randomized practice questions drawn from the deduplicated course-source bank, with blueprint chapter and question-format quotas."
+              }
+            ]
+          }
+        ]
+      },
       // COURSE 4: Fundamentals
       {
         course: "Fundamentals",
