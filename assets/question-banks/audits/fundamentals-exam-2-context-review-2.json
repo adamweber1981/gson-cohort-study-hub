@@ -1,0 +1,475 @@
+{
+  "status": "CANDIDATE_REVIEW_NOT_FINAL",
+  "method": "Contextual exact-stem comparison of choices, keys, rationales, sources, diagrams, type and topic; separate numeric-template grouping. Do not automatically merge numeric variants or questions with conflicting fields.",
+  "totals": {
+    "entries": 600,
+    "exactStemGroups": 31,
+    "exactStemGroupsWithContentDifferences": 2,
+    "exactStemGroupsFullyIdenticalOnComparedFields": 29,
+    "numericTemplateGroups": 29,
+    "numericTemplateAdditionalEntries": 87
+  },
+  "exactStemDiscrepancies": [
+    {
+      "members": [
+        "fundamentals-exam-2-version-1-q027",
+        "fundamentals-exam-2-version-1-q028",
+        "fundamentals-exam-2-version-1-q040"
+      ],
+      "stem": "Match each clinical concept to its best description.",
+      "differingFields": [
+        "source",
+        "topic"
+      ]
+    },
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q027",
+        "fundamentals-exam-2-version-4-q007",
+        "fundamentals-exam-2-version-6-q013"
+      ],
+      "stem": "The nurse checks a prescribed oral medication against the unit-dose package. The order is 250 mg PO. Tablets contain 125 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+      "differingFields": [
+        "options",
+        "rationale"
+      ]
+    }
+  ],
+  "numericTemplateCandidates": [
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q017",
+        "fundamentals-exam-2-version-3-q024",
+        "fundamentals-exam-2-version-4-q028",
+        "fundamentals-exam-2-version-5-q037",
+        "fundamentals-exam-2-version-6-q002",
+        "fundamentals-exam-2-version-7-q009",
+        "fundamentals-exam-2-version-8-q003"
+      ],
+      "stems": [
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 35 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 40 mg IM. The vial contains 50 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 45 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 50 mg IM. The vial contains 50 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 55 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 60 mg IM. The vial contains 50 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter.",
+        "The nurse is preparing a prescribed intramuscular medication. The prescription is 65 mg IM. The vial contains 40 mg/mL. How many mL should the nurse prepare? Round the volume to the nearest hundredth of a milliliter."
+      ],
+      "sameAnswer": true
+    },
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q027",
+        "fundamentals-exam-2-version-3-q006",
+        "fundamentals-exam-2-version-5-q041",
+        "fundamentals-exam-2-version-8-q026"
+      ],
+      "stems": [
+        "The nurse checks a prescribed oral medication against the unit-dose package. The order is 250 mg PO. Tablets contain 125 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+        "The nurse checks a prescribed oral medication against the unit-dose package. The order is 225 mg PO. Tablets contain 75 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+        "The nurse checks a prescribed oral medication against the unit-dose package. The order is 300 mg PO. Tablets contain 75 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only.",
+        "The nurse checks a prescribed oral medication against the unit-dose package. The order is 375 mg PO. Tablets contain 125 mg each. How many tablets will the nurse administer? Assume the prescribed dose is appropriate and administer whole tablets only."
+      ],
+      "sameAnswer": true
+    },
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q032",
+        "fundamentals-exam-2-version-3-q005",
+        "fundamentals-exam-2-version-4-q044",
+        "fundamentals-exam-2-version-5-q011",
+        "fundamentals-exam-2-version-6-q009",
+        "fundamentals-exam-2-version-7-q045",
+        "fundamentals-exam-2-version-8-q049"
+      ],
+      "stems": [
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 58.4 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 61.1 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 63.8 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 66.5 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 69.2 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 71.9 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb.",
+        "The nurse needs to document the patient’s weight in pounds for a clinical calculation. A client weighs 74.6 kg. Convert the weight to pounds (nearest tenth). Use 1 kg = 2.2 lb."
+      ],
+      "sameAnswer": true
+    },
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q035",
+        "fundamentals-exam-2-version-3-q041",
+        "fundamentals-exam-2-version-4-q031",
+        "fundamentals-exam-2-version-5-q028",
+        "fundamentals-exam-2-version-6-q044",
+        "fundamentals-exam-2-version-7-q043",
+        "fundamentals-exam-2-version-8-q010"
+      ],
+      "stems": [
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 750 mL over 8 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 825 mL over 6 hours using gravity tubing calibrated at 10 gtt/mL. Round to a whole drop. How many gtt/min?",
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 900 mL over 7 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 975 mL over 8 hours using gravity tubing calibrated at 10 gtt/mL. Round to a whole drop. How many gtt/min?",
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 1050 mL over 6 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?",
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 1125 mL over 7 hours using gravity tubing calibrated at 10 gtt/mL. Round to a whole drop. How many gtt/min?",
+        "An IV pump is unavailable, and the nurse uses gravity tubing. Infuse 1200 mL over 8 hours using gravity tubing calibrated at 15 gtt/mL. Round to a whole drop. How many gtt/min?"
+      ],
+      "sameAnswer": true
+    },
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q037",
+        "fundamentals-exam-2-version-3-q048",
+        "fundamentals-exam-2-version-4-q042",
+        "fundamentals-exam-2-version-5-q013",
+        "fundamentals-exam-2-version-6-q040",
+        "fundamentals-exam-2-version-7-q035",
+        "fundamentals-exam-2-version-8-q040"
+      ],
+      "stems": [
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 750 mL over 7 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 875 mL over 8 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1000 mL over 5 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1125 mL over 6 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1250 mL over 7 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1375 mL over 8 hours. What rate in mL/hr should be programmed (nearest tenth)?",
+        "A patient has a prescribed IV fluid infusion. An IV pump must infuse 1500 mL over 5 hours. What rate in mL/hr should be programmed (nearest tenth)?"
+      ],
+      "sameAnswer": true
+    },
+    {
+      "members": [
+        "fundamentals-exam-2-version-2-q049",
+        "fundamentals-exam-2-version-3-q017",
+        "fundamentals-exam-2-version-4-q015",
+        "fundamentals-exam-2-version-5-q022",
+        "fundamentals-exam-2-version-6-q001",
+        "fundamentals-exam-2-version-7-q028",
+        "fundamentals-exam-2-version-8-q024"
+      ],
+      "stems": [
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 220 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 240 mg PO. The liquid label reads 40 mg/5 mL. How many mL should be administered?",
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 260 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 280 mg PO. The liquid label reads 40 mg/5 mL. How many mL should be administered?",
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 300 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?",
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 320 mg PO. The liquid label reads 40 mg/5 mL. How many mL should be administered?",
+        "The nurse prepares a prescribed oral liquid medication. The provider orders 340 mg PO. The liquid label reads 50 mg/5 mL. How many mL should be administered?"
+      ],
+      "sameAnswer": true
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q001",
+        "fundamentals-med-math-1-q007",
+        "fundamentals-med-math-1-q028",
+        "fundamentals-med-math-2-q009",
+        "fundamentals-med-math-2-q013"
+      ],
+      "stems": [
+        "The nurse must infuse a 250 mL IV medication piggyback over 75 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "The nurse must infuse a 100 mL IV medication piggyback over 45 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "The nurse must infuse a 200 mL IV medication piggyback over 90 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "The nurse must infuse a 150 mL IV medication piggyback over 60 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "The nurse must infuse a 120 mL IV medication piggyback over 40 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q002",
+        "fundamentals-med-math-2-q031"
+      ],
+      "stems": [
+        "A patient with a chronic wound has an order for 12 mg of an injectable medication. The vial is labeled 20 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "A patient with a chronic wound has an order for 40 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q003",
+        "fundamentals-med-math-2-q049"
+      ],
+      "stems": [
+        "The nurse cares for a patient admitted with pneumonia. The prescription is 750 mg PO. Available tablets contain 250 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "The nurse cares for a patient admitted with pneumonia. The prescription is 650 mg PO. Available tablets contain 325 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q004",
+        "fundamentals-med-math-1-q049",
+        "fundamentals-med-math-2-q027"
+      ],
+      "stems": [
+        "The triage nurse records a weight of 132 lb. A dosing worksheet requires kilograms. Using 1 kg = 2.2 lb, what weight should be entered? Round to the nearest tenth.",
+        "The triage nurse records a weight of 110 lb. A dosing worksheet requires kilograms. Using 1 kg = 2.2 lb, what weight should be entered? Round to the nearest tenth.",
+        "The triage nurse records a weight of 154 lb. A dosing worksheet requires kilograms. Using 1 kg = 2.2 lb, what weight should be entered? Round to the nearest tenth."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q005",
+        "fundamentals-med-math-1-q012",
+        "fundamentals-med-math-1-q016",
+        "fundamentals-med-math-1-q037",
+        "fundamentals-med-math-1-q040",
+        "fundamentals-med-math-2-q001",
+        "fundamentals-med-math-2-q005",
+        "fundamentals-med-math-2-q025",
+        "fundamentals-med-math-2-q033",
+        "fundamentals-med-math-2-q043"
+      ],
+      "stems": [
+        "During a shift, a patient drinks 4 fl oz of juice and 1.5 cup(s) of broth, receives 250 mL of IV fluid and 15 mL of liquid medication, and is given 120 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 4 fl oz of juice and 1 cup(s) of broth, receives 400 mL of IV fluid and 15 mL of liquid medication, and is given 0 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 8 fl oz of juice and 0.5 cup(s) of broth, receives 250 mL of IV fluid and 15 mL of liquid medication, and is given 240 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 4 fl oz of juice and 0.5 cup(s) of broth, receives 200 mL of IV fluid and 10 mL of liquid medication, and is given 240 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 4 fl oz of juice and 0.5 cup(s) of broth, receives 100 mL of IV fluid and 10 mL of liquid medication, and is given 120 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 10 fl oz of juice and 0.5 cup(s) of broth, receives 400 mL of IV fluid and 15 mL of liquid medication, and is given 120 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 4 fl oz of juice and 0.5 cup(s) of broth, receives 400 mL of IV fluid and 5 mL of liquid medication, and is given 240 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 8 fl oz of juice and 0.5 cup(s) of broth, receives 200 mL of IV fluid and 15 mL of liquid medication, and is given 120 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 4 fl oz of juice and 1.5 cup(s) of broth, receives 200 mL of IV fluid and 15 mL of liquid medication, and is given 240 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "During a shift, a patient drinks 4 fl oz of juice and 0.5 cup(s) of broth, receives 250 mL of IV fluid and 10 mL of liquid medication, and is given 0 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q006",
+        "fundamentals-med-math-1-q023",
+        "fundamentals-med-math-1-q027",
+        "fundamentals-med-math-2-q030",
+        "fundamentals-med-math-2-q046"
+      ],
+      "stems": [
+        "An IV prescription directs 750 mL of normal saline over 6 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "An IV prescription directs 1,000 mL of normal saline over 8 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "An IV prescription directs 1,200 mL of normal saline over 10 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "An IV prescription directs 1,000 mL of normal saline over 10 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "An IV prescription directs 500 mL of normal saline over 4 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q008",
+        "fundamentals-med-math-1-q021",
+        "fundamentals-med-math-2-q008",
+        "fundamentals-med-math-2-q017",
+        "fundamentals-med-math-2-q044"
+      ],
+      "stems": [
+        "An adult patient weighs 55 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "An adult patient weighs 80 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "An adult patient weighs 72.5 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "An adult patient weighs 48.5 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "An adult patient weighs 68 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q011",
+        "fundamentals-med-math-1-q024",
+        "fundamentals-med-math-1-q031",
+        "fundamentals-med-math-2-q016",
+        "fundamentals-med-math-2-q040",
+        "fundamentals-med-math-2-q048"
+      ],
+      "stems": [
+        "For a postoperative patient, the nurse records urine 350 mL, emesis 50 mL, and wound drainage 60 mL. The patient received 1500 mL of intake. What total output should be documented?",
+        "For a postoperative patient, the nurse records urine 350 mL, emesis 150 mL, and wound drainage 60 mL. The patient received 1200 mL of intake. What total output should be documented?",
+        "For a postoperative patient, the nurse records urine 700 mL, emesis 75 mL, and wound drainage 40 mL. The patient received 1500 mL of intake. What total output should be documented?",
+        "For a postoperative patient, the nurse records urine 550 mL, emesis 0 mL, and wound drainage 80 mL. The patient received 900 mL of intake. What total output should be documented?",
+        "For a postoperative patient, the nurse records urine 550 mL, emesis 100 mL, and wound drainage 25 mL. The patient received 1500 mL of intake. What total output should be documented?",
+        "For a postoperative patient, the nurse records urine 600 mL, emesis 50 mL, and wound drainage 25 mL. The patient received 900 mL of intake. What total output should be documented?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q013",
+        "fundamentals-med-math-2-q022"
+      ],
+      "stems": [
+        "The provider orders 150 mg of a liquid medication for a patient admitted with pneumonia. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "The provider orders 125 mg of a liquid medication for a patient admitted with pneumonia. The bottle is labeled 250 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q015",
+        "fundamentals-med-math-1-q044",
+        "fundamentals-med-math-2-q004",
+        "fundamentals-med-math-2-q032"
+      ],
+      "stems": [
+        "The prescription lists a dose of 250 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C.",
+        "The prescription lists a dose of 50 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C.",
+        "The prescription lists a dose of 500 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C.",
+        "The prescription lists a dose of 75 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q017",
+        "fundamentals-med-math-1-q018",
+        "fundamentals-med-math-1-q019",
+        "fundamentals-med-math-2-q002",
+        "fundamentals-med-math-2-q003",
+        "fundamentals-med-math-2-q039"
+      ],
+      "stems": [
+        "An infusion pump is unavailable. The nurse must deliver 150 mL of prescribed IV fluid over 45 minutes using tubing calibrated at 20 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "An infusion pump is unavailable. The nurse must deliver 1,000 mL of prescribed IV fluid over 600 minutes using tubing calibrated at 15 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "An infusion pump is unavailable. The nurse must deliver 250 mL of prescribed IV fluid over 60 minutes using tubing calibrated at 10 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "An infusion pump is unavailable. The nurse must deliver 1,000 mL of prescribed IV fluid over 480 minutes using tubing calibrated at 15 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "An infusion pump is unavailable. The nurse must deliver 750 mL of prescribed IV fluid over 360 minutes using tubing calibrated at 10 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "An infusion pump is unavailable. The nurse must deliver 500 mL of prescribed IV fluid over 240 minutes using tubing calibrated at 20 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q020",
+        "fundamentals-med-math-2-q037"
+      ],
+      "stems": [
+        "The provider orders 375 mg of a liquid medication for a patient with a chronic wound. The bottle is labeled 250 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "The provider orders 80 mg of a liquid medication for a patient with a chronic wound. The bottle is labeled 40 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q025",
+        "fundamentals-med-math-1-q047",
+        "fundamentals-med-math-2-q024",
+        "fundamentals-med-math-2-q036"
+      ],
+      "stems": [
+        "The shift intake for a patient is 1000 mL. Output includes 500 mL urine, 75 mL emesis, and 60 mL wound drainage. What is net fluid balance (intake minus output)? Enter a negative value if applicable.",
+        "The shift intake for a patient is 900 mL. Output includes 700 mL urine, 75 mL emesis, and 25 mL wound drainage. What is net fluid balance (intake minus output)? Enter a negative value if applicable.",
+        "The shift intake for a patient is 1500 mL. Output includes 350 mL urine, 100 mL emesis, and 40 mL wound drainage. What is net fluid balance (intake minus output)? Enter a negative value if applicable.",
+        "The shift intake for a patient is 1500 mL. Output includes 350 mL urine, 75 mL emesis, and 25 mL wound drainage. What is net fluid balance (intake minus output)? Enter a negative value if applicable."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q026",
+        "fundamentals-med-math-2-q007",
+        "fundamentals-med-math-2-q018"
+      ],
+      "stems": [
+        "The provider orders 0.125 g of a medication. Pharmacy stock is labeled in mg. How many mg does the order specify?",
+        "The provider orders 0.2 g of a medication. Pharmacy stock is labeled in mg. How many mg does the order specify?",
+        "The provider orders 0.4 g of a medication. Pharmacy stock is labeled in mg. How many mg does the order specify?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q032",
+        "fundamentals-med-math-2-q029"
+      ],
+      "stems": [
+        "The provider orders 250 mg of a liquid medication for an older adult receiving IV fluids. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "The provider orders 200 mg of a liquid medication for an older adult receiving IV fluids. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q033",
+        "fundamentals-med-math-2-q006"
+      ],
+      "stems": [
+        "The provider orders 250 mg of a liquid medication for a patient being monitored for dehydration. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "The provider orders 200 mg of a liquid medication for a patient being monitored for dehydration. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q034",
+        "fundamentals-med-math-2-q014"
+      ],
+      "stems": [
+        "A patient admitted with pneumonia has an order for 5 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "A patient admitted with pneumonia has an order for 20 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q038",
+        "fundamentals-med-math-2-q038"
+      ],
+      "stems": [
+        "The nurse cares for a patient recovering from surgery. The prescription is 400 mg PO. Available tablets contain 200 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "The nurse cares for a patient recovering from surgery. The prescription is 150 mg PO. Available tablets contain 50 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q039",
+        "fundamentals-med-math-2-q034"
+      ],
+      "stems": [
+        "The nurse cares for an older adult receiving IV fluids. The prescription is 300 mg PO. Available tablets contain 100 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "The nurse cares for an older adult receiving IV fluids. The prescription is 650 mg PO. Available tablets contain 325 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q041",
+        "fundamentals-med-math-2-q026"
+      ],
+      "stems": [
+        "A patient being monitored for dehydration has an order for 20 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "A patient being monitored for dehydration has an order for 6 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q043",
+        "fundamentals-med-math-2-q028"
+      ],
+      "stems": [
+        "An older adult receiving iv fluids has an order for 12 mg of an injectable medication. The vial is labeled 20 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "An older adult receiving iv fluids has an order for 20 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q046",
+        "fundamentals-med-math-2-q015"
+      ],
+      "stems": [
+        "The nurse cares for a patient being monitored for dehydration. The prescription is 250 mg PO. Available tablets contain 125 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "The nurse cares for a patient being monitored for dehydration. The prescription is 300 mg PO. Available tablets contain 100 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?"
+      ],
+      "sameAnswer": false
+    },
+    {
+      "members": [
+        "fundamentals-med-math-1-q050",
+        "fundamentals-med-math-2-q011"
+      ],
+      "stems": [
+        "The provider orders 150 mg of a liquid medication for a patient recovering from surgery. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "The provider orders 200 mg of a liquid medication for a patient recovering from surgery. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed."
+      ],
+      "sameAnswer": false
+    }
+  ]
+}
