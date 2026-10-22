@@ -272,7 +272,7 @@
     {
       "id": "fund-e2-rebuilt-1-q010",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVISED_SOURCE_CROSSCHECKED_PENDING_FINAL_QA",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 1.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -281,37 +281,64 @@
         "kind": "match",
         "stem": "Match each safety term to its description.",
         "source": "fundies safety.pdf",
-        "page": 10,
-        "why": "The course differentiates near misses, patient safety events, sentinel events, and never events.",
+        "page": 6,
+        "why": "The course safety slides group these into three categories: near miss, patient safety event, and sentinel event (never event). Source: fundies safety.pdf, slide 6.",
         "keyword": "",
         "excerpt": "",
         "pairs": [
           [
             "Near miss",
-            "Error caught before reaching patient"
-          ],
-          [
-            "Sentinel event",
-            "Unexpected death or serious harm event"
-          ],
-          [
-            "Never event",
-            "Serious preventable event on a designated list"
+            "Potential error intercepted before harm occurs"
           ],
           [
             "Patient safety event",
-            "Incident that reaches a patient"
+            "Unexpected event that occurs without patient injury"
+          ],
+          [
+            "Sentinel event (never event)",
+            "Unexpected adverse event resulting in death or serious harm"
           ]
         ],
         "matchOptions": [
-          "Error caught before reaching patient",
-          "Unexpected death or serious harm event",
-          "Serious preventable event on a designated list",
-          "Incident that reaches a patient"
+          "Potential error intercepted before harm occurs",
+          "Unexpected event that occurs without patient injury",
+          "Unexpected adverse event resulting in death or serious harm"
         ],
         "options": [],
         "correct": []
-      }
+      },
+      "editorialHistory": [
+        {
+          "action": "REVISE_MATCHING_TAXONOMY",
+          "originalPairs": [
+            [
+              "Near miss",
+              "Error caught before reaching patient"
+            ],
+            [
+              "Sentinel event",
+              "Unexpected death or serious harm event"
+            ],
+            [
+              "Never event",
+              "Serious preventable event on a designated list"
+            ],
+            [
+              "Patient safety event",
+              "Incident that reaches a patient"
+            ]
+          ],
+          "originalMatchOptions": [
+            "Error caught before reaching patient",
+            "Unexpected death or serious harm event",
+            "Serious preventable event on a designated list",
+            "Incident that reaches a patient"
+          ],
+          "originalRationale": "The course differentiates near misses, patient safety events, sentinel events, and never events.",
+          "reason": "User reviewer decision; confirmed in fundies safety.pdf slide 6: near miss, patient safety event, sentinel event (never event).",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fund-e2-rebuilt-1-q011",
