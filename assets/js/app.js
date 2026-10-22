@@ -21,5 +21,5 @@ function buildCourse(name){const c=courseMap.get(name);const host=document.getEl
 function showView(target){views.forEach(v=>v.classList.toggle("hidden",v!==target));window.scrollTo({top:0,behavior:"instant"})}
 function route(){const hash=decodeURIComponent(location.hash.slice(1));if(hash.startsWith("course/")){buildCourse(hash.slice(7));showView(courseView)}else if(hash==="references"){showView(referenceView)}else if(hash==="settings"){showView(settingsView)}else{showView(hub)}}
 document.getElementById("settings-shortcut").addEventListener("click",()=>{location.hash="settings"});
-document.getElementById("notification-state").textContent="Not available yet. New-exam notifications require a separate opt-in push service; no permission will be requested in Phase 1.";
+document.getElementById("notification-state").textContent="Browser permission is requested only when you select Enable notifications.";
 AnswerColors.setup();buildHome();addEventListener("hashchange",route);route();

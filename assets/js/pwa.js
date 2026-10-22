@@ -1,22 +1,30 @@
 "use strict";
 (function(){
  const status=document.getElementById("pwa-status"),install=document.getElementById("pwa-install"),notify=document.getElementById("pwa-notifications");
+ const dialog=document.getElementById("install-dialog"),help=document.getElementById("install-help"),steps=document.getElementById("install-steps");
+ const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+ const ios=/iPad|iPhone|iPod/.test(navigator.userAgent);
+ function openInstall(){if(!dialog||!steps)return;steps.textContent=standalone?"The Study Hub is already installed on this device.":ios?"On iPhone or iPad: open this site in Safari, tap Share, then Add to Home Screen. Open the new icon from your Home Screen.":"On a computer or Android: use Install app now if available, or open your browser menu and select Install app / Add to Home Screen.";if(install)install.hidden=standalone||!deferredInstall;dialog.showModal()}
+ help?.addEventListener("click",openInstall);
+ document.getElementById("install-dialog-close")?.addEventListener("click",()=>dialog.close());
+ document.getElementById("install-dialog-done")?.addEventListener("click",()=>dialog.close());
+ dialog?.addEventListener("click",event=>{if(event.target===dialog)dialog.close()});
+ if(!standalone){try{if(!localStorage.getItem("gson-install-invite-v1")){localStorage.setItem("gson-install-invite-v1","shown");window.addEventListener("load",()=>{if(!location.hash||location.hash==="#home")openInstall()},{once:true})}}catch(_){}}
  let deferredInstall=null;
  const say=message=>{if(status)status.textContent=message};
  const waitForWorker=()=>Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error("Service worker did not become ready within 12 seconds. Reload the page and retry.")),12000))]);
  if(!("serviceWorker" in navigator)||!window.isSecureContext){say("App installation and push require HTTPS and a supported browser.");return}
  navigator.serviceWorker.register("./sw.js",{scope:"./"}).catch(error=>say("App service worker unavailable: "+error.message));
- window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();deferredInstall=event;if(install)install.hidden=false});
- install?.addEventListener("click",async()=>{if(!deferredInstall){say("On iPhone: Safari → Share → Add to Home Screen.");return}deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;install.hidden=true});
- const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
- if(!standalone&&/iPad|iPhone|iPod/.test(navigator.userAgent))say("Install on iPhone: open in Safari, tap Share, then Add to Home Screen.");
+ window.addEventListener("beforeinstallprompt",event=>{event.preventDefault();deferredInstall=event;if(install)install.hidden=standalone});
+ install?.addEventListener("click",async()=>{if(!deferredInstall){say("On iPhone: Safari → Share → Add to Home Screen.");return}deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;install.hidden=true;dialog?.close()});
+
  if(!("PushManager" in window)||!("Notification" in window)){if(notify)notify.disabled=true;return}
  const config=window.GSON_PUSH_CONFIG||{};
  const updateSubscriptionUI=active=>{if(notify){notify.hidden=active;notify.disabled=false}if(unsubscribe){unsubscribe.hidden=!active;unsubscribe.disabled=false}document.dispatchEvent(new CustomEvent("gson:push-subscription-state",{detail:{active}}))};
  const unsubscribe=document.getElementById("pwa-unsubscribe");
  updateSubscriptionUI(false);
  navigator.serviceWorker.ready.then(reg=>reg.pushManager.getSubscription()).then(sub=>{updateSubscriptionUI(!!sub);say(sub?"Notifications are enabled on this device.":"Notifications are off on this device.");}).catch(error=>say("Unable to check notification status: "+error.message));
- say("Notification controls ready. Click Enable notifications to begin.");
+ say("Notifications are optional. Choose Enable notifications to opt in.");
  notify?.addEventListener("click",async()=>{
   say("Enabling notifications…");if(notify)notify.disabled=true;
   if(!config.vapidPublicKey||!config.subscriptionEndpoint){say("Push notifications are not configured yet. A secure subscription backend and public VAPID key are required.");if(notify)notify.disabled=false;return}
