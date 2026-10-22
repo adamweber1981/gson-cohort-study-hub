@@ -25,9 +25,9 @@ const REPORT_FORM_URL="https://docs.google.com/forms/d/e/1FAIpQLScP6UDpwn6ExIfPv
 const reportReasons=["Incorrect answer or rationale","Confusing or unclear wording","Missing or incorrect information","Technical issue","Other"];
 function reportLink(q,number){const b=document.createElement("button");b.type="button";b.className="report-link";b.textContent="⚑ Report a problem with this question";b.addEventListener("click",()=>openReport(q,number));return b}
 function openReport(q,number){
- const dialog=$("report-dialog");const form=$("report-form");form.reset();
+ const dialog=$("report-dialog");const form=$("report-form");form.reset();form.hidden=false;
  $("report-context").textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName+" · Question "+number+" · ID "+q.id;
- $("report-status").textContent="";$("report-frame").hidden=true;$("report-frame").removeAttribute("src");$("report-preview").hidden=true;$("copy-report").hidden=true;dialog.showModal();$("report-reason").focus();
+ $("report-status").textContent="";$("report-fallback").hidden=true;$("report-frame").hidden=true;$("report-frame").removeAttribute("src");$("report-preview").hidden=true;$("copy-report").hidden=true;dialog.showModal();$("report-reason").focus();
  form.onsubmit=e=>{e.preventDefault();
  const url=new URL(REPORT_FORM_URL);
  const fields={
@@ -41,9 +41,9 @@ function openReport(q,number){
  Object.entries(fields).forEach(([key,value])=>url.searchParams.set(key,value));
  url.searchParams.set("usp","pp_url");
  const report=["Course: "+engine.bank.course,"Exam / Practice Version: "+fields["entry.306826281"],"Question ID: "+q.id,"Question Text: "+q.stem,"Type of Issue: "+fields["entry.973603052"],"Describe the Problem: "+(fields["entry.1667769534"]||"(none)")].join("\\n");
- $("report-preview").value=report;$("report-preview").hidden=false;$("copy-report").hidden=false;
- const frame=$("report-frame");url.searchParams.set("embedded","true");frame.src=url.toString();frame.hidden=false;
- $("report-status").textContent="Your pre-filled Google Form is shown below. Review the details and select Submit inside the form. Your exam stays open.";
+ $("report-preview").value=report;$("report-preview").hidden=true;$("copy-report").hidden=true;
+ const frame=$("report-frame");url.searchParams.set("embedded","true");frame.src=url.toString();frame.hidden=false;form.hidden=true;
+ $("report-status").textContent="Complete the report in the embedded Google Form and press Submit there. If the form does not load, use the backup link below.";const fallback=$("report-fallback");fallback.href=url.toString();fallback.hidden=false;
  };
 }
 $("close-report").addEventListener("click",()=>$("report-dialog").close());$("report-dialog").addEventListener("close",()=>{$("report-frame").removeAttribute("src")});
