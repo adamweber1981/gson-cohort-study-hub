@@ -45,5 +45,20 @@
     "Full randomized browser exam completion test",
     "Cloudflare preview deployment verification"
   ],
-  "note": "Do not claim the detailed subtopic blueprint is satisfied until those allocations are enforced."
+  "note": "Do not claim the detailed subtopic blueprint is satisfied until those allocations are enforced.",
+  "updatedAt": "2026-10-22",
+  "postMigrationChecks": {
+    "rawQuestions": 400,
+    "retainedDistinct": 173,
+    "excludedOffBlueprint": 8,
+    "eligible": 165,
+    "blueprintSubtopicSlots": 33,
+    "exactFormatFeasible": {
+      "mcq": 35,
+      "alternate": 12,
+      "pictures": 3
+    },
+    "liveBrowserTest": "pending",
+    "sourceSpotCheck": "Chapters 15,16,17,19 course PDF text reviewed for relevant subject coverage"
+  }
 }
