@@ -1,0 +1,948 @@
+{
+  "sourceExamCount": 8,
+  "extracted": 400,
+  "retained": 165,
+  "removedExactStemDuplicates": 235,
+  "duplicates": [
+    {
+      "duplicate": "v3-q1",
+      "kept": "health-assessment-e2-v1-q001"
+    },
+    {
+      "duplicate": "v3-q2",
+      "kept": "health-assessment-e2-v1-q002"
+    },
+    {
+      "duplicate": "v3-q3",
+      "kept": "health-assessment-e2-v1-q003"
+    },
+    {
+      "duplicate": "v3-q5",
+      "kept": "health-assessment-e2-v1-q005"
+    },
+    {
+      "duplicate": "v3-q6",
+      "kept": "health-assessment-e2-v1-q008"
+    },
+    {
+      "duplicate": "v3-q8",
+      "kept": "health-assessment-e2-v2-q008"
+    },
+    {
+      "duplicate": "v3-q9",
+      "kept": "health-assessment-e2-v2-q009"
+    },
+    {
+      "duplicate": "v3-q10",
+      "kept": "health-assessment-e2-v2-q010"
+    },
+    {
+      "duplicate": "v3-q11",
+      "kept": "health-assessment-e2-v2-q011"
+    },
+    {
+      "duplicate": "v3-q14",
+      "kept": "health-assessment-e2-v1-q013"
+    },
+    {
+      "duplicate": "v3-q17",
+      "kept": "health-assessment-e2-v2-q013"
+    },
+    {
+      "duplicate": "v3-q18",
+      "kept": "health-assessment-e2-v1-q018"
+    },
+    {
+      "duplicate": "v3-q19",
+      "kept": "health-assessment-e2-v1-q019"
+    },
+    {
+      "duplicate": "v3-q20",
+      "kept": "health-assessment-e2-v1-q020"
+    },
+    {
+      "duplicate": "v3-q21",
+      "kept": "health-assessment-e2-v1-q022"
+    },
+    {
+      "duplicate": "v3-q22",
+      "kept": "health-assessment-e2-v1-q021"
+    },
+    {
+      "duplicate": "v3-q23",
+      "kept": "health-assessment-e2-v2-q023"
+    },
+    {
+      "duplicate": "v3-q25",
+      "kept": "health-assessment-e2-v2-q025"
+    },
+    {
+      "duplicate": "v3-q26",
+      "kept": "health-assessment-e2-v2-q026"
+    },
+    {
+      "duplicate": "v3-q27",
+      "kept": "health-assessment-e2-v1-q027"
+    },
+    {
+      "duplicate": "v3-q28",
+      "kept": "health-assessment-e2-v1-q028"
+    },
+    {
+      "duplicate": "v3-q29",
+      "kept": "health-assessment-e2-v2-q029"
+    },
+    {
+      "duplicate": "v3-q30",
+      "kept": "health-assessment-e2-v1-q030"
+    },
+    {
+      "duplicate": "v3-q31",
+      "kept": "health-assessment-e2-v1-q031"
+    },
+    {
+      "duplicate": "v3-q32",
+      "kept": "health-assessment-e2-v1-q032"
+    },
+    {
+      "duplicate": "v3-q33",
+      "kept": "health-assessment-e2-v1-q033"
+    },
+    {
+      "duplicate": "v3-q34",
+      "kept": "health-assessment-e2-v2-q033"
+    },
+    {
+      "duplicate": "v3-q35",
+      "kept": "health-assessment-e2-v2-q035"
+    },
+    {
+      "duplicate": "v3-q36",
+      "kept": "health-assessment-e2-v2-q036"
+    },
+    {
+      "duplicate": "v3-q37",
+      "kept": "health-assessment-e2-v2-q037"
+    },
+    {
+      "duplicate": "v3-q38",
+      "kept": "health-assessment-e2-v1-q038"
+    },
+    {
+      "duplicate": "v3-q40",
+      "kept": "health-assessment-e2-v2-q039"
+    },
+    {
+      "duplicate": "v4-q1",
+      "kept": "health-assessment-e2-v2-q001"
+    },
+    {
+      "duplicate": "v4-q2",
+      "kept": "health-assessment-e2-v2-q002"
+    },
+    {
+      "duplicate": "v4-q3",
+      "kept": "health-assessment-e2-v2-q003"
+    },
+    {
+      "duplicate": "v4-q4",
+      "kept": "health-assessment-e2-v1-q007"
+    },
+    {
+      "duplicate": "v4-q5",
+      "kept": "health-assessment-e2-v1-q004"
+    },
+    {
+      "duplicate": "v4-q6",
+      "kept": "health-assessment-e2-v1-q008"
+    },
+    {
+      "duplicate": "v4-q7",
+      "kept": "health-assessment-e2-v2-q004"
+    },
+    {
+      "duplicate": "v4-q9",
+      "kept": "health-assessment-e2-v1-q009"
+    },
+    {
+      "duplicate": "v4-q10",
+      "kept": "health-assessment-e2-v1-q010"
+    },
+    {
+      "duplicate": "v4-q11",
+      "kept": "health-assessment-e2-v1-q011"
+    },
+    {
+      "duplicate": "v4-q12",
+      "kept": "health-assessment-e2-v1-q015"
+    },
+    {
+      "duplicate": "v4-q13",
+      "kept": "health-assessment-e2-v1-q013"
+    },
+    {
+      "duplicate": "v4-q14",
+      "kept": "health-assessment-e2-v1-q016"
+    },
+    {
+      "duplicate": "v4-q15",
+      "kept": "health-assessment-e2-v2-q016"
+    },
+    {
+      "duplicate": "v4-q16",
+      "kept": "health-assessment-e2-v2-q014"
+    },
+    {
+      "duplicate": "v4-q17",
+      "kept": "health-assessment-e2-v2-q017"
+    },
+    {
+      "duplicate": "v4-q18",
+      "kept": "health-assessment-e2-v2-q018"
+    },
+    {
+      "duplicate": "v4-q19",
+      "kept": "health-assessment-e2-v2-q019"
+    },
+    {
+      "duplicate": "v4-q20",
+      "kept": "health-assessment-e2-v2-q020"
+    },
+    {
+      "duplicate": "v4-q21",
+      "kept": "health-assessment-e2-v1-q022"
+    },
+    {
+      "duplicate": "v4-q23",
+      "kept": "health-assessment-e2-v2-q022"
+    },
+    {
+      "duplicate": "v4-q25",
+      "kept": "health-assessment-e2-v1-q025"
+    },
+    {
+      "duplicate": "v4-q26",
+      "kept": "health-assessment-e2-v1-q026"
+    },
+    {
+      "duplicate": "v4-q27",
+      "kept": "health-assessment-e2-v1-q029"
+    },
+    {
+      "duplicate": "v4-q29",
+      "kept": "health-assessment-e2-v2-q027"
+    },
+    {
+      "duplicate": "v4-q30",
+      "kept": "health-assessment-e2-v2-q030"
+    },
+    {
+      "duplicate": "v4-q31",
+      "kept": "health-assessment-e2-v2-q031"
+    },
+    {
+      "duplicate": "v4-q32",
+      "kept": "health-assessment-e2-v1-q032"
+    },
+    {
+      "duplicate": "v4-q34",
+      "kept": "health-assessment-e2-v2-q034"
+    },
+    {
+      "duplicate": "v4-q35",
+      "kept": "health-assessment-e2-v2-q035"
+    },
+    {
+      "duplicate": "v4-q36",
+      "kept": "health-assessment-e2-v1-q036"
+    },
+    {
+      "duplicate": "v4-q37",
+      "kept": "health-assessment-e2-v1-q037"
+    },
+    {
+      "duplicate": "v4-q38",
+      "kept": "health-assessment-e2-v3-q039"
+    },
+    {
+      "duplicate": "v4-q39",
+      "kept": "health-assessment-e2-v1-q038"
+    },
+    {
+      "duplicate": "v4-q40",
+      "kept": "health-assessment-e2-v2-q039"
+    },
+    {
+      "duplicate": "v5-q9",
+      "kept": "health-assessment-e2-v1-q041"
+    },
+    {
+      "duplicate": "v5-q10",
+      "kept": "health-assessment-e2-v1-q042"
+    },
+    {
+      "duplicate": "v5-q11",
+      "kept": "health-assessment-e2-v1-q043"
+    },
+    {
+      "duplicate": "v5-q12",
+      "kept": "health-assessment-e2-v1-q001"
+    },
+    {
+      "duplicate": "v5-q13",
+      "kept": "health-assessment-e2-v1-q002"
+    },
+    {
+      "duplicate": "v5-q14",
+      "kept": "health-assessment-e2-v1-q003"
+    },
+    {
+      "duplicate": "v5-q15",
+      "kept": "health-assessment-e2-v1-q007"
+    },
+    {
+      "duplicate": "v5-q16",
+      "kept": "health-assessment-e2-v1-q004"
+    },
+    {
+      "duplicate": "v5-q17",
+      "kept": "health-assessment-e2-v1-q006"
+    },
+    {
+      "duplicate": "v5-q18",
+      "kept": "health-assessment-e2-v1-q009"
+    },
+    {
+      "duplicate": "v5-q19",
+      "kept": "health-assessment-e2-v1-q010"
+    },
+    {
+      "duplicate": "v5-q20",
+      "kept": "health-assessment-e2-v1-q011"
+    },
+    {
+      "duplicate": "v5-q21",
+      "kept": "health-assessment-e2-v1-q012"
+    },
+    {
+      "duplicate": "v5-q22",
+      "kept": "health-assessment-e2-v1-q015"
+    },
+    {
+      "duplicate": "v5-q23",
+      "kept": "health-assessment-e2-v1-q017"
+    },
+    {
+      "duplicate": "v5-q24",
+      "kept": "health-assessment-e2-v1-q016"
+    },
+    {
+      "duplicate": "v5-q25",
+      "kept": "health-assessment-e2-v1-q018"
+    },
+    {
+      "duplicate": "v5-q26",
+      "kept": "health-assessment-e2-v1-q019"
+    },
+    {
+      "duplicate": "v5-q27",
+      "kept": "health-assessment-e2-v1-q020"
+    },
+    {
+      "duplicate": "v5-q28",
+      "kept": "health-assessment-e2-v1-q022"
+    },
+    {
+      "duplicate": "v5-q29",
+      "kept": "health-assessment-e2-v1-q023"
+    },
+    {
+      "duplicate": "v5-q30",
+      "kept": "health-assessment-e2-v1-q025"
+    },
+    {
+      "duplicate": "v5-q31",
+      "kept": "health-assessment-e2-v1-q026"
+    },
+    {
+      "duplicate": "v5-q32",
+      "kept": "health-assessment-e2-v1-q029"
+    },
+    {
+      "duplicate": "v5-q33",
+      "kept": "health-assessment-e2-v1-q028"
+    },
+    {
+      "duplicate": "v5-q34",
+      "kept": "health-assessment-e2-v1-q030"
+    },
+    {
+      "duplicate": "v5-q35",
+      "kept": "health-assessment-e2-v1-q031"
+    },
+    {
+      "duplicate": "v5-q36",
+      "kept": "health-assessment-e2-v1-q035"
+    },
+    {
+      "duplicate": "v5-q37",
+      "kept": "health-assessment-e2-v1-q032"
+    },
+    {
+      "duplicate": "v5-q38",
+      "kept": "health-assessment-e2-v1-q034"
+    },
+    {
+      "duplicate": "v5-q39",
+      "kept": "health-assessment-e2-v1-q036"
+    },
+    {
+      "duplicate": "v5-q40",
+      "kept": "health-assessment-e2-v1-q037"
+    },
+    {
+      "duplicate": "v5-q41",
+      "kept": "health-assessment-e2-v1-q038"
+    },
+    {
+      "duplicate": "v5-q42",
+      "kept": "health-assessment-e2-v1-q040"
+    },
+    {
+      "duplicate": "v5-q43",
+      "kept": "health-assessment-e2-v1-q039"
+    },
+    {
+      "duplicate": "v5-q44",
+      "kept": "health-assessment-e2-v1-q045"
+    },
+    {
+      "duplicate": "v5-q45",
+      "kept": "health-assessment-e2-v1-q047"
+    },
+    {
+      "duplicate": "v5-q46",
+      "kept": "health-assessment-e2-v1-q044"
+    },
+    {
+      "duplicate": "v5-q47",
+      "kept": "health-assessment-e2-v1-q048"
+    },
+    {
+      "duplicate": "v5-q48",
+      "kept": "health-assessment-e2-v1-q046"
+    },
+    {
+      "duplicate": "v5-q49",
+      "kept": "health-assessment-e2-v1-q049"
+    },
+    {
+      "duplicate": "v5-q50",
+      "kept": "health-assessment-e2-v1-q050"
+    },
+    {
+      "duplicate": "v6-q9",
+      "kept": "health-assessment-e2-v2-q043"
+    },
+    {
+      "duplicate": "v6-q10",
+      "kept": "health-assessment-e2-v2-q041"
+    },
+    {
+      "duplicate": "v6-q11",
+      "kept": "health-assessment-e2-v2-q001"
+    },
+    {
+      "duplicate": "v6-q12",
+      "kept": "health-assessment-e2-v2-q002"
+    },
+    {
+      "duplicate": "v6-q13",
+      "kept": "health-assessment-e2-v2-q003"
+    },
+    {
+      "duplicate": "v6-q14",
+      "kept": "health-assessment-e2-v2-q005"
+    },
+    {
+      "duplicate": "v6-q15",
+      "kept": "health-assessment-e2-v2-q008"
+    },
+    {
+      "duplicate": "v6-q16",
+      "kept": "health-assessment-e2-v2-q006"
+    },
+    {
+      "duplicate": "v6-q17",
+      "kept": "health-assessment-e2-v2-q007"
+    },
+    {
+      "duplicate": "v6-q18",
+      "kept": "health-assessment-e2-v2-q009"
+    },
+    {
+      "duplicate": "v6-q19",
+      "kept": "health-assessment-e2-v2-q010"
+    },
+    {
+      "duplicate": "v6-q20",
+      "kept": "health-assessment-e2-v2-q011"
+    },
+    {
+      "duplicate": "v6-q21",
+      "kept": "health-assessment-e2-v2-q015"
+    },
+    {
+      "duplicate": "v6-q22",
+      "kept": "health-assessment-e2-v2-q012"
+    },
+    {
+      "duplicate": "v6-q23",
+      "kept": "health-assessment-e2-v2-q014"
+    },
+    {
+      "duplicate": "v6-q24",
+      "kept": "health-assessment-e2-v2-q013"
+    },
+    {
+      "duplicate": "v6-q25",
+      "kept": "health-assessment-e2-v2-q017"
+    },
+    {
+      "duplicate": "v6-q26",
+      "kept": "health-assessment-e2-v2-q018"
+    },
+    {
+      "duplicate": "v6-q27",
+      "kept": "health-assessment-e2-v2-q019"
+    },
+    {
+      "duplicate": "v6-q28",
+      "kept": "health-assessment-e2-v2-q020"
+    },
+    {
+      "duplicate": "v6-q29",
+      "kept": "health-assessment-e2-v2-q023"
+    },
+    {
+      "duplicate": "v6-q30",
+      "kept": "health-assessment-e2-v2-q022"
+    },
+    {
+      "duplicate": "v6-q31",
+      "kept": "health-assessment-e2-v2-q021"
+    },
+    {
+      "duplicate": "v6-q32",
+      "kept": "health-assessment-e2-v2-q025"
+    },
+    {
+      "duplicate": "v6-q33",
+      "kept": "health-assessment-e2-v2-q026"
+    },
+    {
+      "duplicate": "v6-q34",
+      "kept": "health-assessment-e2-v2-q027"
+    },
+    {
+      "duplicate": "v6-q35",
+      "kept": "health-assessment-e2-v2-q028"
+    },
+    {
+      "duplicate": "v6-q36",
+      "kept": "health-assessment-e2-v2-q030"
+    },
+    {
+      "duplicate": "v6-q37",
+      "kept": "health-assessment-e2-v2-q031"
+    },
+    {
+      "duplicate": "v6-q38",
+      "kept": "health-assessment-e2-v2-q033"
+    },
+    {
+      "duplicate": "v6-q39",
+      "kept": "health-assessment-e2-v2-q035"
+    },
+    {
+      "duplicate": "v6-q40",
+      "kept": "health-assessment-e2-v2-q032"
+    },
+    {
+      "duplicate": "v6-q41",
+      "kept": "health-assessment-e2-v2-q034"
+    },
+    {
+      "duplicate": "v6-q42",
+      "kept": "health-assessment-e2-v2-q036"
+    },
+    {
+      "duplicate": "v6-q43",
+      "kept": "health-assessment-e2-v2-q037"
+    },
+    {
+      "duplicate": "v6-q44",
+      "kept": "health-assessment-e2-v2-q039"
+    },
+    {
+      "duplicate": "v6-q45",
+      "kept": "health-assessment-e2-v2-q049"
+    },
+    {
+      "duplicate": "v6-q46",
+      "kept": "health-assessment-e2-v2-q045"
+    },
+    {
+      "duplicate": "v6-q47",
+      "kept": "health-assessment-e2-v2-q044"
+    },
+    {
+      "duplicate": "v6-q48",
+      "kept": "health-assessment-e2-v2-q047"
+    },
+    {
+      "duplicate": "v6-q49",
+      "kept": "health-assessment-e2-v2-q050"
+    },
+    {
+      "duplicate": "v6-q50",
+      "kept": "health-assessment-e2-v2-q048"
+    },
+    {
+      "duplicate": "v7-q9",
+      "kept": "health-assessment-e2-v3-q042"
+    },
+    {
+      "duplicate": "v7-q10",
+      "kept": "health-assessment-e2-v3-q043"
+    },
+    {
+      "duplicate": "v7-q11",
+      "kept": "health-assessment-e2-v1-q001"
+    },
+    {
+      "duplicate": "v7-q12",
+      "kept": "health-assessment-e2-v1-q002"
+    },
+    {
+      "duplicate": "v7-q13",
+      "kept": "health-assessment-e2-v1-q003"
+    },
+    {
+      "duplicate": "v7-q14",
+      "kept": "health-assessment-e2-v3-q007"
+    },
+    {
+      "duplicate": "v7-q15",
+      "kept": "health-assessment-e2-v1-q008"
+    },
+    {
+      "duplicate": "v7-q16",
+      "kept": "health-assessment-e2-v1-q005"
+    },
+    {
+      "duplicate": "v7-q17",
+      "kept": "health-assessment-e2-v3-q004"
+    },
+    {
+      "duplicate": "v7-q18",
+      "kept": "health-assessment-e2-v2-q009"
+    },
+    {
+      "duplicate": "v7-q19",
+      "kept": "health-assessment-e2-v2-q010"
+    },
+    {
+      "duplicate": "v7-q20",
+      "kept": "health-assessment-e2-v2-q011"
+    },
+    {
+      "duplicate": "v7-q21",
+      "kept": "health-assessment-e2-v3-q016"
+    },
+    {
+      "duplicate": "v7-q22",
+      "kept": "health-assessment-e2-v3-q013"
+    },
+    {
+      "duplicate": "v7-q23",
+      "kept": "health-assessment-e2-v2-q013"
+    },
+    {
+      "duplicate": "v7-q24",
+      "kept": "health-assessment-e2-v3-q015"
+    },
+    {
+      "duplicate": "v7-q25",
+      "kept": "health-assessment-e2-v1-q013"
+    },
+    {
+      "duplicate": "v7-q26",
+      "kept": "health-assessment-e2-v1-q018"
+    },
+    {
+      "duplicate": "v7-q27",
+      "kept": "health-assessment-e2-v1-q019"
+    },
+    {
+      "duplicate": "v7-q28",
+      "kept": "health-assessment-e2-v1-q020"
+    },
+    {
+      "duplicate": "v7-q29",
+      "kept": "health-assessment-e2-v3-q024"
+    },
+    {
+      "duplicate": "v7-q30",
+      "kept": "health-assessment-e2-v1-q022"
+    },
+    {
+      "duplicate": "v7-q31",
+      "kept": "health-assessment-e2-v2-q023"
+    },
+    {
+      "duplicate": "v7-q32",
+      "kept": "health-assessment-e2-v2-q025"
+    },
+    {
+      "duplicate": "v7-q33",
+      "kept": "health-assessment-e2-v2-q026"
+    },
+    {
+      "duplicate": "v7-q34",
+      "kept": "health-assessment-e2-v1-q027"
+    },
+    {
+      "duplicate": "v7-q35",
+      "kept": "health-assessment-e2-v2-q029"
+    },
+    {
+      "duplicate": "v7-q36",
+      "kept": "health-assessment-e2-v1-q030"
+    },
+    {
+      "duplicate": "v7-q37",
+      "kept": "health-assessment-e2-v1-q031"
+    },
+    {
+      "duplicate": "v7-q38",
+      "kept": "health-assessment-e2-v2-q033"
+    },
+    {
+      "duplicate": "v7-q39",
+      "kept": "health-assessment-e2-v1-q033"
+    },
+    {
+      "duplicate": "v7-q40",
+      "kept": "health-assessment-e2-v1-q032"
+    },
+    {
+      "duplicate": "v7-q41",
+      "kept": "health-assessment-e2-v2-q036"
+    },
+    {
+      "duplicate": "v7-q42",
+      "kept": "health-assessment-e2-v2-q037"
+    },
+    {
+      "duplicate": "v7-q43",
+      "kept": "health-assessment-e2-v2-q039"
+    },
+    {
+      "duplicate": "v7-q44",
+      "kept": "health-assessment-e2-v3-q039"
+    },
+    {
+      "duplicate": "v7-q45",
+      "kept": "health-assessment-e2-v3-q048"
+    },
+    {
+      "duplicate": "v7-q46",
+      "kept": "health-assessment-e2-v3-q046"
+    },
+    {
+      "duplicate": "v7-q47",
+      "kept": "health-assessment-e2-v3-q047"
+    },
+    {
+      "duplicate": "v7-q48",
+      "kept": "health-assessment-e2-v3-q049"
+    },
+    {
+      "duplicate": "v7-q49",
+      "kept": "health-assessment-e2-v3-q050"
+    },
+    {
+      "duplicate": "v7-q50",
+      "kept": "health-assessment-e2-v3-q044"
+    },
+    {
+      "duplicate": "v8-q9",
+      "kept": "health-assessment-e2-v4-q043"
+    },
+    {
+      "duplicate": "v8-q10",
+      "kept": "health-assessment-e2-v4-q042"
+    },
+    {
+      "duplicate": "v8-q11",
+      "kept": "health-assessment-e2-v2-q001"
+    },
+    {
+      "duplicate": "v8-q12",
+      "kept": "health-assessment-e2-v2-q002"
+    },
+    {
+      "duplicate": "v8-q13",
+      "kept": "health-assessment-e2-v2-q003"
+    },
+    {
+      "duplicate": "v8-q14",
+      "kept": "health-assessment-e2-v1-q008"
+    },
+    {
+      "duplicate": "v8-q15",
+      "kept": "health-assessment-e2-v1-q004"
+    },
+    {
+      "duplicate": "v8-q16",
+      "kept": "health-assessment-e2-v2-q004"
+    },
+    {
+      "duplicate": "v8-q17",
+      "kept": "health-assessment-e2-v4-q008"
+    },
+    {
+      "duplicate": "v8-q18",
+      "kept": "health-assessment-e2-v1-q009"
+    },
+    {
+      "duplicate": "v8-q19",
+      "kept": "health-assessment-e2-v1-q010"
+    },
+    {
+      "duplicate": "v8-q20",
+      "kept": "health-assessment-e2-v1-q011"
+    },
+    {
+      "duplicate": "v8-q21",
+      "kept": "health-assessment-e2-v2-q014"
+    },
+    {
+      "duplicate": "v8-q22",
+      "kept": "health-assessment-e2-v2-q016"
+    },
+    {
+      "duplicate": "v8-q23",
+      "kept": "health-assessment-e2-v1-q015"
+    },
+    {
+      "duplicate": "v8-q24",
+      "kept": "health-assessment-e2-v1-q013"
+    },
+    {
+      "duplicate": "v8-q25",
+      "kept": "health-assessment-e2-v2-q017"
+    },
+    {
+      "duplicate": "v8-q26",
+      "kept": "health-assessment-e2-v2-q018"
+    },
+    {
+      "duplicate": "v8-q27",
+      "kept": "health-assessment-e2-v2-q019"
+    },
+    {
+      "duplicate": "v8-q28",
+      "kept": "health-assessment-e2-v2-q020"
+    },
+    {
+      "duplicate": "v8-q29",
+      "kept": "health-assessment-e2-v2-q022"
+    },
+    {
+      "duplicate": "v8-q30",
+      "kept": "health-assessment-e2-v1-q022"
+    },
+    {
+      "duplicate": "v8-q31",
+      "kept": "health-assessment-e2-v4-q022"
+    },
+    {
+      "duplicate": "v8-q32",
+      "kept": "health-assessment-e2-v4-q024"
+    },
+    {
+      "duplicate": "v8-q33",
+      "kept": "health-assessment-e2-v1-q025"
+    },
+    {
+      "duplicate": "v8-q34",
+      "kept": "health-assessment-e2-v1-q026"
+    },
+    {
+      "duplicate": "v8-q35",
+      "kept": "health-assessment-e2-v4-q028"
+    },
+    {
+      "duplicate": "v8-q36",
+      "kept": "health-assessment-e2-v1-q029"
+    },
+    {
+      "duplicate": "v8-q37",
+      "kept": "health-assessment-e2-v2-q027"
+    },
+    {
+      "duplicate": "v8-q38",
+      "kept": "health-assessment-e2-v2-q030"
+    },
+    {
+      "duplicate": "v8-q39",
+      "kept": "health-assessment-e2-v2-q031"
+    },
+    {
+      "duplicate": "v8-q40",
+      "kept": "health-assessment-e2-v2-q034"
+    },
+    {
+      "duplicate": "v8-q41",
+      "kept": "health-assessment-e2-v2-q035"
+    },
+    {
+      "duplicate": "v8-q42",
+      "kept": "health-assessment-e2-v1-q036"
+    },
+    {
+      "duplicate": "v8-q43",
+      "kept": "health-assessment-e2-v1-q037"
+    },
+    {
+      "duplicate": "v8-q44",
+      "kept": "health-assessment-e2-v1-q038"
+    },
+    {
+      "duplicate": "v8-q45",
+      "kept": "health-assessment-e2-v4-q050"
+    },
+    {
+      "duplicate": "v8-q46",
+      "kept": "health-assessment-e2-v4-q048"
+    },
+    {
+      "duplicate": "v8-q47",
+      "kept": "health-assessment-e2-v4-q045"
+    },
+    {
+      "duplicate": "v8-q48",
+      "kept": "health-assessment-e2-v4-q047"
+    },
+    {
+      "duplicate": "v8-q49",
+      "kept": "health-assessment-e2-v4-q046"
+    },
+    {
+      "duplicate": "v8-q50",
+      "kept": "health-assessment-e2-v4-q044"
+    }
+  ]
+}
