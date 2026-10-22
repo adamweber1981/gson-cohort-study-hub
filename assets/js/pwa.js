@@ -12,19 +12,24 @@
  if(!standalone&&/iPad|iPhone|iPod/.test(navigator.userAgent))say("Install on iPhone: open in Safari, tap Share, then Add to Home Screen.");
  if(!("PushManager" in window)||!("Notification" in window)){if(notify)notify.disabled=true;return}
  const config=window.GSON_PUSH_CONFIG||{};
+ say("Notification controls ready. Click Enable notifications to begin.");
  notify?.addEventListener("click",async()=>{
   say("Enabling notifications…");if(notify)notify.disabled=true;
-  if(!config.vapidPublicKey||!config.subscriptionEndpoint){say("Push notifications are not configured yet. A secure subscription backend and public VAPID key are required.");return}
-  if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&!matchMedia("(display-mode: standalone)").matches&&!navigator.standalone){say("Install the app to your iPhone Home Screen before enabling notifications.");return}
+  if(!config.vapidPublicKey||!config.subscriptionEndpoint){say("Push notifications are not configured yet. A secure subscription backend and public VAPID key are required.");if(notify)notify.disabled=false;return}
+  if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&!matchMedia("(display-mode: standalone)").matches&&!navigator.standalone){say("Install the app to your iPhone Home Screen before enabling notifications.");if(notify)notify.disabled=false;return}
   try{
+   say("Requesting browser notification permission…");
    const permission=await Notification.requestPermission();
    if(permission!=="granted"){say("Notification permission was not granted.");return}
+   say("Waiting for the app service worker…");
    const registration=await waitForWorker();
    const base64=config.vapidPublicKey.replace(/-/g,"+").replace(/_/g,"/");const binary=atob(base64.padEnd(Math.ceil(base64.length/4)*4,"="));
    const key=Uint8Array.from(binary,c=>c.charCodeAt(0));
+   say("Creating browser push subscription…");
    const subscription=await registration.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:key});
    const endpoint=new URL(config.subscriptionEndpoint,location.href);
    if(endpoint.protocol!=="https:")throw Error("Subscription endpoint must use HTTPS.");
+   say("Saving subscription to notification server…");
    const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription,preferences:window.GSON_NOTIFICATION_PREFERENCES||{}})});
    if(!response.ok)throw Error("Subscription server returned "+response.status);
    say("Push notifications enabled on this device.");
