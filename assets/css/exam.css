@@ -29,3 +29,6 @@
 #report-fallback{display:block;margin:12px 0;color:var(--accent);text-decoration:underline}#report-fallback[hidden],#report-frame[hidden],#report-form[hidden],#copy-report[hidden],#report-preview[hidden]{display:none!important}
 
 #reference-text{white-space:pre-wrap;overflow:auto;overflow-wrap:anywhere;font:inherit;line-height:1.65;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:22px;max-height:calc(90vh - 120px);margin:0}#reference-text[hidden],#reference-frame[hidden]{display:none!important}#reference-status{margin:12px 0}
+
+/* iOS Safari auto-zooms focused inputs with computed font sizes below 16px. */
+@media(max-width:767px){.exam-card input[type=number],.exam-card input[type=text],.exam-card select,#report-form select,#report-form textarea,#report-preview{font-size:16px!important;line-height:1.4}.exam-card input[type=number]{width:min(100%,240px);min-height:48px;box-sizing:border-box}.exam-card .match-row select{width:100%}}
