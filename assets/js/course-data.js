@@ -195,6 +195,11 @@ const STUDY_HUB = [
         exams: [
         { name: "Exam 2", versions: [
           {
+            version: "Med Math — 25 Questions",
+            file: "exam.html?bank=fundamentals-exam-2-qa-med-math",
+            description: "Production-ready practice: 25 randomly selected dosage questions per attempt from a 79-question bank, with immediate feedback and source references."
+          },
+          {
             version: "Fundies Fully Updated Exam 1",
             file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 1.html",
               description: "50 New Questions, see if they work"
