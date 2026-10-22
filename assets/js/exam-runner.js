@@ -80,7 +80,7 @@ $("references").addEventListener("click",()=>{if(!engine)return;const sources=[.
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
 (async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
-if(bankId==="fundamentals-exam-2-qa-standard"||bankId==="fundamentals-exam-2-qa-med-math"){
+if(bankId==="fundamentals-exam-2-qa-standard"){
  const sourceBase="References/Fundamentals/Exams/Exam%202/";
  for(const q of bank.questions){
   const sourceName=q.source?.name==="Fundies course materials"?"fundies med math.pdf":q.source?.name;
@@ -98,8 +98,6 @@ if(bankId==="fundamentals-exam-2-qa-standard"||bankId==="fundamentals-exam-2-qa-
   bank.practiceName="Standard Exam · Detailed Blueprint Preview";
   bank.notice="Exact 50-question topic and subtopic quotas plus SATA/matching/true-false ranges enforced. COPD case study currently selects six COPD-themed questions rather than a linked vignette.";
   delete bank.previewCount;
- }else{
-  bank.notice="Med Math practice preview; separate Med Math topic blueprint has not been provided.";
  }
 }
 engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
