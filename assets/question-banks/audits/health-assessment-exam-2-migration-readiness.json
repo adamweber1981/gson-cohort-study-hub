@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-22",
+  "status": "CHAPTER_AND_FORMAT_BLUEPRINT_PREVIEW",
+  "extracted": 400,
+  "retained": 165,
+  "deduplicated": 235,
+  "sourceAlignmentStandard": "Practice-level course PDF alignment: preserved original source, page and rationale; no medical-school-level external clinical validation.",
+  "validation": {
+    "total": 165,
+    "sourceExcerpt": 69,
+    "sourcePage": 165,
+    "uniqueSourceFiles": [
+      "Chapter 15 8th edition.pdf",
+      "Chapter 16 8th edition.pdf",
+      "Chapter 16 — Full Timestamped Transcript.pdf (00:24:10–00:25:15); Chapter 16 presentation and speaker notes",
+      "Chapter 16 — Full Timestamped Transcript.pdf (00:07:10–00:08:30); Chapter 16 presentation and speaker notes",
+      "Chapter 16 — Full Timestamped Transcript.pdf (00:35:43–00:36:36); Chapter 16 presentation and speaker notes",
+      "Chapter 16 — Full Timestamped Transcript.pdf (00:28:05–00:30:05); Chapter 16 presentation and speaker notes",
+      "Chapter 17 8th edition.pdf",
+      "Chapter 18 8th edition.pdf",
+      "Chapter 19 8th edition-1.pdf",
+      "Chapter 24 new curriculum.pdf",
+      "Chapter 24 — Full Timestamped Transcript.pdf (00:50:07–00:50:56); Chapter 24 presentation and speaker notes",
+      "Chapter 24 — Full Timestamped Transcript.pdf (00:16:20–00:18:15); Chapter 24 presentation and speaker notes",
+      "Chapter 6 8th edition.pdf",
+      "Chapter 25 8th edition.pdf",
+      "Chapter 16 — Full Timestamped Transcript.pdf (00:08:00–00:09:10); Chapter 16 presentation and speaker notes",
+      "Chapter 24 — Full Timestamped Transcript.pdf (00:48:43–00:50:05); Chapter 24 presentation and speaker notes"
+    ],
+    "types": {
+      "sata": 18,
+      "matching": 6,
+      "mcq": 135,
+      "visual": 6
+    }
+  },
+  "verified": [
+    "50-question chapter quotas structurally feasible",
+    "35 standard MCQ + 9 SATA + 3 matching + 3 visual question selection structurally feasible",
+    "8 legacy exam cards and Phase 2 demo removed from Health Assessment course page",
+    "Original legacy HTML files preserved"
+  ],
+  "pending": [
+    "Official blueprint detailed subtopic tagging and gap-filling",
+    "Full randomized browser exam completion test",
+    "Cloudflare preview deployment verification"
+  ],
+  "note": "Do not claim the detailed subtopic blueprint is satisfied until those allocations are enforced."
+}
