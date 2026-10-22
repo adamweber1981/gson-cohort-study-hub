@@ -1,0 +1,77 @@
+{
+  "id": "fundamentals-exam-2-practice-supplement",
+  "questions": [
+    {
+      "id": "tf-venturi",
+      "topic": "Oxygenation",
+      "statement": "A Venturi mask can deliver a controlled oxygen concentration.",
+      "correct": true,
+      "rationale": "A Venturi mask is used to control inspired oxygen concentration.",
+      "source": "fundies gas exchange.pdf",
+      "page": 13
+    },
+    {
+      "id": "tf-nonrebreather",
+      "topic": "Oxygenation",
+      "statement": "A nonrebreather mask has a reservoir bag for high-concentration oxygen delivery.",
+      "correct": true,
+      "rationale": "The reservoir bag supports high-concentration oxygen delivery.",
+      "source": "fundies gas exchange.pdf",
+      "page": 13
+    },
+    {
+      "id": "tf-restraints",
+      "topic": "Safety",
+      "statement": "Restraints should be the first response when a confused patient pulls at a line.",
+      "correct": false,
+      "rationale": "Appropriate less-restrictive alternatives should be considered before restraints.",
+      "source": "fundies safety.pdf",
+      "page": 25
+    },
+    {
+      "id": "tf-near-miss",
+      "topic": "Safety",
+      "statement": "A near miss is intercepted before it reaches the patient.",
+      "correct": true,
+      "rationale": "A near miss is an event or error caught before reaching the patient.",
+      "source": "fundies safety.pdf",
+      "page": 6
+    },
+    {
+      "id": "tf-hearing",
+      "topic": "Sensory",
+      "statement": "Facing a patient and speaking clearly can help communication with hearing impairment.",
+      "correct": true,
+      "rationale": "Facing the patient can support speechreading and communication.",
+      "source": "fundies sensory.pdf",
+      "page": 20
+    },
+    {
+      "id": "tf-pain",
+      "topic": "Pain & comfort",
+      "statement": "A patient's self-report is an important part of pain assessment.",
+      "correct": true,
+      "rationale": "Patient self-report is a key component of pain assessment.",
+      "source": "exam 2 kahoot transcript.pdf",
+      "page": 30
+    },
+    {
+      "id": "tf-pca",
+      "topic": "Pain & comfort",
+      "statement": "Family members should routinely press the patient's PCA button while the patient sleeps.",
+      "correct": false,
+      "rationale": "Patient-controlled analgesia is intended to be controlled by the patient.",
+      "source": "exam 2 kahoot transcript.pdf",
+      "page": 30
+    },
+    {
+      "id": "tf-imagery",
+      "topic": "Complementary & integrative",
+      "statement": "Guided imagery may supplement prescribed pain management.",
+      "correct": true,
+      "rationale": "Guided imagery is a complementary comfort technique.",
+      "source": "exam 2 kahoot transcript.pdf",
+      "page": 30
+    }
+  ]
+}
