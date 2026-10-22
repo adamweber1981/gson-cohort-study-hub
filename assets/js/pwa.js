@@ -28,6 +28,20 @@
    say("Push notifications enabled on this device.");
   }catch(error){say("Could not enable notifications: "+error.message)}
  });
+ const unsubscribe=document.getElementById("pwa-unsubscribe");
+ unsubscribe?.addEventListener("click",async()=>{
+  try{
+   const registration=await navigator.serviceWorker.ready;
+   const subscription=await registration.pushManager.getSubscription();
+   if(!subscription){say("No active push subscription on this device.");return}
+   if(!config.unsubscribeEndpoint){say("Unsubscribe backend is not configured yet.");return}
+   const endpoint=new URL(config.unsubscribeEndpoint,location.href);
+   if(endpoint.protocol!=="https:")throw Error("Unsubscribe requires HTTPS");
+   const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription})});
+   if(!response.ok)throw Error("Server returned "+response.status);
+   await subscription.unsubscribe();say("Notifications disabled for this device.");
+  }catch(error){say("Unable to disable notifications: "+error.message)}
+ });
  document.addEventListener("gson:notification-preferences-changed",async event=>{
   if(!config.preferencesEndpoint)return;
   try{
