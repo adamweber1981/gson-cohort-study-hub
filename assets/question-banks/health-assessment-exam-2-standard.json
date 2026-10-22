@@ -5473,7 +5473,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v5-q003",
@@ -5587,7 +5588,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v5-q006",
@@ -5663,7 +5665,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v5-q008",
@@ -5777,7 +5780,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v6-q003",
@@ -5891,7 +5895,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v6-q006",
@@ -6081,7 +6086,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v7-q003",
@@ -6195,7 +6201,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v7-q006",
@@ -6575,7 +6582,8 @@
         }
       ],
       "correct": "o0",
-      "subtopic": null
+      "subtopic": null,
+      "reviewStatus": "EXCLUDED_NOT_IN_EXAM_2_BLUEPRINT"
     },
     {
       "id": "ha-e2-v8-q008",
@@ -6887,5 +6895,13 @@
       ],
       "correct": "o0"
     }
-  ]
+  ],
+  "validationStandard": "Course-document alignment, answer consistency, and absence of obvious ambiguity; not external medical-level clinical review.",
+  "migration": {
+    "originalExams": 8,
+    "originalQuestionCount": 400,
+    "retainedAfterDeduplication": 173,
+    "excludedOffBlueprint": 8,
+    "approvedForPractice": 165
+  }
 }
