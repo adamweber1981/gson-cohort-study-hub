@@ -13,7 +13,7 @@ app.use((req,res,next)=>{res.setHeader("Vary","Origin");if(allowedOrigin(req)){r
 const keys=["updatedExams","newSources","examReminders","majorUpdates"];
 function validSubscription(s){try{const u=new URL(s.endpoint);return u.protocol==="https:"&&s.endpoint.length<2048&&typeof s.keys?.p256dh==="string"&&typeof s.keys?.auth==="string"&&s.keys.p256dh.length<512&&s.keys.auth.length<512}catch{return false}}
 function prefs(p){return Object.fromEntries(keys.map(k=>[k,p?.[k]!==false]))}
-function sameOrigin(req){return req.headers.origin===origin}
+function sameOrigin(req){return allowedOrigin(req)}
 app.get("/health",(_req,res)=>res.json({ok:true}));
 app.post("/subscriptions",async(req,res)=>{if(!sameOrigin(req))return res.sendStatus(403);const s=req.body?.subscription||req.body;if(!validSubscription(s))return res.status(400).json({error:"Invalid push subscription"});try{await pool.query("INSERT INTO push_subscriptions(endpoint,subscription,preferences) VALUES($1,$2,$3) ON CONFLICT(endpoint) DO UPDATE SET subscription=$2,preferences=$3,updated_at=now()",[s.endpoint,s,prefs(req.body?.preferences)]);res.status(201).json({ok:true})}catch(e){console.error("subscribe failed",e);res.sendStatus(500)}});
 app.post("/subscriptions/preferences",async(req,res)=>{if(!sameOrigin(req))return res.sendStatus(403);const s=req.body?.subscription;if(!validSubscription(s))return res.sendStatus(400);try{const q=await pool.query("UPDATE push_subscriptions SET preferences=$2,updated_at=now() WHERE endpoint=$1 AND subscription->'keys'->>'auth'=$3",[s.endpoint,prefs(req.body?.preferences),s.keys.auth]);res.status(q.rowCount?200:404).json({ok:!!q.rowCount})}catch(e){console.error(e);res.sendStatus(500)}});
