@@ -29,7 +29,7 @@
       "rationale": "Option B is deliberately keyed as correct to test single-answer grading.",
       "source": {
         "name": "Phase 2 demo questions (synthetic testing content)",
-        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+        "path": "References/Design%20Documentation/PHASE-2-DEMO.md"
       }
     },
     {
@@ -63,7 +63,7 @@
       "rationale": "Only A and C are correct. SATA uses exact-set grading with no partial credit.",
       "source": {
         "name": "Phase 2 demo questions (synthetic testing content)",
-        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+        "path": "References/Design%20Documentation/PHASE-2-DEMO.md"
       }
     },
     {
@@ -111,7 +111,7 @@
       "rationale": "The keyed pairs are 1–A, 2–B, and 3–C. All pairs must match.",
       "source": {
         "name": "Phase 2 demo questions (synthetic testing content)",
-        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+        "path": "References/Design%20Documentation/PHASE-2-DEMO.md"
       }
     },
     {
@@ -134,7 +134,7 @@
       "rationale": "The practice engine locks answers after submission and only allows read-only review after scoring.",
       "source": {
         "name": "Phase 2 demo questions (synthetic testing content)",
-        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+        "path": "References/Design%20Documentation/PHASE-2-DEMO.md"
       }
     },
     {
@@ -150,7 +150,7 @@
       "rationale": "100 mg ÷ (50 mg/mL) = 2 mL. This is a synthetic calculation for interface testing.",
       "source": {
         "name": "Phase 2 demo questions (synthetic testing content)",
-        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+        "path": "References/Design%20Documentation/PHASE-2-DEMO.md"
       }
     },
     {
@@ -179,7 +179,7 @@
       "rationale": "Feedback appears only after explicit submission. The case panel demonstrates case-study context rendering.",
       "source": {
         "name": "Phase 2 demo questions (synthetic testing content)",
-        "path": "../../References/Design%20Documentation/PHASE-2-DEMO.md"
+        "path": "References/Design%20Documentation/PHASE-2-DEMO.md"
       }
     }
   ]
