@@ -22,4 +22,4 @@ function showView(target){views.forEach(v=>v.classList.toggle("hidden",v!==targe
 function route(){const hash=decodeURIComponent(location.hash.slice(1));if(hash.startsWith("course/")){buildCourse(hash.slice(7));showView(courseView)}else if(hash==="references"){showView(referenceView)}else if(hash==="settings"){showView(settingsView)}else{showView(hub)}}
 document.getElementById("settings-shortcut").addEventListener("click",()=>{location.hash="settings"});
 document.getElementById("notification-state").textContent="Not available yet. New-exam notifications require a separate opt-in push service; no permission will be requested in Phase 1.";
-buildHome();addEventListener("hashchange",route);route();
+AnswerColors.setup();buildHome();addEventListener("hashchange",route);route();
