@@ -23,9 +23,20 @@
    const subscription=await registration.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:key});
    const endpoint=new URL(config.subscriptionEndpoint,location.href);
    if(endpoint.protocol!=="https:")throw Error("Subscription endpoint must use HTTPS.");
-   const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(subscription)});
+   const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription,preferences:window.GSON_NOTIFICATION_PREFERENCES||{}})});
    if(!response.ok)throw Error("Subscription server returned "+response.status);
    say("Push notifications enabled on this device.");
   }catch(error){say("Could not enable notifications: "+error.message)}
+ });
+ document.addEventListener("gson:notification-preferences-changed",async event=>{
+  if(!config.preferencesEndpoint)return;
+  try{
+   const registration=await navigator.serviceWorker.ready;
+   const subscription=await registration.pushManager.getSubscription();
+   if(!subscription)return;
+   const endpoint=new URL(config.preferencesEndpoint,location.href);
+   if(endpoint.protocol!=="https:")return;
+   await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription,preferences:event.detail})});
+  }catch(error){say("Could not sync notification preferences: "+error.message)}
  });
 })();
