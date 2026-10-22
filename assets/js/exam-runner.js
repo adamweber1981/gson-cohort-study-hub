@@ -4,7 +4,7 @@ const params=new URLSearchParams(location.search);const bankId=params.get("bank"
 const root=$("exam-root"),meta=$("exam-meta"),actions=$("exam-actions"),alertBox=$("exam-alert");
 function button(text,handler,disabled=false){const b=document.createElement("button");b.type="button";b.textContent=text;b.className=text.startsWith("Next")?"action-next":text.startsWith("Score")?"action-score":text.startsWith("Review")?"action-review":"action-submit";b.disabled=disabled;b.addEventListener("click",handler);actions.append(b);return b}
 function resetUI(){root.replaceChildren();actions.replaceChildren();alertBox.textContent=""}
-function sourceLink(q){const s=q.source;const wrap=document.createElement("p");wrap.className="source";wrap.append("Source: "+s.name+(s.page?" · PDF page "+s.page:"")+" · ");const a=document.createElement("a");a.href=s.path+(s.page?"#page="+s.page:"");a.target="_blank";a.rel="noopener";a.textContent="Open reference ↗";wrap.append(a);return wrap}
+function sourceLink(q){const s=q.source;const wrap=document.createElement("p");wrap.className="source";wrap.append("Source: "+s.name+(s.page?" · PDF page "+s.page:"")+" · ");const a=document.createElement("a");a.href=s.path+(s.page?"#page="+s.page:"");a.textContent="View reference";a.addEventListener("click",e=>{e.preventDefault();openReference(a.href,s.name)});wrap.append(a);return wrap}
 function showQuestion(){resetUI();selection=null;const q=engine.current();const submitted=engine.phase==="submitted";const prior=engine.answer;meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.append(Object.assign(document.createElement("p"),{className:"muted",textContent:"Question "+(engine.index+1)+" of "+engine.total}));if(q.caseText)root.append(Object.assign(document.createElement("aside"),{className:"case-panel",textContent:q.caseText}));root.append(Object.assign(document.createElement("h1"),{textContent:q.stem}));
  const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=q.type==="sata"?"Select all that apply":q.type==="matching"?"Match every item":q.type==="dosage"?"Enter the calculated dose":"Choose one answer";field.append(legend);
  if(["mcq","sata","truefalse"].includes(q.type)){const choices=q.options;for(const option of choices){const label=document.createElement("label");label.className="answer-option";const input=document.createElement("input");input.type=q.type==="sata"?"checkbox":"radio";input.name="answer";input.value=option.id;input.disabled=submitted;input.checked=submitted?(q.type==="sata"?prior.response.includes(option.id):prior.response===option.id):false;input.addEventListener("change",()=>{selection=q.type==="sata"?[...field.querySelectorAll("input:checked")].map(x=>x.value):input.value;submitButton.disabled=Array.isArray(selection)?!selection.length:!selection});label.append(input,document.createTextNode(" "+option.text));field.append(label)}}
@@ -27,7 +27,7 @@ function reportLink(q,number){const b=document.createElement("button");b.type="b
 function openReport(q,number){
  const dialog=$("report-dialog");const form=$("report-form");form.reset();
  $("report-context").textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName+" · Question "+number+" · ID "+q.id;
- $("report-status").textContent="";dialog.showModal();$("report-reason").focus();
+ $("report-status").textContent="";$("report-frame").hidden=true;$("report-frame").removeAttribute("src");$("report-preview").hidden=true;$("copy-report").hidden=true;dialog.showModal();$("report-reason").focus();
  form.onsubmit=e=>{e.preventDefault();
  const url=new URL(REPORT_FORM_URL);
  const fields={
@@ -42,16 +42,19 @@ function openReport(q,number){
  url.searchParams.set("usp","pp_url");
  const report=["Course: "+engine.bank.course,"Exam / Practice Version: "+fields["entry.306826281"],"Question ID: "+q.id,"Question Text: "+q.stem,"Type of Issue: "+fields["entry.973603052"],"Describe the Problem: "+(fields["entry.1667769534"]||"(none)")].join("\\n");
  $("report-preview").value=report;$("report-preview").hidden=false;$("copy-report").hidden=false;
- const opened=window.open(url.toString(),"_blank","noopener,noreferrer");
- $("report-status").textContent=opened===null?"If the form did not open, allow pop-ups for this site. Your report is prepared below.":"Your pre-filled Google Form has opened in a new tab. Review it and select Submit in Google Forms to send your report.";
+ const frame=$("report-frame");url.searchParams.set("embedded","true");frame.src=url.toString();frame.hidden=false;
+ $("report-status").textContent="Your pre-filled Google Form is shown below. Review the details and select Submit inside the form. Your exam stays open.";
  };
 }
-$("close-report").addEventListener("click",()=>$("report-dialog").close());
+$("close-report").addEventListener("click",()=>$("report-dialog").close());$("report-dialog").addEventListener("close",()=>{$("report-frame").removeAttribute("src")});
+function openReference(url,title){const dialog=$("reference-dialog");$("reference-heading").textContent=title||"Exam reference";$("reference-frame").src=url;dialog.showModal()}
+$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{$("reference-frame").removeAttribute("src")});
 $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("report-preview").value);$("report-status").textContent="Report copied. Paste it into the Google Form when available."}catch(_){$("report-preview").focus();$("report-preview").select();$("report-status").textContent="Select and copy the highlighted report text."}});
 
 function confirmLeave(){return !engine||!["active","submitted"].includes(engine.phase)||confirm("Leave this exam? Your current attempt will be lost.")}
 $("reset-exam").addEventListener("click",()=>{if(engine&&confirm("Start a new randomized attempt? All answers will be cleared.")){engine.reset();showQuestion()}});
 $("return-hub").addEventListener("click",e=>{if(!confirmLeave())e.preventDefault()});
-$("references").addEventListener("click",()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];resetUI();root.append(Object.assign(document.createElement("h1"),{textContent:"Exam references"}));sources.forEach(s=>{const p=document.createElement("p");const a=document.createElement("a");a.href=s.path;a.target="_blank";a.rel="noopener";a.textContent=s.name+" ↗";p.append(a);root.append(p)});button("Return to question",()=>{if(engine.phase==="intro")showIntro();else if(engine.phase==="results")showResults();else if(engine.phase==="review")showReview();else showQuestion()})});
+$("references").addEventListener("click",()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();sources.forEach(s=>{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name)});list.append(b)});dialog.showModal()});
+$("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
 (async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
