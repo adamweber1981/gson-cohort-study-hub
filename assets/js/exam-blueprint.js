@@ -1,53 +1,46 @@
 "use strict";
 (function(root){
-  function shuffled(a,r=Math.random){const x=[...a];for(let i=x.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[x[i],x[j]]=[x[j],x[i]]}return x}
-  function assemble(questions,blueprint,random=Math.random){
-    if(!Array.isArray(questions)||!blueprint||!blueprint.topics)throw Error("Invalid blueprint input");
-    const topics=Object.entries(blueprint.topics),total=topics.reduce((n,[,v])=>n+v,0);
-    if(total!==blueprint.total)throw Error("Blueprint topic totals do not equal exam length");
-    const typeRules=blueprint.types||{},types=Object.keys(typeRules);
-    const allowed=new Set(topics.map(([t])=>t));
-    const available=questions.filter(q=>q.approved===true&&allowed.has(q.topic));
-    const idSet=new Set();for(const q of available){if(idSet.has(q.id))throw Error("Duplicate approved ID: "+q.id);idSet.add(q.id)}
-    for(const [topic,n] of topics)if(available.filter(q=>q.topic===topic).length<n)throw Error("Insufficient approved questions in "+topic+": need "+n);
-    const min=Object.fromEntries(types.map(t=>[t,typeRules[t].min||0]));
-    const max=Object.fromEntries(types.map(t=>[t,typeRules[t].max??blueprint.total]));
-    for(const t of types)if(available.filter(q=>q.type===t).length<min[t])throw Error("Insufficient approved "+t+" questions");
-    const slots=topics.map(([topic,n])=>({topic,n,candidates:shuffled(available.filter(q=>q.topic===topic),random)})).sort((a,b)=>a.candidates.length-a.n-(b.candidates.length-b.n));
-    const selected=[],counts=Object.fromEntries(types.map(t=>[t,0]));
-    function viable(k){
-      for(const t of types){
-        if(counts[t]>max[t])return false;
-        let possible=0;for(let j=k;j<slots.length;j++){const s=slots[j];possible+=Math.min(s.n,s.candidates.filter(q=>q.type===t).length)}
-        if(counts[t]+possible<min[t])return false;
-      }
-      return true
+ function shuffle(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+ function assemble(questions,blueprint,random=Math.random){
+  if(!blueprint||!blueprint.topics||!Number.isInteger(blueprint.total))throw Error("Invalid exam blueprint");
+  const topics=Object.entries(blueprint.topics),total=topics.reduce((n,[,v])=>n+v,0);
+  if(total!==blueprint.total||topics.some(([,n])=>!Number.isInteger(n)||n<0))throw Error("Invalid topic quotas");
+  const rules=blueprint.types||{},types=Object.keys(rules);
+  const minima=types.map(t=>rules[t].min||0),maxima=types.map(t=>rules[t].max??total);
+  const seen=new Set(),approved=questions.filter(q=>q.approved===true);
+  for(const q of approved){if(seen.has(q.id))throw Error("Duplicate approved question: "+q.id);seen.add(q.id)}
+  const pools=topics.map(([topic,n])=>({topic,n,byType:Object.fromEntries([...types,"other"].map(t=>[t,shuffle(approved.filter(q=>q.topic===topic&&(types.includes(q.type)?q.type:"other")===t),random)]))}));
+  for(const p of pools)if(Object.values(p.byType).reduce((n,a)=>n+a.length,0)<p.n)throw Error("Insufficient approved questions in "+p.topic);
+  const memo=new Set();
+  function search(i,counts){
+   if(i===pools.length)return minima.every((min,k)=>counts[k]>=min&&counts[k]<=maxima[k])?[]:null;
+   const key=i+":"+counts.join(",");if(memo.has(key))return null;
+   const p=pools[i],caps=types.map(t=>p.byType[t].length),alloc=Array(types.length).fill(0);
+   function assign(k,remaining){
+    if(k===types.length){
+     if(remaining>p.byType.other.length)return null;
+     const next=counts.map((n,j)=>n+alloc[j]);
+     for(let j=0;j<types.length;j++){
+      if(next[j]>maxima[j])return null;
+      const future=pools.slice(i+1).reduce((n,p2)=>n+Math.min(p2.n,p2.byType[types[j]].length),0);
+      if(next[j]+future<minima[j])return null;
+     }
+     const tail=search(i+1,next);
+     return tail===null?null:[{pool:p,allocation:[...alloc],other:remaining},...tail]
     }
-    function fill(k){
-      if(k===slots.length)return types.every(t=>counts[t]>=min[t]&&counts[t]<=max[t]);
-      const s=slots[k],pool=s.candidates,chosen=[];
-      function choose(start){
-        if(chosen.length===s.n){
-          for(const q of chosen)if(q.type in counts)counts[q.type]++;
-          selected.push(...chosen);
-          const ok=viable(k+1)&&fill(k+1);
-          if(ok)return true;
-          selected.length-=chosen.length;
-          for(const q of chosen)if(q.type in counts)counts[q.type]--;
-          return false;
-        }
-        if(pool.length-start<s.n-chosen.length)return false;
-        for(let i=start;i<pool.length;i++){
-          const q=pool[i];
-          if(q.type in counts&&counts[q.type]+chosen.filter(x=>x.type===q.type).length>=max[q.type])continue;
-          chosen.push(q);if(choose(i+1))return true;chosen.pop();
-        }
-        return false
-      }
-      return choose(0)
-    }
-    if(!viable(0)||!fill(0))throw Error("No approved selection satisfies all topic and type quotas");
-    return shuffled(selected,random);
+    const possible=Math.min(caps[k],remaining,maxima[k]-counts[k]);
+    const values=shuffle(Array.from({length:possible+1},(_,i)=>i),random);
+    for(const value of values){alloc[k]=value;const result=assign(k+1,remaining-value);if(result!==null)return result}
+    return null
+   }
+   const result=assign(0,p.n);if(result===null)memo.add(key);return result
   }
-  root.ExamBlueprint={assemble};
+  const allocation=search(0,Array(types.length).fill(0));
+  if(!allocation)throw Error("No approved question selection satisfies the blueprint topic/type quotas");
+  const selected=[];
+  for(const entry of allocation){types.forEach((t,i)=>selected.push(...entry.pool.byType[t].slice(0,entry.allocation[i])));selected.push(...entry.pool.byType.other.slice(0,entry.other))}
+  if(selected.length!==total||new Set(selected.map(q=>q.id)).size!==total)throw Error("Blueprint assembly integrity check failed");
+  return shuffle(selected,random)
+ }
+ root.ExamBlueprint={assemble};
 })(window);
