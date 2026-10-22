@@ -41,3 +41,11 @@ html,body{max-width:100%;overflow-x:clip}
 .dosage-entry span{display:block;max-width:100%}
 .exam-card .dosage-entry input[type=number]{display:block;width:min(100%,280px);max-width:100%;font-size:16px!important;min-height:48px}
 @media(max-width:600px){.exam-layout{padding-top:16px}.exam-card{padding:18px 14px}.exam-card h1{font-size:clamp(22px,6vw,28px);line-height:1.3}.exam-card legend{font-size:17px}}
+
+/* Optional student palette: colors follow displayed position, never correctness. */
+html:not([data-answer-palette="default"]) .answer-option.answer-color-0{background:var(--answer-bg-0);color:var(--answer-fg-0);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option.answer-color-1{background:var(--answer-bg-1);color:var(--answer-fg-1);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option.answer-color-2{background:var(--answer-bg-2);color:var(--answer-fg-2);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option.answer-color-3{background:var(--answer-bg-3);color:var(--answer-fg-3);border-color:transparent}
+html:not([data-answer-palette="default"]) .answer-option input{accent-color:currentColor}
+.answer-option:has(input:checked){outline:3px solid var(--focus);outline-offset:1px}
