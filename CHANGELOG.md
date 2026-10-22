@@ -6,6 +6,15 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+## Unreleased — Health Assessment cranial nerve coverage
+
+- Audited the Chapter 25 course lecture (PDF pp. 11–20) against the Health Assessment Exam 2 bank.
+- Added **24 distinct, course-source-grounded MCQs**: **two focused questions for each of CN I–XII**, including previously missing CN V, VIII, and XII and fuller testing of VII.
+- Each added item includes the lecture PDF path, specific PDF page, excerpt, rationale, and answer key; question IDs are unique and answers resolve to choices.
+- Expanded the shared Health Assessment Exam 2 question bank from **325 to 349** questions. Existing questions were preserved.
+- **Scope:** this ensures at least two questions per nerve **in the pool**, not two per nerve in every randomized 50-question exam. Existing blueprint quotas were not changed. The prior broader bank source-validation limitations remain in place.
+- Changes are on `pwa-redesign` for testing; `main` remains unchanged pending release authorization.
+
 - PNG PWA icons (192 px, 512 px, 180 px Apple touch icon, and maskable icon) are planned; the app currently uses an SVG icon.
 - Legacy push-subscription cleanup is deferred; legacy subscriptions were deliberately preserved.
 - Additional automated regression and browser-acceptance tests remain desirable.
