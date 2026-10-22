@@ -1,0 +1,172 @@
+{
+  "schema": "gson-question-review-v1",
+  "bankId": "fundamentals-exam-2-master",
+  "source": "User-uploaded fundamentals-exam-2-review-decisions.json, exported 2026-10-22T06:33:09.311Z",
+  "decisions": {
+    "fund-e2-rebuilt-1-q001": {
+      "status": "PASS",
+      "notes": "This is accurate"
+    },
+    "fund-e2-rebuilt-1-q002": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fund-e2-rebuilt-1-q003": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fund-e2-rebuilt-1-q004": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fund-e2-rebuilt-1-q005": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q001": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q002": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q003": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q004": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q005": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q006": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q007": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q008": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q010": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-med-math-1-q011": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fund-e2-rebuilt-1-q018": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-exam-2-version-2-q013": {
+      "status": "PASS",
+      "notes": ""
+    },
+    "fundamentals-exam-2-version-3-q015": {
+      "status": "PASS",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-1-q001": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-2-q022": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-2-q045": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-3-q030": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-3-q031": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-4-q019": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-4-q027": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-4-q046": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-5-q007": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-5-q018": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-5-q024": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-6-q014": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-6-q016": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-6-q049": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-7-q006": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-7-q015": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-7-q018": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-8-q007": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-8-q031": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fundamentals-exam-2-version-8-q037": {
+      "status": "REVISE",
+      "notes": "Remove the diagram"
+    },
+    "fund-e2-rebuilt-1-q010": {
+      "status": "REVISE",
+      "notes": "Sentinel are also considered \"Never\" events.  So it should be 3 options, Sentinel (Never) event should be the third option"
+    }
+  },
+  "summary": {
+    "total": 39,
+    "pass": 18,
+    "revise": 21,
+    "diagramsRemoved": 21,
+    "matchingRevisionPending": 1,
+    "finalClinicalApprovals": 0
+  },
+  "notes": "The PASS entry for version-3-q015 also requested diagram removal and was applied. Original diagram values preserved in master editorialHistory. Matching safety-event taxonomy revision held pending source verification; sentinel events and never events are not universally interchangeable categories. Other questions are not automatically clinically approved."
+}
