@@ -6774,10 +6774,11 @@
   },
   "questionPoolPolicy": "Unique source-derived questions only; superficial stem-prefix variants removed",
   "deduplication": {
-    "originalLegacyQuestions": 400,
-    "uniqueLegacyQuestions": 160,
-    "courseAlignedSupplements": 5,
-    "removedSyntheticPrefixAdaptations": 235,
-    "retained": 165
-  }
+    "legacyQuestionsExtracted": 400,
+    "distinctLegacyQuestionsRetained": 157,
+    "courseAlignedSupplementalQuestions": 8,
+    "superficialScenarioPrefixVariantsRemoved": 235,
+    "finalPoolSize": 165
+  },
+  "reviewStandard": "Reasonably supported by the supplied Health Assessment course materials; sensible answer key and rationale. Not independent medical-level clinical verification."
 }
