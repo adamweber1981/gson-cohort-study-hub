@@ -1,0 +1,35 @@
+{
+  "id": "fundamentals-exam-2-standard",
+  "course": "Fundamentals",
+  "examNumber": "Exam 2",
+  "total": 50,
+  "topics": {
+    "Pain & comfort": 7,
+    "Sensory": 5,
+    "Complementary & integrative": 5,
+    "Oxygenation": 13,
+    "Safety": 11,
+    "Dosage calculation": 6,
+    "Concept mastery": 3
+  },
+  "types": {
+    "sata": {
+      "min": 6,
+      "max": 10
+    },
+    "matching": {
+      "min": 4,
+      "max": 6
+    },
+    "truefalse": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  "policy": {
+    "approvedOnly": true,
+    "uniqueQuestions": true,
+    "failClosed": true,
+    "source": "Original Fundamentals Exam 2 course blueprint; practice-type quotas per project agreement"
+  }
+}
