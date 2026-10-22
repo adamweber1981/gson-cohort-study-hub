@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "GSON Cohort 1 Accelerated Study Hub",
+  "short_name": "GSON Study Hub",
+  "description": "Nursing practice exams and course references",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#17142a",
+  "theme_color": "#513a86",
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
