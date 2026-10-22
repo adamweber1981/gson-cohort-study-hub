@@ -1,0 +1,1389 @@
+{
+  "id": "fundamentals-exam-2-rebuilt-2-staging",
+  "course": "Fundamentals",
+  "examNumber": "Exam 2",
+  "visibility": "STAGING_ONLY_NOT_APPROVED",
+  "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+  "questions": [
+    {
+      "stagingId": "fund-e2-rebuilt-2-q001",
+      "legacyBankNumber": 11,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 11,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "After a prescribed analgesic, the patient reports pain decreased from 8/10 to 4/10 but still cannot transfer to the chair. What should the nurse do?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 30,
+        "why": "Evaluation includes whether the functional goal was achieved, not only the numeric score.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Document treatment as fully effective",
+          "Reassess function and collaborate on additional safe pain management",
+          "Withhold further assessment",
+          "Tell the patient to ignore the pain"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q002",
+      "legacyBankNumber": 43,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 43,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "Which patient change should prompt immediate reassessment of oxygen delivery?",
+        "source": "fundies gas exchange.pdf",
+        "page": 14,
+        "why": "Restlessness and increased work of breathing can signal worsening oxygenation.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "New restlessness and increased work of breathing",
+          "Patient asks for a blanket",
+          "Patient finishes breakfast",
+          "Patient requests a visitor"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q003",
+      "legacyBankNumber": 77,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 77,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "The nurse learns a patient cannot safely climb stairs at home after hospitalization. Which collaboration is most appropriate?",
+        "source": "fundies safety.pdf",
+        "page": 16,
+        "why": "Mobility assessment and discharge planning require relevant disciplines.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Physical/occupational therapy and case management",
+          "Billing department alone",
+          "Security staff only",
+          "Laboratory staff only"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q004",
+      "legacyBankNumber": 41,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 41,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A nurse finds a simple face mask running at a flow lower than the device's recommended minimum. What is the concern?",
+        "source": "fundies gas exchange.pdf",
+        "page": 12,
+        "why": "Insufficient flow through a simple mask can allow CO₂ rebreathing.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Rebreathing exhaled carbon dioxide",
+          "Guaranteed delivery of 100% oxygen",
+          "The mask becomes a Venturi device",
+          "The patient receives no humidification only"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q005",
+      "legacyBankNumber": 48,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 48,
+        "topic": "Oxygenation",
+        "kind": "sata",
+        "stem": "Which changes in a COPD patient's condition require follow-up? Select all that apply.",
+        "source": "fundies gas exchange.pdf",
+        "page": 22,
+        "why": "Worsening dyspnea, wheezing, and edema warrant assessment.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Increased breathlessness",
+          "New ankle swelling",
+          "New or worsening wheezing",
+          "Improved activity tolerance",
+          "No change in baseline cough"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q006",
+      "legacyBankNumber": 17,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 17,
+        "topic": "Sensory",
+        "kind": "sata",
+        "stem": "A patient with hearing impairment keeps asking the nurse to repeat instructions. Which approach supports understanding?",
+        "source": "fundies sensory.pdf",
+        "page": 12,
+        "why": "Face-to-face communication and comprehension checks improve teaching.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Face the patient while speaking",
+          "Reduce background noise",
+          "Shout from the doorway",
+          "Confirm understanding",
+          "Cover the mouth to reduce distractions"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q007",
+      "legacyBankNumber": 65,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 65,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "A patient cannot afford prescribed medicines and reports unstable housing. Which referral is most helpful?",
+        "source": "fundies safety.pdf",
+        "page": 16,
+        "why": "Interprofessional referral helps address social and discharge needs.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Social work or case management",
+          "Laboratory only",
+          "Dietary tray delivery only",
+          "Equipment repair only"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q008",
+      "legacyBankNumber": 79,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 79,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "The nurse sees smoke entering a hallway from a closed room. Which RACE action helps limit spread while the response is activated?",
+        "source": "fundies safety.pdf",
+        "page": 19,
+        "why": "Closing doors helps contain fire and smoke.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Keep fire doors closed and contain the area",
+          "Prop every door open",
+          "Disable alarms",
+          "Open oxygen valves fully"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q009",
+      "legacyBankNumber": 50,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 50,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A patient on home oxygen asks where to store a backup cylinder. Which response is best?",
+        "source": "fundies gas exchange.pdf",
+        "page": 17,
+        "why": "Oxygen cylinders must be secured and protected from heat and ignition sources.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Secure it upright away from heat and open flames",
+          "Place it next to a gas stove",
+          "Keep it unsecured on the couch",
+          "Store it next to smoking materials"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q010",
+      "legacyBankNumber": 45,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 45,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A patient with a tracheostomy has audible secretions and difficulty moving air. What should the nurse prioritize?",
+        "source": "fundies gas exchange.pdf",
+        "page": 15,
+        "why": "Tracheostomy care prioritizes a patent airway and management of secretions.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Assess airway patency and provide indicated suctioning with appropriate equipment",
+          "Give oral fluids immediately",
+          "Cover the tracheostomy opening tightly",
+          "Delay assessment until morning"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q011",
+      "legacyBankNumber": 35,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 35,
+        "topic": "Oxygenation",
+        "kind": "sata",
+        "stem": "A patient has a respiratory rate of 8/min after receiving a sedative. Which findings are consistent with hypoventilation? Select all that apply.",
+        "source": "fundies gas exchange.pdf",
+        "page": 6,
+        "why": "Hypoventilation reduces CO₂ elimination and may depress consciousness.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Carbon dioxide retention",
+          "Decreased respiratory rate",
+          "Increasing somnolence",
+          "Excessive carbon dioxide exhalation",
+          "Respiratory alkalosis from overbreathing"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q012",
+      "legacyBankNumber": 99,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 99,
+        "topic": "Concept mastery",
+        "kind": "sata",
+        "stem": "Which changes suggest a COPD patient has learned a useful breathing technique? Select all that apply.",
+        "source": "fundies gas exchange.pdf",
+        "page": 19,
+        "why": "Pursed-lip breathing slows exhalation and helps manage air trapping.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Inhales gently through the nose",
+          "Exhales slowly through pursed lips",
+          "Prolongs the exhalation",
+          "Holds breath until dizzy",
+          "Uses rapid panting to empty lungs"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q013",
+      "legacyBankNumber": 37,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 37,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "After receiving a sedating medication, a patient breathes 7 times per minute and becomes drowsy. Which concern is most urgent?",
+        "source": "fundies gas exchange.pdf",
+        "page": 5,
+        "why": "Markedly reduced ventilation can retain CO₂ and impair oxygenation.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Hypoventilation and carbon dioxide retention",
+          "Hyperventilation and carbon dioxide loss",
+          "Improved gas exchange",
+          "Normal adult ventilation"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q014",
+      "legacyBankNumber": 18,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 18,
+        "topic": "Sensory",
+        "kind": "mc",
+        "stem": "After a stroke, a patient understands a request to raise an arm but speaks in short, effortful phrases. Which impairment is most likely?",
+        "source": "fundies sensory.pdf",
+        "page": 14,
+        "why": "Expressive aphasia impairs production of language while comprehension may be preserved.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Expressive aphasia",
+          "Receptive aphasia",
+          "Sensory deprivation",
+          "Presbycusis"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q015",
+      "legacyBankNumber": 71,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 71,
+        "topic": "Safety",
+        "kind": "sata",
+        "stem": "An active shooter is reported and a safe exit is available. Which actions follow the course guidance? Select all that apply.",
+        "source": "fundies safety.pdf",
+        "page": 22,
+        "why": "Run if a safe path exists; leave belongings and avoid exposing others.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Evacuate using the safe route",
+          "Leave belongings behind",
+          "Warn others away from the danger if possible",
+          "Stop to record video",
+          "Return for a phone"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q016",
+      "legacyBankNumber": 75,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 75,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "A unit reviews a wrong-site procedure that caused serious harm. What should the nurse recognize?",
+        "source": "fundies safety.pdf",
+        "page": 10,
+        "why": "Wrong-site procedures are serious preventable safety events.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "A serious reportable safety event requiring organizational response",
+          "A routine near miss",
+          "A harmless documentation error",
+          "An expected complication requiring no review"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q017",
+      "legacyBankNumber": 87,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 87,
+        "topic": "Dosage calculation",
+        "kind": "mc",
+        "stem": "An IV infusion contains 720 mL to run over 8 hours. What pump rate is needed?",
+        "source": "fundies med math.pdf",
+        "page": 10,
+        "why": "720 ÷ 8 = 90 mL/hr.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "80 mL/hr",
+          "90 mL/hr",
+          "100 mL/hr",
+          "120 mL/hr"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q018",
+      "legacyBankNumber": 10,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 10,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "A patient reports burning, electric-shock sensations in both feet. Which pain quality is most consistent with this description?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 29,
+        "why": "Burning and electric sensations suggest nerve-related pain.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Neuropathic",
+          "Referred visceral",
+          "Incisional cutaneous",
+          "Phantom limb"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q019",
+      "legacyBankNumber": 94,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 94,
+        "topic": "Dosage calculation",
+        "kind": "mc",
+        "stem": "A 500 mL IV bag must infuse over 4 hours. The drop factor is 12 gtt/mL. What is the drip rate to the nearest whole drop?",
+        "source": "fundies med math.pdf",
+        "page": 11,
+        "why": "500 × 12 ÷ 240 min = 25 gtt/min.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "20 gtt/min",
+          "25 gtt/min",
+          "30 gtt/min",
+          "40 gtt/min"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q020",
+      "legacyBankNumber": 21,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 21,
+        "topic": "Sensory",
+        "kind": "mc",
+        "stem": "A patient is overwhelmed by frequent care interruptions. Which nursing plan best balances safety and stimulation?",
+        "source": "fundies sensory.pdf",
+        "page": 8,
+        "why": "Coordinating care can reduce overload without compromising monitoring.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Cluster nonurgent care while maintaining required assessments",
+          "Eliminate all orientation cues",
+          "Encourage continuous loud music",
+          "Keep multiple staff talking during procedures"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q021",
+      "legacyBankNumber": 56,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 56,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "During tracheostomy care, which finding demands the most immediate action?",
+        "source": "fundies gas exchange.pdf",
+        "page": 15,
+        "why": "An obstructed airway is an immediate priority.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Sudden inability to pass air through the tube",
+          "Patient requests a tissue",
+          "Dressing needs routine replacement later",
+          "Family asks about visiting hours"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q022",
+      "legacyBankNumber": 72,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 72,
+        "topic": "Safety",
+        "kind": "sata",
+        "stem": "A patient begins a generalized seizure in bed. What should the nurse do first?",
+        "source": "fundies safety.pdf",
+        "page": 23,
+        "why": "Protect, time, and position the patient; do not restrain or place objects in the mouth.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Protect the patient from injury",
+          "Note the seizure start time",
+          "Turn the patient to the side when feasible",
+          "Insert an object between teeth",
+          "Hold extremities down"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q023",
+      "legacyBankNumber": 83,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 83,
+        "topic": "Dosage calculation",
+        "kind": "mc",
+        "stem": "A patient weighs 68 kg. Using 2.2 lb/kg, what is the weight in pounds to the nearest tenth?",
+        "source": "fundies med math.pdf",
+        "page": 2,
+        "why": "68 × 2.2 = 149.6 lb.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "149.6 lb",
+          "30.9 lb",
+          "136.0 lb",
+          "299.2 lb"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q024",
+      "legacyBankNumber": 68,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 68,
+        "topic": "Safety",
+        "kind": "match",
+        "stem": "Match the fire response steps with the RACE sequence.",
+        "source": "fundies safety.pdf",
+        "page": 19,
+        "why": "RACE organizes the immediate fire response.",
+        "keyword": "",
+        "excerpt": "",
+        "pairs": [
+          [
+            "Rescue",
+            "Move people in immediate danger"
+          ],
+          [
+            "Alarm",
+            "Activate the alarm and report location"
+          ],
+          [
+            "Contain",
+            "Close doors to limit smoke and fire"
+          ],
+          [
+            "Extinguish/Evacuate",
+            "Use extinguisher if safe or evacuate"
+          ]
+        ],
+        "matchOptions": [
+          "Move people in immediate danger",
+          "Activate the alarm and report location",
+          "Close doors to limit smoke and fire",
+          "Use extinguisher if safe or evacuate"
+        ],
+        "options": [],
+        "correct": []
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q025",
+      "legacyBankNumber": 39,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 39,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A deteriorating patient requires high-concentration oxygen while the team evaluates the cause. Which device has a reservoir bag and one-way valves?",
+        "source": "fundies gas exchange.pdf",
+        "page": 12,
+        "why": "A nonrebreather is designed for high-concentration oxygen delivery.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Nonrebreather mask",
+          "Standard nasal cannula",
+          "Room-air humidifier",
+          "Simple face mask without reservoir"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q026",
+      "legacyBankNumber": 78,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 78,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "The nurse finds the call bell on the floor and the patient's walker across the room. What should be corrected first?",
+        "source": "fundies safety.pdf",
+        "page": 17,
+        "why": "Accessible assistance and mobility equipment are basic fall precautions.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Restore access to the call bell and mobility aid before leaving",
+          "Turn off the room lights",
+          "Ask the patient to retrieve both items",
+          "Raise the bed to maximum height"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q027",
+      "legacyBankNumber": 100,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 100,
+        "topic": "Concept mastery",
+        "kind": "mc",
+        "stem": "A restless patient is at risk of pulling out a line. Which sequence reflects least-restrictive care?",
+        "source": "fundies safety.pdf",
+        "page": 25,
+        "why": "Restraints require a safety-driven, least-restrictive approach.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Assess cause, try alternatives, reassess, then follow restraint policy only if necessary",
+          "Apply restraints before assessment",
+          "Ask family to authorize any restraint without policy",
+          "Avoid documenting alternatives"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q028",
+      "legacyBankNumber": 93,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 93,
+        "topic": "Dosage calculation",
+        "kind": "mc",
+        "stem": "A patient must receive 1,000 mL over 10 hours. What rate should the nurse set on the IV pump?",
+        "source": "fundies med math.pdf",
+        "page": 10,
+        "why": "1,000 ÷ 10 = 100 mL/hr.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "10 mL/hr",
+          "80 mL/hr",
+          "100 mL/hr",
+          "120 mL/hr"
+        ],
+        "correct": [
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q029",
+      "legacyBankNumber": 33,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 33,
+        "topic": "Complementary & integrative",
+        "kind": "mc",
+        "stem": "A patient says, “I didn't mention my tea because it isn't a medication.” Which nursing response is best?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 28,
+        "why": "A nonjudgmental explanation supports safe disclosure.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "“Herbal preparations can affect care; please tell us what you use.”",
+          "“Tea never matters clinically.”",
+          "“Stop answering admission questions.”",
+          "“Only prescription labels belong on the medication list.”"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q030",
+      "legacyBankNumber": 54,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 54,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A COPD patient says, “I avoid drinking fluids because mucus is hard to cough up.” Which response is appropriate if fluids are not restricted?",
+        "source": "fundies gas exchange.pdf",
+        "page": 22,
+        "why": "Adequate hydration can support secretion clearance when not contraindicated.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Encourage appropriate hydration to help keep secretions manageable",
+          "Recommend severe fluid restriction without an order",
+          "Tell the patient to suppress every cough",
+          "Suggest lying flat during coughing"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q031",
+      "legacyBankNumber": 6,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 6,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "A family member says, “She is sleeping; I'll press her PCA button when she looks uncomfortable.” What is the nurse's best response?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 9,
+        "why": "Only the patient activates a PCA button; proxy dosing can cause oversedation.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Permit family dosing after instruction",
+          "Explain that only the patient should activate the PCA dose button",
+          "Disconnect the PCA without assessing pain",
+          "Increase the basal rate without an order"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q032",
+      "legacyBankNumber": 82,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 82,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "A patient has an active seizure lasting several minutes without stopping. Which action is most important?",
+        "source": "fundies safety.pdf",
+        "page": 23,
+        "why": "Prolonged seizures can be an emergency and require prompt response.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Activate urgent help according to protocol and maintain airway safety",
+          "Put an object in the mouth",
+          "Restrain all extremities",
+          "Leave the patient alone to recover"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q033",
+      "legacyBankNumber": 27,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 27,
+        "topic": "Complementary & integrative",
+        "kind": "mc",
+        "stem": "The nurse learns a patient uses herbal products with prescribed medicines. What is the best next step?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 27,
+        "why": "A complete medication history includes supplements.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Document products and communicate possible interactions",
+          "Assume herbal products cannot interact",
+          "Stop all prescribed drugs",
+          "Avoid documenting supplements"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q034",
+      "legacyBankNumber": 92,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 92,
+        "topic": "Dosage calculation",
+        "kind": "mc",
+        "stem": "A provider orders 45 mg IM. The medication concentration is 75 mg/mL. How many mL should be prepared?",
+        "source": "fundies med math.pdf",
+        "page": 9,
+        "why": "45 ÷ 75 = 0.6 mL.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "0.6 mL",
+          "1.7 mL",
+          "0.3 mL",
+          "1.2 mL"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q035",
+      "legacyBankNumber": 74,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 74,
+        "topic": "Safety",
+        "kind": "sata",
+        "stem": "Which details belong in restraint documentation? Select all that apply.",
+        "source": "fundies safety.pdf",
+        "page": 28,
+        "why": "Documentation covers indication, alternatives, monitoring, and response.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Behavior prompting intervention",
+          "Alternatives attempted",
+          "Monitoring and reassessment",
+          "Patient response",
+          "Only the color of the restraint"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q036",
+      "legacyBankNumber": 13,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 13,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "The nurse notices the PCA pump's medication label does not match the active order. What should the nurse do?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 9,
+        "why": "An unresolved medication mismatch requires verification before administration.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Start the pump because it was delivered by pharmacy",
+          "Stop and resolve the discrepancy before administration",
+          "Change the order to match the label",
+          "Ask the patient which drug was intended"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q037",
+      "legacyBankNumber": 55,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 55,
+        "topic": "Oxygenation",
+        "kind": "sata",
+        "stem": "Which observations should the nurse include when comparing a COPD patient's current status with baseline? Select all that apply.",
+        "source": "fundies gas exchange.pdf",
+        "page": 22,
+        "why": "Respiratory effort, secretions, saturation, and mentation help detect deterioration.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Work of breathing",
+          "Sputum changes",
+          "Oxygen saturation",
+          "Skin color and mental status",
+          "Favorite television program"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q038",
+      "legacyBankNumber": 23,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 23,
+        "topic": "Sensory",
+        "kind": "sata",
+        "stem": "The nurse is teaching a patient who reads lips. Which actions support communication? Select all that apply.",
+        "source": "fundies sensory.pdf",
+        "page": 12,
+        "why": "Visibility, reduced noise, and confirmation of understanding improve communication.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Maintain eye contact and face the patient",
+          "Check understanding using teach-back",
+          "Speak with the mouth covered",
+          "Reduce competing background sounds",
+          "Assume nodding always means comprehension"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q039",
+      "legacyBankNumber": 51,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 51,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A COPD patient leans forward with hands supported during dyspnea. What is the nurse's best action?",
+        "source": "fundies gas exchange.pdf",
+        "page": 19,
+        "why": "Upright supported positioning may ease breathing while assessment continues.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Support a position of comfort and assess respiratory effort",
+          "Force the patient to lie flat",
+          "Discourage all breathing techniques",
+          "Remove the call bell"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q040",
+      "legacyBankNumber": 67,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 67,
+        "topic": "Safety",
+        "kind": "mc",
+        "stem": "A small fire starts in a patient room. A patient is in immediate danger. According to RACE, what is the first priority if it can be done safely?",
+        "source": "fundies safety.pdf",
+        "page": 19,
+        "why": "RACE begins with rescue, followed by alarm, containment, and extinguish/evacuate.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Rescue the endangered patient",
+          "Finish charting",
+          "Open windows",
+          "Collect staff belongings"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q041",
+      "legacyBankNumber": 34,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 34,
+        "topic": "Complementary & integrative",
+        "kind": "mc",
+        "stem": "A patient asks for meditation to help anxiety while receiving standard treatment. What outcome should the nurse evaluate?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 27,
+        "why": "Integrative interventions should be evaluated against patient-centered goals.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "The patient's reported anxiety and ability to participate in care",
+          "Whether the patient stops all medicines",
+          "Whether staff prefer the technique",
+          "Whether vital signs are no longer necessary"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q042",
+      "legacyBankNumber": 29,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 29,
+        "topic": "Complementary & integrative",
+        "kind": "mc",
+        "stem": "A patient requests massage in addition to prescribed care. What is the best interpretation of integrative care?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 27,
+        "why": "Integrative care uses complementary measures alongside appropriate conventional treatment.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Combining appropriate conventional and complementary approaches",
+          "Replacing all conventional treatments",
+          "Providing only unregulated products",
+          "Avoiding assessment of patient preferences"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q043",
+      "legacyBankNumber": 19,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 19,
+        "topic": "Sensory",
+        "kind": "mc",
+        "stem": "A client with peripheral neuropathy cannot detect a hot heating pad against the feet. What is the priority teaching?",
+        "source": "fundies sensory.pdf",
+        "page": 17,
+        "why": "Reduced protective sensation increases burn and injury risk.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Test water and device temperatures with unaffected skin or assistance",
+          "Use a hotter pad to restore sensation",
+          "Walk barefoot to increase stimulation",
+          "Ignore small injuries if painless"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q044",
+      "legacyBankNumber": 38,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 38,
+        "topic": "Oxygenation",
+        "kind": "mc",
+        "stem": "A patient needs low-flow supplemental oxygen and can eat and speak without a mask. Which device is commonly appropriate?",
+        "source": "fundies gas exchange.pdf",
+        "page": 11,
+        "why": "A nasal cannula provides low-flow oxygen while allowing eating and conversation.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Nasal cannula",
+          "Nonrebreather mask",
+          "Manual resuscitation bag",
+          "Tracheostomy collar for a patient without a tracheostomy"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q045",
+      "legacyBankNumber": 32,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 32,
+        "topic": "Complementary & integrative",
+        "kind": "match",
+        "stem": "Match each therapy with the category emphasized in the course.",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 27,
+        "why": "These are the therapy categories discussed in the lecture.",
+        "keyword": "",
+        "excerpt": "",
+        "pairs": [
+          [
+            "Meditation",
+            "Mind–body"
+          ],
+          [
+            "Herbal supplement",
+            "Biologically based"
+          ],
+          [
+            "Chiropractic adjustment",
+            "Manipulative/body-based"
+          ],
+          [
+            "Reiki",
+            "Bioenergetic"
+          ]
+        ],
+        "matchOptions": [
+          "Mind–body",
+          "Biologically based",
+          "Manipulative/body-based",
+          "Bioenergetic"
+        ],
+        "options": [],
+        "correct": []
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q046",
+      "legacyBankNumber": 4,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 4,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "A patient rates pain 6/10 but says, “I need to be comfortable enough to cough and walk.” Which goal is most useful?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 30,
+        "why": "A functional pain goal links relief to necessary activity.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "No pain ever",
+          "Sleep throughout the shift",
+          "Pain at a tolerable level that permits coughing and walking",
+          "Avoid all activity until discharge"
+        ],
+        "correct": [
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q047",
+      "legacyBankNumber": 90,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 90,
+        "topic": "Dosage calculation",
+        "kind": "mc",
+        "stem": "A prescription calls for 375 mg PO. Tablets are 125 mg each. How many tablets should be administered?",
+        "source": "fundies med math.pdf",
+        "page": 6,
+        "why": "375 ÷ 125 = 3 tablets.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": [
+          2
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q048",
+      "legacyBankNumber": 97,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 97,
+        "topic": "Concept mastery",
+        "kind": "match",
+        "stem": "Match the event with the most accurate safety classification.",
+        "source": "fundies safety.pdf",
+        "page": 9,
+        "why": "Event classification guides reporting and systems improvement.",
+        "keyword": "",
+        "excerpt": "",
+        "pairs": [
+          [
+            "Wrong medication caught before administration",
+            "Near miss"
+          ],
+          [
+            "Medication reaches wrong patient",
+            "Patient safety event"
+          ],
+          [
+            "Unexpected death related to serious care failure",
+            "Sentinel event"
+          ],
+          [
+            "Wrong-site surgery",
+            "Never event"
+          ]
+        ],
+        "matchOptions": [
+          "Near miss",
+          "Patient safety event",
+          "Sentinel event",
+          "Never event"
+        ],
+        "options": [],
+        "correct": []
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q049",
+      "legacyBankNumber": 7,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 7,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "Before starting a PCA pump, which action addresses a preventable medication error?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 9,
+        "why": "An independent verification supports PCA safety.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Verify the medication and settings using the required independent check",
+          "Let visitors activate doses",
+          "Skip reviewing the lockout interval",
+          "Ask the patient to program the prescription"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    },
+    {
+      "stagingId": "fund-e2-rebuilt-2-q050",
+      "legacyBankNumber": 3,
+      "reviewStatus": "UNREVIEWED",
+      "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
+      "legacyQuestion": {
+        "bankNumber": 3,
+        "topic": "Pain & comfort",
+        "kind": "mc",
+        "stem": "An alert postoperative adult says, “I have pain, but I cannot put a number on it.” What should the nurse do first?",
+        "source": "exam 2 kahoot transcript.pdf",
+        "page": 8,
+        "why": "Pain is subjective; use patient report and an assessment method the patient can understand.",
+        "keyword": "",
+        "excerpt": "",
+        "options": [
+          "Document pain as zero",
+          "Ask the patient to describe the pain and offer an appropriate alternative scale",
+          "Give the maximum available opioid dose",
+          "Ask a family member to choose the rating"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    }
+  ]
+}
