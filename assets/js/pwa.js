@@ -34,9 +34,9 @@
    const endpoint=new URL(config.subscriptionEndpoint,location.href);
    if(endpoint.protocol!=="https:")throw Error("Subscription endpoint must use HTTPS.");
    say("Saving subscription to notification server…");
-   const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription,preferences:window.GSON_NOTIFICATION_PREFERENCES||{}})});
+   const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription,preferences:{updatedExams:true,newSources:true,examReminders:true,majorUpdates:true}})});
    if(!response.ok)throw Error("Subscription server returned "+response.status);
-   updateSubscriptionUI(true);say("Push notifications enabled on this device.");
+   document.dispatchEvent(new Event("gson:push-all-categories-enabled"));updateSubscriptionUI(true);say("Push notifications enabled on this device. All four categories selected.");
   }catch(error){say("Could not enable notifications: "+error.message)}finally{if(notify)notify.disabled=false}
  });
  unsubscribe?.addEventListener("click",async()=>{
