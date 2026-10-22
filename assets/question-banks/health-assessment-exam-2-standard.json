@@ -2,9 +2,9 @@
   "id": "health-assessment-exam-2-standard",
   "course": "Health Assessment",
   "examNumber": "Exam 2",
-  "practiceName": "Standard Exam Engine",
+  "practiceName": "Standard Exam Engine · Chapter/Format Blueprint Preview",
   "qaPreview": true,
-  "notice": "Practice questions checked against the supplied course-source references. Exact blueprint selection and illustrated question display are being integrated.",
+  "notice": "Practice exam uses 50-question chapter and question-format quotas from the Fall 2026 blueprint. Detailed subtopic quotas have not yet been enforced. Questions and rationales retain their original course PDF citations.",
   "questions": [
     {
       "id": "ha-e2-v1-q001",
