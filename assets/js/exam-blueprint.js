@@ -5,12 +5,17 @@
   if(!blueprint||!blueprint.topics||!Number.isInteger(blueprint.total))throw Error("Invalid exam blueprint");
   const topics=Object.entries(blueprint.topics),total=topics.reduce((n,[,v])=>n+v,0);
   if(total!==blueprint.total||topics.some(([,n])=>!Number.isInteger(n)||n<0))throw Error("Invalid topic quotas");
+  const subtopics=blueprint.subtopics||{};
+  for(const [topic,sub] of Object.entries(subtopics)){
+   if(!(topic in blueprint.topics)||Object.values(sub).some(n=>!Number.isInteger(n)||n<0)||Object.values(sub).reduce((a,n)=>a+n,0)!==blueprint.topics[topic])throw Error("Subtopic quotas do not match topic total: "+topic);
+  }
+  const slots=topics.flatMap(([topic,n])=>subtopics[topic]?Object.entries(subtopics[topic]).map(([subtopic,count])=>({topic,subtopic,n:count})):[{topic,subtopic:null,n}]);
   const rules=blueprint.types||{},types=Object.keys(rules);
   const minima=types.map(t=>rules[t].min||0),maxima=types.map(t=>rules[t].max??total);
   const seen=new Set(),approved=questions.filter(q=>q.approved===true);
   for(const q of approved){if(seen.has(q.id))throw Error("Duplicate approved question: "+q.id);seen.add(q.id)}
-  const pools=topics.map(([topic,n])=>({topic,n,byType:Object.fromEntries([...types,"other"].map(t=>[t,shuffle(approved.filter(q=>q.topic===topic&&(types.includes(q.type)?q.type:"other")===t),random)]))}));
-  for(const p of pools)if(Object.values(p.byType).reduce((n,a)=>n+a.length,0)<p.n)throw Error("Insufficient approved questions in "+p.topic);
+  const pools=slots.map(({topic,subtopic,n})=>({topic,subtopic,n,byType:Object.fromEntries([...types,"other"].map(t=>[t,shuffle(approved.filter(q=>q.topic===topic&&(subtopic===null||q.subtopic===subtopic)&&(types.includes(q.type)?q.type:"other")===t),random)]))}));
+  for(const p of pools)if(Object.values(p.byType).reduce((n,a)=>n+a.length,0)<p.n)throw Error("Insufficient approved questions in "+p.topic+(p.subtopic?" / "+p.subtopic:""));
   const memo=new Set();
   function search(i,counts){
    if(i===pools.length)return minima.every((min,k)=>counts[k]>=min&&counts[k]<=maxima[k])?[]:null;
@@ -36,7 +41,7 @@
    const result=assign(0,p.n);if(result===null)memo.add(key);return result
   }
   const allocation=search(0,Array(types.length).fill(0));
-  if(!allocation)throw Error("No approved question selection satisfies the blueprint topic/type quotas");
+  if(!allocation)throw Error("No approved question selection satisfies the blueprint topic/subtopic/type quotas");
   const selected=[];
   for(const entry of allocation){types.forEach((t,i)=>selected.push(...entry.pool.byType[t].slice(0,entry.allocation[i])));selected.push(...entry.pool.byType.other.slice(0,entry.other))}
   if(selected.length!==total||new Set(selected.map(q=>q.id)).size!==total)throw Error("Blueprint assembly integrity check failed");
