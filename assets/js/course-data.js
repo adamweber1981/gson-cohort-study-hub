@@ -146,7 +146,12 @@ const STUDY_HUB = [
                 file: "exam.html?bank=health-assessment-exam-2-standard",
                 description: "50 randomized questions following the Fall 2026 Health Assessment Exam 2 chapter, subtopic and 35/12/3 question-format blueprint."
               }
-            ]
+,
+              {
+                version: "Expanded Question Bank (165 Questions)",
+                file: "Assessments/Exam 2/Health Assessment Exam 2 - Expanded Bank.html",
+                description: "Randomized 50-question practice exams drawn from 165 deduplicated questions across eight prior versions; original exams preserved."
+              }            ]
           }
         ]
       },
