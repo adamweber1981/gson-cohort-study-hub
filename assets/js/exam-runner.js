@@ -47,19 +47,54 @@ function openReport(q,number){
  };
 }
 $("close-report").addEventListener("click",()=>$("report-dialog").close());$("report-dialog").addEventListener("close",()=>{$("report-frame").removeAttribute("src")});
-let referencePdfUrl="",referencePage=1;
-function setReferencePage(page){
+let referencePdfUrl="",referencePage=1,referenceDocument=null,referenceRenderToken=0;
+let pdfLibraryPromise=null;
+const pdfJsBase="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/";
+function loadPdfLibrary(){
+ if(!pdfLibraryPromise)pdfLibraryPromise=import(pdfJsBase+"pdf.mjs").then(lib=>{lib.GlobalWorkerOptions.workerSrc=pdfJsBase+"pdf.worker.mjs";return lib});
+ return pdfLibraryPromise;
+}
+async function setReferencePage(page){
+ const token=++referenceRenderToken;
+ const status=$("reference-status"),canvas=$("reference-canvas"),frame=$("reference-frame");
  referencePage=Math.max(1,Math.floor(Number(page)||1));
- const pageInput=$("reference-page");if(pageInput)pageInput.value=String(referencePage);
- const frame=$("reference-frame");
- if(referencePdfUrl){frame.src=referencePdfUrl+"#page="+referencePage+"&view=FitH";frame.hidden=false}
+ if(referenceDocument)referencePage=Math.min(referencePage,referenceDocument.numPages);
+ $("reference-page").value=String(referencePage);
+ $("reference-previous").disabled=referencePage<=1;
+ $("reference-next").disabled=referenceDocument?referencePage>=referenceDocument.numPages:false;
+ const count=$("reference-page-count");count.textContent=referenceDocument?"/ "+referenceDocument.numPages:"";
+ $("reference-open-direct").href=referencePdfUrl+"#page="+referencePage;
+ if(!referenceDocument)return;
+ try{
+  status.textContent="Rendering page "+referencePage+"…";
+  const pageObject=await referenceDocument.getPage(referencePage);
+  if(token!==referenceRenderToken)return;
+  const viewportBase=pageObject.getViewport({scale:1});
+  const available=Math.max(240,Math.min(1000,$("reference-canvas-wrap").clientWidth-16));
+  const scale=Math.min(2.5,available/viewportBase.width);
+  const viewport=pageObject.getViewport({scale});
+  const ratio=Math.min(window.devicePixelRatio||1,2);
+  const offscreen=document.createElement("canvas");
+  offscreen.width=Math.ceil(viewport.width*ratio);offscreen.height=Math.ceil(viewport.height*ratio);
+  const context=offscreen.getContext("2d");
+  await pageObject.render({canvasContext:context,viewport,transform:ratio===1?undefined:[ratio,0,0,ratio,0,0]}).promise;
+  if(token!==referenceRenderToken)return;
+  canvas.width=offscreen.width;canvas.height=offscreen.height;
+  canvas.getContext("2d").drawImage(offscreen,0,0);
+  canvas.hidden=false;frame.hidden=true;status.textContent="";
+  $("reference-canvas-wrap").scrollTop=0;
+ }catch(err){
+  if(token!==referenceRenderToken)return;
+  status.textContent="Unable to render this page. Try Open PDF instead. "+err.message;
+ }
 }
 async function openReference(url,title){
  const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
  $("reference-heading").textContent=title||"Exam reference";
+ ++referenceRenderToken;referenceDocument=null;referencePdfUrl="";referencePage=1;
  frame.hidden=true;frame.removeAttribute("src");textPanel.hidden=true;textPanel.textContent="";
- referencePdfUrl="";referencePage=1;
- const nav=$("reference-navigation");if(nav)nav.hidden=true;
+ $("reference-canvas").hidden=true;$("reference-canvas-wrap").hidden=true;
+ const nav=$("reference-navigation");nav.hidden=true;
  status.textContent="Loading reference…";dialog.showModal();
  try{
   const parsed=new URL(url,location.href);
@@ -71,10 +106,13 @@ async function openReference(url,title){
    textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent="";
   }else if(path.endsWith(".pdf")){
    referencePdfUrl=parsed.origin+parsed.pathname+parsed.search;
-   referencePage=Math.max(1,parseInt(parsed.hash.match(/page=(\\d+)/)?.[1]||"1",10));
-   if(nav)nav.hidden=false;
-   const direct=$("reference-open-direct");if(direct)direct.href=referencePdfUrl+"#page="+referencePage;
-   setReferencePage(referencePage);status.textContent="Use Previous / Next to navigate pages. On iPhone, Open PDF opens Safari's native PDF viewer.";
+   referencePage=Math.max(1,parseInt(parsed.hash.match(/page=(\d+)/)?.[1]||"1",10));
+   nav.hidden=false;
+   $("reference-open-direct").href=referencePdfUrl+"#page="+referencePage;
+   const pdfjs=await loadPdfLibrary();
+   referenceDocument=await pdfjs.getDocument({url:referencePdfUrl}).promise;
+   $("reference-canvas-wrap").hidden=false;
+   await setReferencePage(referencePage);
   }else{
    const response=await fetch(parsed.href,{cache:"no-store"});
    if(!response.ok)throw Error("Reference unavailable (HTTP "+response.status+").");
@@ -82,7 +120,7 @@ async function openReference(url,title){
    if(type.includes("text/")){textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent=""}
    else{frame.src=parsed.href;frame.hidden=false;status.textContent="If the document does not display, use your browser to open the document."}
   }
- }catch(err){status.textContent="Unable to preview reference: "+err.message}
+ }catch(err){status.textContent="Unable to render reference here. Use Open PDF to view it directly. "+err.message}
 }
 $("reference-previous").addEventListener("click",()=>setReferencePage(referencePage-1));
 $("reference-next").addEventListener("click",()=>setReferencePage(referencePage+1));
