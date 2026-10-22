@@ -19,7 +19,7 @@
   if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&!matchMedia("(display-mode: standalone)").matches&&!navigator.standalone){say("Install the app to your iPhone Home Screen before enabling notifications.");if(notify)notify.disabled=false;return}
   try{
    say("Requesting browser notification permission…");
-   const permission=await Notification.requestPermission();
+   const permission=await Promise.race([Notification.requestPermission(),new Promise((_,reject)=>setTimeout(()=>reject(Error("Edge did not respond to the notification permission request within 15 seconds. Check the notification permission icon beside the address bar, or open Edge Settings → Cookies and site permissions → Notifications.")),15000))]);
    if(permission!=="granted"){say("Notification permission was not granted.");return}
    say("Waiting for the app service worker…");
    const registration=await waitForWorker();
