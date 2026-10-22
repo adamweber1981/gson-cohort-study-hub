@@ -2886,7 +2886,7 @@
     {
       "id": "fundamentals-exam-2-version-1-q001",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 1.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -2903,12 +2903,20 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "During morning rounds, a client is hard of hearing. Which communication approach is appropriate?",
-        "diagram": "ear"
-      }
+        "stem": "During morning rounds, a client is hard of hearing. Which communication approach is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-1-q002",
@@ -4688,7 +4696,7 @@
     {
       "id": "fundamentals-exam-2-version-2-q022",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 2.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -4705,12 +4713,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "At the bedside, a COPD patient feels short of breath. Which technique helps release trapped air?",
-        "diagram": "breathing"
-      }
+        "stem": "At the bedside, a COPD patient feels short of breath. Which technique helps release trapped air?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-2-q024",
@@ -5233,7 +5249,7 @@
     {
       "id": "fundamentals-exam-2-version-2-q045",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 2.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -5250,12 +5266,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "At the bedside, a patient has an elevated Morse Fall Scale score. Which action is appropriate?",
-        "diagram": "fall"
-      }
+        "stem": "At the bedside, a patient has an elevated Morse Fall Scale score. Which action is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-2-q046",
@@ -5674,7 +5698,7 @@
     {
       "id": "fundamentals-exam-2-version-3-q015",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 3.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -5691,12 +5715,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "During a skills check, the nurse teaches breathing through pursed lips with a longer exhalation. What is the purpose?",
-        "diagram": "breathing"
-      }
+        "stem": "During a skills check, the nurse teaches breathing through pursed lips with a longer exhalation. What is the purpose?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-3-q017",
@@ -5961,7 +5993,7 @@
     {
       "id": "fundamentals-exam-2-version-3-q030",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 3.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -5978,17 +6010,25 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "During a skills check, a client is hard of hearing. Which communication approach is appropriate?",
-        "diagram": "ear"
-      }
+        "stem": "During a skills check, a client is hard of hearing. Which communication approach is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-3-q031",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 3.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -6005,12 +6045,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "During a skills check, which intervention helps prevent inpatient falls?",
-        "diagram": "fall"
-      }
+        "stem": "During a skills check, which intervention helps prevent inpatient falls?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-3-q032",
@@ -6743,7 +6791,7 @@
     {
       "id": "fundamentals-exam-2-version-4-q019",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 4.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -6760,12 +6808,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "While planning care, a COPD patient feels short of breath. Which technique helps release trapped air?",
-        "diagram": "breathing"
-      }
+        "stem": "While planning care, a COPD patient feels short of breath. Which technique helps release trapped air?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-4-q021",
@@ -6926,7 +6982,7 @@
     {
       "id": "fundamentals-exam-2-version-4-q027",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 4.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -6943,12 +6999,20 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "While planning care, the nurse explains care to a patient with hearing impairment. What should the nurse do?",
-        "diagram": "ear"
-      }
+        "stem": "While planning care, the nurse explains care to a patient with hearing impairment. What should the nurse do?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-4-q028",
@@ -7291,7 +7355,7 @@
     {
       "id": "fundamentals-exam-2-version-4-q046",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 4.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -7308,12 +7372,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "While planning care, a patient has an elevated Morse Fall Scale score. Which action is appropriate?",
-        "diagram": "fall"
-      }
+        "stem": "While planning care, a patient has an elevated Morse Fall Scale score. Which action is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-4-q048",
@@ -7500,7 +7572,7 @@
     {
       "id": "fundamentals-exam-2-version-5-q007",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 5.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -7517,12 +7589,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "At shift change, which intervention helps prevent inpatient falls?",
-        "diagram": "fall"
-      }
+        "stem": "At shift change, which intervention helps prevent inpatient falls?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-5-q008",
@@ -7709,7 +7789,7 @@
     {
       "id": "fundamentals-exam-2-version-5-q018",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 5.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -7726,12 +7806,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "At shift change, the nurse teaches breathing through pursed lips with a longer exhalation. What is the purpose?",
-        "diagram": "breathing"
-      }
+        "stem": "At shift change, the nurse teaches breathing through pursed lips with a longer exhalation. What is the purpose?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-5-q020",
@@ -7814,7 +7902,7 @@
     {
       "id": "fundamentals-exam-2-version-5-q024",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 5.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -7831,12 +7919,20 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "At shift change, a client is hard of hearing. Which communication approach is appropriate?",
-        "diagram": "ear"
-      }
+        "stem": "At shift change, a client is hard of hearing. Which communication approach is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-5-q025",
@@ -8649,7 +8745,7 @@
     {
       "id": "fundamentals-exam-2-version-6-q014",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 6.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -8666,12 +8762,20 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "In a clinical scenario, the nurse explains care to a patient with hearing impairment. What should the nurse do?",
-        "diagram": "ear"
-      }
+        "stem": "In a clinical scenario, the nurse explains care to a patient with hearing impairment. What should the nurse do?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-6-q015",
@@ -8702,7 +8806,7 @@
     {
       "id": "fundamentals-exam-2-version-6-q016",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 6.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -8719,12 +8823,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "In a clinical scenario, a patient has an elevated Morse Fall Scale score. Which action is appropriate?",
-        "diagram": "fall"
-      }
+        "stem": "In a clinical scenario, a patient has an elevated Morse Fall Scale score. Which action is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-6-q019",
@@ -9275,7 +9387,7 @@
     {
       "id": "fundamentals-exam-2-version-6-q049",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 6.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -9292,12 +9404,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "In a clinical scenario, a COPD patient feels short of breath. Which technique helps release trapped air?",
-        "diagram": "breathing"
-      }
+        "stem": "In a clinical scenario, a COPD patient feels short of breath. Which technique helps release trapped air?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-6-q050",
@@ -9406,7 +9526,7 @@
     {
       "id": "fundamentals-exam-2-version-7-q006",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 7.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -9423,12 +9543,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "During reassessment, the nurse teaches breathing through pursed lips with a longer exhalation. What is the purpose?",
-        "diagram": "breathing"
-      }
+        "stem": "During reassessment, the nurse teaches breathing through pursed lips with a longer exhalation. What is the purpose?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-7-q007",
@@ -9615,7 +9743,7 @@
     {
       "id": "fundamentals-exam-2-version-7-q015",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 7.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -9632,12 +9760,20 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "During reassessment, a client is hard of hearing. Which communication approach is appropriate?",
-        "diagram": "ear"
-      }
+        "stem": "During reassessment, a client is hard of hearing. Which communication approach is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-7-q016",
@@ -9694,7 +9830,7 @@
     {
       "id": "fundamentals-exam-2-version-7-q018",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 7.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -9711,12 +9847,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "During reassessment, which intervention helps prevent inpatient falls?",
-        "diagram": "fall"
-      }
+        "stem": "During reassessment, which intervention helps prevent inpatient falls?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-7-q023",
@@ -10423,7 +10567,7 @@
     {
       "id": "fundamentals-exam-2-version-8-q007",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 8.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -10440,12 +10584,20 @@
           0
         ],
         "why": "The safety lecture emphasizes low bed position, clear pathways, and access to assistance.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "clutter",
         "excerpt": "• Keep environment free of clutter",
-        "stem": "On the nursing unit, a patient has an elevated Morse Fall Scale score. Which action is appropriate?",
-        "diagram": "fall"
-      }
+        "stem": "On the nursing unit, a patient has an elevated Morse Fall Scale score. Which action is appropriate?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "fall",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-8-q008",
@@ -10840,7 +10992,7 @@
     {
       "id": "fundamentals-exam-2-version-8-q031",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 8.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -10857,12 +11009,20 @@
           0
         ],
         "why": "Facing the patient, speaking clearly and using a lower tone improves comprehension.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "Face",
         "excerpt": "• Face the patient directly — lip reading is a key compensatory strategy",
-        "stem": "On the nursing unit, the nurse explains care to a patient with hearing impairment. What should the nurse do?",
-        "diagram": "ear"
-      }
+        "stem": "On the nursing unit, the nurse explains care to a patient with hearing impairment. What should the nurse do?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "ear",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-8-q032",
@@ -10997,7 +11157,7 @@
     {
       "id": "fundamentals-exam-2-version-8-q037",
       "pool": "standard",
-      "reviewStatus": "UNREVIEWED",
+      "reviewStatus": "USER_REVIEWED_SOURCE_VERIFICATION_PENDING",
       "sourceFile": "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 8.html",
       "duplicateSourceIds": [],
       "legacyQuestion": {
@@ -11014,12 +11174,20 @@
           0
         ],
         "why": "Pursed-lip breathing slows exhalation and helps release trapped air.",
-        "kind": "diagram",
+        "kind": "mc",
         "keyword": "purse",
         "excerpt": "nostrils and out through pursed lips",
-        "stem": "On the nursing unit, a COPD patient feels short of breath. Which technique helps release trapped air?",
-        "diagram": "breathing"
-      }
+        "stem": "On the nursing unit, a COPD patient feels short of breath. Which technique helps release trapped air?"
+      },
+      "editorialHistory": [
+        {
+          "action": "REMOVE_DECORATIVE_DIAGRAM",
+          "originalDiagram": "breathing",
+          "originalKind": "diagram",
+          "reason": "User reviewer decision; question stem and answer choices remain text-complete",
+          "date": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "fundamentals-exam-2-version-8-q040",
