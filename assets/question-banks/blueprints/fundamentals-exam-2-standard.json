@@ -30,6 +30,46 @@
     "approvedOnly": true,
     "uniqueQuestions": true,
     "failClosed": true,
-    "source": "Original Fundamentals Exam 2 course blueprint; practice-type quotas per project agreement"
+    "source": "Original Fundamentals Exam 2 course blueprint; practice-type quotas per project agreement",
+    "note": "Exact subtopic slots enforced; COPD case study currently means COPD-tagged questions, not necessarily one shared six-part clinical vignette."
+  },
+  "subtopics": {
+    "Pain & comfort": {
+      "Duration/localization": 2,
+      "Assessment": 2,
+      "Non-pharmacological interventions": 1,
+      "Pharmacological interventions (including PCA)": 2
+    },
+    "Sensory": {
+      "Sensory deprivation/deficit": 1,
+      "Sensory overload": 1,
+      "Hearing": 1,
+      "Aphasia": 1,
+      "Touch": 1
+    },
+    "Complementary & integrative": {
+      "Types of CAM": 1,
+      "Integrative therapies": 1,
+      "Types of therapies": 3
+    },
+    "Oxygenation": {
+      "Hypo/hyperventilation": 1,
+      "Devices": 4,
+      "Interventions": 1,
+      "Tracheostomy": 1,
+      "COPD case study": 6
+    },
+    "Safety": {
+      "Unexpected/never events/barriers": 2,
+      "Home safety": 1,
+      "Interprofessional collaboration": 1,
+      "Fall risk and prevention": 1,
+      "Fire safety": 1,
+      "Electrical hazards": 1,
+      "Tornado safety": 1,
+      "Active shooter": 1,
+      "Seizure precautions": 1,
+      "Restraints": 1
+    }
   }
 }
