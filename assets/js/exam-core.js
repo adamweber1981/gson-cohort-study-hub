@@ -8,9 +8,9 @@
  return response===q.correct};
  function validate(bank){if(bank?.previewCount!==undefined&&(!Number.isInteger(bank.previewCount)||bank.previewCount<1||bank.previewCount>bank.questions?.length))throw Error("Invalid attempt question count");if(!bank||!bank.course||!bank.examNumber||!bank.practiceName||!Array.isArray(bank.questions)||!bank.questions.length)throw Error("Invalid exam metadata or empty bank");
  const ids=new Set();for(const q of bank.questions){if(!q.id||ids.has(q.id)||!q.stem||!q.type||!q.rationale||!q.source?.name||!q.source?.path)throw Error("Invalid question or missing reference: "+(q.id||"?"));ids.add(q.id);
- if(["mcq","sata","truefalse"].includes(q.type)&&(!Array.isArray(q.options)||!q.options.length))throw Error("Missing options: "+q.id);
+ if(["mcq","visual","sata","truefalse"].includes(q.type)&&(!Array.isArray(q.options)||!q.options.length))throw Error("Missing options: "+q.id);
  if(q.type==="matching"&&(!Array.isArray(q.pairs)||!q.pairs.length))throw Error("Missing pairs: "+q.id);
- if(!["mcq","sata","matching","truefalse","dosage"].includes(q.type))throw Error("Unsupported type: "+q.type)}
+ if(!["mcq","visual","sata","matching","truefalse","dosage"].includes(q.type))throw Error("Unsupported type: "+q.type)}
  return true}
  function create(bank,random=Math.random){validate(bank);let questions=[],answers=[],index=0,phase="intro";
  const begin=()=>{const chosen=bank.blueprint?root.ExamBlueprint.assemble(bank.questions,bank.blueprint,random):bank.previewCount?shuffle(bank.questions,random).slice(0,bank.previewCount):bank.questions;const groups=new Map();for(const q of chosen){const key=q.caseId||q.id;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q)}
