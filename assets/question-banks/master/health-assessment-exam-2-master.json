@@ -3,7 +3,7 @@
   "course": "Health Assessment",
   "examNumber": "Exam 2",
   "practiceName": "Health Assessment Exam 2 — Master Bank",
-  "status": "BANK_CREATED_NOT_YET_PUBLISHED",
+  "status": "MASTER_BANK_CREATED_WITH_BLUEPRINT_TOPIC_COVERAGE",
   "sourcePolicy": "Practical course-material alignment; not external medical-level validation",
   "totalExtracted": 400,
   "duplicatesRemoved": 235,
@@ -7230,6 +7230,182 @@
       },
       "approved": true,
       "origin": "course-aligned supplementary item"
+    },
+    {
+      "id": "health-assessment-e2-coverage-tbi-prevention",
+      "topic": "Chapter 15",
+      "chapter": 15,
+      "subtopic": "TBI prevention",
+      "type": "mcq",
+      "stem": "A patient asks how to reduce the risk of traumatic brain injury during recreational cycling. Which teaching is most appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Wear a properly fitted protective helmet"
+        },
+        {
+          "id": "o1",
+          "text": "Avoid drinking fluids before riding"
+        },
+        {
+          "id": "o2",
+          "text": "Use cotton earplugs to prevent head injury"
+        },
+        {
+          "id": "o3",
+          "text": "Skip protective equipment on short rides"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Protective helmets reduce the risk of head injury during activities such as cycling.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 22
+      },
+      "approved": true,
+      "origin": "course-material gap coverage"
+    },
+    {
+      "id": "health-assessment-e2-coverage-eye-terminology",
+      "topic": "Chapter 16",
+      "chapter": 16,
+      "subtopic": "Eye terminology",
+      "type": "mcq",
+      "stem": "A 52-year-old reports that reading small print up close has become difficult. Which term describes this age-associated change?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Presbyopia"
+        },
+        {
+          "id": "o1",
+          "text": "Myopia"
+        },
+        {
+          "id": "o2",
+          "text": "Strabismus"
+        },
+        {
+          "id": "o3",
+          "text": "Diplopia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The Chapter 16 material defines presbyopia as age-associated impairment of near vision.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 19
+      },
+      "approved": true,
+      "origin": "course-material gap coverage"
+    },
+    {
+      "id": "health-assessment-e2-coverage-exophthalmos",
+      "topic": "Chapter 16",
+      "chapter": 16,
+      "subtopic": "Exophthalmos",
+      "type": "mcq",
+      "stem": "During eye inspection, the nurse observes protruding eyeballs and retracted eyelids. Which finding should be documented?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Exophthalmos"
+        },
+        {
+          "id": "o1",
+          "text": "Ptosis"
+        },
+        {
+          "id": "o2",
+          "text": "Nystagmus"
+        },
+        {
+          "id": "o3",
+          "text": "Scotoma"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The Chapter 16 slides define exophthalmos as protruding eyeballs and retracted eyelids and associate it with Graves disease.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 29
+      },
+      "approved": true,
+      "origin": "course-material gap coverage"
+    },
+    {
+      "id": "health-assessment-e2-coverage-sinusitis",
+      "topic": "Chapter 18",
+      "chapter": 18,
+      "subtopic": "Sinusitis education",
+      "type": "mcq",
+      "stem": "A patient asks how acute sinusitis differs from chronic sinusitis in the course material. Which answer best reflects the lecture?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Acute sinusitis often begins with a common cold; chronic symptoms can persist for more than 12 weeks"
+        },
+        {
+          "id": "o1",
+          "text": "Acute sinusitis always requires surgery"
+        },
+        {
+          "id": "o2",
+          "text": "Chronic sinusitis always resolves in 24 hours"
+        },
+        {
+          "id": "o3",
+          "text": "Sinusitis does not affect nasal symptoms"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The Chapter 18 course slides contrast acute symptoms with chronic sinusitis persisting beyond 12 weeks.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "origin": "course-material gap coverage"
+    },
+    {
+      "id": "health-assessment-e2-coverage-lung-cancer",
+      "topic": "Chapter 19",
+      "chapter": 19,
+      "subtopic": "Lung cancer risks",
+      "type": "mcq",
+      "stem": "During a respiratory health history, which factor identified in the course material is the leading risk factor for lung cancer?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cigarette smoking"
+        },
+        {
+          "id": "o1",
+          "text": "Seasonal allergies"
+        },
+        {
+          "id": "o2",
+          "text": "Brief exposure to cold weather"
+        },
+        {
+          "id": "o3",
+          "text": "Low water intake"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Chapter 19 identifies smoking as the number-one risk factor for lung cancer.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "origin": "course-material gap coverage"
     }
-  ]
+  ],
+  "coverageSupplements": 5
 }
