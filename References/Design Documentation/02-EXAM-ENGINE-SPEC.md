@@ -1,6 +1,6 @@
 # GSON Accelerated Study Hub — Exam Engine & NCLEX-Style Interaction Specification
 
-**Version:** 1.0 · **Status:** Required behavioral contract · **Updated:** 2026-10-21
+**Version:** 1.1 · **Status:** Phase 2 approved; Phase 3 bank migration in progress · **Updated:** 2026-10-22
 
 ## Core rule
 **Exactly one question is shown at a time.** Students move **forward only**. They cannot navigate back to an answered question during the attempt. After completing the exam and scoring it, they may review **all questions**, freely, in **read-only** mode.
@@ -88,3 +88,6 @@ No answer choice may reveal correctness on first tap/click. No automatic submiss
 8. Header shows course, actual exam number, and practice exam name in that order.
 9. References and Return to Hub work, including navigation warning for an active attempt.
 10. Exam content, answer data, and scores never transmit to a backend.
+
+## Phase 3 extension (approved 2026-10-22)
+The Phase 2 interaction engine is approved and must remain behaviorally stable. Phase 3 replaces redundant static practice-version links with **approved-only, blueprint-balanced 50-question selection**. Standard exams satisfy **both** their course blueprint and established type targets (6–10 SATA, 4–6 matching, 4–6 true/false, other types as appropriate). Fundamentals **Med Math** uses its **own** blueprint, primarily numeric entry and MCQ, without Standard type quotas. Do not infer quotas absent the authoritative blueprint. Unreviewed migrated questions must remain in staging; shortage of approved questions blocks generation rather than allowing repeats or substitutions. See [Phase 3 Question Bank Migration](03-PHASE-3-QUESTION-BANK-MIGRATION.md) for audit, duplicate, navigation, and rollout requirements.
