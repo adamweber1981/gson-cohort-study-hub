@@ -13066,6 +13066,966 @@
       "correct": "o2",
       "subtopic": "Breath sound locations",
       "approvalBasis": "LEGACY_SOURCE_LINKED_REFRAME_STRUCTURAL_CHECK"
+    },
+    {
+      "id": "ha-e2-cn-coverage-001",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which procedure correctly tests cranial nerve I (olfactory)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ask the client to identify a smell with eyes closed, testing one nostril at a time"
+        },
+        {
+          "id": "o1",
+          "text": "Use the Snellen chart to test distant vision"
+        },
+        {
+          "id": "o2",
+          "text": "Ask the client to smile and puff both cheeks"
+        },
+        {
+          "id": "o3",
+          "text": "Ask the client to turn the head against resistance"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies testing odors separately through each nostril with eyes closed.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "Occlude each nostril and test different smells",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 1
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-002",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A client cannot identify a familiar odor during CN I testing. How is this finding classified in the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Abnormal olfactory finding"
+        },
+        {
+          "id": "o1",
+          "text": "Expected finding in all adults"
+        },
+        {
+          "id": "o2",
+          "text": "Normal test of visual fields"
+        },
+        {
+          "id": "o3",
+          "text": "Evidence of intact cranial nerve I"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes inability to smell or identify the scent as abnormal.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "Inability to smell or identify the correct scent is an abnormal finding",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 1
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-003",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which tools are used to assess distant and near vision for cranial nerve II?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Snellen chart for distance and Jager chart for near vision"
+        },
+        {
+          "id": "o1",
+          "text": "Whispered voice and Weber test"
+        },
+        {
+          "id": "o2",
+          "text": "Six cardinal fields of gaze only"
+        },
+        {
+          "id": "o3",
+          "text": "Shoulder shrug and head rotation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The optic nerve lecture lists Snellen (distance) and hand-held Jager (near).",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 13
+      },
+      "sourceExcerpt": "Test visual acuity with Snellen eye chart (distance)",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 2
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-004",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which assessment screens visual fields for cranial nerve II?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Confrontation"
+        },
+        {
+          "id": "o1",
+          "text": "Palpation of the masseter muscles"
+        },
+        {
+          "id": "o2",
+          "text": "Whispered voice testing"
+        },
+        {
+          "id": "o3",
+          "text": "Tongue protrusion against resistance"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture explicitly directs screening visual fields by confrontation.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 13
+      },
+      "sourceExcerpt": "Screen visual fields by confrontation",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 2
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-005",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A nurse assesses pupillary response to light and accommodation. Which cranial nerve is specifically associated with pupil constriction?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN III, oculomotor"
+        },
+        {
+          "id": "o1",
+          "text": "CN IV, trochlear"
+        },
+        {
+          "id": "o2",
+          "text": "CN VI, abducens"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI, spinal accessory"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states that CN III constricts pupils and elevates eyelids.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "III (Oculomotor): Contracts eye muscles",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 3
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-006",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A client has a unilateral dilated pupil that does not respond to light or accommodation. The lecture associates this finding with damage to which nerve?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN III, oculomotor"
+        },
+        {
+          "id": "o1",
+          "text": "CN I, olfactory"
+        },
+        {
+          "id": "o2",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o3",
+          "text": "CN XII, hypoglossal"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies a unilaterally dilated, unresponsive pupil as associated with CN III damage.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Unilaterally dilates pupil unresponsive to light or accommodation: Damage to CNIII",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 3
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-007",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which eye movement does the lecture specifically associate with cranial nerve IV?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inferomedial eye movement"
+        },
+        {
+          "id": "o1",
+          "text": "Lateral eye movement"
+        },
+        {
+          "id": "o2",
+          "text": "Shoulder elevation"
+        },
+        {
+          "id": "o3",
+          "text": "Tongue protrusion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "CN IV (trochlear) contracts an eye muscle to control inferomedial movement.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "IV (Trochlear): Contracts one eye muscle to control inferomedial eye movement",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 4
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-008",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A nurse checks six cardinal fields of gaze. Which cranial nerve group is evaluated?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN III, IV, and VI"
+        },
+        {
+          "id": "o1",
+          "text": "CN I, II, and VIII"
+        },
+        {
+          "id": "o2",
+          "text": "CN V, VII, and XII"
+        },
+        {
+          "id": "o3",
+          "text": "CN IX, X, and XI"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture groups CN III, IV, and VI for extraocular movement testing.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Cranial nerves III, IV, & VI:",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 4
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-009",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which action assesses the motor function of cranial nerve V (trigeminal)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Palpate temporal and masseter muscles as the client clenches the teeth"
+        },
+        {
+          "id": "o1",
+          "text": "Ask the client to read a Snellen chart"
+        },
+        {
+          "id": "o2",
+          "text": "Assess shoulder shrug against resistance"
+        },
+        {
+          "id": "o3",
+          "text": "Ask the client to say ah"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies bilateral contraction of temporal and masseter muscles during clenching.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "Ask the client to clench the teeth while you palpate the temporal and masseter muscles",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 5
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-010",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which assessment evaluates the sensory function of cranial nerve V?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Distinguish sharp and dull stimuli on forehead, cheeks, and chin"
+        },
+        {
+          "id": "o1",
+          "text": "Test whispered words at 1–2 feet"
+        },
+        {
+          "id": "o2",
+          "text": "Observe palate rise when saying ah"
+        },
+        {
+          "id": "o3",
+          "text": "Inspect tongue for atrophy"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies sharp/dull sensation on the forehead, cheeks, and chin.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "Touch the client’s forehead, cheeks, and chin with a sharp or dull side",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 5
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-011",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which movement does cranial nerve VI (abducens) control according to the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lateral eye movement"
+        },
+        {
+          "id": "o1",
+          "text": "Inferomedial eye movement"
+        },
+        {
+          "id": "o2",
+          "text": "Smell identification"
+        },
+        {
+          "id": "o3",
+          "text": "Tongue movement"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture explicitly identifies CN VI as controlling lateral eye movements.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "VI (Abducens): Controls lateral eye movements",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 6
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-012",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which assessment includes evaluation of cranial nerve VI?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Six cardinal fields of gaze, including lateral movement"
+        },
+        {
+          "id": "o1",
+          "text": "Palpation of the masseter during clenching"
+        },
+        {
+          "id": "o2",
+          "text": "Assessing the gag reflex alone"
+        },
+        {
+          "id": "o3",
+          "text": "Shoulder shrug against resistance"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture groups CN VI with III and IV for the six cardinal fields of gaze.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Test extraocular movements in 6 cardinal fields of gaze",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 6
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-013",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which actions assess the motor function of cranial nerve VII (facial)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ask the client to smile, frown, raise eyebrows, and puff both cheeks"
+        },
+        {
+          "id": "o1",
+          "text": "Ask the client to shrug shoulders against resistance"
+        },
+        {
+          "id": "o2",
+          "text": "Test the sharp/dull sensation of the jaw"
+        },
+        {
+          "id": "o3",
+          "text": "Ask the client to identify an odor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture tests CN VII through symmetric facial expressions.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "Ask client to: Raise eyebrows",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 7
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-014",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which finding is expected during cranial nerve VII motor assessment?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Symmetric facial movements"
+        },
+        {
+          "id": "o1",
+          "text": "Inability to close one eye"
+        },
+        {
+          "id": "o2",
+          "text": "Unequal facial expression"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of forehead wrinkling"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states facial movements should be symmetric.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "Normal: All should be symmetric.",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 7
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-015",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which routine assessment does the lecture use for cranial nerve VIII (acoustic)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Assess hearing during conversation and with whispered words"
+        },
+        {
+          "id": "o1",
+          "text": "Test visual acuity with a Snellen chart"
+        },
+        {
+          "id": "o2",
+          "text": "Ask the client to puff both cheeks"
+        },
+        {
+          "id": "o3",
+          "text": "Test shoulder shrug against resistance"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes conversation and whispered-voice hearing checks for CN VIII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "Ability to hear",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 8
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-016",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "At what distance does the Chapter 25 lecture expect a client to hear whispered words during CN VIII testing?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "1–2 feet"
+        },
+        {
+          "id": "o1",
+          "text": "10–12 feet"
+        },
+        {
+          "id": "o2",
+          "text": "20 feet"
+        },
+        {
+          "id": "o3",
+          "text": "Across a crowded room"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states that the client should hear whispered words from 1–2 feet; Weber/Rinne are not emphasized.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "Should be able to hear whispered words from 1-2ft.",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 8
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-017",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which function is associated with cranial nerve IX (glossopharyngeal) in the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Taste on the posterior third of the tongue and sensory gag-reflex input"
+        },
+        {
+          "id": "o1",
+          "text": "Lateral eye movement"
+        },
+        {
+          "id": "o2",
+          "text": "Facial expressions and smiling"
+        },
+        {
+          "id": "o3",
+          "text": "Shoulder shrug"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies posterior tongue taste and pharyngeal sensation involved in the gag reflex for CN IX.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "IX (Glossopharyngeal): Contains sensory fibers for taste on posterior third of tongue",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 9
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-018",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which assessment evaluates cranial nerves IX and X together?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Assess swallowing and gag reflex, and observe palate and uvula rise while saying ah"
+        },
+        {
+          "id": "o1",
+          "text": "Test distant vision only"
+        },
+        {
+          "id": "o2",
+          "text": "Palpate temporal and masseter muscles"
+        },
+        {
+          "id": "o3",
+          "text": "Test head rotation only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture groups IX and X for swallowing, gag reflex, and palate/uvula movement.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Cranial nerve IX & X: Glossopharyngeal & Vagus",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 9
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-019",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which observation during the 'ah' assessment is expected for cranial nerve X (vagus)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Soft palate and uvula rise bilaterally and symmetrically"
+        },
+        {
+          "id": "o1",
+          "text": "Tongue deviates toward one side"
+        },
+        {
+          "id": "o2",
+          "text": "One shoulder droops"
+        },
+        {
+          "id": "o3",
+          "text": "The client cannot identify an odor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states the uvula and soft palate should rise symmetrically.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Normal: uvula and soft palate rise bilaterally and symmetrically",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 10
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-020",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which finding may indicate dysfunction involving cranial nerve X in the Chapter 25 lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hoarseness or difficulty swallowing"
+        },
+        {
+          "id": "o1",
+          "text": "Inability to identify sharp/dull facial touch"
+        },
+        {
+          "id": "o2",
+          "text": "Loss of distant visual acuity"
+        },
+        {
+          "id": "o3",
+          "text": "Inability to elevate shoulders"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture associates dysphagia and hoarseness with CN IX or X or other neurologic disorders.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Dysphagia or hoarseness may indicate a lesion of cranial nerve IX or X",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 10
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-021",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which maneuver assesses the trapezius component of cranial nerve XI (spinal accessory)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Shrug shoulders against the examiner's hands"
+        },
+        {
+          "id": "o1",
+          "text": "Identify familiar odors"
+        },
+        {
+          "id": "o2",
+          "text": "Follow a finger through six gaze fields"
+        },
+        {
+          "id": "o3",
+          "text": "Move the tongue side to side"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture tests CN XI trapezius strength with resisted shoulder shrug.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "Ask the client to shrug shoulders against resistance",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 11
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-022",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which additional movement assesses sternocleidomastoid function for cranial nerve XI?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Turn the head to each side against resistance"
+        },
+        {
+          "id": "o1",
+          "text": "Puff out both cheeks"
+        },
+        {
+          "id": "o2",
+          "text": "Identify sharp and dull touch on the forehead"
+        },
+        {
+          "id": "o3",
+          "text": "Read a near-vision chart"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies resisted head rotation to evaluate sternocleidomastoid muscles.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "Ask the client to turn the head against resistance",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 11
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-023",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which action assesses cranial nerve XII (hypoglossal)?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Protrude the tongue and move it side to side against a tongue depressor"
+        },
+        {
+          "id": "o1",
+          "text": "Check the whispered voice at 1–2 feet"
+        },
+        {
+          "id": "o2",
+          "text": "Ask the client to shrug the shoulders"
+        },
+        {
+          "id": "o3",
+          "text": "Assess visual fields by confrontation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes tongue protrusion, side-to-side movement against resistance, and return to mouth.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "ask the client to protrude tongue, move it to each side",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 12
+      }
+    },
+    {
+      "id": "ha-e2-cn-coverage-024",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which finding suggests a unilateral lesion of cranial nerve XII according to the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tongue deviates toward the affected side"
+        },
+        {
+          "id": "o1",
+          "text": "The uvula rises symmetrically"
+        },
+        {
+          "id": "o2",
+          "text": "Facial movements remain symmetric"
+        },
+        {
+          "id": "o3",
+          "text": "The client hears whispered words"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states that a unilateral CN XII lesion can cause deviation toward the affected side.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Deviation to the affected side is seen with a unilateral lesion",
+      "approved": true,
+      "approvalBasis": "CHAPTER_25_LECTURE_TEXT_VERIFIED",
+      "origin": {
+        "method": "cranial-nerve-coverage",
+        "cranialNerve": 12
+      }
     }
   ],
   "validationStandard": "Course-document alignment, answer consistency, and absence of obvious ambiguity; not external medical-level clinical review.",
@@ -13080,12 +14040,13 @@
   },
   "expansionPolicy": "Added 160 context/review reframings of existing MCQs, retaining source-linked answer keys and rationales; these are not independent new knowledge items.",
   "validation": {
-    "status": "STRUCTURAL_PASS_SOURCE_REUSE_NOT_INDEPENDENTLY_REVALIDATED",
+    "status": "STRUCTURAL_PASS_WITH_PRIOR_SOURCE_LIMITATIONS",
     "checks": [
-      "325 unique IDs",
       "All answer keys resolve to supplied choices",
       "New question stems distinct after normalization",
-      "New question keys, rationales and citations preserved from source-linked legacy items"
+      "New question keys, rationales and citations preserved from source-linked legacy items",
+      "349 unique IDs",
+      "24 new source-checked questions: two distinct questions for each CN I–XII"
     ],
     "limitations": [
       "160 new questions are context/review reframings of existing source-linked questions, not 160 independently researched new facts.",
