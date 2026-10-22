@@ -25,3 +25,5 @@
 .exam-overlay::backdrop{background:rgba(0,0,0,.65)}.exam-overlay .report-head{margin-bottom:12px}.exam-overlay iframe{width:100%;height:calc(100% - 65px);border:1px solid var(--border);border-radius:8px;background:#fff}
 #references-dialog{height:auto;max-height:85vh}#references-list{display:grid;gap:10px;margin-top:18px}#references-list button{padding:14px;text-align:left;border:1px solid var(--border);border-radius:10px;background:var(--surface2);color:var(--ink);cursor:pointer}
 .source a{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.source a:hover,.report-link:hover{opacity:.75}
+
+#report-fallback{display:block;margin:12px 0;color:var(--accent);text-decoration:underline}#report-fallback[hidden],#report-frame[hidden],#report-form[hidden],#copy-report[hidden],#report-preview[hidden]{display:none!important}
