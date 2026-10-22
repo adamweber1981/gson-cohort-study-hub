@@ -28,20 +28,22 @@ function openReport(q,number){
  const dialog=$("report-dialog");const form=$("report-form");form.reset();
  $("report-context").textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName+" · Question "+number+" · ID "+q.id;
  $("report-status").textContent="";dialog.showModal();$("report-reason").focus();
- form.onsubmit=e=>{e.preventDefault();const report=[
- "Study Hub question report",
- "Course: "+engine.bank.course,
- "Exam: "+engine.bank.examNumber,
- "Practice version: "+engine.bank.practiceName,
- "Question number (this attempt): "+number,
- "Stable question ID: "+q.id,
- "Question: "+q.stem,
- "Issue: "+$("report-reason").value,
- "Details: "+($("report-details").value.trim()||"(none)")
- ].join("\n");
- if(REPORT_FORM_URL){try{const url=new URL(REPORT_FORM_URL);if(url.protocol!=="https:"||!url.hostname.endsWith("google.com")||!url.pathname.includes("/forms/"))throw Error("Invalid Google Form URL");window.open(url.toString(),"_blank","noopener,noreferrer");$("report-status").textContent="Google Form opened. Copy the prepared report below into the form and submit it there. Nothing has been sent yet."}catch(_){$("report-status").textContent="The configured Google Form URL is invalid. Copy the report below instead."}}
- else $("report-status").textContent="Google Form submission is not connected yet. Copy this report and send it to the Study Hub administrator; no report has been submitted.";
+ form.onsubmit=e=>{e.preventDefault();
+ const url=new URL(REPORT_FORM_URL);
+ const fields={
+ "entry.431985147":engine.bank.course,
+ "entry.306826281":engine.bank.examNumber+" · "+engine.bank.practiceName,
+ "entry.1968295452":q.id,
+ "entry.482083630":q.stem,
+ "entry.973603052":$("report-reason").value,
+ "entry.1667769534":$("report-details").value.trim()
+ };
+ Object.entries(fields).forEach(([key,value])=>url.searchParams.set(key,value));
+ url.searchParams.set("usp","pp_url");
+ const report=["Course: "+engine.bank.course,"Exam / Practice Version: "+fields["entry.306826281"],"Question ID: "+q.id,"Question Text: "+q.stem,"Type of Issue: "+fields["entry.973603052"],"Describe the Problem: "+(fields["entry.1667769534"]||"(none)")].join("\\n");
  $("report-preview").value=report;$("report-preview").hidden=false;$("copy-report").hidden=false;
+ const opened=window.open(url.toString(),"_blank","noopener,noreferrer");
+ $("report-status").textContent=opened===null?"If the form did not open, allow pop-ups for this site. Your report is prepared below.":"Your pre-filled Google Form has opened in a new tab. Review it and select Submit in Google Forms to send your report.";
  };
 }
 $("close-report").addEventListener("click",()=>$("report-dialog").close());
