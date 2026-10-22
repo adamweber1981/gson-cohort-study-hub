@@ -14028,6 +14028,5582 @@
       "correct": "o2",
       "subtopic": "Breath sound locations",
       "approvalBasis": "SOURCE_LINKED_PARAPHRASE_NOT_INDEPENDENT_LEARNING_OBJECTIVE"
+    },
+    {
+      "id": "ha-e2-unique-20261022-001",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "A small cervical node feels soft, mobile, and nontender. How should this be interpreted?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Normal finding"
+        },
+        {
+          "id": "o1",
+          "text": "Suggestive of metastatic spread"
+        },
+        {
+          "id": "o2",
+          "text": "Typical of an acutely infected tender node"
+        },
+        {
+          "id": "o3",
+          "text": "Indicates a thyroid bruit"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Normal nodes are nonpalpable or small, soft, movable, and nontender.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Normal nodes are nonpalpable or small, soft, movable, and nontender.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Normal nodes are nonpalpable or small, soft, movable, and nontender.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-002",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "Which lymph-node characteristics are consistent with the lecture's normal findings?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Normal finding"
+        },
+        {
+          "id": "o1",
+          "text": "Suggestive of metastatic spread"
+        },
+        {
+          "id": "o2",
+          "text": "Typical of an acutely infected tender node"
+        },
+        {
+          "id": "o3",
+          "text": "Indicates a thyroid bruit"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Normal nodes are nonpalpable or small, soft, movable, and nontender.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Normal nodes are nonpalpable or small, soft, movable, and nontender.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Normal nodes are nonpalpable or small, soft, movable, and nontender.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-003",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "A cervical node is enlarged and painful during an infection. Which explanation best fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inflammatory lymphadenopathy"
+        },
+        {
+          "id": "o1",
+          "text": "Expected age-related thyroid change"
+        },
+        {
+          "id": "o2",
+          "text": "Normal tracheal position"
+        },
+        {
+          "id": "o3",
+          "text": "A typical finding of migraine"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Nodes may swell and become painful during infection.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Nodes may swell and become painful during infection.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Nodes may swell and become painful during infection.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-004",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "Which lymph-node change can occur when a node responds to microorganisms?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inflammatory lymphadenopathy"
+        },
+        {
+          "id": "o1",
+          "text": "Expected age-related thyroid change"
+        },
+        {
+          "id": "o2",
+          "text": "Normal tracheal position"
+        },
+        {
+          "id": "o3",
+          "text": "A typical finding of migraine"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Nodes may swell and become painful during infection.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Nodes may swell and become painful during infection.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Nodes may swell and become painful during infection.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-005",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "A client has an enlarging, painless lymph node. Which concern warrants follow-up?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Painless node enlargement"
+        },
+        {
+          "id": "o1",
+          "text": "A soft nonpalpable node"
+        },
+        {
+          "id": "o2",
+          "text": "A symmetric neck without swelling"
+        },
+        {
+          "id": "o3",
+          "text": "Normal thyroid cartilage movement"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Metastatic disease may enlarge nodes without pain.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Metastatic disease may enlarge nodes without pain.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Metastatic disease may enlarge nodes without pain.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-006",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "Which node pattern does the lecture associate with possible cancer spread?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Painless node enlargement"
+        },
+        {
+          "id": "o1",
+          "text": "A soft nonpalpable node"
+        },
+        {
+          "id": "o2",
+          "text": "A symmetric neck without swelling"
+        },
+        {
+          "id": "o3",
+          "text": "Normal thyroid cartilage movement"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Metastatic disease may enlarge nodes without pain.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Metastatic disease may enlarge nodes without pain.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Metastatic disease may enlarge nodes without pain.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-007",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "What technique should the nurse use when comparing cervical lymph nodes?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Gentle circular motion with bilateral comparison"
+        },
+        {
+          "id": "o1",
+          "text": "Deep percussion over the neck"
+        },
+        {
+          "id": "o2",
+          "text": "Auscultation with the diaphragm only"
+        },
+        {
+          "id": "o3",
+          "text": "Rapid one-sided compression"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies gentle circular palpation with both hands to compare sides.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 13
+      },
+      "sourceExcerpt": "The lecture specifies gentle circular palpation with both hands to compare sides.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture specifies gentle circular palpation with both hands to compare sides.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-008",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Lymph nodes",
+      "stem": "How should the finger pads move during lymph-node palpation?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Gentle circular motion with bilateral comparison"
+        },
+        {
+          "id": "o1",
+          "text": "Deep percussion over the neck"
+        },
+        {
+          "id": "o2",
+          "text": "Auscultation with the diaphragm only"
+        },
+        {
+          "id": "o3",
+          "text": "Rapid one-sided compression"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies gentle circular palpation with both hands to compare sides.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 13
+      },
+      "sourceExcerpt": "The lecture specifies gentle circular palpation with both hands to compare sides.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture specifies gentle circular palpation with both hands to compare sides.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-009",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Thyroid disorders",
+      "stem": "A client reports weight loss, sweating, and heat intolerance. Which thyroid pattern is most consistent?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hyperthyroidism"
+        },
+        {
+          "id": "o1",
+          "text": "Hypothyroidism"
+        },
+        {
+          "id": "o2",
+          "text": "Normal thyroid aging"
+        },
+        {
+          "id": "o3",
+          "text": "Medication-overuse headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Excess thyroid hormone increases metabolism and can cause these symptoms.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Excess thyroid hormone increases metabolism and can cause these symptoms.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Excess thyroid hormone increases metabolism and can cause these symptoms.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-010",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Thyroid disorders",
+      "stem": "Which thyroid condition increases metabolism and may cause tachycardia?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hyperthyroidism"
+        },
+        {
+          "id": "o1",
+          "text": "Hypothyroidism"
+        },
+        {
+          "id": "o2",
+          "text": "Normal thyroid aging"
+        },
+        {
+          "id": "o3",
+          "text": "Medication-overuse headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Excess thyroid hormone increases metabolism and can cause these symptoms.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Excess thyroid hormone increases metabolism and can cause these symptoms.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Excess thyroid hormone increases metabolism and can cause these symptoms.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-011",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Thyroid disorders",
+      "stem": "A client reports weight gain, constipation, and feeling cold. Which disorder fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypothyroidism"
+        },
+        {
+          "id": "o1",
+          "text": "Hyperthyroidism"
+        },
+        {
+          "id": "o2",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o3",
+          "text": "Trigeminal neuralgia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Reduced thyroid hormone decreases metabolism.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Reduced thyroid hormone decreases metabolism.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Reduced thyroid hormone decreases metabolism.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-012",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Thyroid disorders",
+      "stem": "Which thyroid state can cause bradycardia and dry skin?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypothyroidism"
+        },
+        {
+          "id": "o1",
+          "text": "Hyperthyroidism"
+        },
+        {
+          "id": "o2",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o3",
+          "text": "Trigeminal neuralgia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Reduced thyroid hormone decreases metabolism.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Reduced thyroid hormone decreases metabolism.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Reduced thyroid hormone decreases metabolism.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-013",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Abnormal thyroid follow-up",
+      "stem": "A thyroid gland is enlarged on examination. Which additional technique does the lecture recommend?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Auscultate the enlarged thyroid for a bruit"
+        },
+        {
+          "id": "o1",
+          "text": "Skip all additional assessment"
+        },
+        {
+          "id": "o2",
+          "text": "Test whispered hearing"
+        },
+        {
+          "id": "o3",
+          "text": "Perform the Romberg test"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture recommends auscultation when thyroid enlargement is noted.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "The lecture recommends auscultation when thyroid enlargement is noted.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture recommends auscultation when thyroid enlargement is noted.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-014",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Abnormal thyroid follow-up",
+      "stem": "When is thyroid auscultation specifically indicated in this course?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Auscultate the enlarged thyroid for a bruit"
+        },
+        {
+          "id": "o1",
+          "text": "Skip all additional assessment"
+        },
+        {
+          "id": "o2",
+          "text": "Test whispered hearing"
+        },
+        {
+          "id": "o3",
+          "text": "Perform the Romberg test"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture recommends auscultation when thyroid enlargement is noted.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "The lecture recommends auscultation when thyroid enlargement is noted.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture recommends auscultation when thyroid enlargement is noted.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-015",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Abnormal thyroid follow-up",
+      "stem": "A soft blowing sound is heard over the thyroid. What is this finding called?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Thyroid bruit"
+        },
+        {
+          "id": "o1",
+          "text": "Normal vesicular breath sound"
+        },
+        {
+          "id": "o2",
+          "text": "Tympanic membrane reflex"
+        },
+        {
+          "id": "o3",
+          "text": "Tactile fremitus"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "A thyroid bruit is a soft blowing or swishing sound associated with increased blood flow.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "A thyroid bruit is a soft blowing or swishing sound associated with increased blood flow.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "A thyroid bruit is a soft blowing or swishing sound associated with increased blood flow.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-016",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Abnormal thyroid follow-up",
+      "stem": "Which finding over an enlarged thyroid may reflect increased arterial flow?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Thyroid bruit"
+        },
+        {
+          "id": "o1",
+          "text": "Normal vesicular breath sound"
+        },
+        {
+          "id": "o2",
+          "text": "Tympanic membrane reflex"
+        },
+        {
+          "id": "o3",
+          "text": "Tactile fremitus"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "A thyroid bruit is a soft blowing or swishing sound associated with increased blood flow.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "A thyroid bruit is a soft blowing or swishing sound associated with increased blood flow.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "A thyroid bruit is a soft blowing or swishing sound associated with increased blood flow.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-017",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Headaches",
+      "stem": "A headache causes pressure across the eyes and worsens when bending forward. Which pattern fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sinus headache"
+        },
+        {
+          "id": "o1",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o2",
+          "text": "Medication-overuse headache"
+        },
+        {
+          "id": "o3",
+          "text": "Tension headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes sinus headache as facial pressure worsened by movement or bending.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture describes sinus headache as facial pressure worsened by movement or bending.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes sinus headache as facial pressure worsened by movement or bending.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-018",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Headaches",
+      "stem": "Which headache pattern may accompany a cold and facial tenderness?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sinus headache"
+        },
+        {
+          "id": "o1",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o2",
+          "text": "Medication-overuse headache"
+        },
+        {
+          "id": "o3",
+          "text": "Tension headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes sinus headache as facial pressure worsened by movement or bending.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture describes sinus headache as facial pressure worsened by movement or bending.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes sinus headache as facial pressure worsened by movement or bending.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-019",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Headaches",
+      "stem": "A client reports sudden intense periorbital stabbing pain with tearing. Which type is likely?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o1",
+          "text": "Tension headache"
+        },
+        {
+          "id": "o2",
+          "text": "Sinus headache"
+        },
+        {
+          "id": "o3",
+          "text": "Medication-overuse headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Cluster headache may involve severe unilateral eye-region pain and autonomic symptoms.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Cluster headache may involve severe unilateral eye-region pain and autonomic symptoms.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Cluster headache may involve severe unilateral eye-region pain and autonomic symptoms.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-020",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Headaches",
+      "stem": "Which headache pattern may include a runny nose and seasonal attacks?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o1",
+          "text": "Tension headache"
+        },
+        {
+          "id": "o2",
+          "text": "Sinus headache"
+        },
+        {
+          "id": "o3",
+          "text": "Medication-overuse headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Cluster headache may involve severe unilateral eye-region pain and autonomic symptoms.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Cluster headache may involve severe unilateral eye-region pain and autonomic symptoms.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Cluster headache may involve severe unilateral eye-region pain and autonomic symptoms.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-021",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Headaches",
+      "stem": "A stressed client describes a dull, tight bandlike ache. Which headache is suggested?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tension headache"
+        },
+        {
+          "id": "o1",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o2",
+          "text": "Migraine with aura"
+        },
+        {
+          "id": "o3",
+          "text": "Sinus headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies dull tightness and stress association with tension headaches.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture identifies dull tightness and stress association with tension headaches.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies dull tightness and stress association with tension headaches.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-022",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "Headaches",
+      "stem": "Which headache type is common with lack of sleep and frontal or temporal tightness?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tension headache"
+        },
+        {
+          "id": "o1",
+          "text": "Cluster headache"
+        },
+        {
+          "id": "o2",
+          "text": "Migraine with aura"
+        },
+        {
+          "id": "o3",
+          "text": "Sinus headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies dull tightness and stress association with tension headaches.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture identifies dull tightness and stress association with tension headaches.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies dull tightness and stress association with tension headaches.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-023",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "TBI prevention",
+      "stem": "Which prevention measure directly addresses a lecture-listed TBI risk?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use protective headgear"
+        },
+        {
+          "id": "o1",
+          "text": "Avoid all physical activity"
+        },
+        {
+          "id": "o2",
+          "text": "Ignore falls in older adults"
+        },
+        {
+          "id": "o3",
+          "text": "Treat headache with repeated analgesics"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists lack of helmets or other protective gear among TBI risks.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "The lecture lists lack of helmets or other protective gear among TBI risks.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists lack of helmets or other protective gear among TBI risks.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-024",
+      "chapter": 15,
+      "topic": "Chapter 15",
+      "subtopic": "TBI prevention",
+      "stem": "A cyclist asks how to lower the chance of a preventable head injury. What should be emphasized?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use protective headgear"
+        },
+        {
+          "id": "o1",
+          "text": "Avoid all physical activity"
+        },
+        {
+          "id": "o2",
+          "text": "Ignore falls in older adults"
+        },
+        {
+          "id": "o3",
+          "text": "Treat headache with repeated analgesics"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists lack of helmets or other protective gear among TBI risks.",
+      "source": {
+        "name": "Chapter 15 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2015%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "The lecture lists lack of helmets or other protective gear among TBI risks.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists lack of helmets or other protective gear among TBI risks.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-025",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which structure distributes tears and limits light entering the eye?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Eyelids"
+        },
+        {
+          "id": "o1",
+          "text": "Optic disc"
+        },
+        {
+          "id": "o2",
+          "text": "Retina"
+        },
+        {
+          "id": "o3",
+          "text": "Lens"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Eyelids protect the eye and spread tears over its surface.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 3
+      },
+      "sourceExcerpt": "Eyelids protect the eye and spread tears over its surface.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Eyelids protect the eye and spread tears over its surface.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-026",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "A client asks why blinking helps protect the eye. Which structure provides this protection?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Eyelids"
+        },
+        {
+          "id": "o1",
+          "text": "Optic disc"
+        },
+        {
+          "id": "o2",
+          "text": "Retina"
+        },
+        {
+          "id": "o3",
+          "text": "Lens"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Eyelids protect the eye and spread tears over its surface.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 3
+      },
+      "sourceExcerpt": "Eyelids protect the eye and spread tears over its surface.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Eyelids protect the eye and spread tears over its surface.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-027",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which eye structure bends light rays toward the retina?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lens"
+        },
+        {
+          "id": "o1",
+          "text": "Optic disc"
+        },
+        {
+          "id": "o2",
+          "text": "Sclera"
+        },
+        {
+          "id": "o3",
+          "text": "Eyelash"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lens refracts light toward the retina.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 4
+      },
+      "sourceExcerpt": "The lens refracts light toward the retina.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lens refracts light toward the retina.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-028",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which internal eye component focuses incoming light?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lens"
+        },
+        {
+          "id": "o1",
+          "text": "Optic disc"
+        },
+        {
+          "id": "o2",
+          "text": "Sclera"
+        },
+        {
+          "id": "o3",
+          "text": "Eyelash"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lens refracts light toward the retina.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 4
+      },
+      "sourceExcerpt": "The lens refracts light toward the retina.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lens refracts light toward the retina.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-029",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Where does the optic nerve enter the eyeball?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Optic disc"
+        },
+        {
+          "id": "o1",
+          "text": "Corneal limbus"
+        },
+        {
+          "id": "o2",
+          "text": "Iris"
+        },
+        {
+          "id": "o3",
+          "text": "Lens"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The optic disc is the entry location of the optic nerve.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "The optic disc is the entry location of the optic nerve.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The optic disc is the entry location of the optic nerve.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-030",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which cream-colored retinal area marks the optic nerve entry site?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Optic disc"
+        },
+        {
+          "id": "o1",
+          "text": "Corneal limbus"
+        },
+        {
+          "id": "o2",
+          "text": "Iris"
+        },
+        {
+          "id": "o3",
+          "text": "Lens"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The optic disc is the entry location of the optic nerve.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "The optic disc is the entry location of the optic nerve.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The optic disc is the entry location of the optic nerve.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-031",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Light in the left eye makes the right pupil constrict. What is this response?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Constriction of the opposite pupil"
+        },
+        {
+          "id": "o1",
+          "text": "No pupil reaction in either eye"
+        },
+        {
+          "id": "o2",
+          "text": "A unilateral fixed dilated pupil"
+        },
+        {
+          "id": "o3",
+          "text": "Lateral eye movement"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Consensual response is constriction of the opposite pupil after light stimulation.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Consensual response is constriction of the opposite pupil after light stimulation.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Consensual response is constriction of the opposite pupil after light stimulation.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-032",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which finding demonstrates a consensual pupillary light reflex?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Constriction of the opposite pupil"
+        },
+        {
+          "id": "o1",
+          "text": "No pupil reaction in either eye"
+        },
+        {
+          "id": "o2",
+          "text": "A unilateral fixed dilated pupil"
+        },
+        {
+          "id": "o3",
+          "text": "Lateral eye movement"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Consensual response is constriction of the opposite pupil after light stimulation.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "Consensual response is constriction of the opposite pupil after light stimulation.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Consensual response is constriction of the opposite pupil after light stimulation.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-033",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "A client changes gaze from far away to a near pencil. What normal pupillary change occurs?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pupillary constriction with convergence"
+        },
+        {
+          "id": "o1",
+          "text": "Pupillary fixation and dilation"
+        },
+        {
+          "id": "o2",
+          "text": "No eye convergence"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of peripheral vision"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Accommodation involves pupil constriction and eye convergence.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "Accommodation involves pupil constriction and eye convergence.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Accommodation involves pupil constriction and eye convergence.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-034",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which response is expected during near accommodation?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pupillary constriction with convergence"
+        },
+        {
+          "id": "o1",
+          "text": "Pupillary fixation and dilation"
+        },
+        {
+          "id": "o2",
+          "text": "No eye convergence"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of peripheral vision"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Accommodation involves pupil constriction and eye convergence.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "Accommodation involves pupil constriction and eye convergence.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Accommodation involves pupil constriction and eye convergence.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-035",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "What does the numerator in a Snellen result of 20/40 represent?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Distance from client to chart in feet"
+        },
+        {
+          "id": "o1",
+          "text": "The client's age"
+        },
+        {
+          "id": "o2",
+          "text": "Number of correctly read letters"
+        },
+        {
+          "id": "o3",
+          "text": "Distance of the last readable line in feet"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states the first Snellen number is the 20-foot testing distance.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture states the first Snellen number is the 20-foot testing distance.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture states the first Snellen number is the 20-foot testing distance.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-036",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "A nurse documents 20/30 visual acuity. What does the first number describe?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Distance from client to chart in feet"
+        },
+        {
+          "id": "o1",
+          "text": "The client's age"
+        },
+        {
+          "id": "o2",
+          "text": "Number of correctly read letters"
+        },
+        {
+          "id": "o3",
+          "text": "Distance of the last readable line in feet"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states the first Snellen number is the 20-foot testing distance.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture states the first Snellen number is the 20-foot testing distance.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture states the first Snellen number is the 20-foot testing distance.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-037",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which cranial nerves are tested by the six cardinal fields of gaze?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN III, IV, and VI"
+        },
+        {
+          "id": "o1",
+          "text": "CN I, V, and VII"
+        },
+        {
+          "id": "o2",
+          "text": "CN VIII, IX, and X"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI and XII"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Six cardinal gaze fields evaluate extraocular muscles and CN III, IV, VI.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "Six cardinal gaze fields evaluate extraocular muscles and CN III, IV, VI.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Six cardinal gaze fields evaluate extraocular muscles and CN III, IV, VI.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-038",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "A nurse asks the client to follow a target in six directions. Which nerve group is assessed?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN III, IV, and VI"
+        },
+        {
+          "id": "o1",
+          "text": "CN I, V, and VII"
+        },
+        {
+          "id": "o2",
+          "text": "CN VIII, IX, and X"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI and XII"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Six cardinal gaze fields evaluate extraocular muscles and CN III, IV, VI.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "Six cardinal gaze fields evaluate extraocular muscles and CN III, IV, VI.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Six cardinal gaze fields evaluate extraocular muscles and CN III, IV, VI.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-039",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "A client misses objects approaching from the side. Which bedside test addresses this complaint?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Confrontation visual-field test"
+        },
+        {
+          "id": "o1",
+          "text": "Snellen acuity test"
+        },
+        {
+          "id": "o2",
+          "text": "Whispered-voice test"
+        },
+        {
+          "id": "o3",
+          "text": "Shoulder shrug against resistance"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Confrontation testing screens peripheral visual fields.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Confrontation testing screens peripheral visual fields.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Confrontation testing screens peripheral visual fields.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-040",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Objective eye assessment",
+      "stem": "Which test compares a client's gross peripheral vision with the examiner's?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Confrontation visual-field test"
+        },
+        {
+          "id": "o1",
+          "text": "Snellen acuity test"
+        },
+        {
+          "id": "o2",
+          "text": "Whispered-voice test"
+        },
+        {
+          "id": "o3",
+          "text": "Shoulder shrug against resistance"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Confrontation testing screens peripheral visual fields.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "Confrontation testing screens peripheral visual fields.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Confrontation testing screens peripheral visual fields.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-041",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye terminology",
+      "stem": "A client reports seeing two images of one object. What term describes this?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diplopia"
+        },
+        {
+          "id": "o1",
+          "text": "Photophobia"
+        },
+        {
+          "id": "o2",
+          "text": "Scotoma"
+        },
+        {
+          "id": "o3",
+          "text": "Myopia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Diplopia means double vision.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Diplopia means double vision.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Diplopia means double vision.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-042",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye terminology",
+      "stem": "Which eye-assessment term means double vision?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diplopia"
+        },
+        {
+          "id": "o1",
+          "text": "Photophobia"
+        },
+        {
+          "id": "o2",
+          "text": "Scotoma"
+        },
+        {
+          "id": "o3",
+          "text": "Myopia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Diplopia means double vision.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Diplopia means double vision.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Diplopia means double vision.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-043",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye terminology",
+      "stem": "Which term describes a blind spot in the visual field?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Scotoma"
+        },
+        {
+          "id": "o1",
+          "text": "Presbyopia"
+        },
+        {
+          "id": "o2",
+          "text": "Strabismus"
+        },
+        {
+          "id": "o3",
+          "text": "Photophobia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Scotoma means a blind spot.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Scotoma means a blind spot.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Scotoma means a blind spot.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-044",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye terminology",
+      "stem": "The client notices a missing area in vision. Which term should be documented?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Scotoma"
+        },
+        {
+          "id": "o1",
+          "text": "Presbyopia"
+        },
+        {
+          "id": "o2",
+          "text": "Strabismus"
+        },
+        {
+          "id": "o3",
+          "text": "Photophobia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Scotoma means a blind spot.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Scotoma means a blind spot.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Scotoma means a blind spot.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-045",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye diseases",
+      "stem": "An older adult has blurred central vision but retains peripheral vision. Which disorder fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Macular degeneration"
+        },
+        {
+          "id": "o1",
+          "text": "Otitis media"
+        },
+        {
+          "id": "o2",
+          "text": "Entropion"
+        },
+        {
+          "id": "o3",
+          "text": "Cataract limited to peripheral fields"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Macular degeneration damages central vision.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 22
+      },
+      "sourceExcerpt": "Macular degeneration damages central vision.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Macular degeneration damages central vision.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-046",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye diseases",
+      "stem": "Which eye disease damages the macula and affects straight-ahead vision?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Macular degeneration"
+        },
+        {
+          "id": "o1",
+          "text": "Otitis media"
+        },
+        {
+          "id": "o2",
+          "text": "Entropion"
+        },
+        {
+          "id": "o3",
+          "text": "Cataract limited to peripheral fields"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Macular degeneration damages central vision.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 22
+      },
+      "sourceExcerpt": "Macular degeneration damages central vision.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Macular degeneration damages central vision.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-047",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye diseases",
+      "stem": "A client reports glare and faded colors from a slowly clouding lens. Which disorder fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cataract"
+        },
+        {
+          "id": "o1",
+          "text": "Macular degeneration"
+        },
+        {
+          "id": "o2",
+          "text": "Strabismus"
+        },
+        {
+          "id": "o3",
+          "text": "Nystagmus"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Cataracts involve progressive lens clouding and glare or altered colors.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "Cataracts involve progressive lens clouding and glare or altered colors.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Cataracts involve progressive lens clouding and glare or altered colors.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-048",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye diseases",
+      "stem": "Which eye disorder involves gradual clouding of the lens?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cataract"
+        },
+        {
+          "id": "o1",
+          "text": "Macular degeneration"
+        },
+        {
+          "id": "o2",
+          "text": "Strabismus"
+        },
+        {
+          "id": "o3",
+          "text": "Nystagmus"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Cataracts involve progressive lens clouding and glare or altered colors.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "Cataracts involve progressive lens clouding and glare or altered colors.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Cataracts involve progressive lens clouding and glare or altered colors.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-049",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye terminology",
+      "stem": "A client cannot tolerate bright light. Which term applies?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Photophobia"
+        },
+        {
+          "id": "o1",
+          "text": "Diplopia"
+        },
+        {
+          "id": "o2",
+          "text": "Scotoma"
+        },
+        {
+          "id": "o3",
+          "text": "Presbyopia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Photophobia describes intolerance to light.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Photophobia describes intolerance to light.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Photophobia describes intolerance to light.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-050",
+      "chapter": 16,
+      "topic": "Chapter 16",
+      "subtopic": "Eye terminology",
+      "stem": "What is the term for light sensitivity during an eye assessment?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Photophobia"
+        },
+        {
+          "id": "o1",
+          "text": "Diplopia"
+        },
+        {
+          "id": "o2",
+          "text": "Scotoma"
+        },
+        {
+          "id": "o3",
+          "text": "Presbyopia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Photophobia describes intolerance to light.",
+      "source": {
+        "name": "Chapter 16 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2016%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Photophobia describes intolerance to light.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Photophobia describes intolerance to light.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-051",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tonsils",
+      "stem": "The tonsils extend halfway from the pillars toward the uvula. What grade is documented?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2+"
+        },
+        {
+          "id": "o1",
+          "text": "1+"
+        },
+        {
+          "id": "o2",
+          "text": "3+"
+        },
+        {
+          "id": "o3",
+          "text": "4+"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture grades halfway between pillars and uvula as 2+.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 10
+      },
+      "sourceExcerpt": "The lecture grades halfway between pillars and uvula as 2+.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture grades halfway between pillars and uvula as 2+.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-052",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tonsils",
+      "stem": "Which tonsil grade corresponds to halfway between pillars and uvula?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2+"
+        },
+        {
+          "id": "o1",
+          "text": "1+"
+        },
+        {
+          "id": "o2",
+          "text": "3+"
+        },
+        {
+          "id": "o3",
+          "text": "4+"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture grades halfway between pillars and uvula as 2+.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 10
+      },
+      "sourceExcerpt": "The lecture grades halfway between pillars and uvula as 2+.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture grades halfway between pillars and uvula as 2+.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-053",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tonsils",
+      "stem": "Tonsils touch each other at the midline. Which grade is correct?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "4+"
+        },
+        {
+          "id": "o1",
+          "text": "1+"
+        },
+        {
+          "id": "o2",
+          "text": "2+"
+        },
+        {
+          "id": "o3",
+          "text": "3+"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Grade 4+ indicates the tonsils touch one another.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 10
+      },
+      "sourceExcerpt": "Grade 4+ indicates the tonsils touch one another.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Grade 4+ indicates the tonsils touch one another.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-054",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tonsils",
+      "stem": "Which tonsil finding corresponds to grade 4+?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "4+"
+        },
+        {
+          "id": "o1",
+          "text": "1+"
+        },
+        {
+          "id": "o2",
+          "text": "2+"
+        },
+        {
+          "id": "o3",
+          "text": "3+"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Grade 4+ indicates the tonsils touch one another.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 10
+      },
+      "sourceExcerpt": "Grade 4+ indicates the tonsils touch one another.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Grade 4+ indicates the tonsils touch one another.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-055",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Nose and sinuses",
+      "stem": "How many pairs of paranasal sinuses are described in the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Four pairs: frontal, maxillary, ethmoid, sphenoid"
+        },
+        {
+          "id": "o1",
+          "text": "Two pairs: frontal and maxillary only"
+        },
+        {
+          "id": "o2",
+          "text": "Three pairs: frontal, nasal, orbital"
+        },
+        {
+          "id": "o3",
+          "text": "Five pairs including mastoid"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists four pairs of paranasal sinuses.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 4
+      },
+      "sourceExcerpt": "The lecture lists four pairs of paranasal sinuses.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists four pairs of paranasal sinuses.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-056",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Nose and sinuses",
+      "stem": "Which set correctly identifies the paired sinuses?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Four pairs: frontal, maxillary, ethmoid, sphenoid"
+        },
+        {
+          "id": "o1",
+          "text": "Two pairs: frontal and maxillary only"
+        },
+        {
+          "id": "o2",
+          "text": "Three pairs: frontal, nasal, orbital"
+        },
+        {
+          "id": "o3",
+          "text": "Five pairs including mastoid"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists four pairs of paranasal sinuses.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 4
+      },
+      "sourceExcerpt": "The lecture lists four pairs of paranasal sinuses.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists four pairs of paranasal sinuses.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-057",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Nose and sinuses",
+      "stem": "Which sinus groups can the nurse palpate during the routine examination?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Frontal and maxillary"
+        },
+        {
+          "id": "o1",
+          "text": "Ethmoid and sphenoid"
+        },
+        {
+          "id": "o2",
+          "text": "All four pairs equally"
+        },
+        {
+          "id": "o3",
+          "text": "Only sphenoid"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies frontal and maxillary as accessible to palpation.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "The lecture specifies frontal and maxillary as accessible to palpation.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture specifies frontal and maxillary as accessible to palpation.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-058",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Nose and sinuses",
+      "stem": "A nurse plans to palpate sinuses for tenderness. Which are accessible?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Frontal and maxillary"
+        },
+        {
+          "id": "o1",
+          "text": "Ethmoid and sphenoid"
+        },
+        {
+          "id": "o2",
+          "text": "All four pairs equally"
+        },
+        {
+          "id": "o3",
+          "text": "Only sphenoid"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies frontal and maxillary as accessible to palpation.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "The lecture specifies frontal and maxillary as accessible to palpation.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture specifies frontal and maxillary as accessible to palpation.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-059",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Nose and sinuses",
+      "stem": "A client cannot sniff freely through one nostril. What is being assessed?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Nasal patency"
+        },
+        {
+          "id": "o1",
+          "text": "Visual accommodation"
+        },
+        {
+          "id": "o2",
+          "text": "Corneal reflex"
+        },
+        {
+          "id": "o3",
+          "text": "Gag reflex"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The nurse checks nostril patency by asking the client to sniff through each nostril.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "The nurse checks nostril patency by asking the client to sniff through each nostril.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The nurse checks nostril patency by asking the client to sniff through each nostril.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-060",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Nose and sinuses",
+      "stem": "Which assessment checks for nasal obstruction from swelling or a deviated septum?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Nasal patency"
+        },
+        {
+          "id": "o1",
+          "text": "Visual accommodation"
+        },
+        {
+          "id": "o2",
+          "text": "Corneal reflex"
+        },
+        {
+          "id": "o3",
+          "text": "Gag reflex"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The nurse checks nostril patency by asking the client to sniff through each nostril.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 12
+      },
+      "sourceExcerpt": "The nurse checks nostril patency by asking the client to sniff through each nostril.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The nurse checks nostril patency by asking the client to sniff through each nostril.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-061",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Sinusitis teaching",
+      "stem": "Which symptom cluster is associated with sinusitis in the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sinusitis"
+        },
+        {
+          "id": "o1",
+          "text": "Cataract"
+        },
+        {
+          "id": "o2",
+          "text": "Tension headache without sinus symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Presbycusis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists purulent discharge, congestion, facial tenderness and headache with sinusitis.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "The lecture lists purulent discharge, congestion, facial tenderness and headache with sinusitis.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists purulent discharge, congestion, facial tenderness and headache with sinusitis.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-062",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Sinusitis teaching",
+      "stem": "A client reports thick yellow-green discharge, facial tenderness, and congestion. Which problem is suggested?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sinusitis"
+        },
+        {
+          "id": "o1",
+          "text": "Cataract"
+        },
+        {
+          "id": "o2",
+          "text": "Tension headache without sinus symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Presbycusis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists purulent discharge, congestion, facial tenderness and headache with sinusitis.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 14
+      },
+      "sourceExcerpt": "The lecture lists purulent discharge, congestion, facial tenderness and headache with sinusitis.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists purulent discharge, congestion, facial tenderness and headache with sinusitis.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-063",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tongue",
+      "stem": "Which tongue appearance is described as normal?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pink, moist, midline, with papillae"
+        },
+        {
+          "id": "o1",
+          "text": "Dry, fixed to one side, without papillae"
+        },
+        {
+          "id": "o2",
+          "text": "White feathery patches that cannot be scraped off"
+        },
+        {
+          "id": "o3",
+          "text": "Beefy red with no papillae"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes a healthy tongue as pink, moist, midline and papillae-covered.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "The lecture describes a healthy tongue as pink, moist, midline and papillae-covered.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes a healthy tongue as pink, moist, midline and papillae-covered.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-064",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tongue",
+      "stem": "During oral assessment, which finding supports a healthy tongue?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pink, moist, midline, with papillae"
+        },
+        {
+          "id": "o1",
+          "text": "Dry, fixed to one side, without papillae"
+        },
+        {
+          "id": "o2",
+          "text": "White feathery patches that cannot be scraped off"
+        },
+        {
+          "id": "o3",
+          "text": "Beefy red with no papillae"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes a healthy tongue as pink, moist, midline and papillae-covered.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "The lecture describes a healthy tongue as pink, moist, midline and papillae-covered.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes a healthy tongue as pink, moist, midline and papillae-covered.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-065",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tongue",
+      "stem": "A client has a smooth beefy-red tongue with reduced papillae. Which deficiency is associated?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Smooth beefy-red tongue"
+        },
+        {
+          "id": "o1",
+          "text": "Symmetric pink moist tongue"
+        },
+        {
+          "id": "o2",
+          "text": "Normal tonsillar tissue"
+        },
+        {
+          "id": "o3",
+          "text": "Midline uvula elevation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture links a beefy-red tongue with diminished papillae to B12 or niacin deficiency.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture links a beefy-red tongue with diminished papillae to B12 or niacin deficiency.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture links a beefy-red tongue with diminished papillae to B12 or niacin deficiency.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-066",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tongue",
+      "stem": "Which tongue appearance is linked to vitamin B12 or niacin deficiency?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Smooth beefy-red tongue"
+        },
+        {
+          "id": "o1",
+          "text": "Symmetric pink moist tongue"
+        },
+        {
+          "id": "o2",
+          "text": "Normal tonsillar tissue"
+        },
+        {
+          "id": "o3",
+          "text": "Midline uvula elevation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture links a beefy-red tongue with diminished papillae to B12 or niacin deficiency.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture links a beefy-red tongue with diminished papillae to B12 or niacin deficiency.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture links a beefy-red tongue with diminished papillae to B12 or niacin deficiency.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-067",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tongue",
+      "stem": "A white feathery tongue lesion cannot be scraped away in an immunocompromised client. What finding fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Oral hairy leukoplakia"
+        },
+        {
+          "id": "o1",
+          "text": "Normal tongue papillae"
+        },
+        {
+          "id": "o2",
+          "text": "Tonsillar grade 2+"
+        },
+        {
+          "id": "o3",
+          "text": "Arcus senilis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes oral hairy leukoplakia as nonscrapable white feathery areas.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture describes oral hairy leukoplakia as nonscrapable white feathery areas.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes oral hairy leukoplakia as nonscrapable white feathery areas.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-068",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Tongue",
+      "stem": "Which lesion does the lecture associate with HIV/AIDS and white feathery tongue areas?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Oral hairy leukoplakia"
+        },
+        {
+          "id": "o1",
+          "text": "Normal tongue papillae"
+        },
+        {
+          "id": "o2",
+          "text": "Tonsillar grade 2+"
+        },
+        {
+          "id": "o3",
+          "text": "Arcus senilis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes oral hairy leukoplakia as nonscrapable white feathery areas.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture describes oral hairy leukoplakia as nonscrapable white feathery areas.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes oral hairy leukoplakia as nonscrapable white feathery areas.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-069",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Oral cancer risk",
+      "stem": "Which tongue location does the lecture identify as a common site of tongue cancer?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lateral side of the tongue"
+        },
+        {
+          "id": "o1",
+          "text": "Tip of the uvula"
+        },
+        {
+          "id": "o2",
+          "text": "Tonsillar pillar only"
+        },
+        {
+          "id": "o3",
+          "text": "Upper lip exclusively"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies the side of the tongue as the common site of tongue cancer.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "The lecture identifies the side of the tongue as the common site of tongue cancer.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies the side of the tongue as the common site of tongue cancer.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-070",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Oral cancer risk",
+      "stem": "A nurse carefully examines which part of the tongue because of its noted cancer prevalence?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lateral side of the tongue"
+        },
+        {
+          "id": "o1",
+          "text": "Tip of the uvula"
+        },
+        {
+          "id": "o2",
+          "text": "Tonsillar pillar only"
+        },
+        {
+          "id": "o3",
+          "text": "Upper lip exclusively"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies the side of the tongue as the common site of tongue cancer.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "The lecture identifies the side of the tongue as the common site of tongue cancer.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies the side of the tongue as the common site of tongue cancer.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-071",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Oral cancer risk",
+      "stem": "Which modifiable exposures increase oropharyngeal cancer risk?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Avoid tobacco and heavy alcohol use"
+        },
+        {
+          "id": "o1",
+          "text": "Increase tobacco exposure"
+        },
+        {
+          "id": "o2",
+          "text": "Skip oral hygiene"
+        },
+        {
+          "id": "o3",
+          "text": "Avoid fruits and vegetables"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists tobacco and heavy alcohol as risks and recommends avoidance.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture lists tobacco and heavy alcohol as risks and recommends avoidance.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists tobacco and heavy alcohol as risks and recommends avoidance.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-072",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Oral cancer risk",
+      "stem": "A client asks about lowering oral cancer risk. Which counseling fits the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Avoid tobacco and heavy alcohol use"
+        },
+        {
+          "id": "o1",
+          "text": "Increase tobacco exposure"
+        },
+        {
+          "id": "o2",
+          "text": "Skip oral hygiene"
+        },
+        {
+          "id": "o3",
+          "text": "Avoid fruits and vegetables"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists tobacco and heavy alcohol as risks and recommends avoidance.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture lists tobacco and heavy alcohol as risks and recommends avoidance.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists tobacco and heavy alcohol as risks and recommends avoidance.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-073",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Oral cancer risk",
+      "stem": "Which infection is listed among oropharyngeal cancer risk factors?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Human papillomavirus (HPV)"
+        },
+        {
+          "id": "o1",
+          "text": "Seasonal influenza"
+        },
+        {
+          "id": "o2",
+          "text": "Rhinovirus alone"
+        },
+        {
+          "id": "o3",
+          "text": "Otitis media"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists HPV as an oropharyngeal cancer risk factor.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture lists HPV as an oropharyngeal cancer risk factor.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists HPV as an oropharyngeal cancer risk factor.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-074",
+      "chapter": 18,
+      "topic": "Chapter 18",
+      "subtopic": "Oral cancer risk",
+      "stem": "Which vaccination-related risk factor appears in the oral cancer prevention teaching?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Human papillomavirus (HPV)"
+        },
+        {
+          "id": "o1",
+          "text": "Seasonal influenza"
+        },
+        {
+          "id": "o2",
+          "text": "Rhinovirus alone"
+        },
+        {
+          "id": "o3",
+          "text": "Otitis media"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture lists HPV as an oropharyngeal cancer risk factor.",
+      "source": {
+        "name": "Chapter 18 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2018%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture lists HPV as an oropharyngeal cancer risk factor.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture lists HPV as an oropharyngeal cancer risk factor.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-075",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "A client has rapid deep breathing. Which term fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hyperventilation"
+        },
+        {
+          "id": "o1",
+          "text": "Hypoventilation"
+        },
+        {
+          "id": "o2",
+          "text": "Apnea"
+        },
+        {
+          "id": "o3",
+          "text": "Bradypnea"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hyperventilation is rapid, deep breathing.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Hyperventilation is rapid, deep breathing.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Hyperventilation is rapid, deep breathing.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-076",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "Which respiratory pattern combines increased depth and rate?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hyperventilation"
+        },
+        {
+          "id": "o1",
+          "text": "Hypoventilation"
+        },
+        {
+          "id": "o2",
+          "text": "Apnea"
+        },
+        {
+          "id": "o3",
+          "text": "Bradypnea"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hyperventilation is rapid, deep breathing.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Hyperventilation is rapid, deep breathing.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Hyperventilation is rapid, deep breathing.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-077",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "Which term describes decreased oxygen in the blood?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypoxemia"
+        },
+        {
+          "id": "o1",
+          "text": "Hypercapnia"
+        },
+        {
+          "id": "o2",
+          "text": "Tachypnea"
+        },
+        {
+          "id": "o3",
+          "text": "Orthopnea"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hypoxemia means decreased oxygen in the blood.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Hypoxemia means decreased oxygen in the blood.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Hypoxemia means decreased oxygen in the blood.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-078",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "A nurse documents low blood oxygen. Which lecture term applies?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypoxemia"
+        },
+        {
+          "id": "o1",
+          "text": "Hypercapnia"
+        },
+        {
+          "id": "o2",
+          "text": "Tachypnea"
+        },
+        {
+          "id": "o3",
+          "text": "Orthopnea"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hypoxemia means decreased oxygen in the blood.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Hypoxemia means decreased oxygen in the blood.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Hypoxemia means decreased oxygen in the blood.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-079",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "Which term refers to increased carbon dioxide?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypercapnia"
+        },
+        {
+          "id": "o1",
+          "text": "Hypoxemia"
+        },
+        {
+          "id": "o2",
+          "text": "Apnea"
+        },
+        {
+          "id": "o3",
+          "text": "Presbycusis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hypercapnia means increased CO2.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Hypercapnia means increased CO2.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Hypercapnia means increased CO2.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-080",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "A nurse reviews elevated blood CO2. What is the correct terminology?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypercapnia"
+        },
+        {
+          "id": "o1",
+          "text": "Hypoxemia"
+        },
+        {
+          "id": "o2",
+          "text": "Apnea"
+        },
+        {
+          "id": "o3",
+          "text": "Presbycusis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hypercapnia means increased CO2.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 6
+      },
+      "sourceExcerpt": "Hypercapnia means increased CO2.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Hypercapnia means increased CO2.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-081",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "A client has cycles of crescendo-decrescendo breaths separated by apnea. Which pattern is this?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cheyne-Stokes respirations"
+        },
+        {
+          "id": "o1",
+          "text": "Normal eupnea"
+        },
+        {
+          "id": "o2",
+          "text": "Pursed-lip breathing"
+        },
+        {
+          "id": "o3",
+          "text": "Vesicular breathing"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes cyclic waxing and waning with apnea as Cheyne-Stokes.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 7
+      },
+      "sourceExcerpt": "The lecture describes cyclic waxing and waning with apnea as Cheyne-Stokes.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes cyclic waxing and waning with apnea as Cheyne-Stokes.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-082",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "Which breathing pattern alternates increasing and decreasing depth with pauses?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cheyne-Stokes respirations"
+        },
+        {
+          "id": "o1",
+          "text": "Normal eupnea"
+        },
+        {
+          "id": "o2",
+          "text": "Pursed-lip breathing"
+        },
+        {
+          "id": "o3",
+          "text": "Vesicular breathing"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes cyclic waxing and waning with apnea as Cheyne-Stokes.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 7
+      },
+      "sourceExcerpt": "The lecture describes cyclic waxing and waning with apnea as Cheyne-Stokes.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes cyclic waxing and waning with apnea as Cheyne-Stokes.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-083",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "A client with diabetic ketoacidosis breathes deeply and laboriously with air hunger. Which pattern fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Kussmaul respirations"
+        },
+        {
+          "id": "o1",
+          "text": "Bradypnea"
+        },
+        {
+          "id": "o2",
+          "text": "Apnea"
+        },
+        {
+          "id": "o3",
+          "text": "Normal vesicular breathing"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture associates Kussmaul respirations with DKA and deep labored breathing.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 7
+      },
+      "sourceExcerpt": "The lecture associates Kussmaul respirations with DKA and deep labored breathing.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture associates Kussmaul respirations with DKA and deep labored breathing.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-084",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "Which respirations are associated with expelling CO2 during diabetic ketoacidosis?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Kussmaul respirations"
+        },
+        {
+          "id": "o1",
+          "text": "Bradypnea"
+        },
+        {
+          "id": "o2",
+          "text": "Apnea"
+        },
+        {
+          "id": "o3",
+          "text": "Normal vesicular breathing"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture associates Kussmaul respirations with DKA and deep labored breathing.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 7
+      },
+      "sourceExcerpt": "The lecture associates Kussmaul respirations with DKA and deep labored breathing.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture associates Kussmaul respirations with DKA and deep labored breathing.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-085",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "What does the term apnea mean?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Suspension of breathing"
+        },
+        {
+          "id": "o1",
+          "text": "Rapid shallow breathing"
+        },
+        {
+          "id": "o2",
+          "text": "Increased CO2"
+        },
+        {
+          "id": "o3",
+          "text": "Noisy inspiration only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Apnea means suspension of breathing.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 7
+      },
+      "sourceExcerpt": "Apnea means suspension of breathing.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Apnea means suspension of breathing.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-086",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Respiratory terminology",
+      "stem": "A client temporarily stops breathing. Which term describes the finding?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Suspension of breathing"
+        },
+        {
+          "id": "o1",
+          "text": "Rapid shallow breathing"
+        },
+        {
+          "id": "o2",
+          "text": "Increased CO2"
+        },
+        {
+          "id": "o3",
+          "text": "Noisy inspiration only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Apnea means suspension of breathing.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 7
+      },
+      "sourceExcerpt": "Apnea means suspension of breathing.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Apnea means suspension of breathing.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-087",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Lung auscultation technique",
+      "stem": "Which stethoscope part does the lecture recommend for lung auscultation?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diaphragm"
+        },
+        {
+          "id": "o1",
+          "text": "Bell exclusively"
+        },
+        {
+          "id": "o2",
+          "text": "Otoscope"
+        },
+        {
+          "id": "o3",
+          "text": "Ophthalmoscope"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture directs using the stethoscope diaphragm.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture directs using the stethoscope diaphragm.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture directs using the stethoscope diaphragm.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-088",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Lung auscultation technique",
+      "stem": "What equipment surface should the nurse use when comparing breath sounds?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diaphragm"
+        },
+        {
+          "id": "o1",
+          "text": "Bell exclusively"
+        },
+        {
+          "id": "o2",
+          "text": "Otoscope"
+        },
+        {
+          "id": "o3",
+          "text": "Ophthalmoscope"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture directs using the stethoscope diaphragm.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture directs using the stethoscope diaphragm.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture directs using the stethoscope diaphragm.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-089",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Lung auscultation technique",
+      "stem": "Where should the stethoscope be placed for accurate breath-sound assessment?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Place it directly on bare skin"
+        },
+        {
+          "id": "o1",
+          "text": "Listen through clothing for comfort"
+        },
+        {
+          "id": "o2",
+          "text": "Listen only at the trachea"
+        },
+        {
+          "id": "o3",
+          "text": "Ask for breath holding during every location"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies auscultation over bare skin.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 25
+      },
+      "sourceExcerpt": "The lecture specifies auscultation over bare skin.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture specifies auscultation over bare skin.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-090",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Lung auscultation technique",
+      "stem": "A nurse listens through the patient's shirt. Which correction follows the lecture?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Place it directly on bare skin"
+        },
+        {
+          "id": "o1",
+          "text": "Listen through clothing for comfort"
+        },
+        {
+          "id": "o2",
+          "text": "Listen only at the trachea"
+        },
+        {
+          "id": "o3",
+          "text": "Ask for breath holding during every location"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture specifies auscultation over bare skin.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 25
+      },
+      "sourceExcerpt": "The lecture specifies auscultation over bare skin.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture specifies auscultation over bare skin.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-091",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Lung auscultation technique",
+      "stem": "How long should the nurse listen at each lung site?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "One full respiratory cycle"
+        },
+        {
+          "id": "o1",
+          "text": "Only a brief inspiration"
+        },
+        {
+          "id": "o2",
+          "text": "Only forced expiration"
+        },
+        {
+          "id": "o3",
+          "text": "One heartbeat"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture instructs listening for one full respiration at each location.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 25
+      },
+      "sourceExcerpt": "The lecture instructs listening for one full respiration at each location.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture instructs listening for one full respiration at each location.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-092",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Lung auscultation technique",
+      "stem": "Which technique ensures inspiration and expiration are evaluated at each site?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "One full respiratory cycle"
+        },
+        {
+          "id": "o1",
+          "text": "Only a brief inspiration"
+        },
+        {
+          "id": "o2",
+          "text": "Only forced expiration"
+        },
+        {
+          "id": "o3",
+          "text": "One heartbeat"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture instructs listening for one full respiration at each location.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 25
+      },
+      "sourceExcerpt": "The lecture instructs listening for one full respiration at each location.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture instructs listening for one full respiration at each location.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-093",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Breath sound locations",
+      "stem": "Which normal breath sound is expected over peripheral lung fields?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vesicular"
+        },
+        {
+          "id": "o1",
+          "text": "Bronchial"
+        },
+        {
+          "id": "o2",
+          "text": "Pleural friction rub"
+        },
+        {
+          "id": "o3",
+          "text": "Stridor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Vesicular sounds are soft, low-pitched and heard over peripheral lungs.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Vesicular sounds are soft, low-pitched and heard over peripheral lungs.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Vesicular sounds are soft, low-pitched and heard over peripheral lungs.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-094",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Breath sound locations",
+      "stem": "Soft low-pitched breezy sounds with longer inspiration are heard peripherally. What are they?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vesicular"
+        },
+        {
+          "id": "o1",
+          "text": "Bronchial"
+        },
+        {
+          "id": "o2",
+          "text": "Pleural friction rub"
+        },
+        {
+          "id": "o3",
+          "text": "Stridor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Vesicular sounds are soft, low-pitched and heard over peripheral lungs.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Vesicular sounds are soft, low-pitched and heard over peripheral lungs.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Vesicular sounds are soft, low-pitched and heard over peripheral lungs.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-095",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Breath sound locations",
+      "stem": "Where are bronchial breath sounds normally heard?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Trachea and larynx"
+        },
+        {
+          "id": "o1",
+          "text": "Peripheral lung bases"
+        },
+        {
+          "id": "o2",
+          "text": "Lateral lower lobes only"
+        },
+        {
+          "id": "o3",
+          "text": "Over the scapulae only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Bronchial sounds are expected over the trachea and larynx.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Bronchial sounds are expected over the trachea and larynx.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Bronchial sounds are expected over the trachea and larynx.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-096",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Breath sound locations",
+      "stem": "Harsh high-pitched hollow breath sounds are expected in which location?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Trachea and larynx"
+        },
+        {
+          "id": "o1",
+          "text": "Peripheral lung bases"
+        },
+        {
+          "id": "o2",
+          "text": "Lateral lower lobes only"
+        },
+        {
+          "id": "o3",
+          "text": "Over the scapulae only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Bronchial sounds are expected over the trachea and larynx.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Bronchial sounds are expected over the trachea and larynx.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Bronchial sounds are expected over the trachea and larynx.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-097",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Breath sound locations",
+      "stem": "Where are bronchovesicular sounds normally heard?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Major bronchi"
+        },
+        {
+          "id": "o1",
+          "text": "Peripheral lung fields only"
+        },
+        {
+          "id": "o2",
+          "text": "Thyroid lobes"
+        },
+        {
+          "id": "o3",
+          "text": "Carotid arteries"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Bronchovesicular sounds occur over the major bronchi.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Bronchovesicular sounds occur over the major bronchi.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Bronchovesicular sounds occur over the major bronchi.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-098",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "Breath sound locations",
+      "stem": "Moderate-pitched sounds with equal inspiration and expiration are typical over which region?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Major bronchi"
+        },
+        {
+          "id": "o1",
+          "text": "Peripheral lung fields only"
+        },
+        {
+          "id": "o2",
+          "text": "Thyroid lobes"
+        },
+        {
+          "id": "o3",
+          "text": "Carotid arteries"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Bronchovesicular sounds occur over the major bronchi.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "Bronchovesicular sounds occur over the major bronchi.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "Bronchovesicular sounds occur over the major bronchi.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-099",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "COPD",
+      "stem": "A client with emphysema has an increased anteroposterior chest diameter. What is this called?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Barrel chest"
+        },
+        {
+          "id": "o1",
+          "text": "Normal 1:2 chest ratio"
+        },
+        {
+          "id": "o2",
+          "text": "Pectus carinatum only"
+        },
+        {
+          "id": "o3",
+          "text": "Normal cervical curvature"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes barrel chest with emphysema and an AP-to-transverse ratio near 1:1.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture describes barrel chest with emphysema and an AP-to-transverse ratio near 1:1.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes barrel chest with emphysema and an AP-to-transverse ratio near 1:1.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-100",
+      "chapter": 19,
+      "topic": "Chapter 19",
+      "subtopic": "COPD",
+      "stem": "Which thoracic shape is associated with hyperinflation and a 1:1 diameter ratio?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Barrel chest"
+        },
+        {
+          "id": "o1",
+          "text": "Normal 1:2 chest ratio"
+        },
+        {
+          "id": "o2",
+          "text": "Pectus carinatum only"
+        },
+        {
+          "id": "o3",
+          "text": "Normal cervical curvature"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes barrel chest with emphysema and an AP-to-transverse ratio near 1:1.",
+      "source": {
+        "name": "Chapter 19 8th edition-1.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2019%208th%20edition-1.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture describes barrel chest with emphysema and an AP-to-transverse ratio near 1:1.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes barrel chest with emphysema and an AP-to-transverse ratio near 1:1.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-101",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "A client responds only to vigorous stimulation and seems confused when aroused. Which LOC applies?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Stupor"
+        },
+        {
+          "id": "o1",
+          "text": "Alert"
+        },
+        {
+          "id": "o2",
+          "text": "Lethargy"
+        },
+        {
+          "id": "o3",
+          "text": "Normal orientation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes stupor as arousal with vigorous stimulation.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture describes stupor as arousal with vigorous stimulation.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes stupor as arousal with vigorous stimulation.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-102",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which LOC requires vigorous stimulation for brief arousal?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Stupor"
+        },
+        {
+          "id": "o1",
+          "text": "Alert"
+        },
+        {
+          "id": "o2",
+          "text": "Lethargy"
+        },
+        {
+          "id": "o3",
+          "text": "Normal orientation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes stupor as arousal with vigorous stimulation.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture describes stupor as arousal with vigorous stimulation.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes stupor as arousal with vigorous stimulation.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-103",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "A client is aroused by repeated calling and gentle shaking but gives one-word answers. Which LOC applies?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Obtunded"
+        },
+        {
+          "id": "o1",
+          "text": "Fully alert"
+        },
+        {
+          "id": "o2",
+          "text": "Coma"
+        },
+        {
+          "id": "o3",
+          "text": "Normal affect"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes obtundation with reduced awareness and response.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture describes obtundation with reduced awareness and response.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes obtundation with reduced awareness and response.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-104",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which LOC category involves decreased awareness with limited responses to the environment?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Obtunded"
+        },
+        {
+          "id": "o1",
+          "text": "Fully alert"
+        },
+        {
+          "id": "o2",
+          "text": "Coma"
+        },
+        {
+          "id": "o3",
+          "text": "Normal affect"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture describes obtundation with reduced awareness and response.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture describes obtundation with reduced awareness and response.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture describes obtundation with reduced awareness and response.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-105",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which level of consciousness lacks purposeful movement and verbalization with stimulation?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Coma"
+        },
+        {
+          "id": "o1",
+          "text": "Lethargy"
+        },
+        {
+          "id": "o2",
+          "text": "Alert"
+        },
+        {
+          "id": "o3",
+          "text": "Obtunded"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture defines coma as no purposeful response or verbalization.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture defines coma as no purposeful response or verbalization.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture defines coma as no purposeful response or verbalization.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-106",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "A client has no spontaneous or purposeful response to stimulation. Which LOC is documented?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Coma"
+        },
+        {
+          "id": "o1",
+          "text": "Lethargy"
+        },
+        {
+          "id": "o2",
+          "text": "Alert"
+        },
+        {
+          "id": "o3",
+          "text": "Obtunded"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture defines coma as no purposeful response or verbalization.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture defines coma as no purposeful response or verbalization.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture defines coma as no purposeful response or verbalization.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-107",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "A patient speaks slowly but awakens when called by name. Which LOC category applies?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lethargy"
+        },
+        {
+          "id": "o1",
+          "text": "Coma"
+        },
+        {
+          "id": "o2",
+          "text": "Stupor"
+        },
+        {
+          "id": "o3",
+          "text": "Fully alert"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture defines lethargy as slowed activity with arousal to name.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture defines lethargy as slowed activity with arousal to name.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture defines lethargy as slowed activity with arousal to name.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-108",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which LOC is associated with slowed mental activity but arousability to name?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lethargy"
+        },
+        {
+          "id": "o1",
+          "text": "Coma"
+        },
+        {
+          "id": "o2",
+          "text": "Stupor"
+        },
+        {
+          "id": "o3",
+          "text": "Fully alert"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture defines lethargy as slowed activity with arousal to name.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture defines lethargy as slowed activity with arousal to name.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture defines lethargy as slowed activity with arousal to name.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-109",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which Glasgow Coma Scale component is scored from 1 to 6?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Motor response"
+        },
+        {
+          "id": "o1",
+          "text": "Eye opening"
+        },
+        {
+          "id": "o2",
+          "text": "Verbal response"
+        },
+        {
+          "id": "o3",
+          "text": "Pupil size"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture assigns motor response a 1–6 score.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture assigns motor response a 1–6 score.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture assigns motor response a 1–6 score.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-110",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "The GCS motor response has what scoring range?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Motor response"
+        },
+        {
+          "id": "o1",
+          "text": "Eye opening"
+        },
+        {
+          "id": "o2",
+          "text": "Verbal response"
+        },
+        {
+          "id": "o3",
+          "text": "Pupil size"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture assigns motor response a 1–6 score.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture assigns motor response a 1–6 score.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture assigns motor response a 1–6 score.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-111",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "What is the lowest possible Glasgow Coma Scale total?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "3"
+        },
+        {
+          "id": "o1",
+          "text": "15"
+        },
+        {
+          "id": "o2",
+          "text": "10"
+        },
+        {
+          "id": "o3",
+          "text": "0"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies 3 as the minimum GCS total.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture identifies 3 as the minimum GCS total.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies 3 as the minimum GCS total.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-112",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which GCS total does the lecture associate with deep coma?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "3"
+        },
+        {
+          "id": "o1",
+          "text": "15"
+        },
+        {
+          "id": "o2",
+          "text": "10"
+        },
+        {
+          "id": "o3",
+          "text": "0"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies 3 as the minimum GCS total.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 19
+      },
+      "sourceExcerpt": "The lecture identifies 3 as the minimum GCS total.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies 3 as the minimum GCS total.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-113",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "A client develops gradual progressive memory loss over years. Which condition fits?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Alzheimer disease"
+        },
+        {
+          "id": "o1",
+          "text": "Acute delirium"
+        },
+        {
+          "id": "o2",
+          "text": "Normal pupil accommodation"
+        },
+        {
+          "id": "o3",
+          "text": "Cluster headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture contrasts progressive Alzheimer disease with acute delirium.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "The lecture contrasts progressive Alzheimer disease with acute delirium.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture contrasts progressive Alzheimer disease with acute delirium.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-114",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "Which condition is described as having slow, insidious onset with progression?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Alzheimer disease"
+        },
+        {
+          "id": "o1",
+          "text": "Acute delirium"
+        },
+        {
+          "id": "o2",
+          "text": "Normal pupil accommodation"
+        },
+        {
+          "id": "o3",
+          "text": "Cluster headache"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture contrasts progressive Alzheimer disease with acute delirium.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "The lecture contrasts progressive Alzheimer disease with acute delirium.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture contrasts progressive Alzheimer disease with acute delirium.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-115",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "A hospitalized client develops acute fluctuating inattention. Which condition is most consistent?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Delirium"
+        },
+        {
+          "id": "o1",
+          "text": "Alzheimer disease with slow onset"
+        },
+        {
+          "id": "o2",
+          "text": "Presbyopia"
+        },
+        {
+          "id": "o3",
+          "text": "Normal aging alone"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies acute fluctuating attention as characteristic of delirium.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "The lecture identifies acute fluctuating attention as characteristic of delirium.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies acute fluctuating attention as characteristic of delirium.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-116",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "Which cognitive condition begins acutely and varies in attention?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Delirium"
+        },
+        {
+          "id": "o1",
+          "text": "Alzheimer disease with slow onset"
+        },
+        {
+          "id": "o2",
+          "text": "Presbyopia"
+        },
+        {
+          "id": "o3",
+          "text": "Normal aging alone"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture identifies acute fluctuating attention as characteristic of delirium.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 23
+      },
+      "sourceExcerpt": "The lecture identifies acute fluctuating attention as characteristic of delirium.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture identifies acute fluctuating attention as characteristic of delirium.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-117",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "Which action is included in the lecture's brain-health education?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Exercise and cognitively challenging activities"
+        },
+        {
+          "id": "o1",
+          "text": "Avoid reading or puzzles"
+        },
+        {
+          "id": "o2",
+          "text": "Increase smoking"
+        },
+        {
+          "id": "o3",
+          "text": "Avoid physical activity"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture recommends exercise, reading, puzzles and other brain-challenging activities.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 26
+      },
+      "sourceExcerpt": "The lecture recommends exercise, reading, puzzles and other brain-challenging activities.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture recommends exercise, reading, puzzles and other brain-challenging activities.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-118",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "Which teaching is recommended to support brain health in the dementia-prevention discussion?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Exercise and cognitively challenging activities"
+        },
+        {
+          "id": "o1",
+          "text": "Avoid reading or puzzles"
+        },
+        {
+          "id": "o2",
+          "text": "Increase smoking"
+        },
+        {
+          "id": "o3",
+          "text": "Avoid physical activity"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture recommends exercise, reading, puzzles and other brain-challenging activities.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 26
+      },
+      "sourceExcerpt": "The lecture recommends exercise, reading, puzzles and other brain-challenging activities.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture recommends exercise, reading, puzzles and other brain-challenging activities.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-119",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Substance misuse",
+      "stem": "Which home-safety measure is recommended when adolescents may access medications?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Keep medications in a locked cabinet"
+        },
+        {
+          "id": "o1",
+          "text": "Share prescriptions among family members"
+        },
+        {
+          "id": "o2",
+          "text": "Remove labels from medications"
+        },
+        {
+          "id": "o3",
+          "text": "Leave medications accessible on the counter"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The Chapter 6 lecture explicitly recommends locking medications.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 11
+      },
+      "sourceExcerpt": "The Chapter 6 lecture explicitly recommends locking medications.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The Chapter 6 lecture explicitly recommends locking medications.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-120",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Substance misuse",
+      "stem": "A family asks how to reduce adolescent access to prescription drugs. What should the nurse teach?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Keep medications in a locked cabinet"
+        },
+        {
+          "id": "o1",
+          "text": "Share prescriptions among family members"
+        },
+        {
+          "id": "o2",
+          "text": "Remove labels from medications"
+        },
+        {
+          "id": "o3",
+          "text": "Leave medications accessible on the counter"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The Chapter 6 lecture explicitly recommends locking medications.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 11
+      },
+      "sourceExcerpt": "The Chapter 6 lecture explicitly recommends locking medications.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The Chapter 6 lecture explicitly recommends locking medications.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-121",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "What should the nurse assess before attributing slow responses in an older adult to mental-status impairment?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vision and hearing"
+        },
+        {
+          "id": "o1",
+          "text": "Tongue papillae only"
+        },
+        {
+          "id": "o2",
+          "text": "Thyroid bruit only"
+        },
+        {
+          "id": "o3",
+          "text": "Foot range of motion only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture advises checking vision and hearing first.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 21
+      },
+      "sourceExcerpt": "The lecture advises checking vision and hearing first.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture advises checking vision and hearing first.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-122",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Alzheimer assessment",
+      "stem": "An older adult seems slow to answer questions. Which sensory checks should come first?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vision and hearing"
+        },
+        {
+          "id": "o1",
+          "text": "Tongue papillae only"
+        },
+        {
+          "id": "o2",
+          "text": "Thyroid bruit only"
+        },
+        {
+          "id": "o3",
+          "text": "Foot range of motion only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture advises checking vision and hearing first.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 21
+      },
+      "sourceExcerpt": "The lecture advises checking vision and hearing first.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture advises checking vision and hearing first.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-123",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which orientation component is usually lost first as orientation declines?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Time"
+        },
+        {
+          "id": "o1",
+          "text": "Person"
+        },
+        {
+          "id": "o2",
+          "text": "All domains simultaneously"
+        },
+        {
+          "id": "o3",
+          "text": "No orientation component"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture notes orientation to time is usually lost first.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture notes orientation to time is usually lost first.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture notes orientation to time is usually lost first.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-124",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "When documenting orientation change, which domain tends to deteriorate earliest?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Time"
+        },
+        {
+          "id": "o1",
+          "text": "Person"
+        },
+        {
+          "id": "o2",
+          "text": "All domains simultaneously"
+        },
+        {
+          "id": "o3",
+          "text": "No orientation component"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture notes orientation to time is usually lost first.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture notes orientation to time is usually lost first.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture notes orientation to time is usually lost first.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-125",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "Which orientation component is usually preserved longest?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Person"
+        },
+        {
+          "id": "o1",
+          "text": "Time"
+        },
+        {
+          "id": "o2",
+          "text": "Day of week"
+        },
+        {
+          "id": "o3",
+          "text": "Current date"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states orientation to person is usually lost last.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture states orientation to person is usually lost last.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture states orientation to person is usually lost last.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-126",
+      "chapter": 6,
+      "topic": "Chapter 6",
+      "subtopic": "Level of consciousness",
+      "stem": "A nurse considers typical orientation loss. Which domain is often lost last?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Person"
+        },
+        {
+          "id": "o1",
+          "text": "Time"
+        },
+        {
+          "id": "o2",
+          "text": "Day of week"
+        },
+        {
+          "id": "o3",
+          "text": "Current date"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture states orientation to person is usually lost last.",
+      "source": {
+        "name": "Chapter 6 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%206%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture states orientation to person is usually lost last.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture states orientation to person is usually lost last.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-127",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A client has weak jaw clenching and reduced masseter contraction. Which nerve is assessed?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN V, trigeminal"
+        },
+        {
+          "id": "o1",
+          "text": "CN VII, facial"
+        },
+        {
+          "id": "o2",
+          "text": "CN XI, spinal accessory"
+        },
+        {
+          "id": "o3",
+          "text": "CN XII, hypoglossal"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture assigns jaw-clenching motor function to CN V.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "The lecture assigns jaw-clenching motor function to CN V.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture assigns jaw-clenching motor function to CN V.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-128",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which cranial nerve supplies the chewing-muscle assessment?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN V, trigeminal"
+        },
+        {
+          "id": "o1",
+          "text": "CN VII, facial"
+        },
+        {
+          "id": "o2",
+          "text": "CN XI, spinal accessory"
+        },
+        {
+          "id": "o3",
+          "text": "CN XII, hypoglossal"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture assigns jaw-clenching motor function to CN V.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 15
+      },
+      "sourceExcerpt": "The lecture assigns jaw-clenching motor function to CN V.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture assigns jaw-clenching motor function to CN V.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-129",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A client cannot symmetrically raise the eyebrows or smile. Which nerve is evaluated?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN VII, facial"
+        },
+        {
+          "id": "o1",
+          "text": "CN V, trigeminal"
+        },
+        {
+          "id": "o2",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI, spinal accessory"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture uses symmetric facial expressions to assess CN VII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture uses symmetric facial expressions to assess CN VII.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture uses symmetric facial expressions to assess CN VII.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-130",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which nerve controls the facial movements used to assess symmetry?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN VII, facial"
+        },
+        {
+          "id": "o1",
+          "text": "CN V, trigeminal"
+        },
+        {
+          "id": "o2",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI, spinal accessory"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture uses symmetric facial expressions to assess CN VII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 16
+      },
+      "sourceExcerpt": "The lecture uses symmetric facial expressions to assess CN VII.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture uses symmetric facial expressions to assess CN VII.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-131",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which cranial nerve is evaluated using a whispered-voice test?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o1",
+          "text": "CN II, optic"
+        },
+        {
+          "id": "o2",
+          "text": "CN IV, trochlear"
+        },
+        {
+          "id": "o3",
+          "text": "CN XII, hypoglossal"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture uses whispered voice to assess CN VIII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture uses whispered voice to assess CN VIII.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture uses whispered voice to assess CN VIII.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-132",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A client cannot hear a whisper at 1–2 feet. Which nerve is the focus?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o1",
+          "text": "CN II, optic"
+        },
+        {
+          "id": "o2",
+          "text": "CN IV, trochlear"
+        },
+        {
+          "id": "o3",
+          "text": "CN XII, hypoglossal"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture uses whispered voice to assess CN VIII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 17
+      },
+      "sourceExcerpt": "The lecture uses whispered voice to assess CN VIII.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture uses whispered voice to assess CN VIII.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-133",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which cranial nerve pair is evaluated by observing the uvula rise when saying ah?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN IX and X"
+        },
+        {
+          "id": "o1",
+          "text": "CN III and IV"
+        },
+        {
+          "id": "o2",
+          "text": "CN V and VII"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI and XII"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture evaluates CN IX and X together with swallowing and palate/gag assessments.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture evaluates CN IX and X together with swallowing and palate/gag assessments.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture evaluates CN IX and X together with swallowing and palate/gag assessments.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-134",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which pair contributes to swallowing, gag reflex and palate movement?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN IX and X"
+        },
+        {
+          "id": "o1",
+          "text": "CN III and IV"
+        },
+        {
+          "id": "o2",
+          "text": "CN V and VII"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI and XII"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture evaluates CN IX and X together with swallowing and palate/gag assessments.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 18
+      },
+      "sourceExcerpt": "The lecture evaluates CN IX and X together with swallowing and palate/gag assessments.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture evaluates CN IX and X together with swallowing and palate/gag assessments.",
+        "variant": "b"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-135",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "A client's tongue deviates toward the affected side when protruded. Which nerve may be impaired?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN XII, hypoglossal"
+        },
+        {
+          "id": "o1",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o2",
+          "text": "CN II, optic"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI, spinal accessory"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture associates unilateral tongue deviation with CN XII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "The lecture associates unilateral tongue deviation with CN XII.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture associates unilateral tongue deviation with CN XII.",
+        "variant": "a"
+      }
+    },
+    {
+      "id": "ha-e2-unique-20261022-136",
+      "chapter": 25,
+      "topic": "Chapter 25",
+      "subtopic": "Cranial nerves",
+      "stem": "Which nerve is associated with unilateral tongue deviation and atrophy?",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "CN XII, hypoglossal"
+        },
+        {
+          "id": "o1",
+          "text": "CN VIII, acoustic"
+        },
+        {
+          "id": "o2",
+          "text": "CN II, optic"
+        },
+        {
+          "id": "o3",
+          "text": "CN XI, spinal accessory"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The lecture associates unilateral tongue deviation with CN XII.",
+      "source": {
+        "name": "Chapter 25 8th edition.pdf",
+        "path": "References/Assessment/Exams/Exam%202/Chapter%2025%208th%20edition.pdf",
+        "page": 20
+      },
+      "sourceExcerpt": "The lecture associates unilateral tongue deviation with CN XII.",
+      "approved": true,
+      "approvalBasis": "LECTURE_PDF_TEXT_GROUNDED_NEW_ITEM",
+      "origin": {
+        "method": "new-source-based-question",
+        "concept": "The lecture associates unilateral tongue deviation with CN XII.",
+        "variant": "b"
+      }
     }
   ],
   "validationStandard": "Course-document alignment, answer consistency, and absence of obvious ambiguity; not external medical-level clinical review.",
@@ -14040,20 +19616,17 @@
     "addedScenarioAdaptations": 235,
     "livePool": 325
   },
-  "expansionPolicy": "158 additional coherent practice variants use the exact substantive question prompt of a source-linked original, with a neutral assessment label; variants are NOT 158 independent facts or learning objectives.",
+  "expansionPolicy": "Added 130 newly written source-based questions (65 lecture facts × 2 distinct question prompts) on top of 345 records; prior 158 source-linked variants remain but should not count toward unique substantive inventory.",
   "validation": {
-    "status": "STRUCTURAL_PASS_PENDING_INDEPENDENT_SOURCE_AUDIT",
+    "status": "STRUCTURAL_PASS_SOURCE_REVIEW_AND_BROWSER_TEST_PENDING",
     "checks": [
-      "345 unique IDs",
-      "158 source-linked variants preserve original substantive prompts, options, keys and rationales",
-      "Two misclassified legacy questions and their derivatives excluded",
-      "24 cranial nerve questions checked against Chapter 25",
-      "All blueprint subtopic quotas and format allocation mathematically feasible"
+      "481 unique question IDs",
+      "New questions grounded in lecture pages with question/answer/rationale alignment",
+      "All topic and type quotas checked separately"
     ],
     "limitations": [
-      "Practice variants repeat learning objectives and must not be represented as unique concepts.",
-      "Full manual page-by-page source verification for every question remains outstanding.",
-      "Browser smoke test remains outstanding."
+      "Some new questions address the same lecture fact using different clinical or conceptual prompts; do not claim all records are distinct learning objectives.",
+      "Independent human editorial review and browser acceptance remain outstanding."
     ]
   },
   "questionPoolPolicy": "187 original/source-checked questions plus 158 source-linked practice variants; synthetic unrelated scenario prefixes removed.",
