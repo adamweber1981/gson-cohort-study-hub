@@ -64,3 +64,10 @@ One question at a time; explicit Submit then feedback/rationale/source; forward-
 7. Verify with the user, simplify navigation, and archive/retire redundant links. No deletion of originals or changes to `main` without approval.
 
 **Current limitation:** Until the actual course blueprints have been inspected and every question approved, no legacy bank should be exposed as a completed production exam.
+
+## Deduplication decisions — approved 2026-10-22
+- **Retain numeric variants** when the calculation values change, even if the stem is otherwise templated. These may later be separated across attempts for variety; do not delete them as duplicates.
+- **Retain matching questions with distinct answer choices or pair sets**, even if they share a generic stem such as “Match each clinical concept to its best description.”
+- Consolidate only within the same pool when normalized stem, question kind, answer choices (including their order), answer key, and diagram payload match. Keep the canonical entry and record all merged source IDs. Differences in source citations or rationales still require editorial reconciliation before approval.
+- The first consolidated **master inventory** is `assets/question-banks/master/fundamentals-exam-2-master.json`: 494 retained candidates from 600 legacy entries (415 Standard, 79 Med Math). All are **UNREVIEWED**, not live exam questions.
+- This is a *candidate inventory*, not a completed clinical audit or a blueprint-approved 50-question exam. Verify question types, source citations, diagrams, answer keys, and blueprint requirements before activation.
