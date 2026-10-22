@@ -1,0 +1,26 @@
+name: Dispatch cohort exam reminders
+on:
+  schedule:
+    - cron: "10 13-17 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send due reminders (9 AM America/Chicago)
+        env:
+          PUSH_SERVER_URL: ${{ secrets.PUSH_SERVER_URL }}
+          PUSH_ADMIN_TOKEN: ${{ secrets.PUSH_ADMIN_TOKEN }}
+        run: |
+          if [ -z "$PUSH_SERVER_URL" ] || [ -z "$PUSH_ADMIN_TOKEN" ]; then
+            echo "Push backend not configured; skipping."
+            exit 0
+          fi
+          curl --fail-with-body --silent --show-error --retry 2 \
+            --max-time 90 \
+            -X POST "${PUSH_SERVER_URL%/}/admin/dispatch" \
+            -H "Authorization: Bearer $PUSH_ADMIN_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{}'
