@@ -4,10 +4,77 @@
   "source": "Uploaded course syllabuses and course calendar, October 2026",
   "events": [
     {
+      "id": "path-1",
+      "course": "Pathophysiology",
+      "title": "Exam 1",
+      "date": "2026-09-23",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-1",
+      "course": "Pharmacology",
+      "title": "Exam 1",
+      "date": "2026-09-24",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
       "id": "fund-1",
       "course": "Fundamentals",
       "title": "Exam 1",
       "date": "2026-10-01",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "ha-1",
+      "course": "Health Assessment",
+      "title": "Exam 1",
+      "date": "2026-10-02",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": false,
+      "dateBasis": "Inferred Friday of syllabus week 4, assuming week 1 begins Friday September 11, 2026",
+      "reminderDays": [
+        7,
+        3,
+        1
+      ],
+      "provisional": true
+    },
+    {
+      "id": "path-2",
+      "course": "Pathophysiology",
+      "title": "Exam 2",
+      "date": "2026-10-07",
+      "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-2",
+      "course": "Pharmacology",
+      "title": "Exam 2",
+      "date": "2026-10-09",
       "term": "Fall 2026",
       "dateConfirmedFromSource": true,
       "reminderDays": [
@@ -30,63 +97,26 @@
       ]
     },
     {
-      "id": "fund-3",
-      "course": "Fundamentals",
-      "title": "Exam 3",
-      "date": "2026-11-12",
-      "term": "Fall 2026",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
-    },
-    {
-      "id": "fund-ati",
-      "course": "Fundamentals",
-      "title": "Proctored Fundamentals ATI",
-      "date": "2026-12-10",
-      "term": "Fall 2026",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
-    },
-    {
-      "id": "fund-4",
-      "course": "Fundamentals",
-      "title": "Exam 4",
-      "date": "2026-12-17",
-      "term": "Fall 2026",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
-    },
-    {
-      "id": "pharm-1",
-      "course": "Pharmacology",
-      "title": "Exam 1",
-      "date": "2026-09-24",
-      "term": "Fall 2026",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
-    },
-    {
-      "id": "pharm-2",
-      "course": "Pharmacology",
+      "id": "ha-2",
+      "course": "Health Assessment",
       "title": "Exam 2",
-      "date": "2026-10-09",
+      "date": "2026-10-23",
       "term": "Fall 2026",
+      "dateConfirmedFromSource": false,
+      "dateBasis": "Inferred Friday of syllabus week 7, assuming week 1 begins Friday September 11, 2026",
+      "reminderDays": [
+        7,
+        3,
+        1
+      ],
+      "provisional": true
+    },
+    {
+      "id": "path-3",
+      "course": "Pathophysiology",
+      "title": "Exam 3",
+      "date": "2026-10-28",
+      "term": "Summer 2026 (verify)",
       "dateConfirmedFromSource": true,
       "reminderDays": [
         7,
@@ -108,10 +138,10 @@
       ]
     },
     {
-      "id": "pharm-4",
-      "course": "Pharmacology",
-      "title": "Exam 4",
-      "date": "2026-11-19",
+      "id": "fund-3",
+      "course": "Fundamentals",
+      "title": "Exam 3",
+      "date": "2026-11-12",
       "term": "Fall 2026",
       "dateConfirmedFromSource": true,
       "reminderDays": [
@@ -121,57 +151,19 @@
       ]
     },
     {
-      "id": "pharm-5",
-      "course": "Pharmacology",
-      "title": "Exam 5",
-      "date": "2026-12-14",
+      "id": "ha-3",
+      "course": "Health Assessment",
+      "title": "Exam 3",
+      "date": "2026-11-13",
       "term": "Fall 2026",
-      "dateConfirmedFromSource": true,
+      "dateConfirmedFromSource": false,
+      "dateBasis": "Inferred Friday of syllabus week 10, assuming week 1 begins Friday September 11, 2026",
       "reminderDays": [
         7,
         3,
         1
       ],
-      "time": "08:00"
-    },
-    {
-      "id": "path-1",
-      "course": "Pathophysiology",
-      "title": "Exam 1",
-      "date": "2026-09-23",
-      "term": "Summer 2026 (verify)",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
-    },
-    {
-      "id": "path-2",
-      "course": "Pathophysiology",
-      "title": "Exam 2",
-      "date": "2026-10-07",
-      "term": "Summer 2026 (verify)",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
-    },
-    {
-      "id": "path-3",
-      "course": "Pathophysiology",
-      "title": "Exam 3",
-      "date": "2026-10-28",
-      "term": "Summer 2026 (verify)",
-      "dateConfirmedFromSource": true,
-      "reminderDays": [
-        7,
-        3,
-        1
-      ]
+      "provisional": true
     },
     {
       "id": "path-4",
@@ -179,6 +171,19 @@
       "title": "Exam 4",
       "date": "2026-11-18",
       "term": "Summer 2026 (verify)",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "pharm-4",
+      "course": "Pharmacology",
+      "title": "Exam 4",
+      "date": "2026-11-19",
+      "term": "Fall 2026",
       "dateConfirmedFromSource": true,
       "reminderDays": [
         7,
@@ -198,34 +203,68 @@
         3,
         1
       ]
+    },
+    {
+      "id": "fund-ati",
+      "course": "Fundamentals",
+      "title": "Proctored Fundamentals ATI",
+      "date": "2026-12-10",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "ha-4",
+      "course": "Health Assessment",
+      "title": "Exam 4",
+      "date": "2026-12-11",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": false,
+      "dateBasis": "Inferred Friday of syllabus week 14, assuming week 1 begins Friday September 11, 2026",
+      "reminderDays": [
+        7,
+        3,
+        1
+      ],
+      "provisional": true
+    },
+    {
+      "id": "pharm-5",
+      "course": "Pharmacology",
+      "title": "Exam 5",
+      "date": "2026-12-14",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ],
+      "time": "08:00"
+    },
+    {
+      "id": "fund-4",
+      "course": "Fundamentals",
+      "title": "Exam 4",
+      "date": "2026-12-17",
+      "term": "Fall 2026",
+      "dateConfirmedFromSource": true,
+      "reminderDays": [
+        7,
+        3,
+        1
+      ]
     }
   ],
-  "pendingDateConfirmation": [
-    {
-      "course": "Health Assessment",
-      "exam": "Exam 1",
-      "week": 4
-    },
-    {
-      "course": "Health Assessment",
-      "exam": "Exam 2",
-      "week": 7
-    },
-    {
-      "course": "Health Assessment",
-      "exam": "Exam 3",
-      "week": 10
-    },
-    {
-      "course": "Health Assessment",
-      "exam": "Exam 4",
-      "week": 14
-    }
-  ],
+  "pendingDateConfirmation": [],
   "notes": [
-    "Health Assessment dates not inferred from week numbers.",
     "Pathophysiology syllabus says Summer 2026 although exam dates align with September–December; verify term.",
     "Dates are source-derived; scheduled push delivery requires a backend.",
-    "All-day events unless explicit exam start time is provided."
+    "All-day events unless explicit exam start time is provided.",
+    "Health Assessment exams meet Friday only. Proposed dates inferred from numbered syllabus weeks; confirm week-one alignment before scheduling push reminders."
   ]
 }
