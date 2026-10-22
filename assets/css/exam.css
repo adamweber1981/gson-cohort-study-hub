@@ -18,3 +18,10 @@
 #report-form{display:grid;gap:12px;margin-top:18px}#report-form label{font-weight:650}#report-form select,#report-form textarea,#report-preview{width:100%;box-sizing:border-box;padding:12px;border:1px solid var(--border);border-radius:10px;background:var(--surface2);color:var(--ink)}
 #report-form button,#copy-report{background:var(--exam-teal);color:#fff;border:0;border-radius:10px;padding:12px 16px;font-weight:700;cursor:pointer}
 #report-preview{margin:12px 0;white-space:pre-wrap}#report-status{font-size:.92rem}
+
+/* In-page overlays keep exam attempts and review state intact. */
+#report-dialog{width:min(96vw,850px)}#report-frame{width:100%;height:min(65vh,680px);border:1px solid var(--border);border-radius:10px;margin-top:12px;background:#fff}
+.exam-overlay{width:min(96vw,1050px);height:min(92vh,900px);max-height:92vh;padding:18px;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:16px;box-shadow:0 16px 65px #0005}
+.exam-overlay::backdrop{background:rgba(0,0,0,.65)}.exam-overlay .report-head{margin-bottom:12px}.exam-overlay iframe{width:100%;height:calc(100% - 65px);border:1px solid var(--border);border-radius:8px;background:#fff}
+#references-dialog{height:auto;max-height:85vh}#references-list{display:grid;gap:10px;margin-top:18px}#references-list button{padding:14px;text-align:left;border:1px solid var(--border);border-radius:10px;background:var(--surface2);color:var(--ink);cursor:pointer}
+.source a{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.source a:hover,.report-link:hover{opacity:.75}
