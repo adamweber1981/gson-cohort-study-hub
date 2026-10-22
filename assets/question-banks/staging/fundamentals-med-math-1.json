@@ -1,0 +1,762 @@
+{
+  "id": "fundamentals-med-math-1-staging",
+  "course": "Fundamentals",
+  "examNumber": "Exam 2",
+  "poolCandidate": "med-math",
+  "visibility": "STAGING_ONLY_NOT_APPROVED",
+  "sourceFile": "Fundamentals/Exam 2/Fundamentals Med Math - Version 1.html",
+  "sourceVariable": "ALL_QUESTIONS",
+  "sourceSha": "45cdb47f3e6c225df70e749b65b8813236708263",
+  "questions": [
+    {
+      "stagingId": "fundamentals-med-math-1-q001",
+      "legacyQuestionNumber": 1,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse must infuse a 250 mL IV medication piggyback over 75 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "answer": 200,
+        "unit": "mL/hr",
+        "work": "250 ÷ (75/60) = 200.00, rounded to 200 mL/hr.",
+        "topic": "IV medication pump",
+        "lecturePage": 13,
+        "guidePage": 3,
+        "sourceNote": "For medication pump rates, convert minutes to hours first."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q002",
+      "legacyQuestionNumber": 2,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "A patient with a chronic wound has an order for 12 mg of an injectable medication. The vial is labeled 20 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "answer": 0.6,
+        "unit": "mL",
+        "work": "12 ÷ 20 = 0.6 mL; weight is not needed.",
+        "topic": "Injectable volume",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q003",
+      "legacyQuestionNumber": 3,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse cares for a patient admitted with pneumonia. The prescription is 750 mg PO. Available tablets contain 250 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "answer": 3,
+        "unit": "tablets",
+        "work": "750 ÷ 250 = 3 tablets.",
+        "topic": "Oral tablets",
+        "lecturePage": 6,
+        "guidePage": 2,
+        "sourceNote": "Ordered dose ÷ tablet strength; tablet rounding is specified in the lecture."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q004",
+      "legacyQuestionNumber": 4,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The triage nurse records a weight of 132 lb. A dosing worksheet requires kilograms. Using 1 kg = 2.2 lb, what weight should be entered? Round to the nearest tenth.",
+        "answer": 60,
+        "unit": "kg",
+        "work": "132 ÷ 2.2 = 60 kg.",
+        "topic": "Weight conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q005",
+      "legacyQuestionNumber": 5,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "During a shift, a patient drinks 4 fl oz of juice and 1.5 cup(s) of broth, receives 250 mL of IV fluid and 15 mL of liquid medication, and is given 120 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "answer": 805,
+        "unit": "mL",
+        "work": "4×30 + 1.5×240 + 250 + 15 + 120/2 = 805 mL.",
+        "topic": "Intake",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q006",
+      "legacyQuestionNumber": 6,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An IV prescription directs 750 mL of normal saline over 6 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "answer": 125,
+        "unit": "mL/hr",
+        "work": "750 ÷ 6 = 125 mL/hr.",
+        "topic": "IV pump",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q007",
+      "legacyQuestionNumber": 7,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse must infuse a 100 mL IV medication piggyback over 45 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "answer": 133,
+        "unit": "mL/hr",
+        "work": "100 ÷ (45/60) = 133.33, rounded to 133 mL/hr.",
+        "topic": "IV medication pump",
+        "lecturePage": 13,
+        "guidePage": 3,
+        "sourceNote": "For medication pump rates, convert minutes to hours first."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q008",
+      "legacyQuestionNumber": 8,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An adult patient weighs 55 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "answer": 121,
+        "unit": "lb",
+        "work": "55 × 2.2 = 121 lb.",
+        "topic": "Weight conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q009",
+      "legacyQuestionNumber": 9,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse must infuse a 250 mL IV medication piggyback over 75 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "answer": 200,
+        "unit": "mL/hr",
+        "work": "250 ÷ (75/60) = 200.00, rounded to 200 mL/hr.",
+        "topic": "IV medication pump",
+        "lecturePage": 13,
+        "guidePage": 3,
+        "sourceNote": "For medication pump rates, convert minutes to hours first."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q010",
+      "legacyQuestionNumber": 10,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "A patient recovering from surgery has an order for 6 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "answer": 0.6,
+        "unit": "mL",
+        "work": "6 ÷ 10 = 0.6 mL; weight is not needed.",
+        "topic": "Injectable volume",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q011",
+      "legacyQuestionNumber": 11,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "For a postoperative patient, the nurse records urine 350 mL, emesis 50 mL, and wound drainage 60 mL. The patient received 1500 mL of intake. What total output should be documented?",
+        "answer": 460,
+        "unit": "mL",
+        "work": "350 + 50 + 60 = 460 mL. Intake is not used.",
+        "topic": "Output",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q012",
+      "legacyQuestionNumber": 12,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "During a shift, a patient drinks 4 fl oz of juice and 1 cup(s) of broth, receives 400 mL of IV fluid and 15 mL of liquid medication, and is given 0 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "answer": 775,
+        "unit": "mL",
+        "work": "4×30 + 1×240 + 400 + 15 + 0/2 = 775 mL.",
+        "topic": "Intake",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q013",
+      "legacyQuestionNumber": 13,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 150 mg of a liquid medication for a patient admitted with pneumonia. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "answer": 7.5,
+        "unit": "mL",
+        "work": "(150 ÷ 100) × 5 = 7.5 mL.",
+        "topic": "Oral liquid",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q014",
+      "legacyQuestionNumber": 14,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse cares for a patient with a chronic wound. The prescription is 400 mg PO. Available tablets contain 200 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "answer": 2,
+        "unit": "tablets",
+        "work": "400 ÷ 200 = 2 tablets.",
+        "topic": "Oral tablets",
+        "lecturePage": 6,
+        "guidePage": 2,
+        "sourceNote": "Ordered dose ÷ tablet strength; tablet rounding is specified in the lecture."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q015",
+      "legacyQuestionNumber": 15,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The prescription lists a dose of 250 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C.",
+        "answer": 0.25,
+        "unit": "mg",
+        "work": "250 ÷ 1000 = 0.25 mg.",
+        "topic": "Metric conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q016",
+      "legacyQuestionNumber": 16,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "During a shift, a patient drinks 8 fl oz of juice and 0.5 cup(s) of broth, receives 250 mL of IV fluid and 15 mL of liquid medication, and is given 240 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "answer": 745,
+        "unit": "mL",
+        "work": "8×30 + 0.5×240 + 250 + 15 + 240/2 = 745 mL.",
+        "topic": "Intake",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q017",
+      "legacyQuestionNumber": 17,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An infusion pump is unavailable. The nurse must deliver 150 mL of prescribed IV fluid over 45 minutes using tubing calibrated at 20 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "answer": 67,
+        "unit": "gtt/min",
+        "work": "(150 × 20) ÷ 45 = 66.67; round to 67 gtt/min.",
+        "topic": "Gravity drip",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q018",
+      "legacyQuestionNumber": 18,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An infusion pump is unavailable. The nurse must deliver 1,000 mL of prescribed IV fluid over 600 minutes using tubing calibrated at 15 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "answer": 25,
+        "unit": "gtt/min",
+        "work": "(1000 × 15) ÷ 600 = 25.00; round to 25 gtt/min.",
+        "topic": "Gravity drip",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q019",
+      "legacyQuestionNumber": 19,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An infusion pump is unavailable. The nurse must deliver 250 mL of prescribed IV fluid over 60 minutes using tubing calibrated at 10 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "answer": 42,
+        "unit": "gtt/min",
+        "work": "(250 × 10) ÷ 60 = 41.67; round to 42 gtt/min.",
+        "topic": "Gravity drip",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q020",
+      "legacyQuestionNumber": 20,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 375 mg of a liquid medication for a patient with a chronic wound. The bottle is labeled 250 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "answer": 7.5,
+        "unit": "mL",
+        "work": "(375 ÷ 250) × 5 = 7.5 mL.",
+        "topic": "Oral liquid",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q021",
+      "legacyQuestionNumber": 21,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An adult patient weighs 80 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "answer": 176,
+        "unit": "lb",
+        "work": "80 × 2.2 = 176 lb.",
+        "topic": "Weight conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q022",
+      "legacyQuestionNumber": 22,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An adult patient weighs 55 kg. The admission form asks for pounds. Using 1 kg = 2.2 lb, what weight should the nurse enter? Round to the nearest tenth.",
+        "answer": 121,
+        "unit": "lb",
+        "work": "55 × 2.2 = 121 lb.",
+        "topic": "Weight conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q023",
+      "legacyQuestionNumber": 23,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An IV prescription directs 1,000 mL of normal saline over 8 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "answer": 125,
+        "unit": "mL/hr",
+        "work": "1000 ÷ 8 = 125 mL/hr.",
+        "topic": "IV pump",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q024",
+      "legacyQuestionNumber": 24,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "For a postoperative patient, the nurse records urine 350 mL, emesis 150 mL, and wound drainage 60 mL. The patient received 1200 mL of intake. What total output should be documented?",
+        "answer": 560,
+        "unit": "mL",
+        "work": "350 + 150 + 60 = 560 mL. Intake is not used.",
+        "topic": "Output",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q025",
+      "legacyQuestionNumber": 25,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The shift intake for a patient is 1000 mL. Output includes 500 mL urine, 75 mL emesis, and 60 mL wound drainage. What is net fluid balance (intake minus output)? Enter a negative value if applicable.",
+        "answer": 365,
+        "unit": "mL",
+        "work": "1000 − (500 + 75 + 60) = 365 mL.",
+        "topic": "Fluid balance",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q026",
+      "legacyQuestionNumber": 26,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 0.125 g of a medication. Pharmacy stock is labeled in mg. How many mg does the order specify?",
+        "answer": 125,
+        "unit": "mg",
+        "work": "0.125 × 1000 = 125 mg.",
+        "topic": "Metric conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q027",
+      "legacyQuestionNumber": 27,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An IV prescription directs 1,200 mL of normal saline over 10 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "answer": 120,
+        "unit": "mL/hr",
+        "work": "1200 ÷ 10 = 120 mL/hr.",
+        "topic": "IV pump",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q028",
+      "legacyQuestionNumber": 28,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse must infuse a 200 mL IV medication piggyback over 90 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "answer": 133,
+        "unit": "mL/hr",
+        "work": "200 ÷ (90/60) = 133.33, rounded to 133 mL/hr.",
+        "topic": "IV medication pump",
+        "lecturePage": 13,
+        "guidePage": 3,
+        "sourceNote": "For medication pump rates, convert minutes to hours first."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q029",
+      "legacyQuestionNumber": 29,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An infusion pump is unavailable. The nurse must deliver 1,000 mL of prescribed IV fluid over 600 minutes using tubing calibrated at 15 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "answer": 25,
+        "unit": "gtt/min",
+        "work": "(1000 × 15) ÷ 600 = 25.00; round to 25 gtt/min.",
+        "topic": "Gravity drip",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q030",
+      "legacyQuestionNumber": 30,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An IV prescription directs 1,000 mL of normal saline over 8 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "answer": 125,
+        "unit": "mL/hr",
+        "work": "1000 ÷ 8 = 125 mL/hr.",
+        "topic": "IV pump",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q031",
+      "legacyQuestionNumber": 31,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "For a postoperative patient, the nurse records urine 700 mL, emesis 75 mL, and wound drainage 40 mL. The patient received 1500 mL of intake. What total output should be documented?",
+        "answer": 815,
+        "unit": "mL",
+        "work": "700 + 75 + 40 = 815 mL. Intake is not used.",
+        "topic": "Output",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q032",
+      "legacyQuestionNumber": 32,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 250 mg of a liquid medication for an older adult receiving IV fluids. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "answer": 12.5,
+        "unit": "mL",
+        "work": "(250 ÷ 100) × 5 = 12.5 mL.",
+        "topic": "Oral liquid",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q033",
+      "legacyQuestionNumber": 33,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 250 mg of a liquid medication for a patient being monitored for dehydration. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "answer": 12.5,
+        "unit": "mL",
+        "work": "(250 ÷ 100) × 5 = 12.5 mL.",
+        "topic": "Oral liquid",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q034",
+      "legacyQuestionNumber": 34,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "A patient admitted with pneumonia has an order for 5 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "answer": 0.5,
+        "unit": "mL",
+        "work": "5 ÷ 10 = 0.5 mL; weight is not needed.",
+        "topic": "Injectable volume",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q035",
+      "legacyQuestionNumber": 35,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The prescription lists a dose of 250 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C.",
+        "answer": 0.25,
+        "unit": "mg",
+        "work": "250 ÷ 1000 = 0.25 mg.",
+        "topic": "Metric conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q036",
+      "legacyQuestionNumber": 36,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An infusion pump is unavailable. The nurse must deliver 1,000 mL of prescribed IV fluid over 600 minutes using tubing calibrated at 15 gtt/mL. The patient has a history of hypertension. How many gtt/min are required? Round to a whole drop.",
+        "answer": 25,
+        "unit": "gtt/min",
+        "work": "(1000 × 15) ÷ 600 = 25.00; round to 25 gtt/min.",
+        "topic": "Gravity drip",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q037",
+      "legacyQuestionNumber": 37,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "During a shift, a patient drinks 4 fl oz of juice and 0.5 cup(s) of broth, receives 200 mL of IV fluid and 10 mL of liquid medication, and is given 240 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "answer": 570,
+        "unit": "mL",
+        "work": "4×30 + 0.5×240 + 200 + 10 + 240/2 = 570 mL.",
+        "topic": "Intake",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q038",
+      "legacyQuestionNumber": 38,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse cares for a patient recovering from surgery. The prescription is 400 mg PO. Available tablets contain 200 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "answer": 2,
+        "unit": "tablets",
+        "work": "400 ÷ 200 = 2 tablets.",
+        "topic": "Oral tablets",
+        "lecturePage": 6,
+        "guidePage": 2,
+        "sourceNote": "Ordered dose ÷ tablet strength; tablet rounding is specified in the lecture."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q039",
+      "legacyQuestionNumber": 39,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse cares for an older adult receiving IV fluids. The prescription is 300 mg PO. Available tablets contain 100 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "answer": 3,
+        "unit": "tablets",
+        "work": "300 ÷ 100 = 3 tablets.",
+        "topic": "Oral tablets",
+        "lecturePage": 6,
+        "guidePage": 2,
+        "sourceNote": "Ordered dose ÷ tablet strength; tablet rounding is specified in the lecture."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q040",
+      "legacyQuestionNumber": 40,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "During a shift, a patient drinks 4 fl oz of juice and 0.5 cup(s) of broth, receives 100 mL of IV fluid and 10 mL of liquid medication, and is given 120 mL of ice chips. Count ice chips as half their measured volume; assume the full IV amount infused. What is total intake? Use 1 fl oz = 30 mL and 1 cup = 240 mL.",
+        "answer": 410,
+        "unit": "mL",
+        "work": "4×30 + 0.5×240 + 100 + 10 + 120/2 = 410 mL.",
+        "topic": "Intake",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q041",
+      "legacyQuestionNumber": 41,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "A patient being monitored for dehydration has an order for 20 mg of an injectable medication. The vial is labeled 10 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "answer": 2,
+        "unit": "mL",
+        "work": "20 ÷ 10 = 2 mL; weight is not needed.",
+        "topic": "Injectable volume",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q042",
+      "legacyQuestionNumber": 42,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An IV prescription directs 1,000 mL of normal saline over 8 hours by electronic pump. The patient has a urinary catheter draining clear urine. At what rate in mL/hr should the nurse set the pump?",
+        "answer": 125,
+        "unit": "mL/hr",
+        "work": "1000 ÷ 8 = 125 mL/hr.",
+        "topic": "IV pump",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q043",
+      "legacyQuestionNumber": 43,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "An older adult receiving iv fluids has an order for 12 mg of an injectable medication. The vial is labeled 20 mg/mL. The patient weighs 74 kg. How many mL should the nurse prepare? Round to the nearest tenth if needed.",
+        "answer": 0.6,
+        "unit": "mL",
+        "work": "12 ÷ 20 = 0.6 mL; weight is not needed.",
+        "topic": "Injectable volume",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q044",
+      "legacyQuestionNumber": 44,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The prescription lists a dose of 50 mcg. The electronic chart displays doses in mg. How many mg is this? The patient’s temperature is 37°C.",
+        "answer": 0.05,
+        "unit": "mg",
+        "work": "50 ÷ 1000 = 0.05 mg.",
+        "topic": "Metric conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q045",
+      "legacyQuestionNumber": 45,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 0.125 g of a medication. Pharmacy stock is labeled in mg. How many mg does the order specify?",
+        "answer": 125,
+        "unit": "mg",
+        "work": "0.125 × 1000 = 125 mg.",
+        "topic": "Metric conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q046",
+      "legacyQuestionNumber": 46,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse cares for a patient being monitored for dehydration. The prescription is 250 mg PO. Available tablets contain 125 mg each. The patient reports pain 4/10. How many tablets should the nurse administer per dose?",
+        "answer": 2,
+        "unit": "tablets",
+        "work": "250 ÷ 125 = 2 tablets.",
+        "topic": "Oral tablets",
+        "lecturePage": 6,
+        "guidePage": 2,
+        "sourceNote": "Ordered dose ÷ tablet strength; tablet rounding is specified in the lecture."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q047",
+      "legacyQuestionNumber": 47,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The shift intake for a patient is 900 mL. Output includes 700 mL urine, 75 mL emesis, and 25 mL wound drainage. What is net fluid balance (intake minus output)? Enter a negative value if applicable.",
+        "answer": 100,
+        "unit": "mL",
+        "work": "900 − (700 + 75 + 25) = 100 mL.",
+        "topic": "Fluid balance",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q048",
+      "legacyQuestionNumber": 48,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The nurse must infuse a 100 mL IV medication piggyback over 45 minutes using a pump. The patient is awake and oriented. What pump rate in mL/hr is required? Round to the nearest whole number.",
+        "answer": 133,
+        "unit": "mL/hr",
+        "work": "100 ÷ (45/60) = 133.33, rounded to 133 mL/hr.",
+        "topic": "IV medication pump",
+        "lecturePage": 13,
+        "guidePage": 3,
+        "sourceNote": "For medication pump rates, convert minutes to hours first."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q049",
+      "legacyQuestionNumber": 49,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The triage nurse records a weight of 110 lb. A dosing worksheet requires kilograms. Using 1 kg = 2.2 lb, what weight should be entered? Round to the nearest tenth.",
+        "answer": 50,
+        "unit": "kg",
+        "work": "110 ÷ 2.2 = 50 kg.",
+        "topic": "Weight conversion",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    },
+    {
+      "stagingId": "fundamentals-med-math-1-q050",
+      "legacyQuestionNumber": 50,
+      "reviewStatus": "UNREVIEWED",
+      "legacyQuestion": {
+        "stem": "The provider orders 150 mg of a liquid medication for a patient recovering from surgery. The bottle is labeled 100 mg/5 mL. How many mL should the nurse administer? Round to the nearest tenth if needed.",
+        "answer": 7.5,
+        "unit": "mL",
+        "work": "(150 ÷ 100) × 5 = 7.5 mL.",
+        "topic": "Oral liquid",
+        "lecturePage": 13,
+        "guidePage": 4,
+        "sourceNote": "Review the relevant dosage calculation method."
+      }
+    }
+  ]
+}
