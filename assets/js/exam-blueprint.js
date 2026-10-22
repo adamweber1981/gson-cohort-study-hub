@@ -11,10 +11,11 @@
   }
   const slots=topics.flatMap(([topic,n])=>subtopics[topic]?Object.entries(subtopics[topic]).map(([subtopic,count])=>({topic,subtopic,n:count})):[{topic,subtopic:null,n}]);
   const rules=blueprint.types||{},types=Object.keys(rules);
+  const category=q=>q.diagram&&types.includes("visual")?"visual":q.type;
   const minima=types.map(t=>rules[t].min||0),maxima=types.map(t=>rules[t].max??total);
   const seen=new Set(),approved=questions.filter(q=>q.approved===true);
   for(const q of approved){if(seen.has(q.id))throw Error("Duplicate approved question: "+q.id);seen.add(q.id)}
-  const pools=slots.map(({topic,subtopic,n})=>({topic,subtopic,n,byType:Object.fromEntries([...types,"other"].map(t=>[t,shuffle(approved.filter(q=>q.topic===topic&&(subtopic===null||q.subtopic===subtopic)&&(types.includes(q.type)?q.type:"other")===t),random)]))}));
+  const pools=slots.map(({topic,subtopic,n})=>({topic,subtopic,n,byType:Object.fromEntries([...types,"other"].map(t=>[t,shuffle(approved.filter(q=>q.topic===topic&&(subtopic===null||q.subtopic===subtopic)&&(types.includes(category(q))?category(q):"other")===t),random)]))}));
   for(const p of pools)if(Object.values(p.byType).reduce((n,a)=>n+a.length,0)<p.n)throw Error("Insufficient approved questions in "+p.topic+(p.subtopic?" / "+p.subtopic:""));
   const memo=new Set();
   function search(i,counts){
