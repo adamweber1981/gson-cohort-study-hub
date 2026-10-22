@@ -47,7 +47,29 @@ function openReport(q,number){
  };
 }
 $("close-report").addEventListener("click",()=>$("report-dialog").close());$("report-dialog").addEventListener("close",()=>{$("report-frame").removeAttribute("src")});
-function openReference(url,title){const dialog=$("reference-dialog");$("reference-heading").textContent=title||"Exam reference";$("reference-frame").src=url;dialog.showModal()}
+async function openReference(url,title){
+ const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
+ $("reference-heading").textContent=title||"Exam reference";
+ frame.hidden=true;frame.removeAttribute("src");textPanel.hidden=true;textPanel.textContent="";status.textContent="Loading reference…";dialog.showModal();
+ try{
+  const parsed=new URL(url,location.href);
+  if(parsed.origin!==location.origin)throw Error("This reference is hosted externally and cannot be displayed here.");
+  const path=parsed.pathname.toLowerCase();
+  if(path.endsWith(".md")||path.endsWith(".txt")){
+   const response=await fetch(parsed.href,{cache:"no-store"});
+   if(!response.ok)throw Error("Reference unavailable (HTTP "+response.status+").");
+   textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent="";
+  }else if(path.endsWith(".pdf")){
+   frame.src=parsed.href;frame.hidden=false;status.textContent="";
+  }else{
+   const response=await fetch(parsed.href,{cache:"no-store"});
+   if(!response.ok)throw Error("Reference unavailable (HTTP "+response.status+").");
+   const type=response.headers.get("content-type")||"";
+   if(type.includes("text/")){textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent=""}
+   else{frame.src=parsed.href;frame.hidden=false;status.textContent="If the document does not display, this file type may not support in-page preview."}
+  }
+ }catch(err){status.textContent="Unable to preview reference: "+err.message}
+}
 $("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{$("reference-frame").removeAttribute("src")});
 $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("report-preview").value);$("report-status").textContent="Report copied. Paste it into the Google Form when available."}catch(_){$("report-preview").focus();$("report-preview").select();$("report-status").textContent="Select and copy the highlighted report text."}});
 
