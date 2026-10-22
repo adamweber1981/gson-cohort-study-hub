@@ -12,6 +12,10 @@
  if(!standalone&&/iPad|iPhone|iPod/.test(navigator.userAgent))say("Install on iPhone: open in Safari, tap Share, then Add to Home Screen.");
  if(!("PushManager" in window)||!("Notification" in window)){if(notify)notify.disabled=true;return}
  const config=window.GSON_PUSH_CONFIG||{};
+ const updateSubscriptionUI=active=>{if(notify){notify.hidden=active;notify.disabled=false}if(unsubscribe){unsubscribe.hidden=!active;unsubscribe.disabled=false}document.dispatchEvent(new CustomEvent("gson:push-subscription-state",{detail:{active}}))};
+ const unsubscribe=document.getElementById("pwa-unsubscribe");
+ updateSubscriptionUI(false);
+ navigator.serviceWorker.ready.then(reg=>reg.pushManager.getSubscription()).then(sub=>{updateSubscriptionUI(!!sub);say(sub?"Notifications are enabled on this device.":"Notifications are off on this device.");}).catch(error=>say("Unable to check notification status: "+error.message));
  say("Notification controls ready. Click Enable notifications to begin.");
  notify?.addEventListener("click",async()=>{
   say("Enabling notifications…");if(notify)notify.disabled=true;
@@ -32,22 +36,21 @@
    say("Saving subscription to notification server…");
    const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription,preferences:window.GSON_NOTIFICATION_PREFERENCES||{}})});
    if(!response.ok)throw Error("Subscription server returned "+response.status);
-   say("Push notifications enabled on this device.");
+   updateSubscriptionUI(true);say("Push notifications enabled on this device.");
   }catch(error){say("Could not enable notifications: "+error.message)}finally{if(notify)notify.disabled=false}
  });
- const unsubscribe=document.getElementById("pwa-unsubscribe");
  unsubscribe?.addEventListener("click",async()=>{
   say("Disabling notifications…");if(unsubscribe)unsubscribe.disabled=true;
   try{
    const registration=await navigator.serviceWorker.ready;
    const subscription=await registration.pushManager.getSubscription();
-   if(!subscription){say("No active push subscription on this device.");return}
+   if(!subscription){updateSubscriptionUI(false);say("No active push subscription on this device.");return}
    if(!config.unsubscribeEndpoint){say("Unsubscribe backend is not configured yet.");return}
    const endpoint=new URL(config.unsubscribeEndpoint,location.href);
    if(endpoint.protocol!=="https:")throw Error("Unsubscribe requires HTTPS");
    const response=await fetch(endpoint.href,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({subscription})});
    if(!response.ok)throw Error("Server returned "+response.status);
-   await subscription.unsubscribe();say("Notifications disabled for this device.");
+   const removed=await subscription.unsubscribe();if(!removed)throw Error("Browser did not confirm unsubscription.");updateSubscriptionUI(false);say("Notifications disabled for this device. Your category choices are saved for next time.");
   }catch(error){say("Unable to disable notifications: "+error.message)}finally{if(unsubscribe)unsubscribe.disabled=false}
  });
  document.addEventListener("gson:notification-preferences-changed",async event=>{
