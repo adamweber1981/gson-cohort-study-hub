@@ -189,49 +189,25 @@ const STUDY_HUB = [
       // COURSE 4: Fundamentals
       {
         course: "Fundamentals",
-        updatedAt: "2026-10-20", // Baseline date for the latest course update.
+        updatedAt: "2026-10-22",
         icon: "📋",
         description: "Fundamentals of Nursing, patient safety, nursing care & clinical judgment",
         exams: [
-        { name: "Exam 2", versions: [
           {
-            version: "Med Math — 25 Questions",
-            file: "exam.html?bank=fundamentals-exam-2-qa-med-math",
-            description: "Production-ready practice: 25 randomly selected dosage questions per attempt from a 79-question bank, with immediate feedback and source references."
-          },
-          {
-            version: "Fundies Fully Updated Exam 1",
-            file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 1.html",
-              description: "50 New Questions, see if they work"
-          },
-               {
-            version: "Fundies Fully Updated Exam 2",
-            file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Rebuilt Exam 2.html",
-              description: "50 New Questions, see if they work"
-          },
-          { 
-          version: "Med Math 2", 
-          file: "Fundamentals/Exam 2/Fundamentals Med Math - Version 2.html", 
-          description: "50-question randomized NCLEX-style Med Math practice exam with source-linked feedback." 
-        },
-          { 
-          version: "Med Math 1", 
-          file: "Fundamentals/Exam 2/Fundamentals Med Math - Version 1.html", 
-          description: "50-question randomized NCLEX-style Med Math practice exam with source-linked feedback." 
-        },
-          { 
-          version: "2A", 
-          file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 1.html", 
-          description: "50-question randomized NCLEX-style practice exam with source-linked feedback." 
-        },
-          { version: "2B", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 2.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." },
-          { version: "2C", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 3.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." },
-          { version: "2D", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 4.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." },
-          { version: "2E", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 5.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." },
-          { version: "2F", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 6.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." },
-          { version: "2G", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 7.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." },
-          { version: "2H", file: "Fundamentals/Exam 2/Fundamentals Exam 2 - Version 8.html", description: "50-question randomized NCLEX-style practice exam with source-linked feedback." }
-          ] }  
+            name: "Exam 2",
+            versions: [
+              {
+                version: "Standard Exam Engine",
+                file: "exam.html?bank=fundamentals-exam-2-qa-standard",
+                description: "50-question randomized practice exam following the Fundamentals Exam 2 topic, subtopic, and question-type blueprint."
+              },
+              {
+                version: "Med Math Exam Engine",
+                file: "exam.html?bank=fundamentals-exam-2-qa-med-math",
+                description: "25 randomized medication math questions per attempt from the 79-question practice pool. No blueprint required."
+              }
+            ]
+          }
         ]
       }
 
