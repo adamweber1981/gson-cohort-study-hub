@@ -2,9 +2,8 @@
   "id": "fundamentals-exam-2-qa-standard",
   "course": "Fundamentals",
   "examNumber": "Exam 2",
-  "practiceName": "Standard Question Bank · QA Preview",
-  "qaPreview": true,
-  "notice": "QA preview: 50 random questions per attempt from unapproved legacy pool; does NOT enforce course topic/type blueprint. Source links open the QA policy until original PDF hosting is configured.",
+  "practiceName": "Standard Exam Engine",
+  "qaPreview": false,
   "questions": [
     {
       "id": "fund-e2-rebuilt-1-q001",
@@ -12930,5 +12929,5 @@
       "correct": "o0"
     }
   ],
-  "previewCount": 50
+  "selectionPolicy": "Exact 50-question topic/subtopic/type quotas supplied at runtime; source alignment practice standard."
 }
