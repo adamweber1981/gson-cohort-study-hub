@@ -1,0 +1,38 @@
+{
+  "id": "health-assessment-exam-2-standard",
+  "course": "Health Assessment",
+  "examNumber": "Exam 2",
+  "total": 50,
+  "topics": {
+    "Chapter 15": 8,
+    "Chapter 16": 9,
+    "Chapter 17": 7,
+    "Chapter 18": 5,
+    "Chapter 19": 6,
+    "Chapter 6": 3,
+    "Chapter 25": 7,
+    "Chapter 24": 5
+  },
+  "types": {
+    "sata": {
+      "min": 9,
+      "max": 9
+    },
+    "matching": {
+      "min": 3,
+      "max": 3
+    },
+    "visual": {
+      "min": 3,
+      "max": 3
+    }
+  },
+  "policy": {
+    "approvedOnly": true,
+    "uniqueQuestions": true,
+    "failClosed": true,
+    "source": "3120 Fall 2026 Exam Two Blueprint.pdf",
+    "format": "35 multiple-choice, 12 alternate-format (SATA/matching), 3 illustrated questions",
+    "note": "Chapter quotas and formats enforced. Fine-grained blueprint subtopics require gap-fill and tagging before final launch."
+  }
+}
