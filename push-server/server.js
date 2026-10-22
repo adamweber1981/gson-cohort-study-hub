@@ -9,7 +9,7 @@ function allowedOrigin(req){return allowedOrigins.has(req.headers.origin)}
 const pool=new pg.Pool({connectionString:process.env.DATABASE_URL,ssl:process.env.PGSSL==="false"?false:{rejectUnauthorized:true}});
 webpush.setVapidDetails(process.env.VAPID_SUBJECT,process.env.VAPID_PUBLIC_KEY,process.env.VAPID_PRIVATE_KEY);
 const app=express();app.disable("x-powered-by");app.use(express.json({limit:"12kb"}));
-app.use((req,res,next)=>{res.setHeader("Vary","Origin");if(allowedOrigin(req)){res.setHeader("Access-Control-Allow-Origin",req.headers.origin);res.setHeader("Access-Control-Allow-Methods","POST, DELETE, OPTIONS");res.setHeader("Access-Control-Allow-Headers","Content-Type");}if(req.method==="OPTIONS")return res.sendStatus(req.headers.origin===origin?204:403);next()});
+app.use((req,res,next)=>{res.setHeader("Vary","Origin");if(allowedOrigin(req)){res.setHeader("Access-Control-Allow-Origin",req.headers.origin);res.setHeader("Access-Control-Allow-Methods","POST, DELETE, OPTIONS");res.setHeader("Access-Control-Allow-Headers","Content-Type");}if(req.method==="OPTIONS")return res.sendStatus(allowedOrigin(req)?204:403);next()});
 const keys=["updatedExams","newSources","examReminders","majorUpdates"];
 function validSubscription(s){try{const u=new URL(s.endpoint);return u.protocol==="https:"&&s.endpoint.length<2048&&typeof s.keys?.p256dh==="string"&&typeof s.keys?.auth==="string"&&s.keys.p256dh.length<512&&s.keys.auth.length<512}catch{return false}}
 function prefs(p){return Object.fromEntries(keys.map(k=>[k,p?.[k]!==false]))}
