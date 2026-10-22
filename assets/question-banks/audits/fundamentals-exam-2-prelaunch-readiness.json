@@ -1,0 +1,53 @@
+{
+  "id": "fundamentals-exam-2-prelaunch-readiness",
+  "scope": "All 494 master candidates",
+  "status": "BLOCKED_NOT_READY_TO_PUBLISH",
+  "date": "2026-10-22",
+  "inventory": {
+    "total": 494,
+    "standard": 415,
+    "medMath": 79,
+    "types": {
+      "mc": 377,
+      "sata": 27,
+      "match": 10,
+      "diagram": 1,
+      "numeric": 79
+    },
+    "diagramRemaining": [
+      "fundamentals-exam-2-version-2-q013"
+    ],
+    "mechanicalErrors": []
+  },
+  "blueprint": {
+    "standardLength": 50,
+    "topicQuotas": {
+      "Pain & comfort": 7,
+      "Sensory": 5,
+      "Complementary & integrative": 5,
+      "Oxygenation": 13,
+      "Safety": 11,
+      "Dosage calculation": 6,
+      "Concept mastery": 3
+    },
+    "requiredSATA": "6–10",
+    "requiredMatching": "4–6",
+    "requiredTrueFalse": "4–6",
+    "finding": "No true/false items in the standard master bank. The requested exam-type distribution is impossible without authoring and verifying new true/false questions."
+  },
+  "releaseBlockers": [
+    "474 questions have only structural screening or partial clinical review, not individual source-verified approval",
+    "No independent page-level course-source cross-check for every item",
+    "No full independent arithmetic verification for all 79 Med Math candidates and 58 standard dosage candidates",
+    "No complete matching-pair ambiguity audit",
+    "No final per-item distractor and rationale audit",
+    "No 4–6 true/false questions in the standard bank",
+    "ExamCore currently runs all bank questions, not a blueprint-constrained 50-question selection",
+    "Legacy question schema is incompatible with ExamCore question schema without conversion",
+    "No automated randomized blueprint selection and validation tests",
+    "No mobile browser end-to-end test or source-link validation",
+    "No approved active bank produced"
+  ],
+  "releaseRule": "Do not change main, publish active banks, or remove legacy exams until every release blocker is resolved and owner explicitly approves production release.",
+  "mechanicalErrors": []
+}
