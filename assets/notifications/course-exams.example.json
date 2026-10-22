@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "timezone": "America/Chicago",
+  "events": [
+    {
+      "id": "example-fundamentals-exam",
+      "course": "Fundamentals",
+      "title": "Fundamentals Exam",
+      "start": "2027-01-01T09:00:00-06:00",
+      "practiceExamUrl": "./exam.html?bank=fundamentals-exam-2-qa-standard",
+      "exampleOnly": true
+    }
+  ]
+}
