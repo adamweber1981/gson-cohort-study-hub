@@ -4,7 +4,7 @@
   "examNumber": "Exam 2",
   "practiceName": "Standard Question Bank · QA Preview",
   "qaPreview": true,
-  "notice": "Unapproved question-bank preview. Full-bank run, not blueprint-constrained.",
+  "notice": "QA preview: 50 random questions per attempt from unapproved legacy pool; does NOT enforce course topic/type blueprint. Source links open the QA policy until original PDF hosting is configured.",
   "questions": [
     {
       "id": "fund-e2-rebuilt-1-q001",
@@ -12929,5 +12929,6 @@
       ],
       "correct": "o0"
     }
-  ]
+  ],
+  "previewCount": 50
 }
