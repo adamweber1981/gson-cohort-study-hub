@@ -741,6 +741,423 @@
       },
       "approved": false,
       "draftNote": "Provisional: source reference must be deployed; full clinical and duplicate review pending."
+    },
+    {
+      "id": "patho-e3-draft-024",
+      "topic": "Asthma",
+      "type": "sata",
+      "stem": "Which processes contribute to narrowed airways during an asthma exacerbation? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bronchoconstriction"
+        },
+        {
+          "id": "o1",
+          "text": "Mucosal edema"
+        },
+        {
+          "id": "o2",
+          "text": "Increased mucus production"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of erythropoietin"
+        },
+        {
+          "id": "o4",
+          "text": "Platelet destruction"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "rationale": "Asthma involves bronchoconstriction, inflammation with edema, and increased mucus.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-025",
+      "topic": "Hypercoagulability",
+      "type": "sata",
+      "stem": "Which circumstances increase the risk of deep vein thrombosis? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Prolonged immobility"
+        },
+        {
+          "id": "o1",
+          "text": "Pregnancy"
+        },
+        {
+          "id": "o2",
+          "text": "Estrogen-containing oral contraceptive use"
+        },
+        {
+          "id": "o3",
+          "text": "Heart failure"
+        },
+        {
+          "id": "o4",
+          "text": "Increased plasmin activity"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists immobility, pregnancy, estrogen use, and heart failure as DVT risks.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-026",
+      "topic": "UTI",
+      "type": "sata",
+      "stem": "Which findings support cystitis? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dysuria"
+        },
+        {
+          "id": "o1",
+          "text": "Urinary frequency"
+        },
+        {
+          "id": "o2",
+          "text": "Urgency"
+        },
+        {
+          "id": "o3",
+          "text": "Lower abdominal discomfort"
+        },
+        {
+          "id": "o4",
+          "text": "Costovertebral angle tenderness with fever"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Dysuria, frequency, urgency, and lower abdominal pain are associated with cystitis; fever and CVA tenderness suggest upper tract involvement.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-027",
+      "topic": "Chronic Kidney Disease",
+      "type": "sata",
+      "stem": "Which findings can occur with advanced chronic kidney disease? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hyperkalemia"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic acidosis"
+        },
+        {
+          "id": "o2",
+          "text": "Fluid retention"
+        },
+        {
+          "id": "o3",
+          "text": "Anemia"
+        },
+        {
+          "id": "o4",
+          "text": "Increased erythropoietin production"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Advanced CKD can reduce potassium and acid excretion, retain fluid, and decrease erythropoietin production.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-028",
+      "topic": "Tuberculosis",
+      "type": "sata",
+      "stem": "Which findings are associated with active tuberculosis rather than asymptomatic latent infection? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Night sweats"
+        },
+        {
+          "id": "o1",
+          "text": "Unexplained weight loss"
+        },
+        {
+          "id": "o2",
+          "text": "Fever"
+        },
+        {
+          "id": "o3",
+          "text": "Productive cough"
+        },
+        {
+          "id": "o4",
+          "text": "Absence of symptoms"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Active TB may cause constitutional and respiratory symptoms; latent TB is asymptomatic.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-029",
+      "topic": "Anemias",
+      "type": "sata",
+      "stem": "Which factors can precipitate a sickle cell vaso-occlusive crisis? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dehydration"
+        },
+        {
+          "id": "o1",
+          "text": "Infection"
+        },
+        {
+          "id": "o2",
+          "text": "Cold exposure"
+        },
+        {
+          "id": "o3",
+          "text": "Hypoxia"
+        },
+        {
+          "id": "o4",
+          "text": "Adequate hydration"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet identifies dehydration, infection, cold exposure, and hypoxia as triggers for sickling and vaso-occlusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-030",
+      "topic": "Acute Kidney Injury",
+      "type": "matching",
+      "stem": "Match each cause of acute kidney injury to its category.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Dehydration",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Nephrotoxic medication",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Urinary tract obstruction",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Prerenal"
+        },
+        {
+          "id": "t1",
+          "text": "Intrarenal"
+        },
+        {
+          "id": "t2",
+          "text": "Postrenal"
+        }
+      ],
+      "rationale": "Dehydration reduces perfusion, nephrotoxins injure kidney tissue, and obstruction impairs urine outflow.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-031",
+      "topic": "Anemias",
+      "type": "matching",
+      "stem": "Match each description with the anemia.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Low iron with small, pale red blood cells",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Vitamin B12 deficiency with neurologic symptoms",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Bone marrow failure affecting multiple cell lines",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Iron deficiency anemia"
+        },
+        {
+          "id": "t1",
+          "text": "Pernicious anemia"
+        },
+        {
+          "id": "t2",
+          "text": "Aplastic anemia"
+        }
+      ],
+      "rationale": "Iron deficiency is microcytic and hypochromic; B12 deficiency may cause neurologic symptoms; aplastic anemia involves marrow failure.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-032",
+      "topic": "Pleural Disorders",
+      "type": "matching",
+      "stem": "Match each condition with what is present in the pleural space.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Pneumothorax",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Hemothorax",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Empyema",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Air"
+        },
+        {
+          "id": "t1",
+          "text": "Blood"
+        },
+        {
+          "id": "t2",
+          "text": "Infected fluid"
+        }
+      ],
+      "rationale": "Pneumothorax contains air, hemothorax contains blood, and empyema is infection in the pleural cavity.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-033",
+      "topic": "Dialysis",
+      "type": "matching",
+      "stem": "Match each dialysis method with its characteristic.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Uses the peritoneal membrane",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "May use an arteriovenous fistula",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Can be complicated by peritonitis",
+          "correct": "t0"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Peritoneal dialysis"
+        },
+        {
+          "id": "t1",
+          "text": "Hemodialysis"
+        }
+      ],
+      "rationale": "Peritoneal dialysis uses the peritoneum and carries a peritonitis risk; hemodialysis can use an AV fistula.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; source link deployment and complete bank review pending."
     }
   ]
 }
