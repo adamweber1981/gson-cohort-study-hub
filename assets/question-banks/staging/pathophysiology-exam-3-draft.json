@@ -2758,6 +2758,643 @@
       },
       "approved": false,
       "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-084",
+      "topic": "Pneumonia",
+      "type": "sata",
+      "stem": "A patient is immobilized after surgery. Which factors can increase pneumonia risk? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Impaired secretion clearance"
+        },
+        {
+          "id": "o1",
+          "text": "Reduced lung expansion"
+        },
+        {
+          "id": "o2",
+          "text": "Aspiration of oral secretions"
+        },
+        {
+          "id": "o3",
+          "text": "Prolonged recumbency"
+        },
+        {
+          "id": "o4",
+          "text": "Improved mobility"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Immobility can impair secretion management and lung expansion and increase aspiration risk.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-085",
+      "topic": "COPD",
+      "type": "sata",
+      "stem": "Which changes are associated with COPD in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased mucus production"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrosis and thickening of bronchial walls"
+        },
+        {
+          "id": "o2",
+          "text": "Alveolar damage in emphysema"
+        },
+        {
+          "id": "o3",
+          "text": "Air trapping"
+        },
+        {
+          "id": "o4",
+          "text": "Complete restoration of alveolar walls"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "COPD involves airway changes and mucus; emphysema also involves alveolar damage.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-086",
+      "topic": "Pulmonary Embolism",
+      "type": "sata",
+      "stem": "Which findings may occur with pulmonary embolism? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dyspnea"
+        },
+        {
+          "id": "o1",
+          "text": "Chest pain"
+        },
+        {
+          "id": "o2",
+          "text": "Tachycardia"
+        },
+        {
+          "id": "o3",
+          "text": "Anxiety or restlessness"
+        },
+        {
+          "id": "o4",
+          "text": "Improved pulmonary perfusion"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists chest pain, shortness of breath, tachycardia, anxiety, and restlessness as potential findings.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-087",
+      "topic": "Hypercoagulability",
+      "type": "sata",
+      "stem": "Which elements are part of Virchow’s triad? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Venous stasis"
+        },
+        {
+          "id": "o1",
+          "text": "Endothelial injury"
+        },
+        {
+          "id": "o2",
+          "text": "Hypercoagulability"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced blood pressure alone"
+        },
+        {
+          "id": "o4",
+          "text": "Reduced erythropoietin"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "rationale": "Virchow’s triad consists of venous stasis, endothelial injury, and hypercoagulability.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-088",
+      "topic": "Anemias",
+      "type": "sata",
+      "stem": "Which manifestations may be associated with vitamin B12 deficiency in pernicious anemia? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Paresthesias"
+        },
+        {
+          "id": "o1",
+          "text": "Ataxia"
+        },
+        {
+          "id": "o2",
+          "text": "Fatigue from anemia"
+        },
+        {
+          "id": "o3",
+          "text": "Macrocytic red blood cells"
+        },
+        {
+          "id": "o4",
+          "text": "Microcytic hypochromic cells as the typical pattern"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet associates pernicious anemia with macrocytosis and neurologic findings such as paresthesias and ataxia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-089",
+      "topic": "Urinary Obstructions",
+      "type": "sata",
+      "stem": "Which findings may occur with a urinary stone? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sudden severe flank pain"
+        },
+        {
+          "id": "o1",
+          "text": "Pain radiating toward the groin"
+        },
+        {
+          "id": "o2",
+          "text": "Nausea and vomiting"
+        },
+        {
+          "id": "o3",
+          "text": "Hematuria"
+        },
+        {
+          "id": "o4",
+          "text": "Painless resolution in every patient"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists renal colic, nausea and vomiting, and possible hematuria among stone findings.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-090",
+      "topic": "Acute Kidney Injury",
+      "type": "sata",
+      "stem": "Which causes are classified as prerenal in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dehydration"
+        },
+        {
+          "id": "o1",
+          "text": "Hypovolemia"
+        },
+        {
+          "id": "o2",
+          "text": "Reduced cardiac output from heart failure"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced cardiac output after myocardial infarction"
+        },
+        {
+          "id": "o4",
+          "text": "Urinary obstruction from an enlarged prostate"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Prerenal AKI involves reduced renal perfusion; BPH causes postrenal obstruction.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-091",
+      "topic": "Chronic Kidney Disease",
+      "type": "sata",
+      "stem": "Which findings may result from uremia in advanced CKD? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Fatigue"
+        },
+        {
+          "id": "o1",
+          "text": "Nausea and vomiting"
+        },
+        {
+          "id": "o2",
+          "text": "Confusion"
+        },
+        {
+          "id": "o3",
+          "text": "Weakness"
+        },
+        {
+          "id": "o4",
+          "text": "Consistently increased alertness"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists fatigue, gastrointestinal symptoms, weakness, confusion, and encephalopathy as uremic manifestations.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-092",
+      "topic": "Dialysis",
+      "type": "sata",
+      "stem": "Which complications are associated with hemodialysis? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypotension during treatment"
+        },
+        {
+          "id": "o1",
+          "text": "Access infection"
+        },
+        {
+          "id": "o2",
+          "text": "Fistula or graft thrombosis"
+        },
+        {
+          "id": "o3",
+          "text": "Rapid fluid and electrolyte shifts"
+        },
+        {
+          "id": "o4",
+          "text": "Peritonitis as the defining hemodialysis complication"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists hypotension, infection, access thrombosis, and fluid or electrolyte shifts as hemodialysis complications.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-093",
+      "topic": "Hypocoagulation",
+      "type": "sata",
+      "stem": "Which findings are more consistent with a platelet-related bleeding problem than a deep joint bleed? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Petechiae"
+        },
+        {
+          "id": "o1",
+          "text": "Mucosal bleeding"
+        },
+        {
+          "id": "o2",
+          "text": "Hemarthrosis as the distinguishing platelet finding"
+        },
+        {
+          "id": "o3",
+          "text": "A low platelet count"
+        },
+        {
+          "id": "o4",
+          "text": "Normal platelet count in every case"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o3"
+      ],
+      "rationale": "Petechiae, mucosal bleeding, and low platelet counts fit thrombocytopenia; hemarthrosis is characteristic of factor deficiencies.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-094",
+      "topic": "Hemostasis",
+      "type": "matching",
+      "stem": "Match each stage of hemostasis with its function.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Vasoconstriction",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Platelet plug formation",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Coagulation",
+          "correct": "t2"
+        },
+        {
+          "id": "p3",
+          "prompt": "Fibrinolysis",
+          "correct": "t3"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Reduces blood flow at the injury"
+        },
+        {
+          "id": "t1",
+          "text": "Platelets adhere and aggregate"
+        },
+        {
+          "id": "t2",
+          "text": "Fibrin stabilizes the clot"
+        },
+        {
+          "id": "t3",
+          "text": "Plasmin breaks down the clot"
+        }
+      ],
+      "rationale": "Hemostasis begins with vasoconstriction and platelet plug formation, followed by coagulation; fibrinolysis removes the clot.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-095",
+      "topic": "Tuberculosis",
+      "type": "matching",
+      "stem": "Match each tuberculosis description with the corresponding form.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "No symptoms; infection is contained",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Symptoms and potential transmission",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Dissemination to multiple organs",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Latent TB"
+        },
+        {
+          "id": "t1",
+          "text": "Active TB"
+        },
+        {
+          "id": "t2",
+          "text": "Miliary TB"
+        }
+      ],
+      "rationale": "Latent TB is inactive; active TB causes illness, and miliary TB disseminates.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-096",
+      "topic": "COPD",
+      "type": "matching",
+      "stem": "Match each COPD-related consequence with its explanation.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Pulmonary hypertension",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Cor pulmonale",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Polycythemia",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Increased pressure in pulmonary arteries"
+        },
+        {
+          "id": "t1",
+          "text": "Right-sided heart strain or failure"
+        },
+        {
+          "id": "t2",
+          "text": "Increased red blood cell production"
+        }
+      ],
+      "rationale": "Pulmonary hypertension increases right ventricular workload; chronic hypoxia can stimulate erythrocyte production.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-097",
+      "topic": "Urinary Obstructions",
+      "type": "matching",
+      "stem": "Match each stone type with the association listed in the worksheet.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Struvite",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Uric acid",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Cystine",
+          "correct": "t2"
+        },
+        {
+          "id": "p3",
+          "prompt": "Calcium",
+          "correct": "t3"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Urinary tract infection"
+        },
+        {
+          "id": "t1",
+          "text": "Gout"
+        },
+        {
+          "id": "t2",
+          "text": "Inherited tendency in children"
+        },
+        {
+          "id": "t3",
+          "text": "Hypercalcemia"
+        }
+      ],
+      "rationale": "The worksheet associates struvite stones with UTIs, uric acid stones with gout, cystine stones with genetic causes, and calcium stones with hypercalcemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-098",
+      "topic": "Urinary Incontinence",
+      "type": "matching",
+      "stem": "Match the symptom pattern with the type of incontinence.",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Leakage when coughing",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Leakage after a sudden strong need to void",
+          "correct": "t1"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Stress incontinence"
+        },
+        {
+          "id": "t1",
+          "text": "Urge incontinence"
+        }
+      ],
+      "rationale": "Stress incontinence occurs with increased abdominal pressure; urge incontinence follows a sudden compelling urge.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
     }
   ]
 }
