@@ -1,0 +1,268 @@
+RESPIRATORY
+Ventilation vs Gas Exchange
+Explain the difference between ventilation and gas exchange. Ventilation is the movement of air in and out of the lungs. Gas exchange is the actual transfer of oxygen from the lungs (alveoli) to the blood, and transfer of CO2 from the blood to the lungs (alveoli). 
+Where does gas exchange occur? Alveoli
+Give an example of a respiratory disorder that impairs gas exchange. Explain why. Think alveoli issues!
+Pneumonia – alveoli fill with exudate and make it much harder for oxygen to diffuse through the fluid and into the capillaries that surround the alveoli. 
+Pulmonary embolism – blockage of blood so blood can’t take up the oxygen or release its CO2 back to the lungs. 
+Pleural effusion – fluid fills the pleural space, which compresses the alveoli and make gas exchange more difficult (the alveolar compression is called atelectasis)
+Pneumothorax – air fills the pleural space, which compresses the alveoli and make gas exchange more difficult (atelectasis) 
+COPD – this is more due to the alveolar component (emphysema). See below  
+Give an example of a respiratory disorder that impairs ventilation. Explain why. Think airway issues!
+Asthma exacerbation – an acute asthma exacerbation will cause inflammation/edema, mucous production, and bronchoconstriction. In the late stage of the exacerbation, it will be difficult to get air (oxygen) into the alveoli, and air (CO2) back out through the mouth from all three of these factors. 
+COPD – although this can go under both gas exchange and ventilation, the barrel chest/air trapping have to do with more of a ventilation problem. COPD patients can’t expire air (due to chronic inflammation in the airways), so they use pursed lip breathing to change the thoracic pressures and make it easier to exhale, and they develop respiratory acidosis and a hypoxic drive to breathe. There is a gas exchange component of COPD as well since the increased mucous production and alveolar changes cause decreased oxygen absorption by the capillaries (and thus decreased gas exchange). 
+Pneumonia
+List 3 patient populations that are at high risk for developing pneumonia. Explain why. 
+Immobile – poor secretion management (they can’t swallow food or saliva well; also if they’re usually lying down…yikes), so they are at high aspiration risk. They also don’t walk around to expand their lungs and keep their alveoli open, which increases risk of secretions sitting in there (bacteria LOVE moist environments). 
+Elderly – pneumococcal vaccine is recommended for people >65yo because our immune system just stinks after awhile.  Good ole cellular aging. And they probably have chronic health conditions too (heart disease, COPD, etc) that will make PNA much more devastating for these patients. 
+Patients in the hospital – because hospitals are gross with lots of circulating germs. Hand hygiene is so important so we don’t spread one patient’s nasty to another patient. 
+List 3 different types of pneumonia. 
+Typical vs atypical – typical is the PNA occurring IN the alveoli. Atypical is the PNA occurring between alveoli and interstitial spaces of lung. Atypical is usually from weird organisms, like viral PNA or Mycoplasma species. 
+Bronchopneumonia (diffuse and patchy consolidations [fancy radiology term for what PNA looks like on a CXR] throughout one/both lungs) vs lobar (in one single lobe of one lung)
+Community vs nocosomial/hospital-acquired – pretty self explanatory
+Ventilator-associated PNA – from patients on a ventilator when we don’t clean their mouth well and we let secretions pool in their mouth. Future ICU nurses, take care of those secretions please  
+Aspiration – can be from food, gastric contents (from vomiting/reflux), or just your own secretions/saliva. Usually in patients with swallowing problems (dysphagia) but can really happen to anyone. 
+How does pneumonia impair gas exchange?  Exudate fills the alveoli and oxygen can’t diffuse easily through that nastiness, so the oxygen can’t reach the capillaries. Hypoxemia and hypoxia to the tissues would potentially result if the impaired gas exchange is bad enough/the PNA is affecting lots of areas like in a bronchopneumonia. 
+List 5 signs/symptoms that you expect in a patient with pneumonia. 
+Wet productive cough with crackles/coarse rales over site of PNA
+Fever
+Fatigue
+Leukocytosis
+Increased work of breathing/accessory muscle use/shortness of breath/dyspnea
+Tachypnea
+Tachycardia
+Confusion/disorientation if hypoxic 
+Tuberculosis (TB)
+List 3 specific patient populations that are at high risk for developing TB. Anyone living in tight spaces with lots of people, or living where TB is common
+Prisoners
+Foreign countries where TB is widespread (India, Korea, parts of Africa)
+Homeless
+Complete the table below and indicate whether the following manifestations are found in active or latent TB, or both. 
+Explain the following terms and characteristics of each: 
+Primary TB – first time coming in contact with TB (so previously the person had no exposure)
+Insidious, nonspecific symptoms like night sweats, fever, weight loss, fatigue
+Active TB – Can be after initial exposure (primary TB) or activation of latent TB during a time of immunosuppression. Signs and symptoms present (night sweats, fever, weight loss, fatigue, CP, SOB, productive cough).  
+Latent TB –  when the TB has been “walled off” in a granuloma and is inactive, so it can’t be spread to others and there are no signs/symptoms. CXR will show granuloma. 
+Miliary TB – complication in which TB can disseminate and involve almost any organ (meninges, liver, kidney, BM)
+Asthma
+List the three pathophysiological components of asthma:
+Bronchoconstriction 
+Inflammation of mucosa with edema
+Increased mucous production
+What is status asthmaticus? persistent severe attack of asthma not responding to therapy
+What are the two types of potential asthma triggers? Name two examples of each.
+Extrinsic – triggers common in “childhood asthma;” from type 1 hypersensitivity reactions to inhaled antigens 
+Intrinsic – triggers common in “adult-onset asthma;” from hyperresponsiveness of airways to things like respiratory infections, cold, exercise, ASA, stress, irritants/smoking
+List five manifestations you would expect to see in a patient with an acute asthma exacerbation. 
+Wheezing
+Dyspnea/SOB
+Cough
+Chest tightness
+Tachycardia
+Hypoxia, hypoxemia 
+Explain why a patient in an acute asthma exacerbation would stop wheezing without any interventions. All three of the pathophysiological components will worsen (worse bronchoconstriction, increased mucous, increased inflammation and edema). This means that the airway is getting super small. If this continues without any bronchodilators administered, the airway will eventually close off and the patient will not be able to ventilate at all. We hear wheezing because the patient is essentially breathing through a super small straw which creates a wheezing sound; if no ventilation occurs then we don’t hear anything. Same pathophysiology as to why the patient would first have respiratory alkalosis (tachypnea), then respiratory acidosis (can’t exhale CO2). 
+COPD
+Emphysema is an alveolar issue. Chronic bronchitis is an bronchi issue. 
+What is a cause of emphysema that is not a cause of chronic bronchitis? Alpha 1 antitrypsin mutation
+What are the two other causes involved in the development of COPD? Pollutants (from occupational or environmental hazards) or smoking
+List and explain 3 main pathophysiological events that occur in COPD.
+Increased mucus production
+Fibrosis and thickened bronchial walls
+Alveolar damage (specific to emphysema)
+ Explain why COPD results in impaired gas exchange AND ventilation. List associated signs and symptoms for each. 
+Gas exchange – Alveolar damage causes decreased surface area for gas exchange and decreased capillaries supplying the alveoli. Increased mucus production in the airways also causes impaired gas exchange because oxygen and CO2 don’t diffuse well through thick mucus. 
+Ventilation – Fibrosis and thickening of the bronchial walls impair elasticity, so the patients have narrow airways (along with increased mucus production), air trapping, and retention of CO2
+List four complications of COPD. Explain why they occur.
+Hypoxic drive to breathe – COPD patients will chronically retain CO2, so the body gets accustomed to high CO2 levels. The body responds to hypoxemia to take another breath instead of the non-COPD population that responds to hypercapnia.
+Pulmonary HTN – hypoxia and hypoxemia cause the pulmonary arteries to constrict  increased pulmonary artery pressure
+Cor pulmonale – Right ventricle pumps blood to my pulmonary arteries; if I have pulmonary HTN then my right ventricle has to work a ton harder to push against all that pressure  right sided heart failure 
+Polycythemia – body’s compensation for hypoxia is to make more RBCs (but that’s not the issue so now I have too many RBCs)
+What ABG changes would you expect to see in a COPD patient? CO2 >45, HCO3 >26, normal pH, PaO2 <90. I would expect a normal pH because this is a chronic condition, so their body is going to compensate very well for elevated CO2 levels with a high HCO3 to maintain homeostasis. 
+Pleural Disorders
+Draw a picture to show what the difference between a pneumothorax and a pleural effusion is. 
+What is a major risk factor for the development of a pneumothorax? Any trauma to the lung itself (like a lung biopsy), or trauma to the chest (blunt or penetrating traumas; for example a motor vehicle accident or an elderly patient fell and the patient broke a rib). 
+Are pleural effusions usually unilateral or bilateral? Why? Unilateral; each lung is contained in its own pleural cavity and space. 
+List four different types of pleural effusions. 
+Hemothorax – blood in pleural space (trauma, CA, surgery)
+Exudative – from inflammation; can also be from tumor where increased capillary permeability allows protein and WBC in fluid to leak into pleural space (ex bacterial PNA, viral infection, pulmonary infarction)
+Transudates/hydrothorax – (serous) water effusions from increased hydrostatic pressure/ decreased oncotic pressure in vessels  shift of fluid out of vessels into potential space of pleural cavity (ex liver, kidney disease, CHF)
+Empyema – infection in pleural cavity from adjacent bacterial PNA, rupture of lung abscess, or infection associated with trauma 
+What is one word you could use to summarize the pathophysiology of why pleural disorders result in impaired gas exchange? Atelectasis
+Pulmonary Embolism
+What is a significant risk factor for the development of a PE? DVTs
+Explain how a massive PE can result in hypoxemia, right heart strain, and cardiac arrest. 
+Hypoxemia – the blood from the pulmonary arteyr that is going to the capillaries around the alveoli is blocked, so there is impaired gas exchange since no blood is coming to the alveoli. No blood flow to the alveolar capillaries = no gas exchange.
+Right heart strain – Blood backs up in the pulmonary artery AND hypoxemia causes compensatory vasoconstriction in the pulmonary artery. More blood in the pulmonary artery (since it has no where to go forward) and vasoconstriction increase the resistance that the heart needs to pump against to get blood flow into the pulmonary arteries. The pulmonary arteries are usually low pressure arteries since the right ventricle doesn’t have to pump hard to get blood just next door to the lungs. Vasoconstriction and increased blood increases the pressure in the pulmonary arteries (pulmonary hypertension), which makes it harder for the heart to pump against. The right side of the heart will be “strained” from working so hard against so much pressure.  
+Cardiac arrest – This is due to a perfusion issue. It is more associated with the decreased venous return that happens (decreased amount of blood being circulated in the body since it is backing up in the pulmonary arteries and right side of the heart, so decreased blood flow returning back to the right atrium), than hypoxemia.  
+List four manifestations associated with PE: 
+Chest pain
+SOB/dyspnea/tachypnea
+Tachycardia
+Anxiety, restlessness
+Massive PE = worse symptoms  rapid weak pulse (decreased venous return), altered level of consciousness (hypoxia of the brain), hypotension (decreased systemic blood volume since it’s backing up in pulmonary arteries). 
+BLOOD
+Hemostasis
+What are the five stages of blood clotting? What occurs in each stage and why? 
+Vasoconstriction – there is a vessel injury, and the vessel responds with vasoconstriction to decrease the amount of blood going to the site of injury.
+Platelet plug – von Willebrand factor from the damaged vessel signals platelets to perform the 3 As  activate, adhere, aggregate. Platelets are able to perform the 3 As because they change shape and allow more  glycoproteins to be exposed so they stick together. This step is just fine for smaller vessel breaks.
+Coagulation – coagulation factors involved now for larger vessel breaks. Coagulation factors include thrombin, prothrombin, fibrinogen, and fibrin. End goal is fibrin that creates a “fibrin meshwork,” to stabilize and strengthen the clot. 
+Clot retraction – The edges of the damaged tissue are pulled tight together to assist with tissue healing. This is the tightening of your corset  
+Fibrinolysis – the clot dissolves through the action of plasminogen and plasmin
+Hypercoagulability
+What is the normal platelet level? 150,000 – 400,000
+A platelet level >400 would be associated with thrombocytosis. 
+What is the triad involved in DVT development? What are its three components? Virchows triad
+Venous stasis
+Endothelial damage
+Hypercoagulability 
+ List five patient populations that are at high risk for DVTs. 
+Immobile patients (for example, chronically immobile like bedridden patients, patients after surgery, sitting in a car/plane for a long time traveling) – venous stasis
+Smokers – endothelial damage
+High estrogen/oral contraceptive use – hypercoagulability 
+Pregnancy – venous stasis, hypercoagulability 
+CHF – venous stasis
+List three manifestations you would expect to see in a patient with a DVT. 
+Edema of the affected leg
+Erythema (reddened) of the affected leg
+Pain/tenderness over the site of the clot
+Hypocoagulability 
+Complete the flowchart below: 
+What is the problem in vW deficiency? What is the problem in Hemophilia A?
+vW deficiency – genetic disorder (autosomal dominant) with low vWF
+Hemophilia A – X linked recessive disorder with low Factor VIII
+How will signs and symptoms in a coagulation problem differ from a platelet problem? Coagulation problems will result in bleeding from larger vessels  hemarthrosis, hemoptysis, hematemesis, hematuria, melena/hematochezia, anemia; Platelet problems will result in bleeding from smaller vessels  gum bleeding, epistaxis, oozing after minor injuries, hematomas, petechiae, purpura, ecchymosis
+DIC
+What occurs in DIC? Simultaneous bleeding and clotting due to a massive and systemic coagulation cascade
+Who is most at risk for DIC? Trauma and OB patients
+Anemias
+List five general anemia signs and symptoms. 
+Fatigue
+Cold intolerance
+Pallor
+Brittle hair and nails
+Tachycardia/exercise intolerance
+What are the two nutritional deficiency anemias? Iron deficiency and megaloblastic (pernicious)
+Who is at risk for iron deficiency anemia? Explain why. People with increased iron needs (pregnant, breastfeeders, adolescents) and people with chronic blood loss because they can’t recycle the iron in the blood that they’ve lost (heavy periods, chronic GI bleeds). 
+Who is at risk for pernicious anemia? Explain why. Anyone with a stomach (and gastric mucosa) or ileal (ileal absorption) issue. Intrinsic factor is released by gastric mucosa that is needed for vitamin B12 absorption in the ileum. Examples of patients with B12 deficiency are those that have had gastric bypass, ileal resections, or chronically use proton pump inhibitors. 
+What do the RBCs look like in these two anemias? Iron deficiency = microcytic and hypochromic (low MCV and low MCHC). Pernicious = macrocytic and normochromic (high MCV and normal MCHC). 
+What additional problems do patients with pernicious anemia have? Nervous system symptoms (paresthesias, ataxia)
+What is an example of a hemolytic anemia? Sickle cell anemia
+What are the two main problems in sickle cell anemia? Hemolysis (jaundice, hepatomegaly, splenomegaly) and vaso-occlusion
+Explain what a sickle cell crisis is. (Precipitating factors, pathophysiology, organs that can be involved).  Sickling and occlusion d/t cold, stress, physical exertion, infection, illnesses that cause hypoxia, dehydration, or acidosis 
+Acute pain episode results from vessel occlusion and hypoxia
+Sickling crisis – many larger vessels involved and multiple infarctions occur throughout the body and affect brain, bones, organs
+Most commonly obx is in abdomen, chest, bones, joints 
+Significant damage and loss of function occurs in many organs
+Chronic damage to liver, spleen, heart, kidneys, retina from sluggish blood flow and subsequent infarctions 
+What is the problem in aplastic anemia? Bone marrow impairment/failure  low RBCs, low WBCs, low PLT  anemia S/S, infection risk, and bleeding risk
+Blood Compatibility
+Who is the universal donor? Why? O- because every blood type can receive negative blood, and every blood type can receive O blood. O blood doesn’t have antigens, so no one has antibodies against antigens that don’t exist!
+Who is the universal receiver? Why? AB+ because they have A and B antigens, so they don’t have any antibodies against blood types. Rh factor + patients can receive any blood type since they have the D antigen, so either they receive other D antigens (+ blood) or no D antigens (- blood). 
+Transfusion Reactions
+List five potential transfusion reactions:
+Hemolytic
+Febrile 
+Allergic
+TACO (transfusion associated circulatory overload)
+TRALI (transfusion reaction associated lung injury)
+Lymphoma
+What cell type is associated with Hodgkin’s lymphoma? Reed-Sternberg cells
+Where does Non-Hodgkin’s lymphoma originate in the body? Outside of the lymph nodes (extranodal)
+What cells are most affected by lymphoma? B cells
+What manifestations are common in patients with lymphoma?  Painless lymphadenopathy, night sweats, weight loss, poor immune response, fatigue, fever
+Leukemia
+What is the difference between acute and chronic leukemia (oops, not anemia)? Acute leukemia is a much more aggressive and active disease with quick progression of neoplastic WBC proliferation in the BM. Chronic leukemias are slower to proliferate, involve proliferation of more fully differentiated myeloid and lymphoid cells, and S/S largely related to progressive infiltration of BM and lymphoid tissues by neoplastic lymphocytes. 
+What is the difference between myeloid and lymphocytic anemia? Myeloid leukemias affect the myeloid pluripotent (parent) cells that develop into granulocytes, monocytes/macrophages, RBCs, and PLT. Lymphocytic anemia affects the lymphocytic pluripotent (parent) cells that differentiate into NK cells, and B and T lymphocytes. 
+Which type of leukemia is most common in children? ALL
+Which type of leukemia affects the pluripotent stem cells? CML
+What chromosome is associated with this type of leukemia? Philadelphia chromosome
+What is a major complication in leukemia? Explain what this is. Leukostasis and associated thrombo-emboli. Leukostasis is extremely high WBC counts (>100) and they clump together and cause vessel occlusions, especially in pulmonary and cerebral circulation
+Explain the main pathophysiology of leukemia and what it does to the body’s blood cells. All leukemias involve the proliferation of neoplastic (and nonfunctional) WBCs in the bone marrow. This crowds the bone marrow, and massive WBC proliferation means that all the nutrients are being used to make nonfunctional WBCs instead of good WBCs, RBCs, and PLT. Ultimately there is bone marrow suppression and all blood cell types are decreased. 
+GU/RENAL
+Nephrotic & Nephritic Syndrome
+Complete the table below: 
+UTI
+What is an example of an upper UTI? Lower UTI? Upper = pyelonephritis; lower = cystitis
+List five prevention measures for UTIs:
+Wipe front to back
+Void when you feel like you need to (don’t retain/hold in urine)
+Sterile insertion of foley catheters; clean foley catheters
+No bubble baths
+Pee before and after sex
+Stay hydrated
+Don’t sit in your wet; and don’t let your incontinent patients sit in their wet/poop
+Control diabetes/blood sugar levels
+Avoid constipation
+List five manifestations you would expect to find in a patient with cystitis:
+Dysuria
+Urinary frequency
+Urgency
+Lower abdominal pain
+Cloudy and foul smelling urine
+Bacteria, WBCs, leukocyte esterase, and nitrites in urine (urinalysis)
+What is the pathophysiology involved in pyelonephritis? Urine is naturally antibacterial/sterile, but bacteria/organisms can be introduced to the urinary tract through ascending route from urethra (why E coli is most common). Bacteria is usually present at the opening of urethra and instrumentation now causes it to enter urethra or bladder when sterility is broken. E coli is main organism that attaches to bladder wall by fimbriae or pili  not washed out when bladder empties  bladder wall/urethra (cystitis/urethritis) are inflamed, red, edematous, maybe ulcerated  wall is irritated and hyperreactive with reduced capacity E coli travels along continuous mucosa to bladder then along ureters to kidneys 
+What is a major risk factor of UTI development in the hospital? Foley/indwelling catheters and not being sterile during insertion, or not cleaning them twice per shift/daily (depending on hospital protocol)!
+List two different manifestations you would expect in a patient with pyelonephritis:
+Fever, chills
+CVA tenderness
+Nausea, vomiting
+Urinary Obstructions
+What are the four types of kidney stones? State what they are associated with (what patients get them, prevention for them, risk factors, for example). Prevention for all is hydration and don’t have a sedentary lifestyle.
+Calcium – hypercalcemia, hyperparathyroidism, immobile
+Cystine – children, can be genetic
+Struvite – women, associated with UTIs (prevent UTIs)
+Uric acid – from high purine diet, gout, obesity
+List three signs you expect to see in a patient with a kidney stone.
+Renal colic – sudden, severe flank/back/lower abdomen/groin pain
+N/V
+Tachycardia
+Potentially hematuria 
+What is hydronephrosis? urine-filled dilation of renal pelvis and calices associated with progressive atrophy of kidney d/t obx of urine outflow
+Name one other type of urinary obstruction. Strictures (ureteral or urethral), BPH (benign prostatic hyperplasia)
+Acute Kidney Injury (AKI)
+List your causes for each type of AKI:
+Prerenal – PRE = PERfusion  hypovolemia/dehydration, anything with decreased cardiac output (CHF, MI) 
+Intrarenal – INtra = IN kidney (glomerulus or tubule issue)  rhabdomyolysis, glomerulonephritis, nephrotoxic meds, acute tubular necrosis/kidney ischemia
+Postrenal – OBSTRUCTION AFTER the kidney  BPH, kidney stones, strictures, tumors
+How is an AKI different from CKD? AKI is an ACUTE injury that occurs very quickly (hours to days) and is reversible if detected early enough. We determine how severe an AKI is based on creatinine levels. If the AKI is severe, the patient can have all the same S/S as CKD since in both cases the kidney is not working. Causes of AKI are above (pre, intra, post-renal). We determine the level of CKD by GFR. 
+Chronic Kidney Disease (CKD)
+List seven manifestations expected in a patient with ESRD and explain the pathophysiology of that manifestation:
+Hypervolemia – kidneys can’t filter excess water  oliguria/anuria; and RAAS is activated  aldosterone causes sodium and water reabsorption.
+Hyperkalemia, hypermagnesemia – kidneys can’t excrete potassium or magnesium
+Hypocalcemia and fractures – kidneys can’t activate vitamin D  hypocalcemia  increased PTH  bone break down  osteoporosis/osteopenia, fractures
+Metabolic acidosis – kidneys can’t excrete acid (H ion) or make HCO3 
+Pruritus – increased phosphorus in the skin (due to high Phos levels) and high BUN (urea)
+Uremia – signs and symptoms associated with high urea levels  fatigue/lethargy, N/V, uremic fetor, confusion, weakness, encephalopathy
+Fatigue – kidney can’t make EPO  anemia
+Hypertension – d/t hypervolemia and RAAS (angiotensin II  vasoconstriction)
+Cardiovascular disease – kidney can’t excrete excess triglycerides  atherosclerosis  vessel disease 
+Hyperglycemia – kidney can’t excrete excess blood glucose
+List three potential causes of CKD development:
+Diabetes
+Hypertension
+Irreversible AKI
+Dialysis
+Complete the following chart on dialysis: 
+Urinary Incontinence
+What is stress incontinence? When increased intraabdominal pressure forces urine through sphincter d/t weakened pelvic floor muscles
+Cough, laugh, lift 
+More common in women due to multiple pregnancies or age 
+What is urge incontinence? Intense, sudden urge to urinate and incontinence
+Manifestation | Active TB | Latent TB
+Positive skin test | YES | YES
+Ghon complex | YES | YES
+Night sweats and fever | YES | NO
+Need for airborne isolation | YES | NO
+ | Nephrotic Syndrome | Nephritic Syndrome
+Amount of proteinuria? | MASSIVE | Small/moderate (varies)
+What does the urine look like? | Foamy | Hematuria
+Associated with hyperlipidemia? | Yes | No
+Where is the edema? | Generalized | Low pressure areas (periorbital) first, then generalized
+Causes/Examples | Diabetes, SLE (lupus) | Streptococcal infections (strep throat), SLE (lupus)
+Labs (high, low, normal) – GFR, Cr, BUN? | Low GFR, High Cr, High BUN | Low GFR, High Cr, High BUN
+ | Peritoneal Dialysis | Hemodialysis
+Who has a higher baseline creatinine? |  | X
+Frequency of dialysis | Nightly | 3x per week for 3-4 hours each session
+Brief explanation of dialysis mechanism | Peritoneal membrane is the semi-permeable membrane; dialysate instilled into peritoneum  diffusion and osmosis to remove fluid and waste  dialysate with waste and more fluid removed from abdomen | Dialysis cartridge is the semi-permeable membrane; dialysate fluid instilled into the cartridge and then the patient’s access site is accessed to put blood in the small tubules of the cartridge  osmosis and diffusion occur between the dialysate and patient’s blood  waste products and excess fluid removed from patient’s blood through the dialysate
+Access sites | Peritoneal dialysis catheter in abdomen | Arterio-venous graft (AV graft); AV fistula; Central line
+Complications | Peritonitis; Hernias, back pain; Atelectasis, respiratory disease; Catheter site infection | Central line infection; Fistula aneurysm; Fistula/graft thrombosis; Rapid electrolyte and fluid shifts  fatigue, confusion; Distal ischemia; Hypotension during HD
