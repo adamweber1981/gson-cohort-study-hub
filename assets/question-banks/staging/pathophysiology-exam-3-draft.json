@@ -1158,6 +1158,646 @@
       },
       "approved": false,
       "draftNote": "Provisional; source link deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-034",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "An older patient with pneumonia becomes newly confused and has a low oxygen saturation. What is a likely contributor to the change in mental status?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced oxygen delivery"
+        },
+        {
+          "id": "o1",
+          "text": "Increased erythropoietin production"
+        },
+        {
+          "id": "o2",
+          "text": "Improved alveolar diffusion"
+        },
+        {
+          "id": "o3",
+          "text": "Higher platelet production"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Impaired gas exchange in pneumonia can cause hypoxemia and confusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-035",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "A patient has infection involving a single pulmonary lobe. Which pneumonia distribution is described?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lobar pneumonia"
+        },
+        {
+          "id": "o1",
+          "text": "Miliary tuberculosis"
+        },
+        {
+          "id": "o2",
+          "text": "Diffuse pneumothorax"
+        },
+        {
+          "id": "o3",
+          "text": "Pulmonary embolism"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Lobar pneumonia involves a single lung lobe.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-036",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A patient with previous latent tuberculosis becomes immunosuppressed and develops cough, fever, and weight loss. What process is most consistent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Activation of tuberculosis"
+        },
+        {
+          "id": "o1",
+          "text": "Resolution of latent infection"
+        },
+        {
+          "id": "o2",
+          "text": "Development of nephrotic syndrome"
+        },
+        {
+          "id": "o3",
+          "text": "Immediate clot retraction"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Latent TB can become active when immune defenses are suppressed.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-037",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient has a severe asthma attack that persists despite therapy. Which term describes this situation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Status asthmaticus"
+        },
+        {
+          "id": "o1",
+          "text": "Latent tuberculosis"
+        },
+        {
+          "id": "o2",
+          "text": "Chronic nephritis"
+        },
+        {
+          "id": "o3",
+          "text": "Aplastic anemia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Status asthmaticus is a persistent severe asthma attack that does not respond to therapy.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-038",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with COPD has chronically low oxygen levels. Which blood finding can occur as a compensatory response?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased red blood cell production"
+        },
+        {
+          "id": "o1",
+          "text": "Marked platelet consumption from DIC in every patient"
+        },
+        {
+          "id": "o2",
+          "text": "Elimination of hemoglobin"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of all clotting factors"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Chronic hypoxemia can stimulate red blood cell production and result in polycythemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-039",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with COPD develops pulmonary hypertension. Which chamber must work harder to pump against this pressure?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Right ventricle"
+        },
+        {
+          "id": "o1",
+          "text": "Left atrium"
+        },
+        {
+          "id": "o2",
+          "text": "Left ventricle only"
+        },
+        {
+          "id": "o3",
+          "text": "Right atrium only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The right ventricle pumps into pulmonary circulation; increased pulmonary pressure raises its workload.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-040",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "A patient with pneumonia develops infected fluid within the pleural cavity. Which complication does this describe?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Empyema"
+        },
+        {
+          "id": "o1",
+          "text": "Pneumothorax"
+        },
+        {
+          "id": "o2",
+          "text": "Stress incontinence"
+        },
+        {
+          "id": "o3",
+          "text": "Uric acid stone"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Empyema is infection in the pleural cavity and may occur adjacent to bacterial pneumonia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-041",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a massive pulmonary embolism becomes hypotensive. Which mechanism can contribute?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced blood flow through the lungs limits left-sided cardiac filling"
+        },
+        {
+          "id": "o1",
+          "text": "Increased blood return to the left heart"
+        },
+        {
+          "id": "o2",
+          "text": "Improved pulmonary perfusion"
+        },
+        {
+          "id": "o3",
+          "text": "Increased filtration in all nephrons"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "A massive embolus can obstruct pulmonary blood flow, reduce left ventricular filling, and impair systemic perfusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-042",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "After a clot has served its purpose, which enzyme directly breaks down fibrin?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Plasmin"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrinogen"
+        },
+        {
+          "id": "o2",
+          "text": "Hemoglobin"
+        },
+        {
+          "id": "o3",
+          "text": "Albumin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Plasmin participates in fibrinolysis and breaks down the fibrin clot.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-043",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient with hemophilia A has a deficiency of which coagulation factor?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Factor VIII"
+        },
+        {
+          "id": "o1",
+          "text": "Factor XII only"
+        },
+        {
+          "id": "o2",
+          "text": "Erythropoietin"
+        },
+        {
+          "id": "o3",
+          "text": "Intrinsic factor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies hemophilia A as a factor VIII deficiency.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-044",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A patient with DIC has both microvascular clots and bleeding. Why can bleeding occur?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Platelets and coagulation factors are consumed"
+        },
+        {
+          "id": "o1",
+          "text": "Clotting factors are never activated"
+        },
+        {
+          "id": "o2",
+          "text": "Every platelet becomes a red blood cell"
+        },
+        {
+          "id": "o3",
+          "text": "The kidneys produce excess erythropoietin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Widespread coagulation can consume platelets and clotting factors, contributing to bleeding.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-045",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient with anemia reports numbness and difficulty walking. The nurse notes a history of vitamin B12 deficiency. Which anemia is most consistent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pernicious anemia"
+        },
+        {
+          "id": "o1",
+          "text": "Iron deficiency anemia only"
+        },
+        {
+          "id": "o2",
+          "text": "Thrombocytosis"
+        },
+        {
+          "id": "o3",
+          "text": "Polycythemia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates vitamin B12 deficiency and pernicious anemia with paresthesias and ataxia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-046",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "For red blood cell transfusion, which ABO and Rh type is commonly described as the universal recipient?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "AB positive"
+        },
+        {
+          "id": "o1",
+          "text": "O negative"
+        },
+        {
+          "id": "o2",
+          "text": "A negative"
+        },
+        {
+          "id": "o3",
+          "text": "B negative"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "AB positive is commonly described as the universal red blood cell recipient; compatibility testing remains necessary.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-047",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "Which type of leukemia is most common in children according to the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Acute lymphocytic leukemia"
+        },
+        {
+          "id": "o1",
+          "text": "Chronic myeloid leukemia only"
+        },
+        {
+          "id": "o2",
+          "text": "Chronic lymphocytic leukemia only"
+        },
+        {
+          "id": "o3",
+          "text": "Hodgkin lymphoma"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies acute lymphocytic leukemia as the most common type in children.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-048",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "A patient with chronic myeloid leukemia asks about a characteristic chromosome abnormality. Which is associated with CML?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Philadelphia chromosome"
+        },
+        {
+          "id": "o1",
+          "text": "An extra Y chromosome in every case"
+        },
+        {
+          "id": "o2",
+          "text": "Absence of all chromosomes"
+        },
+        {
+          "id": "o3",
+          "text": "Rh D antigen"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The Philadelphia chromosome is associated with chronic myeloid leukemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-049",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "A patient develops hematuria after a streptococcal infection. Which syndrome is consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Nephritic syndrome"
+        },
+        {
+          "id": "o1",
+          "text": "Stress incontinence"
+        },
+        {
+          "id": "o2",
+          "text": "Pneumothorax"
+        },
+        {
+          "id": "o3",
+          "text": "Iron deficiency anemia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates nephritic syndrome with hematuria and prior streptococcal infection.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-050",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "A patient has sudden severe flank pain radiating toward the groin with possible hematuria. Which condition best fits?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Urinary stone"
+        },
+        {
+          "id": "o1",
+          "text": "Latent tuberculosis"
+        },
+        {
+          "id": "o2",
+          "text": "Aplastic anemia"
+        },
+        {
+          "id": "o3",
+          "text": "Pleural empyema"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Renal colic from a urinary stone can cause severe flank or groin pain and hematuria.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-051",
+      "topic": "Acute Kidney Injury",
+      "type": "mcq",
+      "stem": "A patient with benign prostatic hyperplasia develops urinary obstruction and rising creatinine. Which category of AKI is most consistent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Postrenal"
+        },
+        {
+          "id": "o1",
+          "text": "Prerenal from fluid loss"
+        },
+        {
+          "id": "o2",
+          "text": "Intrarenal from a nephrotoxin"
+        },
+        {
+          "id": "o3",
+          "text": "No kidney injury is possible"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "BPH can obstruct urinary outflow, causing postrenal AKI.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-052",
+      "topic": "Chronic Kidney Disease",
+      "type": "mcq",
+      "stem": "A patient with advanced CKD has weak bones and low calcium. What mechanism contributes?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced vitamin D activation decreases calcium absorption"
+        },
+        {
+          "id": "o1",
+          "text": "Excess kidney activation of vitamin D in all patients"
+        },
+        {
+          "id": "o2",
+          "text": "Improved calcium absorption eliminates PTH release"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of fibrin causes bone fractures"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Reduced renal vitamin D activation contributes to hypocalcemia and secondary bone changes.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
+    },
+    {
+      "id": "patho-e3-draft-053",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A patient feels a sudden intense need to void and leaks before reaching the toilet. Which type of incontinence is described?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Urge incontinence"
+        },
+        {
+          "id": "o1",
+          "text": "Stress incontinence only"
+        },
+        {
+          "id": "o2",
+          "text": "Hematuria"
+        },
+        {
+          "id": "o3",
+          "text": "Hydronephrosis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Urge incontinence involves a sudden intense urge followed by involuntary urine loss.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.pdf"
+      },
+      "approved": false,
+      "draftNote": "Provisional; reference deployment and complete bank review pending."
     }
   ]
 }
