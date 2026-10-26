@@ -6,6 +6,8 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+- Added custom practice setup for the shared Fundamentals and Health Assessment Exam 2 banks, including blueprint section, subsection, and question-count choices. The existing full blueprint exam remains available; custom attempts use random approved questions and do not apply full-exam quotas.
+
 ## Unreleased — Health Assessment cranial nerve coverage
 
 - Audited the Chapter 25 course lecture (PDF pp. 11–20) against the Health Assessment Exam 2 bank.
