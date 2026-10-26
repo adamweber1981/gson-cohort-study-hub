@@ -152,6 +152,13 @@ $("references").addEventListener("click",()=>{if(!engine)return;const sources=[.
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
 (async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
+if(bankId==="pathophysiology-exam-3-standard"){
+ const blueprintResponse=await fetch("assets/question-banks/blueprints/pathophysiology-exam-3-standard.json");
+ if(!blueprintResponse.ok)throw Error("Pathophysiology Exam 3 blueprint unavailable");
+ bank.blueprint=await blueprintResponse.json();
+ delete bank.previewCount;
+}
+
 if(bankId==="health-assessment-exam-2-standard"){
  const responseBlueprint=await fetch("assets/question-banks/blueprints/health-assessment-exam-2-standard.json");
  if(!responseBlueprint.ok)throw Error("Health Assessment blueprint unavailable");
