@@ -6,6 +6,8 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+- Removed the Phase 2 demo section from course pages.
+
 - Display numbered course exams in descending order so the newest exam appears first.
 
 - Added an Exam 3 test preview with 98 provisional Pathophysiology questions, blueprint-based 50-question selection, and custom topic/count choices. The bank is incomplete and its content and scoring remain under review.
