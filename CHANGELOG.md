@@ -6,6 +6,8 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+- Added an Exam 3 test preview with 98 provisional Pathophysiology questions, blueprint-based 50-question selection, and custom topic/count choices. The bank is incomplete and its content and scoring remain under review.
+
 - Added custom practice setup for the shared Fundamentals and Health Assessment Exam 2 banks, including blueprint section, subsection, and question-count choices. The existing full blueprint exam remains available; custom attempts use random approved questions and do not apply full-exam quotas.
 
 ## Unreleased — Health Assessment cranial nerve coverage
