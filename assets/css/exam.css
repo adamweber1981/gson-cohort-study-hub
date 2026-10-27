@@ -87,3 +87,11 @@ html:not([data-answer-palette="default"]) .answer-option input{accent-color:curr
 
 
 .practice-setup,.practice-setup #custom-settings{display:grid;gap:10px}.practice-setup #custom-settings[hidden]{display:none}.practice-setup label{font-weight:700;margin-top:8px}.practice-setup select,.practice-setup input{width:100%;max-width:100%;box-sizing:border-box;padding:12px;border:1px solid var(--border);border-radius:9px;background:var(--surface2);color:var(--ink);font:inherit}.practice-setup p{margin:4px 0}
+
+
+/* Blueprint topic and subtopic selection */
+.practice-setup .practice-group{margin:10px 0;padding:12px;border:1px solid var(--border);border-radius:10px}
+.practice-setup .practice-group-label,.practice-setup .practice-choice{display:flex;align-items:flex-start;gap:10px;margin:0;padding:8px;cursor:pointer}
+.practice-setup .practice-choice{font-weight:400}
+.practice-setup .practice-group input[type=checkbox]{width:20px;height:20px;flex:0 0 20px;margin:1px 0 0;padding:0;accent-color:var(--accent)}
+.practice-subtopics{display:grid;gap:2px;padding-left:20px}.practice-subtopics[hidden]{display:none}
