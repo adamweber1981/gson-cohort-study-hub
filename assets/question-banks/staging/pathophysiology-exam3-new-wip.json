@@ -161,6 +161,486 @@
       },
       "approved": false,
       "draftNote": "Unreviewed addition; requires source and semantic duplicate review."
+    },
+    {
+      "id": "patho-e3-new-006",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "A ventilated patient has pooled oral secretions. Which nursing activity addresses a factor associated with ventilator-associated pneumonia in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Providing oral care and managing secretions"
+        },
+        {
+          "id": "o1",
+          "text": "Limiting all oral care"
+        },
+        {
+          "id": "o2",
+          "text": "Keeping secretions pooled in the mouth"
+        },
+        {
+          "id": "o3",
+          "text": "Avoiding assessment of the airway"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet links ventilator-associated pneumonia risk to inadequate oral care and pooled secretions.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-007",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "An older patient with pneumonia has a productive cough and fever. Which auscultation finding over the infected area is consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Crackles or coarse rales"
+        },
+        {
+          "id": "o1",
+          "text": "An absent bowel sound"
+        },
+        {
+          "id": "o2",
+          "text": "A vascular bruit over the kidney"
+        },
+        {
+          "id": "o3",
+          "text": "A heart murmur only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Productive cough and crackles or coarse rales over the affected site are listed pneumonia findings.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-008",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A patient with a positive TB test has no fever, cough, night sweats, or weight loss and is diagnosed with latent infection. What is the most appropriate interpretation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The infection is inactive and is not spread to others"
+        },
+        {
+          "id": "o1",
+          "text": "Active pulmonary TB is established by the test alone"
+        },
+        {
+          "id": "o2",
+          "text": "The patient must have miliary TB"
+        },
+        {
+          "id": "o3",
+          "text": "The absence of symptoms excludes previous exposure"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Latent TB may produce a positive test without symptoms and is not contagious.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-009",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient rapidly breathes during an early asthma attack. Which acid-base disturbance may initially occur from increased ventilation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Respiratory alkalosis"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic acidosis"
+        },
+        {
+          "id": "o2",
+          "text": "Metabolic alkalosis due to bicarbonate gain"
+        },
+        {
+          "id": "o3",
+          "text": "Respiratory acidosis due to immediate carbon dioxide retention in every case"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes early tachypnea causing respiratory alkalosis; severe ventilation failure may later cause respiratory acidosis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-010",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with stable COPD has chronic carbon dioxide retention and elevated bicarbonate. Which interpretation is most consistent with renal compensation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The kidneys retain bicarbonate to help compensate for chronic respiratory acidosis"
+        },
+        {
+          "id": "o1",
+          "text": "The elevated bicarbonate proves all lung disease has resolved"
+        },
+        {
+          "id": "o2",
+          "text": "The low oxygen level means gas exchange is unaffected"
+        },
+        {
+          "id": "o3",
+          "text": "Compensation requires an immediate return of carbon dioxide to normal"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "In chronic carbon dioxide retention, renal bicarbonate retention can help compensate for respiratory acidosis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-011",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "A patient with heart failure develops a pleural effusion related to increased hydrostatic pressure. Which type of fluid is most consistent with that mechanism?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Transudate"
+        },
+        {
+          "id": "o1",
+          "text": "Empyema from pleural infection"
+        },
+        {
+          "id": "o2",
+          "text": "Blood from penetrating trauma"
+        },
+        {
+          "id": "o3",
+          "text": "Air from a pneumothorax"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates transudative effusions with altered hydrostatic or oncotic pressure, including in heart failure.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-012",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient has recurrent spontaneous joint bleeding. A second patient has petechiae and gum bleeding. Which comparison best fits the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The first pattern suggests a coagulation factor problem; the second suggests a platelet problem"
+        },
+        {
+          "id": "o1",
+          "text": "Both patterns uniquely identify platelet excess"
+        },
+        {
+          "id": "o2",
+          "text": "Both patterns prove a urinary tract infection"
+        },
+        {
+          "id": "o3",
+          "text": "Joint bleeding is the defining finding of a normal coagulation system"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Deep joint bleeding is associated with coagulation factor problems; petechiae and gum bleeding fit platelet-related bleeding.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-013",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient reports heavy menstrual bleeding and fatigue. Why does chronic blood loss increase the risk of iron deficiency anemia?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Iron contained in lost blood is not available for normal recycling"
+        },
+        {
+          "id": "o1",
+          "text": "Blood loss directly increases the body's iron stores"
+        },
+        {
+          "id": "o2",
+          "text": "Chronic bleeding always increases intrinsic factor production"
+        },
+        {
+          "id": "o3",
+          "text": "The body converts lost blood into additional platelets"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet explains that iron lost with blood cannot be recycled, increasing iron deficiency risk.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-014",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient with vitamin B12 deficiency asks why intrinsic factor matters. Which explanation is consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Intrinsic factor supports vitamin B12 absorption in the ileum"
+        },
+        {
+          "id": "o1",
+          "text": "Intrinsic factor converts iron directly into platelets"
+        },
+        {
+          "id": "o2",
+          "text": "Intrinsic factor produces fibrin in the pleural space"
+        },
+        {
+          "id": "o3",
+          "text": "Intrinsic factor prevents all urinary stones"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Intrinsic factor is released by gastric mucosa and is needed for B12 absorption in the ileum.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-015",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient with sickle cell anemia develops severe pain during an infection. Which process is most directly responsible for a vaso-occlusive pain crisis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sickled cells obstruct blood flow, causing tissue hypoxia"
+        },
+        {
+          "id": "o1",
+          "text": "All red cells rapidly become larger and transport more oxygen"
+        },
+        {
+          "id": "o2",
+          "text": "The lungs produce intrinsic factor"
+        },
+        {
+          "id": "o3",
+          "text": "Platelets dissolve ureteral stones"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Sickling can obstruct vessels and impair blood flow, causing tissue hypoxia and pain.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-016",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "The nurse reviews the distinction between acute and chronic leukemia. Which statement best matches the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Acute leukemia generally progresses rapidly, while chronic leukemia progresses more slowly"
+        },
+        {
+          "id": "o1",
+          "text": "Chronic leukemia always resolves in hours without treatment"
+        },
+        {
+          "id": "o2",
+          "text": "Acute leukemia involves only platelets and never white cells"
+        },
+        {
+          "id": "o3",
+          "text": "Neither form affects blood cell production"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet contrasts rapid progression in acute leukemia with slower proliferation in chronic leukemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-017",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "A patient with recurrent stones asks about measures relevant to prevention across stone types. Which response reflects the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Maintain hydration and avoid a sedentary lifestyle"
+        },
+        {
+          "id": "o1",
+          "text": "Avoid all water and remain on bed rest"
+        },
+        {
+          "id": "o2",
+          "text": "Stop treating urinary tract infections"
+        },
+        {
+          "id": "o3",
+          "text": "Avoid emptying the bladder"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists hydration and avoiding a sedentary lifestyle as general prevention measures.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-018",
+      "topic": "Acute Kidney Injury",
+      "type": "mcq",
+      "stem": "A patient experiences rhabdomyolysis and subsequently develops kidney injury. Which category is most consistent with direct injury within the kidney?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Intrarenal"
+        },
+        {
+          "id": "o1",
+          "text": "Prerenal from dehydration alone"
+        },
+        {
+          "id": "o2",
+          "text": "Postrenal due to urinary outlet obstruction"
+        },
+        {
+          "id": "o3",
+          "text": "No renal category applies"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists rhabdomyolysis among intrarenal AKI causes.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-019",
+      "topic": "Chronic Kidney Disease",
+      "type": "mcq",
+      "stem": "A patient with advanced CKD has a low bicarbonate level. Which renal impairment helps explain metabolic acidosis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced acid excretion and impaired bicarbonate generation"
+        },
+        {
+          "id": "o1",
+          "text": "Excessive carbon dioxide removal by the lungs"
+        },
+        {
+          "id": "o2",
+          "text": "Excessive removal of every hydrogen ion"
+        },
+        {
+          "id": "o3",
+          "text": "Increased fibrin production in urine"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet explains that kidneys with advanced dysfunction cannot adequately excrete acid or generate bicarbonate.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-020",
+      "topic": "Dialysis",
+      "type": "mcq",
+      "stem": "A patient undergoing peritoneal dialysis has fluid placed in the abdomen. What permits exchange of wastes and water with the dialysate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The peritoneal membrane acts as a semipermeable barrier"
+        },
+        {
+          "id": "o1",
+          "text": "The pleural cavity functions as the dialysis cartridge"
+        },
+        {
+          "id": "o2",
+          "text": "The patient's red cells become the dialysate"
+        },
+        {
+          "id": "o3",
+          "text": "The ureter replaces the peritoneal membrane"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Peritoneal dialysis uses the peritoneal membrane for diffusion and osmosis between blood and dialysate.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
     }
   ]
 }
