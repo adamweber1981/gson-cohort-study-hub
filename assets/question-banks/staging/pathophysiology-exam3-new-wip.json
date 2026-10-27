@@ -641,6 +641,823 @@
       },
       "approved": false,
       "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-021",
+      "topic": "Pneumonia",
+      "type": "sata",
+      "stem": "A nurse reviews patients at risk for pneumonia. Which factors from the course worksheet increase that risk? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Immobility"
+        },
+        {
+          "id": "o1",
+          "text": "Dysphagia with aspiration"
+        },
+        {
+          "id": "o2",
+          "text": "Older age"
+        },
+        {
+          "id": "o3",
+          "text": "Hospital exposure"
+        },
+        {
+          "id": "o4",
+          "text": "Effective secretion clearance"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet identifies immobility, aspiration, older age, and hospital exposure as pneumonia risks.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-022",
+      "topic": "Pneumonia",
+      "type": "sata",
+      "stem": "Which findings in a patient with pneumonia are consistent with impaired respiratory function? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tachypnea"
+        },
+        {
+          "id": "o1",
+          "text": "Increased work of breathing"
+        },
+        {
+          "id": "o2",
+          "text": "Crackles over the affected area"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced oxygen saturation"
+        },
+        {
+          "id": "o4",
+          "text": "Improved activity tolerance"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Pneumonia can cause tachypnea, increased work of breathing, crackles, and impaired oxygenation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-023",
+      "topic": "Asthma",
+      "type": "sata",
+      "stem": "A patient with asthma identifies possible intrinsic triggers. Which examples from the worksheet should the nurse recognize? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cold air"
+        },
+        {
+          "id": "o1",
+          "text": "Exercise"
+        },
+        {
+          "id": "o2",
+          "text": "Respiratory infection"
+        },
+        {
+          "id": "o3",
+          "text": "Aspirin"
+        },
+        {
+          "id": "o4",
+          "text": "Inhaled pollen causing a type I hypersensitivity reaction"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Cold, exercise, respiratory infections, and aspirin are listed as intrinsic triggers; inhaled allergen-associated type I hypersensitivity is classified as extrinsic.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-024",
+      "topic": "COPD",
+      "type": "sata",
+      "stem": "A patient has emphysema. Which consequences of alveolar damage may impair gas exchange? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced surface area"
+        },
+        {
+          "id": "o1",
+          "text": "Loss of alveolar-capillary units"
+        },
+        {
+          "id": "o2",
+          "text": "Less efficient oxygen transfer"
+        },
+        {
+          "id": "o3",
+          "text": "Greater area available for diffusion"
+        },
+        {
+          "id": "o4",
+          "text": "Guaranteed normal blood oxygen levels"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "rationale": "Alveolar destruction reduces available surface area and associated capillary exchange, impairing oxygen transfer.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-025",
+      "topic": "Pleural Disorders",
+      "type": "sata",
+      "stem": "The nurse reviews causes and types of pleural fluid collections. Which pairings are supported by the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hemothorax—blood"
+        },
+        {
+          "id": "o1",
+          "text": "Empyema—infected pleural fluid"
+        },
+        {
+          "id": "o2",
+          "text": "Transudate—altered hydrostatic or oncotic pressure"
+        },
+        {
+          "id": "o3",
+          "text": "Exudate—inflammation or increased vascular permeability"
+        },
+        {
+          "id": "o4",
+          "text": "Pneumothorax—urine in the pleural space"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Hemothorax contains blood; empyema involves infection; transudates and exudates arise through different pressure or inflammatory mechanisms.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-026",
+      "topic": "Pulmonary Embolism",
+      "type": "sata",
+      "stem": "A patient with suspected massive pulmonary embolism becomes hypotensive and confused. Which mechanisms help explain the deterioration? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced blood flow through pulmonary circulation"
+        },
+        {
+          "id": "o1",
+          "text": "Increased right ventricular workload"
+        },
+        {
+          "id": "o2",
+          "text": "Reduced left ventricular filling"
+        },
+        {
+          "id": "o3",
+          "text": "Impaired systemic perfusion"
+        },
+        {
+          "id": "o4",
+          "text": "Improved oxygen exchange in obstructed vessels"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "A large embolus can obstruct pulmonary perfusion, strain the right ventricle, reduce left-sided filling, and impair systemic perfusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-027",
+      "topic": "Hemostasis",
+      "type": "sata",
+      "stem": "Which events occur during platelet plug formation? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Platelets adhere at the injured vessel"
+        },
+        {
+          "id": "o1",
+          "text": "Platelets become activated"
+        },
+        {
+          "id": "o2",
+          "text": "Platelets aggregate"
+        },
+        {
+          "id": "o3",
+          "text": "von Willebrand factor supports platelet adhesion"
+        },
+        {
+          "id": "o4",
+          "text": "Plasmin creates the initial platelet plug"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Platelet plug formation involves activation, adhesion, and aggregation; von Willebrand factor helps platelet adhesion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-028",
+      "topic": "Anemias",
+      "type": "sata",
+      "stem": "Which patients have risk factors for iron deficiency anemia identified in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A pregnant patient"
+        },
+        {
+          "id": "o1",
+          "text": "A patient with heavy menstrual bleeding"
+        },
+        {
+          "id": "o2",
+          "text": "A patient with chronic gastrointestinal bleeding"
+        },
+        {
+          "id": "o3",
+          "text": "An adolescent with increased iron needs"
+        },
+        {
+          "id": "o4",
+          "text": "A patient with no blood loss and adequate iron intake as the only risk"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Increased iron needs and chronic blood loss are listed risks for iron deficiency.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-029",
+      "topic": "Anemias",
+      "type": "sata",
+      "stem": "A patient with sickle cell anemia is being assessed for consequences of hemolysis and vaso-occlusion. Which findings or complications fit? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Jaundice"
+        },
+        {
+          "id": "o1",
+          "text": "Painful ischemic episodes"
+        },
+        {
+          "id": "o2",
+          "text": "Potential organ infarction"
+        },
+        {
+          "id": "o3",
+          "text": "Possible chronic damage to the kidneys or retina"
+        },
+        {
+          "id": "o4",
+          "text": "Guaranteed absence of organ injury"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Sickle cell disease can cause hemolysis and vessel occlusion, producing jaundice, pain, ischemia, and cumulative organ damage.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-030",
+      "topic": "Lymphoma",
+      "type": "sata",
+      "stem": "Which findings are listed in the worksheet as common manifestations of lymphoma? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Painless lymphadenopathy"
+        },
+        {
+          "id": "o1",
+          "text": "Night sweats"
+        },
+        {
+          "id": "o2",
+          "text": "Unexplained weight loss"
+        },
+        {
+          "id": "o3",
+          "text": "Fever and fatigue"
+        },
+        {
+          "id": "o4",
+          "text": "Pain with every enlarged lymph node in every patient"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists painless lymphadenopathy, night sweats, weight loss, fever, and fatigue.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-031",
+      "topic": "UTI",
+      "type": "sata",
+      "stem": "A patient asks about measures that may reduce urinary tract infection risk. Which recommendations are included in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Wipe front to back"
+        },
+        {
+          "id": "o1",
+          "text": "Void when the urge occurs"
+        },
+        {
+          "id": "o2",
+          "text": "Stay hydrated"
+        },
+        {
+          "id": "o3",
+          "text": "Avoid prolonged exposure to wet incontinence products"
+        },
+        {
+          "id": "o4",
+          "text": "Routinely hold urine for as long as possible"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet recommends front-to-back wiping, timely voiding, hydration, and hygiene after incontinence.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-032",
+      "topic": "Urinary Obstructions",
+      "type": "sata",
+      "stem": "Which associations between urinary stone types and risk factors are listed in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Uric acid stones—gout"
+        },
+        {
+          "id": "o1",
+          "text": "Struvite stones—urinary tract infection"
+        },
+        {
+          "id": "o2",
+          "text": "Cystine stones—an inherited tendency"
+        },
+        {
+          "id": "o3",
+          "text": "Calcium stones—hypercalcemia"
+        },
+        {
+          "id": "o4",
+          "text": "Struvite stones—always caused by alpha-1 antitrypsin deficiency"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet links uric acid stones with gout, struvite with infection, cystine with heredity, and calcium stones with hypercalcemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-033",
+      "topic": "Acute Kidney Injury",
+      "type": "sata",
+      "stem": "Which conditions are potential postrenal causes of AKI? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Benign prostatic hyperplasia causing obstruction"
+        },
+        {
+          "id": "o1",
+          "text": "Urinary tract stones causing obstruction"
+        },
+        {
+          "id": "o2",
+          "text": "Ureteral or urethral strictures"
+        },
+        {
+          "id": "o3",
+          "text": "A tumor obstructing urine outflow"
+        },
+        {
+          "id": "o4",
+          "text": "Dehydration without urinary obstruction"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Postrenal AKI results from urinary outflow obstruction; dehydration is a prerenal cause.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-034",
+      "topic": "Acute Kidney Injury",
+      "type": "sata",
+      "stem": "Which findings or circumstances are consistent with intrarenal AKI causes in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Rhabdomyolysis"
+        },
+        {
+          "id": "o1",
+          "text": "Glomerulonephritis"
+        },
+        {
+          "id": "o2",
+          "text": "Nephrotoxic medications"
+        },
+        {
+          "id": "o3",
+          "text": "Acute tubular necrosis"
+        },
+        {
+          "id": "o4",
+          "text": "Urinary obstruction by an enlarged prostate"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet lists direct kidney tissue injuries as intrarenal causes; BPH-related outflow obstruction is postrenal.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-035",
+      "topic": "Chronic Kidney Disease",
+      "type": "sata",
+      "stem": "Which changes can contribute to bone complications in advanced CKD? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced activation of vitamin D"
+        },
+        {
+          "id": "o1",
+          "text": "Low calcium"
+        },
+        {
+          "id": "o2",
+          "text": "Increased parathyroid hormone"
+        },
+        {
+          "id": "o3",
+          "text": "Bone breakdown"
+        },
+        {
+          "id": "o4",
+          "text": "Consistently increased renal vitamin D activation"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Reduced vitamin D activation can contribute to hypocalcemia, secondary PTH elevation, and bone loss.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-036",
+      "topic": "Dialysis",
+      "type": "sata",
+      "stem": "Which are potential complications of peritoneal dialysis listed in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Peritonitis"
+        },
+        {
+          "id": "o1",
+          "text": "Catheter-site infection"
+        },
+        {
+          "id": "o2",
+          "text": "Hernias"
+        },
+        {
+          "id": "o3",
+          "text": "Back pain"
+        },
+        {
+          "id": "o4",
+          "text": "AV fistula thrombosis as its abdominal access complication"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Peritoneal dialysis complications include peritonitis, catheter infection, hernias, and back pain.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-037",
+      "topic": "Dialysis",
+      "type": "sata",
+      "stem": "The nurse reviews access options for hemodialysis. Which are listed in the worksheet? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Arteriovenous fistula"
+        },
+        {
+          "id": "o1",
+          "text": "Arteriovenous graft"
+        },
+        {
+          "id": "o2",
+          "text": "Central venous catheter"
+        },
+        {
+          "id": "o3",
+          "text": "Peritoneal dialysis catheter as the standard vascular hemodialysis access"
+        },
+        {
+          "id": "o4",
+          "text": "Ureteral stent"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "rationale": "The worksheet lists an AV fistula, AV graft, and central line as hemodialysis access options.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-038",
+      "topic": "Urinary Incontinence",
+      "type": "sata",
+      "stem": "Which situations can cause leakage in stress urinary incontinence? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Coughing"
+        },
+        {
+          "id": "o1",
+          "text": "Laughing"
+        },
+        {
+          "id": "o2",
+          "text": "Lifting"
+        },
+        {
+          "id": "o3",
+          "text": "Increased abdominal pressure"
+        },
+        {
+          "id": "o4",
+          "text": "Only an uncontrollable sudden urge with no pressure increase"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "Stress incontinence occurs when increased intra-abdominal pressure leads to leakage, such as with coughing, laughing, or lifting.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-039",
+      "topic": "Hypocoagulation",
+      "type": "sata",
+      "stem": "Which signs can reflect a platelet-related bleeding problem? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Petechiae"
+        },
+        {
+          "id": "o1",
+          "text": "Gum bleeding"
+        },
+        {
+          "id": "o2",
+          "text": "Epistaxis"
+        },
+        {
+          "id": "o3",
+          "text": "Oozing after minor injuries"
+        },
+        {
+          "id": "o4",
+          "text": "Hemarthrosis as the most characteristic platelet finding"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "rationale": "The worksheet links small-vessel bleeding such as petechiae, gum bleeding, epistaxis, and oozing with platelet problems.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-040",
+      "topic": "Chronic Kidney Disease",
+      "type": "sata",
+      "stem": "Which conditions are listed in the worksheet as potential causes of chronic kidney disease? Select all that apply.",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diabetes"
+        },
+        {
+          "id": "o1",
+          "text": "Hypertension"
+        },
+        {
+          "id": "o2",
+          "text": "Irreversible acute kidney injury"
+        },
+        {
+          "id": "o3",
+          "text": "A brief cough with no kidney injury"
+        },
+        {
+          "id": "o4",
+          "text": "An isolated mild headache"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "rationale": "Diabetes, hypertension, and irreversible AKI are listed as potential CKD causes.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate requires independent source and duplicate review."
     }
   ]
 }
