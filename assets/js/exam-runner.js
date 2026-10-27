@@ -15,7 +15,20 @@ function showQuestion(){resetUI();selection=null;const q=engine.current();const 
  else{const feedback=document.createElement("section");feedback.className="feedback "+(prior.correct?"feedback-correct":"feedback-incorrect");feedback.setAttribute("role","status");const verdict=document.createElement("h2");verdict.textContent=prior.correct?"Correct":"Incorrect";feedback.append(verdict);const correct=document.createElement("p");correct.textContent="Correct answer: "+formatAnswer(q,q.correct);feedback.append(correct,Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q));root.append(feedback);if(engine.index===engine.total-1)button("Score Exam",showResults);else button("Next Question",()=>{engine.next();showQuestion()})}
 }
 function formatAnswer(q,key){if(q.type==="matching")return q.pairs.map(p=>p.prompt+" → "+(q.targets.find(t=>t.id===(key?.[p.id]||p.correct))?.text||(key?.[p.id]||p.correct))).join("; ");if(q.type==="dosage")return key+" "+(q.units||"");const ids=Array.isArray(key)?key:[key];return ids.map(id=>q.options?.find(o=>o.id===id)?.text||id).join("; ")}
-function showIntro(){resetUI();meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.innerHTML="<h1>Ready to practice?</h1><p>"+(engine.bank.blueprint?.total||engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt. Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>"+(engine.bank.qaPreview?"<p role=\"note\"><strong>QA PREVIEW — PRACTICE CONTENT UNDER REVIEW.</strong> "+escapeHTML(engine.bank.notice||"Questions are not yet approved.")+"</p>":"");button("Start Exam",()=>{engine.begin();showQuestion()})}
+function showIntro(){
+ resetUI();meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;
+ root.innerHTML="<h1>Ready to practice?</h1><p>Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>"+(engine.bank.qaPreview?"<p role=\"note\"><strong>QA PREVIEW — PRACTICE CONTENT UNDER REVIEW.</strong> "+escapeHTML(engine.bank.notice||"Questions are not yet approved.")+"</p>":"");
+ if(!engine.bank.blueprint){root.append(Object.assign(document.createElement("p"),{textContent:(engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt."}));button("Start Exam",()=>{engine.begin();showQuestion()});return}
+ const bp=engine.bank.blueprint;
+ const setup=document.createElement("div");setup.className="practice-setup";
+ setup.innerHTML='<label for="practice-mode">Practice mode</label><select id="practice-mode"><option value="standard">Full blueprint exam ('+bp.total+' questions)</option><option value="custom">Custom practice</option></select><div id="custom-settings" hidden><label for="practice-topic">Blueprint section</label><select id="practice-topic"></select><label for="practice-subtopic">Blueprint subsection</label><select id="practice-subtopic"></select><label for="practice-count">Number of questions</label><input id="practice-count" type="number" min="1" step="1" inputmode="numeric"><p id="practice-availability" role="status"></p><p class="muted">Custom practice draws randomly from the selected questions. It does not enforce the full exam’s topic or question-type quotas.</p></div>';root.append(setup);
+ const mode=$("practice-mode"),topic=$("practice-topic"),sub=$("practice-subtopic"),count=$("practice-count"),status=$("practice-availability");
+ topic.add(new Option("All blueprint sections","all"));Object.keys(bp.topics).forEach(t=>topic.add(new Option(t,t)));
+ function updateSub(){sub.replaceChildren(new Option("All subsections",""));Object.keys(bp.subtopics?.[topic.value]||{}).forEach(t=>sub.add(new Option(t,t)));sub.disabled=sub.options.length===1;updateCount()}
+ function updateCount(){const n=engine.bank.questions.filter(q=>q.approved===true&&(topic.value==="all"||q.topic===topic.value)&&(!sub.value||q.subtopic===sub.value)).length;count.max=n;count.value=n?Math.min(Number(count.value)||20,n):"";status.textContent=n?n+" approved questions available. Choose 1–"+n+".":"No approved questions are available for this selection.";start.disabled=mode.value==="custom"&&!n}
+ mode.addEventListener("change",()=>{$("custom-settings").hidden=mode.value!=="custom";updateCount()});topic.addEventListener("change",updateSub);sub.addEventListener("change",updateCount);
+ const start=button("Start Exam",()=>{try{if(mode.value==="standard")engine.begin();else{const value=count.valueAsNumber;if(!count.checkValidity()||!Number.isInteger(value))throw Error("Choose a whole number within the available range.");engine.begin({topic:topic.value,subtopic:sub.value,count:value})}showQuestion()}catch(err){alertBox.textContent=err.message}});updateSub();
+}
 function showResults(){const result=engine.score();resetUI();root.innerHTML="<h1>Exam results</h1><p class='score'>"+result.percent+"%</p><p>"+result.correct+" correct · "+result.incorrect+" incorrect · "+result.total+" questions</p>";button("Review Entire Exam",showReview)}
 function showReview(){const items=engine.review();resetUI();root.append(Object.assign(document.createElement("h1"),{textContent:"Read-only exam review"}));items.forEach(({question:q,answer:a},i)=>{const section=document.createElement("section");section.className="review-item";section.append(Object.assign(document.createElement("h2"),{textContent:(i+1)+". "+q.stem}),Object.assign(document.createElement("p"),{textContent:"Your answer: "+formatAnswer(q,a.response)}),Object.assign(document.createElement("p"),{textContent:"Correct answer: "+formatAnswer(q,q.correct)}),Object.assign(document.createElement("p"),{textContent:a.correct?"Correct":"Incorrect"}),Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q),reportLink(q,i+1));root.append(section)})}
 
@@ -133,12 +146,19 @@ $("close-reference").addEventListener("click",()=>$("reference-dialog").close())
 $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("report-preview").value);$("report-status").textContent="Report copied. Paste it into the Google Form when available."}catch(_){$("report-preview").focus();$("report-preview").select();$("report-status").textContent="Select and copy the highlighted report text."}});
 
 function confirmLeave(){return !engine||!["active","submitted"].includes(engine.phase)||confirm("Leave this exam? Your current attempt will be lost.")}
-$("reset-exam").addEventListener("click",()=>{if(engine&&confirm("Start a new randomized attempt? All answers will be cleared.")){engine.reset();showQuestion()}});
+$("reset-exam").addEventListener("click",()=>{if(engine&&confirm("Return to practice setup? All answers will be cleared.")){engine=ExamCore.create(engine.bank);showIntro()}});
 $("return-hub").addEventListener("click",e=>{if(!confirmLeave())e.preventDefault()});
 $("references").addEventListener("click",()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();sources.forEach(s=>{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name)});list.append(b)});dialog.showModal()});
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
 (async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
+if(bankId==="pathophysiology-exam-3-standard"){
+ const blueprintResponse=await fetch("assets/question-banks/blueprints/pathophysiology-exam-3-standard.json");
+ if(!blueprintResponse.ok)throw Error("Pathophysiology Exam 3 blueprint unavailable");
+ bank.blueprint=await blueprintResponse.json();
+ delete bank.previewCount;
+}
+
 if(bankId==="health-assessment-exam-2-standard"){
  const responseBlueprint=await fetch("assets/question-banks/blueprints/health-assessment-exam-2-standard.json");
  if(!responseBlueprint.ok)throw Error("Health Assessment blueprint unavailable");
@@ -167,3 +187,4 @@ if(bankId==="fundamentals-exam-2-qa-standard"){
  }
 }
 engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
+
