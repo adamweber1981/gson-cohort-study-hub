@@ -6,6 +6,23 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+No entries recorded.
+
+## 2026-10-26 — Exam 3 expansion, practice selection, and references
+
+Changes released to `main` and GitHub Pages. Dates are in America/Chicago.
+
+- Added **Full blueprint exam** and **Custom practice** to blueprint-backed shared-engine exams. Full exams use the blueprint's exact topic quotas and the type limits actually configured in that blueprint. Custom practice draws a random, nonrepeating selection from the selected eligible question pool; it does not apply full-exam quotas.
+- Replaced single-section/subsection selection with multiple blueprint groups and subjects. Selecting a group reveals its checked subjects, which can be individually deselected; subjects across groups can be combined. The count field is limited to the currently available pool. For Pathophysiology Exam 3, the groups are **Respiratory**, **Blood**, and **Kidneys / Urinary**; the underlying subject names remain the blueprint topic keys. Blueprints with nested subtopics expose those under their corresponding topic. See [Practice exam selection](References/Design%20Documentation/06-PRACTICE-EXAM-SELECTION.md).
+- Added 27 Exam 3 course-folder resources to the reference collection and exposed them through the exam's References menu. Large AKI, UTI, and Week 5 presentation files are stored as parts and reconstructed by the viewer/download flow; existing question-specific source links remain intact. Keeping a reference available does not imply all its material is in exam scope.
+- Added and later activated 99 provisional Exam 3 questions in the existing 133-question pool, for **232 total**. Twenty-two blueprint subjects have 10 questions each; Anemias has 12. Different questions may revisit the same subject from different angles; do not count cosmetic rewrites as distinct. Exact-stem checking is not a complete semantic duplicate review.
+- Maintained a visible QA-preview notice: independent clinical, source, and substantive duplicate review remains incomplete. The current pool includes **one true/false item**; it cannot satisfy the older 4–6 true/false target for a 50-question attempt. The owner accepted this for now. The Exam 3 blueprint currently enforces 6–10 SATA and 4–6 matching, but has no true/false range.
+- Verified question structure, IDs, keyed choices, all 23 custom topic pool counts, and 100 randomized full-exam assemblies against the configured topic, SATA, and matching rules. Confirmed the 232-question label on GitHub Pages. These checks are not clinical validation or proof that every question is substantively unique.
+- Updated app asset versions, blueprint/reference revalidation, and the service-worker shell after installed iPhone apps displayed older selector data. A user confirmed that removing the older Home Screen app and adding the site again in Safari loaded the updated selector. Bank requests now request fresh data when online. Reloading or reinstalling may discard an in-progress attempt or local preferences.
+- Releases: [Exam 3 preview and navigation, PR #8](https://github.com/adamweber1981/gson-cohort-study-hub/pull/8); [multi-topic selection and references, PR #9](https://github.com/adamweber1981/gson-cohort-study-hub/pull/9); [cache fix, PR #10](https://github.com/adamweber1981/gson-cohort-study-hub/pull/10); [draft inventory, PR #11](https://github.com/adamweber1981/gson-cohort-study-hub/pull/11); [232-question practice preview, PR #12](https://github.com/adamweber1981/gson-cohort-study-hub/pull/12).
+
+### Earlier release notes from this work
+
 - Expanded the Pathophysiology Exam 3 practice preview to 232 questions, with 10–12 questions per blueprint subject. New items are provisional; independent clinical, source, and substantive duplicate review remain incomplete.
 
 - Added multi-select custom practice grouped by blueprint topics and linked the Pathophysiology Exam 3 reference collection.
@@ -144,4 +161,5 @@ _Recorded in the existing HTML changelog; several legacy exam links were subsequ
 4. Never include secrets, admin tokens, push endpoints, personal data, or student-identifying analytics.
 5. Maintain the existing [public HTML changelog](References/changelogs/changelog.html) for students as needed; this Markdown file is the repository's detailed development/release history.
 6. Consult [GitHub commit history](https://github.com/adamweber1981/gson-cohort-study-hub/commits/main/) for individual file-level changes and exact chronology.
+
 
