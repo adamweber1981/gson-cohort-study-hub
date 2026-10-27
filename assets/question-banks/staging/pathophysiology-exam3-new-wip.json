@@ -2276,6 +2276,486 @@
       },
       "approved": false,
       "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-077",
+      "topic": "Tuberculosis",
+      "type": "truefalse",
+      "stem": "True or false: A positive tuberculosis skin test can occur with either active or latent tuberculosis.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet identifies a positive skin test as possible in both active and latent TB.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-078",
+      "topic": "Tuberculosis",
+      "type": "truefalse",
+      "stem": "True or false: A patient with latent tuberculosis and no evidence of active disease can spread the latent infection to others.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "false",
+      "rationale": "The worksheet describes latent infection as inactive and not contagious.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-079",
+      "topic": "Pneumonia",
+      "type": "truefalse",
+      "stem": "True or false: Aspiration pneumonia can follow inhalation of oral secretions or gastric contents.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet includes oral secretions and gastric contents as possible aspirated material.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-080",
+      "topic": "Asthma",
+      "type": "truefalse",
+      "stem": "True or false: An asthma attack that remains severe despite therapy is described as status asthmaticus.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet defines status asthmaticus as a persistent severe attack that does not respond to therapy.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-081",
+      "topic": "COPD",
+      "type": "truefalse",
+      "stem": "True or false: The worksheet identifies alpha-1 antitrypsin mutation as a potential cause of emphysema.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "Alpha-1 antitrypsin mutation is identified as a cause of emphysema in the worksheet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-082",
+      "topic": "Pleural Disorders",
+      "type": "truefalse",
+      "stem": "True or false: An empyema is a collection of air in the pleural space.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "false",
+      "rationale": "Empyema involves infection in the pleural cavity; air in the pleural space describes pneumothorax.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-083",
+      "topic": "Hypercoagulability",
+      "type": "truefalse",
+      "stem": "True or false: Venous stasis is one of the components of Virchow's triad.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "Virchow's triad includes venous stasis, endothelial injury, and hypercoagulability.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-084",
+      "topic": "Hypocoagulation",
+      "type": "truefalse",
+      "stem": "True or false: Hemophilia A is associated with factor VIII deficiency.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet identifies factor VIII deficiency in hemophilia A.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-085",
+      "topic": "Anemias",
+      "type": "truefalse",
+      "stem": "True or false: Iron deficiency anemia is typically associated with low mean corpuscular volume and low mean corpuscular hemoglobin concentration.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet describes iron deficiency anemia as microcytic and hypochromic with low MCV and MCHC.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-086",
+      "topic": "Anemias",
+      "type": "truefalse",
+      "stem": "True or false: Aplastic anemia can increase infection and bleeding risk because bone marrow failure can reduce white cells and platelets.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet describes marrow failure causing reduced red cells, white cells, and platelets.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-087",
+      "topic": "Blood Compatibility",
+      "type": "truefalse",
+      "stem": "True or false: O-negative red blood cells lack A, B, and Rh D antigens.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "O-negative red blood cells lack A, B, and Rh D antigens; compatibility protocols still apply.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-088",
+      "topic": "Leukemia",
+      "type": "truefalse",
+      "stem": "True or false: The worksheet associates the Philadelphia chromosome with chronic myeloid leukemia.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet identifies the Philadelphia chromosome with CML.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-089",
+      "topic": "UTI",
+      "type": "truefalse",
+      "stem": "True or false: Fever and costovertebral angle tenderness are findings associated with pyelonephritis.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "Fever and CVA tenderness are listed among pyelonephritis findings.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-090",
+      "topic": "Urinary Obstructions",
+      "type": "truefalse",
+      "stem": "True or false: Struvite stones are associated with urinary tract infection in the worksheet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet associates struvite stones with UTIs.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-091",
+      "topic": "Acute Kidney Injury",
+      "type": "truefalse",
+      "stem": "True or false: A urinary outflow obstruction from benign prostatic hyperplasia can cause postrenal AKI.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "BPH can obstruct urinary outflow and is listed as a postrenal cause.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-092",
+      "topic": "Chronic Kidney Disease",
+      "type": "truefalse",
+      "stem": "True or false: Reduced erythropoietin production can contribute to anemia in advanced CKD.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "Reduced kidney production of erythropoietin contributes to anemia and fatigue in advanced CKD.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-093",
+      "topic": "Dialysis",
+      "type": "truefalse",
+      "stem": "True or false: The peritoneal membrane serves as a semipermeable membrane in peritoneal dialysis.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The peritoneal membrane permits exchange with dialysate during peritoneal dialysis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-094",
+      "topic": "Urinary Incontinence",
+      "type": "truefalse",
+      "stem": "True or false: Stress incontinence can cause urine leakage when a patient coughs or laughs.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet associates leakage with increased abdominal pressure such as coughing or laughing.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-095",
+      "topic": "Pulmonary Embolism",
+      "type": "truefalse",
+      "stem": "True or false: A pulmonary embolus can strain the right ventricle by increasing resistance in pulmonary circulation.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "Pulmonary vascular obstruction increases the workload of the right ventricle.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
+    },
+    {
+      "id": "patho-e3-new-096",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "truefalse",
+      "stem": "True or false: Hematuria after a streptococcal infection is a pattern associated with nephritic syndrome in the worksheet.",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "rationale": "The worksheet associates nephritic syndrome with hematuria and streptococcal infection.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional: review course source and concept overlap before use."
     }
   ]
 }
