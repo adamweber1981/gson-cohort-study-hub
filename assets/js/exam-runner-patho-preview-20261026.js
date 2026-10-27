@@ -110,7 +110,7 @@ async function setReferencePage(page){
   status.textContent="Unable to render this page. Try Open PDF instead. "+err.message;
  }
 }
-async function openReference(url,title){
+async function openReference(url,title,parts=null){
  const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
  const openToken=++referenceOpenToken;
  $("reference-heading").textContent=title||"Exam reference";
@@ -120,15 +120,16 @@ async function openReference(url,title){
  const nav=$("reference-navigation");nav.hidden=true;
  status.textContent="Loading reference…";dialog.showModal();
  try{
-  const parsed=new URL(url,location.href);
+  let parsed=new URL(url,location.href);
+  if(parts){const chunks=await Promise.all(parts.map(async part=>{const response=await fetch(part);if(!response.ok)throw Error("Reference part unavailable");return response.blob()}));referencePdfUrl=URL.createObjectURL(new Blob(chunks,{type:"application/pdf"}));parsed=new URL(referencePdfUrl);}
   if(parsed.origin!==location.origin)throw Error("This reference is hosted externally and cannot be displayed here.");
   const path=parsed.pathname.toLowerCase();
   if(path.endsWith(".md")||path.endsWith(".txt")){
    const response=await fetch(parsed.href,{cache:"no-store"});
    if(!response.ok)throw Error("Reference unavailable (HTTP "+response.status+").");
    textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent="";
-  }else if(path.endsWith(".pdf")){
-   referencePdfUrl=parsed.origin+parsed.pathname+parsed.search;
+  }else if(path.endsWith(".pdf")||parts){
+   referencePdfUrl=parts?parsed.href:parsed.origin+parsed.pathname+parsed.search;
    referencePage=Math.max(1,parseInt(parsed.hash.match(/page=(\d+)/)?.[1]||"1",10));
    nav.hidden=false;
    $("reference-open-direct").href=referencePdfUrl+"#page="+referencePage;
@@ -151,13 +152,15 @@ async function openReference(url,title){
 $("reference-previous").addEventListener("click",()=>setReferencePage(referencePage-1));
 $("reference-next").addEventListener("click",()=>setReferencePage(referencePage+1));
 $("reference-page").addEventListener("change",e=>setReferencePage(e.target.value));
-$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{++referenceOpenToken;++referenceRenderToken;$("reference-frame").removeAttribute("src");const oldDocument=referenceDocument;referenceDocument=null;if(oldDocument)oldDocument.destroy().catch(()=>{});$("reference-canvas").hidden=true;});
+$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{++referenceOpenToken;++referenceRenderToken;$("reference-frame").removeAttribute("src");const oldDocument=referenceDocument;referenceDocument=null;if(referencePdfUrl.startsWith("blob:"))URL.revokeObjectURL(referencePdfUrl);referencePdfUrl="";if(oldDocument)oldDocument.destroy().catch(()=>{});$("reference-canvas").hidden=true;});
 $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("report-preview").value);$("report-status").textContent="Report copied. Paste it into the Google Form when available."}catch(_){$("report-preview").focus();$("report-preview").select();$("report-status").textContent="Select and copy the highlighted report text."}});
 
 function confirmLeave(){return !engine||!["active","submitted"].includes(engine.phase)||confirm("Leave this exam? Your current attempt will be lost.")}
 $("reset-exam").addEventListener("click",()=>{if(engine&&confirm("Return to practice setup? All answers will be cleared.")){engine=ExamCore.create(engine.bank);showIntro()}});
 $("return-hub").addEventListener("click",e=>{if(!confirmLeave())e.preventDefault()});
-$("references").addEventListener("click",()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();sources.forEach(s=>{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name)});list.append(b)});dialog.showModal()});
+$("references").addEventListener("click",async()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();
+ if(bankId==="pathophysiology-exam-3-standard")try{const response=await fetch("assets/question-banks/pathophysiology-exam-3-references.json");if(!response.ok)throw Error("Reference list unavailable");const manifest=await response.json();for(const name of manifest.files){const path="References/Pathophysiology/Exams/Exam%203/"+encodeURIComponent(name);sources.push({name,path,parts:manifest.parts?.[name]?.map(part=>"References/Pathophysiology/Exams/Exam%203/parts/"+encodeURIComponent(part))})}}catch(err){const notice=document.createElement("p");notice.textContent="Some reference materials could not be loaded.";list.append(notice)}
+ for(const s of [...new Map(sources.map(source=>[source.path,source])).values()]){if(s.parts&&/\.(pptx|docx|xlsx)$/i.test(s.path)){const b=document.createElement("button");b.type="button";b.textContent=s.name+" · Download";b.addEventListener("click",async()=>{b.disabled=true;try{const chunks=await Promise.all(s.parts.map(async part=>{const r=await fetch(part);if(!r.ok)throw Error("Reference part unavailable");return r.blob()}));const url=URL.createObjectURL(new Blob(chunks));const a=document.createElement("a");a.href=url;a.download=s.name;a.click();setTimeout(()=>URL.revokeObjectURL(url),60000)}catch(e){b.textContent="Could not download "+s.name+". Try again."}finally{b.disabled=false}});list.append(b)}else if(/\.(docx|pptx|xlsx)$/i.test(s.path)){const a=document.createElement("a");a.href=s.path;a.target="_blank";a.rel="noopener noreferrer";a.textContent=s.name+" · Open or download";list.append(a)}else{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name,s.parts)});list.append(b)}}dialog.showModal()});
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
 (async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();

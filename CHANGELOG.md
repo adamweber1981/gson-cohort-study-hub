@@ -6,6 +6,8 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+- Added multi-select custom practice grouped by blueprint topics and linked the Pathophysiology Exam 3 reference collection.
+
 - Expanded the Pathophysiology Exam 3 test preview to 133 questions after screening provisional candidates for overlap. Remaining content is provisional and clinical, source, and duplicate review is incomplete; the pool has only one true/false item.
 
 - Removed the Phase 2 demo section from course pages.

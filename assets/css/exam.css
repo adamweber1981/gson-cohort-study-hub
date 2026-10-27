@@ -95,3 +95,5 @@ html:not([data-answer-palette="default"]) .answer-option input{accent-color:curr
 .practice-setup .practice-choice{font-weight:400}
 .practice-setup .practice-group input[type=checkbox]{width:20px;height:20px;flex:0 0 20px;margin:1px 0 0;padding:0;accent-color:var(--accent)}
 .practice-subtopics{display:grid;gap:2px;padding-left:20px}.practice-subtopics[hidden]{display:none}
+
+#references-list a{display:block;padding:14px;text-align:left;border:1px solid var(--border);border-radius:10px;background:var(--surface2);color:var(--ink);text-decoration:none}
