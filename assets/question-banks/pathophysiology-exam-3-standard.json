@@ -2,9 +2,9 @@
   "id": "pathophysiology-exam-3-standard",
   "course": "Pathophysiology",
   "examNumber": "Exam 3",
-  "practiceName": "Exam 3 — 133-question test preview",
+  "practiceName": "Exam 3 — 232-question practice preview",
   "qaPreview": true,
-  "notice": "Provisional content for testing: independent review of clinical accuracy, source support, and duplication remains incomplete.",
+  "notice": "Practice preview: this expanded bank is available for study; independent review of clinical accuracy, source support, and duplicate questions remains incomplete.",
   "questions": [
     {
       "id": "patho-e3-draft-001",
@@ -4537,6 +4537,3273 @@
       },
       "approved": true,
       "sourceReview": "Provisional: course-source and clinical review incomplete"
+    },
+    {
+      "id": "patho-e3-expansion-20261027-001",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "A patient with an acute asthma attack has severe bronchospasm. Which change most directly impairs ventilation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Narrowed airways limit movement of air into and out of the lungs"
+        },
+        {
+          "id": "o1",
+          "text": "Fluid prevents blood from reaching the pulmonary capillaries"
+        },
+        {
+          "id": "o2",
+          "text": "A loss of red blood cells reduces oxygen-carrying capacity"
+        },
+        {
+          "id": "o3",
+          "text": "A clot prevents fibrin breakdown"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Ventilation is air movement. Bronchospasm narrows the airways and makes that movement more difficult.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-002",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "A pulmonary embolus obstructs blood flow past otherwise ventilated alveoli. Which process is most directly disrupted?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Transfer of gases between alveoli and pulmonary blood"
+        },
+        {
+          "id": "o1",
+          "text": "Movement of air through the trachea"
+        },
+        {
+          "id": "o2",
+          "text": "Generation of the respiratory impulse"
+        },
+        {
+          "id": "o3",
+          "text": "Movement of the diaphragm during inspiration"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Blood must reach the alveolar capillaries for oxygen and carbon dioxide to be exchanged.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-003",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "A patient's pleural effusion compresses adjacent lung tissue. What effect on alveoli contributes to reduced gas exchange?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Alveolar collapse reduces the area available for exchange"
+        },
+        {
+          "id": "o1",
+          "text": "Alveoli receive more pulmonary blood than usual"
+        },
+        {
+          "id": "o2",
+          "text": "The chest wall stops producing red blood cells"
+        },
+        {
+          "id": "o3",
+          "text": "The pulmonary artery carries air into the pleural space"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Compression can cause atelectasis, leaving less functioning alveolar surface for exchange.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-004",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "A patient with airway inflammation retains carbon dioxide because exhaled air is trapped. Which component of respiration is most directly affected?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ventilation, because air movement out of the lungs is limited"
+        },
+        {
+          "id": "o1",
+          "text": "Gas exchange alone, because air moves freely in and out"
+        },
+        {
+          "id": "o2",
+          "text": "Hemostasis, because fibrin is not formed"
+        },
+        {
+          "id": "o3",
+          "text": "Perfusion alone, because no airway narrowing is present"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Air trapping reflects impaired ventilation; impaired gas exchange may also occur in the same patient.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-005",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "Which statement correctly compares the alveoli and the airways during breathing?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Airways conduct air; alveoli are the main site of gas exchange"
+        },
+        {
+          "id": "o1",
+          "text": "Airways perform blood clotting; alveoli generate respiratory impulses"
+        },
+        {
+          "id": "o2",
+          "text": "Airways exchange blood cells; alveoli conduct air to the trachea"
+        },
+        {
+          "id": "o3",
+          "text": "Airways oxygenate blood directly; alveoli control urine flow"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Air passes through the airways to the alveoli, where gases move between alveolar air and capillary blood.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-006",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "A patient's respiratory rate is normal, but alveolar exudate blocks diffusion. Why is a normal rate alone insufficient to establish effective oxygenation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Air movement can occur even when diffusion across the alveolar-capillary barrier is impaired"
+        },
+        {
+          "id": "o1",
+          "text": "A normal rate proves that all alveoli are receiving blood"
+        },
+        {
+          "id": "o2",
+          "text": "Gas exchange occurs only during coughing"
+        },
+        {
+          "id": "o3",
+          "text": "Airway obstruction must be present whenever oxygenation is impaired"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Ventilation and gas exchange are related but separate processes; alveolar exudate impairs diffusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-007",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "Which pair correctly links a problem with the respiratory process most directly affected?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bronchoconstriction—ventilation; alveolar exudate—gas exchange"
+        },
+        {
+          "id": "o1",
+          "text": "Bronchoconstriction—fibrinolysis; alveolar exudate—hemostasis"
+        },
+        {
+          "id": "o2",
+          "text": "Bronchoconstriction—blood compatibility; alveolar exudate—platelet adhesion"
+        },
+        {
+          "id": "o3",
+          "text": "Bronchoconstriction—renal filtration; alveolar exudate—urine storage"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Bronchoconstriction restricts airflow, whereas exudate in alveoli interferes with diffusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-008",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A severely injured patient develops widespread microvascular clots and later oozes from a venipuncture site. Which process links these findings?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Systemic activation of coagulation consumes platelets and clotting factors"
+        },
+        {
+          "id": "o1",
+          "text": "Platelets increase without any activation of coagulation"
+        },
+        {
+          "id": "o2",
+          "text": "Fibrin formation is confined to the original injury site"
+        },
+        {
+          "id": "o3",
+          "text": "The body stops forming all clots before platelets are consumed"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "DIC involves widespread coagulation and consumption of clotting components, producing both thrombosis and bleeding.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-009",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A patient with DIC has reduced perfusion in several organs. Which mechanism best accounts for this finding?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Small clots obstruct blood flow in the microcirculation"
+        },
+        {
+          "id": "o1",
+          "text": "Blood moves more freely through all capillaries"
+        },
+        {
+          "id": "o2",
+          "text": "Fibrin dissolves before any clots can form"
+        },
+        {
+          "id": "o3",
+          "text": "Platelets prevent blood from entering the veins by forming a normal local plug"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Widespread microthrombi can obstruct small vessels and impair organ perfusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-010",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A nurse assesses a patient at risk for DIC. Which history identified in the worksheet warrants heightened concern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A major traumatic injury"
+        },
+        {
+          "id": "o1",
+          "text": "An isolated mild seasonal allergy"
+        },
+        {
+          "id": "o2",
+          "text": "A minor paper cut that has stopped bleeding"
+        },
+        {
+          "id": "o3",
+          "text": "A healed ankle sprain from years ago"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Severe trauma is a risk context identified in the worksheet for DIC.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-011",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A patient with DIC is bleeding from multiple sites. Why can bleeding occur even though coagulation has been activated?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Clotting components can be depleted by widespread clot formation"
+        },
+        {
+          "id": "o1",
+          "text": "Clotting factors are produced without limit during DIC"
+        },
+        {
+          "id": "o2",
+          "text": "Platelets never participate in the systemic response"
+        },
+        {
+          "id": "o3",
+          "text": "Microvascular clots supply extra clotting factors to injured vessels"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Widespread activation can consume platelets and coagulation factors, leaving insufficient components for normal hemostasis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-012",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "Which finding best reflects the clotting component of DIC rather than its bleeding component?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Evidence of impaired blood flow to an organ"
+        },
+        {
+          "id": "o1",
+          "text": "Oozing from a puncture site"
+        },
+        {
+          "id": "o2",
+          "text": "Bleeding from the gums"
+        },
+        {
+          "id": "o3",
+          "text": "Prolonged bleeding after a minor injury"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Microvascular thrombosis can impair organ blood flow; oozing and mucosal bleeding reflect the hemorrhagic component.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-013",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A patient with DIC develops bleeding while widespread clotting continues. Which interpretation is most appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bleeding and thrombosis can occur together in DIC"
+        },
+        {
+          "id": "o1",
+          "text": "Bleeding proves DIC cannot involve thrombosis"
+        },
+        {
+          "id": "o2",
+          "text": "DIC affects only one injured vessel"
+        },
+        {
+          "id": "o3",
+          "text": "A single platelet plug explains systemic organ ischemia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Systemic coagulation can cause microthrombi while consumption of clotting components produces bleeding.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-014",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A patient with a serious obstetric complication develops sudden bleeding and evidence of poor organ perfusion. Which disorder should be considered?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Disseminated intravascular coagulation"
+        },
+        {
+          "id": "o1",
+          "text": "Isolated iron deficiency without a coagulation problem"
+        },
+        {
+          "id": "o2",
+          "text": "A normal local platelet plug"
+        },
+        {
+          "id": "o3",
+          "text": "An uncomplicated lower urinary tract infection"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies obstetric complications as a risk context for systemic coagulation and bleeding in DIC.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-015",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "Which explanation should the nurse use when describing DIC to a student?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Abnormal clotting can occur throughout the circulation and deplete the substances needed to stop bleeding"
+        },
+        {
+          "id": "o1",
+          "text": "A clot remains limited to the site of an uncomplicated injury"
+        },
+        {
+          "id": "o2",
+          "text": "The only effect is increased red blood cell production"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrin is never produced anywhere in the body"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "DIC is a systemic coagulation process that can cause both consumption-related bleeding and microvascular obstruction.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-016",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "A patient with type A blood needs red blood cells. Which donor ABO type is compatible based on the recipient's anti-B antibodies?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Type O red blood cells"
+        },
+        {
+          "id": "o1",
+          "text": "Type B red blood cells"
+        },
+        {
+          "id": "o2",
+          "text": "Type AB red blood cells"
+        },
+        {
+          "id": "o3",
+          "text": "A red blood cell with a B antigen"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Type A recipients have anti-B antibodies; type O red cells have neither A nor B antigens. Crossmatching remains necessary.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-017",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "A patient has type B blood. Which red blood cell antigen is absent from the patient's ABO type?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A antigen"
+        },
+        {
+          "id": "o1",
+          "text": "B antigen"
+        },
+        {
+          "id": "o2",
+          "text": "All ABO antigens in every circumstance"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrin antigen"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Type B red cells express B antigens and lack A antigens.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-018",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "Why can type O red blood cells be used across ABO groups when clinically appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "They do not express A or B red blood cell antigens"
+        },
+        {
+          "id": "o1",
+          "text": "They contain both A and B red blood cell antigens"
+        },
+        {
+          "id": "o2",
+          "text": "They always contain the Rh D antigen"
+        },
+        {
+          "id": "o3",
+          "text": "They eliminate all need for compatibility testing"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Type O red cells lack A and B antigens; Rh type and other compatibility considerations still matter.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-019",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "A patient is Rh negative. Which red blood cell feature describes Rh-negative donor blood?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It lacks the Rh D antigen"
+        },
+        {
+          "id": "o1",
+          "text": "It always expresses the Rh D antigen"
+        },
+        {
+          "id": "o2",
+          "text": "It expresses both A and B antigens"
+        },
+        {
+          "id": "o3",
+          "text": "It contains no hemoglobin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Rh-negative red cells lack the D antigen. ABO and full compatibility still must be assessed.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-020",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "For red blood cell transfusion, why can an AB recipient generally receive ABO types A, B, AB, or O?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The recipient does not normally have anti-A or anti-B antibodies"
+        },
+        {
+          "id": "o1",
+          "text": "The recipient has antibodies to both A and B antigens"
+        },
+        {
+          "id": "o2",
+          "text": "All AB recipients are Rh negative"
+        },
+        {
+          "id": "o3",
+          "text": "AB red cells lack both A and B antigens"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "AB recipients have A and B antigens and normally lack anti-A and anti-B antibodies; Rh and other compatibility checks still apply.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-021",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "A patient asks what the plus sign in AB-positive blood indicates. What should the nurse explain?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The Rh D antigen is present on the red blood cells"
+        },
+        {
+          "id": "o1",
+          "text": "Neither A nor B antigens are present"
+        },
+        {
+          "id": "o2",
+          "text": "The blood lacks all red cell antigens"
+        },
+        {
+          "id": "o3",
+          "text": "The patient cannot receive Rh-negative red cells"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The positive designation indicates expression of Rh D antigen.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-022",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "Which comparison correctly describes ABO antigens on type A and type O red blood cells?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Type A cells express A antigen; type O cells express neither A nor B antigen"
+        },
+        {
+          "id": "o1",
+          "text": "Type A cells express B antigen; type O cells express both antigens"
+        },
+        {
+          "id": "o2",
+          "text": "Type A cells lack all antigens; type O cells express A antigen"
+        },
+        {
+          "id": "o3",
+          "text": "Both type A and type O cells express B antigen"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Type A cells express A antigen, while type O cells lack both major ABO antigens.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-023",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops a fever during a blood transfusion. Which reaction category in the worksheet is associated with fever?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Febrile transfusion reaction"
+        },
+        {
+          "id": "o1",
+          "text": "Transfusion-associated circulatory overload"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated ABO compatibility"
+        },
+        {
+          "id": "o3",
+          "text": "Normal clot retraction"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "A febrile transfusion reaction is one of the reaction categories identified in the worksheet. A new fever during transfusion requires prompt assessment.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-024",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops hives and itching during a transfusion. Which category best describes this pattern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Allergic transfusion reaction"
+        },
+        {
+          "id": "o1",
+          "text": "Transfusion-associated circulatory overload"
+        },
+        {
+          "id": "o2",
+          "text": "Chronic kidney disease"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrinolysis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hives and itching are consistent with an allergic reaction; new symptoms during transfusion require prompt follow-up.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-025",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops acute respiratory compromise during a transfusion and is diagnosed with transfusion-related acute lung injury. Which abbreviation identifies the reaction?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "TRALI"
+        },
+        {
+          "id": "o1",
+          "text": "TACO"
+        },
+        {
+          "id": "o2",
+          "text": "DIC"
+        },
+        {
+          "id": "o3",
+          "text": "UTI"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "TRALI stands for transfusion-related acute lung injury; TACO describes circulatory overload.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-026",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops a serious reaction after receiving incompatible red blood cells. Which reaction type involves destruction of transfused red blood cells?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hemolytic transfusion reaction"
+        },
+        {
+          "id": "o1",
+          "text": "Febrile nonhemolytic reaction"
+        },
+        {
+          "id": "o2",
+          "text": "Transfusion-associated circulatory overload"
+        },
+        {
+          "id": "o3",
+          "text": "Allergic urticaria without hemolysis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hemolytic reactions involve red cell destruction and may occur with incompatible red blood cells.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-027",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops dyspnea during a transfusion. The care team suspects excess circulating fluid. Which term fits the suspected cause?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Transfusion-associated circulatory overload"
+        },
+        {
+          "id": "o1",
+          "text": "Transfusion-related acute lung injury by definition"
+        },
+        {
+          "id": "o2",
+          "text": "A platelet plug"
+        },
+        {
+          "id": "o3",
+          "text": "A localized pneumothorax by definition"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "TACO is circulatory overload associated with transfusion. Dyspnea has multiple possible causes and requires assessment.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-028",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "Which pair correctly expands the abbreviations used for transfusion-associated respiratory complications?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "TACO—circulatory overload; TRALI—acute lung injury"
+        },
+        {
+          "id": "o1",
+          "text": "TACO—acute lung injury; TRALI—circulatory overload"
+        },
+        {
+          "id": "o2",
+          "text": "TACO—iron deficiency; TRALI—platelet deficiency"
+        },
+        {
+          "id": "o3",
+          "text": "TACO—urinary obstruction; TRALI—renal replacement"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "TACO refers to circulatory overload and TRALI to acute lung injury, two distinct transfusion complications.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-029",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops itching and raised wheals during a transfusion. Which reaction is most consistent with these skin findings?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "An allergic reaction"
+        },
+        {
+          "id": "o1",
+          "text": "A hemolytic reaction identified solely by the wheals"
+        },
+        {
+          "id": "o2",
+          "text": "A transfusion reaction involving only excess fluid"
+        },
+        {
+          "id": "o3",
+          "text": "An absence of any transfusion reaction"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Urticaria and pruritus are characteristic of allergic reactions; additional assessment is required to establish severity.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-030",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A student says every transfusion complication is caused by fluid overload. Which response is most accurate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hemolytic, febrile, allergic, TACO, and TRALI reactions are different categories"
+        },
+        {
+          "id": "o1",
+          "text": "Fluid overload is the only reaction described in the worksheet"
+        },
+        {
+          "id": "o2",
+          "text": "TRALI and TACO are identical names for the same mechanism"
+        },
+        {
+          "id": "o3",
+          "text": "Transfusion reactions cannot affect the lungs"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies multiple distinct transfusion reaction types, including both TACO and TRALI.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-031",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops fever during a transfusion, while another develops raised itchy wheals. Which comparison best matches these reaction categories?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Fever can indicate a febrile reaction; itchy wheals suggest an allergic reaction"
+        },
+        {
+          "id": "o1",
+          "text": "Fever indicates urinary obstruction; wheals indicate nephritic syndrome"
+        },
+        {
+          "id": "o2",
+          "text": "Both findings establish circulatory overload as the only possible cause"
+        },
+        {
+          "id": "o3",
+          "text": "Neither finding warrants assessment during a transfusion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Fever can accompany a febrile transfusion reaction, while itching and wheals suggest an allergic reaction. Either finding requires assessment, and other causes remain possible.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-032",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A lymph node biopsy identifies Reed-Sternberg cells. Which diagnosis does this finding support?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hodgkin lymphoma"
+        },
+        {
+          "id": "o1",
+          "text": "Chronic kidney disease"
+        },
+        {
+          "id": "o2",
+          "text": "Iron deficiency anemia"
+        },
+        {
+          "id": "o3",
+          "text": "Hemophilia A"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Reed-Sternberg cells are associated with Hodgkin lymphoma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-033",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A patient has lymphoma involving tissue outside a lymph node. The worksheet associates extranodal origin with which broad category?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Non-Hodgkin lymphoma"
+        },
+        {
+          "id": "o1",
+          "text": "Hodgkin lymphoma exclusively"
+        },
+        {
+          "id": "o2",
+          "text": "Aplastic anemia"
+        },
+        {
+          "id": "o3",
+          "text": "Hemophilia A"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates extranodal origin with non-Hodgkin lymphoma; individual lymphomas vary in presentation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-034",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A patient with lymphoma reports persistent fatigue and recurrent infections. Which explanation is consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lymphoma can be associated with a poor immune response"
+        },
+        {
+          "id": "o1",
+          "text": "Lymphoma prevents all bleeding by increasing fibrin"
+        },
+        {
+          "id": "o2",
+          "text": "Lymphoma directly blocks urine flow in every patient"
+        },
+        {
+          "id": "o3",
+          "text": "A normal immune response rules out fatigue"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists poor immune response and fatigue among manifestations associated with lymphoma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-035",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "The nurse reviews the cell lineage most commonly affected in lymphoma according to the worksheet. Which is it?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "B lymphocytes"
+        },
+        {
+          "id": "o1",
+          "text": "Red blood cells"
+        },
+        {
+          "id": "o2",
+          "text": "Platelets"
+        },
+        {
+          "id": "o3",
+          "text": "Renal tubular cells"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies B lymphocytes as the cells most often affected in lymphoma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-036",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "Which symptom pattern warrants evaluation for lymphoma according to the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Painless lymph node enlargement with night sweats and unexplained weight loss"
+        },
+        {
+          "id": "o1",
+          "text": "Sudden urine leakage only when coughing"
+        },
+        {
+          "id": "o2",
+          "text": "Severe unilateral flank pain after a kidney stone"
+        },
+        {
+          "id": "o3",
+          "text": "Joint bleeding after a factor VIII deficiency"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists painless lymphadenopathy, night sweats, and weight loss as possible lymphoma manifestations.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-037",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A patient with enlarged lymph nodes reports fever and unexplained weight loss. Which additional finding would be consistent with the worksheet's lymphoma manifestations?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Night sweats"
+        },
+        {
+          "id": "o1",
+          "text": "Urine leakage only during exercise"
+        },
+        {
+          "id": "o2",
+          "text": "Wheezing limited to cold-air exposure"
+        },
+        {
+          "id": "o3",
+          "text": "Blood in the pleural space after a fracture"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Fever, weight loss, and night sweats are among the manifestations identified in the worksheet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-038",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A student asks why painless lymphadenopathy deserves evaluation. Which response is most appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It can occur in lymphoma, especially when accompanied by constitutional symptoms"
+        },
+        {
+          "id": "o1",
+          "text": "Painless lymph nodes always establish a lymphoma diagnosis"
+        },
+        {
+          "id": "o2",
+          "text": "It confirms an acute pulmonary embolus"
+        },
+        {
+          "id": "o3",
+          "text": "It proves that red blood cells lack hemoglobin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Painless lymphadenopathy is a possible lymphoma finding but does not establish the diagnosis by itself.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-039",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "Which finding favors nephrotic over nephritic syndrome in the worksheet's comparison?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Massive proteinuria with hyperlipidemia"
+        },
+        {
+          "id": "o1",
+          "text": "Hematuria after streptococcal infection"
+        },
+        {
+          "id": "o2",
+          "text": "Hematuria with relatively less proteinuria"
+        },
+        {
+          "id": "o3",
+          "text": "An isolated ureteral stone"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates nephrotic syndrome with massive proteinuria and hyperlipidemia, whereas hematuria is emphasized in nephritic syndrome.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-040",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "The nurse reviews edema patterns in renal syndromes. Which location is identified as an early site of edema in nephritic syndrome?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Around the eyes"
+        },
+        {
+          "id": "o1",
+          "text": "The pleural cavity as the only possible site"
+        },
+        {
+          "id": "o2",
+          "text": "A single knee joint after trauma"
+        },
+        {
+          "id": "o3",
+          "text": "Only the site of an indwelling catheter"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies periorbital edema as an early finding in nephritic syndrome, which can progress to generalized edema.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-041",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "In the worksheet's comparison, which laboratory pattern may occur in both nephritic and nephrotic syndromes?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Decreased GFR with increased creatinine and BUN"
+        },
+        {
+          "id": "o1",
+          "text": "Increased GFR with decreased creatinine and BUN in every case"
+        },
+        {
+          "id": "o2",
+          "text": "Normal GFR with no possible change in waste levels"
+        },
+        {
+          "id": "o3",
+          "text": "Increased GFR caused by increased platelet aggregation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet's chart lists low GFR and increased creatinine and BUN for both conditions.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-042",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "Which urinary finding would more strongly suggest nephritic than nephrotic syndrome?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Visible blood in the urine"
+        },
+        {
+          "id": "o1",
+          "text": "Markedly foamy urine caused by massive protein loss"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated leakage during coughing"
+        },
+        {
+          "id": "o3",
+          "text": "A normal urine appearance without other findings"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hematuria is the distinguishing urine finding emphasized for nephritic syndrome in the worksheet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-043",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "A student compares protein loss in the two syndromes. Which statement reflects the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Proteinuria is typically massive in nephrotic syndrome and smaller or variable in nephritic syndrome"
+        },
+        {
+          "id": "o1",
+          "text": "Proteinuria is always absent in both syndromes"
+        },
+        {
+          "id": "o2",
+          "text": "Nephritic syndrome always causes more protein loss than nephrotic syndrome"
+        },
+        {
+          "id": "o3",
+          "text": "Protein loss occurs only in stress incontinence"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes massive proteinuria in nephrotic syndrome and smaller or variable amounts in nephritic syndrome.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-044",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "Which condition appears in the worksheet as a possible cause associated with either nephritic or nephrotic syndrome?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Systemic lupus erythematosus"
+        },
+        {
+          "id": "o1",
+          "text": "An isolated ankle sprain"
+        },
+        {
+          "id": "o2",
+          "text": "An acute allergic transfusion reaction"
+        },
+        {
+          "id": "o3",
+          "text": "A pneumothorax after a biopsy"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists systemic lupus erythematosus as a possible association with both syndromes.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-045",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "A patient has extensive edema and hyperlipidemia. Which additional finding would fit the worksheet's nephrotic pattern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Marked protein loss in urine"
+        },
+        {
+          "id": "o1",
+          "text": "Only blood in the pleural space"
+        },
+        {
+          "id": "o2",
+          "text": "Bleeding into a joint from factor VIII deficiency"
+        },
+        {
+          "id": "o3",
+          "text": "A sudden urge to void without a renal finding"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Nephrotic syndrome is characterized in the worksheet by marked proteinuria, edema, and hyperlipidemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-046",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A patient remains continent at rest but leaks a small amount while lifting a box. Which event most directly triggers the leakage?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "An increase in intra-abdominal pressure"
+        },
+        {
+          "id": "o1",
+          "text": "Increased pulmonary artery pressure"
+        },
+        {
+          "id": "o2",
+          "text": "Destruction of alveolar walls"
+        },
+        {
+          "id": "o3",
+          "text": "A systemic coagulation cascade"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Lifting increases intra-abdominal pressure and can produce stress incontinence when pelvic support is weakened.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-047",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A patient reports a strong sudden urge to urinate followed by leakage before reaching the bathroom. Which pattern is present?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Urge incontinence"
+        },
+        {
+          "id": "o1",
+          "text": "Stress incontinence limited to coughing"
+        },
+        {
+          "id": "o2",
+          "text": "A hemolytic transfusion reaction"
+        },
+        {
+          "id": "o3",
+          "text": "A pleural effusion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Urge incontinence involves an intense, sudden urge with involuntary urine loss.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-048",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "Which history is associated with weakened pelvic floor support and stress incontinence in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Multiple pregnancies"
+        },
+        {
+          "id": "o1",
+          "text": "A recent platelet transfusion alone"
+        },
+        {
+          "id": "o2",
+          "text": "An airborne tuberculosis exposure"
+        },
+        {
+          "id": "o3",
+          "text": "A single episode of fever without urinary symptoms"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates stress incontinence with weakened pelvic floor support, including after multiple pregnancies.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-049",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "Which observation best distinguishes stress from urge incontinence?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Leakage during coughing without a preceding sudden urge"
+        },
+        {
+          "id": "o1",
+          "text": "A sudden compelling urge immediately before leakage"
+        },
+        {
+          "id": "o2",
+          "text": "Urgency that prevents reaching the toilet"
+        },
+        {
+          "id": "o3",
+          "text": "A sudden need to void followed by urine loss"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Leakage provoked by coughing reflects pressure-related stress incontinence; an abrupt compelling urge points toward urge incontinence.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-050",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A patient reports urine leakage during a sneeze and asks why it happens. Which explanation matches the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pressure in the abdomen increases and can overcome weakened pelvic floor support"
+        },
+        {
+          "id": "o1",
+          "text": "An embolus increases pulmonary blood flow"
+        },
+        {
+          "id": "o2",
+          "text": "A deficiency of factor VIII prevents urine formation"
+        },
+        {
+          "id": "o3",
+          "text": "Fluid in the pleural space compresses the bladder"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Sneezing increases intra-abdominal pressure, which can contribute to leakage when pelvic support is weakened.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-051",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A nurse compares two patients: one leaks during laughter and one leaks after a sudden intense urge. Which classification is correct?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Laughter: stress; sudden urge: urge incontinence"
+        },
+        {
+          "id": "o1",
+          "text": "Laughter: urge; sudden urge: stress incontinence"
+        },
+        {
+          "id": "o2",
+          "text": "Both patterns are necessarily overflow incontinence"
+        },
+        {
+          "id": "o3",
+          "text": "Neither pattern is a form of incontinence"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Pressure-related leakage is stress incontinence; a compelling urge before leakage is urge incontinence.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-052",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "A patient aspirates after vomiting. Which material can enter the airways and contribute to aspiration pneumonia?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Gastric contents"
+        },
+        {
+          "id": "o1",
+          "text": "Red blood cells from a compatible transfusion"
+        },
+        {
+          "id": "o2",
+          "text": "Dialysate from a hemodialysis cartridge"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrin formed during clot retraction"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies aspiration of gastric contents as a possible cause of pneumonia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-053",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A person with active tuberculosis reports fever and weight loss. Which additional symptom from the worksheet supports the active disease pattern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Night sweats"
+        },
+        {
+          "id": "o1",
+          "text": "Urinary leakage when coughing"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated painless hematuria after streptococcal infection"
+        },
+        {
+          "id": "o3",
+          "text": "Oozing after a platelet deficit"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists fever, weight loss, and night sweats among manifestations of active TB.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-054",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A patient with suspected active pulmonary tuberculosis is being placed in isolation. Which transmission precaution is identified in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Airborne isolation"
+        },
+        {
+          "id": "o1",
+          "text": "No isolation regardless of symptoms"
+        },
+        {
+          "id": "o2",
+          "text": "Contact isolation as the only precaution for active TB"
+        },
+        {
+          "id": "o3",
+          "text": "Isolation only for asymptomatic latent infection"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet distinguishes active TB, which requires airborne isolation, from latent infection.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-055",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A patient asks what primary tuberculosis means. Which response is consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The patient's first infection following initial exposure"
+        },
+        {
+          "id": "o1",
+          "text": "A term meaning spread to multiple organs"
+        },
+        {
+          "id": "o2",
+          "text": "A previously healed pleural injury"
+        },
+        {
+          "id": "o3",
+          "text": "A noninfectious reaction to a blood transfusion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes primary TB as disease associated with an initial encounter with tuberculosis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-056",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient with asthma develops airway narrowing after inflammation and mucosal edema. Which added airway change further contributes to obstruction?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased mucus production"
+        },
+        {
+          "id": "o1",
+          "text": "Decreased mucus production in every case"
+        },
+        {
+          "id": "o2",
+          "text": "Loss of the Rh D antigen"
+        },
+        {
+          "id": "o3",
+          "text": "Clot retraction in the bloodstream"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Inflammation with edema, bronchoconstriction, and increased mucus contribute to narrowed airways in asthma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-057",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "Which assessment finding in an acute asthma exacerbation indicates increased respiratory effort?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dyspnea and chest tightness"
+        },
+        {
+          "id": "o1",
+          "text": "Painless lymphadenopathy only"
+        },
+        {
+          "id": "o2",
+          "text": "Foamy urine without respiratory symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Bleeding into a joint"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Dyspnea and chest tightness are manifestations of an asthma exacerbation listed in the worksheet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-058",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient with asthma is breathing rapidly early in an exacerbation. Which acid-base change may occur initially?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Respiratory alkalosis from increased carbon dioxide elimination"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic acidosis caused solely by hemolysis"
+        },
+        {
+          "id": "o2",
+          "text": "Respiratory acidosis caused by carbon dioxide retention in every early episode"
+        },
+        {
+          "id": "o3",
+          "text": "No acid-base change can ever occur with asthma"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Early tachypnea can lower carbon dioxide and cause respiratory alkalosis; later failure to ventilate may lead to retention.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-059",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with COPD develops right-sided heart failure after prolonged pulmonary hypertension. Which term describes this complication?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cor pulmonale"
+        },
+        {
+          "id": "o1",
+          "text": "Hydronephrosis"
+        },
+        {
+          "id": "o2",
+          "text": "Hemarthrosis"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrinolysis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Cor pulmonale refers to right-sided heart dysfunction associated with pulmonary hypertension.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-060",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with COPD has narrowed airways, excess mucus, and difficulty exhaling. What is a likely consequence?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Air trapping and carbon dioxide retention"
+        },
+        {
+          "id": "o1",
+          "text": "Increased clearance of all retained air"
+        },
+        {
+          "id": "o2",
+          "text": "Absence of any effect on ventilation"
+        },
+        {
+          "id": "o3",
+          "text": "Immediate elimination of pulmonary hypertension"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Narrowed airways and mucus impede expiration, contributing to air trapping and carbon dioxide retention.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-061",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "A patient with a pleural effusion becomes short of breath. Which effect of pleural fluid contributes to this symptom?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Compression of lung tissue and alveolar collapse"
+        },
+        {
+          "id": "o1",
+          "text": "Opening of previously collapsed alveoli by air in the pleural cavity"
+        },
+        {
+          "id": "o2",
+          "text": "Improved oxygen diffusion through fluid-filled tissue"
+        },
+        {
+          "id": "o3",
+          "text": "Increased platelet production in the pleural space"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Pleural fluid can compress adjacent lung and cause atelectasis, impairing gas exchange.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-062",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "A patient has blunt chest trauma with a broken rib. Which pleural complication is associated with this type of injury?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pneumothorax"
+        },
+        {
+          "id": "o1",
+          "text": "An intrinsic factor deficiency"
+        },
+        {
+          "id": "o2",
+          "text": "A febrile transfusion reaction"
+        },
+        {
+          "id": "o3",
+          "text": "A ureteral stricture"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies chest trauma and broken ribs as risks for pneumothorax.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-063",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "A patient with kidney disease develops a pleural effusion associated with altered hydrostatic or oncotic pressure. Which fluid classification is most consistent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Transudative effusion"
+        },
+        {
+          "id": "o1",
+          "text": "Purulent empyema in every case"
+        },
+        {
+          "id": "o2",
+          "text": "Air within the pleural cavity"
+        },
+        {
+          "id": "o3",
+          "text": "A pulmonary embolus"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Transudative effusions may occur when hydrostatic or oncotic pressure shifts fluid into the pleural space.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-064",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a pulmonary embolism is tachycardic and anxious. Which additional finding from the worksheet should the nurse assess?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sudden dyspnea and chest pain"
+        },
+        {
+          "id": "o1",
+          "text": "Foamy urine as the defining symptom"
+        },
+        {
+          "id": "o2",
+          "text": "Bleeding into a joint as the defining symptom"
+        },
+        {
+          "id": "o3",
+          "text": "A painless enlarged lymph node only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists dyspnea, chest pain, tachycardia, and anxiety among PE manifestations.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-065",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A massive pulmonary embolus increases pressure against which heart chamber?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Right ventricle"
+        },
+        {
+          "id": "o1",
+          "text": "Left atrium alone"
+        },
+        {
+          "id": "o2",
+          "text": "Left ventricle alone"
+        },
+        {
+          "id": "o3",
+          "text": "No cardiac chamber"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "An embolus increases pulmonary vascular resistance, making the right ventricle work harder to pump into the pulmonary arteries.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-066",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a massive PE becomes confused and has a weak rapid pulse. Which explanation best fits the clinical change?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced circulation and oxygen delivery can impair cerebral function"
+        },
+        {
+          "id": "o1",
+          "text": "Increased pulmonary perfusion guarantees adequate brain perfusion"
+        },
+        {
+          "id": "o2",
+          "text": "A normal platelet plug increases cerebral blood flow"
+        },
+        {
+          "id": "o3",
+          "text": "The embolus improves blood return to the left heart"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Massive PE can impair circulation and oxygen delivery, contributing to hypotension and altered mental status.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-067",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a recent leg DVT asks why new chest pain and shortness of breath are concerning. What is the best explanation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A thrombus can travel to pulmonary circulation and obstruct blood flow"
+        },
+        {
+          "id": "o1",
+          "text": "A DVT always becomes a pleural fluid collection"
+        },
+        {
+          "id": "o2",
+          "text": "A clot in a leg vein prevents any possible lung complication"
+        },
+        {
+          "id": "o3",
+          "text": "A DVT causes type B red blood cell antigens"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies DVT as a major risk factor for pulmonary embolism.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-068",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "After vessel injury, what role does von Willebrand factor play in early hemostasis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It helps platelets adhere at the injured vessel wall"
+        },
+        {
+          "id": "o1",
+          "text": "It dissolves the completed clot as plasmin"
+        },
+        {
+          "id": "o2",
+          "text": "It carries oxygen between alveoli and blood"
+        },
+        {
+          "id": "o3",
+          "text": "It converts red cells into white cells"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Von Willebrand factor supports platelet adhesion during formation of the platelet plug.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-069",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "A student observes platelets change shape and stick together at an injured vessel. Which phase is being described?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Platelet plug formation"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrinolysis after healing"
+        },
+        {
+          "id": "o2",
+          "text": "Renal filtration"
+        },
+        {
+          "id": "o3",
+          "text": "Ventilation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Platelet activation, adhesion, and aggregation contribute to formation of the primary platelet plug.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-070",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "Which event occurs during clot retraction?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The clot contracts and draws the injured tissue edges closer"
+        },
+        {
+          "id": "o1",
+          "text": "Plasmin digests a clot as the primary event"
+        },
+        {
+          "id": "o2",
+          "text": "The pulmonary arteries dilate to exchange gases"
+        },
+        {
+          "id": "o3",
+          "text": "Platelets leave the blood permanently"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Clot retraction pulls tissue edges together and supports healing.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-071",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "What is the primary purpose of fibrin during hemostasis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "To form a mesh that strengthens the developing clot"
+        },
+        {
+          "id": "o1",
+          "text": "To transport oxygen to the lungs"
+        },
+        {
+          "id": "o2",
+          "text": "To remove urea from blood"
+        },
+        {
+          "id": "o3",
+          "text": "To trigger bladder contraction"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Fibrin forms a mesh that stabilizes and strengthens the clot.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-072",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "A patient who smokes has blood vessel lining injury. Which component of Virchow's triad does this illustrate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Endothelial injury"
+        },
+        {
+          "id": "o1",
+          "text": "Venous stasis alone"
+        },
+        {
+          "id": "o2",
+          "text": "Platelet deficiency"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrinolysis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Smoking is listed in the worksheet as a DVT risk associated with endothelial damage.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-073",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "A patient is confined to bed for several days. How does immobility contribute to DVT risk?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Blood flow in the veins can become sluggish"
+        },
+        {
+          "id": "o1",
+          "text": "The factor VIII level always falls"
+        },
+        {
+          "id": "o2",
+          "text": "The pulmonary artery fills with air"
+        },
+        {
+          "id": "o3",
+          "text": "Alveoli produce excess fibrin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Immobility promotes venous stasis, one component of Virchow's triad.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-074",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "A pregnant patient asks why DVT risk may be increased. Which factors are identified in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Venous stasis and increased coagulability"
+        },
+        {
+          "id": "o1",
+          "text": "Low red cell oxygen affinity and pleural air"
+        },
+        {
+          "id": "o2",
+          "text": "Platelet destruction and loss of intrinsic factor"
+        },
+        {
+          "id": "o3",
+          "text": "Increased renal filtration and decreased venous return only during transfusion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies venous stasis and hypercoagulability as contributors during pregnancy.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-075",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "A patient's platelet count is above the worksheet's normal range. Which term describes an elevated platelet count?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Thrombocytosis"
+        },
+        {
+          "id": "o1",
+          "text": "Thrombocytopenia"
+        },
+        {
+          "id": "o2",
+          "text": "Neutropenia"
+        },
+        {
+          "id": "o3",
+          "text": "Pancytopenia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Thrombocytosis describes an elevated platelet count; the worksheet gives 150,000–400,000 as its reference range.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-076",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "Which finding in one leg should prompt the nurse to consider a possible DVT?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "New swelling and tenderness with redness"
+        },
+        {
+          "id": "o1",
+          "text": "Bilateral foamy urine"
+        },
+        {
+          "id": "o2",
+          "text": "Wheezing only during asthma treatment"
+        },
+        {
+          "id": "o3",
+          "text": "A painless isolated neck node"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Unilateral swelling, pain or tenderness, and redness are DVT findings identified in the worksheet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-077",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient has frequent nosebleeds and petechiae. Which broad hemostatic problem is most consistent with this pattern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A platelet-related bleeding problem"
+        },
+        {
+          "id": "o1",
+          "text": "A pattern limited to deep joint bleeding"
+        },
+        {
+          "id": "o2",
+          "text": "Excess erythropoietin production"
+        },
+        {
+          "id": "o3",
+          "text": "A pulmonary embolism alone"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates petechiae and mucosal bleeding with platelet-related problems.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-078",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient with hemophilia A develops swelling and pain in a knee after minor trauma. Which complication should the nurse suspect?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bleeding into the joint"
+        },
+        {
+          "id": "o1",
+          "text": "An air collection in the pleural space"
+        },
+        {
+          "id": "o2",
+          "text": "Urinary retention from a stone"
+        },
+        {
+          "id": "o3",
+          "text": "A febrile reaction from a transfusion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hemarthrosis is a deep bleeding manifestation associated with coagulation-factor problems.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-079",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "Which genetic pattern does the worksheet associate with hemophilia A?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "X-linked recessive inheritance"
+        },
+        {
+          "id": "o1",
+          "text": "Autosomal dominant inheritance of low von Willebrand factor"
+        },
+        {
+          "id": "o2",
+          "text": "An acquired Rh incompatibility"
+        },
+        {
+          "id": "o3",
+          "text": "An inherited alpha-1 antitrypsin mutation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes hemophilia A as an X-linked recessive factor VIII deficiency.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-080",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient has low von Willebrand factor. Which action of platelets is impaired at a damaged vessel?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Adhering to the injured vessel surface"
+        },
+        {
+          "id": "o1",
+          "text": "Transporting oxygen to the alveoli"
+        },
+        {
+          "id": "o2",
+          "text": "Producing erythropoietin"
+        },
+        {
+          "id": "o3",
+          "text": "Removing urea by dialysis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Von Willebrand factor supports platelet adhesion during initial plug formation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-081",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "Which clinical finding more strongly suggests a coagulation-factor problem than a platelet problem in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hemarthrosis"
+        },
+        {
+          "id": "o1",
+          "text": "Petechiae"
+        },
+        {
+          "id": "o2",
+          "text": "Gum oozing"
+        },
+        {
+          "id": "o3",
+          "text": "Frequent nosebleeds"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet contrasts deep or joint bleeding in coagulation disorders with mucocutaneous bleeding in platelet problems.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-082",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "A patient with leukemia has low platelets because the marrow is crowded with abnormal cells. Which complication is the nurse concerned about?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bleeding"
+        },
+        {
+          "id": "o1",
+          "text": "Excessive platelet plug formation from high platelet levels"
+        },
+        {
+          "id": "o2",
+          "text": "Increased erythropoietin secretion"
+        },
+        {
+          "id": "o3",
+          "text": "Accumulation of air in the pleural cavity"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Marrow suppression can reduce platelet production, increasing bleeding risk.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-083",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "A patient with leukemia develops fatigue and pallor as normal marrow production falls. Which blood cell deficit contributes?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced red blood cells"
+        },
+        {
+          "id": "o1",
+          "text": "Excess functional red blood cells"
+        },
+        {
+          "id": "o2",
+          "text": "Increased platelets alone"
+        },
+        {
+          "id": "o3",
+          "text": "Increased functional lymphocytes only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Crowding and suppression of normal marrow can reduce red blood cell production and cause anemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-084",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "What distinguishes lymphocytic from myeloid leukemia in the worksheet's classification?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The blood-cell lineage involved"
+        },
+        {
+          "id": "o1",
+          "text": "Whether the patient has a kidney stone"
+        },
+        {
+          "id": "o2",
+          "text": "The presence of A or B blood antigens"
+        },
+        {
+          "id": "o3",
+          "text": "The type of dialysate used"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet distinguishes myeloid and lymphocytic leukemias by the progenitor cell lineage involved.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-085",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "A patient with very high leukocyte counts develops neurologic and respiratory changes. Why can leukostasis cause these symptoms?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Accumulated leukemic cells can obstruct small blood vessels"
+        },
+        {
+          "id": "o1",
+          "text": "White cells improve circulation in the brain and lungs"
+        },
+        {
+          "id": "o2",
+          "text": "Platelets convert into air in pleural spaces"
+        },
+        {
+          "id": "o3",
+          "text": "Fibrin prevents all blood from entering the body"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Leukostasis can impair blood flow, notably in cerebral and pulmonary circulation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-086",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "Which location distinguishes pyelonephritis from cystitis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pyelonephritis involves the kidney; cystitis involves the bladder"
+        },
+        {
+          "id": "o1",
+          "text": "Pyelonephritis involves only the skin; cystitis involves the lung"
+        },
+        {
+          "id": "o2",
+          "text": "Both terms refer only to the urethra"
+        },
+        {
+          "id": "o3",
+          "text": "Cystitis means infection of the pleural space"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet classifies pyelonephritis as an upper UTI and cystitis as a lower UTI.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-087",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient has urinary frequency, dysuria, and suprapubic discomfort without flank pain. Which location is most consistent with this symptom pattern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bladder"
+        },
+        {
+          "id": "o1",
+          "text": "Pleural cavity"
+        },
+        {
+          "id": "o2",
+          "text": "Bone marrow"
+        },
+        {
+          "id": "o3",
+          "text": "Pulmonary artery"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists dysuria, frequency, and lower abdominal discomfort as cystitis findings.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-088",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient develops flank discomfort, fever, and vomiting after urinary symptoms. Which finding supports possible upper urinary tract involvement?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Costovertebral angle tenderness"
+        },
+        {
+          "id": "o1",
+          "text": "Painless enlargement of cervical nodes"
+        },
+        {
+          "id": "o2",
+          "text": "Petechiae without urinary symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Air in the pleural space"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Fever, nausea or vomiting, and CVA tenderness are listed for pyelonephritis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-089",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient asks how bacteria commonly reach the urinary tract in the worksheet's explanation. Which answer is appropriate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "They can ascend from the urethra toward the bladder and kidneys"
+        },
+        {
+          "id": "o1",
+          "text": "They must always enter from the pleural cavity"
+        },
+        {
+          "id": "o2",
+          "text": "They arise only from transfused red blood cells"
+        },
+        {
+          "id": "o3",
+          "text": "They travel down from the alveoli through the ureters"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes an ascending route from the urethra to the bladder and potentially the kidneys.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-090",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient asks how drinking fluids and avoiding prolonged urine retention relate to UTI prevention. Which response reflects the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hydration and voiding when needed are listed preventive measures"
+        },
+        {
+          "id": "o1",
+          "text": "Both practices guarantee that no infection can occur"
+        },
+        {
+          "id": "o2",
+          "text": "Avoiding fluids is necessary to prevent every infection"
+        },
+        {
+          "id": "o3",
+          "text": "Holding urine is the only measure needed"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists hydration and not holding urine as preventive practices; no single measure guarantees prevention.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-091",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient with diabetes asks about UTI prevention. Which measure appears in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Maintain blood glucose control"
+        },
+        {
+          "id": "o1",
+          "text": "Stop drinking fluids"
+        },
+        {
+          "id": "o2",
+          "text": "Avoid all urination during the day"
+        },
+        {
+          "id": "o3",
+          "text": "Ignore constipation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Blood glucose control is one of the preventive measures listed in the worksheet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-092",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "A patient has a history of hyperparathyroidism and recurrent kidney stones. Which stone type is associated with hypercalcemia in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Calcium stones"
+        },
+        {
+          "id": "o1",
+          "text": "Struvite stones associated with infection"
+        },
+        {
+          "id": "o2",
+          "text": "Cystine stones associated with genetic factors"
+        },
+        {
+          "id": "o3",
+          "text": "Uric acid stones associated with gout"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates calcium stones with hypercalcemia and hyperparathyroidism.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-093",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "A child is evaluated for recurrent inherited kidney stones. Which type is associated with genetic factors in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cystine stones"
+        },
+        {
+          "id": "o1",
+          "text": "Struvite stones only"
+        },
+        {
+          "id": "o2",
+          "text": "Blood clots caused by DIC"
+        },
+        {
+          "id": "o3",
+          "text": "A pulmonary embolus"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates cystine stones with children and genetic factors.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-094",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "An enlarged prostate obstructs urine outflow. What kidney change can result from persistent obstruction?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dilation of the renal pelvis and calyces"
+        },
+        {
+          "id": "o1",
+          "text": "Increased alveolar gas-exchange surface"
+        },
+        {
+          "id": "o2",
+          "text": "Formation of a pleural empyema"
+        },
+        {
+          "id": "o3",
+          "text": "Production of Reed-Sternberg cells"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Obstructed urine outflow can lead to hydronephrosis, with dilation of the renal pelvis and calyces.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-095",
+      "topic": "Acute Kidney Injury",
+      "type": "mcq",
+      "stem": "A patient develops kidney injury over a few days. Which feature best distinguishes the worksheet's description of AKI from CKD?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "AKI develops over hours to days and can be reversible if detected early"
+        },
+        {
+          "id": "o1",
+          "text": "AKI always develops slowly over many years"
+        },
+        {
+          "id": "o2",
+          "text": "AKI is defined only by pleural fluid accumulation"
+        },
+        {
+          "id": "o3",
+          "text": "AKI is never associated with a change in creatinine"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes AKI as rapid in onset and potentially reversible when detected early; severe injury may not reverse.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-096",
+      "topic": "Chronic Kidney Disease",
+      "type": "mcq",
+      "stem": "A patient with advanced CKD has increasing blood pressure and fluid retention. Which mechanisms contribute according to the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sodium and water retention with activation of the renin-angiotensin-aldosterone system"
+        },
+        {
+          "id": "o1",
+          "text": "Improved excretion of all excess water"
+        },
+        {
+          "id": "o2",
+          "text": "Loss of all circulating potassium through normal kidneys"
+        },
+        {
+          "id": "o3",
+          "text": "A platelet plug in a single minor vessel"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet links CKD hypertension and fluid retention to impaired excretion and RAAS activation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-097",
+      "topic": "Dialysis",
+      "type": "mcq",
+      "stem": "A patient receiving peritoneal dialysis asks how waste leaves the blood. Which explanation matches the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The peritoneal membrane allows diffusion and osmosis between blood and dialysate"
+        },
+        {
+          "id": "o1",
+          "text": "A transplanted lung filters the dialysate"
+        },
+        {
+          "id": "o2",
+          "text": "The bladder membrane directly oxygenates the blood"
+        },
+        {
+          "id": "o3",
+          "text": "Platelets transport waste into the chest cavity"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Peritoneal dialysis uses the peritoneal membrane as a semipermeable barrier for fluid and waste exchange.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-098",
+      "topic": "Dialysis",
+      "type": "mcq",
+      "stem": "A patient has an arteriovenous fistula for hemodialysis. Which complication listed in the worksheet should be monitored?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Thrombosis of the access"
+        },
+        {
+          "id": "o1",
+          "text": "Reed-Sternberg cell formation at the access"
+        },
+        {
+          "id": "o2",
+          "text": "A kidney stone in every fistula"
+        },
+        {
+          "id": "o3",
+          "text": "Guaranteed prevention of infection in all access types"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet lists fistula or graft thrombosis among possible hemodialysis complications.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
+    },
+    {
+      "id": "patho-e3-expansion-20261027-099",
+      "topic": "Dialysis",
+      "type": "mcq",
+      "stem": "A patient performs peritoneal dialysis at home. Which access is used to introduce dialysate?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A catheter in the abdomen"
+        },
+        {
+          "id": "o1",
+          "text": "An arteriovenous graft in every case"
+        },
+        {
+          "id": "o2",
+          "text": "A tube placed in the pleural space"
+        },
+        {
+          "id": "o3",
+          "text": "An intravenous line used to infuse dialysate directly into the blood"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet identifies an abdominal peritoneal dialysis catheter as the access for peritoneal dialysis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": true,
+      "auditStatus": "PROVISIONAL_PREVIEW",
+      "sourceReview": "Available for provisional practice; independent clinical, citation and substantive duplicate review incomplete."
     }
   ]
 }
