@@ -21,13 +21,22 @@ function showIntro(){
  if(!engine.bank.blueprint){root.append(Object.assign(document.createElement("p"),{textContent:(engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt."}));button("Start Exam",()=>{engine.begin();showQuestion()});return}
  const bp=engine.bank.blueprint;
  const setup=document.createElement("div");setup.className="practice-setup";
- setup.innerHTML='<label for="practice-mode">Practice mode</label><select id="practice-mode"><option value="standard">Full blueprint exam ('+bp.total+' questions)</option><option value="custom">Custom practice</option></select><div id="custom-settings" hidden><label for="practice-topic">Blueprint section</label><select id="practice-topic"></select><label for="practice-subtopic">Blueprint subsection</label><select id="practice-subtopic"></select><label for="practice-count">Number of questions</label><input id="practice-count" type="number" min="1" step="1" inputmode="numeric"><p id="practice-availability" role="status"></p><p class="muted">Custom practice draws randomly from the selected questions. It does not enforce the full exam’s topic or question-type quotas.</p></div>';root.append(setup);
- const mode=$("practice-mode"),topic=$("practice-topic"),sub=$("practice-subtopic"),count=$("practice-count"),status=$("practice-availability");
- topic.add(new Option("All blueprint sections","all"));Object.keys(bp.topics).forEach(t=>topic.add(new Option(t,t)));
- function updateSub(){sub.replaceChildren(new Option("All subsections",""));Object.keys(bp.subtopics?.[topic.value]||{}).forEach(t=>sub.add(new Option(t,t)));sub.disabled=sub.options.length===1;updateCount()}
- function updateCount(){const n=engine.bank.questions.filter(q=>q.approved===true&&(topic.value==="all"||q.topic===topic.value)&&(!sub.value||q.subtopic===sub.value)).length;count.max=n;count.value=n?Math.min(Number(count.value)||20,n):"";status.textContent=n?n+" approved questions available. Choose 1–"+n+".":"No approved questions are available for this selection.";start.disabled=mode.value==="custom"&&!n}
- mode.addEventListener("change",()=>{$("custom-settings").hidden=mode.value!=="custom";updateCount()});topic.addEventListener("change",updateSub);sub.addEventListener("change",updateCount);
- const start=button("Start Exam",()=>{try{if(mode.value==="standard")engine.begin();else{const value=count.valueAsNumber;if(!count.checkValidity()||!Number.isInteger(value))throw Error("Choose a whole number within the available range.");engine.begin({topic:topic.value,subtopic:sub.value,count:value})}showQuestion()}catch(err){alertBox.textContent=err.message}});updateSub();
+ setup.innerHTML='<label for="practice-mode">Practice mode</label><select id="practice-mode"><option value="standard">Full blueprint exam ('+bp.total+' questions)</option><option value="custom">Custom practice</option></select><div id="custom-settings" hidden><p>Choose one or more topics, then select the subtopics you want.</p><div id="practice-groups"></div><label for="practice-count">Number of questions</label><input id="practice-count" type="number" min="1" step="1" inputmode="numeric"><p id="practice-availability" role="status"></p><p class="muted">Custom practice draws randomly from the selected questions. It does not enforce the full exam’s topic or question-type quotas.</p></div>';root.append(setup);
+ const mode=$("practice-mode"),count=$("practice-count"),status=$("practice-availability"),groups=$("practice-groups"),entries=[];
+ const layout=bp.selectionGroups||Object.fromEntries(Object.keys(bp.topics).map(t=>[t,[t]]));
+ for(const [groupName,topics] of Object.entries(layout)){
+  const section=document.createElement("fieldset");section.className="practice-group";
+  const label=document.createElement("label");label.className="practice-group-label";const toggle=document.createElement("input");toggle.type="checkbox";label.append(toggle,document.createTextNode(" "+groupName));section.append(label);
+  const children=document.createElement("div");children.className="practice-subtopics";children.hidden=true;section.append(children);
+  for(const topic of topics){const subs=Object.keys(bp.subtopics?.[topic]||{});const choices=subs.length?subs:[null];if(subs.length&&engine.bank.questions.some(q=>q.approved===true&&q.topic===topic&&q.subtopic==null))choices.push(null);
+   for(const subtopic of choices){const choice=document.createElement("label");choice.className="practice-choice";const input=document.createElement("input");input.type="checkbox";input.checked=true;const name=subtopic===null?(subs.length?"Other questions in "+topic:topic):subtopic;choice.append(input,document.createTextNode(" "+name));children.append(choice);entries.push({toggle,input,topic,subtopic,whole:subs.length===0});input.addEventListener("change",updateCount)}
+  }
+  toggle.addEventListener("change",()=>{children.hidden=!toggle.checked;updateCount()});groups.append(section)
+ }
+ function selections(){const selected=new Map();for(const e of entries){if(!e.toggle.checked||!e.input.checked)continue;if(e.whole)selected.set(e.topic,null);else if(selected.get(e.topic)!==null){if(!selected.has(e.topic))selected.set(e.topic,[]);selected.get(e.topic).push(e.subtopic)}}return [...selected].map(([topic,subtopics])=>({topic,subtopics}))}
+ function updateCount(){const n=ExamCore.customPool(engine.bank,selections()).length;count.max=n;count.value=n?Math.min(Number(count.value)||20,n):"";status.textContent=n?n+" questions available. Choose 1–"+n+".":"Select topics and subtopics with available questions.";start.disabled=mode.value==="custom"&&!n}
+ mode.addEventListener("change",()=>{$("custom-settings").hidden=mode.value!=="custom";updateCount()});
+ const start=button("Start Exam",()=>{try{if(mode.value==="standard")engine.begin();else{const value=count.valueAsNumber;if(!count.checkValidity()||!Number.isInteger(value))throw Error("Choose a whole number within the available range.");engine.begin({selections:selections(),count:value})}showQuestion()}catch(err){alertBox.textContent=err.message}});updateCount();
 }
 function showResults(){const result=engine.score();resetUI();root.innerHTML="<h1>Exam results</h1><p class='score'>"+result.percent+"%</p><p>"+result.correct+" correct · "+result.incorrect+" incorrect · "+result.total+" questions</p>";button("Review Entire Exam",showReview)}
 function showReview(){const items=engine.review();resetUI();root.append(Object.assign(document.createElement("h1"),{textContent:"Read-only exam review"}));items.forEach(({question:q,answer:a},i)=>{const section=document.createElement("section");section.className="review-item";section.append(Object.assign(document.createElement("h2"),{textContent:(i+1)+". "+q.stem}),Object.assign(document.createElement("p"),{textContent:"Your answer: "+formatAnswer(q,a.response)}),Object.assign(document.createElement("p"),{textContent:"Correct answer: "+formatAnswer(q,q.correct)}),Object.assign(document.createElement("p"),{textContent:a.correct?"Correct":"Incorrect"}),Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q),reportLink(q,i+1));root.append(section)})}
@@ -101,7 +110,7 @@ async function setReferencePage(page){
   status.textContent="Unable to render this page. Try Open PDF instead. "+err.message;
  }
 }
-async function openReference(url,title){
+async function openReference(url,title,parts=null){
  const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
  const openToken=++referenceOpenToken;
  $("reference-heading").textContent=title||"Exam reference";
@@ -111,15 +120,16 @@ async function openReference(url,title){
  const nav=$("reference-navigation");nav.hidden=true;
  status.textContent="Loading reference…";dialog.showModal();
  try{
-  const parsed=new URL(url,location.href);
+  let parsed=new URL(url,location.href);
+  if(parts){const chunks=await Promise.all(parts.map(async part=>{const response=await fetch(part);if(!response.ok)throw Error("Reference part unavailable");return response.blob()}));referencePdfUrl=URL.createObjectURL(new Blob(chunks,{type:"application/pdf"}));parsed=new URL(referencePdfUrl);}
   if(parsed.origin!==location.origin)throw Error("This reference is hosted externally and cannot be displayed here.");
   const path=parsed.pathname.toLowerCase();
   if(path.endsWith(".md")||path.endsWith(".txt")){
    const response=await fetch(parsed.href,{cache:"no-store"});
    if(!response.ok)throw Error("Reference unavailable (HTTP "+response.status+").");
    textPanel.textContent=await response.text();textPanel.hidden=false;status.textContent="";
-  }else if(path.endsWith(".pdf")){
-   referencePdfUrl=parsed.origin+parsed.pathname+parsed.search;
+  }else if(path.endsWith(".pdf")||parts){
+   referencePdfUrl=parts?parsed.href:parsed.origin+parsed.pathname+parsed.search;
    referencePage=Math.max(1,parseInt(parsed.hash.match(/page=(\d+)/)?.[1]||"1",10));
    nav.hidden=false;
    $("reference-open-direct").href=referencePdfUrl+"#page="+referencePage;
@@ -142,13 +152,15 @@ async function openReference(url,title){
 $("reference-previous").addEventListener("click",()=>setReferencePage(referencePage-1));
 $("reference-next").addEventListener("click",()=>setReferencePage(referencePage+1));
 $("reference-page").addEventListener("change",e=>setReferencePage(e.target.value));
-$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{++referenceOpenToken;++referenceRenderToken;$("reference-frame").removeAttribute("src");const oldDocument=referenceDocument;referenceDocument=null;if(oldDocument)oldDocument.destroy().catch(()=>{});$("reference-canvas").hidden=true;});
+$("close-reference").addEventListener("click",()=>$("reference-dialog").close());$("reference-dialog").addEventListener("close",()=>{++referenceOpenToken;++referenceRenderToken;$("reference-frame").removeAttribute("src");const oldDocument=referenceDocument;referenceDocument=null;if(referencePdfUrl.startsWith("blob:"))URL.revokeObjectURL(referencePdfUrl);referencePdfUrl="";if(oldDocument)oldDocument.destroy().catch(()=>{});$("reference-canvas").hidden=true;});
 $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("report-preview").value);$("report-status").textContent="Report copied. Paste it into the Google Form when available."}catch(_){$("report-preview").focus();$("report-preview").select();$("report-status").textContent="Select and copy the highlighted report text."}});
 
 function confirmLeave(){return !engine||!["active","submitted"].includes(engine.phase)||confirm("Leave this exam? Your current attempt will be lost.")}
 $("reset-exam").addEventListener("click",()=>{if(engine&&confirm("Return to practice setup? All answers will be cleared.")){engine=ExamCore.create(engine.bank);showIntro()}});
 $("return-hub").addEventListener("click",e=>{if(!confirmLeave())e.preventDefault()});
-$("references").addEventListener("click",()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();sources.forEach(s=>{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name)});list.append(b)});dialog.showModal()});
+$("references").addEventListener("click",async()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();
+ if(bankId==="pathophysiology-exam-3-standard")try{const response=await fetch("assets/question-banks/pathophysiology-exam-3-references.json");if(!response.ok)throw Error("Reference list unavailable");const manifest=await response.json();for(const name of manifest.files){const path="References/Pathophysiology/Exams/Exam%203/"+encodeURIComponent(name);sources.push({name,path,parts:manifest.parts?.[name]?.map(part=>"References/Pathophysiology/Exams/Exam%203/parts/"+encodeURIComponent(part))})}}catch(err){const notice=document.createElement("p");notice.textContent="Some reference materials could not be loaded.";list.append(notice)}
+ for(const s of [...new Map(sources.map(source=>[source.path,source])).values()]){if(s.parts&&/\.(pptx|docx|xlsx)$/i.test(s.path)){const b=document.createElement("button");b.type="button";b.textContent=s.name+" · Download";b.addEventListener("click",async()=>{b.disabled=true;try{const chunks=await Promise.all(s.parts.map(async part=>{const r=await fetch(part);if(!r.ok)throw Error("Reference part unavailable");return r.blob()}));const url=URL.createObjectURL(new Blob(chunks));const a=document.createElement("a");a.href=url;a.download=s.name;a.click();setTimeout(()=>URL.revokeObjectURL(url),60000)}catch(e){b.textContent="Could not download "+s.name+". Try again."}finally{b.disabled=false}});list.append(b)}else if(/\.(docx|pptx|xlsx)$/i.test(s.path)){const a=document.createElement("a");a.href=s.path;a.target="_blank";a.rel="noopener noreferrer";a.textContent=s.name+" · Open or download";list.append(a)}else{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name,s.parts)});list.append(b)}}dialog.showModal()});
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
 (async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json");if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
@@ -187,4 +199,5 @@ if(bankId==="fundamentals-exam-2-qa-standard"){
  }
 }
 engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
+
 
