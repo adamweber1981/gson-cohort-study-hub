@@ -1,6 +1,6 @@
 # GSON Accelerated Study Hub — Exam Engine & NCLEX-Style Interaction Specification
 
-**Version:** 1.1 · **Status:** Phase 2 approved; Phase 3 bank migration in progress · **Updated:** 2026-10-22
+**Version:** 1.2 · **Status:** Shared exam engine and custom practice implemented; content audits ongoing · **Updated:** 2026-10-26
 
 ## Core rule
 **Exactly one question is shown at a time.** Students move **forward only**. They cannot navigate back to an answered question during the attempt. After completing the exam and scoring it, they may review **all questions**, freely, in **read-only** mode.
@@ -29,6 +29,19 @@ Do not confuse a practice version (A/B) with the course's actual exam number (1/
 
 **No skip / unanswered progression:** In this specification, a student must submit each question before advancing. Thus there are no unanswered questions in a completed exam. This supersedes the older early-scoring/unanswered-count proposal. If a future Skip feature is requested, it requires a new specification version.
 
+## Practice setup and selection (implemented 2026-10-26)
+
+For a shared-engine bank with a blueprint, the intro offers two modes:
+
+- **Full blueprint exam:** assemble the blueprint's total number of unique eligible questions, enforce its per-topic quotas and configured type ranges, and fail with an explanatory error if the pool cannot satisfy the rules. Pathophysiology Exam 3 uses 50 questions, a 6–10 SATA range, and a 4–6 matching range; its current blueprint does not enforce a true/false range.
+- **Custom practice:** select one or more blueprint groups, then select their subjects or nested subtopics. A newly checked group displays its subjects already checked; users can uncheck individual subjects, combine choices across groups, and select a whole-number question count from 1 up to the displayed available pool. If no eligible questions are selected, starting custom practice is disabled. The engine samples the selected eligible pool randomly without repeating a question within the attempt. It does not enforce full-exam topic or type quotas or guarantee a question from each chosen subject.
+
+Pathophysiology Exam 3 presents Respiratory, Blood, and Kidneys / Urinary as the top-level groups, with the original blueprint subjects below them. Other blueprints without grouping metadata use their existing blueprint topics as groups and expose nested subtopics where provided; questions without a nested assignment are accessible as an additional option when present. The selector is only available for shared-engine banks with a blueprint; other banks retain their existing intro.
+
+The current Pathophysiology Exam 3 practice preview deliberately includes provisional items in the engine's eligible pool, per owner direction. `approved: true` for these preview items is an engine eligibility flag, not a claim of independent clinical or source approval. Keep the QA notice visible and do not represent the bank as fully verified. The bank currently has 232 questions (10–12 per subject), with only one true/false item; the owner accepted this limitation for now.
+
+For full user instructions, availability, references, and troubleshooting, see [Practice Exam Selection](06-PRACTICE-EXAM-SELECTION.md).
+
 ## Question types and submit rules
 | Type | Before submit | Submit | Grading |
 |---|---|---|---|
@@ -47,7 +60,7 @@ No answer choice may reveal correctness on first tap/click. No automatic submiss
 - Preserve correct answer mappings, matching targets, rationales, source metadata, and clinical logic after shuffling.
 - On Reset, reshuffle again. No repeat question within an exam attempt.
 - A question bank must have stable IDs, course, exam number, practice name, topic, subtopic, type, stem, options/pairs, correct key, rationale, and source citation.
-- Topic quotas and question-type quotas are specified by each exam's blueprint and validated at build time; do not hardcode Fundamentals ratios for all future courses.
+- Full-exam topic quotas and question-type quotas are specified by each exam's blueprint; custom practice uses the selected pool without those quotas. Do not hardcode Fundamentals ratios for all future courses.
 
 ## Score Exam and review
 - `Score Exam` is visible in the shared exam actions but disabled/unavailable until the final question has been submitted; pressing it then displays results.
@@ -90,4 +103,5 @@ No answer choice may reveal correctness on first tap/click. No automatic submiss
 10. Exam content, answer data, and scores never transmit to a backend.
 
 ## Phase 3 extension (approved 2026-10-22)
-The Phase 2 interaction engine is approved and must remain behaviorally stable. Phase 3 replaces redundant static practice-version links with **approved-only, blueprint-balanced 50-question selection**. Standard exams satisfy **both** their course blueprint and established type targets (6–10 SATA, 4–6 matching, 4–6 true/false, other types as appropriate). Fundamentals **Med Math** uses its **own** blueprint, primarily numeric entry and MCQ, without Standard type quotas. Do not infer quotas absent the authoritative blueprint. Unreviewed migrated questions must remain in staging; shortage of approved questions blocks generation rather than allowing repeats or substitutions. See [Phase 3 Question Bank Migration](03-PHASE-3-QUESTION-BANK-MIGRATION.md) for audit, duplicate, navigation, and rollout requirements.
+The Phase 2 interaction engine is approved and must remain behaviorally stable. Phase 3 replaces redundant static practice-version links with **approved-only, blueprint-balanced 50-question selection**. Standard exams satisfy the topic and question-type ranges configured in their own blueprint. The design target for standard exams has been 6–10 SATA, 4–6 matching, and 4–6 true/false; the current Pathophysiology Exam 3 preview lacks the true/false range and has only one true/false item, a limitation accepted for now. Fundamentals **Med Math** uses its **own** blueprint, primarily numeric entry and MCQ, without Standard type quotas. Do not infer quotas absent the authoritative blueprint. Unreviewed migrated questions must remain in staging; shortage of approved questions blocks generation rather than allowing repeats or substitutions. See [Phase 3 Question Bank Migration](03-PHASE-3-QUESTION-BANK-MIGRATION.md) for audit, duplicate, navigation, and rollout requirements.
+
