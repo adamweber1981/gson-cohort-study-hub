@@ -662,7 +662,7 @@
         },
         {
           "id": "o3",
-          "text": "Hospital exposure"
+          "text": "Independent ambulation with effective coughing"
         },
         {
           "id": "o4",
@@ -672,8 +672,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "The worksheet identifies immobility, aspiration, older age, and hospital exposure as pneumonia risks.",
       "source": {
@@ -744,7 +743,7 @@
         },
         {
           "id": "o3",
-          "text": "Aspirin"
+          "text": "An antigen causing a type I allergic response"
         },
         {
           "id": "o4",
@@ -754,8 +753,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "Cold, exercise, respiratory infections, and aspirin are listed as intrinsic triggers; inhaled allergen-associated type I hypersensitivity is classified as extrinsic.",
       "source": {
@@ -825,7 +823,7 @@
         },
         {
           "id": "o3",
-          "text": "Exudate—inflammation or increased vascular permeability"
+          "text": "A pneumothorax containing fluid from a urinary stone"
         },
         {
           "id": "o4",
@@ -835,8 +833,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "Hemothorax contains blood; empyema involves infection; transudates and exudates arise through different pressure or inflammatory mechanisms.",
       "source": {
@@ -944,7 +941,7 @@
         },
         {
           "id": "o2",
-          "text": "A patient with chronic gastrointestinal bleeding"
+          "text": "Healing of an old superficial abrasion"
         },
         {
           "id": "o3",
@@ -958,7 +955,6 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
         "o3"
       ],
       "rationale": "Increased iron needs and chronic blood loss are listed risks for iron deficiency.",
@@ -1022,7 +1018,7 @@
         },
         {
           "id": "o1",
-          "text": "Night sweats"
+          "text": "Every enlarged lymph node must be painful"
         },
         {
           "id": "o2",
@@ -1039,7 +1035,6 @@
       ],
       "correct": [
         "o0",
-        "o1",
         "o2",
         "o3"
       ],
@@ -1071,7 +1066,7 @@
         },
         {
           "id": "o3",
-          "text": "Avoid prolonged exposure to wet incontinence products"
+          "text": "Remaining in wet clothing for prolonged periods"
         },
         {
           "id": "o4",
@@ -1081,8 +1076,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "The worksheet recommends front-to-back wiping, timely voiding, hydration, and hygiene after incontinence.",
       "source": {
@@ -1153,7 +1147,7 @@
         },
         {
           "id": "o3",
-          "text": "A tumor obstructing urine outflow"
+          "text": "Uncomplicated low fluid intake without an obstruction"
         },
         {
           "id": "o4",
@@ -1163,8 +1157,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "Postrenal AKI results from urinary outflow obstruction; dehydration is a prerenal cause.",
       "source": {
@@ -1235,7 +1228,7 @@
         },
         {
           "id": "o3",
-          "text": "Bone breakdown"
+          "text": "Increased bone formation in every affected patient"
         },
         {
           "id": "o4",
@@ -1245,8 +1238,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "Reduced vitamin D activation can contribute to hypocalcemia, secondary PTH elevation, and bone loss.",
       "source": {
@@ -1276,7 +1268,7 @@
         },
         {
           "id": "o3",
-          "text": "Back pain"
+          "text": "An AV graft thrombosis as the typical abdominal complication"
         },
         {
           "id": "o4",
@@ -1286,8 +1278,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "Peritoneal dialysis complications include peritonitis, catheter infection, hernias, and back pain.",
       "source": {
@@ -1357,7 +1348,7 @@
         },
         {
           "id": "o3",
-          "text": "Increased abdominal pressure"
+          "text": "Leakage exclusively due to a sudden compelling urge"
         },
         {
           "id": "o4",
@@ -1367,8 +1358,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "Stress incontinence occurs when increased intra-abdominal pressure leads to leakage, such as with coughing, laughing, or lifting.",
       "source": {
@@ -1398,7 +1388,7 @@
         },
         {
           "id": "o3",
-          "text": "Oozing after minor injuries"
+          "text": "Deep joint bleeding as the characteristic platelet manifestation"
         },
         {
           "id": "o4",
@@ -1408,8 +1398,7 @@
       "correct": [
         "o0",
         "o1",
-        "o2",
-        "o3"
+        "o2"
       ],
       "rationale": "The worksheet links small-vessel bleeding such as petechiae, gum bleeding, epistaxis, and oozing with platelet problems.",
       "source": {
