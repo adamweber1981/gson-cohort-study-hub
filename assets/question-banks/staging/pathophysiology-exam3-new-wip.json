@@ -1,0 +1,166 @@
+{
+  "id": "patho-exam3-additions-wip",
+  "notice": "Five provisional additions; full 300-question bank not yet complete.",
+  "questions": [
+    {
+      "id": "patho-e3-new-001",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient with asthma is tachypneic and has an early respiratory alkalosis. Later, the patient's breathing becomes ineffective and carbon dioxide rises. What best explains the later change?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Airflow obstruction limits carbon dioxide elimination"
+        },
+        {
+          "id": "o1",
+          "text": "Renal loss of bicarbonate causes metabolic alkalosis"
+        },
+        {
+          "id": "o2",
+          "text": "Fibrin dissolves in the pulmonary circulation"
+        },
+        {
+          "id": "o3",
+          "text": "Erythropoietin secretion increases"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Worsening obstruction can impair ventilation and lead to carbon dioxide retention and respiratory acidosis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Unreviewed addition; requires source and semantic duplicate review."
+    },
+    {
+      "id": "patho-e3-new-002",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a large pulmonary embolism develops signs of right ventricular strain. Which change most directly increases the ventricle's workload?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased resistance in pulmonary circulation"
+        },
+        {
+          "id": "o1",
+          "text": "Reduced systemic blood viscosity"
+        },
+        {
+          "id": "o2",
+          "text": "Increased filtration through the kidneys"
+        },
+        {
+          "id": "o3",
+          "text": "Decreased pressure in pulmonary arteries"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Obstruction and hypoxic vasoconstriction raise pulmonary vascular resistance and right ventricular workload.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Unreviewed addition; requires source and semantic duplicate review."
+    },
+    {
+      "id": "patho-e3-new-003",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient with a prior gastric bypass reports fatigue and tingling in the feet. Which anemia should the nurse consider?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vitamin B12 deficiency anemia"
+        },
+        {
+          "id": "o1",
+          "text": "Iron deficiency anemia as the only possible explanation"
+        },
+        {
+          "id": "o2",
+          "text": "Polycythemia"
+        },
+        {
+          "id": "o3",
+          "text": "Thrombocytosis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet links gastric bypass to impaired B12 absorption and identifies paresthesias with B12 deficiency.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Unreviewed addition; requires source and semantic duplicate review."
+    },
+    {
+      "id": "patho-e3-new-004",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient with dysuria and urgency subsequently develops fever and costovertebral angle tenderness. What does the change suggest?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Infection may have ascended to the kidneys"
+        },
+        {
+          "id": "o1",
+          "text": "The infection is now limited to the urethral opening"
+        },
+        {
+          "id": "o2",
+          "text": "A pulmonary artery is obstructed"
+        },
+        {
+          "id": "o3",
+          "text": "A factor VIII deficiency has developed"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Fever and costovertebral angle tenderness support possible upper urinary tract involvement.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Unreviewed addition; requires source and semantic duplicate review."
+    },
+    {
+      "id": "patho-e3-new-005",
+      "topic": "Chronic Kidney Disease",
+      "type": "mcq",
+      "stem": "A patient with advanced CKD develops hyperkalemia and peaked T waves after missed dialysis. Which problem should the nurse recognize?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced potassium removal with a risk of cardiac effects"
+        },
+        {
+          "id": "o1",
+          "text": "Excess potassium excretion is causing hypokalemia"
+        },
+        {
+          "id": "o2",
+          "text": "The kidneys are producing excess erythropoietin"
+        },
+        {
+          "id": "o3",
+          "text": "Vitamin B12 is directly occluding the ureters"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Advanced kidney dysfunction reduces potassium excretion; the quiz links missed dialysis and peaked T waves with hyperkalemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Unreviewed addition; requires source and semantic duplicate review."
+    }
+  ]
+}
