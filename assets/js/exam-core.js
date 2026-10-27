@@ -13,7 +13,7 @@
  if(!["mcq","visual","sata","matching","truefalse","dosage"].includes(q.type))throw Error("Unsupported type: "+q.type)}
  return true}
  function create(bank,random=Math.random){validate(bank);let questions=[],answers=[],index=0,phase="intro";
- const begin=()=>{const chosen=bank.blueprint?root.ExamBlueprint.assemble(bank.questions,bank.blueprint,random):bank.previewCount?shuffle(bank.questions,random).slice(0,bank.previewCount):bank.questions;const groups=new Map();for(const q of chosen){const key=q.caseId||q.id;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q)}
+ const begin=(settings=null)=>{let chosen;if(settings){if(!bank.blueprint)throw Error("Custom practice requires a blueprint");const {topic,subtopic,count}=settings;const bp=bank.blueprint;if(topic!=="all"&&!Object.hasOwn(bp.topics,topic))throw Error("Invalid blueprint section");if(subtopic&&(!bp.subtopics?.[topic]||!Object.hasOwn(bp.subtopics[topic],subtopic)))throw Error("Invalid blueprint subsection");const pool=bank.questions.filter(q=>q.approved===true&&(topic==="all"||q.topic===topic)&&(!subtopic||q.subtopic===subtopic));if(!Number.isInteger(count)||count<1||count>pool.length)throw Error("Choose a question count within the available range");chosen=shuffle(pool,random).slice(0,count)}else chosen=bank.blueprint?root.ExamBlueprint.assemble(bank.questions,bank.blueprint,random):bank.previewCount?shuffle(bank.questions,random).slice(0,bank.previewCount):bank.questions;const groups=new Map();for(const q of chosen){const key=q.caseId||q.id;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q)}
  questions=shuffle([...groups.values()],random).flatMap(group=>group.map(q=>({...q,options:q.options?shuffle(q.options,random):undefined,pairs:q.pairs?shuffle(q.pairs,random):undefined})));answers=[];index=0;phase="active";return current()};
  const current=()=>questions[index];
  const submit=response=>{if(phase!=="active")throw Error("Cannot submit now");const q=current();if(response===undefined||response===null||(Array.isArray(response)&&!response.length)||(q.type==="matching"&&q.pairs.some(p=>!response[p.id]))||(q.type==="dosage"&&String(response).trim()===""))throw Error("Complete the response first");const correct=grade(q,response);answers.push({id:q.id,response:structuredClone(response),correct});phase="submitted";return correct};
@@ -24,3 +24,4 @@
  }
  root.ExamCore={shuffle,grade,validate,create};
 })(window);
+

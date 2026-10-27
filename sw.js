@@ -1,5 +1,5 @@
 /* GSON Study Hub service worker: navigation fallback, static shell only. Never cache question banks or PDF references. */
-const CACHE="gson-shell-v1";
+const CACHE="gson-shell-v2";
 const SHELL=["./index.html","./exam.html","./assets/css/app.css","./assets/css/exam.css","./assets/js/app.js","./assets/js/course-data.js","./assets/js/exam-runner.js","./assets/js/exam-core.js","./assets/js/exam-blueprint.js","./manifest.webmanifest"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).catch(()=>{}));});
 self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});

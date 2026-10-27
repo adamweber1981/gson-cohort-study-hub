@@ -1,0 +1,13 @@
+{
+ "id":"pathophysiology-exam-3-standard",
+ "course":"Pathophysiology",
+ "examNumber":"Exam 3",
+ "total":50,
+ "topics":{
+  "Ventilation vs Gas Exchange":1,"Pneumonia":3,"Tuberculosis":2,"Asthma":3,"COPD":5,"Pleural Disorders":2,"Pulmonary Embolism":2,
+  "Hemostasis":1,"Hypercoagulability":1,"Hypocoagulation":2,"DIC":1,"Anemias":4,"Blood Compatibility":1,"Transfusion Reactions":1,"Lymphoma":1,"Leukemia":2,
+  "Nephrotic & Nephritic Syndrome":2,"UTI":3,"Urinary Obstructions":2,"Acute Kidney Injury":5,"Chronic Kidney Disease":4,"Dialysis":1,"Urinary Incontinence":1
+ },
+ "types":{"sata":{"min":6,"max":10},"matching":{"min":4,"max":6}},
+ "policy":{"approvedOnly":true,"uniqueQuestions":true,"failClosed":true,"source":"Exam 3 Blueprint.docx","scope":"Only topics identified in Exam 3 Worksheet Answers or Exam 3 Practice Quiz."}
+}

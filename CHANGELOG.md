@@ -6,6 +6,16 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+- Expanded the Pathophysiology Exam 3 test preview to 133 questions after screening provisional candidates for overlap. Remaining content is provisional and clinical, source, and duplicate review is incomplete; the pool has only one true/false item.
+
+- Removed the Phase 2 demo section from course pages.
+
+- Display numbered course exams in descending order so the newest exam appears first.
+
+- Added an Exam 3 test preview with 98 provisional Pathophysiology questions, blueprint-based 50-question selection, and custom topic/count choices. The bank is incomplete and its content and scoring remain under review.
+
+- Added custom practice setup for the shared Fundamentals and Health Assessment Exam 2 banks, including blueprint section, subsection, and question-count choices. The existing full blueprint exam remains available; custom attempts use random approved questions and do not apply full-exam quotas.
+
 ## Unreleased — Health Assessment cranial nerve coverage
 
 - Audited the Chapter 25 course lecture (PDF pp. 11–20) against the Health Assessment Exam 2 bank.
