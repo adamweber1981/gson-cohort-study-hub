@@ -1444,6 +1444,742 @@
       },
       "approved": false,
       "draftNote": "Candidate requires independent source and duplicate review."
+    },
+    {
+      "id": "patho-e3-new-041",
+      "topic": "Ventilation vs Gas Exchange",
+      "type": "mcq",
+      "stem": "A nurse explains the difference between ventilation and gas exchange. Which statement describes gas exchange?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Oxygen and carbon dioxide move between the alveoli and pulmonary blood"
+        },
+        {
+          "id": "o1",
+          "text": "Air moves into and out of the lungs"
+        },
+        {
+          "id": "o2",
+          "text": "Urine moves from the kidneys to the bladder"
+        },
+        {
+          "id": "o3",
+          "text": "Platelets aggregate at an injured vessel"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Gas exchange is the transfer of oxygen and carbon dioxide between alveoli and pulmonary capillary blood.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-042",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "A patient has bacterial pneumonia with alveoli filled by inflammatory material. Which effect is expected?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Oxygen diffusion into pulmonary blood becomes more difficult"
+        },
+        {
+          "id": "o1",
+          "text": "The surface area of healthy alveoli necessarily increases"
+        },
+        {
+          "id": "o2",
+          "text": "Pulmonary blood flow ceases in every alveolus"
+        },
+        {
+          "id": "o3",
+          "text": "Oxygen transfer improves because exudate is present"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Inflammatory exudate in alveoli interferes with oxygen diffusion into capillary blood.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-043",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A patient has latent tuberculosis and later begins immunosuppressive treatment. What change should the care team recognize as possible?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The contained infection can become active"
+        },
+        {
+          "id": "o1",
+          "text": "Latent infection is always transmitted before reactivation"
+        },
+        {
+          "id": "o2",
+          "text": "A positive TB test proves miliary spread"
+        },
+        {
+          "id": "o3",
+          "text": "Immune suppression eliminates all TB organisms"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Immunosuppression can permit latent tuberculosis to reactivate.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-044",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient with asthma becomes exhausted and can barely move air after hours of wheezing. Which interpretation of an increasingly quiet chest is most urgent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Severely limited airflow may be developing"
+        },
+        {
+          "id": "o1",
+          "text": "Absence of wheezing always indicates full recovery"
+        },
+        {
+          "id": "o2",
+          "text": "The patient has necessarily developed a urinary stone"
+        },
+        {
+          "id": "o3",
+          "text": "The airway is widely open because mucus production has stopped"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "A quiet chest in a deteriorating patient can reflect critically reduced ventilation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-045",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with emphysema develops chronic hypoxemia. Which compensatory blood change can occur?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased red blood cell production"
+        },
+        {
+          "id": "o1",
+          "text": "Universal severe thrombocytopenia"
+        },
+        {
+          "id": "o2",
+          "text": "Loss of all hemoglobin"
+        },
+        {
+          "id": "o3",
+          "text": "Immediate abolition of pulmonary blood flow"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Chronic hypoxemia can stimulate erythrocyte production and lead to secondary polycythemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-046",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "Following a rib fracture, a patient develops a pleural collection. Which finding would indicate a hemothorax?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Blood collecting in the pleural space"
+        },
+        {
+          "id": "o1",
+          "text": "Air collecting in the alveoli"
+        },
+        {
+          "id": "o2",
+          "text": "Urine collecting in the renal pelvis"
+        },
+        {
+          "id": "o3",
+          "text": "Pus confined to the urinary bladder"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hemothorax is blood in the pleural space and can occur after trauma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-047",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a recent lower-extremity DVT suddenly has pleuritic chest pain and shortness of breath. What process should the nurse suspect?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "An embolus obstructing pulmonary blood flow"
+        },
+        {
+          "id": "o1",
+          "text": "A platelet deficiency preventing all clot formation"
+        },
+        {
+          "id": "o2",
+          "text": "An isolated lower urinary tract infection"
+        },
+        {
+          "id": "o3",
+          "text": "A gradual decrease in gastric intrinsic factor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "DVT is a major risk for pulmonary embolism, which can present with sudden dyspnea and chest pain.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-048",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "A blood clot is no longer needed. Which substance carries out fibrinolysis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Plasmin"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrinogen"
+        },
+        {
+          "id": "o2",
+          "text": "Factor VIII alone"
+        },
+        {
+          "id": "o3",
+          "text": "von Willebrand factor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Plasmin participates in clot breakdown during fibrinolysis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-049",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "A patient remains seated for a long flight and later develops unilateral leg swelling. Which part of Virchow's triad is related to prolonged sitting?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Venous stasis"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrinolysis"
+        },
+        {
+          "id": "o2",
+          "text": "Platelet destruction"
+        },
+        {
+          "id": "o3",
+          "text": "Decreased plasma proteins"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Prolonged immobility promotes venous stasis, a factor in venous thrombosis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-050",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient with thrombocytopenia has pinpoint red-purple skin spots. Which finding is this?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Petechiae"
+        },
+        {
+          "id": "o1",
+          "text": "Hemarthrosis"
+        },
+        {
+          "id": "o2",
+          "text": "Hydronephrosis"
+        },
+        {
+          "id": "o3",
+          "text": "Exophthalmos"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Petechiae are small bleeding manifestations associated with platelet problems.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-051",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "After severe trauma, a patient has both oozing from venipuncture sites and evidence of small-vessel clotting. Which condition fits?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Disseminated intravascular coagulation"
+        },
+        {
+          "id": "o1",
+          "text": "Isolated stress incontinence"
+        },
+        {
+          "id": "o2",
+          "text": "Latent tuberculosis"
+        },
+        {
+          "id": "o3",
+          "text": "Uncomplicated iron deficiency"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "DIC involves widespread coagulation and can consume platelets and clotting factors, leading to bleeding.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-052",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient with long-standing gastrointestinal bleeding reports fatigue and cold intolerance. Which deficiency is a concern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Iron deficiency"
+        },
+        {
+          "id": "o1",
+          "text": "Alpha-1 antitrypsin deficiency"
+        },
+        {
+          "id": "o2",
+          "text": "Factor VIII deficiency as the only possible cause"
+        },
+        {
+          "id": "o3",
+          "text": "Excess erythropoietin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Chronic blood loss removes iron and is a risk factor for iron deficiency anemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-053",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "For emergency red blood cell transfusion, what characteristic makes O-negative cells broadly compatible?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "They lack A, B, and Rh D antigens"
+        },
+        {
+          "id": "o1",
+          "text": "They carry both A and B antigens"
+        },
+        {
+          "id": "o2",
+          "text": "They contain no hemoglobin"
+        },
+        {
+          "id": "o3",
+          "text": "They have every possible platelet antigen"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "O-negative red cells lack A, B, and Rh D antigens; standard compatibility procedures still apply.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-054",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops fluid overload associated with a transfusion. Which reaction name corresponds to this pattern?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Transfusion-associated circulatory overload"
+        },
+        {
+          "id": "o1",
+          "text": "Transfusion-related acute lung injury"
+        },
+        {
+          "id": "o2",
+          "text": "Febrile reaction only"
+        },
+        {
+          "id": "o3",
+          "text": "Hemolytic reaction only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "TACO refers to circulatory overload associated with transfusion.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-055",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A patient has painless enlarged lymph nodes, fever, and night sweats. Which diagnosis is consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lymphoma"
+        },
+        {
+          "id": "o1",
+          "text": "Stress incontinence"
+        },
+        {
+          "id": "o2",
+          "text": "Urinary stone as the only possible explanation"
+        },
+        {
+          "id": "o3",
+          "text": "Pneumothorax alone"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Painless lymphadenopathy and constitutional symptoms are listed manifestations of lymphoma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-056",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "A patient with leukemia has frequent infections despite a high white blood cell count. What is one explanation?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Many leukemic white cells are abnormal and do not function normally"
+        },
+        {
+          "id": "o1",
+          "text": "Every leukocyte is fully functional"
+        },
+        {
+          "id": "o2",
+          "text": "The count measures only red cells"
+        },
+        {
+          "id": "o3",
+          "text": "Platelet aggregation directly replaces immunity"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Leukemic proliferation may produce abnormal, ineffective white blood cells and interfere with normal marrow function.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-057",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "A patient has edema and hematuria after a recent streptococcal infection. Which syndrome is most consistent with the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Nephritic syndrome"
+        },
+        {
+          "id": "o1",
+          "text": "Nephrotic syndrome defined only by massive proteinuria"
+        },
+        {
+          "id": "o2",
+          "text": "Stress incontinence"
+        },
+        {
+          "id": "o3",
+          "text": "Pulmonary embolism"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates nephritic syndrome with hematuria and a history of streptococcal infection.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-058",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient with urinary frequency and dysuria develops fever, chills, and costovertebral angle tenderness. What change is most concerning?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Possible upper urinary tract involvement"
+        },
+        {
+          "id": "o1",
+          "text": "Proof that the infection is only in the bladder"
+        },
+        {
+          "id": "o2",
+          "text": "Complete resolution of infection"
+        },
+        {
+          "id": "o3",
+          "text": "A definite diagnosis of hemophilia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Fever, chills, and CVA tenderness are associated with pyelonephritis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-059",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "A patient with an obstructed ureter develops dilation of the renal pelvis and calyces. What is this called?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hydronephrosis"
+        },
+        {
+          "id": "o1",
+          "text": "Empyema"
+        },
+        {
+          "id": "o2",
+          "text": "Leukostasis"
+        },
+        {
+          "id": "o3",
+          "text": "Pneumothorax"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hydronephrosis is urine-filled dilation of the renal collecting system associated with outflow obstruction.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-060",
+      "topic": "Acute Kidney Injury",
+      "type": "mcq",
+      "stem": "A patient develops AKI after a urinary obstruction from benign prostatic hyperplasia. Which category is most likely?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Postrenal"
+        },
+        {
+          "id": "o1",
+          "text": "Prerenal"
+        },
+        {
+          "id": "o2",
+          "text": "Intrarenal from direct medication injury"
+        },
+        {
+          "id": "o3",
+          "text": "Respiratory"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "An obstruction to urinary outflow can cause postrenal AKI.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-061",
+      "topic": "Chronic Kidney Disease",
+      "type": "mcq",
+      "stem": "A patient with advanced CKD reports fatigue and has anemia. Which diminished kidney function contributes?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Erythropoietin production"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrin production"
+        },
+        {
+          "id": "o2",
+          "text": "Intrinsic factor release"
+        },
+        {
+          "id": "o3",
+          "text": "Platelet adhesion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Reduced renal erythropoietin production contributes to anemia in CKD.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-062",
+      "topic": "Dialysis",
+      "type": "mcq",
+      "stem": "A patient using peritoneal dialysis develops abdominal pain and symptoms of infection. Which complication should be assessed?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Peritonitis"
+        },
+        {
+          "id": "o1",
+          "text": "Hemothorax as the expected abdominal infection"
+        },
+        {
+          "id": "o2",
+          "text": "Pulmonary embolism in every case"
+        },
+        {
+          "id": "o3",
+          "text": "Hemophilia A"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Peritonitis is a complication associated with peritoneal dialysis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-063",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A patient leaks urine when laughing and lifting. Which mechanism is most consistent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased abdominal pressure overcomes weakened pelvic support"
+        },
+        {
+          "id": "o1",
+          "text": "All urine leakage is caused by kidney stones"
+        },
+        {
+          "id": "o2",
+          "text": "Pulmonary blood flow is obstructed"
+        },
+        {
+          "id": "o3",
+          "text": "The patient has an absolute lack of bladder sensation"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Stress incontinence occurs with increased intra-abdominal pressure, often in the setting of weakened pelvic floor support.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Candidate: source, key, and semantic duplicate review required."
     }
   ]
 }
