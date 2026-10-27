@@ -1,0 +1,50 @@
+{
+  "files": [
+    "3140_6_Blood Disorders.pdf",
+    "3140_6_Pathophysiology of Hemostasis.pdf",
+    "3140_6_RBCs Disorders.pdf",
+    "3140_6_WBCs Disorders.pdf",
+    "3140_8_Acute Kidney Injury and Chronic Kidney Disease.pdf",
+    "3140_8_Disorders of Renal Function.pdf",
+    "AKI.pdf",
+    "Anemia Chart.docx",
+    "Blood Chart.docx",
+    "CF.png",
+    "CKD.pdf",
+    "COPD.pdf",
+    "Exam 3 Blueprint.docx",
+    "Exam 3 Worksheet Answers.docx",
+    "Leukemia Chart.docx",
+    "Lymphoma Chart.docx",
+    "Perfusion Disorders.docx",
+    "Pharmacology Drug Sheet.xlsx",
+    "TB.pdf",
+    "UTI.pdf",
+    "Understanding the Cells of the Immune System video transcript.pdf",
+    "Week 5 Questions Pathophysiology.pptx",
+    "Week 6 Questions Pathophysiology.pptx",
+    "Week 7 Question Pathophysiology.pptx",
+    "exam 3 quiz 1.pdf",
+    "meet the lungs video.pdf",
+    "understanding cells.docx"
+  ],
+  "parts": {
+    "AKI.pdf": [
+      "AKI.pdf.part01",
+      "AKI.pdf.part02",
+      "AKI.pdf.part03",
+      "AKI.pdf.part04"
+    ],
+    "UTI.pdf": [
+      "UTI.pdf.part01",
+      "UTI.pdf.part02",
+      "UTI.pdf.part03",
+      "UTI.pdf.part04"
+    ],
+    "Week 5 Questions Pathophysiology.pptx": [
+      "Week 5 Questions Pathophysiology.pptx.part01",
+      "Week 5 Questions Pathophysiology.pptx.part02",
+      "Week 5 Questions Pathophysiology.pptx.part03"
+    ]
+  }
+}
