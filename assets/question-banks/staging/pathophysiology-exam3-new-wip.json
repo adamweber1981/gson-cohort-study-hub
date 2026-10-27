@@ -2180,6 +2180,710 @@
       },
       "approved": false,
       "draftNote": "Candidate: source, key, and semantic duplicate review required."
+    },
+    {
+      "id": "patho-e3-new-064",
+      "topic": "Pneumonia",
+      "type": "mcq",
+      "stem": "A patient aspirates during a meal and later develops fever and a productive cough. How could aspiration contribute to pneumonia?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Material containing organisms entered the lower airways"
+        },
+        {
+          "id": "o1",
+          "text": "A clot developed in the deep leg veins"
+        },
+        {
+          "id": "o2",
+          "text": "The factor VIII level increased"
+        },
+        {
+          "id": "o3",
+          "text": "The patient excreted excess erythropoietin"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Aspiration of food, gastric contents, or secretions can introduce material and organisms into the respiratory tract.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-065",
+      "topic": "Tuberculosis",
+      "type": "mcq",
+      "stem": "A patient with suspected pulmonary tuberculosis has cough, fever, weight loss, and night sweats. Which order from the course quiz helps identify the organism?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Acid-fast bacillus sputum culture"
+        },
+        {
+          "id": "o1",
+          "text": "A urine test for ketones alone"
+        },
+        {
+          "id": "o2",
+          "text": "A stool test for occult blood alone"
+        },
+        {
+          "id": "o3",
+          "text": "A factor VIII activity test"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The course quiz identifies an acid-fast bacillus sputum culture among expected tests for suspected active TB.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-066",
+      "topic": "Asthma",
+      "type": "mcq",
+      "stem": "A patient becomes short of breath while exercising in cold air. The course worksheet describes these as which kind of asthma trigger?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Intrinsic triggers"
+        },
+        {
+          "id": "o1",
+          "text": "Extrinsic type I allergic triggers in every case"
+        },
+        {
+          "id": "o2",
+          "text": "Direct causes of a pulmonary embolus"
+        },
+        {
+          "id": "o3",
+          "text": "Causes of hemolytic transfusion reaction"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Cold and exercise are listed as intrinsic asthma triggers.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-067",
+      "topic": "COPD",
+      "type": "mcq",
+      "stem": "A patient with longstanding emphysema develops pulmonary hypertension. Which sequence best explains the progression to cor pulmonale?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pulmonary vascular pressure increases and the right ventricle works harder"
+        },
+        {
+          "id": "o1",
+          "text": "Left ventricular outflow pressure drops and the kidney directly fails"
+        },
+        {
+          "id": "o2",
+          "text": "Air in the pleural space creates a factor VIII deficiency"
+        },
+        {
+          "id": "o3",
+          "text": "A pulmonary clot enters the renal pelvis and blocks urine"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Pulmonary hypertension increases resistance to right ventricular outflow and may lead to right-sided failure.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-068",
+      "topic": "Pleural Disorders",
+      "type": "mcq",
+      "stem": "A patient develops a pleural effusion during pneumonia. The fluid contains protein and inflammatory cells. Which mechanism from the worksheet best explains an exudative effusion?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inflammation increases vascular permeability"
+        },
+        {
+          "id": "o1",
+          "text": "Reduced hydrostatic pressure keeps all fluid inside vessels"
+        },
+        {
+          "id": "o2",
+          "text": "Red blood cells are unable to make hemoglobin"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced bile production creates air in the pleural cavity"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Inflammation increases permeability and can produce an exudative pleural effusion containing protein and white blood cells.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-069",
+      "topic": "Pulmonary Embolism",
+      "type": "mcq",
+      "stem": "A patient with a pulmonary embolism has well-ventilated alveoli downstream from an obstructed vessel. What is the primary problem in that region?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Insufficient blood reaches the alveoli for effective gas exchange"
+        },
+        {
+          "id": "o1",
+          "text": "No air can reach the mouth"
+        },
+        {
+          "id": "o2",
+          "text": "The alveoli have produced too much intrinsic factor"
+        },
+        {
+          "id": "o3",
+          "text": "The renal pelvis is enlarged"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "A pulmonary embolus reduces perfusion of ventilated lung tissue and impairs gas exchange.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-070",
+      "topic": "Hemostasis",
+      "type": "mcq",
+      "stem": "After vessel injury, platelets stick to the damaged area and one another. Which sequence names these platelet actions?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Adhesion and aggregation"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrinolysis and dialysis"
+        },
+        {
+          "id": "o2",
+          "text": "Ventilation and diffusion"
+        },
+        {
+          "id": "o3",
+          "text": "Filtration and excretion"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Platelet adhesion and aggregation help form the initial plug.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-071",
+      "topic": "Hypercoagulability",
+      "type": "mcq",
+      "stem": "A patient using estrogen-containing oral contraceptives has been immobile during a long trip. Which two parts of Virchow's triad do these factors most directly represent?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypercoagulability and venous stasis"
+        },
+        {
+          "id": "o1",
+          "text": "Venous stasis and fibrinolysis"
+        },
+        {
+          "id": "o2",
+          "text": "Platelet loss and reduced hemoglobin"
+        },
+        {
+          "id": "o3",
+          "text": "Low intrinsic factor and hemolysis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates estrogen with hypercoagulability and immobility with venous stasis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-072",
+      "topic": "Hypocoagulation",
+      "type": "mcq",
+      "stem": "A patient has von Willebrand deficiency. Which function is most directly disrupted in initial hemostasis?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Platelet adhesion at the injured vessel"
+        },
+        {
+          "id": "o1",
+          "text": "Alveolar oxygen diffusion"
+        },
+        {
+          "id": "o2",
+          "text": "Release of erythropoietin from the kidney"
+        },
+        {
+          "id": "o3",
+          "text": "Conversion of plasmin into iron"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Von Willebrand factor supports platelet adhesion during initial plug formation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-073",
+      "topic": "DIC",
+      "type": "mcq",
+      "stem": "A patient with disseminated intravascular coagulation has both thrombosis and oozing at venipuncture sites. What explains why these findings can coexist?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Systemic clotting consumes platelets and clotting factors"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrin prevents the use of any clotting components"
+        },
+        {
+          "id": "o2",
+          "text": "The disorder prevents every clot from forming"
+        },
+        {
+          "id": "o3",
+          "text": "The patient has an isolated obstruction of the urethra"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "DIC can cause widespread clotting and consume hemostatic components, increasing bleeding risk.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-074",
+      "topic": "Anemias",
+      "type": "mcq",
+      "stem": "A patient has fatigue, pallor, and red blood cells with low MCV and low MCHC. Which anemia pattern matches these data?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Microcytic hypochromic iron deficiency"
+        },
+        {
+          "id": "o1",
+          "text": "Macrocytic pernicious anemia"
+        },
+        {
+          "id": "o2",
+          "text": "A platelet plug disorder"
+        },
+        {
+          "id": "o3",
+          "text": "Polycythemia from chronic hypoxemia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet describes iron deficiency red cells as microcytic and hypochromic with low MCV and MCHC.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-075",
+      "topic": "Blood Compatibility",
+      "type": "mcq",
+      "stem": "For red blood cell transfusion, why is AB positive often called the universal recipient type?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The recipient has A, B, and Rh D antigens and typically lacks anti-A and anti-B antibodies"
+        },
+        {
+          "id": "o1",
+          "text": "The recipient has no blood antigens of any kind"
+        },
+        {
+          "id": "o2",
+          "text": "All transfusion reactions are impossible"
+        },
+        {
+          "id": "o3",
+          "text": "Compatibility testing is never needed"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "AB-positive patients are commonly described as universal red-cell recipients; usual compatibility procedures still apply.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-076",
+      "topic": "Transfusion Reactions",
+      "type": "mcq",
+      "stem": "A patient develops signs of circulatory overload during a transfusion. Which acronym corresponds to this reaction?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "TACO"
+        },
+        {
+          "id": "o1",
+          "text": "TRALI"
+        },
+        {
+          "id": "o2",
+          "text": "DIC"
+        },
+        {
+          "id": "o3",
+          "text": "AKI"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "TACO stands for transfusion-associated circulatory overload.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-077",
+      "topic": "Lymphoma",
+      "type": "mcq",
+      "stem": "A pathology report identifies Reed-Sternberg cells. Which lymphoma is associated with that finding?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hodgkin lymphoma"
+        },
+        {
+          "id": "o1",
+          "text": "Every non-Hodgkin lymphoma"
+        },
+        {
+          "id": "o2",
+          "text": "Acute lymphocytic leukemia"
+        },
+        {
+          "id": "o3",
+          "text": "Sickle cell anemia"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Reed-Sternberg cells are associated with Hodgkin lymphoma.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-078",
+      "topic": "Leukemia",
+      "type": "mcq",
+      "stem": "A patient with leukemia has a very high white cell count and new respiratory and neurologic findings. Which complication in the worksheet could impair circulation in the lungs and brain?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Leukostasis"
+        },
+        {
+          "id": "o1",
+          "text": "Clot retraction"
+        },
+        {
+          "id": "o2",
+          "text": "Urge incontinence"
+        },
+        {
+          "id": "o3",
+          "text": "Transudative effusion only"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Leukostasis can impair pulmonary and cerebral circulation when leukocyte counts are extremely high.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-079",
+      "topic": "Nephrotic & Nephritic Syndrome",
+      "type": "mcq",
+      "stem": "A patient has foamy urine, extensive proteinuria, generalized edema, and elevated lipids. Which syndrome best fits?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Nephrotic syndrome"
+        },
+        {
+          "id": "o1",
+          "text": "Nephritic syndrome identified solely by hematuria"
+        },
+        {
+          "id": "o2",
+          "text": "Uncomplicated cystitis"
+        },
+        {
+          "id": "o3",
+          "text": "Stress incontinence"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates nephrotic syndrome with massive proteinuria, foamy urine, edema, and hyperlipidemia.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-080",
+      "topic": "UTI",
+      "type": "mcq",
+      "stem": "A patient has dysuria, urinary urgency, and lower abdominal discomfort without fever or flank tenderness. Which location is most consistent with these findings?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lower urinary tract, such as cystitis"
+        },
+        {
+          "id": "o1",
+          "text": "Upper urinary tract infection is proven by these symptoms alone"
+        },
+        {
+          "id": "o2",
+          "text": "Pleural cavity"
+        },
+        {
+          "id": "o3",
+          "text": "Pulmonary artery"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Dysuria, urgency, frequency, and lower abdominal discomfort are associated with cystitis; upper infection may add systemic and flank findings.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-081",
+      "topic": "Urinary Obstructions",
+      "type": "mcq",
+      "stem": "A patient with gout has a history of recurrent kidney stones. Which type has the association described in the worksheet?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Uric acid"
+        },
+        {
+          "id": "o1",
+          "text": "Cystine only"
+        },
+        {
+          "id": "o2",
+          "text": "Struvite only"
+        },
+        {
+          "id": "o3",
+          "text": "A pleural exudate"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet associates uric acid stones with gout and a high-purine diet.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-082",
+      "topic": "Acute Kidney Injury",
+      "type": "mcq",
+      "stem": "A patient with severe vomiting has volume depletion and an acute creatinine rise. What mechanism makes a prerenal cause likely?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced renal perfusion from hypovolemia"
+        },
+        {
+          "id": "o1",
+          "text": "A blockage after urine exits the kidney"
+        },
+        {
+          "id": "o2",
+          "text": "A direct immune injury to glomeruli is proven"
+        },
+        {
+          "id": "o3",
+          "text": "An AV fistula causes urinary retention"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Hypovolemia reduces kidney perfusion and can cause prerenal AKI.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-083",
+      "topic": "Chronic Kidney Disease",
+      "type": "mcq",
+      "stem": "A patient with advanced CKD develops metabolic acidosis. Which impaired renal functions contribute?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reduced hydrogen ion excretion and bicarbonate generation"
+        },
+        {
+          "id": "o1",
+          "text": "Increased excretion of acid and production of bicarbonate"
+        },
+        {
+          "id": "o2",
+          "text": "Increased lung ventilation from asthma alone"
+        },
+        {
+          "id": "o3",
+          "text": "Excess secretion of intrinsic factor"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "The worksheet links CKD acidosis to impaired acid excretion and bicarbonate generation.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-084",
+      "topic": "Dialysis",
+      "type": "mcq",
+      "stem": "A patient uses an abdominal dialysis catheter for treatment. Which complication is the nurse especially alert to?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Peritonitis"
+        },
+        {
+          "id": "o1",
+          "text": "A fistula aneurysm at an arm vascular access"
+        },
+        {
+          "id": "o2",
+          "text": "A guaranteed transfusion reaction"
+        },
+        {
+          "id": "o3",
+          "text": "Leukostasis in every patient"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Peritonitis is a recognized complication of peritoneal dialysis.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
+    },
+    {
+      "id": "patho-e3-new-085",
+      "topic": "Urinary Incontinence",
+      "type": "mcq",
+      "stem": "A patient has an intense need to void and leaks before reaching the toilet. Which type fits the worksheet description?",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Urge incontinence"
+        },
+        {
+          "id": "o1",
+          "text": "Stress incontinence from coughing alone"
+        },
+        {
+          "id": "o2",
+          "text": "Hematuria"
+        },
+        {
+          "id": "o3",
+          "text": "Hydronephrosis"
+        }
+      ],
+      "correct": "o0",
+      "rationale": "Urge incontinence involves a sudden strong urge followed by involuntary leakage.",
+      "source": {
+        "name": "Exam 3 Worksheet Answers",
+        "path": "References/Pathophysiology/Exams/Exam%203/Exam%203%20Worksheet%20Answers.txt"
+      },
+      "approved": false,
+      "draftNote": "Provisional; independent clinical, source, and semantic-duplicate review needed."
     }
   ]
 }
