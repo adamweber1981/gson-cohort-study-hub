@@ -6,6 +6,8 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
+- 2026-10-29: Added the Pharmacology Exam 3 development preview: 278 course-aligned questions, nine selectable categories and 27 class/drug placements, 10–11 direct questions for each of 26 unique drug entries, a mixed 50-question practice plan, source references, and coverage checks. Independent clinical review is incomplete. Render test only; not released to main.
+
 - Added multi-select custom practice grouped by blueprint topics and linked the Pathophysiology Exam 3 reference collection.
 
 - Expanded the Pathophysiology Exam 3 test preview to 133 questions after screening provisional candidates for overlap. Remaining content is provisional and clinical, source, and duplicate review is incomplete; the pool has only one true/false item.
@@ -142,3 +144,4 @@ _Recorded in the existing HTML changelog; several legacy exam links were subsequ
 4. Never include secrets, admin tokens, push endpoints, personal data, or student-identifying analytics.
 5. Maintain the existing [public HTML changelog](References/changelogs/changelog.html) for students as needed; this Markdown file is the repository's detailed development/release history.
 6. Consult [GitHub commit history](https://github.com/adamweber1981/gson-cohort-study-hub/commits/main/) for individual file-level changes and exact chronology.
+

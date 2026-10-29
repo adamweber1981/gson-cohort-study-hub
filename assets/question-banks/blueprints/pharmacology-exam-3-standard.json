@@ -1,0 +1,82 @@
+{
+  "id": "pharmacology-exam-3-standard",
+  "course": "Pharmacology",
+  "examNumber": "Exam 3",
+  "total": 50,
+  "standardLabel": "Mixed practice (50 questions)",
+  "topics": {
+    "Medications for the Upper Respiratory System": 7,
+    "Medications for the Lower Respiratory System": 11,
+    "Medications to Treat Neuromuscular Disorders": 4,
+    "Medications to Treat Seizure Disorders": 6,
+    "Medications to Treat Neurocognitive Disorders": 4,
+    "Antidepressants": 9,
+    "Anxiolytics": 4,
+    "Medications to Treat Bipolar Disorders": 2,
+    "Antipsychotics": 3
+  },
+  "subtopics": {
+    "Medications for the Upper Respiratory System": {
+      "First-generation H1 antihistamine — Diphenhydramine": 2,
+      "Second-generation H1 antihistamine — Cetirizine": 2,
+      "Opioid antitussive — Codeine": 2,
+      "Nonopioid antitussive — Dextromethorphan": 1
+    },
+    "Medications for the Lower Respiratory System": {
+      "SABA — Albuterol": 2,
+      "LABA — Salmeterol": 2,
+      "SAMA — Ipratropium": 2,
+      "LAMA — Tiotropium": 2,
+      "Inhaled corticosteroid — Fluticasone": 2,
+      "Leukotriene receptor antagonist — Montelukast": 1
+    },
+    "Medications to Treat Neuromuscular Disorders": {
+      "GABA analog — Gabapentin": 2,
+      "Dopaminergic agent — Carbidopa and Levodopa": 2
+    },
+    "Medications to Treat Seizure Disorders": {
+      "Sodium channel inhibitor — Phenytoin": 2,
+      "GABA-augmenting antiseizure agent — Valproic Acid": 2,
+      "Benzodiazepine — Lorazepam": 2
+    },
+    "Medications to Treat Neurocognitive Disorders": {
+      "CNS stimulant — Methylphenidate": 2,
+      "Acetylcholinesterase inhibitor — Donepezil": 2
+    },
+    "Antidepressants": {
+      "SSRI — Fluoxetine": 2,
+      "SNRI — Venlafaxine": 2,
+      "NDRI — Bupropion": 2,
+      "Tricyclic antidepressant — Amitriptyline": 2,
+      "MAOI — Selegiline": 1
+    },
+    "Anxiolytics": {
+      "Benzodiazepine — Lorazepam": 2,
+      "5-HT1A partial agonist — Buspirone": 2
+    },
+    "Medications to Treat Bipolar Disorders": {
+      "Mood stabilizer — Lithium": 2
+    },
+    "Antipsychotics": {
+      "First-generation antipsychotic — Chlorpromazine": 2,
+      "Second-generation antipsychotic — Risperidone": 1
+    }
+  },
+  "types": {
+    "sata": {
+      "min": 6,
+      "max": 10
+    },
+    "matching": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  "policy": {
+    "approvedOnly": true,
+    "uniqueQuestions": true,
+    "failClosed": true,
+    "source": "Medications and Prototypes for Exam 3 - Student Version.docx",
+    "scope": "Only medications named in the Exam 3 prototype list. Category allocations are a practice plan; instructor weighting was not supplied."
+  }
+}
