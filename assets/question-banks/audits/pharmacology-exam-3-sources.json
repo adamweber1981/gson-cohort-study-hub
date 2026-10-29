@@ -1,0 +1,94 @@
+{
+  "originalFiles": 11,
+  "scope": "All originals in the selected Pharmacology Exam 3 folder, including Pharm Exam 2 as a reference only; bank scope is unchanged.",
+  "files": [
+    {
+      "name": "BH In Class - Student.pptx",
+      "size": 58804,
+      "sha256": "97321ba0d24b2d2306314fea83bb00465d61aebab36187152e24ca30dd8df659",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/BH%20In%20Class%20-%20Student.pptx",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/BH In Class - Student.pptx",
+      "storage": "original file"
+    },
+    {
+      "name": "CNS Worksheet.docx",
+      "size": 25519,
+      "sha256": "55d711e10f00520d069c2645ada80684b6a9a7812e9e0d2361af37b4a8f72d9c",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/CNS%20Worksheet.docx",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/CNS Worksheet.docx",
+      "storage": "original file"
+    },
+    {
+      "name": "Medications and Prototypes for Exam 3 - Student Version.docx",
+      "size": 25566,
+      "sha256": "e39b59a55e6c02605fe9791f32c62fe85bfe60318a7499635ef6e970e425f9ed",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Medications%20and%20Prototypes%20for%20Exam%203%20-%20Student%20Version.docx",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Medications and Prototypes for Exam 3 - Student Version.docx",
+      "storage": "original file"
+    },
+    {
+      "name": "Nervous System In Class - Student.pptx",
+      "size": 56864,
+      "sha256": "5e4ac0eb4575cb07053d36b0f871cc6a59a6df700b31c1e1afff5cefec81d734",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Nervous%20System%20In%20Class%20-%20Student.pptx",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Nervous System In Class - Student.pptx",
+      "storage": "original file"
+    },
+    {
+      "name": "Pharm Behavioral Health - Narrated.pptx",
+      "size": 31331201,
+      "sha256": "8ecd137b5a75970a04b651130f1bacf94ce7a93a16cf3ebe38056e8aefcfb381",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/README.md#narrated-presentation",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Pharm Behavioral Health - Narrated.pptx.parts.json",
+      "storage": "verified original parts"
+    },
+    {
+      "name": "Pharm Exam 2.pdf",
+      "size": 153663,
+      "sha256": "29b2757664bc2fc9565e4e6fd93391092103d034cab0df7d1a11107a27f532ac",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Pharm%20Exam%202.pdf",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Pharm Exam 2.pdf",
+      "storage": "original file"
+    },
+    {
+      "name": "Pharm Exam 3 Jeopardy.pdf",
+      "size": 60934,
+      "sha256": "143ddab5de365302ed4d4a4f18097fc90992ede068dd029f595458b576216fc0",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Pharm%20Exam%203%20Jeopardy.pdf",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Pharm Exam 3 Jeopardy.pdf",
+      "storage": "original file"
+    },
+    {
+      "name": "Pharm Unit 3 Med Review.pdf",
+      "size": 174048,
+      "sha256": "7f1fcc951517db25da7af0fc6c4d7ba2d81a4d6d385da43e85613ac2264205da",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Pharm Unit 3 Med Review.pdf",
+      "storage": "original file"
+    },
+    {
+      "name": "Resp in class - Student.pptx",
+      "size": 57800,
+      "sha256": "df86093ab588a6e0d7e1f70041df3ffe34f682e2c9ec9f2799610d62f7b05477",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Resp%20in%20class%20-%20Student.pptx",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Resp in class - Student.pptx",
+      "storage": "original file"
+    },
+    {
+      "name": "Respiratory Medication Worksheet-1.docx",
+      "size": 24098,
+      "sha256": "ff0a4a956ebe7754b2ebdac2fc6999095485e9adf52cabd5bbd82e98ebfd8665",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/Respiratory%20Medication%20Worksheet-1.docx",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/Respiratory Medication Worksheet-1.docx",
+      "storage": "original file"
+    },
+    {
+      "name": "pharm exam 3 quiz 1.pdf",
+      "size": 1057650,
+      "sha256": "82a383b9f5e3dd4c8954f5d765134073111ba7e4014dc54d43e96cd7102f8616",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/main/References/Pharmacology/Exams/Exam%203/pharm%20exam%203%20quiz%201.pdf",
+      "repositoryPath": "References/Pharmacology/Exams/Exam 3/pharm exam 3 quiz 1.pdf",
+      "storage": "original file"
+    }
+  ]
+}

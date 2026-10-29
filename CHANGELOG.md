@@ -8,6 +8,13 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 No entries recorded.
 
+## 2026-10-29 — Complete Pharmacology Exam 3 sources
+
+- Added the eight missing originals from the selected course folder, completing access to all 11 originals under `References/Pharmacology/Exams/Exam 3/`. The narrated presentation is preserved in five byte-verified parts with a reconstruction manifest and script; the exam offers an integrity-checked download of the original presentation.
+- Added a GitHub source index and explicit GitHub links in the References menu and question feedback, preserving in-page viewing and existing question/page citations.
+- Kept original filenames and content. Pharm Exam 2 is included because it is in the supplied folder; it does not expand the Exam 3 medication scope. No question text, keys, counts, or quotas changed.
+
+
 ## 2026-10-29 — Pharmacology Exam 3 practice release
 
 - Released 278 questions: 260 MCQs, 12 SATA, and 6 matching questions, with 10–11 direct questions for each of 26 medication entries. Carbidopa/levodopa is the combination entry in the prototype list; lorazepam appears in both seizure and anxiety selectors.
@@ -172,6 +179,7 @@ _Recorded in the existing HTML changelog; several legacy exam links were subsequ
 4. Never include secrets, admin tokens, push endpoints, personal data, or student-identifying analytics.
 5. Maintain the existing [public HTML changelog](References/changelogs/changelog.html) for students as needed; this Markdown file is the repository's detailed development/release history.
 6. Consult [GitHub commit history](https://github.com/adamweber1981/gson-cohort-study-hub/commits/main/) for individual file-level changes and exact chronology.
+
 
 
 
