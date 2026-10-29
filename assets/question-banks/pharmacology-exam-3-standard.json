@@ -9953,7 +9953,13 @@
         "page": 1
       },
       "approved": true,
-      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW"
+      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW",
+      "requiredSubtopics": [
+        "SABA — Albuterol",
+        "LABA — Salmeterol",
+        "SAMA — Ipratropium",
+        "LAMA — Tiotropium"
+      ]
     },
     {
       "id": "pharm-e3-0274",
@@ -10014,7 +10020,13 @@
         "page": 1
       },
       "approved": true,
-      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW"
+      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW",
+      "requiredSubtopics": [
+        "First-generation H1 antihistamine — Diphenhydramine",
+        "Second-generation H1 antihistamine — Cetirizine",
+        "Opioid antitussive — Codeine",
+        "Nonopioid antitussive — Dextromethorphan"
+      ]
     },
     {
       "id": "pharm-e3-0275",
@@ -10065,7 +10077,12 @@
         "page": 2
       },
       "approved": true,
-      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW"
+      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW",
+      "requiredSubtopics": [
+        "Sodium channel inhibitor — Phenytoin",
+        "GABA-augmenting antiseizure agent — Valproic Acid",
+        "Benzodiazepine — Lorazepam"
+      ]
     },
     {
       "id": "pharm-e3-0276",
@@ -10136,7 +10153,14 @@
         "page": 3
       },
       "approved": true,
-      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW"
+      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW",
+      "requiredSubtopics": [
+        "SSRI — Fluoxetine",
+        "SNRI — Venlafaxine",
+        "NDRI — Bupropion",
+        "Tricyclic antidepressant — Amitriptyline",
+        "MAOI — Selegiline"
+      ]
     },
     {
       "id": "pharm-e3-0277",
@@ -10177,7 +10201,11 @@
         "page": 2
       },
       "approved": true,
-      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW"
+      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW",
+      "requiredSubtopics": [
+        "CNS stimulant — Methylphenidate",
+        "Acetylcholinesterase inhibitor — Donepezil"
+      ]
     },
     {
       "id": "pharm-e3-0278",
@@ -10218,7 +10246,11 @@
         "page": 3
       },
       "approved": true,
-      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW"
+      "auditStatus": "COURSE_ALIGNED_TEST_PREVIEW",
+      "requiredSubtopics": [
+        "First-generation antipsychotic — Chlorpromazine",
+        "Second-generation antipsychotic — Risperidone"
+      ]
     }
   ],
   "references": [
