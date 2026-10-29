@@ -21,7 +21,7 @@ function showIntro(){
  if(!engine.bank.blueprint){root.append(Object.assign(document.createElement("p"),{textContent:(engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt."}));button("Start Exam",()=>{engine.begin();showQuestion()});return}
  const bp=engine.bank.blueprint;
  const setup=document.createElement("div");setup.className="practice-setup";
- setup.innerHTML='<label for="practice-mode">Practice mode</label><select id="practice-mode"><option value="standard">Full blueprint exam ('+bp.total+' questions)</option><option value="custom">Custom practice</option></select><div id="custom-settings" hidden><p>Choose one or more topics, then select the subtopics you want.</p><div id="practice-groups"></div><label for="practice-count">Number of questions</label><input id="practice-count" type="number" min="1" step="1" inputmode="numeric"><p id="practice-availability" role="status"></p><p class="muted">Custom practice draws randomly from the selected questions. It does not enforce the full exam’s topic or question-type quotas.</p></div>';root.append(setup);
+ setup.innerHTML='<label for="practice-mode">Practice mode</label><select id="practice-mode"><option value="standard">'+escapeHTML(bp.standardLabel||('Full blueprint exam ('+bp.total+' questions)'))+'</option><option value="custom">Custom practice</option></select><div id="custom-settings" hidden><p>Choose one or more topics, then select the subtopics you want.</p><div id="practice-groups"></div><label for="practice-count">Number of questions</label><input id="practice-count" type="number" min="1" step="1" inputmode="numeric"><p id="practice-availability" role="status"></p><p class="muted">Custom practice draws randomly from the selected questions. It does not enforce the full exam’s topic or question-type quotas.</p></div>';root.append(setup);
  const mode=$("practice-mode"),count=$("practice-count"),status=$("practice-availability"),groups=$("practice-groups"),entries=[];
  const layout=bp.selectionGroups||Object.fromEntries(Object.keys(bp.topics).map(t=>[t,[t]]));
  for(const [groupName,topics] of Object.entries(layout)){
@@ -158,12 +158,17 @@ $("copy-report").addEventListener("click",async()=>{try{await navigator.clipboar
 function confirmLeave(){return !engine||!["active","submitted"].includes(engine.phase)||confirm("Leave this exam? Your current attempt will be lost.")}
 $("reset-exam").addEventListener("click",()=>{if(engine&&confirm("Return to practice setup? All answers will be cleared.")){engine=ExamCore.create(engine.bank);showIntro()}});
 $("return-hub").addEventListener("click",e=>{if(!confirmLeave())e.preventDefault()});
-$("references").addEventListener("click",async()=>{if(!engine)return;const sources=[...new Map(engine.bank.questions.map(q=>[q.source.path,q.source])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();
+$("references").addEventListener("click",async()=>{if(!engine)return;const sources=[...new Map([...engine.bank.questions.map(q=>q.source),...(engine.bank.references||[])].map(s=>[s.path,s])).values()];const dialog=$("references-dialog"),list=$("references-list");list.replaceChildren();
  if(bankId==="pathophysiology-exam-3-standard")try{const response=await fetch("assets/question-banks/pathophysiology-exam-3-references.json?v=multi-topic-20261027",{cache:"no-store"});if(!response.ok)throw Error("Reference list unavailable");const manifest=await response.json();for(const name of manifest.files){const path="References/Pathophysiology/Exams/Exam%203/"+encodeURIComponent(name);sources.push({name,path,parts:manifest.parts?.[name]?.map(part=>"References/Pathophysiology/Exams/Exam%203/parts/"+encodeURIComponent(part))})}}catch(err){const notice=document.createElement("p");notice.textContent="Some reference materials could not be loaded.";list.append(notice)}
  for(const s of [...new Map(sources.map(source=>[source.path,source])).values()]){if(s.parts&&/\.(pptx|docx|xlsx)$/i.test(s.path)){const b=document.createElement("button");b.type="button";b.textContent=s.name+" · Download";b.addEventListener("click",async()=>{b.disabled=true;try{const chunks=await Promise.all(s.parts.map(async part=>{const r=await fetch(part);if(!r.ok)throw Error("Reference part unavailable");return r.blob()}));const url=URL.createObjectURL(new Blob(chunks));const a=document.createElement("a");a.href=url;a.download=s.name;a.click();setTimeout(()=>URL.revokeObjectURL(url),60000)}catch(e){b.textContent="Could not download "+s.name+". Try again."}finally{b.disabled=false}});list.append(b)}else if(/\.(docx|pptx|xlsx)$/i.test(s.path)){const a=document.createElement("a");a.href=s.path;a.target="_blank";a.rel="noopener noreferrer";a.textContent=s.name+" · Open or download";list.append(a)}else{const b=document.createElement("button");b.type="button";b.textContent=s.name+" · View reference";b.addEventListener("click",()=>{dialog.close();openReference(new URL(s.path,location.href).href,s.name,s.parts)});list.append(b)}}dialog.showModal()});
 $("close-references").addEventListener("click",()=>$("references-dialog").close());
 window.addEventListener("beforeunload",e=>{if(engine&&["active","submitted"].includes(engine.phase)){e.preventDefault();e.returnValue=""}});
-(async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json",{cache:"no-store"});if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
+(async()=>{try{if(!bankId||!/^[a-z0-9-]+$/.test(bankId))throw Error("No valid question bank selected");const response=await fetch("assets/question-banks/"+bankId+".json"+(bankId==="pharmacology-exam-3-standard"?"?v=pharm3-production-20261029":""),{cache:"no-store"});if(!response.ok)throw Error("Question bank unavailable");const bank=await response.json();
+if(bankId==="pharmacology-exam-3-standard"){
+ const response=await fetch("assets/question-banks/blueprints/pharmacology-exam-3-standard.json?v=pharm3-production-20261029",{cache:"no-store"});
+ if(!response.ok)throw Error("Pharmacology Exam 3 practice plan unavailable");
+ bank.blueprint=await response.json();delete bank.previewCount;
+}
 if(bankId==="pathophysiology-exam-3-standard"){
  const blueprintResponse=await fetch("assets/question-banks/blueprints/pathophysiology-exam-3-standard.json?v=multi-topic-20261027",{cache:"no-store"});
  if(!blueprintResponse.ok)throw Error("Pathophysiology Exam 3 blueprint unavailable");
@@ -199,6 +204,7 @@ if(bankId==="fundamentals-exam-2-qa-standard"){
  }
 }
 engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
+
 
 
 

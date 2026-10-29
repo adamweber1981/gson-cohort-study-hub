@@ -1,0 +1,67 @@
+Medications and Prototypes for Exam 3
+Medications for the Upper Respiratory System
+Antihistamines
+First generation
+Diphenhydramine
+Second generation 
+Cetirizine	
+Opioid Antitussives
+Codeine
+Nonopioid Antitussives
+Dextromethorphan 
+Medications for the Lower Respiratory System
+Beta2 Agonists
+Short acting (SABA)
+Albuterol
+Long acting (LABA)
+Salmeterol
+Muscarinic Antagonists
+Short acting (SAMA)
+Ipratropium 
+Long acting (LAMA)
+Tiotropium
+Corticosteroids 
+Fluticasone (different than the book prototype)
+Leukotriene Modifiers
+Montelukast
+Medications to Treat Neuromuscular Disorders
+GABA Analogs
+Gabapentin
+Dopaminergic Agents
+Carbidopa and Levodopa
+Medications to Treat Seizure Disorders
+Sodium Channel Inhibitors
+Phenytoin
+GABA Augmenting Agents
+Valproic Acid
+Benzodiazepines
+Lorazepam
+Medications to Treat Neurocognitive Disorders
+Methylphenidates
+Methylphenidate
+Acetylcholinesterase Inhibitors
+Donepezil
+Antidepressants
+Selective Serotonin Reuptake Inhibitors
+Fluoxetine
+Serotonin and Norepinephrine Reuptake Inhibitors
+Venlafaxine
+Norepinephrine and Dopamine Reuptake Inhibitors
+Bupropion
+Tricyclic Antidepressants
+Amitriptyline
+Monoamine Oxidase Inhibitors
+Selegiline
+Anxiolytics
+Benzodiazepines
+Lorazepam
+5-HT1A Partial Agonists
+Buspirone
+Medications to Treat Bipolar Disorders
+Mood Stabilizers
+Lithium
+Antipsychotics
+First generation (typical) Antipsychotics
+Chlorpromazine
+Second-generation (Atypical) Antipsychotics
+Risperidone
