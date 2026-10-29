@@ -50,6 +50,8 @@ const STUDY_HUB = [
         icon: "💊",
         description: "Medication classes, safety, adverse effects & nursing considerations",
         exams: [
+          {name:"Exam 3",versions:[{version:"Exam 3 — 278-question practice preview",file:"exam.html?bank=pharmacology-exam-3-standard&v=pharm3-production-20261029",description:"Course-source practice: 26 medication entries with 10–11 direct questions each. Mixed 50-question practice or choose categories, drugs/classes, and count. Independent clinical review remains incomplete."}]},
+
           // Exam 2: each entry below becomes one clickable practice-exam card.
           {
             name: "Exam 2",
@@ -183,4 +185,5 @@ const STUDY_HUB = [
       }
 
     ];
+
 

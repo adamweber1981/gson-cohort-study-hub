@@ -15,7 +15,7 @@
  function customPool(bank, selections){
  const bp=bank.blueprint;if(!bp||!Array.isArray(selections))throw Error("Invalid practice selections");
  for(const item of selections){if(!item||!Object.hasOwn(bp.topics,item.topic)||!(item.subtopics===null||Array.isArray(item.subtopics)))throw Error("Invalid blueprint selection");if(item.subtopics&&item.subtopics.some(sub=>sub!==null&&!Object.hasOwn(bp.subtopics?.[item.topic]||{},sub)))throw Error("Invalid blueprint subsection")}
- return bank.questions.filter(q=>q.approved===true&&selections.some(item=>item.topic===q.topic&&(item.subtopics===null||item.subtopics.includes(q.subtopic??null))))
+ return bank.questions.filter(q=>q.approved===true&&selections.some(item=>item.topic===q.topic&&(item.subtopics===null||item.subtopics.includes(q.subtopic??null)))&&(!q.requiredSubtopics||q.requiredSubtopics.every(sub=>selections.some(item=>item.topic===q.topic&&(item.subtopics===null||item.subtopics.includes(sub))))))
  }
  function create(bank,random=Math.random){validate(bank);let questions=[],answers=[],index=0,phase="intro";
  const begin=(settings=null)=>{let chosen;if(settings){if(!bank.blueprint)throw Error("Custom practice requires a blueprint");const {count}=settings;let selections=settings.selections;if(!selections){const {topic,subtopic}=settings;if(topic!=="all"&&!Object.hasOwn(bank.blueprint.topics,topic))throw Error("Invalid blueprint section");selections=(topic==="all"?Object.keys(bank.blueprint.topics):[topic]).map(t=>({topic:t,subtopics:subtopic?[subtopic]:null}))}const pool=customPool(bank,selections);if(!Number.isInteger(count)||count<1||count>pool.length)throw Error("Choose a question count within the available range");chosen=shuffle(pool,random).slice(0,count)}else chosen=bank.blueprint?root.ExamBlueprint.assemble(bank.questions,bank.blueprint,random):bank.previewCount?shuffle(bank.questions,random).slice(0,bank.previewCount):bank.questions;const groups=new Map();for(const q of chosen){const key=q.caseId||q.id;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q)}
@@ -29,5 +29,6 @@
  }
  root.ExamCore={shuffle,grade,validate,create,customPool};
 })(window);
+
 
 
