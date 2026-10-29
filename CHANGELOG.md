@@ -1,5 +1,13 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-10-29 — Recent courses and exam accordion defaults
+
+- Home course tiles sort by the latest exam update; Pharmacology appears first.
+- Only the latest exam opens by default in each of the four courses; older groups remain collapsed.
+- Removed student-facing incomplete-review notices while preserving internal audit records.
+- Versioned changed scripts for cache refresh. Tested on the Render development site before production release.
+
+
 All notable user-facing changes, exam-content migrations, infrastructure work, and release milestones are documented here. New entries should be added at the top. This is a **curated history**, not a claim that every individual Git commit is reproduced verbatim; GitHub's commit history remains the authoritative line-by-line record.
 
 **Production:** [Study Hub](https://adamweber1981.github.io/gson-cohort-study-hub/) · **Repository:** [GitHub](https://github.com/adamweber1981/gson-cohort-study-hub) · **Development branch:** `pwa-redesign` · **Previous web changelog:** [HTML changelog](References/changelogs/changelog.html)

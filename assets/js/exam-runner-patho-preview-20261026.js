@@ -17,7 +17,7 @@ function showQuestion(){resetUI();selection=null;const q=engine.current();const 
 function formatAnswer(q,key){if(q.type==="matching")return q.pairs.map(p=>p.prompt+" → "+(q.targets.find(t=>t.id===(key?.[p.id]||p.correct))?.text||(key?.[p.id]||p.correct))).join("; ");if(q.type==="dosage")return key+" "+(q.units||"");const ids=Array.isArray(key)?key:[key];return ids.map(id=>q.options?.find(o=>o.id===id)?.text||id).join("; ")}
 function showIntro(){
  resetUI();meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;
- root.innerHTML="<h1>Ready to practice?</h1><p>Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>"+(engine.bank.qaPreview?"<p role=\"note\"><strong>QA PREVIEW — PRACTICE CONTENT UNDER REVIEW.</strong> "+escapeHTML(engine.bank.notice||"Questions are not yet approved.")+"</p>":"");
+ root.innerHTML="<h1>Ready to practice?</h1><p>Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>";
  if(!engine.bank.blueprint){root.append(Object.assign(document.createElement("p"),{textContent:(engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt."}));button("Start Exam",()=>{engine.begin();showQuestion()});return}
  const bp=engine.bank.blueprint;
  const setup=document.createElement("div");setup.className="practice-setup";

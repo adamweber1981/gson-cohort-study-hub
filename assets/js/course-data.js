@@ -9,7 +9,7 @@ const STUDY_HUB = [
         exams: [
           // Exam 2: each entry below becomes one clickable practice-exam card.
           {
-            name: "Exam 2",
+            name: "Exam 2", updatedAt: "2026-10-25T12:00:00Z",
             versions: [
               {
                 version: "2A",
@@ -34,11 +34,11 @@ const STUDY_HUB = [
             ]
           },
           {
-            name: "Exam 3",
+            name: "Exam 3", updatedAt: "2026-10-28T12:00:00Z",
             versions: [{
               version: "Exam 3 — 232-question practice preview",
               file: "exam.html?bank=pathophysiology-exam-3-standard",
-              description: "Practice preview: full 50-question blueprint or choose topics and question count. Clinical, source, and duplicate review remain incomplete."
+              description: "Practice preview: full 50-question blueprint or choose topics and question count."
             }]
           }
         ]
@@ -50,11 +50,11 @@ const STUDY_HUB = [
         icon: "💊",
         description: "Medication classes, safety, adverse effects & nursing considerations",
         exams: [
-          {name:"Exam 3",versions:[{version:"Exam 3 — 278-question practice preview",file:"exam.html?bank=pharmacology-exam-3-standard&v=pharm3-production-20261029",description:"Course-source practice: 26 medication entries with 10–11 direct questions each. Mixed 50-question practice or choose categories, drugs/classes, and count. Independent clinical review remains incomplete."}]},
+          {name:"Exam 3",updatedAt:"2026-10-29T12:00:00Z",versions:[{version:"Exam 3 — 278-question practice preview",file:"exam.html?bank=pharmacology-exam-3-standard&v=pharm3-production-20261029",description:"Course-source practice: 26 medication entries with 10–11 direct questions each. Mixed 50-question practice or choose categories, drugs/classes, and count."}]},
 
           // Exam 2: each entry below becomes one clickable practice-exam card.
           {
-            name: "Exam 2",
+            name: "Exam 2", updatedAt: "2026-10-25T12:00:00Z",
             versions: [
               {
                 version: "Immunomodulators - 25Q",
@@ -149,7 +149,7 @@ const STUDY_HUB = [
         description: "Nursing assessment techniques, findings, documentation and clinical judgment",
         exams: [
           {
-            name: "Exam 2",
+            name: "Exam 2", updatedAt: "2026-10-25T12:00:00Z",
             versions: [
               {
                 version: "Health Assessment Exam 2 — Unified Bank",
@@ -167,7 +167,7 @@ const STUDY_HUB = [
         description: "Fundamentals of Nursing, patient safety, nursing care & clinical judgment",
         exams: [
           {
-            name: "Exam 2",
+            name: "Exam 2", updatedAt: "2026-10-25T12:00:00Z",
             versions: [
               {
                 version: "Standard Exam Engine",
