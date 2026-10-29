@@ -13,6 +13,8 @@ No entries recorded.
 - Added the eight missing originals from the selected course folder, completing access to all 11 originals under `References/Pharmacology/Exams/Exam 3/`. The narrated presentation is preserved in five byte-verified parts with a reconstruction manifest and script; the exam offers an integrity-checked download of the original presentation.
 - Added a GitHub source index and explicit GitHub links in the References menu and question feedback, preserving in-page viewing and existing question/page citations.
 - Kept original filenames and content. Pharm Exam 2 is included because it is in the supplied folder; it does not expand the Exam 3 medication scope. No question text, keys, counts, or quotas changed.
+- Original source count is 11: ten ordinary files and one narrated presentation represented by verified parts. Four extracted text companions remain available for in-page reading. The source inventory records original sizes and SHA-256 values; the narrated download verifies total size and SHA-256 before offering the original `.pptx`.
+- Merged in [PR #15](https://github.com/adamweber1981/gson-cohort-study-hub/pull/15), merge `b9e85086`. GitHub Pages deployment completed successfully; the live References menu was checked for the complete source list, source index, and GitHub links. Original-file reconstruction was verified locally; the large browser download was not separately completed during that check.
 
 
 ## 2026-10-29 — Pharmacology Exam 3 practice release
@@ -23,7 +25,9 @@ No entries recorded.
 - Screened generated question text, answer choices, rationales, drug metadata, and selector labels for brand names; no brand-name entries were found. Original course source documents are preserved as supplied, including any terminology within them.
 - Validated keys before/after shuffle, all source paths/page ranges, all drug selector placements, count bounds, and 100 full-exam assemblies. Verified mixed/custom startup, grading, scoring, review, and PDF source viewing on Render before owner-authorized production release.
 - Kept the practice-preview notice because independent clinical review remains incomplete. This release does not claim independent clinical certification or exhaustive semantic uniqueness.
-- Applied the release to current main while preserving existing Pathophysiology and cache fixes. Added versioned production bank and asset requests.
+- Applied the release to current main while preserving existing Pathophysiology and cache fixes. Added versioned production bank and asset requests. The initial Render preview mixed an older cached shell with newer bank data; release-specific bank/script URLs were added and the final filtered 33-question pool for albuterol, fluoxetine, and risperidone was verified.
+- Merged in [PR #14](https://github.com/adamweber1981/gson-cohort-study-hub/pull/14), merge `8fe8df39`. GitHub Pages deployment completed successfully; production showed the 278-question label, Mixed practice/Custom practice options, and generic medication selector labels.
+- Documentation now includes product and design guidance, engine/selection specifications, the Pharmacology release record, source/reference operations, a documentation index, and the public HTML changelog. Operational documentation distinguishes main/GitHub Pages production from the Render development preview.
 
 
 ## 2026-10-26 — Exam 3 expansion, practice selection, and references
@@ -179,6 +183,7 @@ _Recorded in the existing HTML changelog; several legacy exam links were subsequ
 4. Never include secrets, admin tokens, push endpoints, personal data, or student-identifying analytics.
 5. Maintain the existing [public HTML changelog](References/changelogs/changelog.html) for students as needed; this Markdown file is the repository's detailed development/release history.
 6. Consult [GitHub commit history](https://github.com/adamweber1981/gson-cohort-study-hub/commits/main/) for individual file-level changes and exact chronology.
+
 
 
 

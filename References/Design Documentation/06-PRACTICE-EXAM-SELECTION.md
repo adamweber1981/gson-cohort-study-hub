@@ -1,6 +1,6 @@
 # Practice exam selection and delivery
 
-**Updated:** October 26, 2026 · **Applies to:** blueprint-backed shared exam engine
+**Updated:** October 29, 2026 · **Applies to:** blueprint-backed shared exam engine
 
 ## Student experience
 
@@ -8,6 +8,8 @@ Students open a course, expand the desired exam, and select **Open practice exam
 
 1. **Full blueprint exam** uses the total and question allocations in that exam's blueprint. Pathophysiology Exam 3 currently assembles 50 unique questions with exact subject quotas and the configured SATA and matching ranges.
 2. **Custom practice** allows students to combine subjects and choose the number of questions. It samples randomly from the combined selected pool; blueprint quotas and type ranges for full exams do not apply. Selection is not balanced across chosen subjects and does not guarantee at least one question from each selected subject.
+
+Pharmacology Exam 3 labels its first option **Mixed practice (50 questions)** because its allocation is a study plan, not supplied instructor weighting. It offers nine medication-list categories and 27 class/drug placements, with 278 questions and 10–11 direct questions for each of 26 medication entries. Lorazepam appears in two categories. The bank includes 260 MCQs, 12 SATA, and six matching questions. See the [Pharmacology guide](07-PHARMACOLOGY-EXAM-3-PREVIEW.md).
 
 Banks without a blueprint do not expose the custom selector; they continue to use their existing setup. Legacy standalone exams retain their existing behavior.
 
@@ -28,11 +30,17 @@ For example, students can select Respiratory, Blood, and Kidneys / Urinary, then
 
 In the current Pathophysiology blueprint, these subjects are stored as blueprint `topics`; `selectionGroups` provides the larger display categories. Other blueprints can use their own topics and nested `subtopics`. Where a nested-subtopic topic also contains eligible questions without an assigned subtopic, an **Other questions in [topic]** choice includes them. Blueprint grouping metadata is display and filtering metadata; it does not change full-exam quotas.
 
+### Pharmacology custom practice
+
+Choose any combination of upper/lower respiratory, neuromuscular, seizure, neurocognitive, antidepressant, anxiolytic, bipolar, and antipsychotic categories, then leave only the desired class/drug checkboxes selected. For example, **Albuterol**, **Fluoxetine**, and **Risperidone** provide 33 direct/SATA questions in the current pool; a 20-question custom attempt draws randomly from those 33. Cross-drug matching is excluded unless every required drug is selected. The displayed maximum includes only questions actually eligible for the current selection.
+
 ## Answering, scoring, and references
 
 The shared engine displays one question at a time. The student selects an answer and explicitly submits it to see correctness, the correct answer, rationale, and a source link. The student moves forward until the final question, scores the completed attempt, and can then review the whole attempt. Reset requires confirmation. SATA and matching are both scored all-or-nothing. Attempt state is kept in the open page; leaving or refreshing can lose progress.
 
-**References** opens the current exam's reference list. Exam 3 includes the worksheet and the 27 course-folder files added to the repository, including the blueprint, quiz, PDFs, charts, image, presentations, and spreadsheet. PDF/text references are handled by the in-page viewer where supported; office documents can be opened or downloaded. Three larger files are stored in parts and reconstructed for viewing or download. Individual question feedback links to that question's cited source; being listed in References does not automatically make every topic in that file examinable.
+**References** opens the current exam's reference list. Pathophysiology Exam 3 includes the worksheet and the 27 course-folder files added to the repository, including the blueprint, quiz, PDFs, charts, image, presentations, and spreadsheet. PDF/text references are handled by the in-page viewer where supported; office documents can be opened or downloaded. Three larger files are stored in parts and reconstructed for viewing or download. Individual question feedback links to that question's cited source; being listed in References does not automatically make every topic in that file examinable.
+
+Pharmacology Exam 3 includes all 11 original files from the supplied folder, plus four extracted text companions. The **All exam sources on GitHub** link opens its repository index. Reference entries and question feedback expose explicit original-source GitHub links alongside the existing viewer. The 31 MB narrated deck is stored in five verified parts; its References download reconstructs the original and checks size and SHA-256. The included Exam 2 PDF does not broaden Exam 3 scope. Original reference files may contain brand names; generated Pharmacology questions and selectors use generic names.
 
 ## Pathophysiology Exam 3 preview status
 
@@ -48,6 +56,9 @@ Production is published from GitHub's `main` branch to GitHub Pages; the Render 
 
 The app uses a service worker for its shell. Exam bank requests are revalidated online; the Exam 3 blueprint and reference manifest use versioned requests. The app's existing cache or an already-open attempt can still show older content. Reloading the live page may fetch the update. On iPhone, if an older installed Home Screen app remains stale, remove it and add the live Study Hub again from Safari. This can discard in-progress attempts and local settings; notifications may need to be enabled again. The owner confirmed that reinstalling resolved the older selector on an iPhone.
 
+For future bank releases, version the bank and runner requests together as appropriate; checking only an updated bank count can miss an older cached shell or selector.
+
 ## Maintenance and verification
 
 When changing selection behavior or a bank, verify the active bank and blueprint together: valid IDs and answer keys, pool availability for each subject, custom multi-group filtering and counts, no repeated question in an attempt, and full-exam assembly against the ranges actually configured. Check duplicate candidates for substantive overlap as well as exact text, and keep an audit trail for corrections and source review. Distinct clinical approaches to the same topic are useful; superficial rewrites of the same question are not.
+

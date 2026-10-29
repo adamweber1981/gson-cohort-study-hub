@@ -1,6 +1,6 @@
 # GSON Accelerated Study Hub — Product Requirements
 
-**Version:** 1.0 · **Status:** Approved user requirements / implementation pending · **Updated:** 2026-10-21
+**Version:** 1.1 · **Status:** Approved requirements with implemented practice extensions · **Updated:** 2026-10-29
 
 > This document is the product contract. If a prototype or an existing HTML exam conflicts with it, this document takes precedence. See `01-DESIGN-SYSTEM.md` and `02-EXAM-ENGINE-SPEC.md` for implementation details.
 
@@ -18,13 +18,21 @@ A student-created nursing-school study hub for members of the accelerated cohort
 - **Optional new-exam push notifications:** off by default; no student login. A notification toggle must be available. Permission is requested only after a student explicitly opts in; the toggle must reflect actual permission/subscription state, not merely a visual preference.
 
 ## Information architecture
-Home → Term (newest first) → Course → Exam group (actual exam number) → Practice exam → Exam runner → Results → Read-only full review.
+Home → Term (newest first) → Course → Exam group (actual exam number) → Practice exam → Practice setup → Exam runner → Results → Read-only full review.
 
 - Terms are displayed in **reverse chronological / academic progression order**. Publishing a new term adds it above previous terms, which remain accessible below. Each term may expand/collapse.
 - Course tiles use the approved two-column mobile visual direction where space permits, with accessible responsive layouts.
 - Initial first-term courses: Fundamentals, Health Assessment, Pharmacology, Pathophysiology. Future courses/terms are data-driven.
 - A **Reference Library** entry is independently accessible from the home page and may also be available contextually in course and exam pages.
 - The home screen includes app identity, latest term/course cards, reference library, settings, and optional notification control.
+
+## Practice delivery and source access
+
+- Blueprint-backed shared-engine banks offer full blueprint practice or a clearly labeled mixed study plan, plus **Custom practice**. Do not represent a synthesized study allocation as the instructor's exam weighting.
+- Custom practice supports multiple categories and nested subjects/drug classes, a selected whole-number question count, and a displayed eligible-pool maximum. Full-exam quotas do not apply to custom practice. A multi-drug matching question must not test drugs outside the chosen selection.
+- Pharmacology Exam 3 has 278 practice questions, nine selectable categories, and 10–11 direct questions per medication entry. Generated exam text and selectors use generic medication names. See [its release record](07-PHARMACOLOGY-EXAM-3-PREVIEW.md).
+- Source files belong under `References/<Course>/Exams/Exam <N>/`. Preserve originals; offer in-page reading, original open/download actions, and explicit GitHub links where available. Source availability does not expand exam scope or imply completed clinical review.
+- The current Pathophysiology and Pharmacology previews were released at owner direction with visible review notices. Treat their engine eligibility flags separately from independent clinical approval; do not remove notices or claim full content validation merely because structural checks pass.
 
 ## Notifications and privacy
 - A new published practice exam is the initial trigger for a push notification; do not send routine edit notifications.
@@ -46,3 +54,4 @@ Accounts, cloud score history, leaderboards, discussion boards, cohort chat, ana
 
 ## Definition of done
 The same course and exam UI works on iPhone, Android, and desktop; terms sort newest first; all five themes work; no authentication is required; exam answers/scores are not sent or centrally stored; exam rules and source references meet the acceptance tests; notification toggle has honest supported/unsupported/permission states.
+
