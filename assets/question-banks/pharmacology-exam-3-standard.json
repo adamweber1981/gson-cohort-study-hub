@@ -1597,7 +1597,7 @@
       "drug": "Albuterol",
       "drugClass": "SABA",
       "type": "mcq",
-      "stem": "Which measurement most directly detects the beta-adrenergic cardiac effect emphasized for albuterol?",
+      "stem": "Which vital sign is specifically emphasized for albuterol monitoring in the course review?",
       "options": [
         {
           "id": "o0",
@@ -1605,15 +1605,15 @@
         },
         {
           "id": "o1",
-          "text": "Temperature"
+          "text": "Blood pressure"
         },
         {
           "id": "o2",
-          "text": "Respiratory rate"
+          "text": "Temperature"
         },
         {
           "id": "o3",
-          "text": "Pain intensity"
+          "text": "Respiratory rate"
         }
       ],
       "correct": "o0",
@@ -5161,7 +5161,7 @@
       "drug": "Lorazepam",
       "drugClass": "Benzodiazepine",
       "type": "mcq",
-      "stem": "Which vital sign most directly screens for the respiratory-depressant effect of lorazepam?",
+      "stem": "Which vital sign is specifically emphasized for monitoring after lorazepam in the course review?",
       "options": [
         {
           "id": "o0",
@@ -5169,15 +5169,15 @@
         },
         {
           "id": "o1",
-          "text": "Temperature"
+          "text": "Blood pressure"
         },
         {
           "id": "o2",
-          "text": "Pain score"
+          "text": "Temperature"
         },
         {
           "id": "o3",
-          "text": "Body weight"
+          "text": "Heart rate"
         }
       ],
       "correct": "o0",
@@ -5917,7 +5917,7 @@
       "drug": "Donepezil",
       "drugClass": "Acetylcholinesterase inhibitor",
       "type": "mcq",
-      "stem": "Which measurement most directly screens for the bradycardia risk of donepezil?",
+      "stem": "Which vital sign is specifically emphasized for donepezil safety in the course review?",
       "options": [
         {
           "id": "o0",
@@ -5925,15 +5925,15 @@
         },
         {
           "id": "o1",
-          "text": "Temperature"
+          "text": "Blood pressure"
         },
         {
           "id": "o2",
-          "text": "Respiratory rate"
+          "text": "Temperature"
         },
         {
           "id": "o3",
-          "text": "Pain intensity"
+          "text": "Respiratory rate"
         }
       ],
       "correct": "o0",
@@ -6277,7 +6277,7 @@
       "drug": "Fluoxetine",
       "drugClass": "SSRI",
       "type": "mcq",
-      "stem": "Which assessment addresses the early psychiatric safety warning emphasized for fluoxetine?",
+      "stem": "Which report requires the most immediate follow-up during the first weeks of fluoxetine therapy?",
       "options": [
         {
           "id": "o0",
@@ -6285,19 +6285,19 @@
         },
         {
           "id": "o1",
-          "text": "Gum enlargement and dental bleeding"
+          "text": "Trouble falling asleep without an acute mental-status change"
         },
         {
           "id": "o2",
-          "text": "Peripheral swelling and weight gain"
+          "text": "Reduced sexual interest"
         },
         {
           "id": "o3",
-          "text": "Bowel slowing and urinary hesitancy"
+          "text": "Gradual weight gain"
         }
       ],
       "correct": "o0",
-      "rationale": "Early monitoring for worsening depression and suicidality is emphasized in the sources.",
+      "rationale": "Early monitoring for worsening depression and suicidality is emphasized in the sources. Insomnia, sexual dysfunction, and weight gain are also listed fluoxetine effects, but worsening depression or suicidal thoughts require the most immediate safety follow-up.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6565,7 +6565,7 @@
       "drug": "Venlafaxine",
       "drugClass": "SNRI",
       "type": "mcq",
-      "stem": "Which measurement is emphasized for detecting the cardiovascular adverse effect of venlafaxine?",
+      "stem": "Which vital sign is specifically emphasized for monitoring venlafaxine therapy in the course review?",
       "options": [
         {
           "id": "o0",
@@ -6573,15 +6573,15 @@
         },
         {
           "id": "o1",
-          "text": "Temperature"
+          "text": "Pulse rate"
         },
         {
           "id": "o2",
-          "text": "Respiratory rate"
+          "text": "Temperature"
         },
         {
           "id": "o3",
-          "text": "Oxygen saturation"
+          "text": "Respiratory rate"
         }
       ],
       "correct": "o0",
