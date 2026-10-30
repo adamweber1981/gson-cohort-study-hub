@@ -1,6 +1,6 @@
 # GSON Accelerated Study Hub — Canonical Design Documents
 
-**Specification version: 1.3**  
+**Specification version: 1.4**  
 **Last updated: October 29, 2026**  
 **Status: Requirements and current implementation; content audits ongoing**
 
@@ -15,6 +15,9 @@ These documents are the **source of truth** for all future changes to the GSON A
 
 5. [`07-PHARMACOLOGY-EXAM-3-PREVIEW.md`](07-PHARMACOLOGY-EXAM-3-PREVIEW.md) — released Pharmacology practice, coverage, category allocation, generic names, and validation limits.
 6. [`08-SOURCE-REFERENCE-OPERATIONS.md`](08-SOURCE-REFERENCE-OPERATIONS.md) — original source storage, GitHub links, split-file reconstruction, and verification.
+
+7. [`09-COURSE-RECENCY.md`](09-COURSE-RECENCY.md) — newest-course ordering and closed older exam groups.
+8. [`10-PHARMACOLOGY-DISTRACTORS.md`](10-PHARMACOLOGY-DISTRACTORS.md) — revised MCQ/SATA choices, variable SATA keys, source preservation, and validation.
 
 ## Supporting migration documents
 

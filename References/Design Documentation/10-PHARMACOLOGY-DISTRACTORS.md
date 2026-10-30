@@ -1,0 +1,25 @@
+# Pharmacology Exam 3 — answer-choice revision
+
+Production release approved October 29, 2026 after the Render development preview. The tested question changes are integrated into the current `main` bank, preserving its complete references and source links.
+
+## Authoring approach
+
+The medication list still defines scope. The Unit 3 Med Review and existing in-class text supply the facts. Distractors now distinguish related medication mechanisms, rescue versus maintenance roles, similar adverse-effect syndromes, and monitoring aimed at different drug risks. Choices avoid exaggerated language and unrelated conditions where possible. A browser refinement pass removed explicit procedural cue labels and balanced selected assessment choices around competing drug-specific interpretations. No extra medications, question types, quotas, or student-facing difficulty setting were added.
+
+All 260 MCQs were reviewed; 256 were revised. Four useful existing choice sets were retained (0041, 0051, 0061, 0259). MCQ correct-option IDs and underlying correct concepts remain intact. Fourteen broad MCQ stems were narrowed to avoid making a plausible alternative defensible. Some correct choices were reworded for length or clarity. Rationales explain important new contrasts.
+
+All 12 SATA items were revised with five or six options and two, three, or four correct selections. Growth measures and sodium/fluid plans were grouped coherently; additional correct signs come from the same course review. Keys were regenerated to match the new options. Each option can be judged on its own. SATA and matching scoring remain all-or-nothing. The existing six matching questions are unchanged. The bank still has 278 questions and the same 26 medication entries and 27 selector placements.
+
+## Evidence and limits
+
+The JSON audit records per-question source/disposition and key changes. Automated checks cover schema, distinct options/IDs, correct and incorrect grading after shuffle, SATA missing/extra selections, exact normalized stems, all selector placements, custom count bounds, and 100 50-question mixed-practice assemblies. They do not measure actual student difficulty or constitute an independent clinical certification. No claim of calibrated difficulty is made; the owner tested the Render preview and approved release. No calibrated difficulty estimate is asserted.
+
+Files: `assets/question-banks/pharmacology-exam-3-standard.json` and `assets/question-banks/audits/pharmacology-exam-3-distractor-revision.json`. The existing practice plan and topic/subtopic metadata are unchanged. Bank and runner URLs are versioned for the preview so stale installed-app content can be distinguished from the new revision. No new UI disclaimers are introduced.
+
+## Render smoke verification
+
+A single-drug custom pool showed 11 fluoxetine questions. Revised MCQ choices submitted and locked correctly with immediate feedback and source links. A six-option SATA with four correct choices rendered correctly; deliberately selecting only three returned Incorrect and displayed the full correct set. This verifies representative UI behavior, not all-question browser coverage.
+
+## Production integration
+
+The release applies only the revised stem, options, correct key, and rationale to existing question IDs. Production source metadata, the complete reference inventory, six matching items, other course banks, and study-plan quotas remain intact. The shared runner change versions the Pharmacology bank request; grading and selection behavior are unchanged. The bank and runner use `pharm3-distractors-v2-20261029` cache keys. Deployment and live verification follow the approved merge.
