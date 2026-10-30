@@ -633,19 +633,19 @@
         },
         {
           "id": "o1",
-          "text": "Less coughing associated with increasing daytime sleepiness"
+          "text": "Less coughing through central cough suppression with normal daytime alertness"
         },
         {
           "id": "o2",
-          "text": "Less wheezing immediately after taking the first tablet"
+          "text": "Less acute wheezing within minutes through rapid bronchodilation"
         },
         {
           "id": "o3",
-          "text": "Less need to urinate associated with a drier mouth"
+          "text": "Less airway inflammation through leukotriene-receptor blockade"
         }
       ],
       "correct": "o0",
-      "rationale": "Symptom relief, rather than sedation or urinary retention, is the treatment goal.",
+      "rationale": "Symptom relief, rather than sedation or urinary retention, is the treatment goal. The alternatives describe central cough suppression, beta2 rescue bronchodilation, or leukotriene blockade rather than cetirizine's H1-mediated allergy relief.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -5673,19 +5673,19 @@
         },
         {
           "id": "o1",
-          "text": "Increased daytime sleepiness with fewer classroom interruptions"
+          "text": "Improved recall of familiar conversations and recent daily events"
         },
         {
           "id": "o2",
-          "text": "Reduced appetite with a steady decline in body weight"
+          "text": "Reduced burning nerve pain and improved comfort during activity"
         },
         {
           "id": "o3",
-          "text": "An increased resting pulse without a change in task completion"
+          "text": "Reduced rigidity and easier initiation of voluntary movement"
         }
       ],
       "correct": "o0",
-      "rationale": "Attention improvement is the goal; insomnia and appetite loss are adverse effects.",
+      "rationale": "Attention improvement is the goal; insomnia and appetite loss are adverse effects. The other beneficial outcomes belong to different neurocognitive, neuropathic-pain, or Parkinson treatment targets rather than the ADHD attention target.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6429,19 +6429,19 @@
         },
         {
           "id": "o1",
-          "text": "Routine follow-up for isolated medication-related insomnia"
+          "text": "Urgent assessment for a dopamine-blocking neuroleptic malignant syndrome"
         },
         {
           "id": "o2",
-          "text": "Routine follow-up for expected sexual adverse effects"
+          "text": "Urgent assessment for a muscarinic-blocking anticholinergic reaction"
         },
         {
           "id": "o3",
-          "text": "Routine follow-up for gradual medication-related weight gain"
+          "text": "Urgent assessment for benzodiazepine withdrawal after anxiolytic use"
         }
       ],
       "correct": "o0",
-      "rationale": "The Jeopardy identifies this cluster as concerning for serotonin syndrome.",
+      "rationale": "The Jeopardy identifies this cluster as concerning for serotonin syndrome. Fluoxetine is an SSRI. The medication context and symptom cluster favor a serotonergic reaction rather than a typical antipsychotic, antimuscarinic, or benzodiazepine-withdrawal mechanism.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6465,19 +6465,19 @@
         },
         {
           "id": "o1",
-          "text": "A reduction in sleep needs accompanied by fever and agitation"
+          "text": "Relief of an acute anxiety attack immediately after an as-needed dose"
         },
         {
           "id": "o2",
-          "text": "An immediate mood change after the first dose without sustained improvement"
+          "text": "Improved recall of recent daily events without a change in depressive symptoms"
         },
         {
           "id": "o3",
-          "text": "Increasing daytime restlessness with worsening sleep and mood"
+          "text": "Reduced tremor and easier movement without a change in depressive symptoms"
         }
       ],
       "correct": "o0",
-      "rationale": "Improved mood and function are treatment goals; concerning symptom clusters require assessment.",
+      "rationale": "Improved mood and function are treatment goals; concerning symptom clusters require assessment. The relevant treatment outcome is sustained improvement in depression, rather than acute rescue anxiolysis, Alzheimer-related memory support, or Parkinson motor improvement.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6821,23 +6821,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Monitor mood and blood pressure and use a prescriber-guided discontinuation plan"
+          "text": "Monitor mood and blood pressure and review a guided discontinuation plan"
         },
         {
           "id": "o1",
-          "text": "Monitor mood and use symptom recurrence to decide when a taper is needed"
+          "text": "Monitor mood and renal/thyroid function and maintain stable sodium intake"
         },
         {
           "id": "o2",
-          "text": "Monitor blood pressure initially and end checks once the first reading is normal"
+          "text": "Monitor mood and liver/platelet tests and report jaundice or abdominal pain"
         },
         {
           "id": "o3",
-          "text": "Monitor sleep and substitute alternate-day doses whenever dizziness occurs"
+          "text": "Monitor mood and glucose/lipid results and track weight for metabolic effects"
         }
       ],
       "correct": "o0",
-      "rationale": "The plan addresses both antidepressant monitoring and venlafaxine-specific concerns.",
+      "rationale": "The plan addresses both antidepressant monitoring and venlafaxine-specific concerns. The alternative monitoring packages resemble lithium, valproic acid, or antipsychotic risk monitoring. The targeted venlafaxine plan addresses mood, blood pressure, and discontinuation symptoms.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -9201,19 +9201,19 @@
         },
         {
           "id": "o1",
-          "text": "Use appetite changes alone to decide whether metabolic blood tests are needed"
+          "text": "Discuss a low-tyramine diet and food choices that can trigger a pressure crisis"
         },
         {
           "id": "o2",
-          "text": "Focus on weight checks and defer glucose testing when the weight is stable"
+          "text": "Discuss protein timing around doses to improve dopamine-precursor absorption"
         },
         {
           "id": "o3",
-          "text": "Use a normal initial glucose result to decide whether future lipid tests are needed"
+          "text": "Discuss stable sodium intake and fluid balance to prevent serum-level toxicity"
         }
       ],
       "correct": "o0",
-      "rationale": "Lifestyle measures and monitoring address metabolic concerns.",
+      "rationale": "Lifestyle measures and monitoring address metabolic concerns. The alternative dietary teaching corresponds to prescribed MAOI precautions, levodopa/protein timing, or lithium balance rather than risperidone's metabolic risk.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",

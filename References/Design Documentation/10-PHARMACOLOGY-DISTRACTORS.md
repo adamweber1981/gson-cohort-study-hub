@@ -15,3 +15,7 @@ All 12 SATA items were revised with five or six options and two, three, or four 
 The JSON audit records per-question source/disposition and key changes. Automated checks cover schema, distinct options/IDs, correct and incorrect grading after shuffle, SATA missing/extra selections, exact normalized stems, all selector placements, custom count bounds, and 100 50-question mixed-practice assemblies. They do not measure actual student difficulty or constitute an independent clinical certification. No claim of calibrated difficulty is made; owner comparison on Render is the next evaluation.
 
 Files: `assets/question-banks/pharmacology-exam-3-standard.json` and `assets/question-banks/audits/pharmacology-exam-3-distractor-revision.json`. The existing practice plan and topic/subtopic metadata are unchanged. Bank and runner URLs are versioned for the preview so stale installed-app content can be distinguished from the new revision. No new UI disclaimers are introduced.
+
+## Render smoke verification
+
+A single-drug custom pool showed 11 fluoxetine questions. Revised MCQ choices submitted and locked correctly with immediate feedback and source links. A six-option SATA with four correct choices rendered correctly; deliberately selecting only three returned Incorrect and displayed the full correct set. This verifies representative UI behavior, not all-question browser coverage.

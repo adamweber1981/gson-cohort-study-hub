@@ -39,7 +39,13 @@
     "matchingQuestions": "byte-equivalent data",
     "sourceAndSelectorMetadata": "unchanged",
     "exactNormalizedStemDedup": "passed",
-    "difficultyMeasurement": "No student response data or calibrated item difficulty; owner comparison on Render is pending."
+    "difficultyMeasurement": "No student response data or calibrated item difficulty; owner comparison on Render is pending.",
+    "browserSmoke": {
+      "RenderCustomSelection": "11-question fluoxetine pool",
+      "MCQ": "selection, submission, correct feedback, locked answer, and forward navigation verified",
+      "SATA": "six options with four correct choices rendered; selecting three returned Incorrect and displayed all four correct choices",
+      "scope": "This browser smoke test covers representative revised items, not all 278 rendered questions."
+    }
   },
   "mcqReviewed": 260,
   "retainedMcqIds": [
@@ -2840,5 +2846,5 @@
       }
     ]
   },
-  "proceduralCuePass": "Removed explicit labels such as independently/without review from distractors; balanced selected assessment options around competing drug-specific interpretations."
+  "proceduralCuePass": "Removed explicit labels such as independently/without review from distractors; balanced selected assessment options around competing drug-specific interpretations. Beneficial-outcome distractors and selected monitoring plans now describe other plausible course-medication targets rather than obviously harmful responses."
 }
