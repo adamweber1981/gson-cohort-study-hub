@@ -1,5 +1,15 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-10-29 — Development: Pharmacology Exam 3 distractor revision
+
+- Reviewed all 260 MCQs; revised 256 MCQs and retained four already useful choice sets. Revised all 12 SATA items. The 278-question count and six matching questions are unchanged.
+- Replaced unrelated or exaggerated distractors with related course medication classes, mechanisms, effects, and monitoring plans. Clarified 14 broad MCQ stems.
+- Preserved MCQ correct-answer IDs and tested concepts; SATA now has 2–4 correct selections with keys and rationales updated to match. SATA remains all-or-nothing.
+- Preserved selector mappings, study-plan quotas, source citations, and generic-only generated medication names. Versioned the bank request and changed scripts.
+- Validated answer/shuffle mappings, wrong-answer rejection, exact stem duplication, all 27 selector placements, count bounds, and 100 mixed-practice assemblies. Render comparison pending owner feedback; main is unchanged.
+- Details: [Distractor revision](References/Design%20Documentation/10-PHARMACOLOGY-DISTRACTORS.md).
+
+
 ## 2026-10-29 — Development: recent courses and closed older exams
 
 - Home course tiles sort by the latest exam `updatedAt`; Pharmacology precedes Pathophysiology.
