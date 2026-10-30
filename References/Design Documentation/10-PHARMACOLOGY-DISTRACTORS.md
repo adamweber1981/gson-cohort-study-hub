@@ -4,7 +4,7 @@ Development preview, October 29, 2026. This revision changes the active Pharmaco
 
 ## Authoring approach
 
-The medication list still defines scope. The Unit 3 Med Review and existing in-class text supply the facts. Distractors now distinguish related medication mechanisms, rescue versus maintenance roles, similar adverse-effect syndromes, and monitoring aimed at different drug risks. Choices avoid exaggerated language and unrelated conditions where possible. No extra medications, question types, quotas, or student-facing difficulty setting were added.
+The medication list still defines scope. The Unit 3 Med Review and existing in-class text supply the facts. Distractors now distinguish related medication mechanisms, rescue versus maintenance roles, similar adverse-effect syndromes, and monitoring aimed at different drug risks. Choices avoid exaggerated language and unrelated conditions where possible. A browser refinement pass removed explicit procedural cue labels and balanced selected assessment choices around competing drug-specific interpretations. No extra medications, question types, quotas, or student-facing difficulty setting were added.
 
 All 260 MCQs were reviewed; 256 were revised. Four useful existing choice sets were retained (0041, 0051, 0061, 0259). MCQ correct-option IDs and underlying correct concepts remain intact. Fourteen broad MCQ stems were narrowed to avoid making a plausible alternative defensible. Some correct choices were reworded for length or clarity. Rationales explain important new contrasts.
 

@@ -1,6 +1,6 @@
 {
   "bankId": "pharmacology-exam-3-standard",
-  "revision": "plausible-distractors-20261029",
+  "revision": "plausible-distractors-v2-20261029",
   "questionCount": 278,
   "mcqRevised": 256,
   "sataRevised": 12,
@@ -2839,5 +2839,6 @@
         "correctKeyChanged": false
       }
     ]
-  }
+  },
+  "proceduralCuePass": "Removed explicit labels such as independently/without review from distractors; balanced selected assessment options around competing drug-specific interpretations."
 }

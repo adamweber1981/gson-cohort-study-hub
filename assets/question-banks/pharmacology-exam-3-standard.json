@@ -1253,7 +1253,7 @@
         },
         {
           "id": "o3",
-          "text": "Switch to a nighttime dosing schedule without reviewing the prescribed interval"
+          "text": "Switch to a nighttime dosing schedule"
         }
       ],
       "correct": "o0",
@@ -1397,7 +1397,7 @@
         },
         {
           "id": "o3",
-          "text": "I can use a second cough product without checking whether it has the same ingredient"
+          "text": "I can use a second cough product"
         }
       ],
       "correct": "o0",
@@ -1709,23 +1709,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess the heart rate and symptoms"
+          "text": "Assess the pulse and symptoms for a beta2-agonist cardiac effect"
         },
         {
           "id": "o1",
-          "text": "Review mouth-rinsing technique first because the symptom suggests local drug deposition"
+          "text": "Review the symptoms as an antimuscarinic effect and assess urinary output"
         },
         {
           "id": "o2",
-          "text": "Assess the timing of meals first because protein commonly limits this drug's absorption"
+          "text": "Review the symptoms as a local corticosteroid effect and assess the mouth"
         },
         {
           "id": "o3",
-          "text": "Recommend changing the next dose to bedtime before checking the current symptoms"
+          "text": "Assess for leukotriene-related mood effects as the cause of the palpitations"
         }
       ],
       "correct": "o0",
-      "rationale": "Palpitations warrant assessment because tachycardia can occur. Heart rate and the current symptoms should be assessed before changing doses or timing. Mouth rinsing and meal-protein timing do not explain this beta2-related effect.",
+      "rationale": "Palpitations warrant assessment because tachycardia can occur. Heart rate and the current symptoms should be assessed before changing doses or timing. Mouth rinsing and meal-protein timing do not explain this beta2-related effect. The pounding heartbeat fits the beta2-agonist cardiac profile, not a local steroid effect, an antimuscarinic urinary effect, or the montelukast neuropsychiatric warning.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -2789,23 +2789,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess and report possible urinary retention"
+          "text": "Assess the difficulty voiding as possible antimuscarinic urinary retention"
         },
         {
           "id": "o1",
-          "text": "Encourage less fluid intake and reassess at the next scheduled visit"
+          "text": "Assess the difficulty voiding as a beta2-agonist effect related to pulse changes"
         },
         {
           "id": "o2",
-          "text": "Treat the symptom as a beta2 effect and review pulse monitoring first"
+          "text": "Assess the difficulty voiding as an inhaled-corticosteroid effect related to thrush"
         },
         {
           "id": "o3",
-          "text": "Use mouth rinsing as the main intervention for systemic urinary symptoms"
+          "text": "Assess the difficulty voiding as an expected sign of improved muscarinic activity"
         }
       ],
       "correct": "o0",
-      "rationale": "Muscarinic blockade can worsen urinary retention.",
+      "rationale": "Muscarinic blockade can worsen urinary retention. Tiotropium blocks muscarinic receptors. A voiding problem is not a marker of improved cholinergic activity or a local inhaled-steroid effect.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -3473,23 +3473,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Evaluate the change and contact the prescriber as appropriate"
+          "text": "Assess and report the dreams as a possible neuropsychiatric medication effect"
         },
         {
           "id": "o1",
-          "text": "Treat the dreams as an expected sign of improved sleep and continue routine follow-up"
+          "text": "Review the dreams as an H1-blocking sedative effect and assess daytime sleepiness"
         },
         {
           "id": "o2",
-          "text": "Change the dose to morning independently and review the dreams at the next refill"
+          "text": "Review the dreams as a beta2-agonist effect and assess rescue-inhaler technique"
         },
         {
           "id": "o3",
-          "text": "Take the dose with food and wait for the dreams to resolve before reporting them"
+          "text": "Review the dreams as a corticosteroid local effect and assess oral deposition"
         }
       ],
       "correct": "o0",
-      "rationale": "Vivid dreams are included among possible neuropsychiatric events.",
+      "rationale": "Vivid dreams are included among possible neuropsychiatric events. Vivid dreams are specifically included in montelukast's neuropsychiatric warning; treating them as a local airway or H1-related effect misses the relevant drug risk.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -3765,7 +3765,7 @@
         },
         {
           "id": "o1",
-          "text": "Use it on alternate days without a dose review once symptoms are controlled"
+          "text": "Use it on alternate days once symptoms are controlled"
         },
         {
           "id": "o2",
@@ -3773,7 +3773,7 @@
         },
         {
           "id": "o3",
-          "text": "Finish the current supply and stop without reviewing the discontinuation schedule"
+          "text": "Finish the current supply and stop"
         }
       ],
       "correct": "o0",
@@ -3833,23 +3833,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Use assistance and fall-prevention measures while assessing dizziness"
+          "text": "Assess dizziness and use assistance to reduce medication-related fall risk"
         },
         {
           "id": "o1",
-          "text": "Schedule routine independent walking after each dose to establish tolerance"
+          "text": "Assess balance mainly by whether the neuropathic pain has improved"
         },
         {
           "id": "o2",
-          "text": "Move the next dose to bedtime independently and resume usual activity"
+          "text": "Assess the gait change as evidence that dopamine replacement is wearing off"
         },
         {
           "id": "o3",
-          "text": "Use improvement in pain, rather than balance, to decide whether help is needed"
+          "text": "Assess the unsteadiness as an intended sedative endpoint of pain treatment"
         }
       ],
       "correct": "o0",
-      "rationale": "Dizziness and somnolence can impair balance and safety.",
+      "rationale": "Dizziness and somnolence can impair balance and safety. Gabapentin can cause dizziness and somnolence. It is not dopamine replacement, and pain relief alone does not establish safe balance.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -4517,19 +4517,19 @@
       "options": [
         {
           "id": "o0",
-          "text": "Promptly assess and notify the prescriber about a possible serious skin reaction"
+          "text": "Assess promptly for a serious phenytoin skin reaction and notify the prescriber"
         },
         {
           "id": "o1",
-          "text": "Document the rash as a routine effect and discuss it at the next scheduled visit"
+          "text": "Review the rash as an expected local medication effect at the next scheduled visit"
         },
         {
           "id": "o2",
-          "text": "Treat the rash as a localized contact effect and continue the usual monitoring plan"
+          "text": "Review the rash as a cholinergic effect and focus on pulse and bowel changes"
         },
         {
           "id": "o3",
-          "text": "Wait for the next serum level before deciding whether the rash needs review"
+          "text": "Use the absence of breakthrough seizures to guide the urgency of the rash review"
         }
       ],
       "correct": "o0",
@@ -5633,23 +5633,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess appetite and growth trends and discuss the findings with the prescriber"
+          "text": "Review appetite and serial growth measurements with the prescriber"
         },
         {
           "id": "o1",
-          "text": "Use improved school performance to decide whether the weight change needs review"
+          "text": "Review the weight change as evidence that dopamine-related motor symptoms improved"
         },
         {
           "id": "o2",
-          "text": "Move the dose to bedtime independently to make daytime eating easier"
+          "text": "Review the weight change as the intended stimulant outcome if attention improved"
         },
         {
           "id": "o3",
-          "text": "Wait until the next annual height measurement to decide whether follow-up is needed"
+          "text": "Use the blood pressure response to decide whether the weight trend needs review"
         }
       ],
       "correct": "o0",
-      "rationale": "Weight loss and anorexia warrant monitoring and follow-up.",
+      "rationale": "Weight loss and anorexia warrant monitoring and follow-up. Growth monitoring addresses appetite suppression and weight loss, not an intended reduction in body weight or a dopamine-replacement effect.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6353,23 +6353,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess the symptom and discuss the prescribed treatment plan"
+          "text": "Assess and discuss insomnia as a possible fluoxetine adverse effect"
         },
         {
           "id": "o1",
-          "text": "Add an over-the-counter nighttime product without an interaction review"
+          "text": "Assess for MAOI-related tyramine effects as the explanation for the sleep change"
         },
         {
           "id": "o2",
-          "text": "Move the dose to bedtime independently to concentrate its effects during sleep"
+          "text": "Assess for benzodiazepine tolerance as the explanation for the sleep change"
         },
         {
           "id": "o3",
-          "text": "Stop the medicine for several nights and restart when the sleep pattern improves"
+          "text": "Assess for anticholinergic sedation as the expected fluoxetine effect"
         }
       ],
       "correct": "o0",
-      "rationale": "Insomnia is a listed effect and warrants appropriate assessment.",
+      "rationale": "Insomnia is a listed effect and warrants appropriate assessment. Fluoxetine is an SSRI with insomnia listed in the review. It is not an MAOI or benzodiazepine; anticholinergic sedation does not explain the reported insomnia.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6605,23 +6605,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess and report the trend for medication review"
+          "text": "Assess and report possible venlafaxine-associated hypertension"
         },
         {
           "id": "o1",
-          "text": "Use mood improvement to decide whether the pressure trend warrants review"
+          "text": "Review the rise as an expected cholinergic response to the antidepressant"
         },
         {
           "id": "o2",
-          "text": "Wait until the next refill before reporting it if the client feels well"
+          "text": "Review the rise as a muscarinic-blocking effect and focus on urinary retention"
         },
         {
           "id": "o3",
-          "text": "Move the medicine to bedtime independently to address the pressure change"
+          "text": "Use improvement in mood to determine whether the pressure increase is therapeutic"
         }
       ],
       "correct": "o0",
-      "rationale": "Blood pressure elevation is a relevant venlafaxine safety concern.",
+      "rationale": "Blood pressure elevation is a relevant venlafaxine safety concern. The course review associates venlafaxine with hypertension. This is not an intended treatment endpoint or a cholinergic/muscarinic effect.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -6965,23 +6965,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Clarify the prescription because an eating-disorder history increases seizure concerns"
+          "text": "Clarify bupropion use because bulimia increases the seizure-risk concern"
         },
         {
           "id": "o1",
-          "text": "Administer the dose and use body-weight monitoring as the main safety measure"
+          "text": "Clarify bupropion use because bulimia increases its cholinergic bradycardia risk"
         },
         {
           "id": "o2",
-          "text": "Move the dose to bedtime to reduce the eating-disorder-related seizure risk"
+          "text": "Clarify bupropion use because bulimia increases its tyramine-related crisis risk"
         },
         {
           "id": "o3",
-          "text": "Take the dose with food and postpone the history review until follow-up"
+          "text": "Clarify bupropion use because bulimia increases its dopamine-blocking movement risk"
         }
       ],
       "correct": "o0",
-      "rationale": "The review lists anorexia and bulimia among contraindication concerns.",
+      "rationale": "The review lists anorexia and bulimia among contraindication concerns. The eating-disorder contraindication is tied to seizure risk, rather than the other drug-class mechanisms in the alternatives.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -7109,23 +7109,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess the trend and discuss clinically important changes"
+          "text": "Assess appetite and weight changes as possible bupropion effects and review the trend"
         },
         {
           "id": "o1",
-          "text": "Treat weight loss as sufficient evidence of therapeutic benefit without further review"
+          "text": "Review the weight loss as evidence of bupropion-related increased cholinergic activity"
         },
         {
           "id": "o2",
-          "text": "Move the dose to bedtime independently to offset the appetite effect"
+          "text": "Review the weight loss as the intended mood-treatment endpoint of this drug"
         },
         {
           "id": "o3",
-          "text": "Change to alternate-day dosing independently to restore appetite"
+          "text": "Use improvement in sleep alone to judge whether the weight trend needs review"
         }
       ],
       "correct": "o0",
-      "rationale": "Weight loss is listed and should be evaluated in context.",
+      "rationale": "Weight loss is listed and should be evaluated in context. The review lists bupropion-associated weight loss, insomnia, and agitation. Weight loss is not the therapeutic endpoint of depression care or evidence of a cholinergic mechanism.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -8225,23 +8225,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess the headache's severity and timing as a possible medication effect"
+          "text": "Assess headache severity and timing as a possible buspirone adverse effect"
         },
         {
           "id": "o1",
-          "text": "Use the headache alone to diagnose a tyramine-related hypertensive crisis"
+          "text": "Review the headache as a typical tyramine interaction with this anxiolytic"
         },
         {
           "id": "o2",
-          "text": "Use the headache alone to diagnose benzodiazepine withdrawal"
+          "text": "Review the headache as a typical benzodiazepine withdrawal effect of buspirone"
         },
         {
           "id": "o3",
-          "text": "Use the headache alone to conclude that the prescribed dose is inadequate"
+          "text": "Use the headache as evidence that buspirone needs to be taken as an acute rescue dose"
         }
       ],
       "correct": "o0",
-      "rationale": "Headache is listed; symptoms still require assessment in context. A headache warrants assessment of severity and context. The symptom alone does not establish hypertensive crisis, withdrawal, or inadequate dosing.",
+      "rationale": "Headache is listed; symptoms still require assessment in context. A headache warrants assessment of severity and context. The symptom alone does not establish hypertensive crisis, withdrawal, or inadequate dosing. Buspirone is neither an MAOI nor a benzodiazepine. Headache alone does not establish a need for acute rescue dosing.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -8549,23 +8549,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Review the interaction and monitoring plan with the prescriber"
+          "text": "Review possible effects on lithium levels and the monitoring plan with the prescriber"
         },
         {
           "id": "o1",
-          "text": "Separate administration times and keep the same lithium monitoring plan"
+          "text": "Review whether greater urine output means lithium concentrations will be lower"
         },
         {
           "id": "o2",
-          "text": "Use the increase in urine output as evidence of protection against lithium toxicity"
+          "text": "Review whether separating dose times prevents the lithium interaction"
         },
         {
           "id": "o3",
-          "text": "Reduce fluid intake to compensate for the diuretic before discussing the interaction"
+          "text": "Use the absence of mood symptoms to decide whether serum-level follow-up is needed"
         }
       ],
       "correct": "o0",
-      "rationale": "Diuretics can affect lithium levels and require individualized review. A timing change or greater urine output does not establish safety; the interaction and monitoring plan need review.",
+      "rationale": "Diuretics can affect lithium levels and require individualized review. A timing change or greater urine output does not establish safety; the interaction and monitoring plan need review. Diuretic use can increase lithium concentrations. Dose separation, increased urine output, or mood control does not replace interaction and concentration review.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -9161,23 +9161,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "The risk is lower than with typical agents, but movement symptoms still need assessment"
+          "text": "Lower risk does not eliminate EPS; assess new movement changes"
         },
         {
           "id": "o1",
-          "text": "The risk is lower, so assess movement only when the metabolic panel changes"
+          "text": "Lower risk means movement screening is guided primarily by the metabolic panel"
         },
         {
           "id": "o2",
-          "text": "The risk is lower, so improved psychiatric symptoms replace movement screening"
+          "text": "Lower risk makes new motor slowing a sign of the intended psychiatric response"
         },
         {
           "id": "o3",
-          "text": "The risk is lower, so motor slowing should be treated as a therapeutic response"
+          "text": "Lower risk means movement assessment can be replaced by weight monitoring"
         }
       ],
       "correct": "o0",
-      "rationale": "The review describes lower rather than absent EPS risk.",
+      "rationale": "The review describes lower rather than absent EPS risk. Metabolic monitoring and movement assessment address separate adverse-effect domains; one does not substitute for the other.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -9269,23 +9269,23 @@
       "options": [
         {
           "id": "o0",
-          "text": "Assess the trend and review metabolic monitoring and the treatment plan"
+          "text": "Review weight gain alongside glucose, lipids, and the treatment plan"
         },
         {
           "id": "o1",
-          "text": "Use improved psychiatric symptoms as the main reason to defer metabolic review"
+          "text": "Review weight gain primarily as evidence that prolactin has returned to normal"
         },
         {
           "id": "o2",
-          "text": "Address diet alone and wait for weight loss before ordering metabolic follow-up"
+          "text": "Review weight gain primarily as evidence that extrapyramidal symptoms are controlled"
         },
         {
           "id": "o3",
-          "text": "Wait for abnormal movements before discussing the weight trend with the prescriber"
+          "text": "Use psychiatric symptom improvement as the main guide to the weight change"
         }
       ],
       "correct": "o0",
-      "rationale": "Weight gain is a relevant metabolic adverse effect.",
+      "rationale": "Weight gain is a relevant metabolic adverse effect. Weight gain is part of the metabolic risk profile. It does not establish normal prolactin, controlled movement effects, or medication safety from symptom relief alone.",
       "source": {
         "name": "Pharm Unit 3 Med Review",
         "path": "References/Pharmacology/Exams/Exam%203/Pharm%20Unit%203%20Med%20Review.pdf",
@@ -10313,5 +10313,5 @@
       "path": "References/Pharmacology/Exams/Exam%203/Resp%20in%20class%20-%20Student.txt"
     }
   ],
-  "optionRevision": "plausible-distractors-20261029"
+  "optionRevision": "plausible-distractors-v2-20261029"
 }
