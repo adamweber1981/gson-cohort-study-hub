@@ -1,5 +1,16 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-10-29 — Pharmacology Exam 3: stronger answer choices
+
+- Owner approved the tested development revision for production. Reviewed all 260 MCQs; revised 256 and retained four useful existing choice sets. Revised all 12 SATA items. All 278 questions remain, including six unchanged matching questions.
+- Replaced unrelated/exaggerated distractors with competing course medication classes, mechanisms, adverse-effect patterns, therapeutic outcomes, and monitoring plans. Clarified 14 broad MCQ stems and reduced procedural cue wording.
+- Preserved MCQ answer IDs and correct concepts. SATA now has 2–4 correct selections among 5–6 options, with corresponding keys and explanatory rationales. SATA and matching remain all-or-nothing.
+- Preserved drug/category coverage, all 27 selector placements, practice-plan quotas, production source/GitHub links, and generic medication names. Updated bank/runner URLs and Pharmacology's recency timestamp.
+- Checks passed: 278 answer/shuffle mappings, 780 wrong-MCQ rejections, 67 missing/extra SATA selection checks, 100 mixed-practice assemblies, all selectors, custom count bounds, exact normalized stem deduplication, and generic-name screening. Render browser checks verified custom selection, MC feedback/locking, and rejection of an incomplete four-answer SATA set. Final development bank matched the Render-served file by SHA-256.
+- This is a source-grounded author revision, not calibrated item difficulty or an independent clinical certification. No new student-facing disclaimer was added. Production deployment verification is recorded separately from pre-merge checks.
+- [Revision record](References/Design%20Documentation/10-PHARMACOLOGY-DISTRACTORS.md); `assets/question-banks/audits/pharmacology-exam-3-distractor-revision.json` records per-question dispositions and source locations.
+
+
 ## 2026-10-29 — Recent courses and exam accordion defaults
 
 - Home course tiles sort by the latest exam update; Pharmacology appears first.

@@ -8,7 +8,7 @@ The medication/prototype document defines the included drugs and category hierar
 
 The questions use concise clinical prompts inspired by the Jeopardy review and cover classifications, mechanisms, indications, adverse effects, assessment, teaching, interactions, monitoring, and therapeutic response. The fact sources are the Unit 3 medication review and class slides. Nonlisted medication groups in Jeopardy and the Exam 2 PDF do not broaden scope. Source links appear with each answer. Selegiline questions explicitly preserve formulation/dose-dependent dietary instructions rather than requiring the same restrictions for every patch strength.
 
-This is a course-aligned production practice preview. Questions are eligible for the shared engine, but independent clinical review remains incomplete. Structural tests and source links are not clinical certification. Retain the visible preview notice.
+This is a course-aligned production practice preview. Questions are eligible for the shared engine, but independent clinical review remains incomplete. Structural tests and source links are not clinical certification. At owner direction, the shared introduction no longer displays the clinical-review disclaimer; internal audit status remains recorded.
 
 ## Student selection
 
@@ -46,3 +46,7 @@ Bank-level `references` supplies the complete menu, `referenceIndex` links the G
 - The development branch and production are not assumed to be identical. Production releases were applied to current `main` to preserve newer Pathophysiology and cache fixes.
 
 See [source/reference operations](08-SOURCE-REFERENCE-OPERATIONS.md) for canonical metadata and reconstruction details. The document filename remains stable for existing links even though this is now a production preview.
+
+## Answer-choice revision approved for production
+
+On October 29, the owner approved the Render-tested distractor revision: 256 MCQs and all 12 SATA items revised, four MCQs retained, and six matching items unchanged. The bank remains 278 questions. MCQ correct IDs and concepts are preserved; SATA keys now contain two to four selections among five or six options, still scored all-or-nothing. Competing drug mechanisms, adverse-effect patterns, outcomes, and monitoring plans replace many unrelated or exaggerated alternatives. No instructor weighting or source scope changed. See [distractor revision](10-PHARMACOLOGY-DISTRACTORS.md) and its per-question JSON audit for evidence and limitations. The production reference inventory and original GitHub links are preserved.
