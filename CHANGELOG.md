@@ -9,7 +9,7 @@
 - Added responsive single-column course cards below 480px and compact top navigation below 760px. Added a developer viewport harness at `dev/workspace-layout-check.html`.
 - Versioned new assets and updated the static-shell cache to v4-workspace. Banks and PDF references remain outside the service-worker cache.
 - Baseline uses current production `1ce7ded6` so the development preview retains all released questions and reference links. This design is staged only on `pwa-redesign`; no production release is authorized yet.
-- Checks: five-theme preference/migration/storage tests, unique DOM IDs, JS syntax, and text contrast against all defined surfaces (tested minimums 5.22:1–6.72:1). Browser QA follows deployment; these checks do not by themselves establish full accessibility conformance.
+- Checks: five-theme preference/migration/storage tests, unique DOM IDs, JS syntax, and text contrast against all defined surfaces (tested minimums 5.22:1–6.72:1). Render verified five palette switches, persistence into exams, newest/closed exam groups, combined custom selection, submission/locking, scoring/review, and References. A narrow-width navigation overflow was identified and corrected; final responsive confirmation follows the CSS deploy. These checks do not by themselves establish full accessibility conformance.
 - See [Modern Workspace](References/Design%20Documentation/11-MODERN-WORKSPACE.md).
 
 

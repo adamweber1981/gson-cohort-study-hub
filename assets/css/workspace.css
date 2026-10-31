@@ -19,3 +19,6 @@ h1{font-size:clamp(29px,3.2vw,39px);line-height:1.2;letter-spacing:-.035em;margi
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .course-tile-top .latest-label:last-child{font-size:10px;color:var(--accent)}
+/* Keep the compact navigation inside the 320px viewport, including scrollbar width. */
+@media(max-width:760px){.workspace-topbar{display:none}}
+@media(max-width:480px){.workspace-nav a{padding-left:6px;padding-right:6px;gap:6px}}
