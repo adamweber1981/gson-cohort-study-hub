@@ -22,3 +22,7 @@ h1{font-size:clamp(29px,3.2vw,39px);line-height:1.2;letter-spacing:-.035em;margi
 /* Keep the compact navigation inside the 320px viewport, including scrollbar width. */
 @media(max-width:760px){.workspace-topbar{display:none}}
 @media(max-width:480px){.workspace-nav a{padding-left:6px;padding-right:6px;gap:6px}}
+
+/* Original supplied white SVG, displayed unchanged on a contrasting brand plate. */
+.workspace-brand{padding-left:0;padding-right:0}.workspace-brand .school-logo-wrap{display:block;width:100%;padding:12px 10px;background:#162a35;border-radius:4px;margin-bottom:12px}.school-logo{display:block;width:100%;height:auto}.workspace-brand>span:not(.school-logo-wrap),.workspace-brand>small{padding-left:10px}.workspace-brand>small{margin-top:12px}
+@media(max-width:760px){.workspace-brand{padding:12px 18px;align-items:center;gap:12px}.workspace-brand .school-logo-wrap{width:154px;flex:0 0 154px;margin:0;padding:8px}.workspace-brand>span:not(.school-logo-wrap){padding:0;font-size:14px}}

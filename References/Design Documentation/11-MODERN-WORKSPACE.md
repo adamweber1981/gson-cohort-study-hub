@@ -49,3 +49,7 @@ A fixed-width browser harness checked nominal 320, 390, and 768px frames (conten
 ![Modern Workspace in Charcoal + Amber](previews/modern-workspace-charcoal.jpg)
 
 Captured from the Render development deployment. The screenshot shows actual implemented UI, not the earlier generated concept. Main remains unchanged.
+
+## School branding
+
+Restored the original `assets/BJC_GSON_Small.svg` in the sidebar and compact mobile header. The supplied white SVG is unchanged and uses a dark brand plate so it remains legible in all five palettes. It is included in the static shell cache.
