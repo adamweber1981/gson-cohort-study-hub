@@ -1,6 +1,6 @@
-# Modern Workspace — development design
+# Modern Workspace
 
-October 30, 2026. The owner selected the Modern Workspace column of the supplied theme board and requested two light and three dark palettes. This supersedes the original purple/gradient/emoji design and five-choice System/Light/Dark/Purple/Slate contract. Implementation is staged on `pwa-redesign` for the existing Render test site. Main remains unchanged until the owner approves the design.
+October 30, 2026. The owner selected the Modern Workspace column of the supplied theme board and requested two light and three dark palettes. This supersedes the original purple/gradient/emoji design and five-choice System/Light/Dark/Purple/Slate contract. The owner approved the Render preview and authorized the production merge on October 31, 2026. Development remains on `pwa-redesign`; production uses `main`.
 
 ## Layout and navigation
 
@@ -64,7 +64,7 @@ Resource cleanup: removed the Question Bank Review panel and reviewer link from 
 
 ## Cohort slogan
 
-The owner selected “Cohort One. Second to None.” It appears beneath the logo/Study Hub label, with the second phrase in the active palette accent and a small accent rule. On mobile it becomes a compact full-width line below the brand. The slogan is decorative branding, not a navigation control. Text is real HTML and remains readable in all five themes.
+The owner selected “Cohort One. Second to None.” The final implementation places the entire slogan beneath the original school logo as outlined SVG paths in the theme accent. The earlier separate HTML slogan and accent rule were superseded.
 
 ## Approved restrained handwritten lockup
 
@@ -73,5 +73,7 @@ The approved mockup is implemented as `assets/BJC_GSON_Cohort_One.svg`, inlined 
 The school group uses theme ink; the slogan group uses theme accent. There is no embedded raster, background rectangle, live text, web-font request, glow, or splatter. The previous separate text slogan/accent rule is removed. The original school SVG is unchanged. The combined viewBox adds room beneath the original mark; the official mark itself is not reshaped. Mobile gives the lockup a wider allocation so the slogan remains legible.
 
 Kaushan Script is outlined at build time; its SIL Open Font License is included at `assets/licenses/KaushanScript-OFL.txt`. Font source: `https://github.com/google/fonts/tree/main/ofl/kaushanscript`. Font SHA-256: 6d8d379d9bba98178bee476d68114c8f83812c18005ecccf679e70f60e03d8f6. No font software is downloaded by the app at runtime. The cache includes the reusable combined SVG; the inline vector is also part of the cached HTML.
+
+Release validation: theme preference/migration/storage tests passed. Render mobile checks at 320px and 390px confirmed the logo center equals the viewport center, the separate label is absent, and document scroll width equals viewport width.
 
 Mobile branding: the combined school/cohort SVG is centered in the header. The separate Study Hub label has been removed on all screen sizes.

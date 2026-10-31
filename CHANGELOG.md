@@ -1,6 +1,6 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
-## 2026-10-30 — Development: Modern Workspace and five palettes
+## 2026-10-31 — Modern Workspace production release
 
 - Removed the separate Study Hub brand label and centered the combined school/cohort SVG in the mobile header.
 
@@ -18,7 +18,7 @@
 - Refined shared exam presentation without changing the runner, question banks, selectors, shuffle, grading, feedback timing, or answer-color preference. Retained References, notifications, installation help, calendar, reporting, and answer-color controls.
 - Added responsive single-column course cards below 480px and compact top navigation below 760px. Added a developer viewport harness at `dev/workspace-layout-check.html`.
 - Versioned new assets and updated the static-shell cache to v4-workspace. Banks and PDF references remain outside the service-worker cache.
-- Baseline uses current production `1ce7ded6` so the development preview retains all released questions and reference links. This design is staged only on `pwa-redesign`; no production release is authorized yet.
+- Baseline uses current production `1ce7ded6` so the development preview retains all released questions and reference links. Owner approved the Render preview and authorized merging `pwa-redesign` into `main` on October 31, 2026.
 - Checks: five-theme preference/migration/storage tests, unique DOM IDs, JS syntax, and text contrast against all defined surfaces (tested minimums 5.22:1–6.72:1). Render verified five palette switches, persistence into exams, newest/closed exam groups, combined custom selection, submission/locking, scoring/review, and References. A narrow-width navigation overflow was corrected; follow-up confirmed no horizontal overflow in 320/390/768px frames, narrow Settings, and the mobile shared-exam setup. Narrow-screen installation help also opened correctly. These checks do not by themselves establish full accessibility conformance.
 - See [Modern Workspace](References/Design%20Documentation/11-MODERN-WORKSPACE.md).
 
