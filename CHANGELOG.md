@@ -2,6 +2,8 @@
 
 ## 2026-10-30 — Development: Modern Workspace and five palettes
 
+- Removed the Question Bank Review panel from the reference library; course-source links remain available.
+
 - Restored BJC/Goldfarb SVG branding in desktop and mobile navigation. A transparent currentColor derivative now follows each palette’s text color; the original SVG asset is preserved.
 
 - Replaced the hero/emoji dashboard with a sidebar, line icons, and a compact two-column course grid. Course order follows exam recency; cards launch the current practice format or open the course's choices. Only the latest exam group starts expanded.

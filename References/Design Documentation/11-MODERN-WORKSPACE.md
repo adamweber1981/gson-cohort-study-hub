@@ -59,3 +59,5 @@ The restored logo loaded successfully on desktop and in nominal 320/390px frames
 October 30 refinement: replaced the fixed white logo/brand plate with the transparent, currentColor vector after owner feedback. Path geometry and transforms were checked against the original; theme switching needs no image fetch.
 
 Render verification: all five palettes produced logo fill equal to their text ink, with a fully transparent wrapper. The original asset geometry remains unchanged. Updated preview shows dark logo ink in Slate + Teal.
+
+Resource cleanup: removed the Question Bank Review panel and reviewer link from the reference-library screen at owner request. Course source links remain. The underlying reviewer files and audit data are preserved.
