@@ -42,4 +42,10 @@ Automated checks cover JavaScript syntax, DOM ID uniqueness, all five selections
 
 The staged site rendered the sidebar, course grid, and 278/232-question production bank labels. All five palette buttons changed the actual root palette/mode and selected state; Charcoal + Amber remained selected after reload and applied on entering the exam page. Pharmacology Exam 3 was open and Exam 2 closed. A two-category custom selection displayed 93 eligible questions; a one-question attempt preserved explicit Submit, no correctness before submission, locked answers, feedback/source links, final Score, and read-only review. The full References menu retained its original-source links and download controls. Large narrated-file downloading was not repeated for this style change.
 
-A fixed-width browser harness checked nominal 320, 390, and 768px frames (content widths are smaller when a browser scrollbar is present). A 2px navigation overflow at the narrowest width was identified and corrected by reducing navigation spacing. Mobile also omits the duplicate context toolbar. Follow-up overflow checks are recorded after the final CSS deploy. These are browser frame tests, not physical iPhone device certification. No notification permission request was initiated.
+A fixed-width browser harness checked nominal 320, 390, and 768px frames (content widths are smaller when a browser scrollbar is present). A 2px navigation overflow at the narrowest width was identified and corrected by reducing navigation spacing. Mobile also omits the duplicate context toolbar. After the final CSS deploy, all three frames had scrollWidth equal to clientWidth (305, 375, and 753px respectively); the 320px Settings view also had no overflow and displayed all five themes. The 390px shared-exam setup had no overflow, inherited Charcoal + Amber, and used the matching browser theme-color. Installation help opened correctly from narrow-screen Settings. These are browser frame tests, not physical iPhone device certification. No notification permission request was initiated.
+
+## Implemented preview
+
+![Modern Workspace in Charcoal + Amber](previews/modern-workspace-charcoal.jpg)
+
+Captured from the Render development deployment. The screenshot shows actual implemented UI, not the earlier generated concept. Main remains unchanged.
