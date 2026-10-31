@@ -61,3 +61,7 @@ October 30 refinement: replaced the fixed white logo/brand plate with the transp
 Render verification: all five palettes produced logo fill equal to their text ink, with a fully transparent wrapper. The original asset geometry remains unchanged. Updated preview shows dark logo ink in Slate + Teal.
 
 Resource cleanup: removed the Question Bank Review panel and reviewer link from the reference-library screen at owner request. Course source links remain. The underlying reviewer files and audit data are preserved.
+
+## Cohort slogan
+
+The owner selected “Cohort One. Second to None.” It appears beneath the logo/Study Hub label, with the second phrase in the active palette accent and a small accent rule. On mobile it becomes a compact full-width line below the brand. The slogan is decorative branding, not a navigation control. Text is real HTML and remains readable in all five themes.

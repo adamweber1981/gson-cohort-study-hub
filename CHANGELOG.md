@@ -2,6 +2,8 @@
 
 ## 2026-10-30 — Development: Modern Workspace and five palettes
 
+- Added “Cohort One. Second to None.” beneath the school logo, with theme-accented emphasis and responsive desktop/mobile treatment.
+
 - Removed the Question Bank Review panel from the reference library; course-source links remain available.
 
 - Restored BJC/Goldfarb SVG branding in desktop and mobile navigation. A transparent currentColor derivative now follows each palette’s text color; the original SVG asset is preserved.
