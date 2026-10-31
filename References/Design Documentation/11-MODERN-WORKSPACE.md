@@ -46,7 +46,7 @@ A fixed-width browser harness checked nominal 320, 390, and 768px frames (conten
 
 ## Implemented preview
 
-![Modern Workspace in Charcoal + Amber](previews/modern-workspace-charcoal.jpg)
+![Modern Workspace in Slate + Teal with theme-aware branding](previews/modern-workspace-teal.jpg)
 
 Captured from the Render development deployment. The screenshot shows actual implemented UI, not the earlier generated concept. Main remains unchanged.
 
@@ -57,3 +57,5 @@ The original `assets/BJC_GSON_Small.svg` remains unchanged. The app uses a theme
 The restored logo loaded successfully on desktop and in nominal 320/390px frames. The mobile SVG displayed at 138px wide; both narrow documents retained scrollWidth equal to clientWidth. The implemented-preview image includes the restored branding.
 
 October 30 refinement: replaced the fixed white logo/brand plate with the transparent, currentColor vector after owner feedback. Path geometry and transforms were checked against the original; theme switching needs no image fetch.
+
+Render verification: all five palettes produced logo fill equal to their text ink, with a fully transparent wrapper. The original asset geometry remains unchanged. Updated preview shows dark logo ink in Slate + Teal.
