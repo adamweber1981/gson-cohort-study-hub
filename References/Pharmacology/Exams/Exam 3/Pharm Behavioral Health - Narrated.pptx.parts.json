@@ -1,0 +1,32 @@
+{
+  "fileName": "Pharm Behavioral Health - Narrated.pptx",
+  "size": 31331201,
+  "sha256": "8ecd137b5a75970a04b651130f1bacf94ce7a93a16cf3ebe38056e8aefcfb381",
+  "parts": [
+    {
+      "path": "parts/Pharm Behavioral Health - Narrated.pptx.part01",
+      "size": 7500000,
+      "sha256": "68012860818eed6ac8108bc72b420b8dab1d32d7a267b5a1e2609b0c8f437e2e"
+    },
+    {
+      "path": "parts/Pharm Behavioral Health - Narrated.pptx.part02",
+      "size": 7500000,
+      "sha256": "e3befda1950e2905f62239dc9fb4ce5596f7a9dbb9ddf9e6a4d94f0b2bcb7c14"
+    },
+    {
+      "path": "parts/Pharm Behavioral Health - Narrated.pptx.part03",
+      "size": 7500000,
+      "sha256": "2409df5316d5be78f9436449a1ab343afc45bb6ba8b3cc1ec523f3b9c8fb7bea"
+    },
+    {
+      "path": "parts/Pharm Behavioral Health - Narrated.pptx.part04",
+      "size": 7500000,
+      "sha256": "f9237a3f0e31343d91fe5bd652d9a6b3f01ebe919c1298cd87be5ea615e7b7be"
+    },
+    {
+      "path": "parts/Pharm Behavioral Health - Narrated.pptx.part05",
+      "size": 1331201,
+      "sha256": "2e9040ddaaeeadbb98ecf96c13c43fadf47c232d1dbb6f29014fafb24d8b35aa"
+    }
+  ]
+}

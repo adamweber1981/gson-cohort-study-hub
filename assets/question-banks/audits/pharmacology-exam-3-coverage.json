@@ -45,5 +45,37 @@
   "optionAndKeyValidation": "Passed",
   "sourceScope": "Prototype list determines inclusion; Med Review supplies facts; Jeopardy supplies concise clinical prompt style. Pharm Exam 2 and nonlisted Jeopardy drug groups were not used to expand scope.",
   "independentClinicalReview": "Incomplete",
-  "comboEntry": "Carbidopa and Levodopa is treated as one combination entry, matching the prototype document."
+  "comboEntry": "Carbidopa and Levodopa is treated as one combination entry, matching the prototype document.",
+  "brandNameReview": {
+    "scope": "Generated exam questions, options, rationales, medication metadata, and selector labels; original course reference documents are not rewritten.",
+    "result": "No brand-name medication entries found",
+    "genericEntries": [
+      "Albuterol",
+      "Amitriptyline",
+      "Bupropion",
+      "Buspirone",
+      "Carbidopa and Levodopa",
+      "Cetirizine",
+      "Chlorpromazine",
+      "Codeine",
+      "Dextromethorphan",
+      "Diphenhydramine",
+      "Donepezil",
+      "Fluoxetine",
+      "Fluticasone",
+      "Gabapentin",
+      "Ipratropium",
+      "Lithium",
+      "Lorazepam",
+      "Methylphenidate",
+      "Montelukast",
+      "Phenytoin",
+      "Risperidone",
+      "Salmeterol",
+      "Selegiline",
+      "Tiotropium",
+      "Valproic Acid",
+      "Venlafaxine"
+    ]
+  }
 }

@@ -8,4 +8,4 @@ Pharmacology Exam 3 is currently most recent, followed by Pathophysiology Exam 3
 
 Student-facing review disclaimers are no longer rendered by the shared exam introduction; internal bank audit/preview metadata remains intact. This presentation change does not certify a completed clinical audit.
 
-Deploy to pwa-redesign for Render preview. Do not merge to main until the owner approves the preview.
+Verified on the pwa-redesign Render preview. Owner approved production release on October 29, 2026.

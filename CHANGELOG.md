@@ -1,21 +1,35 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
-## 2026-10-29 — Development: Pharmacology Exam 3 distractor revision
+## 2026-10-30 — Development: Modern Workspace and five palettes
 
-- Reviewed all 260 MCQs; revised 256 MCQs and retained four already useful choice sets. Revised all 12 SATA items. The 278-question count and six matching questions are unchanged.
-- Replaced unrelated or exaggerated distractors with related course medication classes, mechanisms, effects, and monitoring plans. Clarified 14 broad MCQ stems.
-- Preserved MCQ correct-answer IDs and tested concepts; SATA now has 2–4 correct selections with keys and rationales updated to match. SATA remains all-or-nothing.
-- Preserved selector mappings, study-plan quotas, source citations, and generic-only generated medication names. Versioned the bank request and changed scripts.
-- Validated answer/shuffle mappings, wrong-answer rejection, exact stem duplication, all 27 selector placements, count bounds, and 100 mixed-practice assemblies. Render comparison pending owner feedback; main is unchanged.
-- Details: [Distractor revision](References/Design%20Documentation/10-PHARMACOLOGY-DISTRACTORS.md).
+- Replaced the hero/emoji dashboard with a sidebar, line icons, and a compact two-column course grid. Course order follows exam recency; cards launch the current practice format or open the course's choices. Only the latest exam group starts expanded.
+- Added two light palettes (Slate + Teal, Ivory + Burgundy) and three dark palettes (Charcoal + Amber, Midnight + Blue, Aubergine + Lavender). Appearance applies to the hub, shared-engine exam, and legacy Exam 3 preview page. Original standalone HTML exams retain their own embedded styles.
+- Added accessible theme buttons with local persistence and migration of old Light/Dark/Purple/Slate preferences. First-visit default is Slate + Teal; old System resolves to Slate + Teal or Charcoal + Amber according to current OS appearance.
+- Refined shared exam presentation without changing the runner, question banks, selectors, shuffle, grading, feedback timing, or answer-color preference. Retained References, notifications, installation help, calendar, reporting, and answer-color controls.
+- Added responsive single-column course cards below 480px and compact top navigation below 760px. Added a developer viewport harness at `dev/workspace-layout-check.html`.
+- Versioned new assets and updated the static-shell cache to v4-workspace. Banks and PDF references remain outside the service-worker cache.
+- Baseline uses current production `1ce7ded6` so the development preview retains all released questions and reference links. This design is staged only on `pwa-redesign`; no production release is authorized yet.
+- Checks: five-theme preference/migration/storage tests, unique DOM IDs, JS syntax, and text contrast against all defined surfaces (tested minimums 5.22:1–6.72:1). Browser QA follows deployment; these checks do not by themselves establish full accessibility conformance.
+- See [Modern Workspace](References/Design%20Documentation/11-MODERN-WORKSPACE.md).
 
 
-## 2026-10-29 — Development: recent courses and closed older exams
+## 2026-10-29 — Pharmacology Exam 3: stronger answer choices
 
-- Home course tiles sort by the latest exam `updatedAt`; Pharmacology precedes Pathophysiology.
-- Only the most recently updated exam in each of the four courses opens by default. Older exams remain collapsed and can be expanded.
-- Removed student-facing incomplete-review notices from exam introductions and course cards; retained internal audit records.
-- Versioned changed scripts for installed-app refreshes. Development preview only.
+- Owner approved the tested development revision for production. Reviewed all 260 MCQs; revised 256 and retained four useful existing choice sets. Revised all 12 SATA items. All 278 questions remain, including six unchanged matching questions.
+- Replaced unrelated/exaggerated distractors with competing course medication classes, mechanisms, adverse-effect patterns, therapeutic outcomes, and monitoring plans. Clarified 14 broad MCQ stems and reduced procedural cue wording.
+- Preserved MCQ answer IDs and correct concepts. SATA now has 2–4 correct selections among 5–6 options, with corresponding keys and explanatory rationales. SATA and matching remain all-or-nothing.
+- Preserved drug/category coverage, all 27 selector placements, practice-plan quotas, production source/GitHub links, and generic medication names. Updated bank/runner URLs and Pharmacology's recency timestamp.
+- Checks passed: 278 answer/shuffle mappings, 780 wrong-MCQ rejections, 67 missing/extra SATA selection checks, 100 mixed-practice assemblies, all selectors, custom count bounds, exact normalized stem deduplication, and generic-name screening. Render browser checks verified custom selection, MC feedback/locking, and rejection of an incomplete four-answer SATA set. Final development bank matched the Render-served file by SHA-256.
+- This is a source-grounded author revision, not calibrated item difficulty or an independent clinical certification. No new student-facing disclaimer was added. Production deployment verification is recorded separately from pre-merge checks.
+- [Revision record](References/Design%20Documentation/10-PHARMACOLOGY-DISTRACTORS.md); `assets/question-banks/audits/pharmacology-exam-3-distractor-revision.json` records per-question dispositions and source locations.
+
+
+## 2026-10-29 — Recent courses and exam accordion defaults
+
+- Home course tiles sort by the latest exam update; Pharmacology appears first.
+- Only the latest exam opens by default in each of the four courses; older groups remain collapsed.
+- Removed student-facing incomplete-review notices while preserving internal audit records.
+- Versioned changed scripts for cache refresh. Tested on the Render development site before production release.
 
 
 All notable user-facing changes, exam-content migrations, infrastructure work, and release milestones are documented here. New entries should be added at the top. This is a **curated history**, not a claim that every individual Git commit is reproduced verbatim; GitHub's commit history remains the authoritative line-by-line record.
@@ -24,7 +38,46 @@ All notable user-facing changes, exam-content migrations, infrastructure work, a
 
 ## [Unreleased]
 
-- 2026-10-29: Added the Pharmacology Exam 3 development preview: 278 course-aligned questions, nine selectable categories and 27 class/drug placements, 10–11 direct questions for each of 26 unique drug entries, a mixed 50-question practice plan, source references, and coverage checks. Independent clinical review is incomplete. Render test only; not released to main.
+No entries recorded.
+
+## 2026-10-29 — Complete Pharmacology Exam 3 sources
+
+- Added the eight missing originals from the selected course folder, completing access to all 11 originals under `References/Pharmacology/Exams/Exam 3/`. The narrated presentation is preserved in five byte-verified parts with a reconstruction manifest and script; the exam offers an integrity-checked download of the original presentation.
+- Added a GitHub source index and explicit GitHub links in the References menu and question feedback, preserving in-page viewing and existing question/page citations.
+- Kept original filenames and content. Pharm Exam 2 is included because it is in the supplied folder; it does not expand the Exam 3 medication scope. No question text, keys, counts, or quotas changed.
+- Original source count is 11: ten ordinary files and one narrated presentation represented by verified parts. Four extracted text companions remain available for in-page reading. The source inventory records original sizes and SHA-256 values; the narrated download verifies total size and SHA-256 before offering the original `.pptx`.
+- Merged in [PR #15](https://github.com/adamweber1981/gson-cohort-study-hub/pull/15), merge `b9e85086`. GitHub Pages deployment completed successfully; the live References menu was checked for the complete source list, source index, and GitHub links. Original-file reconstruction was verified locally; the large browser download was not separately completed during that check.
+
+
+## 2026-10-29 — Pharmacology Exam 3 practice release
+
+- Released 278 questions: 260 MCQs, 12 SATA, and 6 matching questions, with 10–11 direct questions for each of 26 medication entries. Carbidopa/levodopa is the combination entry in the prototype list; lorazepam appears in both seizure and anxiety selectors.
+- Added the nine prototype-document categories and 27 class/drug selector placements. Mixed practice assembles 50 questions from a study allocation rather than an asserted instructor exam blueprint. Custom practice supports multiple categories/drugs and a selected count.
+- Multi-drug matching appears in custom practice only if all of its drug subtopics are selected. Full mixed practice retains configured SATA and matching ranges.
+- Screened generated question text, answer choices, rationales, drug metadata, and selector labels for brand names; no brand-name entries were found. Original course source documents are preserved as supplied, including any terminology within them.
+- Validated keys before/after shuffle, all source paths/page ranges, all drug selector placements, count bounds, and 100 full-exam assemblies. Verified mixed/custom startup, grading, scoring, review, and PDF source viewing on Render before owner-authorized production release.
+- Kept the practice-preview notice because independent clinical review remains incomplete. This release does not claim independent clinical certification or exhaustive semantic uniqueness.
+- Applied the release to current main while preserving existing Pathophysiology and cache fixes. Added versioned production bank and asset requests. The initial Render preview mixed an older cached shell with newer bank data; release-specific bank/script URLs were added and the final filtered 33-question pool for albuterol, fluoxetine, and risperidone was verified.
+- Merged in [PR #14](https://github.com/adamweber1981/gson-cohort-study-hub/pull/14), merge `8fe8df39`. GitHub Pages deployment completed successfully; production showed the 278-question label, Mixed practice/Custom practice options, and generic medication selector labels.
+- Documentation now includes product and design guidance, engine/selection specifications, the Pharmacology release record, source/reference operations, a documentation index, and the public HTML changelog. Operational documentation distinguishes main/GitHub Pages production from the Render development preview.
+
+
+## 2026-10-26 — Exam 3 expansion, practice selection, and references
+
+Changes released to `main` and GitHub Pages. Dates are in America/Chicago.
+
+- Added **Full blueprint exam** and **Custom practice** to blueprint-backed shared-engine exams. Full exams use the blueprint's exact topic quotas and the type limits actually configured in that blueprint. Custom practice draws a random, nonrepeating selection from the selected eligible question pool; it does not apply full-exam quotas.
+- Replaced single-section/subsection selection with multiple blueprint groups and subjects. Selecting a group reveals its checked subjects, which can be individually deselected; subjects across groups can be combined. The count field is limited to the currently available pool. For Pathophysiology Exam 3, the groups are **Respiratory**, **Blood**, and **Kidneys / Urinary**; the underlying subject names remain the blueprint topic keys. Blueprints with nested subtopics expose those under their corresponding topic. See [Practice exam selection](References/Design%20Documentation/06-PRACTICE-EXAM-SELECTION.md).
+- Added 27 Exam 3 course-folder resources to the reference collection and exposed them through the exam's References menu. Large AKI, UTI, and Week 5 presentation files are stored as parts and reconstructed by the viewer/download flow; existing question-specific source links remain intact. Keeping a reference available does not imply all its material is in exam scope.
+- Added and later activated 99 provisional Exam 3 questions in the existing 133-question pool, for **232 total**. Twenty-two blueprint subjects have 10 questions each; Anemias has 12. Different questions may revisit the same subject from different angles; do not count cosmetic rewrites as distinct. Exact-stem checking is not a complete semantic duplicate review.
+- Maintained a visible QA-preview notice: independent clinical, source, and substantive duplicate review remains incomplete. The current pool includes **one true/false item**; it cannot satisfy the older 4–6 true/false target for a 50-question attempt. The owner accepted this for now. The Exam 3 blueprint currently enforces 6–10 SATA and 4–6 matching, but has no true/false range.
+- Verified question structure, IDs, keyed choices, all 23 custom topic pool counts, and 100 randomized full-exam assemblies against the configured topic, SATA, and matching rules. Confirmed the 232-question label on GitHub Pages. These checks are not clinical validation or proof that every question is substantively unique.
+- Updated app asset versions, blueprint/reference revalidation, and the service-worker shell after installed iPhone apps displayed older selector data. A user confirmed that removing the older Home Screen app and adding the site again in Safari loaded the updated selector. Bank requests now request fresh data when online. Reloading or reinstalling may discard an in-progress attempt or local preferences.
+- Releases: [Exam 3 preview and navigation, PR #8](https://github.com/adamweber1981/gson-cohort-study-hub/pull/8); [multi-topic selection and references, PR #9](https://github.com/adamweber1981/gson-cohort-study-hub/pull/9); [cache fix, PR #10](https://github.com/adamweber1981/gson-cohort-study-hub/pull/10); [draft inventory, PR #11](https://github.com/adamweber1981/gson-cohort-study-hub/pull/11); [232-question practice preview, PR #12](https://github.com/adamweber1981/gson-cohort-study-hub/pull/12).
+
+### Earlier release notes from this work
+
+- Expanded the Pathophysiology Exam 3 practice preview to 232 questions, with 10–12 questions per blueprint subject. New items are provisional; independent clinical, source, and substantive duplicate review remain incomplete.
 
 - Added multi-select custom practice grouped by blueprint topics and linked the Pathophysiology Exam 3 reference collection.
 
@@ -162,4 +215,8 @@ _Recorded in the existing HTML changelog; several legacy exam links were subsequ
 4. Never include secrets, admin tokens, push endpoints, personal data, or student-identifying analytics.
 5. Maintain the existing [public HTML changelog](References/changelogs/changelog.html) for students as needed; this Markdown file is the repository's detailed development/release history.
 6. Consult [GitHub commit history](https://github.com/adamweber1981/gson-cohort-study-hub/commits/main/) for individual file-level changes and exact chronology.
+
+
+
+
 

@@ -1,6 +1,14 @@
 # Phase 3 — Audited Question Banks and Blueprint-Balanced Exam Generation
 
-**Status:** In progress · **Approved:** 2026-10-22 · **Working branch:** `pwa-redesign` · **Production/main:** Do not modify without explicit approval.
+**Status:** In progress; course previews released with recorded limitations · **Approved:** 2026-10-22 · **Updated:** 2026-10-29 · **Working branch:** `pwa-redesign` · **Production/main:** Do not modify without explicit approval.
+
+## Current course-preview extensions
+
+The older migration gates below remain the default for unreviewed legacy inventories. At owner direction, Pathophysiology Exam 3 (232 questions) and Pharmacology Exam 3 (278 questions) are available as explicitly labeled production practice previews while independent content review remains incomplete. Their `approved: true` flags mean engine eligibility, not completed clinical certification. Preserve that distinction in audits and UI notices.
+
+A bank can have an instructor blueprint or a clearly labeled study plan. Pharmacology uses its medication list for scope and categories and a mixed-practice allocation for sampling; do not call those allocations authoritative instructor weights. Full practice follows the ranges actually configured. Custom practice instead filters selected categories/subtopics and a requested count; multi-drug questions require all of their declared drug subtopics. See [selection guide](06-PRACTICE-EXAM-SELECTION.md) and [Pharmacology record](07-PHARMACOLOGY-EXAM-3-PREVIEW.md).
+
+Generated Pharmacology questions and selectors use generic names. Preserve all original sources and their terminology, store originals or byte-verified parts in the course/exam reference folder, and provide GitHub access without silently rewriting source evidence. [Source operations](08-SOURCE-REFERENCE-OPERATIONS.md) defines the layout and integrity checks. A source's presence in the repository is not a new exam objective.
 
 ## Priorities and destination
 1. Fundamentals Exam 2: start with **Rebuilt Exam 1**, then **Rebuilt Exam 2**, then examine all other existing versions for unique questions.
@@ -71,3 +79,4 @@ One question at a time; explicit Submit then feedback/rationale/source; forward-
 - Consolidate only within the same pool when normalized stem, question kind, answer choices (including their order), answer key, and diagram payload match. Keep the canonical entry and record all merged source IDs. Differences in source citations or rationales still require editorial reconciliation before approval.
 - The first consolidated **master inventory** is `assets/question-banks/master/fundamentals-exam-2-master.json`: 494 retained candidates from 600 legacy entries (415 Standard, 79 Med Math). All are **UNREVIEWED**, not live exam questions.
 - This is a *candidate inventory*, not a completed clinical audit or a blueprint-approved 50-question exam. Verify question types, source citations, diagrams, answer keys, and blueprint requirements before activation.
+

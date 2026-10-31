@@ -36,9 +36,9 @@ const STUDY_HUB = [
           {
             name: "Exam 3", updatedAt: "2026-10-28T12:00:00Z",
             versions: [{
-              version: "Exam 3 — 133-question test preview",
+              version: "Exam 3 — 232-question practice preview",
               file: "exam.html?bank=pathophysiology-exam-3-standard",
-              description: "Test preview: full 50-question blueprint or choose a topic and question count."
+              description: "Practice preview: full 50-question blueprint or choose topics and question count."
             }]
           }
         ]
@@ -185,4 +185,5 @@ const STUDY_HUB = [
       }
 
     ];
+
 
