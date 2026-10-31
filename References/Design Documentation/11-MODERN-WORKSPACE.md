@@ -52,6 +52,8 @@ Captured from the Render development deployment. The screenshot shows actual imp
 
 ## School branding
 
-Restored the original `assets/BJC_GSON_Small.svg` in the sidebar and compact mobile header. The supplied white SVG is unchanged and uses a dark brand plate so it remains legible in all five palettes. It is included in the static shell cache.
+The original `assets/BJC_GSON_Small.svg` remains unchanged. The app uses a theme-aware derivative, `assets/BJC_GSON_Theme.svg`, inlined in the sidebar/mobile header so `currentColor` can inherit the theme text color. The original viewBox, vector paths, and transforms are preserved; editor metadata is omitted. There is no background plate. Light palettes use their dark ink and dark palettes use their off-white ink. The cached HTML contains the inline vector.
 
 The restored logo loaded successfully on desktop and in nominal 320/390px frames. The mobile SVG displayed at 138px wide; both narrow documents retained scrollWidth equal to clientWidth. The implemented-preview image includes the restored branding.
+
+October 30 refinement: replaced the fixed white logo/brand plate with the transparent, currentColor vector after owner feedback. Path geometry and transforms were checked against the original; theme switching needs no image fetch.
