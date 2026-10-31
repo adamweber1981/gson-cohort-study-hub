@@ -65,3 +65,11 @@ Resource cleanup: removed the Question Bank Review panel and reviewer link from 
 ## Cohort slogan
 
 The owner selected “Cohort One. Second to None.” It appears beneath the logo/Study Hub label, with the second phrase in the active palette accent and a small accent rule. On mobile it becomes a compact full-width line below the brand. The slogan is decorative branding, not a navigation control. Text is real HTML and remains readable in all five themes.
+
+## Approved restrained handwritten lockup
+
+The approved mockup is implemented as `assets/BJC_GSON_Cohort_One.svg`, inlined as one image in the app. It combines the exact original school paths/transforms with an outlined Kaushan Script slogan in the restrained handwritten direction. This is a vector implementation of the approved style, not a pixel trace of the generated mockup. It preserves the original three-line school identity, including Barnes-Jewish College, rather than adopting the generated image's altered school lettering.
+
+The school group uses theme ink; the slogan group uses theme accent. There is no embedded raster, background rectangle, live text, web-font request, glow, or splatter. The previous separate text slogan/accent rule is removed. The original school SVG is unchanged. The combined viewBox adds room beneath the original mark; the official mark itself is not reshaped. Mobile gives the lockup a wider allocation so the slogan remains legible.
+
+Kaushan Script is outlined at build time; its SIL Open Font License is included at `assets/licenses/KaushanScript-OFL.txt`. Font source: `https://github.com/google/fonts/tree/main/ofl/kaushanscript`. Font SHA-256: 6d8d379d9bba98178bee476d68114c8f83812c18005ecccf679e70f60e03d8f6. No font software is downloaded by the app at runtime. The cache includes the reusable combined SVG; the inline vector is also part of the cached HTML.

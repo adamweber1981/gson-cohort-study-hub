@@ -2,6 +2,8 @@
 
 ## 2026-10-30 — Development: Modern Workspace and five palettes
 
+- Implemented the approved restrained handwritten slogan as an outlined, transparent combined SVG. Original school geometry is preserved; school lettering follows theme ink and the slogan follows theme accent. Removed the separate HTML slogan.
+
 - Added “Cohort One. Second to None.” beneath the school logo, with theme-accented emphasis and responsive desktop/mobile treatment.
 
 - Removed the Question Bank Review panel from the reference library; course-source links remain available.
