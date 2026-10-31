@@ -30,3 +30,6 @@ h1{font-size:clamp(29px,3.2vw,39px);line-height:1.2;letter-spacing:-.035em;margi
 /* One transparent vector lockup; its two groups inherit independent theme colors. */
 .school-logo .school-mark{color:var(--ink);fill:currentColor}.school-logo .cohort-script{fill:var(--accent)}
 @media(max-width:760px){.workspace-brand .school-logo-wrap{width:190px;flex-basis:190px}.workspace-brand{flex-wrap:wrap;row-gap:8px}}
+
+/* Center the complete school/cohort mark in the mobile header. */
+@media(max-width:760px){.workspace-brand{justify-content:center}}
