@@ -6,6 +6,7 @@
  const ios=/iPad|iPhone|iPod/.test(navigator.userAgent);
  function openInstall(){if(!dialog||!steps)return;steps.textContent=standalone?"The Study Hub is already installed on this device.":ios?"On iPhone or iPad: open this site in Safari, tap Share, then Add to Home Screen. Open the new icon from your Home Screen.":"On a computer or Android: use Install app now if available, or open your browser menu and select Install app / Add to Home Screen.";if(install)install.hidden=standalone||!deferredInstall;dialog.showModal()}
  help?.addEventListener("click",openInstall);
+ document.getElementById("settings-install-help")?.addEventListener("click",openInstall);
  document.getElementById("install-dialog-close")?.addEventListener("click",()=>dialog.close());
  document.getElementById("install-dialog-done")?.addEventListener("click",()=>dialog.close());
  dialog?.addEventListener("click",event=>{if(event.target===dialog)dialog.close()});

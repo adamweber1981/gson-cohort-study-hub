@@ -1,7 +1,7 @@
 # GSON Accelerated Study Hub — Canonical Design Documents
 
-**Specification version: 1.4**  
-**Last updated: October 29, 2026**  
+**Specification version: 1.5**  
+**Last updated: October 30, 2026**  
 **Status: Requirements and current implementation; content audits ongoing**
 
 These documents are the **source of truth** for all future changes to the GSON Accelerated Study Hub. Read them before modifying any page, exam, shared component, or PWA behavior.
@@ -18,6 +18,8 @@ These documents are the **source of truth** for all future changes to the GSON A
 
 7. [`09-COURSE-RECENCY.md`](09-COURSE-RECENCY.md) — newest-course ordering and closed older exam groups.
 8. [`10-PHARMACOLOGY-DISTRACTORS.md`](10-PHARMACOLOGY-DISTRACTORS.md) — revised MCQ/SATA choices, variable SATA keys, source preservation, and validation.
+
+9. [`11-MODERN-WORKSPACE.md`](11-MODERN-WORKSPACE.md) — development redesign, five palettes, preference migration, responsive behavior, and checks.
 
 ## Supporting migration documents
 

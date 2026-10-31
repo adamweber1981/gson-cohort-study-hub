@@ -1,5 +1,28 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-10-31 — Modern Workspace production release
+
+- Removed the separate Study Hub brand label and centered the combined school/cohort SVG in the mobile header.
+
+- Implemented the approved restrained handwritten slogan as an outlined, transparent combined SVG. Original school geometry is preserved; school lettering follows theme ink and the slogan follows theme accent. Removed the separate HTML slogan.
+
+- Added “Cohort One. Second to None.” beneath the school logo, with theme-accented emphasis and responsive desktop/mobile treatment.
+
+- Removed the Question Bank Review panel from the reference library; course-source links remain available.
+
+- Restored BJC/Goldfarb SVG branding in desktop and mobile navigation. A transparent currentColor derivative now follows each palette’s text color; the original SVG asset is preserved.
+
+- Replaced the hero/emoji dashboard with a sidebar, line icons, and a compact two-column course grid. Course order follows exam recency; cards launch the current practice format or open the course's choices. Only the latest exam group starts expanded.
+- Added two light palettes (Slate + Teal, Ivory + Burgundy) and three dark palettes (Charcoal + Amber, Midnight + Blue, Aubergine + Lavender). Appearance applies to the hub, shared-engine exam, and legacy Exam 3 preview page. Original standalone HTML exams retain their own embedded styles.
+- Added accessible theme buttons with local persistence and migration of old Light/Dark/Purple/Slate preferences. First-visit default is Slate + Teal; old System resolves to Slate + Teal or Charcoal + Amber according to current OS appearance.
+- Refined shared exam presentation without changing the runner, question banks, selectors, shuffle, grading, feedback timing, or answer-color preference. Retained References, notifications, installation help, calendar, reporting, and answer-color controls.
+- Added responsive single-column course cards below 480px and compact top navigation below 760px. Added a developer viewport harness at `dev/workspace-layout-check.html`.
+- Versioned new assets and updated the static-shell cache to v4-workspace. Banks and PDF references remain outside the service-worker cache.
+- Baseline uses current production `1ce7ded6` so the development preview retains all released questions and reference links. Owner approved the Render preview and authorized merging `pwa-redesign` into `main` on October 31, 2026.
+- Checks: five-theme preference/migration/storage tests, unique DOM IDs, JS syntax, and text contrast against all defined surfaces (tested minimums 5.22:1–6.72:1). Render verified five palette switches, persistence into exams, newest/closed exam groups, combined custom selection, submission/locking, scoring/review, and References. A narrow-width navigation overflow was corrected; follow-up confirmed no horizontal overflow in 320/390/768px frames, narrow Settings, and the mobile shared-exam setup. Narrow-screen installation help also opened correctly. These checks do not by themselves establish full accessibility conformance.
+- See [Modern Workspace](References/Design%20Documentation/11-MODERN-WORKSPACE.md).
+
+
 ## 2026-10-29 — Pharmacology Exam 3: stronger answer choices
 
 - Owner approved the tested development revision for production. Reviewed all 260 MCQs; revised 256 and retained four useful existing choice sets. Revised all 12 SATA items. All 278 questions remain, including six unchanged matching questions.

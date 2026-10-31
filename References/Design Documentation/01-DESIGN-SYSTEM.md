@@ -1,38 +1,31 @@
 # GSON Accelerated Study Hub — Design System & Page Templates
 
-**Version:** 1.1 · **Status:** Design direction and implemented practice extensions · **Updated:** 2026-10-29
+**Version:** 1.2 · **Status:** Design direction and implemented practice extensions · **Updated:** 2026-10-30
 
 ## Visual identity
-Official name: **GSON Accelerated Study Hub**. Visual reference: rounded, two-column course tiles, rich purple/slate surfaces, subtle gradients, and a mobile-first card interface. Use the supplied phone sketch for navigation and the purple mobile example for aesthetic direction. Do not copy third-party brand assets.
+
+The owner selected Modern Workspace on October 30, 2026: neutral surfaces, compact typography, consistent line icons, a desktop sidebar, and a two-column course grid. No large hero, decorative gradients, or emoji navigation. See [Modern Workspace](11-MODERN-WORKSPACE.md) for the development implementation and verification record.
 
 ## Theme contract
-Offer exactly five visible choices: **System, Light, Dark, Purple, Slate**. Purple is the first-visit default. A student's chosen theme may be stored **locally on that device only** (this is a visual preference, not a score or analytics record). System automatically responds to OS appearance changes. Each theme must provide distinct surface, text, border, accent, success, warning, and error tokens. Purple and Slate are full themes, not merely accent swaps.
 
-Suggested starting palette, subject to contrast testing:
+Exactly five visible palettes: Slate + Teal and Ivory + Burgundy (light); Charcoal + Amber, Midnight + Blue, and Aubergine + Lavender (dark). Slate + Teal is the first-visit default. This owner request supersedes the earlier System/Light/Dark/Purple/Slate palette contract. Preferences remain local to the device and are shared by the hub and shared-engine exam pages. Existing preferences migrate as documented in the workspace record. Legacy standalone exam pages retain their embedded presentation.
 
-| Theme | Background | Surface | Accent | Text |
-|---|---|---|---|---|
-| Light | `#F7F7FA` | `#FFFFFF` | `#7651B8` | `#292536` |
-| Dark | `#15131C` | `#292535` | `#B49BFA` | `#F7F5FA` |
-| Purple | `#1B142B` | `#302444` | `#C9A9FF` | `#FFFFFF` |
-| Slate | `#1F2937` | `#37465C` | `#A5B4FC` | `#FFFFFF` |
-| System | follows Light/Dark tokens | — | — | — |
-
-The palette is a **design starting point**, not a claim of validated WCAG contrast. Validate text/button/focus combinations before release. Define tokens in one shared stylesheet; prohibit per-exam hard-coded colors.
+Tokens include background, surfaces, text, borders, accent, focus, success, error, and warning. Keep them in the shared workspace stylesheet. Optional answer-choice color palettes remain independent of the app theme.
 
 ## Layout and interaction tokens
-- Body type: system UI font stack; at least 16px for question and option text.
-- Spacing: 4px scale with common 8/12/16/24/32px increments.
-- Rounded cards: 16–24px; controls 10–14px; consistent focus rings.
-- Minimum touch target: 44 × 44 CSS px. Keyboard navigation and visible focus required.
-- Mobile-first layout: test at 320, 375, 390, 768, 1024px and desktop. No horizontal scrolling for normal text or choices.
+
+- Body and exam option text use the system sans-serif stack; question/control text remains at least 16px.
+- Cards and controls use restrained 6–8px corners, subtle structural borders, and visible focus rings.
+- Desktop sidebar changes to compact top navigation below 760px; course tiles become one column below 480px.
+- Touch targets are at least 44px; keyboard skip navigation and labeled controls remain available.
 - Honor reduced-motion preferences. No decorative imagery on exam questions.
+- Test narrow widths and actual controls; passing token contrast tests alone is not full WCAG validation.
 
 ## Shared navigation
 - **Global header:** app identity, page context, Settings access.
-- **Home:** newest term first; term headings and expandable course grids; reference library link. Adding a new term pushes earlier terms down the feed without removing them.
+- **Home:** newest term first; recency-sorted course tiles with direct latest-exam actions; sidebar reference-library link. Adding a new term pushes earlier terms down the feed without removing them.
 - **Course page:** term + course heading; actual numbered exam groups; cards for individual practice exam variants and resource links.
-- **Exam introduction:** `Course Name` → `Exam N` → `Practice Exam Name`, instructions, practice-mode selector and count where configured, preview notice where applicable, and Start Exam. Custom mode reveals category checkboxes, nested subject/drug checkboxes, an eligible-pool status, and a whole-number count field.
+- **Exam introduction:** `Course Name` → `Exam N` → `Practice Exam Name`, instructions, practice-mode selector and count where configured, and Start Exam. Custom mode reveals category checkboxes, nested subject/drug checkboxes, an eligible-pool status, and a whole-number count field.
 - **Exam runner:** same three-line heading; `Question X of N`, progress bar, one question, selection controls, explicit Submit, feedback, then Next Question. See `02-EXAM-ENGINE-SPEC.md`.
 - **Results:** total score, correct/incorrect counts, full exam review entry, Reset Exam, Return to Hub.
 - **Full review:** every numbered question, chosen answer, correct answer, rationale, source link; read-only.
