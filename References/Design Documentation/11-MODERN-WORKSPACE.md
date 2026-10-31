@@ -53,3 +53,5 @@ Captured from the Render development deployment. The screenshot shows actual imp
 ## School branding
 
 Restored the original `assets/BJC_GSON_Small.svg` in the sidebar and compact mobile header. The supplied white SVG is unchanged and uses a dark brand plate so it remains legible in all five palettes. It is included in the static shell cache.
+
+The restored logo loaded successfully on desktop and in nominal 320/390px frames. The mobile SVG displayed at 138px wide; both narrow documents retained scrollWidth equal to clientWidth. The implemented-preview image includes the restored branding.
