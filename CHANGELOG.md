@@ -1,6 +1,6 @@
-# Text-reference rollback — 2026-11-08
+# Original reference files — 2026-11-08
 
-Restored Fundamentals Exam 3 text references for all 330 questions. Question content and answer keys unchanged. Added sensory and gas-exchange text companions for 20 references that previously linked to original PDFs. Retained corrected speaker-note text. Other exams and production unchanged. PDF-page audits describe superseded reference mappings.
+Replaced Fundamentals Exam 3 extracted text references with the 19 original uploaded PDF, PowerPoint and Word files. Removed extracted source copies and the two sensory/gas-exchange text files from the mistaken rollback. All 330 question bodies and answer keys unchanged. PDFs retain the existing viewer; Office documents open/download their original file. Private performance report remains unpublished. Production main unchanged.
 
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 

@@ -119,6 +119,7 @@ async function setReferencePage(page){
  }
 }
 async function openReference(url,title,parts=null){
+ if(/\.(pptx?|docx?)(?:[?#]|$)/i.test(new URL(url,location.href).pathname)){window.open(url,"_blank","noopener,noreferrer");return}
  const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
  const openToken=++referenceOpenToken;
  $("reference-heading").textContent=title||"Exam reference";
