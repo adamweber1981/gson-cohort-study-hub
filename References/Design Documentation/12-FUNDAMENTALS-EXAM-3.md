@@ -51,3 +51,10 @@ Unsupported or unsafe simplifications in source material were not turned into qu
 Reproduce using `node scripts/validate-fundamentals-exam-3.cjs` and `python scripts/check-fundamentals-exam-3-math.py`. Evidence lives under `assets/question-banks/audits/fundamentals-exam-3-*.json`. Exact duplicate checking does not prove exhaustive semantic uniqueness; related concepts intentionally appear in different question approaches.
 
 Deployment and browser observations are appended after the Render preview is verified. No production merge is included in this task.
+
+
+## Render verification — November 8, 2026
+
+The development exam opened and assembled 50 questions. MCQ selection retained the submit gate, then produced locked correct feedback. Cross-category selection showed 70 eligible for all Blood Transfusions and Nutrition, and 20 for only Transfusion reactions plus Parenteral nutrition. An incomplete SATA set graded incorrect, scored 0/1, and appeared in read-only review. A numeric 80 mg at 40 mg/2 mL item accepted 4 mL and graded correct. Its reference opened in the in-page reader.
+
+Home placed Fundamentals first with the 300-question label; its course page opened Exam 3 and kept Exam 2 collapsed. The actual app in 320px and 390px frames exposed seven groups, showed 50 Electrolytes items, and had no document horizontal overflow (client/scroll widths 305/305 and 375/375 after scrollbars). Served bank bytes and all 19 text companions matched the local files. Evidence: `assets/question-banks/audits/fundamentals-exam-3-render.json`. The UI checks sample behavior; they are not an exhaustive manual run through all 300 questions.

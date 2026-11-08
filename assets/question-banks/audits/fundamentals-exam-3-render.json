@@ -1,0 +1,117 @@
+{
+  "url": "https://gson-study-hub-test.onrender.com/exam.html?bank=fundamentals-exam-3-standard&v=fund3-20261108",
+  "contentCommit": "b00ab1a73c15acb4fa361e39c0e798d53f5da8b7",
+  "hashChecks": [
+    {
+      "path": "assets/question-banks/fundamentals-exam-3-standard.json",
+      "status": "PASS",
+      "sha256": "b8761771611d02deb8bd4139962be438badce478b675d3d32499e0777d0fda02"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/ABG%2C%20Fluid%2C%20Electrolyte%20Qs.pptx.txt",
+      "status": "PASS",
+      "sha256": "b330b261fd3eb3a154a9121ad97c701444b0a5524bc3a4bec69c02d383f4d709"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Diet%20Types.docx.txt",
+      "status": "PASS",
+      "sha256": "c7eca9a264ac39e42709a5f9a802d41a7c2438b07410851b56d388f4d520408d"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "status": "PASS",
+      "sha256": "4b532bb4b42317f573a8044accdc3cbc2bb4ff1e26fa72c266f412b351eae509"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "status": "PASS",
+      "sha256": "c08338c6f290549c8e2590aead9dffbb0a0aabc93e262aedad53e23b350bc224"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Fundy%27s%20med%20math%203%20student%20version-1.pptx.txt",
+      "status": "PASS",
+      "sha256": "ed852fcdcda4036b239babc192ccdc0a3bfa07b193846d86f9c0535391012ef0"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20exam%203%20blueprint%20.docx.txt",
+      "status": "PASS",
+      "sha256": "8df7196b3e6fd369f15c411285787cc7ab5dee92c3feeaf17dbbaf4809f8f547"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "status": "PASS",
+      "sha256": "812ef53701b822aefd205d8e220e2d9e7ff3362c21eea867d5d32830917158d6"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20Extra%20Pictures%20and%20Qs.pptx.txt",
+      "status": "PASS",
+      "sha256": "2693ad8e5ee108851a9e5b152ad90c67bb871e50f1274794309addc89ae63523"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "status": "PASS",
+      "sha256": "49f7f2dd96bb2decddf0997c7319712e7565eb2e5d42bb446be23f9d2b3dffe8"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/blood%20and%20abg%20prep%20sheet.pdf.txt",
+      "status": "PASS",
+      "sha256": "2c05bc4b07cc421e9acc0dcdf27a95a17c323ca44f70f1e1de38f950647e66d1"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs%20copy.pptx.txt",
+      "status": "PASS",
+      "sha256": "d00350db2df94821683f389524d84e878ed0534be30d0ff4e45c35cd1da9a17c"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "status": "PASS",
+      "sha256": "a2d802fe6c44a3efd96cc38e9676dc71186455bcd1502958fa337516bb2b4c5a"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/calcium%20fundies%20transcript.docx.txt",
+      "status": "PASS",
+      "sha256": "3040f19966e6290bf41923690d1efd9bb1cff501ed4740aa27e9f40057d87287"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/dosage%20calc%203%20transcript.docx.txt",
+      "status": "PASS",
+      "sha256": "32c8131c5a7d5b58a6fc6e14530791743347b9e33128de2fe70d92f8a2e34fd6"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/electrolyte%20and%20fluid%20imbalance%20prep%20sheet.pdf.txt",
+      "status": "PASS",
+      "sha256": "45b6762a30fa1c08bb167afab437c13f6ccbc6517f82850bf7a1d38801202a2a"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/elimination%20prep%20sheet.pdf.txt",
+      "status": "PASS",
+      "sha256": "c6f3883dec020bd3c942f03b623eaf659ea37b03c816c27a889add1837fc4ddc"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/enteral%20vs%20parentarel%20nutrition%20transcript.docx.txt",
+      "status": "PASS",
+      "sha256": "f6de4348d4fedf2928702443c7ad21e23f6f277030e0b33d20f6cc255a8b935f"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/mg%20fundies%20transcript.docx.txt",
+      "status": "PASS",
+      "sha256": "d1e8ad3913419f72c563351b1ab1547b134ab4e947d5d198fc08a95a76033a6b"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam%203/Text/nutrition%20prep%20sheet.pdf.txt",
+      "status": "PASS",
+      "sha256": "ca0e7399259369890917edf0907a62441098aa04755a2ddd01af7b6c4df58cfd"
+    }
+  ],
+  "browserChecks": [
+    "Full blueprint started at Question 1 of 50",
+    "MCQ selection did not show correctness until explicit Submit; feedback locked inputs",
+    "Blood Transfusions plus Nutrition displayed 70 eligible; restricting to Transfusion reactions and Parenteral nutrition displayed 20",
+    "Incomplete SATA set graded Incorrect; score remained 0 of 1; full review was read-only",
+    "One-question numeric volume attempt accepted 4 mL and graded Correct with calculation",
+    "In-page text reference opened",
+    "Fundamentals home card first with 300-question label; Exam 3 expanded and Exam 2 collapsed",
+    "320px and 390px real-app frames displayed all seven categories; Electrolytes had 50 eligible; document scrollWidth equaled clientWidth at 305/375 due to scrollbar"
+  ],
+  "publication": "Development only; main unchanged"
+}
