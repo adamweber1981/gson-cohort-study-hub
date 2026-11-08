@@ -27,3 +27,8 @@ See [source inventory](../../../../assets/question-banks/audits/fundamentals-exa
 - [enteral vs parentarel nutrition transcript.docx](Text/enteral%20vs%20parentarel%20nutrition%20transcript.docx.txt)
 - [mg fundies transcript.docx](Text/mg%20fundies%20transcript.docx.txt)
 - [nutrition prep sheet.pdf](Text/nutrition%20prep%20sheet.pdf.txt)
+
+
+## Concept Mastery report
+
+The additional uploaded performance report is used only to identify competencies and the Impaired Speech review topic. It does not supply actual exam questions. Its original file and individual results are not published. See the [de-identified competency map](Text/Concept%20Mastery%20competency%20map.txt). Forty original report-aligned questions cite supporting term sensory/oxygenation lessons and Exam 3 teaching sources. The ten provisional Concept Mastery items were retired.

@@ -1,5 +1,15 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-11-08 — Development: report-aligned Concept Mastery
+
+- Replaced ten provisional Concept Mastery questions with 40 original questions aligned to the uploaded term competency report; bank now has 330 questions across 33 subtopics.
+- Added four selectable Concept Mastery domains with ten questions each, including impaired speech. Standard mode still draws exactly two Concept Mastery questions from the combined pool.
+- Added optional custom-only subtopic metadata so filtering does not invent full-exam domain weights. Existing banks retain prior selection behavior.
+- Published a de-identified competency map, not the personal performance report. Added clinical source citations, retirement audit, regression and privacy checks, and updated source documentation.
+- Validation passed: 290 other questions unchanged, 1,248 grading checks, 100 full assemblies, 100 legacy selection comparisons, and all 30 dosage checks.
+- Development only; main remains unchanged.
+
+
 ## 2026-11-08 — Development: Fundamentals Exam 3
 
 - Added 300 source-mapped questions across the blueprint's seven categories and 30 selectable subtopics, 10 questions per subtopic.

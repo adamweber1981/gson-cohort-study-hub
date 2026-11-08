@@ -28,7 +28,7 @@ function showIntro(){
   const section=document.createElement("fieldset");section.className="practice-group";
   const label=document.createElement("label");label.className="practice-group-label";const toggle=document.createElement("input");toggle.type="checkbox";label.append(toggle,document.createTextNode(" "+groupName));section.append(label);
   const children=document.createElement("div");children.className="practice-subtopics";children.hidden=true;section.append(children);
-  for(const topic of topics){const subs=Object.keys(bp.subtopics?.[topic]||{});const choices=subs.length?subs:[null];if(subs.length&&engine.bank.questions.some(q=>q.approved===true&&q.topic===topic&&q.subtopic==null))choices.push(null);
+  for(const topic of topics){const subs=Object.keys(bp.selectionSubtopics?.[topic]||bp.subtopics?.[topic]||{});const choices=subs.length?subs:[null];if(subs.length&&engine.bank.questions.some(q=>q.approved===true&&q.topic===topic&&q.subtopic==null))choices.push(null);
    for(const subtopic of choices){const choice=document.createElement("label");choice.className="practice-choice";const input=document.createElement("input");input.type="checkbox";input.checked=true;const name=subtopic===null?(subs.length?"Other questions in "+topic:topic):subtopic;choice.append(input,document.createTextNode(" "+name));children.append(choice);entries.push({toggle,input,topic,subtopic,whole:subs.length===0});input.addEventListener("change",updateCount)}
   }
   toggle.addEventListener("change",()=>{children.hidden=!toggle.checked;updateCount()});groups.append(section)

@@ -1571,7 +1571,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
       },
       "locator": "slide 8",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0132",
@@ -1583,7 +1583,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
       },
       "locator": "slide 8",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0133",
@@ -1595,7 +1595,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
       },
       "locator": "slides 11–12 and 23–24",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0134",
@@ -1607,7 +1607,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
       },
       "locator": "slides 9–13",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0135",
@@ -1619,7 +1619,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
       },
       "locator": "slides 15–16 and 30–31",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0136",
@@ -1631,7 +1631,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
       },
       "locator": "teaching slides 16–17",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0137",
@@ -1643,7 +1643,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
       },
       "locator": "slide 8",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0138",
@@ -1655,7 +1655,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
       },
       "locator": "slides 29 and 32",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0139",
@@ -1667,7 +1667,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
       },
       "locator": "slide 8",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0140",
@@ -1679,7 +1679,7 @@
         "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
       },
       "locator": "teaching slides 17, 21 and 23",
-      "decision": "ACCEPT_COURSE_ALIGNED"
+      "decision": "RETIRED_SUPERSEDED_BY_REPORT_ALIGNED_QUESTIONS"
     },
     {
       "id": "fund-e3-0141",
@@ -3600,12 +3600,882 @@
       },
       "locator": "teaching slide 27",
       "decision": "ACCEPT_COURSE_ALIGNED"
+    },
+    {
+      "id": "fund-e3-cm-001",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 12–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 12
+      },
+      "locator": "PDF pages 12–16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-002",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 14",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "locator": "PDF page 14",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-003",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 15",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 15
+      },
+      "locator": "PDF page 15",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-004",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 15",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 15
+      },
+      "locator": "PDF page 15",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-005",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 16
+      },
+      "locator": "PDF page 16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-006",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 14–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "locator": "PDF pages 14–16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-007",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 14–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "locator": "PDF pages 14–16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-008",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 12–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 12
+      },
+      "locator": "PDF pages 12–16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-009",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 14",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "locator": "PDF page 14",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-010",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 12–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 12
+      },
+      "locator": "PDF pages 12–16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-011",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "locator": "PDF page 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-012",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "locator": "PDF page 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-013",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 13",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 13
+      },
+      "locator": "PDF page 13",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-014",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 5–6",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 5
+      },
+      "locator": "PDF pages 5–6",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-015",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 3–4",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 3
+      },
+      "locator": "PDF pages 3–4",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-016",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "locator": "PDF page 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-017",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 5, 13 and 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 5
+      },
+      "locator": "PDF pages 5, 13 and 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-018",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "locator": "PDF page 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-019",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 13 and 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 13
+      },
+      "locator": "PDF pages 13 and 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-020",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 5, 13 and 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 5
+      },
+      "locator": "PDF pages 5, 13 and 18",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-021",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 20–21 and elimination prep sheet",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "locator": "teaching slides 20–21 and elimination prep sheet",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-022",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 20–21 and elimination prep sheet",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "locator": "teaching slides 20–21 and elimination prep sheet",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-023",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Fundys med math 3 with answers.pptx — slide 8",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
+      },
+      "locator": "slide 8",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-024",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 29 and 32",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "locator": "slides 29 and 32",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-025",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 9–12",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 9–12",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-026",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 10–11",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "locator": "teaching slides 10–11",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-027",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 20–21 and elimination prep sheet",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "locator": "teaching slides 20–21 and elimination prep sheet",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-028",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Fundys med math 3 with answers.pptx — slide 8",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
+      },
+      "locator": "slide 8",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-029",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 10–11",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "locator": "teaching slides 10–11",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-030",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 9–14",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 9–14",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-031",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5, 9–12 and 16",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 5, 9–12 and 16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-032",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5, 9–12 and 16",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 5, 9–12 and 16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-033",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5, 9–12 and 16",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 5, 9–12 and 16",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-034",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 3 and 9",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "locator": "teaching slides 3 and 9",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-035",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 36–42",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "locator": "slides 36–42",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-036",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Nutrition updated.pptx — slide 6",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slide 6",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-037",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5–12",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 5–12",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-038",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 36–42",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "locator": "slides 36–42",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-039",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 36–42",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "locator": "slides 36–42",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-040",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5–12",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "locator": "slides 5–12",
+      "decision": "ACCEPT_COURSE_ALIGNED",
+      "scope": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
     }
   ],
   "sourceIssues": [
     "Several slide notes contain answer letters inconsistent with the visible questions and neighboring notes. These letters were not used as answer keys.",
     "Course slides include broad or simplified clinical statements. Questions omit non-rebreather CO2 rebreathing, automatic intubation by a CO2 cutoff alone, a universal peripheral potassium rate, blanket renal protein limits, and unqualified hypoxic-drive explanations.",
-    "Concept Mastery definition and unnumbered subtopic allocations are implementation assumptions recorded in the blueprint."
+    "Concept Mastery scope is now supplied by a term performance report. It has no original question text; new items are authored against its competencies and clinically supported by named course lessons."
   ],
   "deduplication": "Exact normalized stems and within-item choices checked automatically; repeated concepts are intentionally tested through multiple approaches. No claim of exhaustive semantic uniqueness."
 }

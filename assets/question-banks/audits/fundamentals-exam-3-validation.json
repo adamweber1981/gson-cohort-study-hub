@@ -1,8 +1,8 @@
 {
   "bank": "fundamentals-exam-3-standard",
-  "count": 300,
+  "count": 330,
   "categories": 7,
-  "subtopics": 30,
+  "subtopics": 33,
   "coverage": {
     "Blood Transfusions": {
       "Blood types and testing": 10,
@@ -25,9 +25,6 @@
       "Individual doses": 10,
       "Volume from concentration": 10
     },
-    "Concept Mastery": {
-      "Integrated clinical judgment": 10
-    },
     "Electrolytes": {
       "Sodium imbalances": 10,
       "Potassium imbalances": 10,
@@ -47,18 +44,24 @@
       "Ostomies and stoma": 10,
       "Bowel interventions": 10,
       "Bowel diagnostics": 10
+    },
+    "Concept Mastery": {
+      "Impaired speech and communication": 10,
+      "Oxygenation and physiological adaptation": 10,
+      "Safety and infection prevention": 10,
+      "Person-centered care and clinical judgment": 10
     }
   },
   "types": {
-    "mcq": 162,
-    "sata": 54,
-    "truefalse": 27,
-    "matching": 27,
+    "mcq": 180,
+    "sata": 60,
+    "truefalse": 30,
+    "matching": 30,
     "dosage": 30
   },
   "blueprintAssemblies": 100,
-  "gradingChecks": 1134,
-  "customPoolsChecked": 30,
+  "gradingChecks": 1248,
+  "customPoolsChecked": 33,
   "crossCategoryPool": 30,
   "checks": [
     "unique IDs and normalized stems",

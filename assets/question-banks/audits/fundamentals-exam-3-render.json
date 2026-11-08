@@ -113,5 +113,6 @@
     "Fundamentals home card first with 300-question label; Exam 3 expanded and Exam 2 collapsed",
     "320px and 390px real-app frames displayed all seven categories; Electrolytes had 50 eligible; document scrollWidth equaled clientWidth at 305/375 due to scrollbar"
   ],
-  "publication": "Development only; main unchanged"
+  "publication": "Development only; main unchanged",
+  "historicalVersion": "Initial 300-question preview; superseded by the Concept Mastery expansion"
 }

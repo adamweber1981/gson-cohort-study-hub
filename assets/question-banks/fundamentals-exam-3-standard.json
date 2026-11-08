@@ -2,7 +2,7 @@
   "id": "fundamentals-exam-3-standard",
   "course": "Fundamentals of Nursing",
   "examNumber": "Exam 3",
-  "practiceName": "Exam 3 — 300-question practice bank",
+  "practiceName": "Exam 3 — 330-question practice bank",
   "blueprint": {
     "id": "fundamentals-exam-3-standard",
     "course": "Fundamentals of Nursing",
@@ -38,9 +38,6 @@
         "Weight-based daily totals": 3,
         "Individual doses": 2,
         "Volume from concentration": 2
-      },
-      "Concept Mastery": {
-        "Integrated clinical judgment": 2
       },
       "Electrolytes": {
         "Sodium imbalances": 2,
@@ -86,10 +83,18 @@
         "Main-topic counts and explicitly numbered subtopics follow the supplied blueprint. Remaining unit slots are allocated across its listed unnumbered subtopics.",
         "Nutrition: the two enteral/parenteral slots are split one each; diets and dysphagia receive one each.",
         "Dosage subtopic distribution 3/2/2 is an implementation study allocation, not additional instructor weighting. All seven dosage slots use numeric entry.",
-        "Concept Mastery is undefined in the blueprint. The two slots use integrated judgment and medication-safety concepts already covered by these materials.",
         "Question-type ranges are practice-format design choices, not instructor-specified counts.",
-        "C. diff questions are independent vignettes; five are drawn per full exam."
+        "C. diff questions are independent vignettes; five are drawn per full exam.",
+        "Concept Mastery uses the uploaded term report for competency scope and course lessons for clinical support. Two questions are sampled from all four domains without report-derived subtopic quotas. selectionSubtopics is display/filter metadata, not full-exam allocation."
       ]
+    },
+    "selectionSubtopics": {
+      "Concept Mastery": {
+        "Impaired speech and communication": true,
+        "Oxygenation and physiological adaptation": true,
+        "Safety and infection prevention": true,
+        "Person-centered care and clinical judgment": true
+      }
     }
   },
   "referenceIndex": "https://github.com/adamweber1981/gson-cohort-study-hub/tree/pwa-redesign/References/Fundamentals/Exams/Exam%203",
@@ -188,6 +193,21 @@
       "name": "nutrition prep sheet.pdf — text companion",
       "path": "References/Fundamentals/Exams/Exam%203/Text/nutrition%20prep%20sheet.pdf.txt",
       "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/nutrition%20prep%20sheet.pdf.txt"
+    },
+    {
+      "name": "Concept Mastery report — de-identified competency map",
+      "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt"
+    },
+    {
+      "name": "fundies sensory.pdf — Concept Mastery clinical support",
+      "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf"
+    },
+    {
+      "name": "fundies gas exchange.pdf — Concept Mastery clinical support",
+      "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf"
     }
   ],
   "questions": [
@@ -4542,376 +4562,6 @@
       "tolerance": 0,
       "units": "mL",
       "instructions": "Enter the number only; follow the rounding stated in the question."
-    },
-    {
-      "id": "fund-e3-0131",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "mcq",
-      "stem": "An otherwise complete medication prescription lacks a route. Which action best applies medication safety?",
-      "rationale": "A complete prescription includes route. A correct calculation cannot compensate for a missing administration instruction.",
-      "source": {
-        "name": "Fundys med math 3 with answers.pptx — slide 8",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slide 8",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Clarify the route before administering the medication."
-        },
-        {
-          "id": "o1",
-          "text": "Choose the route used for the client’s last medication."
-        },
-        {
-          "id": "o2",
-          "text": "Use the route listed first on the package."
-        },
-        {
-          "id": "o3",
-          "text": "Administer the calculated amount while requesting clarification."
-        }
-      ],
-      "correct": "o0"
-    },
-    {
-      "id": "fund-e3-0132",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "mcq",
-      "stem": "A prescription uses an abbreviation that could mean discharge or discontinue. What should the nurse do?",
-      "rationale": "The lesson identifies ambiguous abbreviations as requiring clarification. Context does not guarantee the intended meaning.",
-      "source": {
-        "name": "Fundys med math 3 with answers.pptx — slide 8",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slide 8",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Clarify the intended instruction before acting on it."
-        },
-        {
-          "id": "o1",
-          "text": "Interpret it as the meaning most common on the unit."
-        },
-        {
-          "id": "o2",
-          "text": "Ask the client to decide which meaning was intended."
-        },
-        {
-          "id": "o3",
-          "text": "Use the medication package to determine the prescriber’s intent."
-        }
-      ],
-      "correct": "o0"
-    },
-    {
-      "id": "fund-e3-0133",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "mcq",
-      "stem": "Which client requires assessment first?",
-      "rationale": "Hyperkalemia with ECG changes poses an immediate dysrhythmia risk. Prioritization integrates the value with current symptoms.",
-      "source": {
-        "name": "Fluid_Electrolytes.pptx — slides 11–12 and 23–24",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slides 11–12 and 23–24",
-      "options": [
-        {
-          "id": "o0",
-          "text": "A client with potassium 6.7 mEq/L and new peaked T waves"
-        },
-        {
-          "id": "o1",
-          "text": "A client with calcium 11 mg/dL reporting chronic constipation"
-        },
-        {
-          "id": "o2",
-          "text": "A client with sodium 132 mEq/L who is alert and mildly tired"
-        },
-        {
-          "id": "o3",
-          "text": "A client with potassium 3.4 mEq/L reporting unchanged leg cramps"
-        }
-      ],
-      "correct": "o0"
-    },
-    {
-      "id": "fund-e3-0134",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "mcq",
-      "stem": "An assistant reports that a client’s voice sounds wet after drinking. What is the best nursing response?",
-      "rationale": "New swallowing-related cues require nursing assessment and a safe prescribed plan. Do not simply continue intake.",
-      "source": {
-        "name": "Nutrition updated.pptx — slides 9–13",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slides 9–13",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Assess swallowing and airway safety before further intake."
-        },
-        {
-          "id": "o1",
-          "text": "Ask the assistant to repeat the drink with a smaller cup."
-        },
-        {
-          "id": "o2",
-          "text": "Document the change after the next scheduled meal."
-        },
-        {
-          "id": "o3",
-          "text": "Switch to a new liquid consistency without an order."
-        }
-      ],
-      "correct": "o0"
-    },
-    {
-      "id": "fund-e3-0135",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "mcq",
-      "stem": "A client’s potassium remains low despite replacement. Magnesium is also low. What should the nurse discuss with the provider?",
-      "rationale": "Low magnesium can make potassium deficiency difficult to correct. Treating related deficits supports an effective plan.",
-      "source": {
-        "name": "Fluid_Electrolytes.pptx — slides 15–16 and 30–31",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slides 15–16 and 30–31",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Correcting the magnesium deficit along with potassium"
-        },
-        {
-          "id": "o1",
-          "text": "Stopping magnesium monitoring once potassium is ordered"
-        },
-        {
-          "id": "o2",
-          "text": "Treating the potassium value as a lab error without assessment"
-        },
-        {
-          "id": "o3",
-          "text": "Restricting all magnesium-containing foods"
-        }
-      ],
-      "correct": "o0"
-    },
-    {
-      "id": "fund-e3-0136",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "mcq",
-      "stem": "A client with long-standing constipation now has distention, vomiting, and small liquid stool leaks. What is the best interpretation?",
-      "rationale": "Stool can pass around an impaction or partial obstruction. The concerning symptom cluster requires assessment and prompt evaluation.",
-      "source": {
-        "name": "Elimination copy-2.pdf — teaching slides 16–17",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "teaching slides 16–17",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Liquid leakage does not rule out impaction or obstruction."
-        },
-        {
-          "id": "o1",
-          "text": "Any liquid stool proves that the bowel is unobstructed."
-        },
-        {
-          "id": "o2",
-          "text": "The diarrhea should be treated before considering a blockage."
-        },
-        {
-          "id": "o3",
-          "text": "The findings establish normal recovery from constipation."
-        }
-      ],
-      "correct": "o0"
-    },
-    {
-      "id": "fund-e3-0137",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "sata",
-      "stem": "Which missing prescription elements need clarification before medication administration? Select all that apply.",
-      "rationale": "A complete order includes dose, route, and administration instructions. Nonclinical preferences do not resolve missing order elements.",
-      "source": {
-        "name": "Fundys med math 3 with answers.pptx — slide 8",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slide 8",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Medication dose"
-        },
-        {
-          "id": "o1",
-          "text": "Route of administration"
-        },
-        {
-          "id": "o2",
-          "text": "Frequency when repeated dosing is intended"
-        },
-        {
-          "id": "o3",
-          "text": "The color of the client’s preferred cup"
-        },
-        {
-          "id": "o4",
-          "text": "The manufacturer’s advertising slogan"
-        }
-      ],
-      "correct": [
-        "o0",
-        "o1",
-        "o2"
-      ]
-    },
-    {
-      "id": "fund-e3-0138",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "sata",
-      "stem": "During an IV magnesium infusion, which changes require prompt evaluation? Select all that apply.",
-      "rationale": "These changes suggest magnesium toxicity or excessive effect and require assessment and escalation.",
-      "source": {
-        "name": "Fluid_Electrolytes.pptx — slides 29 and 32",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slides 29 and 32",
-      "options": [
-        {
-          "id": "o0",
-          "text": "Newly absent deep tendon reflexes"
-        },
-        {
-          "id": "o1",
-          "text": "Slowing respirations"
-        },
-        {
-          "id": "o2",
-          "text": "Increasing sedation"
-        },
-        {
-          "id": "o3",
-          "text": "A stable respiratory assessment"
-        },
-        {
-          "id": "o4",
-          "text": "Unchanged baseline reflexes"
-        }
-      ],
-      "correct": [
-        "o0",
-        "o1",
-        "o2"
-      ]
-    },
-    {
-      "id": "fund-e3-0139",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "truefalse",
-      "stem": "A mathematically correct volume is sufficient to administer a medication when the prescription’s route remains unclear.",
-      "rationale": "Calculation is only one safety step. The nurse needs a complete, unambiguous prescription.",
-      "source": {
-        "name": "Fundys med math 3 with answers.pptx — slide 8",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "slide 8",
-      "options": [
-        {
-          "id": "true",
-          "text": "True"
-        },
-        {
-          "id": "false",
-          "text": "False"
-        }
-      ],
-      "correct": "false"
-    },
-    {
-      "id": "fund-e3-0140",
-      "topic": "Concept Mastery",
-      "subtopic": "Integrated clinical judgment",
-      "type": "matching",
-      "stem": "Match each elimination assessment finding with its main safety concern.",
-      "rationale": "Assessment findings need to be connected to likely hazards so the nurse can prioritize follow-up.",
-      "source": {
-        "name": "Elimination copy-2.pdf — teaching slides 17, 21 and 23",
-        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
-        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
-      },
-      "approved": true,
-      "auditStatus": "SOURCE_MAPPED_AUTHOR_REVIEW",
-      "sourceLocator": "teaching slides 17, 21 and 23",
-      "pairs": [
-        {
-          "id": "p0",
-          "prompt": "Blue stoma",
-          "correct": "t0"
-        },
-        {
-          "id": "p1",
-          "prompt": "Profuse diarrhea with falling urine output",
-          "correct": "t1"
-        },
-        {
-          "id": "p2",
-          "prompt": "Distention and vomiting with minimal stool",
-          "correct": "t2"
-        }
-      ],
-      "targets": [
-        {
-          "id": "t0",
-          "text": "Poor perfusion"
-        },
-        {
-          "id": "t1",
-          "text": "Dehydration"
-        },
-        {
-          "id": "t2",
-          "text": "Possible obstruction"
-        }
-      ]
     },
     {
       "id": "fund-e3-0141",
@@ -10978,6 +10628,1885 @@
           "text": "GI series"
         }
       ]
+    },
+    {
+      "id": "fund-e3-cm-001",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "mcq",
+      "stem": "A client follows instructions accurately but struggles to say which meal is preferred. What should the nurse avoid concluding from the speech difficulty alone?",
+      "rationale": "Expressive language difficulty can occur with preserved comprehension. Assess understanding separately and support the client’s participation.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 12–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 12–16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "That the client cannot understand or make a choice"
+        },
+        {
+          "id": "o1",
+          "text": "That an alternate way to express a choice may help"
+        },
+        {
+          "id": "o2",
+          "text": "That additional response time may be needed"
+        },
+        {
+          "id": "o3",
+          "text": "That communication strategies should be individualized"
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-002",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "mcq",
+      "stem": "A client with expressive aphasia becomes frustrated during a discharge discussion. Which response best supports participation?",
+      "rationale": "Boards, yes/no questions, and patience can support expression. Speaking for the client can reduce dignity and participation.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 14",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 14",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Offer a picture or letter board and allow time for a response."
+        },
+        {
+          "id": "o1",
+          "text": "Finish each sentence quickly to reduce the length of the visit."
+        },
+        {
+          "id": "o2",
+          "text": "Repeat the entire discussion much louder."
+        },
+        {
+          "id": "o3",
+          "text": "Direct all questions to the visitor instead of the client."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-003",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "mcq",
+      "stem": "A client speaks fluently but does not follow a short instruction and uses words that do not fit the question. Which assessment focus is most important?",
+      "rationale": "Fluent speech may occur with receptive aphasia. Assess comprehension rather than equating fluency with understanding.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 15",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 15
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 15",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Whether the client understands the spoken message"
+        },
+        {
+          "id": "o1",
+          "text": "How quickly the nurse can obtain a longer verbal answer"
+        },
+        {
+          "id": "o2",
+          "text": "Whether fluent speech proves intact language comprehension"
+        },
+        {
+          "id": "o3",
+          "text": "Whether the client’s voice is loud enough"
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-004",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "mcq",
+      "stem": "The nurse is explaining hygiene to a client with receptive aphasia. Which approach is most useful?",
+      "rationale": "Short statements, gestures, and demonstration can reduce the language-processing demand. Reassurance alone may not be understood.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 15",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 15
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 15",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use a short message with a gesture or demonstration."
+        },
+        {
+          "id": "o1",
+          "text": "Give all steps rapidly in one detailed paragraph."
+        },
+        {
+          "id": "o2",
+          "text": "Use medical terminology so the instruction is more exact."
+        },
+        {
+          "id": "o3",
+          "text": "Rely on repeated verbal reassurance without checking comprehension."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-005",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "mcq",
+      "stem": "A client with severe impairment of both expression and comprehension repeats one word during every question. Which plan best fits this pattern?",
+      "rationale": "Global aphasia can affect both expression and comprehension. Repeated words do not establish a reliable answer.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 16
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use individualized nonverbal tools in a calm environment with consistent caregivers."
+        },
+        {
+          "id": "o1",
+          "text": "Treat every repetition as a reliable yes response."
+        },
+        {
+          "id": "o2",
+          "text": "Ask increasingly complex questions until speech becomes fluent."
+        },
+        {
+          "id": "o3",
+          "text": "Remove all communication tools because speech is limited."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-006",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "mcq",
+      "stem": "One nurse discovers that a client reliably points to pictures to express basic needs. What is the best handoff action?",
+      "rationale": "Documenting and sharing effective strategies maintains continuity and avoids making the client re-establish a communication method.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 14–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 14–16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Describe the successful picture-based method and how responses were verified."
+        },
+        {
+          "id": "o1",
+          "text": "Report only that the client is unable to communicate."
+        },
+        {
+          "id": "o2",
+          "text": "Ask each shift to develop a new system independently."
+        },
+        {
+          "id": "o3",
+          "text": "Document the client as confused solely because words are limited."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-007",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "sata",
+      "stem": "Which practices support communication with a client who has aphasia? Select all that apply.",
+      "rationale": "The source emphasizes individualized communication, speech-therapy involvement, and separating language difficulty from cognition.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 14–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 14–16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Involve speech therapy early."
+        },
+        {
+          "id": "o1",
+          "text": "Allow adequate response time."
+        },
+        {
+          "id": "o2",
+          "text": "Document which strategies work for that individual."
+        },
+        {
+          "id": "o3",
+          "text": "Shout whenever a spoken reply is delayed."
+        },
+        {
+          "id": "o4",
+          "text": "Assume limited speech proves impaired cognition."
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-008",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "sata",
+      "stem": "Which observations help the nurse distinguish a language problem’s effects? Select all that apply.",
+      "rationale": "Comprehension and expression can be affected differently. Assess both using methods accessible to the client.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 12–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 12–16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ability to follow a short instruction"
+        },
+        {
+          "id": "o1",
+          "text": "Ability to express a need through words or a board"
+        },
+        {
+          "id": "o2",
+          "text": "Whether fluent speech has understandable meaning"
+        },
+        {
+          "id": "o3",
+          "text": "Number of words spoken as the sole measure of comprehension"
+        },
+        {
+          "id": "o4",
+          "text": "A family member’s assumption as a substitute for assessing the client"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-009",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "truefalse",
+      "stem": "A client who cannot produce fluent speech may still understand a conversation.",
+      "rationale": "Expressive aphasia may limit speech production while comprehension is relatively preserved.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF page 14",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 14",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-010",
+      "topic": "Concept Mastery",
+      "subtopic": "Impaired speech and communication",
+      "type": "matching",
+      "stem": "Match the language assessment pattern with its best description.",
+      "rationale": "Assess expression and comprehension separately; a speech pattern alone does not establish general cognitive ability.",
+      "source": {
+        "name": "fundies sensory.pdf — PDF pages 12–16",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 12–16",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Understands the message but has halting effortful speech",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Fluent speech with impaired understanding",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Severely impaired expression and comprehension",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Expressive aphasia"
+        },
+        {
+          "id": "t1",
+          "text": "Receptive aphasia"
+        },
+        {
+          "id": "t2",
+          "text": "Global aphasia"
+        }
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-011",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "mcq",
+      "stem": "A client says the incentive spirometer is “just a breathing toy.” Which explanation best links its use to the care goal?",
+      "rationale": "The incentive spirometer promotes deep breathing and gives feedback on inspiratory volume. It does not itself deliver oxygen or suction secretions.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 18",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It encourages deep inspiration and helps prevent atelectasis."
+        },
+        {
+          "id": "o1",
+          "text": "It delivers an exact prescribed oxygen concentration."
+        },
+        {
+          "id": "o2",
+          "text": "It removes secretions directly through suction."
+        },
+        {
+          "id": "o3",
+          "text": "It measures how much urine the kidneys produce."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-012",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "mcq",
+      "stem": "After teaching incentive spirometry, which evaluation provides the strongest evidence that the client can perform the skill?",
+      "rationale": "The source calls for return demonstration. Providing information is not the same as confirming skill performance.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 18",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Observe a return demonstration and correct the technique as needed."
+        },
+        {
+          "id": "o1",
+          "text": "Ask only whether the client has seen the device before."
+        },
+        {
+          "id": "o2",
+          "text": "Record that the handout was placed on the bedside table."
+        },
+        {
+          "id": "o3",
+          "text": "Assume understanding because the client nodded during teaching."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-013",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "mcq",
+      "stem": "A precise inspired oxygen concentration is prescribed. Which device characteristic matters most when selecting the system?",
+      "rationale": "The source describes the Venturi mask as a fixed-concentration device. Use the correct prescribed setup rather than assuming all masks deliver the same concentration.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 13",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 13",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A fixed-concentration delivery system such as a Venturi mask"
+        },
+        {
+          "id": "o1",
+          "text": "A reservoir bag as the sole assurance of a precise concentration"
+        },
+        {
+          "id": "o2",
+          "text": "The smallest tubing diameter available"
+        },
+        {
+          "id": "o3",
+          "text": "The client’s ability to choose any unprescribed flow setting"
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-014",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "mcq",
+      "stem": "A nurse receives a drowsy client after a respiratory-depressant medication. Why should shallow slow breathing trigger prompt assessment?",
+      "rationale": "Hypoventilation can retain CO2 and lead to acidosis. Medication history and respiratory effort must be evaluated together.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 5–6",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 5–6",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inadequate ventilation can retain CO2 and lower blood pH."
+        },
+        {
+          "id": "o1",
+          "text": "Low respiratory rate always improves oxygen exchange."
+        },
+        {
+          "id": "o2",
+          "text": "CO2 falls whenever a sedative is administered."
+        },
+        {
+          "id": "o3",
+          "text": "A normal-looking skin color rules out inadequate ventilation."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-015",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "mcq",
+      "stem": "A client’s breathing becomes rapid during an anxiety episode. Which explanation connects ventilation to the possible ABG change?",
+      "rationale": "Hyperventilation can decrease PaCO2 and produce alkalosis. Assess the cause rather than assuming all rapid breathing is anxiety.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 3–4",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 3–4",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased CO2 exhalation can lower blood CO2 and raise pH."
+        },
+        {
+          "id": "o1",
+          "text": "Rapid breathing necessarily increases bicarbonate loss through urine."
+        },
+        {
+          "id": "o2",
+          "text": "The blood pH cannot change until body temperature changes."
+        },
+        {
+          "id": "o3",
+          "text": "Extra CO2 is retained whenever breathing becomes rapid."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-016",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "mcq",
+      "stem": "A nurse explains the incentive-spirometry goal but finds that the client cannot reproduce the technique. What is the best next step?",
+      "rationale": "Clinical evaluation uses the client’s response to adjust care. The source requires teaching and return demonstration, not device availability alone.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 18",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reassess the barrier and adapt teaching, then observe another attempt."
+        },
+        {
+          "id": "o1",
+          "text": "Mark the goal achieved because the explanation was completed."
+        },
+        {
+          "id": "o2",
+          "text": "Replace the demonstration with an unrelated written quiz."
+        },
+        {
+          "id": "o3",
+          "text": "Stop evaluating because the equipment is already at the bedside."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-017",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "sata",
+      "stem": "Which actions connect oxygenation care with clinical judgment? Select all that apply.",
+      "rationale": "Assessment, appropriate device selection, and evaluation of performance connect knowledge to safe action.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 5, 13 and 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 5, 13 and 18",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Assess breathing depth and rate after respiratory-depressant medication."
+        },
+        {
+          "id": "o1",
+          "text": "Confirm that the selected device meets the prescribed delivery goal."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate the client’s breathing-skill demonstration."
+        },
+        {
+          "id": "o3",
+          "text": "Use one mask interchangeably for all concentration prescriptions."
+        },
+        {
+          "id": "o4",
+          "text": "Treat a delivered handout as proof of correct technique."
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-018",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "sata",
+      "stem": "Which outcomes or observations are relevant when evaluating an incentive-spirometry plan? Select all that apply.",
+      "rationale": "Evaluate both performance and respiratory response. Equipment placement or one unrelated measurement is insufficient.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF page 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 18
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF page 18",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The client demonstrates the taught technique."
+        },
+        {
+          "id": "o1",
+          "text": "The client understands the deep-breathing purpose."
+        },
+        {
+          "id": "o2",
+          "text": "The nurse reassesses respiratory findings over time."
+        },
+        {
+          "id": "o3",
+          "text": "The device remains unopened but within reach."
+        },
+        {
+          "id": "o4",
+          "text": "The client’s pulse alone proves correct device use."
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-019",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "truefalse",
+      "stem": "A Venturi mask and an incentive spirometer serve the same purpose because both are used in respiratory care.",
+      "rationale": "A Venturi mask delivers a prescribed fixed oxygen concentration; an incentive spirometer supports deep breathing practice.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 13 and 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 13 and 18",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "false",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-020",
+      "topic": "Concept Mastery",
+      "subtopic": "Oxygenation and physiological adaptation",
+      "type": "matching",
+      "stem": "Match the respiratory-care observation or tool with its meaning.",
+      "rationale": "Different respiratory tools and findings require different assessments and interventions.",
+      "source": {
+        "name": "fundies gas exchange.pdf — PDF pages 5, 13 and 18",
+        "path": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "PDF pages 5, 13 and 18",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Shallow slow breathing after sedating medication",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Venturi mask",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Incentive spirometer",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Possible hypoventilation and CO2 retention"
+        },
+        {
+          "id": "t1",
+          "text": "Fixed-concentration oxygen delivery"
+        },
+        {
+          "id": "t2",
+          "text": "Feedback supporting deep inspiration"
+        }
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          3,
+          4
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-021",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "mcq",
+      "stem": "A float nurse joins the care of a client with suspected infectious diarrhea. What should the primary nurse communicate before shared care begins?",
+      "rationale": "Report-aligned safety includes coordinating care to reduce avoidable exposure. The course specifies contact precautions for suspected C. diff.",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 20–21 and elimination prep sheet",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "teaching slides 20–21 and elimination prep sheet",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The required precautions and the plan for safe specimen and hygiene care"
+        },
+        {
+          "id": "o1",
+          "text": "Only the number of stools from the previous shift"
+        },
+        {
+          "id": "o2",
+          "text": "That precautions are unnecessary until the client feels ill"
+        },
+        {
+          "id": "o3",
+          "text": "The client’s room number without the infection-control needs"
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-022",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "mcq",
+      "stem": "A client with suspected C. diff must receive prompt care while the stool test is pending. Which plan best balances care and prevention?",
+      "rationale": "Precautions accompany timely care; they do not replace assessment or require withholding needed assistance.",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 20–21 and elimination prep sheet",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "teaching slides 20–21 and elimination prep sheet",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Provide necessary care while using the indicated contact precautions."
+        },
+        {
+          "id": "o1",
+          "text": "Postpone all care until the laboratory identifies the organism."
+        },
+        {
+          "id": "o2",
+          "text": "Use no precautions because the diagnosis is not yet confirmed."
+        },
+        {
+          "id": "o3",
+          "text": "Isolate the client from all clinical assessment until diarrhea stops."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-023",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "mcq",
+      "stem": "A nurse calculates the correct dose but notices that two parts of the prescription give different frequencies. What is the safest action?",
+      "rationale": "A safe medication decision needs an unambiguous order as well as correct arithmetic.",
+      "source": {
+        "name": "Fundys med math 3 with answers.pptx — slide 8",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slide 8",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Clarify the conflicting instructions before giving the dose."
+        },
+        {
+          "id": "o1",
+          "text": "Use whichever frequency produces the smallest volume."
+        },
+        {
+          "id": "o2",
+          "text": "Choose the frequency from a different client’s order."
+        },
+        {
+          "id": "o3",
+          "text": "Administer now because correct arithmetic resolves the conflict."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-024",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "mcq",
+      "stem": "A second nurse is asked to verify a high-alert IV magnesium preparation. Which task best reflects the intended safety check?",
+      "rationale": "The source identifies IV magnesium as high alert and calls for a second-nurse dose/concentration check.",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 29 and 32",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 29 and 32",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Independently verify the dose and concentration against the order."
+        },
+        {
+          "id": "o1",
+          "text": "Sign the check because the first nurse has more experience."
+        },
+        {
+          "id": "o2",
+          "text": "Check only that the bag label is readable."
+        },
+        {
+          "id": "o3",
+          "text": "Skip verification when the client’s magnesium is initially low."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-025",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "mcq",
+      "stem": "Dietary staff receive a swallowing restriction, but the visiting family has not been informed. What action closes the safety gap?",
+      "rationale": "Swallowing safety depends on all caregivers and visitors following the plan. Communication prevents avoidable exposure to an unsafe consistency.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 9–12",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 9–12",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Explain the prescribed consistency to the family and confirm understanding."
+        },
+        {
+          "id": "o1",
+          "text": "Assume the tray label provides enough family education."
+        },
+        {
+          "id": "o2",
+          "text": "Allow family-provided liquids because staff did not prepare them."
+        },
+        {
+          "id": "o3",
+          "text": "Change the restriction to match the food the family brought."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-026",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "mcq",
+      "stem": "The nurse finds no ongoing indication for a urinary catheter retained from an earlier critical illness. Which action best applies preventive safety?",
+      "rationale": "An indication can change over time. The lesson calls for reassessment for removal rather than automatic continuation.",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 10–11",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "teaching slides 10–11",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use the removal process or seek an order rather than continue unnecessary catheterization."
+        },
+        {
+          "id": "o1",
+          "text": "Keep it until discharge because insertion was originally appropriate."
+        },
+        {
+          "id": "o2",
+          "text": "Retain it whenever the client needs assistance to toilet."
+        },
+        {
+          "id": "o3",
+          "text": "Change the bag size and avoid reassessing the indication."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-027",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "sata",
+      "stem": "Which actions help prevent spread during C. diff care? Select all that apply.",
+      "rationale": "Precautions, hand hygiene, and communication address different links in spread prevention.",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 20–21 and elimination prep sheet",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "teaching slides 20–21 and elimination prep sheet",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use the prescribed contact precautions."
+        },
+        {
+          "id": "o1",
+          "text": "Wash hands with soap and water as emphasized by the course."
+        },
+        {
+          "id": "o2",
+          "text": "Communicate precaution requirements to the care team."
+        },
+        {
+          "id": "o3",
+          "text": "Use alcohol hand rub alone as a reliable way to kill spores."
+        },
+        {
+          "id": "o4",
+          "text": "Delay precautions until every symptom has been explained."
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-028",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "sata",
+      "stem": "Which concerns should the nurse resolve before administering a medication? Select all that apply.",
+      "rationale": "A complete, understandable order is needed. Cosmetic preferences do not create the same medication-order uncertainty.",
+      "source": {
+        "name": "Fundys med math 3 with answers.pptx — slide 8",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slide 8",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A missing route"
+        },
+        {
+          "id": "o1",
+          "text": "Conflicting dose instructions"
+        },
+        {
+          "id": "o2",
+          "text": "An ambiguous abbreviation affecting frequency"
+        },
+        {
+          "id": "o3",
+          "text": "The client preferring a different color cup"
+        },
+        {
+          "id": "o4",
+          "text": "The medication label containing a clear readable concentration"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-029",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "truefalse",
+      "stem": "The fact that a urinary catheter was indicated yesterday is sufficient reason to keep it today without reassessing need.",
+      "rationale": "Ongoing need must be reassessed as the client’s condition changes.",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 10–11",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "teaching slides 10–11",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "false",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-030",
+      "topic": "Concept Mastery",
+      "subtopic": "Safety and infection prevention",
+      "type": "matching",
+      "stem": "Match each safety goal to the action that directly supports it.",
+      "rationale": "Placement, swallowing precautions, and vascular-access care address different risks.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 9–14",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 9–14",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Verify initial NG position before feeding",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Reduce aspiration exposure during an oral meal",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Protect a central line during TPN care",
+          "correct": "t2"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Obtain the required x-ray confirmation"
+        },
+        {
+          "id": "t1",
+          "text": "Follow the prescribed consistency and upright positioning"
+        },
+        {
+          "id": "t2",
+          "text": "Use appropriate sterile line care"
+        }
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-031",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "mcq",
+      "stem": "A prescribed meal conflicts with the client’s stated religious practices. Which question best starts a person-centered plan?",
+      "rationale": "The course supports respectful discussion of individual preferences and collaboration with dietary staff.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5, 9–12 and 16",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 5, 9–12 and 16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Which foods fit your practices so we can plan suitable alternatives?"
+        },
+        {
+          "id": "o1",
+          "text": "Why are you refusing the meal the team selected?"
+        },
+        {
+          "id": "o2",
+          "text": "Would you prefer to skip all meals while admitted?"
+        },
+        {
+          "id": "o3",
+          "text": "Can your family persuade you to follow our usual menu?"
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-032",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "mcq",
+      "stem": "A client says thickened liquids are unpleasant and wants to stop using them. What should the nurse do?",
+      "rationale": "Person-centered care includes the client’s concerns while maintaining the evaluated safety plan and appropriate collaboration.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5, 9–12 and 16",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 5, 9–12 and 16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Explore the concern, explain the swallowing plan, and collaborate on acceptable safe options."
+        },
+        {
+          "id": "o1",
+          "text": "Change the prescribed consistency immediately to preserve satisfaction."
+        },
+        {
+          "id": "o2",
+          "text": "End the discussion because refusal makes teaching unnecessary."
+        },
+        {
+          "id": "o3",
+          "text": "Ask visitors to bring unrestricted drinks without telling the team."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-033",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "mcq",
+      "stem": "A dietitian recommends a nutrition adjustment, and the client reports difficulty tolerating the current plan. What nursing information best helps the team revise care?",
+      "rationale": "The report emphasizes assessment, collaboration, and measurable response. Course nutrition content supports documenting intake and tolerance.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5, 9–12 and 16",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 5, 9–12 and 16",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Specific intake, tolerance findings, and the client’s preferences"
+        },
+        {
+          "id": "o1",
+          "text": "A general statement that the client is noncompliant"
+        },
+        {
+          "id": "o2",
+          "text": "Only the number of days the diet order has been active"
+        },
+        {
+          "id": "o3",
+          "text": "An assumption that the same plan works for every client"
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-034",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "mcq",
+      "stem": "A client with limited mobility avoids calling for toileting help because of embarrassment. What is the best nursing response?",
+      "rationale": "Privacy and mobility affect elimination. An individualized plan can support dignity while meeting basic needs.",
+      "source": {
+        "name": "Elimination copy-2.pdf — teaching slides 3 and 9",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "teaching slides 3 and 9",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Discuss a private, safe toileting plan and accessible ways to request help."
+        },
+        {
+          "id": "o1",
+          "text": "Wait until the client asks because privacy prevents proactive planning."
+        },
+        {
+          "id": "o2",
+          "text": "Tell the client that embarrassment is not relevant to nursing care."
+        },
+        {
+          "id": "o3",
+          "text": "Insert a catheter solely to remove the need for discussion."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-035",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "mcq",
+      "stem": "A client being treated for overload now has new dizziness, dry mucosa, and falling weight. Which judgment best guides the next action?",
+      "rationale": "Clinical judgment uses current assessment and response to re-prioritize and collaborate on modifications.",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 36–42",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 36–42",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reassess fluid status because the current findings may require a change in the plan."
+        },
+        {
+          "id": "o1",
+          "text": "Continue the original plan unchanged because the admission diagnosis controls all later care."
+        },
+        {
+          "id": "o2",
+          "text": "Document overload without examining the new findings."
+        },
+        {
+          "id": "o3",
+          "text": "Stop all treatment independently without communicating the assessment."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-036",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "mcq",
+      "stem": "Which note is most useful for evaluating an oral nutrition goal?",
+      "rationale": "Specific intake and tolerance support evaluation and planning. Labels and vague judgments do not provide comparable evidence.",
+      "source": {
+        "name": "Nutrition updated.pptx — slide 6",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slide 6",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ate half the cereal, all the yogurt, and 120 mL of the supplement; reported nausea afterward."
+        },
+        {
+          "id": "o1",
+          "text": "Appetite fine, with no detail about the food offered."
+        },
+        {
+          "id": "o2",
+          "text": "Tray removed, so the nutrition goal is complete."
+        },
+        {
+          "id": "o3",
+          "text": "Client difficult, with no description of intake or symptoms."
+        }
+      ],
+      "correct": "o0",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-037",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "sata",
+      "stem": "Which actions reflect person-centered assessment and planning? Select all that apply.",
+      "rationale": "Preferences, current function, and measurable response help create and adjust an individualized plan.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5–12",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 5–12",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ask about the client’s food practices and preferences."
+        },
+        {
+          "id": "o1",
+          "text": "Include the client in discussing realistic nutrition goals."
+        },
+        {
+          "id": "o2",
+          "text": "Document the response to the plan in specific terms."
+        },
+        {
+          "id": "o3",
+          "text": "Assume a family preference replaces the client’s own choice."
+        },
+        {
+          "id": "o4",
+          "text": "Use the same plan despite a newly identified swallowing limitation."
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-038",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "sata",
+      "stem": "A client’s fluid status changes during treatment. Which actions support sound clinical judgment? Select all that apply.",
+      "rationale": "Assessment, comparison, and collaboration connect observations to meaningful adjustments in care.",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 36–42",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 36–42",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Validate the new assessment findings."
+        },
+        {
+          "id": "o1",
+          "text": "Compare current findings with the intended outcomes."
+        },
+        {
+          "id": "o2",
+          "text": "Communicate the response so the plan can be reassessed."
+        },
+        {
+          "id": "o3",
+          "text": "Ignore changes that differ from the admission problem."
+        },
+        {
+          "id": "o4",
+          "text": "Treat one unchanged measurement as proof that the entire plan is effective."
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-039",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "truefalse",
+      "stem": "A care plan may need revision when the client’s response or preferences reveal that the current approach is not meeting the intended goal.",
+      "rationale": "The report describes monitoring response, incorporating preferences, and modifying plans. Course fluid management requires reassessing the current state.",
+      "source": {
+        "name": "Fluid_Electrolytes.pptx — slides 36–42",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 36–42",
+      "options": [
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
+      ],
+      "correct": "true",
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
+    },
+    {
+      "id": "fund-e3-cm-040",
+      "topic": "Concept Mastery",
+      "subtopic": "Person-centered care and clinical judgment",
+      "type": "matching",
+      "stem": "Match the nursing-process task with its example.",
+      "rationale": "The report’s assessment, planning, and implementation competencies are applied to the nutrition concepts in the course.",
+      "source": {
+        "name": "Nutrition updated.pptx — slides 5–12",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+        "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt"
+      },
+      "approved": true,
+      "auditStatus": "REPORT_ALIGNED_COURSE_SOURCE_AUTHOR_REVIEW",
+      "sourceLocator": "slides 5–12",
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Assessment",
+          "correct": "t0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Planning",
+          "correct": "t1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Implementation",
+          "correct": "t2"
+        },
+        {
+          "id": "p3",
+          "prompt": "Evaluation",
+          "correct": "t3"
+        }
+      ],
+      "targets": [
+        {
+          "id": "t0",
+          "text": "Record actual intake, swallowing cues, and the client’s concerns"
+        },
+        {
+          "id": "t1",
+          "text": "Agree on a safe, acceptable nutrition goal with the client and team"
+        },
+        {
+          "id": "t2",
+          "text": "Provide the prescribed consistency and required assistance"
+        },
+        {
+          "id": "t3",
+          "text": "Compare intake and tolerance with the intended outcome"
+        }
+      ],
+      "reportAlignment": {
+        "sourceName": "Concept Mastery competency map",
+        "path": "References/Fundamentals/Exams/Exam%203/Text/Concept%20Mastery%20competency%20map.txt",
+        "reportPages": [
+          4,
+          5
+        ],
+        "basis": "Competency scope only; clinical answer supported by question.source; original question not supplied"
+      }
     }
   ]
 }

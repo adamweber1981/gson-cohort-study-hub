@@ -123,3 +123,8 @@ The approved revision changes question content, not the engine contract. SATA no
 `fundamentals-exam-3-standard` embeds its blueprint in the bank so it uses the existing runner without new bank-specific fetching code. Standard mode assembles 50 questions with exact topic/subtopic allocations and seven numeric dosage entries. Custom mode exposes seven categories and 30 subtopics with 10 items each. The bank also carries 6–10 SATA, 4–6 matching, and 4–6 true/false practice-format ranges. Allocation assumptions, source handling, and review evidence are documented in [the preview record](12-FUNDAMENTALS-EXAM-3.md). No engine state or grading logic changed.
 
 Source-link wording now uses “Source on GitHub” for both original files and clearly labeled text companions. This label change does not alter reference routing or exam behavior.
+
+
+## Custom taxonomy without full-exam subtopic quotas
+
+Optional `blueprint.selectionSubtopics[topic]` is a map of child labels for Custom practice only. When present, it replaces that topic's custom labels/validation keys; otherwise both fall back to `blueprint.subtopics[topic]` as before. The standard assembler continues to use only `subtopics` quotas. Fundamentals Exam 3 uses this for four Concept Mastery domains while drawing two questions from the entire report-aligned pool. This separates a student's filtering choices from unprovided instructor domain weights. Existing banks without the optional field retain their prior selection behavior.

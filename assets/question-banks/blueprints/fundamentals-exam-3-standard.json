@@ -34,9 +34,6 @@
       "Individual doses": 2,
       "Volume from concentration": 2
     },
-    "Concept Mastery": {
-      "Integrated clinical judgment": 2
-    },
     "Electrolytes": {
       "Sodium imbalances": 2,
       "Potassium imbalances": 4,
@@ -81,9 +78,17 @@
       "Main-topic counts and explicitly numbered subtopics follow the supplied blueprint. Remaining unit slots are allocated across its listed unnumbered subtopics.",
       "Nutrition: the two enteral/parenteral slots are split one each; diets and dysphagia receive one each.",
       "Dosage subtopic distribution 3/2/2 is an implementation study allocation, not additional instructor weighting. All seven dosage slots use numeric entry.",
-      "Concept Mastery is undefined in the blueprint. The two slots use integrated judgment and medication-safety concepts already covered by these materials.",
       "Question-type ranges are practice-format design choices, not instructor-specified counts.",
-      "C. diff questions are independent vignettes; five are drawn per full exam."
+      "C. diff questions are independent vignettes; five are drawn per full exam.",
+      "Concept Mastery uses the uploaded term report for competency scope and course lessons for clinical support. Two questions are sampled from all four domains without report-derived subtopic quotas. selectionSubtopics is display/filter metadata, not full-exam allocation."
     ]
+  },
+  "selectionSubtopics": {
+    "Concept Mastery": {
+      "Impaired speech and communication": true,
+      "Oxygenation and physiological adaptation": true,
+      "Safety and infection prevention": true,
+      "Person-centered care and clinical judgment": true
+    }
   }
 }

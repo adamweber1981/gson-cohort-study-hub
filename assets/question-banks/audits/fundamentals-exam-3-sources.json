@@ -150,5 +150,15 @@
     "libraryPath": "/Goldfarb/Fundies/Exam 3/nutrition prep sheet.pdf",
     "textCompanion": "References/Fundamentals/Exams/Exam 3/Text/nutrition prep sheet.pdf.txt",
     "originalPublished": false
+  },
+  {
+    "originalFilename": "concept mastery 2.pdf",
+    "size": 95287,
+    "originalPublished": false,
+    "textCompanion": "References/Fundamentals/Exams/Exam 3/Text/Concept Mastery competency map.txt",
+    "companionKind": "De-identified authored competency map, not a verbatim report extraction",
+    "scope": "Report defines competencies; it does not contain exam items",
+    "privacy": "Individual performance and identifying fields excluded",
+    "originalHash": "Not recorded: source read through Library content access without downloading original bytes"
   }
 ]
