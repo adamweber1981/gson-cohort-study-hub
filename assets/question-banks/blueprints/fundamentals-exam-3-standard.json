@@ -1,0 +1,94 @@
+{
+  "id": "fundamentals-exam-3-standard",
+  "course": "Fundamentals of Nursing",
+  "examNumber": "Exam 3",
+  "total": 50,
+  "topics": {
+    "Blood Transfusions": 3,
+    "ABGs": 8,
+    "Nutrition": 4,
+    "Dosage Calculation": 7,
+    "Concept Mastery": 2,
+    "Electrolytes": 9,
+    "Bowels / Urinary Elimination": 17
+  },
+  "subtopics": {
+    "Blood Transfusions": {
+      "Blood types and testing": 1,
+      "Before a blood transfusion": 1,
+      "Transfusion reactions": 1
+    },
+    "ABGs": {
+      "Interpreting": 4,
+      "Interventions for imbalances": 2,
+      "Causes of imbalances": 2
+    },
+    "Nutrition": {
+      "Diets": 1,
+      "Dysphagia and aspiration": 1,
+      "Enteral nutrition": 1,
+      "Parenteral nutrition": 1
+    },
+    "Dosage Calculation": {
+      "Weight-based daily totals": 3,
+      "Individual doses": 2,
+      "Volume from concentration": 2
+    },
+    "Electrolytes": {
+      "Sodium imbalances": 2,
+      "Potassium imbalances": 4,
+      "Calcium imbalances": 1,
+      "Magnesium imbalances": 1,
+      "Fluid volume imbalances": 1
+    },
+    "Bowels / Urinary Elimination": {
+      "Urinary assessment terms": 1,
+      "Urinary incontinence": 1,
+      "Urinary diversions": 1,
+      "Urinary devices and interventions": 1,
+      "Catheterization": 2,
+      "Urinary diagnostics": 1,
+      "Constipation, impaction and obstruction": 1,
+      "C. diff case study": 5,
+      "Ostomies and stoma": 2,
+      "Bowel interventions": 1,
+      "Bowel diagnostics": 1
+    }
+  },
+  "types": {
+    "sata": {
+      "min": 6,
+      "max": 10
+    },
+    "matching": {
+      "min": 4,
+      "max": 6
+    },
+    "truefalse": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  "policy": {
+    "approvedOnly": true,
+    "uniqueQuestions": true,
+    "failClosed": true,
+    "source": "Fundys exam 3 blueprint .docx",
+    "clarifications": [
+      "Main-topic counts and explicitly numbered subtopics follow the supplied blueprint. Remaining unit slots are allocated across its listed unnumbered subtopics.",
+      "Nutrition: the two enteral/parenteral slots are split one each; diets and dysphagia receive one each.",
+      "Dosage subtopic distribution 3/2/2 is an implementation study allocation, not additional instructor weighting. All seven dosage slots use numeric entry.",
+      "Question-type ranges are practice-format design choices, not instructor-specified counts.",
+      "C. diff questions are independent vignettes; five are drawn per full exam.",
+      "Concept Mastery uses the uploaded term report for competency scope and course lessons for clinical support. Two questions are sampled from all four domains without report-derived subtopic quotas. selectionSubtopics is display/filter metadata, not full-exam allocation."
+    ]
+  },
+  "selectionSubtopics": {
+    "Concept Mastery": {
+      "Impaired speech and communication": true,
+      "Oxygenation and physiological adaptation": true,
+      "Safety and infection prevention": true,
+      "Person-centered care and clinical judgment": true
+    }
+  }
+}

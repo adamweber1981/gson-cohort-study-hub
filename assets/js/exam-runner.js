@@ -4,7 +4,15 @@ const params=new URLSearchParams(location.search);const bankId=params.get("bank"
 const root=$("exam-root"),meta=$("exam-meta"),actions=$("exam-actions"),alertBox=$("exam-alert");AnswerColors.apply();
 function button(text,handler,disabled=false){const b=document.createElement("button");b.type="button";b.textContent=text;b.className=text.startsWith("Next")?"action-next":text.startsWith("Score")?"action-score":text.startsWith("Review")?"action-review":"action-submit";b.disabled=disabled;b.addEventListener("click",handler);actions.append(b);return b}
 function resetUI(){root.replaceChildren();actions.replaceChildren();alertBox.textContent=""}
-function sourceLink(q){const s=q.source;const wrap=document.createElement("p");wrap.className="source";wrap.append("Source: "+s.name+(s.page?" · PDF page "+s.page:"")+" · ");const a=document.createElement("a");a.href=s.path+(s.page?"#page="+s.page:"");a.textContent="View reference";a.addEventListener("click",e=>{e.preventDefault();openReference(a.href,s.name)});wrap.append(a);if(s.githubUrl){wrap.append(" · ");const g=document.createElement("a");g.href=s.githubUrl;g.target="_blank";g.rel="noopener noreferrer";g.textContent="Original source on GitHub ↗";wrap.append(g)}return wrap}
+function sourceLink(q){
+ const s=q.source,wrap=document.createElement("p");wrap.className="source";
+ wrap.append("Source: "+s.name+(s.page?" · PDF page "+s.page:"")+" · ");
+ function referenceAnchor(ref,label){const a=document.createElement("a");a.href=ref.path+(ref.page?"#page="+ref.page:"");a.textContent=label;a.addEventListener("click",e=>{e.preventDefault();openReference(a.href,ref.name)});return a}
+ wrap.append(referenceAnchor(s,"View reference"));
+ for(const page of [...new Set(s.pages||[])].filter(p=>p!==s.page)){wrap.append(" · ",referenceAnchor({...s,page},"Page "+page))}
+ for(const extra of s.relatedSources||[]){wrap.append(" · ",referenceAnchor(extra,extra.name+(extra.page?" (page "+extra.page+")":"")))}
+ if(s.githubUrl){wrap.append(" · ");const g=document.createElement("a");g.href=s.githubUrl;g.target="_blank";g.rel="noopener noreferrer";g.textContent="Source on GitHub ↗";wrap.append(g)}return wrap
+}
 function showQuestion(){resetUI();selection=null;const q=engine.current();const submitted=engine.phase==="submitted";const prior=engine.answer;meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.append(Object.assign(document.createElement("p"),{className:"muted",textContent:"Question "+(engine.index+1)+" of "+engine.total}));if(q.caseText)root.append(Object.assign(document.createElement("aside"),{className:"case-panel",textContent:q.caseText}));root.append(Object.assign(document.createElement("h1"),{textContent:q.stem}));if(q.diagram&&window.HealthAssessmentDiagrams?.[q.diagram]){const figure=document.createElement("figure");figure.className="assessment-diagram";figure.innerHTML=window.HealthAssessmentDiagrams[q.diagram];figure.setAttribute("aria-label","Assessment illustration");root.append(figure)}
  const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=q.type==="sata"?"Select all that apply":q.type==="matching"?"Match every item":q.type==="dosage"?"Enter the calculated dose":"Choose one answer";field.append(legend);
  if(["mcq","visual","sata","truefalse"].includes(q.type)){const choices=q.options;for(const option of choices){const label=document.createElement("label");label.className="answer-option";label.style.setProperty("--answer-index",String(choices.indexOf(option)%4));label.classList.add("answer-color-"+(choices.indexOf(option)%4));const input=document.createElement("input");input.type=q.type==="sata"?"checkbox":"radio";input.name="answer";input.value=option.id;input.disabled=submitted;input.checked=submitted?(q.type==="sata"?prior.response.includes(option.id):prior.response===option.id):false;input.addEventListener("change",()=>{selection=q.type==="sata"?[...field.querySelectorAll("input:checked")].map(x=>x.value):input.value;submitButton.disabled=Array.isArray(selection)?!selection.length:!selection});label.append(input,document.createTextNode(" "+option.text));field.append(label)}}
@@ -28,7 +36,7 @@ function showIntro(){
   const section=document.createElement("fieldset");section.className="practice-group";
   const label=document.createElement("label");label.className="practice-group-label";const toggle=document.createElement("input");toggle.type="checkbox";label.append(toggle,document.createTextNode(" "+groupName));section.append(label);
   const children=document.createElement("div");children.className="practice-subtopics";children.hidden=true;section.append(children);
-  for(const topic of topics){const subs=Object.keys(bp.subtopics?.[topic]||{});const choices=subs.length?subs:[null];if(subs.length&&engine.bank.questions.some(q=>q.approved===true&&q.topic===topic&&q.subtopic==null))choices.push(null);
+  for(const topic of topics){const subs=Object.keys(bp.selectionSubtopics?.[topic]||bp.subtopics?.[topic]||{});const choices=subs.length?subs:[null];if(subs.length&&engine.bank.questions.some(q=>q.approved===true&&q.topic===topic&&q.subtopic==null))choices.push(null);
    for(const subtopic of choices){const choice=document.createElement("label");choice.className="practice-choice";const input=document.createElement("input");input.type="checkbox";input.checked=true;const name=subtopic===null?(subs.length?"Other questions in "+topic:topic):subtopic;choice.append(input,document.createTextNode(" "+name));children.append(choice);entries.push({toggle,input,topic,subtopic,whole:subs.length===0});input.addEventListener("change",updateCount)}
   }
   toggle.addEventListener("change",()=>{children.hidden=!toggle.checked;updateCount()});groups.append(section)
@@ -111,6 +119,7 @@ async function setReferencePage(page){
  }
 }
 async function openReference(url,title,parts=null){
+ if(/\.(pptx?|docx?)(?:[?#]|$)/i.test(new URL(url,location.href).pathname)){window.open(url,"_blank","noopener,noreferrer");return}
  const dialog=$("reference-dialog"),frame=$("reference-frame"),textPanel=$("reference-text"),status=$("reference-status");
  const openToken=++referenceOpenToken;
  $("reference-heading").textContent=title||"Exam reference";
@@ -131,6 +140,7 @@ async function openReference(url,title,parts=null){
   }else if(path.endsWith(".pdf")||parts){
    referencePdfUrl=parts?parsed.href:parsed.origin+parsed.pathname+parsed.search;
    referencePage=Math.max(1,parseInt(parsed.hash.match(/page=(\d+)/)?.[1]||"1",10));
+   $("reference-page").value=String(referencePage);$("reference-page").disabled=true;$("reference-previous").disabled=true;$("reference-next").disabled=true;
    nav.hidden=false;
    $("reference-open-direct").href=referencePdfUrl+"#page="+referencePage;
    const pdfjs=await loadPdfLibrary();
@@ -138,6 +148,7 @@ async function openReference(url,title,parts=null){
    const loadedDocument=await pdfjs.getDocument({url:referencePdfUrl}).promise;
    if(openToken!==referenceOpenToken||!dialog.open){loadedDocument.destroy();return}
    referenceDocument=loadedDocument;
+   $("reference-page").disabled=false;$("reference-page").max=String(loadedDocument.numPages);
    $("reference-canvas-wrap").hidden=false;
    await setReferencePage(referencePage);
   }else{

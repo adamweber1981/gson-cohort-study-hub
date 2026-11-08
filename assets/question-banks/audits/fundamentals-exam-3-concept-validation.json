@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "retainedQuestionContentUnchanged": 290,
+  "retiredProvisional": 10,
+  "newReportAligned": 40,
+  "currentBank": 330,
+  "conceptMasteryFullExamCount": 2,
+  "customConceptPool": 40,
+  "customDomains": 4,
+  "questionsPerDomain": 10,
+  "standardAssemblies": 100,
+  "observedDomains": {
+    "Impaired speech and communication": 55,
+    "Oxygenation and physiological adaptation": 46,
+    "Person-centered care and clinical judgment": 55,
+    "Safety and infection prevention": 44
+  },
+  "legacyCustomSelectionsCompared": 100,
+  "privateReportFieldsExcluded": true,
+  "exactPriorStemDuplicates": 0
+}

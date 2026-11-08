@@ -1,4 +1,36 @@
+# Original reference files — 2026-11-08
+
+Replaced Fundamentals Exam 3 extracted text references with the 19 original uploaded PDF, PowerPoint and Word files. Removed extracted source copies and the two sensory/gas-exchange text files from the mistaken rollback. All 330 question bodies and answer keys unchanged. PDFs retain the existing viewer; Office documents open/download their original file. Private performance report remains unpublished. Production main unchanged.
+
 # GSON Cohort 1 Accelerated Study Hub — Changelog
+
+## 2026-11-08 — Development: exact source document pages
+
+- Replaced all 330 question reference targets with original PDFs or layout-preserving PDF renderings of Word and PowerPoint sources.
+- Linked slide notes using actual presentation relationships and retained complete notes in the generated documents. Added precise primary, additional-page, and related-source links.
+- Verified all PDF file hashes, page bounds, unchanged question content/keys, and ten targeted supporting-content checks.
+- Updated viewer loading controls and development cache version.
+
+## 2026-11-08 — Development: report-aligned Concept Mastery
+
+- Replaced ten provisional Concept Mastery questions with 40 original questions aligned to the uploaded term competency report; bank now has 330 questions across 33 subtopics.
+- Added four selectable Concept Mastery domains with ten questions each, including impaired speech. Standard mode still draws exactly two Concept Mastery questions from the combined pool.
+- Added optional custom-only subtopic metadata so filtering does not invent full-exam domain weights. Existing banks retain prior selection behavior.
+- Published a de-identified competency map, not the personal performance report. Added clinical source citations, retirement audit, regression and privacy checks, and updated source documentation.
+- Validation passed: 290 other questions unchanged, 1,248 grading checks, 100 full assemblies, 100 legacy selection comparisons, and all 30 dosage checks.
+- Development only; main remains unchanged.
+
+
+## 2026-11-08 — Development: Fundamentals Exam 3
+
+- Added 300 source-mapped questions across the blueprint's seven categories and 30 selectable subtopics, 10 questions per subtopic.
+- Added full 50-question blueprint assembly and cross-category custom selection with a user-selected question count. Includes 30 numeric medication calculations, all independently checked.
+- Preserved explicitly numbered blueprint subtopics. Documented implementation allocations for unnumbered subtopics and the undefined Concept Mastery label.
+- Added 19 labeled source text companions, original-file hash inventory, editorial decisions, grading/coverage/assembly audit, and reproducible validation scripts.
+- Fundamentals now appears first on Home in development, with Exam 3 expanded and Exam 2 collapsed. Existing engine behavior and other banks are unchanged.
+- Validation: 100 full assemblies, all 30 custom pools, 1,134 grading checks, independent numeric recalculation, and no exact stem duplicates within the bank or against prior Fundamentals banks.
+- Staged on `pwa-redesign` for the Render test site; not merged to main. See [implementation record](References/Design%20Documentation/12-FUNDAMENTALS-EXAM-3.md).
+
 
 ## 2026-10-31 — Modern Workspace production release
 

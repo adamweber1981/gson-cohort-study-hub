@@ -62,3 +62,13 @@ For future bank releases, version the bank and runner requests together as appro
 
 When changing selection behavior or a bank, verify the active bank and blueprint together: valid IDs and answer keys, pool availability for each subject, custom multi-group filtering and counts, no repeated question in an attempt, and full-exam assembly against the ranges actually configured. Check duplicate candidates for substantive overlap as well as exact text, and keep an audit trail for corrections and source review. Distinct clinical approaches to the same topic are useful; superficial rewrites of the same question are not.
 
+
+
+## Fundamentals Exam 3 development preview — November 8, 2026
+
+The new 300-question bank offers seven main categories and 30 children with 10 questions each. Choose a full 50-question blueprint or combine subtopics across categories and choose a count from 1 to the available pool. Standard mode includes seven numeric dosage questions and follows the instructor topic totals. The implementation record documents unnumbered-subtopic allocations and the undefined Concept Mastery assumption. Custom practice is random across the combined pool; it does not guarantee one item from every selected subtopic. See [Fundamentals Exam 3](12-FUNDAMENTALS-EXAM-3.md).
+
+
+### Concept Mastery expansion
+
+Fundamentals Exam 3 now has 330 questions in 33 ten-question subtopics. Concept Mastery exposes four report-aligned choices, including Impaired speech and communication. Selecting the whole category makes 40 questions available. The full 50-question exam still draws exactly two Concept Mastery items at random across those domains. A domain is not guaranteed in a particular full exam. Custom practice lets the student focus on it directly.

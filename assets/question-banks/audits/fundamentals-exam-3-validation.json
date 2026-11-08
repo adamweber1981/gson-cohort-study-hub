@@ -1,0 +1,82 @@
+{
+  "bank": "fundamentals-exam-3-standard",
+  "count": 330,
+  "categories": 7,
+  "subtopics": 33,
+  "coverage": {
+    "Blood Transfusions": {
+      "Blood types and testing": 10,
+      "Before a blood transfusion": 10,
+      "Transfusion reactions": 10
+    },
+    "ABGs": {
+      "Interpreting": 10,
+      "Interventions for imbalances": 10,
+      "Causes of imbalances": 10
+    },
+    "Nutrition": {
+      "Diets": 10,
+      "Dysphagia and aspiration": 10,
+      "Enteral nutrition": 10,
+      "Parenteral nutrition": 10
+    },
+    "Dosage Calculation": {
+      "Weight-based daily totals": 10,
+      "Individual doses": 10,
+      "Volume from concentration": 10
+    },
+    "Electrolytes": {
+      "Sodium imbalances": 10,
+      "Potassium imbalances": 10,
+      "Calcium imbalances": 10,
+      "Magnesium imbalances": 10,
+      "Fluid volume imbalances": 10
+    },
+    "Bowels / Urinary Elimination": {
+      "Urinary assessment terms": 10,
+      "Urinary incontinence": 10,
+      "Urinary diversions": 10,
+      "Urinary devices and interventions": 10,
+      "Catheterization": 10,
+      "Urinary diagnostics": 10,
+      "Constipation, impaction and obstruction": 10,
+      "C. diff case study": 10,
+      "Ostomies and stoma": 10,
+      "Bowel interventions": 10,
+      "Bowel diagnostics": 10
+    },
+    "Concept Mastery": {
+      "Impaired speech and communication": 10,
+      "Oxygenation and physiological adaptation": 10,
+      "Safety and infection prevention": 10,
+      "Person-centered care and clinical judgment": 10
+    }
+  },
+  "types": {
+    "mcq": 180,
+    "sata": 60,
+    "truefalse": 30,
+    "matching": 30,
+    "dosage": 30
+  },
+  "blueprintAssemblies": 100,
+  "gradingChecks": 1248,
+  "customPoolsChecked": 33,
+  "crossCategoryPool": 30,
+  "checks": [
+    "unique IDs and normalized stems",
+    "unique within-question options",
+    "valid answer and matching mappings",
+    "correct and incorrect grading including exact-set SATA",
+    "source paths and citation locators",
+    "all full blueprint topic/subtopic/type quotas",
+    "seven numeric questions in each full exam",
+    "each custom subtopic and count boundaries",
+    "cross-category selection and no repeated IDs",
+    "submit/next/score/review gates and response lock"
+  ],
+  "limits": [
+    "Not independent clinical review",
+    "Semantic uniqueness is an author review, not an exhaustive automated guarantee"
+  ]
+}

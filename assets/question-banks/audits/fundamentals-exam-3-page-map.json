@@ -1,0 +1,3608 @@
+{
+  "questions": 330,
+  "mapping": [
+    {
+      "id": "fund-e3-0001",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 33,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 4",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0002",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 33,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 4",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0003",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0004",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0005",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0006",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0007",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0008",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0009",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 33,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 4",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0010",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 33,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 4",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0011",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0012",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0013",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0014",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0015",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0016",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0017",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0018",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0019",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0020",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0021",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0022",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0023",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0024",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0025",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0026",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0027",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0028",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0029",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0030",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 36,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 7",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0031",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "slide 11",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0032",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "slide 13",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0033",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "slide 15",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0034",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 17,
+      "relatedPages": [],
+      "locator": "slide 17",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0035",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0036",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0037",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 20,
+      "relatedPages": [],
+      "locator": "slide 20",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0038",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0039",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0040",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood and abg prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0041",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0042",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "slide 14",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0043",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "slide 16",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0044",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "slide 16",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0045",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "slide 18",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0046",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "slide 14",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0047",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0048",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "slide 18",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0049",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "slide 16",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0050",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood and abg prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0051",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "slide 11",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0052",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 17,
+      "relatedPages": [],
+      "locator": "slide 17",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0053",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "slide 15",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0054",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "slide 15",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0055",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "slide 13",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0056",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 17,
+      "relatedPages": [],
+      "locator": "slide 17",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0057",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "slide 15",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0058",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "slide 11",
+      "pageCount": 58,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0059",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood and abg prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0060",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/blood and abg prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/blood%20transfusions%20and%20ABGs.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0061",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0062",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0063",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0064",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0065",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0066",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0067",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0068",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0069",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0070",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "page": 1,
+      "relatedPages": [
+        2
+      ],
+      "locator": "PDF page 1",
+      "pageCount": 3,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0071",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 8,
+      "relatedPages": [],
+      "locator": "PDF page 8",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0072",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "slide 10",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0073",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0074",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0075",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "slide 9",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0076",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "slide 11",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0077",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "slide 10",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0078",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0079",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "slide 10",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0080",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0081",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0082",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 44,
+      "relatedPages": [],
+      "locator": "PDF page 44",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0083",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0084",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0085",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0086",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0087",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [
+        13
+      ],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0088",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0089",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0090",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0091",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "slide 14",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0092",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "slide 14",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0093",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 14",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0094",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 85,
+      "relatedPages": [
+        86
+      ],
+      "locator": "PDF page 85",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/enteral%20vs%20parentarel%20nutrition%20transcript.docx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0095",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 83,
+      "relatedPages": [
+        82
+      ],
+      "locator": "PDF page 83",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/enteral%20vs%20parentarel%20nutrition%20transcript.docx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0096",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "slide 14",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0097",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 85,
+      "relatedPages": [
+        86
+      ],
+      "locator": "PDF page 85",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0098",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 83,
+      "relatedPages": [
+        85
+      ],
+      "locator": "PDF page 83",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0099",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "page": 85,
+      "relatedPages": [
+        86
+      ],
+      "locator": "PDF page 85",
+      "pageCount": 93,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0100",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 14,
+      "relatedPages": [
+        13
+      ],
+      "locator": "slide 14",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0101",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0102",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0103",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0104",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0105",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0106",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0107",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0108",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0109",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0110",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "slide 3",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0111",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0112",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0113",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0114",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0115",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0116",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0117",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0118",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0119",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0120",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0121",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0122",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0123",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0124",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0125",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0126",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0127",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "slide 7",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0128",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0129",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0130",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0141",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0142",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "slide 7",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0143",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "slide 7",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0144",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0145",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0146",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 4,
+      "relatedPages": [],
+      "locator": "slide 4",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0147",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "slide 7",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0148",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0149",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0150",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0151",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "slide 11",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0152",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0153",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0154",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "slide 15",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0155",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "slide 16",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0156",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "slide 16",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0157",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "slide 16",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0158",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 66,
+      "relatedPages": [
+        11
+      ],
+      "locator": "speaker notes for slide 12",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0159",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0160",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0161",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 23,
+      "relatedPages": [],
+      "locator": "slide 23",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0162",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0163",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0164",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 22,
+      "relatedPages": [],
+      "locator": "slide 22",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0165",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 21,
+      "relatedPages": [],
+      "locator": "slide 21",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0166",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 22,
+      "relatedPages": [],
+      "locator": "slide 22",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0167",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0168",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 22,
+      "relatedPages": [],
+      "locator": "slide 22",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0169",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "slide 24",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0170",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0171",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 28,
+      "relatedPages": [],
+      "locator": "slide 28",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0172",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 29,
+      "relatedPages": [],
+      "locator": "slide 29",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0173",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 29,
+      "relatedPages": [],
+      "locator": "slide 29",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0174",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "slide 30",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0175",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "slide 31",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0176",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "slide 31",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0177",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 29,
+      "relatedPages": [],
+      "locator": "slide 29",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0178",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "slide 31",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0179",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 29,
+      "relatedPages": [],
+      "locator": "slide 29",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0180",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0181",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/ABG, Fluid, Electrolyte Qs.pptx.pdf",
+      "page": 20,
+      "relatedPages": [],
+      "locator": "slide 20",
+      "pageCount": 50,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0182",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0183",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 38,
+      "relatedPages": [],
+      "locator": "slide 38",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0184",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 94,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 40",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0185",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 25,
+      "relatedPages": [],
+      "locator": "speaker notes for slide 8",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0186",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 40,
+      "relatedPages": [],
+      "locator": "slide 40",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0187",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0188",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 42,
+      "relatedPages": [],
+      "locator": "slide 42",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0189",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 38,
+      "relatedPages": [],
+      "locator": "slide 38",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0190",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "page": 2,
+      "relatedPages": [],
+      "locator": "PDF page 2",
+      "pageCount": 2,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0191",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0192",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0193",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0194",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0195",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0196",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "PDF page 3",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0197",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0198",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0199",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0200",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0201",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "PDF page 6",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0202",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "PDF page 6",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0203",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "PDF page 6",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0204",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "PDF page 6",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0205",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "PDF page 7",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0206",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "PDF page 7",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0207",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 7,
+      "relatedPages": [],
+      "locator": "PDF page 7",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0208",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 8,
+      "relatedPages": [],
+      "locator": "PDF page 8",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0209",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "PDF page 6",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0210",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "PDF page 6",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0211",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0212",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0213",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0214",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0215",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0216",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0217",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0218",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0219",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0220",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 9,
+      "relatedPages": [],
+      "locator": "PDF page 9",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0221",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0222",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0223",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [
+        8
+      ],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0224",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 8,
+      "relatedPages": [],
+      "locator": "PDF page 8",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0225",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0226",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "PDF page 3",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0227",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0228",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 8,
+      "relatedPages": [],
+      "locator": "PDF page 8",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0229",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0230",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 10,
+      "relatedPages": [],
+      "locator": "PDF page 10",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0231",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0232",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0233",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0234",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0235",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0236",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0237",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0238",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0239",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0240",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0241",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0242",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [
+        14
+      ],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0243",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0244",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0245",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0246",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "PDF page 14",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0247",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0248",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0249",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0250",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0251",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "PDF page 18",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0252",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 19,
+      "relatedPages": [],
+      "locator": "PDF page 19",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0253",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 20,
+      "relatedPages": [],
+      "locator": "PDF page 20",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0254",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 19,
+      "relatedPages": [],
+      "locator": "PDF page 19",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0255",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 22,
+      "relatedPages": [],
+      "locator": "PDF page 22",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0256",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "PDF page 18",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0257",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 19,
+      "relatedPages": [],
+      "locator": "PDF page 19",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0258",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 20,
+      "relatedPages": [],
+      "locator": "PDF page 20",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0259",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 19,
+      "relatedPages": [],
+      "locator": "PDF page 19",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0260",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 18,
+      "relatedPages": [
+        19,
+        20,
+        22
+      ],
+      "locator": "PDF page 18",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0261",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 23,
+      "relatedPages": [],
+      "locator": "PDF page 23",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0262",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0263",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/elimination prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 1,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0264",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0265",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0266",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0267",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 23,
+      "relatedPages": [],
+      "locator": "PDF page 23",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0268",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0269",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0270",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/elimination prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 1,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0271",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0272",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0273",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0274",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 25,
+      "relatedPages": [],
+      "locator": "PDF page 25",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0275",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 25,
+      "relatedPages": [],
+      "locator": "PDF page 25",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0276",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0277",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0278",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 25,
+      "relatedPages": [],
+      "locator": "PDF page 25",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0279",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0280",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 26,
+      "relatedPages": [
+        25
+      ],
+      "locator": "PDF page 26",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0281",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 27,
+      "relatedPages": [],
+      "locator": "PDF page 27",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0282",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 27,
+      "relatedPages": [],
+      "locator": "PDF page 27",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0283",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 28,
+      "relatedPages": [],
+      "locator": "PDF page 28",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0284",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 27,
+      "relatedPages": [],
+      "locator": "PDF page 27",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0285",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "PDF page 30",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0286",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 29,
+      "relatedPages": [],
+      "locator": "PDF page 29",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0287",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 30,
+      "relatedPages": [],
+      "locator": "PDF page 30",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0288",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 30,
+      "relatedPages": [
+        29
+      ],
+      "locator": "PDF page 30",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0289",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 27,
+      "relatedPages": [],
+      "locator": "PDF page 27",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0290",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 27,
+      "relatedPages": [
+        28,
+        29,
+        30
+      ],
+      "locator": "PDF page 27",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0291",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0292",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0293",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0294",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0295",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0296",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0297",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0298",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0299",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-0300",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 31,
+      "relatedPages": [],
+      "locator": "PDF page 31",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-001",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "PDF page 14",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-002",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "PDF page 14",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-003",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "PDF page 15",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-004",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 15,
+      "relatedPages": [],
+      "locator": "PDF page 15",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-005",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "PDF page 16",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-006",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "PDF page 16",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-007",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 16,
+      "relatedPages": [],
+      "locator": "PDF page 16",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-008",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "PDF page 12",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-009",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 14,
+      "relatedPages": [],
+      "locator": "PDF page 14",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-010",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "page": 12,
+      "relatedPages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "locator": "PDF page 12",
+      "pageCount": 21,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20sensory.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-011",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "PDF page 18",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-012",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "PDF page 18",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-013",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 13,
+      "relatedPages": [],
+      "locator": "PDF page 13",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-014",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "PDF page 5",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-015",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 3,
+      "relatedPages": [],
+      "locator": "PDF page 3",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-016",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "PDF page 18",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-017",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 5,
+      "relatedPages": [
+        13,
+        18
+      ],
+      "locator": "PDF page 5",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-018",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 18,
+      "relatedPages": [],
+      "locator": "PDF page 18",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-019",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 13,
+      "relatedPages": [
+        18
+      ],
+      "locator": "PDF page 13",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-020",
+      "source": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "page": 5,
+      "relatedPages": [
+        13,
+        18
+      ],
+      "locator": "PDF page 5",
+      "pageCount": 23,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-021",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-022",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 24,
+      "relatedPages": [],
+      "locator": "PDF page 24",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-023",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 8,
+      "relatedPages": [],
+      "locator": "slide 8",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-024",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 32,
+      "relatedPages": [],
+      "locator": "slide 32",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-025",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-026",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-027",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/elimination prep sheet.pdf",
+      "page": 1,
+      "relatedPages": [],
+      "locator": "PDF page 1",
+      "pageCount": 1,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-028",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "page": 8,
+      "relatedPages": [],
+      "locator": "slide 8",
+      "pageCount": 22,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fundys%20med%20math%203%20with%20answers.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-029",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 11,
+      "relatedPages": [],
+      "locator": "PDF page 11",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-030",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 30,
+      "relatedPages": [
+        12,
+        31
+      ],
+      "locator": "speaker notes for slide 13",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-031",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 5,
+      "relatedPages": [],
+      "locator": "slide 5",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-032",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 12,
+      "relatedPages": [],
+      "locator": "slide 12",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-033",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-034",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "page": 3,
+      "relatedPages": [
+        10
+      ],
+      "locator": "PDF page 3",
+      "pageCount": 32,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Elimination%20copy-2.pdf.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-035",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 38,
+      "relatedPages": [],
+      "locator": "slide 38",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-036",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 6,
+      "relatedPages": [],
+      "locator": "slide 6",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-037",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 5,
+      "relatedPages": [
+        12
+      ],
+      "locator": "slide 5",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-038",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 38,
+      "relatedPages": [
+        42
+      ],
+      "locator": "slide 38",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-039",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "page": 38,
+      "relatedPages": [
+        42
+      ],
+      "locator": "slide 38",
+      "pageCount": 108,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Fluid_Electrolytes.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    },
+    {
+      "id": "fund-e3-cm-040",
+      "source": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "page": 6,
+      "relatedPages": [
+        5,
+        12
+      ],
+      "locator": "slide 6",
+      "pageCount": 34,
+      "priorTextPath": "References/Fundamentals/Exams/Exam%203/Text/Nutrition%20updated.pptx.txt",
+      "review": "Explicit question-to-supporting-page mapping; not a filename-number inference"
+    }
+  ],
+  "documents": {
+    "ABG, Fluid, Electrolyte Qs.pptx": {
+      "filename": "ABG, Fluid, Electrolyte Qs.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/ABG, Fluid, Electrolyte Qs.pptx.pdf",
+      "pages": 50,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "8ca8d2ed28ea19f5d4f75c1cba8cf2c5632bd4158bbc6fc07533a524248a751a",
+      "sha256": "1ab5e95533e63d75626cda5fc88369643f444a1a9aefef70e921032571766b13",
+      "expandedNotesPages": [],
+      "slideCount": 25
+    },
+    "Diet Types.docx": {
+      "filename": "Diet Types.docx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Diet Types.docx.pdf",
+      "pages": 3,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "830ac85d3f66beda03399a11ac6c1c5d1f63db14fc067987e075eaf53719f8a0",
+      "sha256": "3a0c27a126763ca14e6565bc8ebc2794ef3a7df22ebeaede4be76dd3a53eb25f",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "Elimination copy-2.pdf": {
+      "filename": "Elimination copy-2.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Elimination copy-2.pdf",
+      "pages": 32,
+      "kind": "original-pdf",
+      "originalSha256": "c8d64bec10f03157ee0056d05c772d02ff12b49f36f2eb31cfa899cc5ee7b014",
+      "sha256": "c8d64bec10f03157ee0056d05c772d02ff12b49f36f2eb31cfa899cc5ee7b014",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "Fluid_Electrolytes.pptx": {
+      "filename": "Fluid_Electrolytes.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Fluid_Electrolytes.pptx.pdf",
+      "pages": 108,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "d31899d49a78ff71af0fef753405c0d2843d270ca884c77fceb1903a8d2f8218",
+      "sha256": "5d45be71668403016bb5b8b84c5030f4453ec91956bcfc1b95b5ae93b29f0087",
+      "expandedNotesPages": [
+        65,
+        66,
+        69,
+        70,
+        75,
+        76,
+        77,
+        82,
+        83,
+        85,
+        90,
+        94
+      ],
+      "slideCount": 54
+    },
+    "Fundy's med math 3 student version-1.pptx": {
+      "filename": "Fundy's med math 3 student version-1.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Fundy's med math 3 student version-1.pptx.pdf",
+      "pages": 22,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "92cbfa96f72a293b284a5c9e0b026ade5e8c91ee0605a02405a1ad1247c49d6e",
+      "sha256": "24de16dc6d9bd9f4ed97c45e03cc22c6fc7694065998ce67438d53a895c02897",
+      "expandedNotesPages": [],
+      "slideCount": 11
+    },
+    "Fundys exam 3 blueprint .docx": {
+      "filename": "Fundys exam 3 blueprint .docx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Fundys exam 3 blueprint .docx.pdf",
+      "pages": 1,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "70b344cf5cadccfa488abd26722c61ee842dfaa550b729218a1a41dea3b2b332",
+      "sha256": "3ea6b3e318b4cda88798daed668997bc2c29ff718b685d2d8a8d46a0af5cddc9",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "Fundys med math 3 with answers.pptx": {
+      "filename": "Fundys med math 3 with answers.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Fundys med math 3 with answers.pptx.pdf",
+      "pages": 22,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "5d5961d2785b0b05e2800a75789ca0180981c4e9f3bcc4833825f4903c0991d4",
+      "sha256": "047be08cddb0a6b63cb4c39ce6aeb60becf57c3fa5bd5902bb9a78cf818e2a89",
+      "expandedNotesPages": [],
+      "slideCount": 11
+    },
+    "Nutrition Extra Pictures and Qs.pptx": {
+      "filename": "Nutrition Extra Pictures and Qs.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition Extra Pictures and Qs.pptx.pdf",
+      "pages": 32,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "a263ac71debaf9bac24502c190307d15a7ef02b916b0c7936f6a6c8217878be4",
+      "sha256": "d6626fa5151b9ab28f99e78959cad4e5fbe3a71bdd69d55f4c3e1319c64a30c1",
+      "expandedNotesPages": [],
+      "slideCount": 16
+    },
+    "Nutrition updated.pptx": {
+      "filename": "Nutrition updated.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/Nutrition updated.pptx.pdf",
+      "pages": 34,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "d4b0e5a1a0d3c25a2dc80fffc31a1d5e685185222d55e6bfa9c6153f648ce883",
+      "sha256": "2a6bdf1cf1357eae3e49455dba0430f63247d4dd11c6696772651a6481354168",
+      "expandedNotesPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31,
+        32,
+        33
+      ],
+      "slideCount": 17
+    },
+    "blood and abg prep sheet.pdf": {
+      "filename": "blood and abg prep sheet.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/blood and abg prep sheet.pdf",
+      "pages": 2,
+      "kind": "original-pdf",
+      "originalSha256": "9c99e8571e6c8363a0ed3afbf28d5abd078430f28118ea68aefcbbbd76e9378c",
+      "sha256": "9c99e8571e6c8363a0ed3afbf28d5abd078430f28118ea68aefcbbbd76e9378c",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "blood transfusions and ABGs copy.pptx": {
+      "filename": "blood transfusions and ABGs copy.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs copy.pptx.pdf",
+      "pages": 58,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "0eeed26c42ecded3583aa572ae9672513662da7ce0046bb107ff7a1a94ab8f99",
+      "sha256": "78f88fcc83a9b229c773c00d13b540ce9e7566b9d0de1047f2714d4a6e02b2ad",
+      "expandedNotesPages": [
+        33,
+        36,
+        37,
+        45,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "slideCount": 29
+    },
+    "blood transfusions and ABGs.pptx": {
+      "filename": "blood transfusions and ABGs.pptx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/blood transfusions and ABGs.pptx.pdf",
+      "pages": 58,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "8148f264c20540d4352e35894f33f4666c92923df7402ecad7469d1df66c4120",
+      "sha256": "3cf35084c807ae5f94fd1ba6656058af53ad77b5006b467b68f0acb85ea883e9",
+      "expandedNotesPages": [
+        33,
+        36,
+        37,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        53
+      ],
+      "slideCount": 29
+    },
+    "calcium fundies transcript.docx": {
+      "filename": "calcium fundies transcript.docx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/calcium fundies transcript.docx.pdf",
+      "pages": 20,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "e81239504f3429d3e3e60aa944cd6a30684d97ebc96f27d7a3dabaf0b28ac915",
+      "sha256": "32c6d68df27702a40f3fb46a47391d80fabe51db67501d64e0838ee1abe5a2df",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "dosage calc 3 transcript.docx": {
+      "filename": "dosage calc 3 transcript.docx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/dosage calc 3 transcript.docx.pdf",
+      "pages": 38,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "6c8086851cbf6bd408285ccd75753b49d69e1569f9c20db4fa844ceeb7e65dae",
+      "sha256": "4f23297e20cd3cdd3239e86d79401bf0e823b76cdb2dfd65435ecf77c13ecc53",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "electrolyte and fluid imbalance prep sheet.pdf": {
+      "filename": "electrolyte and fluid imbalance prep sheet.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/electrolyte and fluid imbalance prep sheet.pdf",
+      "pages": 2,
+      "kind": "original-pdf",
+      "originalSha256": "9858bb39e779366b2a21dc50063b59129297f091b180ee29a2e87739ac0ec155",
+      "sha256": "9858bb39e779366b2a21dc50063b59129297f091b180ee29a2e87739ac0ec155",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "elimination prep sheet.pdf": {
+      "filename": "elimination prep sheet.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/elimination prep sheet.pdf",
+      "pages": 1,
+      "kind": "original-pdf",
+      "originalSha256": "96e939e846458e5aaf1f42a2fca1f5d366ae9964e6464c0c8a62adfb3dae86c2",
+      "sha256": "96e939e846458e5aaf1f42a2fca1f5d366ae9964e6464c0c8a62adfb3dae86c2",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "enteral vs parentarel nutrition transcript.docx": {
+      "filename": "enteral vs parentarel nutrition transcript.docx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/enteral vs parentarel nutrition transcript.docx.pdf",
+      "pages": 93,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "bc33b32e0488ac7c2054458d4bc32be52b2c5de95df3ebdbf58057a39e6cee0d",
+      "sha256": "e2425253b10a0c8bae49b95846eb6b665eeaa62265ee05d3f1636ced283c8000",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "mg fundies transcript.docx": {
+      "filename": "mg fundies transcript.docx.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/mg fundies transcript.docx.pdf",
+      "pages": 11,
+      "kind": "office-pdf-rendering",
+      "originalSha256": "7b74cf8bb4ba017e56a6fc8a97f301d4d0037f39cccde840f4611bb81d8bd2f2",
+      "sha256": "a2c89ac6bd8cc19771e1ff4dba48621bbd9e7dc379c9ba14e3d43d3ebe4d7f66",
+      "expandedNotesPages": [],
+      "slideCount": null
+    },
+    "nutrition prep sheet.pdf": {
+      "filename": "nutrition prep sheet.pdf",
+      "path": "References/Fundamentals/Exams/Exam 3/Documents/nutrition prep sheet.pdf",
+      "pages": 1,
+      "kind": "original-pdf",
+      "originalSha256": "80e1cd07c50b86e54c37ad630da59ef95fb53bd0b75c488ea4a12ad1a258965b",
+      "sha256": "80e1cd07c50b86e54c37ad630da59ef95fb53bd0b75c488ea4a12ad1a258965b",
+      "expandedNotesPages": [],
+      "slideCount": null
+    }
+  },
+  "notes": "PowerPoint slide relationship files determine speaker-note ownership. Exported notes follow all slides. Long notes-page bounds and whole-page clipping rectangles expanded to prevent losing source words; slide graphics and wording are unchanged."
+}

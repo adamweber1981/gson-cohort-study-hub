@@ -14,7 +14,7 @@
  return true}
  function customPool(bank, selections){
  const bp=bank.blueprint;if(!bp||!Array.isArray(selections))throw Error("Invalid practice selections");
- for(const item of selections){if(!item||!Object.hasOwn(bp.topics,item.topic)||!(item.subtopics===null||Array.isArray(item.subtopics)))throw Error("Invalid blueprint selection");if(item.subtopics&&item.subtopics.some(sub=>sub!==null&&!Object.hasOwn(bp.subtopics?.[item.topic]||{},sub)))throw Error("Invalid blueprint subsection")}
+ for(const item of selections){if(!item||!Object.hasOwn(bp.topics,item.topic)||!(item.subtopics===null||Array.isArray(item.subtopics)))throw Error("Invalid blueprint selection");if(item.subtopics&&item.subtopics.some(sub=>sub!==null&&!Object.hasOwn(bp.selectionSubtopics?.[item.topic]||bp.subtopics?.[item.topic]||{},sub)))throw Error("Invalid blueprint subsection")}
  return bank.questions.filter(q=>q.approved===true&&selections.some(item=>item.topic===q.topic&&(item.subtopics===null||item.subtopics.includes(q.subtopic??null)))&&(!q.requiredSubtopics||q.requiredSubtopics.every(sub=>selections.some(item=>item.topic===q.topic&&(item.subtopics===null||item.subtopics.includes(sub))))))
  }
  function create(bank,random=Math.random){validate(bank);let questions=[],answers=[],index=0,phase="intro";

@@ -1,0 +1,831 @@
+{
+  "originalFileHashesVerified": 19,
+  "notesPagesChecked": 103,
+  "status": "PASS",
+  "checks": [
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 3,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 28,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 4,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 29,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 5,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 30,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 6,
+      "notesPart": "ppt/notesSlides/notesSlide4.xml",
+      "pdfPage": 31,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide5.xml",
+      "pdfPage": 32,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 8,
+      "notesPart": "ppt/notesSlides/notesSlide6.xml",
+      "pdfPage": 33,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 9,
+      "notesPart": "ppt/notesSlides/notesSlide7.xml",
+      "pdfPage": 34,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 10,
+      "notesPart": "ppt/notesSlides/notesSlide8.xml",
+      "pdfPage": 35,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 11,
+      "notesPart": "ppt/notesSlides/notesSlide9.xml",
+      "pdfPage": 36,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 12,
+      "notesPart": "ppt/notesSlides/notesSlide10.xml",
+      "pdfPage": 37,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 13,
+      "notesPart": "ppt/notesSlides/notesSlide11.xml",
+      "pdfPage": 38,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 14,
+      "notesPart": "ppt/notesSlides/notesSlide12.xml",
+      "pdfPage": 39,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 15,
+      "notesPart": "ppt/notesSlides/notesSlide13.xml",
+      "pdfPage": 40,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 17,
+      "notesPart": "ppt/notesSlides/notesSlide14.xml",
+      "pdfPage": 42,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 18,
+      "notesPart": "ppt/notesSlides/notesSlide15.xml",
+      "pdfPage": 43,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 19,
+      "notesPart": "ppt/notesSlides/notesSlide16.xml",
+      "pdfPage": 44,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 20,
+      "notesPart": "ppt/notesSlides/notesSlide17.xml",
+      "pdfPage": 45,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 22,
+      "notesPart": "ppt/notesSlides/notesSlide18.xml",
+      "pdfPage": 47,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 23,
+      "notesPart": "ppt/notesSlides/notesSlide19.xml",
+      "pdfPage": 48,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 24,
+      "notesPart": "ppt/notesSlides/notesSlide20.xml",
+      "pdfPage": 49,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "ABG, Fluid, Electrolyte Qs.pptx",
+      "slide": 25,
+      "notesPart": "ppt/notesSlides/notesSlide21.xml",
+      "pdfPage": 50,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 1,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 55,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 4,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 58,
+      "textRuns": 6,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 5,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 59,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 6,
+      "notesPart": "ppt/notesSlides/notesSlide4.xml",
+      "pdfPage": 60,
+      "textRuns": 8,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide5.xml",
+      "pdfPage": 61,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 11,
+      "notesPart": "ppt/notesSlides/notesSlide6.xml",
+      "pdfPage": 65,
+      "textRuns": 12,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 12,
+      "notesPart": "ppt/notesSlides/notesSlide7.xml",
+      "pdfPage": 66,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 15,
+      "notesPart": "ppt/notesSlides/notesSlide8.xml",
+      "pdfPage": 69,
+      "textRuns": 18,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 16,
+      "notesPart": "ppt/notesSlides/notesSlide9.xml",
+      "pdfPage": 70,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 20,
+      "notesPart": "ppt/notesSlides/notesSlide10.xml",
+      "pdfPage": 74,
+      "textRuns": 2,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 21,
+      "notesPart": "ppt/notesSlides/notesSlide11.xml",
+      "pdfPage": 75,
+      "textRuns": 9,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 22,
+      "notesPart": "ppt/notesSlides/notesSlide12.xml",
+      "pdfPage": 76,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 23,
+      "notesPart": "ppt/notesSlides/notesSlide13.xml",
+      "pdfPage": 77,
+      "textRuns": 11,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 24,
+      "notesPart": "ppt/notesSlides/notesSlide14.xml",
+      "pdfPage": 78,
+      "textRuns": 3,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 28,
+      "notesPart": "ppt/notesSlides/notesSlide15.xml",
+      "pdfPage": 82,
+      "textRuns": 10,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 29,
+      "notesPart": "ppt/notesSlides/notesSlide16.xml",
+      "pdfPage": 83,
+      "textRuns": 2,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 30,
+      "notesPart": "ppt/notesSlides/notesSlide17.xml",
+      "pdfPage": 84,
+      "textRuns": 9,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 31,
+      "notesPart": "ppt/notesSlides/notesSlide18.xml",
+      "pdfPage": 85,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 36,
+      "notesPart": "ppt/notesSlides/notesSlide19.xml",
+      "pdfPage": 90,
+      "textRuns": 9,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 37,
+      "notesPart": "ppt/notesSlides/notesSlide20.xml",
+      "pdfPage": 91,
+      "textRuns": 4,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 40,
+      "notesPart": "ppt/notesSlides/notesSlide21.xml",
+      "pdfPage": 94,
+      "textRuns": 8,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 41,
+      "notesPart": "ppt/notesSlides/notesSlide22.xml",
+      "pdfPage": 95,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fluid_Electrolytes.pptx",
+      "slide": 53,
+      "notesPart": "ppt/notesSlides/notesSlide23.xml",
+      "pdfPage": 107,
+      "textRuns": 7,
+      "status": "PASS"
+    },
+    {
+      "document": "Fundy's med math 3 student version-1.pptx",
+      "slide": 1,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 12,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fundy's med math 3 student version-1.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 18,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fundy's med math 3 student version-1.pptx",
+      "slide": 9,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 20,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fundys med math 3 with answers.pptx",
+      "slide": 1,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 12,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fundys med math 3 with answers.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 18,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Fundys med math 3 with answers.pptx",
+      "slide": 9,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 20,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 23,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 11,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 27,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 12,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 28,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 13,
+      "notesPart": "ppt/notesSlides/notesSlide4.xml",
+      "pdfPage": 29,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 14,
+      "notesPart": "ppt/notesSlides/notesSlide5.xml",
+      "pdfPage": 30,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 15,
+      "notesPart": "ppt/notesSlides/notesSlide6.xml",
+      "pdfPage": 31,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition Extra Pictures and Qs.pptx",
+      "slide": 16,
+      "notesPart": "ppt/notesSlides/notesSlide7.xml",
+      "pdfPage": 32,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 1,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 18,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 3,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 20,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 4,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 21,
+      "textRuns": 7,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 5,
+      "notesPart": "ppt/notesSlides/notesSlide4.xml",
+      "pdfPage": 22,
+      "textRuns": 10,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 6,
+      "notesPart": "ppt/notesSlides/notesSlide5.xml",
+      "pdfPage": 23,
+      "textRuns": 5,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide6.xml",
+      "pdfPage": 24,
+      "textRuns": 8,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 8,
+      "notesPart": "ppt/notesSlides/notesSlide7.xml",
+      "pdfPage": 25,
+      "textRuns": 9,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 11,
+      "notesPart": "ppt/notesSlides/notesSlide8.xml",
+      "pdfPage": 28,
+      "textRuns": 11,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 13,
+      "notesPart": "ppt/notesSlides/notesSlide9.xml",
+      "pdfPage": 30,
+      "textRuns": 10,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 14,
+      "notesPart": "ppt/notesSlides/notesSlide10.xml",
+      "pdfPage": 31,
+      "textRuns": 4,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 15,
+      "notesPart": "ppt/notesSlides/notesSlide11.xml",
+      "pdfPage": 32,
+      "textRuns": 8,
+      "status": "PASS"
+    },
+    {
+      "document": "Nutrition updated.pptx",
+      "slide": 16,
+      "notesPart": "ppt/notesSlides/notesSlide12.xml",
+      "pdfPage": 33,
+      "textRuns": 9,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 1,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 30,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 4,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 33,
+      "textRuns": 13,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 36,
+      "textRuns": 12,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 8,
+      "notesPart": "ppt/notesSlides/notesSlide4.xml",
+      "pdfPage": 37,
+      "textRuns": 11,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 9,
+      "notesPart": "ppt/notesSlides/notesSlide5.xml",
+      "pdfPage": 38,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 16,
+      "notesPart": "ppt/notesSlides/notesSlide6.xml",
+      "pdfPage": 45,
+      "textRuns": 6,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 17,
+      "notesPart": "ppt/notesSlides/notesSlide7.xml",
+      "pdfPage": 46,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 18,
+      "notesPart": "ppt/notesSlides/notesSlide8.xml",
+      "pdfPage": 47,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 19,
+      "notesPart": "ppt/notesSlides/notesSlide9.xml",
+      "pdfPage": 48,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 21,
+      "notesPart": "ppt/notesSlides/notesSlide10.xml",
+      "pdfPage": 50,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 22,
+      "notesPart": "ppt/notesSlides/notesSlide11.xml",
+      "pdfPage": 51,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 23,
+      "notesPart": "ppt/notesSlides/notesSlide12.xml",
+      "pdfPage": 52,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 24,
+      "notesPart": "ppt/notesSlides/notesSlide13.xml",
+      "pdfPage": 53,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 25,
+      "notesPart": "ppt/notesSlides/notesSlide14.xml",
+      "pdfPage": 54,
+      "textRuns": 5,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 26,
+      "notesPart": "ppt/notesSlides/notesSlide15.xml",
+      "pdfPage": 55,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 27,
+      "notesPart": "ppt/notesSlides/notesSlide16.xml",
+      "pdfPage": 56,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs copy.pptx",
+      "slide": 28,
+      "notesPart": "ppt/notesSlides/notesSlide17.xml",
+      "pdfPage": 57,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 1,
+      "notesPart": "ppt/notesSlides/notesSlide1.xml",
+      "pdfPage": 30,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 4,
+      "notesPart": "ppt/notesSlides/notesSlide2.xml",
+      "pdfPage": 33,
+      "textRuns": 13,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 7,
+      "notesPart": "ppt/notesSlides/notesSlide3.xml",
+      "pdfPage": 36,
+      "textRuns": 12,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 8,
+      "notesPart": "ppt/notesSlides/notesSlide4.xml",
+      "pdfPage": 37,
+      "textRuns": 11,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 9,
+      "notesPart": "ppt/notesSlides/notesSlide5.xml",
+      "pdfPage": 38,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 11,
+      "notesPart": "ppt/notesSlides/notesSlide6.xml",
+      "pdfPage": 40,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 12,
+      "notesPart": "ppt/notesSlides/notesSlide7.xml",
+      "pdfPage": 41,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 13,
+      "notesPart": "ppt/notesSlides/notesSlide8.xml",
+      "pdfPage": 42,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 14,
+      "notesPart": "ppt/notesSlides/notesSlide9.xml",
+      "pdfPage": 43,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 15,
+      "notesPart": "ppt/notesSlides/notesSlide10.xml",
+      "pdfPage": 44,
+      "textRuns": 5,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 16,
+      "notesPart": "ppt/notesSlides/notesSlide11.xml",
+      "pdfPage": 45,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 17,
+      "notesPart": "ppt/notesSlides/notesSlide12.xml",
+      "pdfPage": 46,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 18,
+      "notesPart": "ppt/notesSlides/notesSlide13.xml",
+      "pdfPage": 47,
+      "textRuns": 1,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 24,
+      "notesPart": "ppt/notesSlides/notesSlide14.xml",
+      "pdfPage": 53,
+      "textRuns": 6,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 25,
+      "notesPart": "ppt/notesSlides/notesSlide15.xml",
+      "pdfPage": 54,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 26,
+      "notesPart": "ppt/notesSlides/notesSlide16.xml",
+      "pdfPage": 55,
+      "textRuns": 0,
+      "status": "PASS"
+    },
+    {
+      "document": "blood transfusions and ABGs.pptx",
+      "slide": 27,
+      "notesPart": "ppt/notesSlides/notesSlide17.xml",
+      "pdfPage": 56,
+      "textRuns": 0,
+      "status": "PASS"
+    }
+  ]
+}
