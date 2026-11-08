@@ -1,0 +1,51 @@
+{
+  "contentCommit": "50ba0de4b405026359f4666afb5f3a5830d9615e",
+  "url": "https://gson-study-hub-test.onrender.com/exam.html?bank=fundamentals-exam-3-standard&v=fund3-cm-20261108",
+  "bankCount": 330,
+  "conceptPool": 40,
+  "speechPool": 10,
+  "fullExamConceptCount": 2,
+  "servedFileChecks": [
+    {
+      "path": "assets/question-banks/fundamentals-exam-3-standard.json",
+      "sha256": "df3d231a135f32a8f438cd13d70eb01db42ea6de01d4c35aed7a851146a03de1",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/js/exam-core.js",
+      "sha256": "9b13afcbafd30938cf68ec8f67e5f577e415eabf59d3e922613f6c85490f113b",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/js/exam-runner.js",
+      "sha256": "df2d18f6ce977f03788b3fe38c49624ee8be7de48e280064052e86c290b6b316",
+      "status": "PASS"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam 3/Text/Concept Mastery competency map.txt",
+      "sha256": "91b4264e7c6ae20cf5af3a9fdcd362481c2d258f43ec8abd6e43b07d2ff50131",
+      "status": "PASS"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam 2/fundies sensory.pdf",
+      "sha256": "75a384abd1139172e7f0ef861e73caaef15e532cb59c3ae620baf12622701bf8",
+      "status": "PASS"
+    },
+    {
+      "path": "References/Fundamentals/Exams/Exam 2/fundies gas exchange.pdf",
+      "sha256": "2a41021fb0019290cd766a8da2b6c422991168a09dbe2d04c4d97b5a244f3677",
+      "status": "PASS"
+    }
+  ],
+  "browserChecks": [
+    "Header shows 330-question bank",
+    "Concept Mastery exposes all four child domains and 40 eligible",
+    "Speech-only selection shows 10 eligible",
+    "One-question speech attempt starts with a new global-aphasia item",
+    "Correct response grades Correct and locks choices after Submit",
+    "Clinical reference links to sensory PDF page 16",
+    "In-app PDF viewer loaded sensory page 16 of 21",
+    "Catalog Start practice opens the updated Concept Mastery version"
+  ],
+  "scope": "Development only; no production merge"
+}
