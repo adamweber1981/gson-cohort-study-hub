@@ -1,18 +1,18 @@
 
-### ppt/slides/slide1.xml
+### Slide 1
 Dosage calculation #3
 NUR3260
 1/28/26
-NOTES: 1
+SPEAKER NOTES FOR SLIDE 1:
+1
 
-### ppt/slides/slide2.xml
+### Slide 2
 Weight based medications
  Many medications are prescribed by weight – especially in pediatric population 
 Basing medications on weight ensures correct dosages
 1/28/26
-NOTES: 7
 
-### ppt/slides/slide3.xml
+### Slide 3
 Mg/kg/day
  Some prescriptions may be written as milligrams per kilogram of body weight per day
  We then need to determine how many milligrams of a medication the client can have per day based on their weight in kilograms
@@ -35,9 +35,8 @@ OR
 =
 2.2lb
 = 1,018mg/day
-NOTES: 9
 
-### ppt/slides/slide4.xml
+### Slide 4
 Single doses
  prescription should then indicate how many doses the client will receive throughout the day
  Most often every 4, 6, 8 , or 12 hours (q4, q6, etc...) 
@@ -54,7 +53,7 @@ Q12 = 1,018/2 = 509mg
 If doing dimensional analysis you can add this into the equation:
 - add 1 day over 24 hours and ___ hours over 1dose
 
-### ppt/slides/slide5.xml
+### Slide 5
 Practice
 Provider orders Tobramycin 4mg/kg/day to be administered every 8 hours
 Client weighs 60kg
@@ -83,7 +82,7 @@ X 2ml
 = 4ml
 OR
 
-### ppt/slides/slide6.xml
+### Slide 6
 More practice
 Order states: administer lorazepam 0.05mg/kg one time before surgery.
 Client weighs 192lbs
@@ -109,7 +108,7 @@ x1ml
 = 2ml 
 2
 
-### ppt/slides/slide7.xml
+### Slide 7
 Weight based practice 
 You have on hand hydromorphone (
 Dilaudid
@@ -140,8 +139,10 @@ mL.
 8.8
 = 0.255 = 0.26mL
 OR
+SPEAKER NOTES FOR SLIDE 7:
+7
 
-### ppt/slides/slide8.xml
+### Slide 8
 CONSIDERATIONS
  What needs to be in prescription
 Date and time prescription written 
@@ -159,14 +160,16 @@ DC – could mean discharge or discontinue
  What would you do if you have a prescription missing a piece or with one of the above abbreviations? 
 1/28/26
 
-### ppt/slides/slide9.xml
+### Slide 9
 Reading a medication package
 1/28/26
+SPEAKER NOTES FOR SLIDE 9:
+9
 
-### ppt/slides/slide10.xml
+### Slide 10
 Reading packaging
 1/28/26
 
-### ppt/slides/slide11.xml
+### Slide 11
 Questions?
 1/28/26

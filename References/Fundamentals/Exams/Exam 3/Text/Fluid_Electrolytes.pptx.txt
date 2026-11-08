@@ -1,19 +1,13 @@
 
-### ppt/slides/slide1.xml
+### Slide 1
 Electrolytes and Fluid Balance
-NOTES: 1
+SPEAKER NOTES FOR SLIDE 1:
+1
 
-### ppt/slides/slide2.xml
+### Slide 2
 
-NOTES: Cause: Diabetes Insipidus, insensible perspiration, water deprivation, hypertonic fluids
-S&S- Decreased LOC, thirst, seizures
-Tx- Oral water, hypotonic IV fluids
-CNS symptoms because brain cells shrivel (hypernatremia
-Hypernatremia is most commonly seen when the body water loss is greater than the solute loss. However, it can also be a result of too much sodium, or a combination of the two. 
-Reasoning: Less water relative to sodium → cells shrink, brain issues, etc.
-4
 
-### ppt/slides/slide3.xml
+### Slide 3
 The electrolyte sodium supports the function of nerves and muscles, helps maintain a normal blood pressure, and regulates the body’s fluid balance. 
 Needed for nerve impulses 
 Low sodium levels are called hyponatremia. 
@@ -21,9 +15,8 @@ High sodium levels are called hypernatremia.
 Sodium: 135 –145 
 mEq
 /L 
-NOTES: 
 
-### ppt/slides/slide4.xml
+### Slide 4
 Causes:
 Gastroenteritis 
 Vomiting
@@ -44,17 +37,16 @@ Level of consciousness changes
 Hypernatremia – greater than 145 
 mEq
 /L
-NOTES: Water excess
-Cause: SIADH, water intoxication, tap water enemas, hypotonic fluids
-S&S- Decreased LOC, seizures
-Tx- fluid restrictions
-CNS symptoms because brain cells shrivel (hypernatremia) or brain cells swell (hyponatremia)
-Treatment: Fluid restrictions, hypertonic solutions, antidiarrheals, antiemetics
-Reasoning: When there’s more free water relative to sodium, the concentration falls; or sodium is lost and water remains → cell swelling, neurological effects.
-“If sodium is like the salt in the soup (extracellular fluid), when you dilute the soup too much (free water excess) you get hyponatremia” 
-6
+SPEAKER NOTES FOR SLIDE 4:
+Cause: Diabetes Insipidus, insensible perspiration, water deprivation, hypertonic fluids
+S&S- Decreased LOC, thirst, seizures
+Tx- Oral water, hypotonic IV fluids
+CNS symptoms because brain cells shrivel (hypernatremia
+Hypernatremia is most commonly seen when the body water loss is greater than the solute loss. However, it can also be a result of too much sodium, or a combination of the two. 
+Reasoning: Less water relative to sodium → cells shrink, brain issues, etc.
+4
 
-### ppt/slides/slide5.xml
+### Slide 5
 Treatment:
 Identify the underlying cause first
 Mild hypernatremia: encourage oral fluids
@@ -70,9 +62,10 @@ Assess skin turgor and mucous membranes for dehydration
 Fall precautions
 Patient education: limit high-sodium foods, read food labels, adequate fluid intake
 Hypernatremia – Treatment and Nursing Care
-NOTES: Fluid restriction is the intervention that may seem counterintuitive — a patient who seems unwell is being told to drink less, not more. The explanation is that in dilutional hyponatremia the problem is too much water diluting the sodium, not too little sodium. Education on what counts as fluid — ice chips, gelatin, soup, ice cream — is essential and frequently missed.
+SPEAKER NOTES FOR SLIDE 5:
 
-### ppt/slides/slide6.xml
+
+### Slide 6
 Causes:
 Chronic/severe vomiting or diarrhea
 Excessive water intake 
@@ -90,21 +83,18 @@ Restlessness
 Hyponatremia – less than 135 
 mEq
 /L
-NOTES: Most dangerous imbalance!!!
-Causes: Potassium-sparing diuretics, Renal failure, Intestinal obstruction, Excessive intake of K+, Acidosis
-S&S: Apathy, Muscle weakness, Diarrhea, cardiac dysrhythmias, peaked T waves, cardiac arrest
-RN Interventions:
-Monitor VS
-Heart monitor
-Decrease potassium intake
-Diuretics, dialysis, Kayexalate, regular insulin
-How is potassium excreted?--- urine and feces
-Kayexalate is a laxative that can be given PO or by enema- it swaps sodium for potassium so the patient will excrete more potassium from the stool. 
-Regular insulin will be given IV- it will shift the K+ from the blood into the cells. Will probably have to give dextrose to counter low blood sugars. 
-How do we check renal function?---- creatinine! Normal is 0.6-1.2
-11
+SPEAKER NOTES FOR SLIDE 6:
+Water excess
+Cause: SIADH, water intoxication, tap water enemas, hypotonic fluids
+S&S- Decreased LOC, seizures
+Tx- fluid restrictions
+CNS symptoms because brain cells shrivel (hypernatremia) or brain cells swell (hyponatremia)
+Treatment: Fluid restrictions, hypertonic solutions, antidiarrheals, antiemetics
+Reasoning: When there’s more free water relative to sodium, the concentration falls; or sodium is lost and water remains → cell swelling, neurological effects.
+“If sodium is like the salt in the soup (extracellular fluid), when you dilute the soup too much (free water excess) you get hyponatremia” 
+6
 
-### ppt/slides/slide7.xml
+### Slide 7
 Treatment:
 Identify the underlying cause
 Fluid restriction — most common first-line treatment
@@ -120,9 +110,10 @@ Daily weights
 Monitor all fluid sources — IV fluids, medications, oral intake
 Educate patient on fluid restriction — why it matters and what counts as fluid
 Hyponatremia – Treatment and Nursing Care
-NOTES: . Calcium gluconate is given first not because it lowers potassium but because it protects the heart while other treatments take effect — it raises the threshold for cardiac cell depolarization, buying time. Insulin drives potassium into cells temporarily — it is a bridge, not a cure. Kayexalate and diuretics actually remove potassium from the body. Dialysis is the definitive treatment when the kidneys cannot excrete potassium. The blood glucose monitoring after insulin is a patient safety imperative — hypoglycemia can occur rapidly and the dextrose given with the insulin may not be sufficient. Salt substitutes are a frequently missed dietary source of potassium — patients who are told to reduce sodium often switch to salt substitutes without knowing they are potassium chloride.
+SPEAKER NOTES FOR SLIDE 7:
+Fluid restriction is the intervention that may seem counterintuitive — a patient who seems unwell is being told to drink less, not more. The explanation is that in dilutional hyponatremia the problem is too much water diluting the sodium, not too little sodium. Education on what counts as fluid — ice chips, gelatin, soup, ice cream — is essential and frequently missed.
 
-### ppt/slides/slide8.xml
+### Slide 8
 A client with chronic heart failure presents with confusion, nausea, and a sodium level of 128 
 mEq
 /L. Which cause most likely explains this finding?
@@ -130,27 +121,8 @@ A. Excessive sweating
 B. Fluid retention
 C. Inadequate dietary intake of salt
 D. Renal potassium wasting
-NOTES: seHypokalemia
- may also 
-impair the ability of the kidneys to concentrate urine
-, resulting in excessive urination (polyuria) and excessive thirst (polydipsia)
-Causes: Non-potassium sparing diuretics, Diarrhea/Vomiting, Inadequate intake of K+, Alkalosis
-S&S- Muscle weakness (respiratory muscles),leg cramps, Shallow respirations and thready pulse, Confusion, Decreased or absent reflexes, constipation, flat/inverted T waves 
-RN Interventions:
-Monitor VS
-Heart Monitor
-Increase potassium intake
-Check renal function before giving potassium chloride!
-PO potassium supplements
-IV- NO PUSH!!!! MUST BE DILUTED!!!!
-IV- no more than 
-20 
-mEq
-/
-hr
-15
 
-### ppt/slides/slide9.xml
+### Slide 9
 A client with sodium of 150 
 mEq
 /L is treated with IV fluids. Which principle is most important?
@@ -158,9 +130,8 @@ A. Decrease sodium level rapidly
 B. Increase dietary sodium
 C. Decrease sodium level slowly
 D. Administer diuretics immediately
-NOTES: IV potassium safety is one of the highest-stakes nursing responsibilities in electrolyte management and deserves emphasis. Potassium chloride is a high-alert medication — it appears on the Institute for Safe Medication Practices (ISMP) list of medications that have caused patient death when misused. IV potassium administered as a push or at too high a concentration causes immediate cardiac arrest. Many facilities have removed concentrated potassium from floor stock entirely and require pharmacy preparation of all potassium infusions for exactly this reason. The pain at the IV site is a real clinical issue — potassium is caustic to veins and patients frequently complain of burning during infusion. Slowing the rate slightly and ensuring adequate dilution helps, but pain is expected and should be communicated to the patient in advance. The relationship between potassium and magnesium is clinically important: hypokalemia is very difficult to correct when hypomagnesemia is present simultaneously because magnesium is needed for the cellular mechanism that maintains potassium balance. Always check magnesium when treating hypokalemia.
 
-### ppt/slides/slide10.xml
+### Slide 10
 The electrolyte potassium helps with nerve and muscle cell function while playing an important role in the muscle cells in the heart. 
 Needed for nerve conduction and muscle function (skeletal, smooth, cardiac)
 Controls rate and force of heart contraction
@@ -170,11 +141,8 @@ High potassium levels are known as hyperkalemia.
 Potassium: 3.5 - 5 
 mEq
 /L  
-NOTES: Hypoparathyroidism, low parathyroid hormone levels, is a common cause of low calcium levels.
-Hypercalcemia is most commonly caused by overactive parathyroid glands, or hyperparathyroidism.
-20
 
-### ppt/slides/slide11.xml
+### Slide 11
 Causes:
 Renal failure
 Dehydration 
@@ -196,18 +164,22 @@ Peaked T waves
 Hyperkalemia – greater than 5 
 mEq
 /L
-NOTES: The most common causes of hypercalcemia are hyperparathyroidism and cancer. Both of these conditions result in excessive calcium being drawn from the bones and into the bloodstream. In hyperparathyroidism, the parathyroid glands secrete excessive amount of the hormone PTH. The elevated PTH levels in the body then lead to increased absorption of calcium by the intestines, increased reabsorption by the kidneys, and increased bone resorption—a process that ultimately leads to excessive levels of calcium in the blood.
-Causes: Excessive Ca+/Vit D intake, bone tumors, fractures, hyperparathyroidism
-S&S: Pathological fractures, Decreases neuromuscular excitability, ↑HR/BP, bounding pulse, late bradycardia, confusion, lethargy
+SPEAKER NOTES FOR SLIDE 11:
+Most dangerous imbalance!!!
+Causes: Potassium-sparing diuretics, Renal failure, Intestinal obstruction, Excessive intake of K+, Acidosis
+S&S: Apathy, Muscle weakness, Diarrhea, cardiac dysrhythmias, peaked T waves, cardiac arrest
 RN Interventions:
 Monitor VS
-Cardiac monitor
-Restrict Ca+ intake
-Increase mobility
-Loop diuretic, isotonic IV fluids
-21
+Heart monitor
+Decrease potassium intake
+Diuretics, dialysis, Kayexalate, regular insulin
+How is potassium excreted?--- urine and feces
+Kayexalate is a laxative that can be given PO or by enema- it swaps sodium for potassium so the patient will excrete more potassium from the stool. 
+Regular insulin will be given IV- it will shift the K+ from the blood into the cells. Will probably have to give dextrose to counter low blood sugars. 
+How do we check renal function?---- creatinine! Normal is 0.6-1.2
+11
 
-### ppt/slides/slide12.xml
+### Slide 12
 Treatment:
 Identify the cause
 Goal: remove potassium and stabilize the heart
@@ -232,30 +204,16 @@ Monitor urine output — adequate kidney function is essential for excretion
 Assess neuromuscular status — weakness and paralysis can progress rapidly
 Educate on low-potassium diet and avoiding potassium-based salt substitutes
 Hyperkalemia – Treatment and Nursing Care
-NOTES: The mnemonic for hypercalcemia symptoms is Bones, Groans, Moans, and Psychic Overtones — bone pain, GI symptoms (nausea, constipation, abdominal pain), muscle weakness, and neurological/psychiatric symptoms (confusion, depression, lethargy). Hypercalcemia of malignancy is one of the most common metabolic emergencies in cancer patients — it occurs when tumors either produce PTH-related peptide that mobilizes calcium from bone, or when bone metastases directly destroy bone and release calcium into the bloodstream. The nurse who sees a cancer patient with new confusion, nausea, and constipation should have hypercalcemia on their differential. Immobility is both a cause and a complication — bedbound patients continuously lose calcium from bone into the bloodstream, which is why encouraging ambulation is a direct treatment intervention and not just general care.
+SPEAKER NOTES FOR SLIDE 12:
+. Calcium gluconate is given first not because it lowers potassium but because it protects the heart while other treatments take effect — it raises the threshold for cardiac cell depolarization, buying time. Insulin drives potassium into cells temporarily — it is a bridge, not a cure. Kayexalate and diuretics actually remove potassium from the body. Dialysis is the definitive treatment when the kidneys cannot excrete potassium. The blood glucose monitoring after insulin is a patient safety imperative — hypoglycemia can occur rapidly and the dextrose given with the insulin may not be sufficient. Salt substitutes are a frequently missed dietary source of potassium — patients who are told to reduce sodium often switch to salt substitutes without knowing they are potassium chloride.
 
-### ppt/slides/slide13.xml
+### Slide 13
 
-NOTES: Causes: inadequate Ca+/Vit D intake, diarrhea, hypoparathyroidism, renal disease
-Hypoparathyroidism - 
-Body produces low levels of parathyroid hormone (PTH). The parathyroid glands, which are located in the neck behind the thyroid gland, are responsible for the secretion of PTH. The function of PTH is to maintain the proper amount of calcium in the body. Among the various causes of decreased PTH in the body, the most common are thyroid or neck surgery. Decreased PTH may lead to the need for lifetime supplementation of calcium.
-S&S: Increases neuromuscular excitability, ↑ HR, ↓BP, tetany, tingling, twitching, + Chvostek’s and Trousseau’s sign
-RN Interventions:
-Monitor VS
-Check for Chvostek’s/Trousseau’s signs
-Initiate seizure precautions
-Increase Ca+ intake
-Calcium/Vit D supplements
-3 T’s are tetany, tingling, and twitching
-23
 
-### ppt/slides/slide14.xml
+### Slide 14
 Hyperkalemia EKG
-NOTES: . The nurse who recognizes stridor or respiratory distress in a 
-hypocalcemic
- patient must treat this as an airway emergency. This is why calcium gluconate must be readily available at the bedside of any patient with severely low calcium. Chvostek's and Trousseau's signs are classic physical examination findings that confirm neuromuscular irritability from hypocalcemia. Trousseau's is considered more sensitive and specific than Chvostek's. A positive Trousseau's sign — carpal spasm when the blood pressure cuff is inflated — is a reliable indicator that the patient has significant hypocalcemia even when symptoms are otherwise absent.
 
-### ppt/slides/slide15.xml
+### Slide 15
 Causes:
 Medications
 Diuretics: loop, thiazide, osmotic
@@ -276,19 +234,28 @@ Inverted T wave on EKG
 Hypokalemia – less than 3.5 
 mEq
 /L
-NOTES: The most common cause of hypermagnesemia is acute or chronic kidney disease, as the impaired kidneys fail to excrete enough magnesium through the urine. While hypermagnesemia is not likely to occur from dietary intake, underlying bowel conditions can cause decreased gastrointestinal motility and lead to increased magnesium absorption. These conditions can be exacerbated by treatment with opioids or anticholinergics—such medications increase the dwell time of food boluses in the intestines, allowing for greater absorption of electrolytes such as magnesium. Laxatives and antacids containing magnesium may also cause hypermagnesemia if intake is excessive, as can as use of psychotropic medications containing lithium.
-Causes: Overuse of antacids or laxatives with Mg+, renal failure, too much IV Magnesium
-S&S: ↓HR, BP, and RR, loss of deep tendon reflexes
+SPEAKER NOTES FOR SLIDE 15:
+seHypokalemia
+ may also 
+impair the ability of the kidneys to concentrate urine
+, resulting in excessive urination (polyuria) and excessive thirst (polydipsia)
+Causes: Non-potassium sparing diuretics, Diarrhea/Vomiting, Inadequate intake of K+, Alkalosis
+S&S- Muscle weakness (respiratory muscles),leg cramps, Shallow respirations and thready pulse, Confusion, Decreased or absent reflexes, constipation, flat/inverted T waves 
 RN Interventions:
 Monitor VS
-Neuro and Muscular checks
-Monitor respiratory
-Monitor LOC
-IV Calcium gluconate
-IV furosemide
-28
+Heart Monitor
+Increase potassium intake
+Check renal function before giving potassium chloride!
+PO potassium supplements
+IV- NO PUSH!!!! MUST BE DILUTED!!!!
+IV- no more than 
+20 
+mEq
+/
+hr
+15
 
-### ppt/slides/slide16.xml
+### Slide 16
 Treatment:
 Identify the cause
 Place on continuous cardiac monitor
@@ -314,23 +281,13 @@ Never give IV potassium via IV push under any circumstances
 Monitor magnesium — hypomagnesemia makes hypokalemia difficult to correct
 Educate on potassium-rich foods and medication compliance
 Hypokalemia – Treatment and Nursing Care
-NOTES: Deep tendon reflex assessment is the most critical nursing monitoring tool in hypermagnesemia — more immediately useful than waiting for lab results. The sequence of progression with rising magnesium levels follows a predictable pattern: decreased DTRs appear first, then hypotension and flushing, then respiratory depression, then cardiac arrest. Loss of the patellar reflex (knee jerk) is the clinical warning that magnesium levels are approaching dangerous territory. This is particularly relevant for patients receiving therapeutic IV magnesium for preeclampsia or eclampsia — obstetric nurses monitor DTRs continuously during magnesium infusions for exactly this reason. Calcium gluconate is the antidote and should be at the bedside of any patient on IV magnesium. This is a high-alert medication requiring double-checking with a second 
-nurse
+SPEAKER NOTES FOR SLIDE 16:
+IV potassium safety is one of the highest-stakes nursing responsibilities in electrolyte management and deserves emphasis. Potassium chloride is a high-alert medication — it appears on the Institute for Safe Medication Practices (ISMP) list of medications that have caused patient death when misused. IV potassium administered as a push or at too high a concentration causes immediate cardiac arrest. Many facilities have removed concentrated potassium from floor stock entirely and require pharmacy preparation of all potassium infusions for exactly this reason. The pain at the IV site is a real clinical issue — potassium is caustic to veins and patients frequently complain of burning during infusion. Slowing the rate slightly and ensuring adequate dilution helps, but pain is expected and should be communicated to the patient in advance. The relationship between potassium and magnesium is clinically important: hypokalemia is very difficult to correct when hypomagnesemia is present simultaneously because magnesium is needed for the cellular mechanism that maintains potassium balance. Always check magnesium when treating hypokalemia.
 
-### ppt/slides/slide17.xml
+### Slide 17
 Hypokalemia EKG
-NOTES: Causes: Malnutrition, malabsorption, alcoholism, diarrhea, diuretics
-S&S: Same as Hypocalcemia
-RN Interventions:
-Monitor VS
-Check for Chvostek’s/Trousseau’s signs
-Initiate seizure precautions
-Increase Mg+ intake
-PO Mg+ supplements
-ETOH- increase renal magnesium excretion
-30
 
-### ppt/slides/slide18.xml
+### Slide 18
 A client has K⁺ of 6.1 
 mEq
 /L. Which provider order should the nurse complete first?
@@ -340,9 +297,8 @@ B. Place
 the client on a cardiac monitor
 C. Start potassium-sparing diuretic
 D. Encourage high-potassium foods
-NOTES: The relationship between magnesium, potassium, and calcium is clinically critical and frequently tested. Magnesium is required for the sodium-potassium ATPase pump to function — without adequate magnesium the kidneys cannot retain potassium regardless of how much replacement is given. A patient with concurrent hypokalemia and hypomagnesemia who receives potassium replacement but not magnesium will continue to waste potassium renally. Correcting magnesium first — or simultaneously — is essential. The same relationship exists with calcium: PTH secretion and function requires magnesium. Patients on long-term PPIs are at particular risk for hypomagnesemia because PPIs reduce magnesium absorption in the gut — this is a FDA warning that was issued in 2011 and applies to all PPIs at prescription doses used for more than one year.
 
-### ppt/slides/slide19.xml
+### Slide 19
 A client on furosemide (Lasix) develops K⁺ of 3.0 
 mEq
 /L. Which intervention is appropriate?
@@ -350,30 +306,19 @@ A. Give IV potassium as a bolus push
 B. Discontinue all fluids
 C. Administer oral potassium supplements
 D. Restrict potassium-rich foods
-NOTES: Causes: hypovolemia, dehydration, abnormal fluid losses (bleeding, N/V, severe burns)
-S&S: ↓urine output, ↑ urine specific gravity, ↑HR, ↓BP, weak or thready pulse, poor turgor, ↑Hgb and 
-Hct
-, ↑ BUN, dry skin and mucous membranes
-Tx: treat the cause
-Fluid volume deficit- also called hypovolemia or Extracellular fluid volume deficit
-	Can also be caused by diuretics
-Hypovolemia occurs when there is a decrease in blood volume within the body due to loss of body fluids or blood.
-Excessive sweating, large burns, diuretics, inadequate fluid intake, and increased urination can lead to hypovolemia.
-36
 
-### ppt/slides/slide20.xml
+### Slide 20
 Calcium: 8.4 – 10.5 mg/dL
 Calcium helps the body maintain strong bones and is mostly stored in teeth and bones to support their hardness. 
 Calcium also helps muscles move, nerves to carry messages between the brain and body, and blood vessels to move blood throughout the body. 
 Low calcium levels are called hypocalcemia. 
 High calcium levels are called hypercalcemia.
-NOTES: At first, hypovolemia causes the nose, mouth, and other mucous membranes to dry out; the skin to lose elasticity; and urine output to decrease.
-The body then tries to compensate for volume loss by increasing the heart rate and strength of contractions.
-Blood vessels are constricted in the extremities to preserve blood flow for the heart, brain, and kidneys.
-“If sodium is like the salt in the soup (extracellular fluid), when you dilute the soup too much (free water excess) you get hyponatremia” 
-37
+SPEAKER NOTES FOR SLIDE 20:
+Hypoparathyroidism, low parathyroid hormone levels, is a common cause of low calcium levels.
+Hypercalcemia is most commonly caused by overactive parathyroid glands, or hyperparathyroidism.
+20
 
-### ppt/slides/slide21.xml
+### Slide 21
 Causes:
 Renal failure
 Cancer
@@ -392,17 +337,19 @@ Thirst
 Bone pain
 Muscle weakness
 Hypercalcemia – greater than 10.5 mg/dL
-NOTES: Hypervolemia, or fluid overload, is a condition where the body has too much water. This is commonly caused by problems with the kidneys as they are responsible for balancing the salt and fluid in the body. The goal of treatment is to rid the body of excess fluid.
-Causes: renal or cardiac failure, too much fluids, over irrigation of wounds
-S&S: ↑BP &  Bounding pulse, Crackles, weight gain, distended neck veins, pitting edema, ↓Hgb and 
-Hct
-, ↓ BUN and creatinine, ↓ urine specific gravity
-Tx: treat the cause
-A client who has heart failure can experience hypervolemia because the heart is no longer able to effectively circulate the blood—a condition that also impacts the ability of the kidneys to excrete fluid, leading to a fluid imbalance. 
-Cirrhosis, an inflammation of the liver associated with fibrosis of the tissues, can cause fluid retention and edema as fluid becomes sequestered in the abdomen. 
-40
+SPEAKER NOTES FOR SLIDE 21:
+The most common causes of hypercalcemia are hyperparathyroidism and cancer. Both of these conditions result in excessive calcium being drawn from the bones and into the bloodstream. In hyperparathyroidism, the parathyroid glands secrete excessive amount of the hormone PTH. The elevated PTH levels in the body then lead to increased absorption of calcium by the intestines, increased reabsorption by the kidneys, and increased bone resorption—a process that ultimately leads to excessive levels of calcium in the blood.
+Causes: Excessive Ca+/Vit D intake, bone tumors, fractures, hyperparathyroidism
+S&S: Pathological fractures, Decreases neuromuscular excitability, ↑HR/BP, bounding pulse, late bradycardia, confusion, lethargy
+RN Interventions:
+Monitor VS
+Cardiac monitor
+Restrict Ca+ intake
+Increase mobility
+Loop diuretic, isotonic IV fluids
+21
 
-### ppt/slides/slide22.xml
+### Slide 22
 Treatment:
 Identify underlying cause
 Mild: oral phosphate to block calcium absorption
@@ -419,9 +366,10 @@ Assess for bone pain — especially in cancer patients where bone metastasis may
 Seizure precautions in severe cases
 Low-calcium diet education: limit dairy, calcium-fortified foods
 Hypercalcemia – Treatment and Nursing Care
-NOTES: 41
+SPEAKER NOTES FOR SLIDE 22:
+The mnemonic for hypercalcemia symptoms is Bones, Groans, Moans, and Psychic Overtones — bone pain, GI symptoms (nausea, constipation, abdominal pain), muscle weakness, and neurological/psychiatric symptoms (confusion, depression, lethargy). Hypercalcemia of malignancy is one of the most common metabolic emergencies in cancer patients — it occurs when tumors either produce PTH-related peptide that mobilizes calcium from bone, or when bone metastases directly destroy bone and release calcium into the bloodstream. The nurse who sees a cancer patient with new confusion, nausea, and constipation should have hypercalcemia on their differential. Immobility is both a cause and a complication — bedbound patients continuously lose calcium from bone into the bloodstream, which is why encouraging ambulation is a direct treatment intervention and not just general care.
 
-### ppt/slides/slide23.xml
+### Slide 23
 Causes:
 Medications
 Inadequate vitamin D
@@ -438,16 +386,21 @@ Tetany
 Chest pain
 Dysrhythmias 
 Hypocalcemia – less than 8.4 mg/dL
-NOTES: Causes: hypovolemia, dehydration, abnormal fluid losses (bleeding, N/V, severe burns)
-S&S: ↓urine output, ↑ urine specific gravity, ↑HR, ↓BP, weak or thready pulse, poor turgor, ↑Hgb and 
-Hct
-, ↑ BUN, dry skin and mucous membranes
-Tx: treat the cause
-Fluid volume deficit- also called hypovolemia or Extracellular fluid volume deficit
-	Can also be caused by diuretics
-53
+SPEAKER NOTES FOR SLIDE 23:
+Causes: inadequate Ca+/Vit D intake, diarrhea, hypoparathyroidism, renal disease
+Hypoparathyroidism - 
+Body produces low levels of parathyroid hormone (PTH). The parathyroid glands, which are located in the neck behind the thyroid gland, are responsible for the secretion of PTH. The function of PTH is to maintain the proper amount of calcium in the body. Among the various causes of decreased PTH in the body, the most common are thyroid or neck surgery. Decreased PTH may lead to the need for lifetime supplementation of calcium.
+S&S: Increases neuromuscular excitability, ↑ HR, ↓BP, tetany, tingling, twitching, + Chvostek’s and Trousseau’s sign
+RN Interventions:
+Monitor VS
+Check for Chvostek’s/Trousseau’s signs
+Initiate seizure precautions
+Increase Ca+ intake
+Calcium/Vit D supplements
+3 T’s are tetany, tingling, and twitching
+23
 
-### ppt/slides/slide24.xml
+### Slide 24
 Treatment:
 Identify underlying cause
 Mild: oral calcium supplements and vitamin D
@@ -464,26 +417,30 @@ Monitor deep tendon reflexes — hyperreflexia indicates worsening
 Educate on dietary calcium and vitamin D sources
 Long-term: monitor bone density — chronic hypocalcemia causes osteopenia and osteoporosis
 Hypocalcemia – Treatment and Nursing Care
+SPEAKER NOTES FOR SLIDE 24:
+. The nurse who recognizes stridor or respiratory distress in a 
+hypocalcemic
+ patient must treat this as an airway emergency. This is why calcium gluconate must be readily available at the bedside of any patient with severely low calcium. Chvostek's and Trousseau's signs are classic physical examination findings that confirm neuromuscular irritability from hypocalcemia. Trousseau's is considered more sensitive and specific than Chvostek's. A positive Trousseau's sign — carpal spasm when the blood pressure cuff is inflated — is a reliable indicator that the patient has significant hypocalcemia even when symptoms are otherwise absent.
 
-### ppt/slides/slide25.xml
+### Slide 25
 Chvostek’s
 and 
 Trousseau’s
 
-### ppt/slides/slide26.xml
+### Slide 26
 Hypocalcemia
 Over time, the body takes calcium from bone, where it is stored, so as to maintain sufficient calcium levels in the blood. 
 Hypocalcemia can lead to 
 osteopenia
 , also known as low bone mass, and increase the risk of bone fractures and osteoporosis.
 
-### ppt/slides/slide27.xml
+### Slide 27
 Magnesium’s role in the body is to assist in the regulation of nerve and muscle function, blood pressure and blood sugar levels; as well as making bone, protein, and DNA. 
 Low magnesium levels are known as hypomagnesemia. 
 High levels are called hypermagnesemia.
 Magnesium: 1.5 – 2/5 mg/dL
 
-### ppt/slides/slide28.xml
+### Slide 28
 Causes:
 Kidney disease
 Excessive intake of magnesium
@@ -504,8 +461,20 @@ Dysrhythmias
 Seizures
 Cardiac arrest 
 Hypermagnesemia – greater than 2.5 mg/dL
+SPEAKER NOTES FOR SLIDE 28:
+The most common cause of hypermagnesemia is acute or chronic kidney disease, as the impaired kidneys fail to excrete enough magnesium through the urine. While hypermagnesemia is not likely to occur from dietary intake, underlying bowel conditions can cause decreased gastrointestinal motility and lead to increased magnesium absorption. These conditions can be exacerbated by treatment with opioids or anticholinergics—such medications increase the dwell time of food boluses in the intestines, allowing for greater absorption of electrolytes such as magnesium. Laxatives and antacids containing magnesium may also cause hypermagnesemia if intake is excessive, as can as use of psychotropic medications containing lithium.
+Causes: Overuse of antacids or laxatives with Mg+, renal failure, too much IV Magnesium
+S&S: ↓HR, BP, and RR, loss of deep tendon reflexes
+RN Interventions:
+Monitor VS
+Neuro and Muscular checks
+Monitor respiratory
+Monitor LOC
+IV Calcium gluconate
+IV furosemide
+28
 
-### ppt/slides/slide29.xml
+### Slide 29
 Treatment:
 Identify underlying cause
 Stop all magnesium sources: supplements, laxatives, antacids containing magnesium
@@ -522,8 +491,11 @@ Have calcium gluconate at the bedside as antidote
 Assess level of consciousness — confusion and sedation indicate worsening
 Educate patients on avoiding OTC magnesium-containing products
 Hypermagnesemia – Treatment and Nursing Care
+SPEAKER NOTES FOR SLIDE 29:
+Deep tendon reflex assessment is the most critical nursing monitoring tool in hypermagnesemia — more immediately useful than waiting for lab results. The sequence of progression with rising magnesium levels follows a predictable pattern: decreased DTRs appear first, then hypotension and flushing, then respiratory depression, then cardiac arrest. Loss of the patellar reflex (knee jerk) is the clinical warning that magnesium levels are approaching dangerous territory. This is particularly relevant for patients receiving therapeutic IV magnesium for preeclampsia or eclampsia — obstetric nurses monitor DTRs continuously during magnesium infusions for exactly this reason. Calcium gluconate is the antidote and should be at the bedside of any patient on IV magnesium. This is a high-alert medication requiring double-checking with a second 
+nurse
 
-### ppt/slides/slide30.xml
+### Slide 30
 Causes:
 Medications 
 Loop of thiazide diuretics 
@@ -545,8 +517,19 @@ Seizures
 +Chvostek’s and Trousseau’s
 Cardiac dysrhythmias 
 Hypomagnesemia – less than 1.5 mg/dL
+SPEAKER NOTES FOR SLIDE 30:
+Causes: Malnutrition, malabsorption, alcoholism, diarrhea, diuretics
+S&S: Same as Hypocalcemia
+RN Interventions:
+Monitor VS
+Check for Chvostek’s/Trousseau’s signs
+Initiate seizure precautions
+Increase Mg+ intake
+PO Mg+ supplements
+ETOH- increase renal magnesium excretion
+30
 
-### ppt/slides/slide31.xml
+### Slide 31
 Treatment:
 Identify underlying cause
 Mild: oral magnesium supplements
@@ -563,34 +546,36 @@ Assess Chvostek's and Trousseau's signs — may be positive with concurrent hypo
 Seizure precautions for symptomatic patients
 Educate on magnesium-rich foods
 Hypomagnesemia – Treatment and Nursing Care
+SPEAKER NOTES FOR SLIDE 31:
+The relationship between magnesium, potassium, and calcium is clinically critical and frequently tested. Magnesium is required for the sodium-potassium ATPase pump to function — without adequate magnesium the kidneys cannot retain potassium regardless of how much replacement is given. A patient with concurrent hypokalemia and hypomagnesemia who receives potassium replacement but not magnesium will continue to waste potassium renally. Correcting magnesium first — or simultaneously — is essential. The same relationship exists with calcium: PTH secretion and function requires magnesium. Patients on long-term PPIs are at particular risk for hypomagnesemia because PPIs reduce magnesium absorption in the gut — this is a FDA warning that was issued in 2011 and applies to all PPIs at prescription doses used for more than one year.
 
-### ppt/slides/slide32.xml
+### Slide 32
 IV magnesium administration
 IV magnesium is a high-alert medication. Doses must be double checked with another nurse to verify concentration. 
 Can cause respiratory depression, decrease in level of consciousness, flushing, and sweating
 
-### ppt/slides/slide33.xml
+### Slide 33
 Which of the following statements are correct about hypocalcemia? SATA 
 It can lead to osteopenia
 Dialysis is always required as a treatment
 Inadequate vitamin D can lead to hypocalcemia
  Puts client at risk for seizures
 
-### ppt/slides/slide34.xml
+### Slide 34
 Which intervention is appropriate for mild hypocalcemia?
 A. Administer loop diuretics
 B. Administer kayexalate
 C. Restrict fluid intake
 D. Increase intake of vitamin D and calcium-rich foods
 
-### ppt/slides/slide35.xml
+### Slide 35
 Which complication can occur if IV magnesium is infused too rapidly?
 A. Tachycardia
 B. Respiratory depression
 C. Hyperreflexia
 D. Hypertension
 
-### ppt/slides/slide36.xml
+### Slide 36
 Causes:
 Dehydration
 Abnormal fluid losses
@@ -604,11 +589,28 @@ Severe burns
 Trauma
 Fluid Volume Deficit (Hypovolemia)
 Fluid Volume Deficit is characterized by a loss of both fluid and electrolytes. It can lead to a decrease in circulating blood volume and perfusion to the tissues.
+SPEAKER NOTES FOR SLIDE 36:
+Causes: hypovolemia, dehydration, abnormal fluid losses (bleeding, N/V, severe burns)
+S&S: ↓urine output, ↑ urine specific gravity, ↑HR, ↓BP, weak or thready pulse, poor turgor, ↑Hgb and 
+Hct
+, ↑ BUN, dry skin and mucous membranes
+Tx: treat the cause
+Fluid volume deficit- also called hypovolemia or Extracellular fluid volume deficit
+	Can also be caused by diuretics
+Hypovolemia occurs when there is a decrease in blood volume within the body due to loss of body fluids or blood.
+Excessive sweating, large burns, diuretics, inadequate fluid intake, and increased urination can lead to hypovolemia.
+36
 
-### ppt/slides/slide37.xml
+### Slide 37
 Fluid Volume Deficit (Hypovolemia)
+SPEAKER NOTES FOR SLIDE 37:
+At first, hypovolemia causes the nose, mouth, and other mucous membranes to dry out; the skin to lose elasticity; and urine output to decrease.
+The body then tries to compensate for volume loss by increasing the heart rate and strength of contractions.
+Blood vessels are constricted in the extremities to preserve blood flow for the heart, brain, and kidneys.
+“If sodium is like the salt in the soup (extracellular fluid), when you dilute the soup too much (free water excess) you get hyponatremia” 
+37
 
-### ppt/slides/slide38.xml
+### Slide 38
 Fluid Volume Deficit (Hypovolemia)
 Diagnostic tests:
 BMP/CMP
@@ -626,11 +628,11 @@ Oral rehydration
 If moderate or severe:
 IV fluids
 
-### ppt/slides/slide39.xml
+### Slide 39
 Hypovolemic Shock 
 A client may have no signs of hypovolemia or hypovolemic shock which is when the body has lost 20 percent or one-fifth of its blood or fluid supply. Treatment is aimed at controlling fluid or blood loss, replacing those components, and restoring overall circulation in the body.
 
-### ppt/slides/slide40.xml
+### Slide 40
 Fluid Volume Excess is a fluid condition in which the body has too much water and sodium in the extracellular space
 Causes:
 Causes more related to disease process
@@ -640,11 +642,23 @@ Nephrotic syndrome
 Cirrhosis or end-stage liver disease
 Too much fluid administered while in healthcare setting 
 Fluid Volume Excess (Hypervolemia)
+SPEAKER NOTES FOR SLIDE 40:
+Hypervolemia, or fluid overload, is a condition where the body has too much water. This is commonly caused by problems with the kidneys as they are responsible for balancing the salt and fluid in the body. The goal of treatment is to rid the body of excess fluid.
+Causes: renal or cardiac failure, too much fluids, over irrigation of wounds
+S&S: ↑BP &  Bounding pulse, Crackles, weight gain, distended neck veins, pitting edema, ↓Hgb and 
+Hct
+, ↓ BUN and creatinine, ↓ urine specific gravity
+Tx: treat the cause
+A client who has heart failure can experience hypervolemia because the heart is no longer able to effectively circulate the blood—a condition that also impacts the ability of the kidneys to excrete fluid, leading to a fluid imbalance. 
+Cirrhosis, an inflammation of the liver associated with fibrosis of the tissues, can cause fluid retention and edema as fluid becomes sequestered in the abdomen. 
+40
 
-### ppt/slides/slide41.xml
+### Slide 41
 Fluid Volume Excess (Hypervolemia)
+SPEAKER NOTES FOR SLIDE 41:
+41
 
-### ppt/slides/slide42.xml
+### Slide 42
 Diagnostic tests:
 BMP/CMP
 To evaluate sodium levels
@@ -658,37 +672,46 @@ Daily weights
 If in kidney failure, then may require dialysis 
 Fluid Volume Excess (Hypervolemia)
 
-### ppt/slides/slide43.xml
+### Slide 43
 Questions?
 
-### ppt/slides/slide44.xml
+### Slide 44
 Infographics for your use if you like more of a visual look at things
 
-### ppt/slides/slide45.xml
+### Slide 45
 
 
-### ppt/slides/slide46.xml
+### Slide 46
 
 
-### ppt/slides/slide47.xml
+### Slide 47
 
 
-### ppt/slides/slide48.xml
+### Slide 48
 
 
-### ppt/slides/slide49.xml
+### Slide 49
 
 
-### ppt/slides/slide50.xml
+### Slide 50
 
 
-### ppt/slides/slide51.xml
+### Slide 51
 
 
-### ppt/slides/slide52.xml
+### Slide 52
 
 
-### ppt/slides/slide53.xml
+### Slide 53
 Fluid Volume Deficit
+SPEAKER NOTES FOR SLIDE 53:
+Causes: hypovolemia, dehydration, abnormal fluid losses (bleeding, N/V, severe burns)
+S&S: ↓urine output, ↑ urine specific gravity, ↑HR, ↓BP, weak or thready pulse, poor turgor, ↑Hgb and 
+Hct
+, ↑ BUN, dry skin and mucous membranes
+Tx: treat the cause
+Fluid volume deficit- also called hypovolemia or Extracellular fluid volume deficit
+	Can also be caused by diuretics
+53
 
-### ppt/slides/slide54.xml
+### Slide 54

@@ -166,7 +166,7 @@ const STUDY_HUB = [
         icon: "📋",
         description: "Fundamentals of Nursing, patient safety, nursing care & clinical judgment",
         exams: [
-          {name: "Exam 3", updatedAt: "2026-11-08T21:00:00Z", versions: [{version: "Exam 3 — 330-question practice bank", file: "exam.html?bank=fundamentals-exam-3-standard&v=fund3-cm-20261108", description: "Full 50-question blueprint or custom practice across seven categories and 33 subtopics. Includes weight-based numeric medication calculations."}]},
+          {name: "Exam 3", updatedAt: "2026-11-08T21:00:00Z", versions: [{version: "Exam 3 — 330-question practice bank", file: "exam.html?bank=fundamentals-exam-3-standard&v=fund3-source-pages-20261108", description: "Full 50-question blueprint or custom practice across seven categories and 33 subtopics. Includes weight-based numeric medication calculations."}]},
           {
             name: "Exam 2", updatedAt: "2026-10-25T12:00:00Z",
             versions: [

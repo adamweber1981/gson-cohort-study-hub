@@ -1,5 +1,12 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-11-08 — Development: exact source document pages
+
+- Replaced all 330 question reference targets with original PDFs or layout-preserving PDF renderings of Word and PowerPoint sources.
+- Linked slide notes using actual presentation relationships and retained complete notes in the generated documents. Added precise primary, additional-page, and related-source links.
+- Verified all PDF file hashes, page bounds, unchanged question content/keys, and ten targeted supporting-content checks.
+- Updated viewer loading controls and development cache version.
+
 ## 2026-11-08 — Development: report-aligned Concept Mastery
 
 - Replaced ten provisional Concept Mastery questions with 40 original questions aligned to the uploaded term competency report; bank now has 330 questions across 33 subtopics.

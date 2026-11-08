@@ -1,15 +1,11 @@
 
-### ppt/slides/slide1.xml
+### Slide 1
 Week 9 Questions
-NOTES: B
-3
 
-### ppt/slides/slide2.xml
+### Slide 2
 Electrolytes
-NOTES: A
-4
 
-### ppt/slides/slide3.xml
+### Slide 3
 A client with chronic heart failure presents with confusion, nausea, and a sodium level of 128 
 mEq
 /L. Which cause most likely explains this finding? 
@@ -17,10 +13,11 @@ Excessive sweating
 Fluid retention
 Inadequate dietary intake of salt
 Renal potassium wasting
-NOTES: B
-5
+SPEAKER NOTES FOR SLIDE 3:
+B
+3
 
-### ppt/slides/slide4.xml
+### Slide 4
 Which client is at risk for development of a sodium level of 130 
 mEq
 /L?
@@ -28,10 +25,11 @@ The client who is taking diuretics
 The client with hyperaldosteronism
 The client with Cushing’s syndrome
 The client who is taking corticosteroids
-NOTES: C
-6
+SPEAKER NOTES FOR SLIDE 4:
+A
+4
 
-### ppt/slides/slide5.xml
+### Slide 5
 A client with SIADH has a serum sodium of 118 
 mEq
 /L. The nurse finds the client newly confused and lethargic. Which action should the nurse take first?
@@ -39,10 +37,11 @@ Obtain a urine specific gravity
 Initiate seizure precautions and notify the provider immediately
 Reorient the client and reassess in 2 hours
 Encourage the client to drink more water
-NOTES: B
-7
+SPEAKER NOTES FOR SLIDE 5:
+B
+5
 
-### ppt/slides/slide6.xml
+### Slide 6
 A client with a sodium of 150 
 mEq
 /L is treated with IV fluids. Which principle is most important?
@@ -50,10 +49,11 @@ Decrease sodium level rapidly
 Increase dietary sodium
 Decrease sodium level slowly
 Administer diuretics immediately
-NOTES: All but C
-8
+SPEAKER NOTES FOR SLIDE 6:
+C
+6
 
-### ppt/slides/slide7.xml
+### Slide 7
 A client has K of 6.1 
 mEq
 /L. Which provider order should the nurse complete first?
@@ -61,10 +61,11 @@ Administer oral potassium
 Place the client on a cardiac monitor
 Start potassium-sparing diuretic
 Encourage high potassium foods
-NOTES: C
-9
+SPEAKER NOTES FOR SLIDE 7:
+B
+7
 
-### ppt/slides/slide8.xml
+### Slide 8
 Potassium chloride intravenously is prescribed for a client with heart failure experiencing hypokalemia. Which actions would the nurse take to plan for preparation and administration of potassium? Select all that apply.
 Obtain an IV pump
 Monitor urine output during administration
@@ -72,19 +73,21 @@ Prepare the medication for bolus administration
 Monitor the IV site for signs of infiltration or phlebitis
 Ensure the medication is diluted in the appropriate volume of fluid
 Ensure the bag is labeled with the volume of potassium in the solution
-NOTES: C
-10
+SPEAKER NOTES FOR SLIDE 8:
+All but C
+8
 
-### ppt/slides/slide9.xml
+### Slide 9
 A client with severe hypokalemia (K 2.6) has a new order for potassium chloride IV. Which nursing action is the priority?
 Check the client’s urine output at the end of the shift
 Administer the potassium as an undiluted IV push for rapid correction
 Verify the dilution and rate, use an infusion pump, and place the client on cardiac monitoring
 Encourage the client to eat potassium rich foods
-NOTES: A, C, D
-11
+SPEAKER NOTES FOR SLIDE 9:
+C
+9
 
-### ppt/slides/slide10.xml
+### Slide 10
 A client on furosemide (Lasix) develops K of 3.0 
 mEq
 /L. Which intervention is appropriate?
@@ -92,124 +95,142 @@ Give IV potassium as a bolus push
 Discontinue all fluids
 Administer oral potassium supplements
 Restrict potassium rich foods
-NOTES: D
-12
+SPEAKER NOTES FOR SLIDE 10:
+C
+10
 
-### ppt/slides/slide11.xml
+### Slide 11
 Which of the following statements are correct about hypocalcemia? Select all that apply.
 It can lead to osteopenia
 Dialysis is always required as a treatment
 Inadequate vitamin D can lead to hypocalcemia
 Puts client at risk for seizures
-NOTES: D
-13
+SPEAKER NOTES FOR SLIDE 11:
+A, C, D
+11
 
-### ppt/slides/slide12.xml
+### Slide 12
 Which intervention is appropriate for mild hypocalcemia?
 Administer loop diuretics
 Administer kayexalate
 Restrict fluid intake
 Increase intake of vitamin D and calcium-rich foods
-NOTES: B
-14
+SPEAKER NOTES FOR SLIDE 12:
+D
+12
 
-### ppt/slides/slide13.xml
+### Slide 13
 A client is 1 day post total thyroidectomy. The client repots numbness and tingling around the mouth and in the fingertips. Which action should the nurse take first?
 Notify the surgeon of the symptoms
 Reassure the client that this is a normal postoperative finding
 Document the findings in the chart
 Assess for a positive Chvostek’s or Trousseau’s sign
-NOTES: A
-15
+SPEAKER NOTES FOR SLIDE 13:
+D
+13
 
-### ppt/slides/slide14.xml
+### Slide 14
 Which complication can occur if IV magnesium is infused too rapidly?
 Tachycardia
 Respiratory depression
 Hyperreflexia
 Hypertension 
-NOTES: D
-17
+SPEAKER NOTES FOR SLIDE 14:
+B
+14
 
-### ppt/slides/slide15.xml
+### Slide 15
 The nurse is caring for four clients on a medical-surgical unit. Which client should the nurse assess first?
 A client with hyperkalemia (K 6.8) with peaked T waves on the monitor
 A client with hypercalcemia (Ca 11) who reports constipation
 A client with hyponatremia (Na 131) who is mildly fatigued
 A client with hypokalemia (K 3.2) who reports leg cramps
-NOTES: A
-18
+SPEAKER NOTES FOR SLIDE 15:
+A
+15
 
-### ppt/slides/slide16.xml
+### Slide 16
 Fluid Imbalances
-NOTES: A
-19
 
-### ppt/slides/slide17.xml
+### Slide 17
 On review of the clients’ medical records, the nurse determines that which client is at risk for fluid volume excess?
 The client taking diuretics who has tenting of the skin
 The client with an ileostomy from a recent abdominal surgery
 The client who requires intermittent gastrointestinal suctioning
 The client with kidney disease that developed as a complication of diabetes mellitus
-NOTES: C
-20
+SPEAKER NOTES FOR SLIDE 17:
+D
+17
 
-### ppt/slides/slide18.xml
+### Slide 18
 The nurse caring for a client with heart failure who has been receiving IV diuretics suspects that the client is experiencing a fluid volume deficit. Which assessment finding would the nurse note in a client with this condition?
 Weight loss and poor skin turgor
 Lung congestion and increased heart rate
 Decreased hematocrit and increased urine output
 Increased respirations and increased blood pressure
-NOTES: A
-22
+SPEAKER NOTES FOR SLIDE 18:
+A
+18
 
-### ppt/slides/slide19.xml
+### Slide 19
 The nurse is assigned to care for a group of clients. On review of the client’s medical records, the nurse determines that which client is most likely at risk for a fluid volume deficit?
 A client with an ileostomy
 A client with heart failure
 A client on long-term corticosteroid therapy
 A client receiving frequent wound irrigations
-NOTES: C
-23
+SPEAKER NOTES FOR SLIDE 19:
+A
+19
 
-### ppt/slides/slide20.xml
+### Slide 20
 The nurse is caring for a client with severe dehydration from vomiting and diarrhea. Vital signs: BP 84/50, HR 124, RR 22. Which prescribed intervention should the nurse implement first?
 Obtain a 24 hour diet recall
 Insert a urinary catheter for strict intake and output
 Start isotonic IV fluid bolus
 Provide oral care and sips of clear liquids
-NOTES: A
-24
+SPEAKER NOTES FOR SLIDE 20:
+C
+20
 
-### ppt/slides/slide21.xml
+### Slide 21
 ABGs
-NOTES: B
-25
 
-### ppt/slides/slide22.xml
+### Slide 22
 The nurse is caring for a client with several broken ribs. The client is most likely to experience which type of acid-base imbalance?
 Respiratory acidosis from inadequate ventilation
 Respiratory alkalosis from anxiety and hyperventilation
 Metabolic acidosis from calcium loss due to broken bones
 Metabolic alkalosis from taking analgesics containing base products
+SPEAKER NOTES FOR SLIDE 22:
+A
+22
 
-### ppt/slides/slide23.xml
+### Slide 23
 The nurse is caring for a client who is on a mechanical ventilator. Blood gas results indicate a pH of 7.50 and PaCO2 of 30. The nurse has determined that the client is experiencing respiratory alkalosis. Which laboratory value would most likely be noted in this condition?
 Magnesium level of 1.8
 Sodium level of 145
 Potassium level of 3.0
 Magnesium level of 2.0
+SPEAKER NOTES FOR SLIDE 23:
+C
+23
 
-### ppt/slides/slide24.xml
+### Slide 24
 The nurse reviews the blood gas results of a client with atelectasis. The nurse analyzes the results and determines that the client is experiencing respiratory acidosis. Which result validates the nurse’s findings?
 pH 7.25, PaCO2 50
 pH 7.35, PaCO2 40
 pH 7.50, PaCO2 52
 pH 7.52, PaCO2 28
+SPEAKER NOTES FOR SLIDE 24:
+A
+24
 
-### ppt/slides/slide25.xml
+### Slide 25
 The nurse is caring for a client with a nasogastric tube that is attached to low suction. The nurse monitors the client for manifestations of which disorder that the client is at risk for?
 Metabolic acidosis
 Metabolic alkalosis
 Respiratory acidosis
 Respiratory alkalosis
+SPEAKER NOTES FOR SLIDE 25:
+B
+25
