@@ -121,3 +121,5 @@ The approved revision changes question content, not the engine contract. SATA no
 ## Fundamentals Exam 3 preview — November 8, 2026
 
 `fundamentals-exam-3-standard` embeds its blueprint in the bank so it uses the existing runner without new bank-specific fetching code. Standard mode assembles 50 questions with exact topic/subtopic allocations and seven numeric dosage entries. Custom mode exposes seven categories and 30 subtopics with 10 items each. The bank also carries 6–10 SATA, 4–6 matching, and 4–6 true/false practice-format ranges. Allocation assumptions, source handling, and review evidence are documented in [the preview record](12-FUNDAMENTALS-EXAM-3.md). No engine state or grading logic changed.
+
+Source-link wording now uses “Source on GitHub” for both original files and clearly labeled text companions. This label change does not alter reference routing or exam behavior.

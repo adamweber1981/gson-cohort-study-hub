@@ -27,7 +27,7 @@ Dosage has seven numeric slots, split 3 daily totals/2 individual doses/2 volume
 
 Bank composition: 162 MCQ, 54 SATA, 27 matching, 27 true/false, 30 numeric. The full practice exam enforces 6–10 SATA, 4–6 matching, and 4–6 true/false as practice-format design ranges, not instructor claims. Its seven Dosage Calculation questions are numeric. Custom mode does not enforce those ranges.
 
-The runner/core are unchanged. Setup, one-question display, explicit submission, locked feedback, forward-only progression, final scoring, read-only review, reset confirmation, source viewer, answer shuffle, and all-or-nothing SATA/matching remain in place. Numeric items state units and rounding, carry exact numeric keys, and accept equivalent numeric formatting. The engine does not retain scores after a refresh.
+The runner/core selection and grading logic are unchanged. The shared GitHub link label now says “Source on GitHub” so text companions are not mislabeled as original Office/PDF files. Setup, one-question display, explicit submission, locked feedback, forward-only progression, final scoring, read-only review, reset confirmation, source viewer, answer shuffle, and all-or-nothing SATA/matching remain in place. Numeric items state units and rounding, carry exact numeric keys, and accept equivalent numeric formatting. The engine does not retain scores after a refresh.
 
 The course catalog marks Fundamentals Exam 3 as the newest update. Existing recency behavior moves Fundamentals to the first home position and opens Exam 3 while keeping Exam 2 collapsed. Course-data URLs in index and service-worker precache are versioned together. Question banks and PDF references retain the existing cache bypass.
 
