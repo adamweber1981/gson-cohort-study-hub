@@ -1,0 +1,91 @@
+
+### ppt/slides/slide1.xml
+Nutrition Pictures & Questions
+NOTES: 7
+
+### ppt/slides/slide2.xml
+Thickened Liquids
+NOTES: D
+11
+
+### ppt/slides/slide3.xml
+
+NOTES: D
+12
+
+### ppt/slides/slide4.xml
+Clear Liquid Diet
+NOTES: C
+13
+
+### ppt/slides/slide5.xml
+Texture-Modification Diets
+Pureed
+Soft Mechanical 
+NOTES: A
+14
+
+### ppt/slides/slide6.xml
+Types of NGTs
+Salem Sump
+Dobhoff
+/Feeding Tube
+NOTES: B
+15
+
+### ppt/slides/slide7.xml
+Enteral Feedings
+NOTES: A, C
+16
+
+### ppt/slides/slide8.xml
+Parenteral Nutrition
+
+### ppt/slides/slide9.xml
+Feeding Tubes
+
+### ppt/slides/slide10.xml
+Types of Central Lines 
+
+### ppt/slides/slide11.xml
+The nurse is caring for a patient with a dysphagia diet and is feeding her pureed chicken. Suddenly the patient begins to choke. What is the priority nursing intervention? 
+A. Suction her mouth and throat
+B. Turn her on her side
+C. Apply 2L oxygen
+D. Stop feeding her
+
+### ppt/slides/slide12.xml
+A patient is receiving both PN and EN. When would the nurse collaborate with the health care provider and request a discontinuation of PN?
+When 25% of patient’s nutritional needs are met by the tube feedings
+When bowl sounds return
+When the central line has been in for 10 days
+When 75% of patient’s nutritional needs are met by tube feeding
+
+### ppt/slides/slide13.xml
+A patient is receiving a continuous enteral feeding at 65ml/hr. The residual volume in 4 hours was 125ml. What is the priority nursing intervention?
+Assess bowel sounds
+Raise the head of the bed to at least 45 degrees
+Continue the feedings; this is normal gastric residual for this feeding
+Hold the feeding until you talk to the physician
+
+### ppt/slides/slide14.xml
+Which action can a nurse delegate to the assistive personnel? 
+Performing glucose monitoring q6h on a stable patient
+Teaching the patient about the need for enteral feeding
+Administering enteral feeding bolus after tube placement has been verified
+Evaluating the patient’s tolerance of enteral feedings
+
+### ppt/slides/slide15.xml
+A nurse sees an AP perform the following interventions for a patient receiving continuous enteral feedings. Which action would require immediate attention by the nurse?
+Fastening tube to the gown with new tape
+Placing patient supine while giving a bath
+Monitoring the patient’s weight as ordered
+Ambulating patient with enteral feedings still infusing
+
+### ppt/slides/slide16.xml
+A patient is receiving TPN. What are the primary interventions the nurse should follow to prevent a central line infection? Select all that apply.
+Change the dressing using sterile technique
+Change TPN containers every 48 hours
+Change TPN tubing every 24 hours
+Monitor glucose levels to watch and assess for glucose intolerance
+Elevate HOB to 45 degrees to prevent aspiration

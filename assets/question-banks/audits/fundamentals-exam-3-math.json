@@ -1,0 +1,305 @@
+{
+  "count": 30,
+  "results": [
+    {
+      "id": "fund-e3-0101",
+      "expression": "24*33",
+      "unrounded": "792",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "792",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0102",
+      "expression": "30*(66/2.2)",
+      "unrounded": "9.0E+2",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "900",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0103",
+      "expression": "40*18.5",
+      "unrounded": "740.0",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "740",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0104",
+      "expression": "30*(44/2.2)",
+      "unrounded": "6.0E+2",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "600",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0105",
+      "expression": "15*(110/2.2)",
+      "unrounded": "7.5E+2",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "750",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0106",
+      "expression": "18*27-450",
+      "unrounded": "36",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "36",
+      "units": "mg/day difference",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0107",
+      "expression": "25*(79.2/2.2)",
+      "unrounded": "900",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "900",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0108",
+      "expression": "20*28",
+      "unrounded": "560",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "560",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0109",
+      "expression": "12.5*16",
+      "unrounded": "200.0",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "200",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0110",
+      "expression": "22*(47/2.2)",
+      "unrounded": "469.9999999999999999999999999",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "470",
+      "units": "mg/day",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0111",
+      "expression": "960/(24/6)",
+      "unrounded": "240",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "240",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0112",
+      "expression": "720/(24/8)",
+      "unrounded": "240",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "240",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0113",
+      "expression": "30*22/2",
+      "unrounded": "330",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "330",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0114",
+      "expression": "18*(88/2.2)/(24/12)",
+      "unrounded": "3.6E+2",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "360",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0115",
+      "expression": "6*45/(24/8)",
+      "unrounded": "90",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "90",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0116",
+      "expression": "0.4*20",
+      "unrounded": "8.0",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "8",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0117",
+      "expression": "0.05*(154/2.2)",
+      "unrounded": "3.5",
+      "roundingPlaces": 1,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "3.5",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0118",
+      "expression": "48*15/(24/4)",
+      "unrounded": "120",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "120",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0119",
+      "expression": "1200/(24/12)",
+      "unrounded": "600",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "600",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0120",
+      "expression": "18*25/3",
+      "unrounded": "150",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "150",
+      "units": "mg/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0121",
+      "expression": "300/150*5",
+      "unrounded": "10",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "10",
+      "units": "mL",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0122",
+      "expression": "80/40*2",
+      "unrounded": "4",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "4",
+      "units": "mL",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0123",
+      "expression": "0.02*55/2",
+      "unrounded": "0.55",
+      "roundingPlaces": 2,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "0.55",
+      "units": "mL",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0124",
+      "expression": "20*(33/2.2)/2/100*5",
+      "unrounded": "7.5",
+      "roundingPlaces": 1,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "7.5",
+      "units": "mL/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0125",
+      "expression": "4*48/(24/8)/40*2",
+      "unrounded": "3.2",
+      "roundingPlaces": 1,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "3.2",
+      "units": "mL/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0126",
+      "expression": "125/250*5",
+      "unrounded": "2.5",
+      "roundingPlaces": 1,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "2.5",
+      "units": "mL",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0127",
+      "expression": "0.015*(132/2.2)/4",
+      "unrounded": "0.225",
+      "roundingPlaces": 2,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "0.23",
+      "units": "mL",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0128",
+      "expression": "12*18/3/120*5",
+      "unrounded": "3.0",
+      "roundingPlaces": 0,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "3",
+      "units": "mL/dose",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0129",
+      "expression": "6/10*2",
+      "unrounded": "1.2",
+      "roundingPlaces": 1,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "1.2",
+      "units": "mL",
+      "status": "PASS"
+    },
+    {
+      "id": "fund-e3-0130",
+      "expression": "0.1*(66/2.2)/2",
+      "unrounded": "1.5",
+      "roundingPlaces": 1,
+      "rounding": "half up at final answer only",
+      "verifiedAnswer": "1.5",
+      "units": "mL",
+      "status": "PASS"
+    }
+  ]
+}

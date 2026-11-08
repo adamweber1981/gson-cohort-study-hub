@@ -1,5 +1,16 @@
 # GSON Cohort 1 Accelerated Study Hub — Changelog
 
+## 2026-11-08 — Development: Fundamentals Exam 3
+
+- Added 300 source-mapped questions across the blueprint's seven categories and 30 selectable subtopics, 10 questions per subtopic.
+- Added full 50-question blueprint assembly and cross-category custom selection with a user-selected question count. Includes 30 numeric medication calculations, all independently checked.
+- Preserved explicitly numbered blueprint subtopics. Documented implementation allocations for unnumbered subtopics and the undefined Concept Mastery label.
+- Added 19 labeled source text companions, original-file hash inventory, editorial decisions, grading/coverage/assembly audit, and reproducible validation scripts.
+- Fundamentals now appears first on Home in development, with Exam 3 expanded and Exam 2 collapsed. Existing engine behavior and other banks are unchanged.
+- Validation: 100 full assemblies, all 30 custom pools, 1,134 grading checks, independent numeric recalculation, and no exact stem duplicates within the bank or against prior Fundamentals banks.
+- Staged on `pwa-redesign` for the Render test site; not merged to main. See [implementation record](References/Design%20Documentation/12-FUNDAMENTALS-EXAM-3.md).
+
+
 ## 2026-10-31 — Modern Workspace production release
 
 - Removed the separate Study Hub brand label and centered the combined school/cohort SVG in the mobile header.

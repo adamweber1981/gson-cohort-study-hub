@@ -1,0 +1,172 @@
+
+### ppt/slides/slide1.xml
+Dosage calculation #3
+NUR3260
+1/28/26
+NOTES: 1
+
+### ppt/slides/slide2.xml
+Weight based medications
+ Many medications are prescribed by weight – especially in pediatric population 
+Basing medications on weight ensures correct dosages
+1/28/26
+NOTES: 7
+
+### ppt/slides/slide3.xml
+Mg/kg/day
+ Some prescriptions may be written as milligrams per kilogram of body weight per day
+ We then need to determine how many milligrams of a medication the client can have per day based on their weight in kilograms
+1/28/26
+Order states: Administer 20mg/kg/day
+Client weighs 112lbs
+How many milligrams can they have per day?
+1) need to convert 112lbs to kg
+112lb/2.2 = 50.9kg
+2) Take mg x kg
+20mg x 50.9kg
+= 1,018mg/day
+OR
+112lb
+2.2lb
+1 kg
+1kg
+20mg
+2240
+=
+2.2lb
+= 1,018mg/day
+NOTES: 9
+
+### ppt/slides/slide4.xml
+Single doses
+ prescription should then indicate how many doses the client will receive throughout the day
+ Most often every 4, 6, 8 , or 12 hours (q4, q6, etc...) 
+ Divide total daily by how many times a day client will receive...so:
+Q4 = 6 times a day (24 hours divided by every 4 hours = 6)
+Q6 = 4 times a day
+Q8 = 3 times a day
+Q12 = 2 times a day
+ So example from last slide = 1,018mg/day
+ How many mg would be delivered per dose if ordered Q6? What about Q12? Round to nearest whole number
+1/28/26
+Q6 = 1,018/4 = 255mg
+Q12 = 1,018/2 = 509mg
+If doing dimensional analysis you can add this into the equation:
+- add 1 day over 24 hours and ___ hours over 1dose
+
+### ppt/slides/slide5.xml
+Practice
+Provider orders Tobramycin 4mg/kg/day to be administered every 8 hours
+Client weighs 60kg
+Available: Tobramycin 40mg/2ml
+How many ml should the nurse give per dose? (round to whole number) 
+1/28/26
+4mg
+60kg
+1kg
+40mg
+2ml
+4mgx 60 = 240mg per day
+240mg
+40mg
+X 2ml
+= 12ml per day
+12 / 3 = 
+4ml per dose 
+1 day
+24 hours
+8 hour
+1 dose
+= 
+3840
+960
+= 4ml
+OR
+
+### ppt/slides/slide6.xml
+More practice
+Order states: administer lorazepam 0.05mg/kg one time before surgery.
+Client weighs 192lbs
+Available: Lorazepam 2mg/ml
+How many ml will the nurse administer? Round to nearest whole number
+1/28/26
+192lb
+1kg
+0.05mg
+1ml
+9.6
+2.2lb
+1kg
+2mg
+4.4
+= 
+= 2.09 = 2 ml
+OR
+192/2.2 = 87.272727 kg
+0.05 x 87.272727 kg = 4.363636mg
+4.363636
+x1ml
+= 2ml 
+2
+
+### ppt/slides/slide7.xml
+Weight based practice 
+You have on hand hydromorphone (
+Dilaudid
+) 4 mg/
+mL.
+ You need to administer 0.015 mg/kg to a patient who weighs 150 pounds. How many milliliters should you administer? 
+ Record your answer using two decimal places.
+150lbs
+2.2
+=  68.2kg
+68.2kg x 0.015mg/kg
+= 1.023 mg
+1.023mg
+4mg
+1mL
+= 0.26mL
+1)
+2)
+3)
+150lb
+2.2lb
+1kg
+1kg
+0.015mg
+1mL
+4mg
+2.25
+8.8
+= 0.255 = 0.26mL
+OR
+
+### ppt/slides/slide8.xml
+CONSIDERATIONS
+ What needs to be in prescription
+Date and time prescription written 
+Client’s full name
+Name of medication
+Indication (reason)
+Dose: amount times or frequency of administration and strength 
+Route of admin
+Any specific instructions (ex. Take with food or without)
+Signature
+ Abbreviations to avoid:
+QD – once daily but looks like QID (4 times daily)
+HS – could mean bedtime or half-strength
+DC – could mean discharge or discontinue 
+ What would you do if you have a prescription missing a piece or with one of the above abbreviations? 
+1/28/26
+
+### ppt/slides/slide9.xml
+Reading a medication package
+1/28/26
+
+### ppt/slides/slide10.xml
+Reading packaging
+1/28/26
+
+### ppt/slides/slide11.xml
+Questions?
+1/28/26

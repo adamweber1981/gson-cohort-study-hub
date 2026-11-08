@@ -1,0 +1,120 @@
+PRE-CLASS PREP                                                                         Know Before You Go
+
+Blood Transfusions & ABGs
+Read this before class — it will make the lecture click faster.
+
+
+
+  Big picture: Two distinct topics covered today — blood transfusion safety and acid-base interpretation.
+  Both require pattern recognition and systematic thinking. ABGs are read the same way every time;
+  learning the steps now makes it automatic.
+
+
+
+  BLOOD PRODUCTS
+
+  • Packed RBCs: restore blood levels without substantially increasing volume
+
+  • Whole blood: used for significant blood loss (trauma, surgery)
+
+  • Plasma: liquid portion containing clotting factors
+
+  • Platelets: stop or prevent bleeding; used in transplants, cancer, surgery
+
+  • Universal donor: O− · Universal recipient: AB+
+
+  • Blood type and crossmatch required before transfusion
+
+
+
+  BEFORE & DURING TRANSFUSION
+
+  • Signed consent; pre-transfusion vital signs
+
+  • Two-nurse check before beginning
+
+  • IV size ideally 18–20 gauge; infuse with normal saline only
+
+  • RN stays with client for first 15 minutes — most common time for reaction
+
+  • Vital signs at 15 min after start, then minimum hourly
+
+  • Must complete within 4 hours of leaving blood bank
+
+  • If reaction: stop transfusion immediately, keep IV open with NS, remain with client, send blood bag
+     and tubing to blood bank
+
+
+
+  ABG NORMAL VALUES & INTERPRETATION STEPS
+
+
+                                                            pH
+                                                        7.35 – 7.45
+                                                     <7.35 = acidosis
+                                                     >7.45 = alkalosis
+
+
+                                                           CO2
+                                                      35 – 45 mmHg
+                                                  Respiratory component
+
+
+                                                           HCO3
+                                                      22 – 26 mEq/L
+                                                   Metabolic component
+
+
+    1 Look at pH — acidosis (<7.35) or alkalosis (>7.45)?
+
+
+    2 Use ROME — Respiratory Opposite, Metabolic Equal. If pH and CO2 move in opposite directions →
+       respiratory. If pH and HCO3 move in same direction → metabolic.
+
+    3 Identify compensation — if all three values are abnormal → partially compensated. If pH is back
+       in normal range → fully compensated.
+THE FOUR ABG DISORDERS
+
+
+ Respiratory Acidosis — pH ↓ · CO2 ↑
+ Lungs retaining too much CO2
+ Causes (DEPRESS): Drugs, Edema, Pneumonia, Respiratory center damage, Emboli, Spasm (asthma),
+ Sac elasticity (COPD)
+ S&S: shallow respirations, confusion, fatigue, headache, cyanosis
+ Tx: improve ventilation; O2; bronchodilators; naloxone if opioid-related; may need intubation if CO2
+ >50
+
+ Respiratory Alkalosis — pH ↑ · CO2 ↓
+ Lungs losing too much CO2
+ Causes (TACHypnea): Temperature elevation, Anxiety, Conditions causing ↓O2,
+ Hypoxemia/hyperventilation
+ S&S: rapid breathing, tingling in extremities, light-headedness, tachycardia
+ Tx: treat cause; keep calm; coach slow breathing; fall precautions
+
+ Metabolic Acidosis — pH ↓ · HCO3 ↓
+ Kidneys have too little bicarb / too much H+
+ Causes (MUDPILES): Malnutrition, Uremia, DKA, Poisoning, Isoniazid, Lactic acidosis, Ethanol, Severe
+ diarrhea
+ S&S: Kussmaul respirations, fruity breath (DKA), confusion, flushed skin
+ Tx: treat cause; IV bicarb if severe; seizure precautions; monitor K⁺ closely
+
+ Metabolic Alkalosis — pH ↑ · HCO3 ↑
+ Kidneys have too much bicarb / too little H+
+ Causes: excess antacids, diuretics, vomiting, prolonged NG suction, hyperaldosteronism, blood
+ transfusions
+ S&S: hypoventilation, tingling, muscle twitching, confusion
+ Tx: treat cause; IV fluids; replace K⁺; antiemetics; monitor for respiratory distress
+
+
+
+COMPENSATION — HOW THE BODY RESPONDS
+
+• Lungs respond first — fast (minutes to hours); control CO2; if acidotic → blow off CO2; if alkalotic →
+
+ retain CO2
+• Kidneys respond second — slow (hours to days); control H+ and HCO3; if acidotic → reabsorb HCO3
+
+ and secrete H+; if alkalotic → reabsorb H+ and secrete HCO3
+• When one organ causes the problem, the other compensates — this is why all three values may be
+ abnormal in partially or fully compensated states
+
