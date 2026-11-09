@@ -1,0 +1,116 @@
+{
+  "id": "health-assessment-exam-3-standard",
+  "course": "Health Assessment",
+  "examNumber": "Exam 3",
+  "total": 50,
+  "topics": {
+    "Chapter 14": 8,
+    "Chapter 20": 7,
+    "Chapter 21": 11,
+    "Chapter 22": 8,
+    "Chapter 23": 8,
+    "Chapter 26": 4,
+    "Chapter 27": 4
+  },
+  "subtopics": {
+    "Chapter 14": {
+      "MASD": 1,
+      "Skin cancer prevention": 1,
+      "Pressure injury staging": 3,
+      "Pressure injury risks": 1,
+      "Primary skin lesions": 1,
+      "Nail assessment": 1
+    },
+    "Chapter 20": {
+      "Breast findings and disorders": 3,
+      "Breast cancer risks": 1,
+      "Gynecomastia": 1,
+      "Breast examination": 1,
+      "Breast tumor location": 1
+    },
+    "Chapter 21": {
+      "Jugular pressure technique": 1,
+      "JVD and right heart failure": 1,
+      "Cardiac cycle sounds and valve sites": 4,
+      "Coronary disease risks": 1,
+      "Carotid auscultation": 1,
+      "Carotid palpation": 1,
+      "Chest pain and MI": 2
+    },
+    "Chapter 22": {
+      "PAD risks and education": 1,
+      "Abdominal aortic aneurysm": 1,
+      "Arterial venous and neuropathic ulcers": 3,
+      "PAD and intermittent claudication": 1,
+      "Peripheral edema": 1,
+      "Lower extremity pulses": 1
+    },
+    "Chapter 23": {
+      "Assessment sequence and absent sounds": 2,
+      "Bowel sound interpretation": 1,
+      "GERD teaching": 1,
+      "Peptic ulcer prevention": 1,
+      "Constipation causes": 1,
+      "Special abdominal tests": 1,
+      "Abdominal assessment preparation": 1
+    },
+    "Chapter 26": {
+      "Prostate cancer": 1,
+      "Testicular self examination": 1,
+      "Hypospadias and epispadias": 1,
+      "Older adult male changes": 1
+    },
+    "Chapter 27": {
+      "Cervical cancer risks": 1,
+      "Older adult female changes": 1,
+      "Hemorrhoid teaching": 1,
+      "Oral contraceptive effects": 1
+    }
+  },
+  "selectionGroups": {
+    "Chapter 14 — Skin": [
+      "Chapter 14"
+    ],
+    "Chapter 20 — Breast and lymphatic system": [
+      "Chapter 20"
+    ],
+    "Chapter 21 — Cardiovascular": [
+      "Chapter 21"
+    ],
+    "Chapter 22 — Peripheral vascular": [
+      "Chapter 22"
+    ],
+    "Chapter 23 — Abdomen": [
+      "Chapter 23"
+    ],
+    "Chapter 26 — Male genitourinary": [
+      "Chapter 26"
+    ],
+    "Chapter 27 — Female genitourinary": [
+      "Chapter 27"
+    ]
+  },
+  "types": {
+    "mcq": {
+      "min": 33,
+      "max": 33
+    },
+    "visual": {
+      "min": 5,
+      "max": 5
+    },
+    "sata": {
+      "min": 0,
+      "max": 12
+    },
+    "matching": {
+      "min": 0,
+      "max": 12
+    }
+  },
+  "alternateFormatCount": 12,
+  "policy": {
+    "source": "3120 Fall 2026 Exam 3 Blueprint.pdf",
+    "selection": "Exact chapter and row quotas; 33 multiple choice, 12 supported alternate-format questions (SATA/matching), and 5 picture questions. Ordering and text fill-in are not supported by the current runner."
+  }
+}

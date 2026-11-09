@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "questions": 390,
+  "chapters": 7,
+  "subcategories": 39,
+  "perSubcategory": 10,
+  "sourceFiles": 18,
+  "sourceLinksChecked": 803,
+  "randomizedFullExams": 250,
+  "fullExamFormats": {
+    "mcq": 33,
+    "alternate": 12,
+    "visual": 5
+  },
+  "types": {
+    "mcq": 298,
+    "sata": 39,
+    "matching": 39,
+    "visual": 14
+  }
+}

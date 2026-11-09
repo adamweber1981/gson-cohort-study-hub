@@ -1,0 +1,138 @@
+[
+  {
+    "name": "20210426_170740.jpg",
+    "path": "References/Assessment/Exams/Exam 3/20210426_170740.jpg",
+    "bytes": 953917,
+    "sha256": "90ec3307046a46c798994288ff00be59773a632b1124ce5c2cb01b3ac03abc74",
+    "gitBlobSha": "03b131a86b98dcce0a6095844820e0303c482d52"
+  },
+  {
+    "name": "3120 Fall 2026 Exam 3 Blueprint.pdf",
+    "path": "References/Assessment/Exams/Exam 3/3120 Fall 2026 Exam 3 Blueprint.pdf",
+    "bytes": 59867,
+    "sha256": "faed82fe2309547f2cc3cb475405a487023085a6d35826f00219893b61019db2",
+    "gitBlobSha": "0c73aa730f83c1d7411f76fc5e3b843bb417d2ee",
+    "pages": 3
+  },
+  {
+    "name": "Chapter 14 8th edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 14 8th edition.pdf",
+    "bytes": 3911194,
+    "sha256": "b695065157689da0632efa13567951179b3525a6cb967a7a4d20a16098deeb24",
+    "gitBlobSha": "a8d15f26acd82079feebe62578691abae48ffd23",
+    "pages": 38
+  },
+  {
+    "name": "Chapter 20 8th edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 20 8th edition.pdf",
+    "bytes": 2033037,
+    "sha256": "2587ceb31aa3102fe9026bcae31d42fc6f5102b665e374b4daf1a49b94429bc3",
+    "gitBlobSha": "f4eab1a14f181a0ee080b8e6cb00a3a356d3fdde",
+    "pages": 23
+  },
+  {
+    "name": "Chapter 21 8th Edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 21 8th Edition.pdf",
+    "bytes": 2227979,
+    "sha256": "d3e8150ddcff618c6da014722ba2319409f192731c0ef63d7592fc8152c01624",
+    "gitBlobSha": "6796d2f3ac7a3ae519e1a7d2569854cf2a127c3e",
+    "pages": 36
+  },
+  {
+    "name": "Chapter 22 8th Edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 22 8th Edition.pdf",
+    "bytes": 2307003,
+    "sha256": "ba8ef6267f070b8db75a99e0e58533991802e023170e011a3ff5b8721b0b3757",
+    "gitBlobSha": "0d09d264a24b8c906cf2e6b91fa4b456510c004e",
+    "pages": 28
+  },
+  {
+    "name": "Chapter 23 8th edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 23 8th edition.pdf",
+    "bytes": 1483381,
+    "sha256": "2ce85010bb8f9b1d89217eae9646f864384821315055550f4808a07f516a0e16",
+    "gitBlobSha": "b5b45b8dd6fb81efbc954f80197ce9fd670a7250",
+    "pages": 25
+  },
+  {
+    "name": "Chapter 26 8th edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 26 8th edition.pdf",
+    "bytes": 1671608,
+    "sha256": "a16799a7a4cd0f686e78463c5f16d5f7a9d9e92df07909a2bc4a039e4eeb1533",
+    "gitBlobSha": "444fa463e7d8a49a68f81d685175e3793001fbe2",
+    "pages": 15
+  },
+  {
+    "name": "Chapter 27 8th edition.pdf",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 27 8th edition.pdf",
+    "bytes": 1076918,
+    "sha256": "b908257dc316c8dd38986dbb415b418c457c1fdeffebd99c454b7a54e851085c",
+    "gitBlobSha": "33c957676de0cf39749c61be9ecf6ad55a08f38b",
+    "pages": 23
+  },
+  {
+    "name": "Chapter 27 8th edition.pptx",
+    "path": "References/Assessment/Exams/Exam 3/Chapter 27 8th edition.pptx",
+    "bytes": 4705751,
+    "sha256": "870bf980b7b27d06d8d0150f9c5269629d7d1df6a418de107807cec5108a6d7f",
+    "gitBlobSha": "171b044d096bd7704fdca77f551df37d00368566"
+  },
+  {
+    "name": "Fast facts Arterial vs. Venous insufficiency.png",
+    "path": "References/Assessment/Exams/Exam 3/Fast facts Arterial vs. Venous insufficiency.png",
+    "bytes": 1563271,
+    "sha256": "1e95228e09002285150a6a88af05271b676d1bd0104180b038b7395cb729d331",
+    "gitBlobSha": "16bf9991ce053ee60102ce74985fc92bc92790f6"
+  },
+  {
+    "name": "Fast facts Breast cancer.png",
+    "path": "References/Assessment/Exams/Exam 3/Fast facts Breast cancer.png",
+    "bytes": 703851,
+    "sha256": "e47905cca063a31d41a1870daa16ad40478ea3905b9876c27308299d19aa439b",
+    "gitBlobSha": "6f416e8215604dcbce4981babaf8c4bb60dc048f"
+  },
+  {
+    "name": "Fast facts abdomen.png",
+    "path": "References/Assessment/Exams/Exam 3/Fast facts abdomen.png",
+    "bytes": 516071,
+    "sha256": "5fca6ce86d752db0436624acbdc2ba391647f74b3683ec5ee5889f5486fe5ba5",
+    "gitBlobSha": "850ffde5f19d2fefff8370b7731e8c33e0e2c6ac"
+  },
+  {
+    "name": "Fast facts auscultation of heart sounds.png",
+    "path": "References/Assessment/Exams/Exam 3/Fast facts auscultation of heart sounds.png",
+    "bytes": 1496464,
+    "sha256": "29aa3619fe9db64e5f27e178cbf2edb250053424b76af9c83d7a293a85ca1515",
+    "gitBlobSha": "e5b9aa2337bfa3f2e7a5be55549fbd17ffc3cf3f"
+  },
+  {
+    "name": "Fast facts cardiac cycle.png",
+    "path": "References/Assessment/Exams/Exam 3/Fast facts cardiac cycle.png",
+    "bytes": 3810986,
+    "sha256": "e928a1d59f7cec908937556c6f1ae8400a4b757a5f51814fadfc58cd6168909a",
+    "gitBlobSha": "e50c67d56606f9d2eee74e7b97932a8cde84d37b"
+  },
+  {
+    "name": "NURS_3120_Exam_3_Completed_Study_Guide.docx",
+    "path": "References/Assessment/Exams/Exam 3/NURS_3120_Exam_3_Completed_Study_Guide.docx",
+    "bytes": 46108,
+    "sha256": "3fc176b60589c341c1f2a7c89ce350bbb1229411813dbf04eab5302ea3ef6c2b",
+    "gitBlobSha": "e2bfb94e67cd35bdd979e2c15afbc0482a643268"
+  },
+  {
+    "name": "NURS_3120_Exam_3_Completed_Study_Guide.pdf",
+    "path": "References/Assessment/Exams/Exam 3/NURS_3120_Exam_3_Completed_Study_Guide.pdf",
+    "bytes": 157134,
+    "sha256": "f162f5187641293ec207858dd403143c9aff6a889ef2d5cee95f80b1ff1a0e13",
+    "gitBlobSha": "271e5124745bd1353b49778e18ffd835ce8d9cef",
+    "pages": 9
+  },
+  {
+    "name": "exam 3 quiz questions and answers.pdf",
+    "path": "References/Assessment/Exams/Exam 3/exam 3 quiz questions and answers.pdf",
+    "bytes": 4243991,
+    "sha256": "e0a706248d8a50b1e89d9510144be58d5109a16b1680bda4df2a6ef37f46efea",
+    "gitBlobSha": "fd91a4156931b127ea23ee5a5ff42092a2b92438",
+    "pages": 17
+  }
+]

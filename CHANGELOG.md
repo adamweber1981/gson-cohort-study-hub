@@ -1,3 +1,14 @@
+# Health Assessment Exam 3 development update
+
+## November 8 2026
+
+- Added 390 Health Assessment Exam 3 questions, seven chapter categories, and 39 selectable subcategories with 10 questions each.
+- Full exams enforce all supplied blueprint row quotas and exactly 33 MCQ, 12 SATA/matching, and five picture questions. Custom practice combines chosen subcategories and a question count.
+- Preserved all 18 Exam 3 sources in their original formats and linked question feedback to the completed guide plus supporting chapter/quiz pages. Added source inventory and integrity hashes.
+- Added original study schematics and versioned requests for the new entry.
+- Added reproducible key, source/page, custom selection, grading, and 250-run blueprint checks.
+- Staged on pwa-redesign; no production promotion.
+
 # Original reference files — 2026-11-08
 
 Replaced Fundamentals Exam 3 extracted text references with the 19 original uploaded PDF, PowerPoint and Word files. Removed extracted source copies and the two sensory/gas-exchange text files from the mistaken rollback. All 330 question bodies and answer keys unchanged. PDFs retain the existing viewer; Office documents open/download their original file. Private performance report remains unpublished. Production main unchanged.
@@ -257,6 +268,7 @@ _Recorded in the existing HTML changelog; several legacy exam links were subsequ
 4. Never include secrets, admin tokens, push endpoints, personal data, or student-identifying analytics.
 5. Maintain the existing [public HTML changelog](References/changelogs/changelog.html) for students as needed; this Markdown file is the repository's detailed development/release history.
 6. Consult [GitHub commit history](https://github.com/adamweber1981/gson-cohort-study-hub/commits/main/) for individual file-level changes and exact chronology.
+
 
 
 

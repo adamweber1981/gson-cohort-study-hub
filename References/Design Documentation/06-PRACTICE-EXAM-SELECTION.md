@@ -72,3 +72,9 @@ The new 300-question bank offers seven main categories and 30 children with 10 q
 ### Concept Mastery expansion
 
 Fundamentals Exam 3 now has 330 questions in 33 ten-question subtopics. Concept Mastery exposes four report-aligned choices, including Impaired speech and communication. Selecting the whole category makes 40 questions available. The full 50-question exam still draws exactly two Concept Mastery items at random across those domains. A domain is not guaranteed in a particular full exam. Custom practice lets the student focus on it directly.
+
+
+
+## Health Assessment Exam 3 development preview
+
+390 questions across seven chapters and 39 subcategories, 10 per subcategory. Full exams enforce the instructor’s 50-question row quotas and 33 MCQ / 12 alternate / 5 picture format. Custom practice combines selected subcategories with a user-chosen count. See [implementation and source mapping](14-HEALTH-ASSESSMENT-EXAM-3.md).
