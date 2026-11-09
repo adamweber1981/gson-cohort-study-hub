@@ -1,3 +1,9 @@
+# November 9, 2026 — ABG reference ranges
+
+- Reviewed all 30 Fundamentals Exam 3 ABG questions. Added normal reference ranges to the ten numeric interpretation prompts: fund-e3-0031–0036, 0038–0040, and 0046.
+- Included pH 7.35–7.45, PaCO2 35–45 mmHg, and HCO3 22–26 mEq/L where those values are used; pH-only and pH/PaCO2 prompts show only their relevant ranges.
+- Left the 20 conceptual/cause/intervention questions unchanged. Verified all 330 questions remain and no answer keys, rationales, options, references, or blueprint settings changed.
+
 # Health Assessment Exam 3 development update
 
 ## November 8 2026

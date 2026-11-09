@@ -1331,7 +1331,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "mcq",
-      "stem": "An ABG shows pH 7.29, PaCO2 55 mmHg, and HCO3 25 mEq/L. Which interpretation fits?",
+      "stem": "An ABG shows pH 7.29, PaCO2 55 mmHg, and HCO3 25 mEq/L. Which interpretation fits?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "The pH is acidotic and PaCO2 is elevated in the opposite direction. Normal bicarbonate indicates no metabolic compensation.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1366,7 +1366,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "mcq",
-      "stem": "The nurse reviews pH 7.49, PaCO2 29 mmHg, and HCO3 24 mEq/L. Which disorder is present?",
+      "stem": "The nurse reviews pH 7.49, PaCO2 29 mmHg, and HCO3 24 mEq/L. Which disorder is present?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Elevated pH with low PaCO2 identifies respiratory alkalosis. Bicarbonate remains in range.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1401,7 +1401,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "mcq",
-      "stem": "A client has pH 7.27, PaCO2 39 mmHg, and HCO3 17 mEq/L. Which value identifies the primary cause of the pH change?",
+      "stem": "A client has pH 7.27, PaCO2 39 mmHg, and HCO3 17 mEq/L. Which value identifies the primary cause of the pH change?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Low bicarbonate moves in the same direction as the acidotic pH, indicating metabolic acidosis. PaCO2 is still normal.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1436,7 +1436,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "mcq",
-      "stem": "Which report should the nurse identify as uncompensated metabolic alkalosis?",
+      "stem": "Which report should the nurse identify as uncompensated metabolic alkalosis?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "A high pH and high bicarbonate with normal PaCO2 indicate uncompensated metabolic alkalosis. Units are mmHg for PaCO2 and mEq/L for bicarbonate.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1471,7 +1471,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "mcq",
-      "stem": "ABGs show pH 7.32, PaCO2 31 mmHg, and HCO3 16 mEq/L. How should the nurse classify this pattern?",
+      "stem": "ABGs show pH 7.32, PaCO2 31 mmHg, and HCO3 16 mEq/L. How should the nurse classify this pattern?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Low bicarbonate explains the low pH. Low PaCO2 reflects respiratory compensation, but the pH remains abnormal.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1506,7 +1506,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "mcq",
-      "stem": "A client with chronic CO2 retention has pH 7.37, PaCO2 52 mmHg, and HCO3 29 mEq/L. Which course-level interpretation fits?",
+      "stem": "A client with chronic CO2 retention has pH 7.37, PaCO2 52 mmHg, and HCO3 29 mEq/L. Which course-level interpretation fits?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "The pH is within range on the acidic side of 7.40. Elevated PaCO2 is offset by elevated bicarbonate, consistent with compensated respiratory acidosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1584,7 +1584,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "sata",
-      "stem": "The pH is 7.51, PaCO2 48 mmHg, and HCO3 36 mEq/L. Which conclusions are supported? Select all that apply.",
+      "stem": "The pH is 7.51, PaCO2 48 mmHg, and HCO3 36 mEq/L. Which conclusions are supported? Select all that apply.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "High bicarbonate explains the alkalemia. PaCO2 moves toward acidity, but the pH is still high, so compensation is partial.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1627,7 +1627,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "truefalse",
-      "stem": "A pH of 7.40 by itself is sufficient to rule out an acid–base disorder.",
+      "stem": "A pH of 7.40 by itself is sufficient to rule out an acid–base disorder.\n\nNormal reference range: pH 7.35–7.45.",
       "rationale": "The nurse must also evaluate PaCO2 and bicarbonate. Compensated disorders may have a pH within the expected interval.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1654,7 +1654,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "matching",
-      "stem": "Match the ABG pattern to its primary disorder. PaCO2 is in mmHg and HCO3 in mEq/L.",
+      "stem": "Match the ABG pattern to its primary disorder. PaCO2 is in mmHg and HCO3 in mEq/L.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Identify the direction of pH, then the component explaining it.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1885,7 +1885,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "mcq",
-      "stem": "A ventilated client has pH 7.52 and PaCO2 28 mmHg. Which action should the nurse anticipate?",
+      "stem": "A ventilated client has pH 7.52 and PaCO2 28 mmHg. Which action should the nurse anticipate?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg.",
       "rationale": "Excessive ventilation can remove too much CO2. Ventilator changes require appropriate provider/respiratory-team collaboration.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 14",
