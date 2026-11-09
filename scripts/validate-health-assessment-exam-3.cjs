@@ -1,6 +1,9 @@
 /* Run from repository root: node scripts/validate-health-assessment-exam-3.cjs */
 const fs=require('fs'),vm=require('vm'),assert=require('assert'),path=require('path');
-global.window=global;for(const f of ['exam-blueprint','exam-core','health-assessment-exam3-diagrams'])vm.runInThisContext(fs.readFileSync('assets/js/'+f+'.js','utf8'));
+global.window=global;for(const f of ['exam-blueprint','exam-core'])vm.runInThisContext(fs.readFileSync('assets/js/'+f+'.js','utf8'));
+// Load all diagram scripts in the real HTML order to detect a shared registry being overwritten.
+const html=fs.readFileSync('exam.html','utf8');
+for(const match of html.matchAll(/<script src="(assets\/js\/[^"]*diagrams\.js)(?:\?[^"]*)?"><\/script>/g))vm.runInThisContext(fs.readFileSync(match[1],'utf8'));
 const b=JSON.parse(fs.readFileSync('assets/question-banks/health-assessment-exam-3-standard.json'));
 const bp=JSON.parse(fs.readFileSync('assets/question-banks/blueprints/health-assessment-exam-3-standard.json'));
 assert.deepStrictEqual(b.blueprint,bp);ExamCore.validate(b);assert.equal(b.questions.length,390);

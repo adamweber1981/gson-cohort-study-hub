@@ -68,4 +68,7 @@ Run `node scripts/validate-health-assessment-exam-3.cjs` from the repository roo
 
 Changed runtime integration: new course entry in `course-data.js`; blueprint loading in `exam-runner.js`; new diagram script in `exam.html`; versioned shell requests and service worker cache. Existing course banks and grading logic are unchanged.
 
-Development test route: `exam.html?bank=health-assessment-exam-3-standard&v=ha3-390-20261108`. Production remains on `main`; this work is staged on `pwa-redesign`.
+Development test route: `exam.html?bank=health-assessment-exam-3-standard&v=ha3-390-v2-20261108`. Production remains on `main`; this work is staged on `pwa-redesign`.
+
+
+The new diagram script loads after the existing shared diagram registry assignment. The validator loads every diagram script in the actual exam HTML order, then verifies every visual question has a rendered SVG entry. This prevents an older script from discarding Exam 3 illustrations. Live browser checks confirmed mixed-category filtering, 13-question custom start, scoring of MCQ/SATA/matching, and primary/supporting PDF page jumps.

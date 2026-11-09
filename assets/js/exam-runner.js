@@ -188,7 +188,7 @@ if(bankId==="pathophysiology-exam-3-standard"){
 }
 
 if(bankId==="health-assessment-exam-3-standard"){
- const responseBlueprint=await fetch("assets/question-banks/blueprints/health-assessment-exam-3-standard.json?v=ha3-390-20261108",{cache:"no-store"});
+ const responseBlueprint=await fetch("assets/question-banks/blueprints/health-assessment-exam-3-standard.json?v=ha3-390-v2-20261108",{cache:"no-store"});
  if(!responseBlueprint.ok)throw Error("Health Assessment Exam 3 blueprint unavailable");
  bank.blueprint=await responseBlueprint.json();
  delete bank.previewCount;

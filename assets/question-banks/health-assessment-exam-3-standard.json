@@ -5432,11 +5432,11 @@
       "options": [
         {
           "id": "c",
-          "text": "A flat pigmented skin lesion"
+          "text": "Isolated arterial obstruction of one foot"
         },
         {
           "id": "b",
-          "text": "Isolated local toe ischemia"
+          "text": "An isolated local venous problem in one ankle"
         },
         {
           "id": "a",
@@ -5444,7 +5444,7 @@
         },
         {
           "id": "d",
-          "text": "Transient breast hormone changes"
+          "text": "Loss of protective sensation in one plantar area"
         }
       ],
       "correct": "a"
@@ -5478,15 +5478,15 @@
         },
         {
           "id": "b",
-          "text": "Reduced dermal pigment"
+          "text": "Reduced arterial flow to the toes"
         },
         {
           "id": "d",
-          "text": "Increased nail growth"
+          "text": "Loss of protective foot sensation"
         },
         {
           "id": "c",
-          "text": "Decreased bowel motility"
+          "text": "Localized capillary bleeding into the skin"
         }
       ],
       "correct": "a"
@@ -5738,15 +5738,15 @@
       "options": [
         {
           "id": "d",
-          "text": "They eliminate the need for a symptom history"
+          "text": "They distinguish angina from MI without a pain history"
         },
         {
           "id": "c",
-          "text": "They determine bowel sound frequency"
+          "text": "They prove that unilateral edema has a cardiac cause"
         },
         {
           "id": "b",
-          "text": "They establish a specific skin cancer diagnosis"
+          "text": "They exclude other causes of elevated venous pressure"
         },
         {
           "id": "a",
@@ -6468,7 +6468,7 @@
       "options": [
         {
           "id": "d",
-          "text": "Regular bowel sounds"
+          "text": "Normal cholesterol with regular activity"
         },
         {
           "id": "a",
@@ -6476,11 +6476,11 @@
         },
         {
           "id": "b",
-          "text": "Use of protective hats outdoors"
+          "text": "Normal glucose with healthy weight"
         },
         {
           "id": "c",
-          "text": "Normal breast asymmetry"
+          "text": "No tobacco use with a balanced diet"
         }
       ],
       "correct": "a"
@@ -7081,11 +7081,11 @@
       "options": [
         {
           "id": "d",
-          "text": "Bowel movement transmitted to the neck"
+          "text": "Normal silent flow through a patent vessel"
         },
         {
           "id": "c",
-          "text": "The S1 sound at the apex"
+          "text": "The usual apical S1 transmitted as a normal neck finding"
         },
         {
           "id": "a",
@@ -7093,7 +7093,7 @@
         },
         {
           "id": "b",
-          "text": "Normal silent flow through a patent vessel"
+          "text": "A normal smooth jugular venous pulse"
         }
       ],
       "correct": "a"
@@ -7358,15 +7358,15 @@
         },
         {
           "id": "d",
-          "text": "Breast tissue elasticity"
+          "text": "Only skin temperature and the presence of bruises"
         },
         {
           "id": "b",
-          "text": "Only skin pigment under the chin"
+          "text": "Only venous distention at the sternal angle"
         },
         {
           "id": "c",
-          "text": "Only bowel sound frequency"
+          "text": "Only whether the artery is visibly pulsatile"
         }
       ],
       "correct": "a"
@@ -7484,15 +7484,15 @@
         },
         {
           "id": "d",
-          "text": "Hormonal breast enlargement"
+          "text": "Improved cerebral flow from bilateral compression"
         },
         {
           "id": "b",
-          "text": "Increased bowel motility alone"
+          "text": "A normal response to a stronger arterial impulse"
         },
         {
           "id": "c",
-          "text": "A normal nail refill response"
+          "text": "Reduced peripheral edema from neck massage"
         }
       ],
       "correct": "a"
@@ -7722,11 +7722,11 @@
         },
         {
           "id": "c",
-          "text": "Cyclic breast tenderness"
+          "text": "Myocardial infarction with prolonged pressure"
         },
         {
           "id": "d",
-          "text": "Uncomplicated constipation"
+          "text": "Pericarditis with positional stabbing pain"
         },
         {
           "id": "a",
@@ -7760,15 +7760,15 @@
       "options": [
         {
           "id": "c",
-          "text": "Diabetic neuropathic ulcer"
+          "text": "Typical stable exertional angina"
         },
         {
           "id": "d",
-          "text": "Fibrocystic breast changes"
+          "text": "MI with prolonged heavy pressure"
         },
         {
           "id": "b",
-          "text": "Typical stable angina"
+          "text": "Aortic dissection with abrupt ripping pain"
         },
         {
           "id": "a",
@@ -8216,15 +8216,15 @@
       "options": [
         {
           "id": "b",
-          "text": "A stable freckle on the forearm"
+          "text": "Warm feet with prompt capillary refill"
         },
         {
           "id": "d",
-          "text": "Gradually graying pubic hair"
+          "text": "Symmetric palpable pedal pulses at baseline"
         },
         {
           "id": "c",
-          "text": "A longstanding congenital nipple inversion"
+          "text": "Skin that remains intact without new color changes"
         },
         {
           "id": "a",
@@ -8577,11 +8577,11 @@
       "options": [
         {
           "id": "d",
-          "text": "Normal postoperative bowel recovery"
+          "text": "Unchanged stable aneurysm without deterioration"
         },
         {
           "id": "b",
-          "text": "Expected stable aneurysm symptoms"
+          "text": "Chronic venous stasis limited to the ankles"
         },
         {
           "id": "a",
@@ -8589,7 +8589,7 @@
         },
         {
           "id": "c",
-          "text": "A typical isolated hemorrhoid flare"
+          "text": "Neuropathy limited to a plantar pressure point"
         }
       ],
       "correct": "a"
@@ -8797,15 +8797,15 @@
         },
         {
           "id": "c",
-          "text": "Client with normal weight and no tobacco exposure"
+          "text": "A younger active nonsmoker with normal blood pressure"
         },
         {
           "id": "d",
-          "text": "Client with a stable congenital nipple inversion"
+          "text": "A normal weight adult without family history"
         },
         {
           "id": "b",
-          "text": "Young active client with normal blood pressure"
+          "text": "A nonsmoker with normal lipids and regular exercise"
         }
       ],
       "correct": "a"
@@ -8883,7 +8883,7 @@
       "options": [
         {
           "id": "c",
-          "text": "Inflammation of a nail fold"
+          "text": "Obstruction of lower extremity lymph drainage"
         },
         {
           "id": "a",
@@ -8891,11 +8891,11 @@
         },
         {
           "id": "d",
-          "text": "Loss of vaginal mucosal thickness"
+          "text": "Narrowing of a distal leg artery by plaque"
         },
         {
           "id": "b",
-          "text": "Obstruction of a leg lymphatic vessel"
+          "text": "Enlargement of superficial veins from pooling"
         }
       ],
       "correct": "a"
@@ -9071,15 +9071,15 @@
       "options": [
         {
           "id": "c",
-          "text": "A primary pustule"
-        },
-        {
-          "id": "b",
           "text": "Arterial insufficiency"
         },
         {
+          "id": "b",
+          "text": "A neuropathic plantar ulcer"
+        },
+        {
           "id": "d",
-          "text": "Pubertal gynecomastia"
+          "text": "A pressure related wound with exposed fat"
         },
         {
           "id": "a",
@@ -9213,15 +9213,15 @@
         },
         {
           "id": "c",
-          "text": "Increased pubic hair growth"
+          "text": "Pronounced venous edema as the sole mechanism"
         },
         {
           "id": "b",
-          "text": "Excessive arterial pulse strength"
+          "text": "Increased distal arterial flow"
         },
         {
           "id": "d",
-          "text": "Increased nipple sensitivity"
+          "text": "A reliably intact warning pain response"
         }
       ],
       "correct": "a"
@@ -9484,15 +9484,15 @@
       "options": [
         {
           "id": "b",
-          "text": "Orthopnea"
+          "text": "Ischemic pain occurring at rest"
         },
         {
           "id": "c",
-          "text": "Gynecomastia"
+          "text": "Venous stasis aching with edema"
         },
         {
           "id": "d",
-          "text": "Rebound tenderness"
+          "text": "Neuropathic loss of protective sensation"
         },
         {
           "id": "a",
@@ -9652,7 +9652,7 @@
       "options": [
         {
           "id": "c",
-          "text": "Soft mobile axillary nodes"
+          "text": "Warm swollen ankle with brown staining"
         },
         {
           "id": "a",
@@ -9660,11 +9660,11 @@
         },
         {
           "id": "d",
-          "text": "Cyclic breast tenderness"
+          "text": "Painless plantar callus with sensory loss"
         },
         {
           "id": "b",
-          "text": "Warm swollen ankle with brown staining"
+          "text": "Strong pulses with a superficial medial ankle ulcer"
         }
       ],
       "correct": "a"
@@ -9778,7 +9778,7 @@
       "options": [
         {
           "id": "d",
-          "text": "Normal bowel sounds every 10 seconds"
+          "text": "Unchanged leg comfort during usual activity"
         },
         {
           "id": "a",
@@ -9786,11 +9786,11 @@
         },
         {
           "id": "c",
-          "text": "An unchanged nail lunula"
+          "text": "Normal prompt capillary refill at baseline"
         },
         {
           "id": "b",
-          "text": "Stable painless congenital nipple inversion"
+          "text": "A stable foot examination without wounds"
         }
       ],
       "correct": "a"
@@ -12377,7 +12377,7 @@
       "options": [
         {
           "id": "d",
-          "text": "A small soft mobile central node"
+          "text": "Usual formed brown stools without straining"
         },
         {
           "id": "a",
@@ -12385,11 +12385,11 @@
         },
         {
           "id": "c",
-          "text": "A normal pink nail bed"
+          "text": "Improved appetite without pain"
         },
         {
           "id": "b",
-          "text": "A stable flat freckle"
+          "text": "A comfortable baseline bowel pattern"
         }
       ],
       "correct": "a"
@@ -12461,7 +12461,7 @@
       "options": [
         {
           "id": "c",
-          "text": "Only the location of a congenital meatus"
+          "text": "Only whether the client eats large meals before bed"
         },
         {
           "id": "a",
@@ -12469,11 +12469,11 @@
         },
         {
           "id": "b",
-          "text": "Only the client's usual shoe size"
+          "text": "Only whether stools occur at the same time daily"
         },
         {
           "id": "d",
-          "text": "Only whether breast size is symmetric"
+          "text": "Only whether the client has noticed gas after meals"
         }
       ],
       "correct": "a"
@@ -13230,7 +13230,7 @@
       "options": [
         {
           "id": "c",
-          "text": "Carotid artery narrowing"
+          "text": "Appendiceal irritation"
         },
         {
           "id": "a",
@@ -13238,11 +13238,11 @@
         },
         {
           "id": "b",
-          "text": "Fibrocystic breast change"
+          "text": "Generalized postoperative ileus"
         },
         {
           "id": "d",
-          "text": "Neuropathic foot ulcer"
+          "text": "Uncomplicated gastroesophageal reflux"
         }
       ],
       "correct": "a"
@@ -13276,15 +13276,15 @@
         },
         {
           "id": "d",
-          "text": "Nipple tenderness before menstruation"
+          "text": "Sharp pain only as abdominal pressure is released"
         },
         {
           "id": "b",
-          "text": "Only normal painless hip motion"
+          "text": "Inspiratory pain beneath the right costal margin"
         },
         {
           "id": "c",
-          "text": "Left shoulder pain during quiet breathing"
+          "text": "RLQ pain only with rotation of a flexed right hip"
         }
       ],
       "correct": "a"
@@ -13314,15 +13314,15 @@
       "options": [
         {
           "id": "d",
-          "text": "Client prone with legs crossed"
+          "text": "Right leg straight while lying on the left side"
         },
         {
           "id": "b",
-          "text": "Both arms overhead"
+          "text": "Right costal margin palpated during inspiration"
         },
         {
           "id": "c",
-          "text": "Client standing on tiptoe"
+          "text": "Supine with pressure released from the RLQ"
         },
         {
           "id": "a",
@@ -13356,7 +13356,7 @@
       "options": [
         {
           "id": "d",
-          "text": "Different pulse locations at the ankle"
+          "text": "Pain with leg hyperextension versus rotation of a flexed hip"
         },
         {
           "id": "a",
@@ -13364,11 +13364,11 @@
         },
         {
           "id": "b",
-          "text": "Leg hyperextension versus internal hip rotation"
+          "text": "Pain during flexed hip rotation versus pain on leg extension"
         },
         {
           "id": "c",
-          "text": "Two sites of carotid palpation"
+          "text": "Pain during inspiration versus pain only on hip rotation"
         }
       ],
       "correct": "a"
@@ -13958,15 +13958,15 @@
       "options": [
         {
           "id": "b",
-          "text": "Cyclic breast tenderness and a mobile cyst"
+          "text": "A smooth uniform testis without nodules"
         },
         {
           "id": "d",
-          "text": "A transient hive after an insect bite"
+          "text": "A ventral meatus without urinary complaints"
         },
         {
           "id": "c",
-          "text": "A painless plantar ulcer with callus"
+          "text": "A retractable foreskin with no lesions"
         },
         {
           "id": "a",
@@ -14629,15 +14629,15 @@
       "options": [
         {
           "id": "b",
-          "text": "Only the prostate"
+          "text": "Only the prostate through the rectum"
         },
         {
           "id": "c",
-          "text": "Only the anal opening"
+          "text": "Only the penile shaft and foreskin"
         },
         {
           "id": "d",
-          "text": "Only the foreskin"
+          "text": "Only the inguinal lymph nodes"
         },
         {
           "id": "a",
@@ -15007,7 +15007,7 @@
       "options": [
         {
           "id": "d",
-          "text": "Soft versus firm breast tissue"
+          "text": "Foreskin retractability versus ability to return it"
         },
         {
           "id": "a",
@@ -15015,11 +15015,11 @@
         },
         {
           "id": "c",
-          "text": "Large versus small scrotal size"
+          "text": "Testis position versus scrotal size"
         },
         {
           "id": "b",
-          "text": "Painful versus painless urination only"
+          "text": "Penile skin integrity versus scrotal tenderness"
         }
       ],
       "correct": "a"
@@ -15185,11 +15185,11 @@
         },
         {
           "id": "d",
-          "text": "Gynecomastia"
+          "text": "Hypospadias"
         },
         {
           "id": "c",
-          "text": "Hypospadias"
+          "text": "Phimosis"
         }
       ],
       "correct": "a"
@@ -15463,15 +15463,15 @@
         },
         {
           "id": "d",
-          "text": "Vaginal atrophy"
+          "text": "A change in meatal position"
         },
         {
           "id": "c",
-          "text": "A carotid bruit"
+          "text": "A new increase in rugae as the expected effect"
         },
         {
           "id": "b",
-          "text": "Peau d’orange"
+          "text": "A decrease in penile length as the immediate effect"
         }
       ],
       "correct": "a"
@@ -16402,11 +16402,11 @@
         },
         {
           "id": "c",
-          "text": "Gynecomastia"
+          "text": "Uterine prolapse"
         },
         {
           "id": "d",
-          "text": "Epispadias"
+          "text": "Vaginal mucosal atrophy"
         }
       ],
       "correct": "a"
@@ -16436,15 +16436,15 @@
       "options": [
         {
           "id": "c",
-          "text": "Hypospadias"
-        },
-        {
-          "id": "b",
           "text": "Cystocele"
         },
         {
+          "id": "b",
+          "text": "Uterine prolapse"
+        },
+        {
           "id": "d",
-          "text": "A carotid thrill"
+          "text": "Vaginal mucosal atrophy"
         },
         {
           "id": "a",
@@ -16482,15 +16482,15 @@
         },
         {
           "id": "d",
-          "text": "Improved pelvic floor support with age"
+          "text": "Increased urethral elasticity with stronger pelvic muscles"
         },
         {
           "id": "c",
-          "text": "A new increase in breast glandular tissue"
+          "text": "A reduction in pubic hair density alone"
         },
         {
           "id": "b",
-          "text": "Increased urethral elasticity and stronger muscles"
+          "text": "Vaginal dryness without a pelvic support change"
         }
       ],
       "correct": "a"
@@ -17252,7 +17252,7 @@
       "options": [
         {
           "id": "c",
-          "text": "Regular physical activity with breaks"
+          "text": "Regular movement during travel"
         },
         {
           "id": "a",
@@ -17260,11 +17260,11 @@
         },
         {
           "id": "b",
-          "text": "Routine skin self assessment"
+          "text": "A lifestyle with regular physical activity"
         },
         {
           "id": "d",
-          "text": "A normal baseline bowel habit"
+          "text": "No tobacco use and regular movement breaks"
         }
       ],
       "correct": "a"
@@ -17340,15 +17340,15 @@
         },
         {
           "id": "c",
-          "text": "They increase nail plate keratin"
+          "text": "They reduce vaginal glycogen to zero"
         },
         {
           "id": "b",
-          "text": "They remove all vaginal secretions"
+          "text": "They prevent all local bacterial growth"
         },
         {
           "id": "d",
-          "text": "They eliminate local hormone exposure"
+          "text": "They eliminate estrogen effects on the mucosa"
         }
       ],
       "correct": "a"
