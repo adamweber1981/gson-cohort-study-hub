@@ -187,6 +187,13 @@ if(bankId==="pathophysiology-exam-3-standard"){
  delete bank.previewCount;
 }
 
+if(bankId==="health-assessment-exam-3-standard"){
+ const responseBlueprint=await fetch("assets/question-banks/blueprints/health-assessment-exam-3-standard.json?v=ha3-390-v2-20261108",{cache:"no-store"});
+ if(!responseBlueprint.ok)throw Error("Health Assessment Exam 3 blueprint unavailable");
+ bank.blueprint=await responseBlueprint.json();
+ delete bank.previewCount;
+}
+
 if(bankId==="health-assessment-exam-2-standard"){
  const responseBlueprint=await fetch("assets/question-banks/blueprints/health-assessment-exam-2-standard.json");
  if(!responseBlueprint.ok)throw Error("Health Assessment blueprint unavailable");
@@ -215,6 +222,7 @@ if(bankId==="fundamentals-exam-2-qa-standard"){
  }
 }
 engine=ExamCore.create(bank);showIntro()}catch(err){root.textContent="This exam is not ready: "+err.message}})();
+
 
 
 

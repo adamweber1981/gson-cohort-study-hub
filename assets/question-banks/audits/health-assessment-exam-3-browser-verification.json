@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verifiedRuntimeCommit": "1279e441bf99c3042ced0acf6ac4ca5626d089d5",
+  "developmentUrl": "https://gson-study-hub-test.onrender.com/exam.html?bank=health-assessment-exam-3-standard&v=ha3-390-v2-20261108",
+  "observations": {
+    "initialFullExam": "Question 1 of 50",
+    "categoryFiltering": "Skin plus Peripheral vascular = 120 available; MASD plus Peripheral edema = 20 available",
+    "customCount": "13-question attempt started",
+    "grading": "10-question custom attempt completed with MCQ, SATA, matching and score screen",
+    "pdfPrimary": "Completed study guide rendered at physical page 1 of 9",
+    "pdfSupporting": "Chapter 14 original PDF rendered at physical page 29 of 38 with instructor notes",
+    "pictures": "Full exam question 7 displayed the solid raised lesion SVG after load-order fix",
+    "readyForUser": "Reset to practice setup"
+  },
+  "automatedValidation": "250 seeded full exams with exact row and 33 MCQ / 12 alternate / 5 picture counts; all 39 ten-question custom pools; source/key/hash/page checks passed",
+  "production": {
+    "branch": "main",
+    "sha": "1b56a81eab96a0ba7058ed89124ff1d924a0af55",
+    "unchanged": true
+  },
+  "limits": "Browser checks cover representative interactions and PDF page jumps; the automated checks validate every source path/page bound. They do not independently certify clinical content."
+}

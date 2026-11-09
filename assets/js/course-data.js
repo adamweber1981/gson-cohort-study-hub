@@ -148,6 +148,7 @@ const STUDY_HUB = [
         icon: "🩺",
         description: "Nursing assessment techniques, findings, documentation and clinical judgment",
         exams: [
+          {name: "Exam 3", updatedAt: "2026-11-09T05:30:00Z", versions: [{version: "Exam 3 — 390-question practice bank", file: "exam.html?bank=health-assessment-exam-3-standard&v=ha3-390-v2-20261108", description: "Full 50-question blueprint with 33 MCQ, 12 alternate format and 5 pictures, or custom practice across seven chapters and 39 subcategories."}]},
           {
             name: "Exam 2", updatedAt: "2026-10-25T12:00:00Z",
             versions: [
@@ -186,5 +187,6 @@ const STUDY_HUB = [
       }
 
     ];
+
 
 
