@@ -1,0 +1,643 @@
+{
+  "id": "fundamentals-exam-3-amy-review-source",
+  "status": "source-transcription-not-yet-deployed-as-exam",
+  "source": "Fundies Review.pdf",
+  "notes": [
+    "These are instructor-review questions and answers, not yet converted into validated engine questions.",
+    "Image-dependent questions 5, 6, 25, 27, 35, 37, 39, 41 require original PDF imagery before exam publication.",
+    "ABG #2 instructor interpretation is flagged; do not silently override.",
+    "Only Fundies Review.pdf was used to author this transcription."
+  ],
+  "questions": [
+    {
+      "id": "amy-review-01",
+      "number": 1,
+      "topic": "Dosage Calculation",
+      "subtopic": "Weight-based daily totals",
+      "stem": "45-lb child prescribed amoxicillin 30 mg/kg/day: daily dose to tenth?",
+      "answer": "613.6 mg/day",
+      "sourcePage": 1,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-02",
+      "number": 2,
+      "topic": "Dosage Calculation",
+      "subtopic": "Individual doses",
+      "stem": "Vancomycin 250 mL over 2 hours, 10 gtt/mL: drops/min?",
+      "answer": "21 gtt/min",
+      "sourcePage": 1,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-03",
+      "number": 3,
+      "topic": "Dosage Calculation",
+      "subtopic": "Volume from concentration",
+      "stem": "Furosemide 40 mg ordered; 4 mg/mL available: volume?",
+      "answer": "10 mL",
+      "sourcePage": 1,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-04",
+      "number": 4,
+      "topic": "Dosage Calculation",
+      "subtopic": "Individual doses",
+      "stem": "D5W 500 mL over 9 hours: pump rate?",
+      "answer": "55.6 mL/hr (or 56 mL/hr if whole-number setting)",
+      "sourcePage": 1,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-05",
+      "number": 5,
+      "topic": "Dosage Calculation",
+      "subtopic": "Volume from concentration",
+      "stem": "What is the concentration on the fluconazole medication label?",
+      "answer": "40 mg/mL",
+      "sourcePage": 1,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-06",
+      "number": 6,
+      "topic": "Dosage Calculation",
+      "subtopic": "Volume from concentration",
+      "stem": "How much diluent is added to reconstitute fluconazole suspension?",
+      "answer": "24 mL (label-supported; not explicitly verbally confirmed)",
+      "sourcePage": 1,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-07",
+      "number": 7,
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "How quickly should sodium abnormalities be corrected, and why?",
+      "answer": "Slowly; rapid correction risks cerebral edema from fluid shifts.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-08",
+      "number": 8,
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "What system is most associated with sodium imbalance?",
+      "answer": "Neurologic",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-09",
+      "number": 9,
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "What fluid state commonly accompanies hyponatremia?",
+      "answer": "Hypervolemia/dilution, as taught in this review.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-10",
+      "number": 10,
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "What fluid state commonly accompanies hypernatremia?",
+      "answer": "Hypovolemia/water deficit, as taught in this review.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-11",
+      "number": 11,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What organ is the major concern with potassium disturbances?",
+      "answer": "Heart; dysrhythmias.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-12",
+      "number": 12,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What ECG changes are expected with hyperkalemia?",
+      "answer": "Peaked T waves; sometimes widened QRS.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-13",
+      "number": 13,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "Who is at particular risk for hyperkalemia and why?",
+      "answer": "End-stage renal disease due to impaired urinary potassium excretion.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-14",
+      "number": 14,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What treatment is given first in Amy's hyperkalemia protocol, and why?",
+      "answer": "Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-15",
+      "number": 15,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What ECG changes are expected with hypokalemia?",
+      "answer": "Inverted T waves; possible ST depression.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-16",
+      "number": 16,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What causes hypokalemia?",
+      "answer": "Loop diuretics such as furosemide; malnutrition.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-17",
+      "number": 17,
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "How is IV potassium administered?",
+      "answer": "Diluted via infusion pump; never IV push.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-18",
+      "number": 18,
+      "topic": "Electrolytes",
+      "subtopic": "Magnesium imbalances",
+      "stem": "What electrolyte deficit is especially associated with alcoholism?",
+      "answer": "Hypomagnesemia",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-19",
+      "number": 19,
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "What is calcium's key association?",
+      "answer": "Bones and muscles",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-20",
+      "number": 20,
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "What signs suggest hypocalcemia?",
+      "answer": "Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs.",
+      "sourcePage": 2,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-21",
+      "number": 21,
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "What are manifestations/causes of hypercalcemia?",
+      "answer": "Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity.",
+      "sourcePage": 3,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-22",
+      "number": 22,
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "Which vitamin supports calcium absorption?",
+      "answer": "Vitamin D",
+      "sourcePage": 3,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-23",
+      "number": 23,
+      "topic": "Electrolytes",
+      "subtopic": "Magnesium imbalances",
+      "stem": "What should be monitored when administering magnesium?",
+      "answer": "Respiratory depression; administer slowly.",
+      "sourcePage": 3,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-24",
+      "number": 24,
+      "topic": "Electrolytes",
+      "subtopic": "Magnesium imbalances",
+      "stem": "What are manifestations of hypermagnesemia and its treatment?",
+      "answer": "Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization.",
+      "sourcePage": 3,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-25",
+      "number": 25,
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "What is shown in the first patient picture?",
+      "answer": "Hypervolemia/fluid-volume excess",
+      "sourcePage": 3,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-26",
+      "number": 26,
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "How is hypervolemia managed?",
+      "answer": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids.",
+      "sourcePage": 4,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-27",
+      "number": 27,
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "What is shown in the second patient picture?",
+      "answer": "Hypovolemia",
+      "sourcePage": 4,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-28",
+      "number": 28,
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "How is hypovolemia managed?",
+      "answer": "Oral or IV fluids as indicated; daily weights and I&O.",
+      "sourcePage": 4,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-29",
+      "number": 29,
+      "topic": "Blood Transfusions",
+      "subtopic": "Before a blood transfusion",
+      "stem": "What must be done before a transfusion?",
+      "answer": "Baseline vitals, informed consent, blood type and crossmatch.",
+      "sourcePage": 4,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-30",
+      "number": 30,
+      "topic": "Blood Transfusions",
+      "subtopic": "Blood types and testing",
+      "stem": "What is the difference between blood typing and crossmatching?",
+      "answer": "Typing identifies blood group; crossmatching tests donor-recipient compatibility.",
+      "sourcePage": 4,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-31",
+      "number": 31,
+      "topic": "Blood Transfusions",
+      "subtopic": "Before a blood transfusion",
+      "stem": "What safety checks and timing apply to routine blood transfusion?",
+      "answer": "Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line.",
+      "sourcePage": 5,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-32",
+      "number": 32,
+      "topic": "Blood Transfusions",
+      "subtopic": "Before a blood transfusion",
+      "stem": "How are patients monitored during a transfusion?",
+      "answer": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review.",
+      "sourcePage": 5,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-33",
+      "number": 33,
+      "topic": "Blood Transfusions",
+      "subtopic": "Transfusion reactions",
+      "stem": "What is the priority action if a transfusion reaction is suspected?",
+      "answer": "Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol.",
+      "sourcePage": 5,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-34",
+      "number": 34,
+      "topic": "Blood Transfusions",
+      "subtopic": "Transfusion reactions",
+      "stem": "What are the major transfusion reactions?",
+      "answer": "TACO, TRALI, allergic, hemolytic, febrile nonhemolytic.",
+      "sourcePage": 5,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-35",
+      "number": 35,
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?",
+      "answer": "Uncompensated respiratory acidosis",
+      "sourcePage": 6,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-36",
+      "number": 36,
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes respiratory acidosis, and what interventions did Amy name?",
+      "answer": "Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions.",
+      "sourcePage": 6,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-37",
+      "number": 37,
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?",
+      "answer": "Fully compensated metabolic acidosis (instructor interpretation flagged for review).",
+      "sourcePage": 6,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-38",
+      "number": 38,
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes metabolic acidosis and how is it managed?",
+      "answer": "DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause.",
+      "sourcePage": 6,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-39",
+      "number": 39,
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?",
+      "answer": "Partially compensated metabolic alkalosis",
+      "sourcePage": 6,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-40",
+      "number": 40,
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes metabolic alkalosis and what symptoms can appear?",
+      "answer": "Vomiting, NG suction, loop diuretics; tingling, numbness, spasms.",
+      "sourcePage": 7,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-41",
+      "number": 41,
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?",
+      "answer": "Uncompensated respiratory alkalosis",
+      "sourcePage": 7,
+      "imageRequired": true
+    },
+    {
+      "id": "amy-review-42",
+      "number": 42,
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes respiratory alkalosis?",
+      "answer": "Hyperventilation from pain, anxiety, fever, or excessive ventilator settings.",
+      "sourcePage": 7,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-43",
+      "number": 43,
+      "topic": "ABGs",
+      "subtopic": "Interventions for imbalances",
+      "stem": "What did Amy say about paper-bag rebreathing as an exam answer?",
+      "answer": "Possible exam option, but outdated and potentially unsafe; do not routinely use clinically.",
+      "sourcePage": 7,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-44",
+      "number": 44,
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "How do acid-base states relate to potassium?",
+      "answer": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught.",
+      "sourcePage": 7,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-45",
+      "number": 45,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary devices and interventions",
+      "stem": "When is an indwelling urinary catheter indicated?",
+      "answer": "HOUDINI indications reviewed: hematuria, obstruction/retention, urologic surgery, severe pressure injury, strict I&O, end-of-life, severe immobility.",
+      "sourcePage": 8,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-46",
+      "number": 46,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Catheterization",
+      "stem": "How do you prevent CAUTI?",
+      "answer": "Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity.",
+      "sourcePage": 8,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-47",
+      "number": 47,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary devices and interventions",
+      "stem": "What is the first step with suspected urinary retention?",
+      "answer": "Assess and bladder scan before straight catheterization.",
+      "sourcePage": 8,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-48",
+      "number": 48,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary diagnostics",
+      "stem": "How do you perform a 24-hour urine collection?",
+      "answer": "Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed.",
+      "sourcePage": 8,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-49",
+      "number": 49,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary diversions",
+      "stem": "How does nephrostomy differ from urinary diversion?",
+      "answer": "Nephrostomy drains kidney directly; diversion reroutes urinary outflow.",
+      "sourcePage": 8,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-50",
+      "number": 50,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary incontinence",
+      "stem": "What are stress, functional and urge incontinence?",
+      "answer": "Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void.",
+      "sourcePage": 8,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-51",
+      "number": 51,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary assessment terms",
+      "stem": "What are polyuria, nocturia, oliguria, anuria, dysuria, hematuria?",
+      "answer": "Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-52",
+      "number": 52,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Ostomies and stoma",
+      "stem": "What does a healthy stoma look like, and what is concerning?",
+      "answer": "Beefy red and moist; black/dry/necrotic appearance requires notification.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-53",
+      "number": 53,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Ostomies and stoma",
+      "stem": "How does ileostomy output compare with colostomy output?",
+      "answer": "Ileostomy usually watery; colostomy more formed depending on location.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-54",
+      "number": 54,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Ostomies and stoma",
+      "stem": "What complication is especially important with ileostomy?",
+      "answer": "Dehydration from watery output.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-55",
+      "number": 55,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Bowel diagnostics",
+      "stem": "What does a fecal occult blood test detect?",
+      "answer": "Blood in stool.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-56",
+      "number": 56,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Constipation, impaction and obstruction",
+      "stem": "How do fecal impaction and constipation differ?",
+      "answer": "Impaction may cause overflow liquid stool around hard stool and urinary retention.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-57",
+      "number": 57,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Bowel interventions",
+      "stem": "What is correct enema positioning and response to pain?",
+      "answer": "Left side; lower bag if pain occurs; retain as tolerated.",
+      "sourcePage": 9,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-58",
+      "number": 58,
+      "topic": "Nutrition",
+      "subtopic": "Diets",
+      "stem": "Which diet categories did Amy assign to milk, broth, popsicle, apple, apple juice and ice cream?",
+      "answer": "Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular.",
+      "sourcePage": 10,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-59",
+      "number": 59,
+      "topic": "Nutrition",
+      "subtopic": "Diets",
+      "stem": "What is a mechanical-soft diet example?",
+      "answer": "Soft or diced foods such as diced carrots.",
+      "sourcePage": 10,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-60",
+      "number": 60,
+      "topic": "Nutrition",
+      "subtopic": "Enteral nutrition",
+      "stem": "How do enteral and parenteral nutrition differ?",
+      "answer": "Enteral uses GI tract; parenteral uses IV access.",
+      "sourcePage": 10,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-61",
+      "number": 61,
+      "topic": "Nutrition",
+      "subtopic": "Enteral nutrition",
+      "stem": "What precautions apply to enteral feeding?",
+      "answer": "HOB at least 30 degrees, flush before/after, check placement and residual as taught.",
+      "sourcePage": 10,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-62",
+      "number": 62,
+      "topic": "Nutrition",
+      "subtopic": "Parenteral nutrition",
+      "stem": "How do TPN and PPN differ by access?",
+      "answer": "TPN central line; PPN may use peripheral line; sterile line care.",
+      "sourcePage": 10,
+      "imageRequired": false
+    },
+    {
+      "id": "amy-review-63",
+      "number": 63,
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "C. diff case study",
+      "stem": "What isolation measures for C. difficile?",
+      "answer": "Contact precautions with gown/gloves and handwashing.",
+      "sourcePage": 10,
+      "imageRequired": false
+    }
+  ]
+}
