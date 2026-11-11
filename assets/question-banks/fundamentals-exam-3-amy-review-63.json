@@ -1,0 +1,2097 @@
+{
+  "id": "fundamentals-exam-3-amy-review-63",
+  "course": "Fundamentals of Nursing",
+  "examNumber": "Exam 3",
+  "practiceName": "Amy Sivcovich — 63-question Fundies Review",
+  "referenceIndex": "",
+  "references": [
+    {
+      "name": "Fundies Review — instructor question transcription",
+      "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt"
+    }
+  ],
+  "questions": [
+    {
+      "id": "amy-review-01",
+      "topic": "Dosage Calculation",
+      "subtopic": "Weight-based daily totals",
+      "stem": "45-lb child prescribed amoxicillin 30 mg/kg/day: daily dose to tenth?",
+      "rationale": "Instructor review answer: 613.6 mg/day",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 1
+      },
+      "approved": true,
+      "sourceLocator": "Review question 1; source PDF page 1",
+      "type": "dosage",
+      "correct": 613.6,
+      "units": "mg/day",
+      "tolerance": 0.1,
+      "instructions": "Calculate the answer; round as directed in the question."
+    },
+    {
+      "id": "amy-review-02",
+      "topic": "Dosage Calculation",
+      "subtopic": "Individual doses",
+      "stem": "Vancomycin 250 mL over 2 hours, 10 gtt/mL: drops/min?",
+      "rationale": "Instructor review answer: 21 gtt/min",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 1
+      },
+      "approved": true,
+      "sourceLocator": "Review question 2; source PDF page 1",
+      "type": "dosage",
+      "correct": 21,
+      "units": "gtt/min",
+      "tolerance": 0,
+      "instructions": "Calculate the answer; round as directed in the question."
+    },
+    {
+      "id": "amy-review-03",
+      "topic": "Dosage Calculation",
+      "subtopic": "Volume from concentration",
+      "stem": "Furosemide 40 mg ordered; 4 mg/mL available: volume?",
+      "rationale": "Instructor review answer: 10 mL",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 1
+      },
+      "approved": true,
+      "sourceLocator": "Review question 3; source PDF page 1",
+      "type": "dosage",
+      "correct": 10,
+      "units": "mL",
+      "tolerance": 0,
+      "instructions": "Calculate the answer; round as directed in the question."
+    },
+    {
+      "id": "amy-review-04",
+      "topic": "Dosage Calculation",
+      "subtopic": "Individual doses",
+      "stem": "D5W 500 mL over 9 hours: pump rate?",
+      "rationale": "Instructor review answer: 55.6 mL/hr (or 56 mL/hr if whole-number setting)",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 1
+      },
+      "approved": true,
+      "sourceLocator": "Review question 4; source PDF page 1",
+      "type": "dosage",
+      "correct": 55.6,
+      "units": "mL/hr",
+      "tolerance": 0.1,
+      "instructions": "Calculate the answer; round as directed in the question."
+    },
+    {
+      "id": "amy-review-05",
+      "topic": "Dosage Calculation",
+      "subtopic": "Volume from concentration",
+      "stem": "What is the concentration on the fluconazole medication label?",
+      "rationale": "Instructor review answer: 40 mg/mL",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 1
+      },
+      "approved": true,
+      "sourceLocator": "Review question 5; source PDF page 1",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "40 mg/mL"
+        },
+        {
+          "id": "o1",
+          "text": "21 gtt/min"
+        },
+        {
+          "id": "o2",
+          "text": "55.6 mL/hr"
+        },
+        {
+          "id": "o3",
+          "text": "10 mL"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-06",
+      "topic": "Dosage Calculation",
+      "subtopic": "Volume from concentration",
+      "stem": "How much diluent is added to reconstitute fluconazole suspension?",
+      "rationale": "Instructor review answer: 24 mL (label-supported; not explicitly verbally confirmed)",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 1
+      },
+      "approved": true,
+      "sourceLocator": "Review question 6; source PDF page 1",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "24 mL"
+        },
+        {
+          "id": "o1",
+          "text": "10 mL"
+        },
+        {
+          "id": "o2",
+          "text": "40 mg/mL"
+        },
+        {
+          "id": "o3",
+          "text": "21 gtt/min"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-07",
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "How quickly should sodium abnormalities be corrected, and why?",
+      "rationale": "Instructor review answer: Slowly; rapid correction risks cerebral edema from fluid shifts.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 7; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Slowly; rapid correction risks cerebral edema from fluid shifts"
+        },
+        {
+          "id": "o1",
+          "text": "End-stage renal disease due to impaired urinary potassium excretion"
+        },
+        {
+          "id": "o2",
+          "text": "Oral or IV fluids as indicated; daily weights and I&O"
+        },
+        {
+          "id": "o3",
+          "text": "Hypovolemia/water deficit, as taught in this review"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-08",
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "What system is most associated with sodium imbalance?",
+      "rationale": "Instructor review answer: Neurologic",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 8; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Neurologic"
+        },
+        {
+          "id": "o1",
+          "text": "Vitamin D"
+        },
+        {
+          "id": "o2",
+          "text": "Hypovolemia"
+        },
+        {
+          "id": "o3",
+          "text": "Hypomagnesemia"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-09",
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "What fluid state commonly accompanies hyponatremia?",
+      "rationale": "Instructor review answer: Hypervolemia/dilution, as taught in this review.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 9; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypervolemia/dilution, as taught in this review"
+        },
+        {
+          "id": "o1",
+          "text": "Loop diuretics such as furosemide; malnutrition"
+        },
+        {
+          "id": "o2",
+          "text": "Hypovolemia/water deficit, as taught in this review"
+        },
+        {
+          "id": "o3",
+          "text": "Respiratory depression; administer slowly"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-10",
+      "topic": "Electrolytes",
+      "subtopic": "Sodium imbalances",
+      "stem": "What fluid state commonly accompanies hypernatremia?",
+      "rationale": "Instructor review answer: Hypovolemia/water deficit, as taught in this review.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 10; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypovolemia/water deficit, as taught in this review"
+        },
+        {
+          "id": "o1",
+          "text": "Oral or IV fluids as indicated; daily weights and I&O"
+        },
+        {
+          "id": "o2",
+          "text": "Hypervolemia/dilution, as taught in this review"
+        },
+        {
+          "id": "o3",
+          "text": "Loop diuretics such as furosemide; malnutrition"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-11",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What organ is the major concern with potassium disturbances?",
+      "rationale": "Instructor review answer: Heart; dysrhythmias.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 11; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Heart; dysrhythmias"
+        },
+        {
+          "id": "o1",
+          "text": "Bones and muscles"
+        },
+        {
+          "id": "o2",
+          "text": "Hypomagnesemia"
+        },
+        {
+          "id": "o3",
+          "text": "Hypovolemia"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-12",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What ECG changes are expected with hyperkalemia?",
+      "rationale": "Instructor review answer: Peaked T waves; sometimes widened QRS.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 12; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Peaked T waves; sometimes widened QRS"
+        },
+        {
+          "id": "o1",
+          "text": "Inverted T waves; possible ST depression"
+        },
+        {
+          "id": "o2",
+          "text": "Diluted via infusion pump; never IV push"
+        },
+        {
+          "id": "o3",
+          "text": "Respiratory depression; administer slowly"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-13",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "Who is at particular risk for hyperkalemia and why?",
+      "rationale": "Instructor review answer: End-stage renal disease due to impaired urinary potassium excretion.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 13; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "End-stage renal disease due to impaired urinary potassium excretion"
+        },
+        {
+          "id": "o1",
+          "text": "Slowly; rapid correction risks cerebral edema from fluid shifts"
+        },
+        {
+          "id": "o2",
+          "text": "Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs"
+        },
+        {
+          "id": "o3",
+          "text": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-14",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What treatment is given first in Amy's hyperkalemia protocol, and why?",
+      "rationale": "Instructor review answer: Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 14; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly"
+        },
+        {
+          "id": "o1",
+          "text": "Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization"
+        },
+        {
+          "id": "o2",
+          "text": "Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity"
+        },
+        {
+          "id": "o3",
+          "text": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-15",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What ECG changes are expected with hypokalemia?",
+      "rationale": "Instructor review answer: Inverted T waves; possible ST depression.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 15; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inverted T waves; possible ST depression"
+        },
+        {
+          "id": "o1",
+          "text": "Diluted via infusion pump; never IV push"
+        },
+        {
+          "id": "o2",
+          "text": "Respiratory depression; administer slowly"
+        },
+        {
+          "id": "o3",
+          "text": "Peaked T waves; sometimes widened QRS"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-16",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "What causes hypokalemia?",
+      "rationale": "Instructor review answer: Loop diuretics such as furosemide; malnutrition.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 16; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Loop diuretics such as furosemide; malnutrition"
+        },
+        {
+          "id": "o1",
+          "text": "Hypervolemia/dilution, as taught in this review"
+        },
+        {
+          "id": "o2",
+          "text": "Hypovolemia/water deficit, as taught in this review"
+        },
+        {
+          "id": "o3",
+          "text": "Respiratory depression; administer slowly"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-17",
+      "topic": "Electrolytes",
+      "subtopic": "Potassium imbalances",
+      "stem": "How is IV potassium administered?",
+      "rationale": "Instructor review answer: Diluted via infusion pump; never IV push.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 17; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diluted via infusion pump; never IV push"
+        },
+        {
+          "id": "o1",
+          "text": "Inverted T waves; possible ST depression"
+        },
+        {
+          "id": "o2",
+          "text": "Respiratory depression; administer slowly"
+        },
+        {
+          "id": "o3",
+          "text": "Peaked T waves; sometimes widened QRS"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-18",
+      "topic": "Electrolytes",
+      "subtopic": "Magnesium imbalances",
+      "stem": "What electrolyte deficit is especially associated with alcoholism?",
+      "rationale": "Instructor review answer: Hypomagnesemia",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 18; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypomagnesemia"
+        },
+        {
+          "id": "o1",
+          "text": "Bones and muscles"
+        },
+        {
+          "id": "o2",
+          "text": "Hypovolemia"
+        },
+        {
+          "id": "o3",
+          "text": "Neurologic"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-19",
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "What is calcium's key association?",
+      "rationale": "Instructor review answer: Bones and muscles",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 19; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bones and muscles"
+        },
+        {
+          "id": "o1",
+          "text": "Heart; dysrhythmias"
+        },
+        {
+          "id": "o2",
+          "text": "Hypomagnesemia"
+        },
+        {
+          "id": "o3",
+          "text": "Hypovolemia"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-20",
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "What signs suggest hypocalcemia?",
+      "rationale": "Instructor review answer: Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 2
+      },
+      "approved": true,
+      "sourceLocator": "Review question 20; source PDF page 2",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs"
+        },
+        {
+          "id": "o1",
+          "text": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids"
+        },
+        {
+          "id": "o2",
+          "text": "End-stage renal disease due to impaired urinary potassium excretion"
+        },
+        {
+          "id": "o3",
+          "text": "Slowly; rapid correction risks cerebral edema from fluid shifts"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-21",
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "What are manifestations/causes of hypercalcemia?",
+      "rationale": "Instructor review answer: Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 3
+      },
+      "approved": true,
+      "sourceLocator": "Review question 21; source PDF page 3",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity"
+        },
+        {
+          "id": "o1",
+          "text": "Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly"
+        },
+        {
+          "id": "o2",
+          "text": "Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization"
+        },
+        {
+          "id": "o3",
+          "text": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-22",
+      "topic": "Electrolytes",
+      "subtopic": "Calcium imbalances",
+      "stem": "Which vitamin supports calcium absorption?",
+      "rationale": "Instructor review answer: Vitamin D",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 3
+      },
+      "approved": true,
+      "sourceLocator": "Review question 22; source PDF page 3",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vitamin D"
+        },
+        {
+          "id": "o1",
+          "text": "Neurologic"
+        },
+        {
+          "id": "o2",
+          "text": "Hypovolemia"
+        },
+        {
+          "id": "o3",
+          "text": "Hypomagnesemia"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-23",
+      "topic": "Electrolytes",
+      "subtopic": "Magnesium imbalances",
+      "stem": "What should be monitored when administering magnesium?",
+      "rationale": "Instructor review answer: Respiratory depression; administer slowly.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 3
+      },
+      "approved": true,
+      "sourceLocator": "Review question 23; source PDF page 3",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Respiratory depression; administer slowly"
+        },
+        {
+          "id": "o1",
+          "text": "Inverted T waves; possible ST depression"
+        },
+        {
+          "id": "o2",
+          "text": "Diluted via infusion pump; never IV push"
+        },
+        {
+          "id": "o3",
+          "text": "Peaked T waves; sometimes widened QRS"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-24",
+      "topic": "Electrolytes",
+      "subtopic": "Magnesium imbalances",
+      "stem": "What are manifestations of hypermagnesemia and its treatment?",
+      "rationale": "Instructor review answer: Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 3
+      },
+      "approved": true,
+      "sourceLocator": "Review question 24; source PDF page 3",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization"
+        },
+        {
+          "id": "o1",
+          "text": "Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly"
+        },
+        {
+          "id": "o2",
+          "text": "Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity"
+        },
+        {
+          "id": "o3",
+          "text": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-25",
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "What is shown in the first patient picture?",
+      "rationale": "Instructor review answer: Hypervolemia/fluid-volume excess",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 3
+      },
+      "approved": true,
+      "sourceLocator": "Review question 25; source PDF page 3",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypervolemia/fluid-volume excess"
+        },
+        {
+          "id": "o1",
+          "text": "Peaked T waves; sometimes widened QRS"
+        },
+        {
+          "id": "o2",
+          "text": "Inverted T waves; possible ST depression"
+        },
+        {
+          "id": "o3",
+          "text": "Diluted via infusion pump; never IV push"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-26",
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "How is hypervolemia managed?",
+      "rationale": "Instructor review answer: Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 4
+      },
+      "approved": true,
+      "sourceLocator": "Review question 26; source PDF page 4",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids"
+        },
+        {
+          "id": "o1",
+          "text": "Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs"
+        },
+        {
+          "id": "o2",
+          "text": "End-stage renal disease due to impaired urinary potassium excretion"
+        },
+        {
+          "id": "o3",
+          "text": "Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-27",
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "What is shown in the second patient picture?",
+      "rationale": "Instructor review answer: Hypovolemia",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 4
+      },
+      "approved": true,
+      "sourceLocator": "Review question 27; source PDF page 4",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypovolemia"
+        },
+        {
+          "id": "o1",
+          "text": "Neurologic"
+        },
+        {
+          "id": "o2",
+          "text": "Vitamin D"
+        },
+        {
+          "id": "o3",
+          "text": "Hypomagnesemia"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-28",
+      "topic": "Electrolytes",
+      "subtopic": "Fluid volume imbalances",
+      "stem": "How is hypovolemia managed?",
+      "rationale": "Instructor review answer: Oral or IV fluids as indicated; daily weights and I&O.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 4
+      },
+      "approved": true,
+      "sourceLocator": "Review question 28; source PDF page 4",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Oral or IV fluids as indicated; daily weights and I&O"
+        },
+        {
+          "id": "o1",
+          "text": "Hypovolemia/water deficit, as taught in this review"
+        },
+        {
+          "id": "o2",
+          "text": "Hypervolemia/dilution, as taught in this review"
+        },
+        {
+          "id": "o3",
+          "text": "Loop diuretics such as furosemide; malnutrition"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-29",
+      "topic": "Blood Transfusions",
+      "subtopic": "Before a blood transfusion",
+      "stem": "What must be done before a transfusion?",
+      "rationale": "Instructor review answer: Baseline vitals, informed consent, blood type and crossmatch.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 4
+      },
+      "approved": true,
+      "sourceLocator": "Review question 29; source PDF page 4",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Baseline vitals, informed consent, blood type and crossmatch"
+        },
+        {
+          "id": "o1",
+          "text": "TACO, TRALI, allergic, hemolytic, febrile nonhemolytic"
+        },
+        {
+          "id": "o2",
+          "text": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review"
+        },
+        {
+          "id": "o3",
+          "text": "Typing identifies blood group; crossmatching tests donor-recipient compatibility"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-30",
+      "topic": "Blood Transfusions",
+      "subtopic": "Blood types and testing",
+      "stem": "What is the difference between blood typing and crossmatching?",
+      "rationale": "Instructor review answer: Typing identifies blood group; crossmatching tests donor-recipient compatibility.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 4
+      },
+      "approved": true,
+      "sourceLocator": "Review question 30; source PDF page 4",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Typing identifies blood group; crossmatching tests donor-recipient compatibility"
+        },
+        {
+          "id": "o1",
+          "text": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review"
+        },
+        {
+          "id": "o2",
+          "text": "Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol"
+        },
+        {
+          "id": "o3",
+          "text": "Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-31",
+      "topic": "Blood Transfusions",
+      "subtopic": "Before a blood transfusion",
+      "stem": "What safety checks and timing apply to routine blood transfusion?",
+      "rationale": "Instructor review answer: Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 5
+      },
+      "approved": true,
+      "sourceLocator": "Review question 31; source PDF page 5",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line"
+        },
+        {
+          "id": "o1",
+          "text": "Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol"
+        },
+        {
+          "id": "o2",
+          "text": "Typing identifies blood group; crossmatching tests donor-recipient compatibility"
+        },
+        {
+          "id": "o3",
+          "text": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-32",
+      "topic": "Blood Transfusions",
+      "subtopic": "Before a blood transfusion",
+      "stem": "How are patients monitored during a transfusion?",
+      "rationale": "Instructor review answer: Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 5
+      },
+      "approved": true,
+      "sourceLocator": "Review question 32; source PDF page 5",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review"
+        },
+        {
+          "id": "o1",
+          "text": "Typing identifies blood group; crossmatching tests donor-recipient compatibility"
+        },
+        {
+          "id": "o2",
+          "text": "Baseline vitals, informed consent, blood type and crossmatch"
+        },
+        {
+          "id": "o3",
+          "text": "Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-33",
+      "topic": "Blood Transfusions",
+      "subtopic": "Transfusion reactions",
+      "stem": "What is the priority action if a transfusion reaction is suspected?",
+      "rationale": "Instructor review answer: Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 5
+      },
+      "approved": true,
+      "sourceLocator": "Review question 33; source PDF page 5",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol"
+        },
+        {
+          "id": "o1",
+          "text": "Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line"
+        },
+        {
+          "id": "o2",
+          "text": "Typing identifies blood group; crossmatching tests donor-recipient compatibility"
+        },
+        {
+          "id": "o3",
+          "text": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-34",
+      "topic": "Blood Transfusions",
+      "subtopic": "Transfusion reactions",
+      "stem": "What are the major transfusion reactions?",
+      "rationale": "Instructor review answer: TACO, TRALI, allergic, hemolytic, febrile nonhemolytic.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 5
+      },
+      "approved": true,
+      "sourceLocator": "Review question 34; source PDF page 5",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "TACO, TRALI, allergic, hemolytic, febrile nonhemolytic"
+        },
+        {
+          "id": "o1",
+          "text": "Baseline vitals, informed consent, blood type and crossmatch"
+        },
+        {
+          "id": "o2",
+          "text": "Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review"
+        },
+        {
+          "id": "o3",
+          "text": "Typing identifies blood group; crossmatching tests donor-recipient compatibility"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-35",
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?",
+      "rationale": "Instructor review answer: Uncompensated respiratory acidosis",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 6
+      },
+      "approved": true,
+      "sourceLocator": "Review question 35; source PDF page 6",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Uncompensated respiratory acidosis"
+        },
+        {
+          "id": "o1",
+          "text": "Uncompensated respiratory alkalosis"
+        },
+        {
+          "id": "o2",
+          "text": "Fully compensated metabolic acidosis"
+        },
+        {
+          "id": "o3",
+          "text": "Partially compensated metabolic alkalosis"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-36",
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes respiratory acidosis, and what interventions did Amy name?",
+      "rationale": "Instructor review answer: Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 6
+      },
+      "approved": true,
+      "sourceLocator": "Review question 36; source PDF page 6",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions"
+        },
+        {
+          "id": "o1",
+          "text": "DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause"
+        },
+        {
+          "id": "o2",
+          "text": "Possible exam option, but outdated and potentially unsafe; do not routinely use clinically"
+        },
+        {
+          "id": "o3",
+          "text": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-37",
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?",
+      "rationale": "Instructor review answer: Fully compensated metabolic acidosis (instructor interpretation flagged for review). The ABG interpretation is flagged for instructor confirmation.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 6
+      },
+      "approved": true,
+      "sourceLocator": "Review question 37; source PDF page 6",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Fully compensated metabolic acidosis"
+        },
+        {
+          "id": "o1",
+          "text": "Uncompensated respiratory alkalosis"
+        },
+        {
+          "id": "o2",
+          "text": "Uncompensated respiratory acidosis"
+        },
+        {
+          "id": "o3",
+          "text": "Partially compensated metabolic alkalosis"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-38",
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes metabolic acidosis and how is it managed?",
+      "rationale": "Instructor review answer: DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 6
+      },
+      "approved": true,
+      "sourceLocator": "Review question 38; source PDF page 6",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause"
+        },
+        {
+          "id": "o1",
+          "text": "Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions"
+        },
+        {
+          "id": "o2",
+          "text": "Possible exam option, but outdated and potentially unsafe; do not routinely use clinically"
+        },
+        {
+          "id": "o3",
+          "text": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-39",
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?",
+      "rationale": "Instructor review answer: Partially compensated metabolic alkalosis",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 6
+      },
+      "approved": true,
+      "sourceLocator": "Review question 39; source PDF page 6",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Partially compensated metabolic alkalosis"
+        },
+        {
+          "id": "o1",
+          "text": "Fully compensated metabolic acidosis"
+        },
+        {
+          "id": "o2",
+          "text": "Uncompensated respiratory alkalosis"
+        },
+        {
+          "id": "o3",
+          "text": "Uncompensated respiratory acidosis"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-40",
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes metabolic alkalosis and what symptoms can appear?",
+      "rationale": "Instructor review answer: Vomiting, NG suction, loop diuretics; tingling, numbness, spasms.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 7
+      },
+      "approved": true,
+      "sourceLocator": "Review question 40; source PDF page 7",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vomiting, NG suction, loop diuretics; tingling, numbness, spasms"
+        },
+        {
+          "id": "o1",
+          "text": "Hyperventilation from pain, anxiety, fever, or excessive ventilator settings"
+        },
+        {
+          "id": "o2",
+          "text": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught"
+        },
+        {
+          "id": "o3",
+          "text": "Partially compensated metabolic alkalosis"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-41",
+      "topic": "ABGs",
+      "subtopic": "Interpreting",
+      "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?",
+      "rationale": "Instructor review answer: Uncompensated respiratory alkalosis",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 7
+      },
+      "approved": true,
+      "sourceLocator": "Review question 41; source PDF page 7",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Uncompensated respiratory alkalosis"
+        },
+        {
+          "id": "o1",
+          "text": "Uncompensated respiratory acidosis"
+        },
+        {
+          "id": "o2",
+          "text": "Fully compensated metabolic acidosis"
+        },
+        {
+          "id": "o3",
+          "text": "Partially compensated metabolic alkalosis"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-42",
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "What causes respiratory alkalosis?",
+      "rationale": "Instructor review answer: Hyperventilation from pain, anxiety, fever, or excessive ventilator settings.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 7
+      },
+      "approved": true,
+      "sourceLocator": "Review question 42; source PDF page 7",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hyperventilation from pain, anxiety, fever, or excessive ventilator settings"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught"
+        },
+        {
+          "id": "o2",
+          "text": "Vomiting, NG suction, loop diuretics; tingling, numbness, spasms"
+        },
+        {
+          "id": "o3",
+          "text": "Possible exam option, but outdated and potentially unsafe; do not routinely use clinically"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-43",
+      "topic": "ABGs",
+      "subtopic": "Interventions for imbalances",
+      "stem": "What did Amy say about paper-bag rebreathing as an exam answer?",
+      "rationale": "Instructor review answer: Possible exam option, but outdated and potentially unsafe; do not routinely use clinically.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 7
+      },
+      "approved": true,
+      "sourceLocator": "Review question 43; source PDF page 7",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Possible exam option, but outdated and potentially unsafe; do not routinely use clinically"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught"
+        },
+        {
+          "id": "o2",
+          "text": "DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause"
+        },
+        {
+          "id": "o3",
+          "text": "Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-44",
+      "topic": "ABGs",
+      "subtopic": "Causes of imbalances",
+      "stem": "How do acid-base states relate to potassium?",
+      "rationale": "Instructor review answer: Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 7
+      },
+      "approved": true,
+      "sourceLocator": "Review question 44; source PDF page 7",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught"
+        },
+        {
+          "id": "o1",
+          "text": "Possible exam option, but outdated and potentially unsafe; do not routinely use clinically"
+        },
+        {
+          "id": "o2",
+          "text": "Hyperventilation from pain, anxiety, fever, or excessive ventilator settings"
+        },
+        {
+          "id": "o3",
+          "text": "DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-45",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary devices and interventions",
+      "stem": "When is an indwelling urinary catheter indicated?",
+      "rationale": "Instructor review answer: HOUDINI indications reviewed: hematuria, obstruction/retention, urologic surgery, severe pressure injury, strict I&O, end-of-life, severe immobility.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 8
+      },
+      "approved": true,
+      "sourceLocator": "Review question 45; source PDF page 8",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "HOUDINI indications reviewed: hematuria, obstruction/retention, urologic surgery, severe pressure injury, strict I&O, end-of-life, severe immobility"
+        },
+        {
+          "id": "o1",
+          "text": "Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity"
+        },
+        {
+          "id": "o2",
+          "text": "Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed"
+        },
+        {
+          "id": "o3",
+          "text": "Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-46",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Catheterization",
+      "stem": "How do you prevent CAUTI?",
+      "rationale": "Instructor review answer: Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 8
+      },
+      "approved": true,
+      "sourceLocator": "Review question 46; source PDF page 8",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity"
+        },
+        {
+          "id": "o1",
+          "text": "Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed"
+        },
+        {
+          "id": "o2",
+          "text": "Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine"
+        },
+        {
+          "id": "o3",
+          "text": "Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-47",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary devices and interventions",
+      "stem": "What is the first step with suspected urinary retention?",
+      "rationale": "Instructor review answer: Assess and bladder scan before straight catheterization.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 8
+      },
+      "approved": true,
+      "sourceLocator": "Review question 47; source PDF page 8",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Assess and bladder scan before straight catheterization"
+        },
+        {
+          "id": "o1",
+          "text": "Left side; lower bag if pain occurs; retain as tolerated"
+        },
+        {
+          "id": "o2",
+          "text": "Contact precautions with gown/gloves and handwashing"
+        },
+        {
+          "id": "o3",
+          "text": "Ileostomy usually watery; colostomy more formed depending on location"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-48",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary diagnostics",
+      "stem": "How do you perform a 24-hour urine collection?",
+      "rationale": "Instructor review answer: Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 8
+      },
+      "approved": true,
+      "sourceLocator": "Review question 48; source PDF page 8",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed"
+        },
+        {
+          "id": "o1",
+          "text": "Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine"
+        },
+        {
+          "id": "o2",
+          "text": "Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity"
+        },
+        {
+          "id": "o3",
+          "text": "Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-49",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary diversions",
+      "stem": "How does nephrostomy differ from urinary diversion?",
+      "rationale": "Instructor review answer: Nephrostomy drains kidney directly; diversion reroutes urinary outflow.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 8
+      },
+      "approved": true,
+      "sourceLocator": "Review question 49; source PDF page 8",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Nephrostomy drains kidney directly; diversion reroutes urinary outflow"
+        },
+        {
+          "id": "o1",
+          "text": "Ileostomy usually watery; colostomy more formed depending on location"
+        },
+        {
+          "id": "o2",
+          "text": "Beefy red and moist; black/dry/necrotic appearance requires notification"
+        },
+        {
+          "id": "o3",
+          "text": "Impaction may cause overflow liquid stool around hard stool and urinary retention"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-50",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary incontinence",
+      "stem": "What are stress, functional and urge incontinence?",
+      "rationale": "Instructor review answer: Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 8
+      },
+      "approved": true,
+      "sourceLocator": "Review question 50; source PDF page 8",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void"
+        },
+        {
+          "id": "o1",
+          "text": "Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed"
+        },
+        {
+          "id": "o2",
+          "text": "Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine"
+        },
+        {
+          "id": "o3",
+          "text": "Impaction may cause overflow liquid stool around hard stool and urinary retention"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-51",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Urinary assessment terms",
+      "stem": "What are polyuria, nocturia, oliguria, anuria, dysuria, hematuria?",
+      "rationale": "Instructor review answer: Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 51; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine"
+        },
+        {
+          "id": "o1",
+          "text": "Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed"
+        },
+        {
+          "id": "o2",
+          "text": "Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity"
+        },
+        {
+          "id": "o3",
+          "text": "Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-52",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Ostomies and stoma",
+      "stem": "What does a healthy stoma look like, and what is concerning?",
+      "rationale": "Instructor review answer: Beefy red and moist; black/dry/necrotic appearance requires notification.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 52; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Beefy red and moist; black/dry/necrotic appearance requires notification"
+        },
+        {
+          "id": "o1",
+          "text": "Nephrostomy drains kidney directly; diversion reroutes urinary outflow"
+        },
+        {
+          "id": "o2",
+          "text": "Ileostomy usually watery; colostomy more formed depending on location"
+        },
+        {
+          "id": "o3",
+          "text": "Impaction may cause overflow liquid stool around hard stool and urinary retention"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-53",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Ostomies and stoma",
+      "stem": "How does ileostomy output compare with colostomy output?",
+      "rationale": "Instructor review answer: Ileostomy usually watery; colostomy more formed depending on location.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 53; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ileostomy usually watery; colostomy more formed depending on location"
+        },
+        {
+          "id": "o1",
+          "text": "Nephrostomy drains kidney directly; diversion reroutes urinary outflow"
+        },
+        {
+          "id": "o2",
+          "text": "Beefy red and moist; black/dry/necrotic appearance requires notification"
+        },
+        {
+          "id": "o3",
+          "text": "Impaction may cause overflow liquid stool around hard stool and urinary retention"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-54",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Ostomies and stoma",
+      "stem": "What complication is especially important with ileostomy?",
+      "rationale": "Instructor review answer: Dehydration from watery output.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 54; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Dehydration from watery output"
+        },
+        {
+          "id": "o1",
+          "text": "Blood in stool"
+        },
+        {
+          "id": "o2",
+          "text": "Contact precautions with gown/gloves and handwashing"
+        },
+        {
+          "id": "o3",
+          "text": "Assess and bladder scan before straight catheterization"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-55",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Bowel diagnostics",
+      "stem": "What does a fecal occult blood test detect?",
+      "rationale": "Instructor review answer: Blood in stool.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 55; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Blood in stool"
+        },
+        {
+          "id": "o1",
+          "text": "Dehydration from watery output"
+        },
+        {
+          "id": "o2",
+          "text": "Contact precautions with gown/gloves and handwashing"
+        },
+        {
+          "id": "o3",
+          "text": "Assess and bladder scan before straight catheterization"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-56",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Constipation, impaction and obstruction",
+      "stem": "How do fecal impaction and constipation differ?",
+      "rationale": "Instructor review answer: Impaction may cause overflow liquid stool around hard stool and urinary retention.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 56; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Impaction may cause overflow liquid stool around hard stool and urinary retention"
+        },
+        {
+          "id": "o1",
+          "text": "Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void"
+        },
+        {
+          "id": "o2",
+          "text": "Beefy red and moist; black/dry/necrotic appearance requires notification"
+        },
+        {
+          "id": "o3",
+          "text": "Nephrostomy drains kidney directly; diversion reroutes urinary outflow"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-57",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "Bowel interventions",
+      "stem": "What is correct enema positioning and response to pain?",
+      "rationale": "Instructor review answer: Left side; lower bag if pain occurs; retain as tolerated.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 9
+      },
+      "approved": true,
+      "sourceLocator": "Review question 57; source PDF page 9",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Left side; lower bag if pain occurs; retain as tolerated"
+        },
+        {
+          "id": "o1",
+          "text": "Assess and bladder scan before straight catheterization"
+        },
+        {
+          "id": "o2",
+          "text": "Contact precautions with gown/gloves and handwashing"
+        },
+        {
+          "id": "o3",
+          "text": "Ileostomy usually watery; colostomy more formed depending on location"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-58",
+      "topic": "Nutrition",
+      "subtopic": "Diets",
+      "stem": "Which diet categories did Amy assign to milk, broth, popsicle, apple, apple juice and ice cream?",
+      "rationale": "Instructor review answer: Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 10
+      },
+      "approved": true,
+      "sourceLocator": "Review question 58; source PDF page 10",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular"
+        },
+        {
+          "id": "o1",
+          "text": "HOB at least 30 degrees, flush before/after, check placement and residual as taught"
+        },
+        {
+          "id": "o2",
+          "text": "TPN central line; PPN may use peripheral line; sterile line care"
+        },
+        {
+          "id": "o3",
+          "text": "Enteral uses GI tract; parenteral uses IV access"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-59",
+      "topic": "Nutrition",
+      "subtopic": "Diets",
+      "stem": "What is a mechanical-soft diet example?",
+      "rationale": "Instructor review answer: Soft or diced foods such as diced carrots.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 10
+      },
+      "approved": true,
+      "sourceLocator": "Review question 59; source PDF page 10",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Soft or diced foods such as diced carrots"
+        },
+        {
+          "id": "o1",
+          "text": "Enteral uses GI tract; parenteral uses IV access"
+        },
+        {
+          "id": "o2",
+          "text": "TPN central line; PPN may use peripheral line; sterile line care"
+        },
+        {
+          "id": "o3",
+          "text": "HOB at least 30 degrees, flush before/after, check placement and residual as taught"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-60",
+      "topic": "Nutrition",
+      "subtopic": "Enteral nutrition",
+      "stem": "How do enteral and parenteral nutrition differ?",
+      "rationale": "Instructor review answer: Enteral uses GI tract; parenteral uses IV access.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 10
+      },
+      "approved": true,
+      "sourceLocator": "Review question 60; source PDF page 10",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Enteral uses GI tract; parenteral uses IV access"
+        },
+        {
+          "id": "o1",
+          "text": "Soft or diced foods such as diced carrots"
+        },
+        {
+          "id": "o2",
+          "text": "TPN central line; PPN may use peripheral line; sterile line care"
+        },
+        {
+          "id": "o3",
+          "text": "HOB at least 30 degrees, flush before/after, check placement and residual as taught"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-61",
+      "topic": "Nutrition",
+      "subtopic": "Enteral nutrition",
+      "stem": "What precautions apply to enteral feeding?",
+      "rationale": "Instructor review answer: HOB at least 30 degrees, flush before/after, check placement and residual as taught.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 10
+      },
+      "approved": true,
+      "sourceLocator": "Review question 61; source PDF page 10",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "HOB at least 30 degrees, flush before/after, check placement and residual as taught"
+        },
+        {
+          "id": "o1",
+          "text": "Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular"
+        },
+        {
+          "id": "o2",
+          "text": "TPN central line; PPN may use peripheral line; sterile line care"
+        },
+        {
+          "id": "o3",
+          "text": "Enteral uses GI tract; parenteral uses IV access"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-62",
+      "topic": "Nutrition",
+      "subtopic": "Parenteral nutrition",
+      "stem": "How do TPN and PPN differ by access?",
+      "rationale": "Instructor review answer: TPN central line; PPN may use peripheral line; sterile line care.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 10
+      },
+      "approved": true,
+      "sourceLocator": "Review question 62; source PDF page 10",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "TPN central line; PPN may use peripheral line; sterile line care"
+        },
+        {
+          "id": "o1",
+          "text": "Enteral uses GI tract; parenteral uses IV access"
+        },
+        {
+          "id": "o2",
+          "text": "HOB at least 30 degrees, flush before/after, check placement and residual as taught"
+        },
+        {
+          "id": "o3",
+          "text": "Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular"
+        }
+      ],
+      "correct": "o0"
+    },
+    {
+      "id": "amy-review-63",
+      "topic": "Bowels / Urinary Elimination",
+      "subtopic": "C. diff case study",
+      "stem": "What isolation measures for C. difficile?",
+      "rationale": "Instructor review answer: Contact precautions with gown/gloves and handwashing.",
+      "source": {
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
+        "page": 10
+      },
+      "approved": true,
+      "sourceLocator": "Review question 63; source PDF page 10",
+      "type": "mcq",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Contact precautions with gown/gloves and handwashing"
+        },
+        {
+          "id": "o1",
+          "text": "Assess and bladder scan before straight catheterization"
+        },
+        {
+          "id": "o2",
+          "text": "Left side; lower bag if pain occurs; retain as tolerated"
+        },
+        {
+          "id": "o3",
+          "text": "Ileostomy usually watery; colostomy more formed depending on location"
+        }
+      ],
+      "correct": "o0"
+    }
+  ]
+}
