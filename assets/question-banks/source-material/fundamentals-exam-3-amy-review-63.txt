@@ -1,0 +1,314 @@
+QUESTION 1 — Dosage Calculation / Weight-based daily totals
+45-lb child prescribed amoxicillin 30 mg/kg/day: daily dose to tenth?
+Instructor answer: 613.6 mg/day
+Source PDF page: 1
+
+QUESTION 2 — Dosage Calculation / Individual doses
+Vancomycin 250 mL over 2 hours, 10 gtt/mL: drops/min?
+Instructor answer: 21 gtt/min
+Source PDF page: 1
+
+QUESTION 3 — Dosage Calculation / Volume from concentration
+Furosemide 40 mg ordered; 4 mg/mL available: volume?
+Instructor answer: 10 mL
+Source PDF page: 1
+
+QUESTION 4 — Dosage Calculation / Individual doses
+D5W 500 mL over 9 hours: pump rate?
+Instructor answer: 55.6 mL/hr (or 56 mL/hr if whole-number setting)
+Source PDF page: 1
+
+QUESTION 5 — Dosage Calculation / Volume from concentration
+What is the concentration on the fluconazole medication label?
+Instructor answer: 40 mg/mL
+Source PDF page: 1
+
+QUESTION 6 — Dosage Calculation / Volume from concentration
+How much diluent is added to reconstitute fluconazole suspension?
+Instructor answer: 24 mL (label-supported; not explicitly verbally confirmed)
+Source PDF page: 1
+
+QUESTION 7 — Electrolytes / Sodium imbalances
+How quickly should sodium abnormalities be corrected, and why?
+Instructor answer: Slowly; rapid correction risks cerebral edema from fluid shifts.
+Source PDF page: 2
+
+QUESTION 8 — Electrolytes / Sodium imbalances
+What system is most associated with sodium imbalance?
+Instructor answer: Neurologic
+Source PDF page: 2
+
+QUESTION 9 — Electrolytes / Sodium imbalances
+What fluid state commonly accompanies hyponatremia?
+Instructor answer: Hypervolemia/dilution, as taught in this review.
+Source PDF page: 2
+
+QUESTION 10 — Electrolytes / Sodium imbalances
+What fluid state commonly accompanies hypernatremia?
+Instructor answer: Hypovolemia/water deficit, as taught in this review.
+Source PDF page: 2
+
+QUESTION 11 — Electrolytes / Potassium imbalances
+What organ is the major concern with potassium disturbances?
+Instructor answer: Heart; dysrhythmias.
+Source PDF page: 2
+
+QUESTION 12 — Electrolytes / Potassium imbalances
+What ECG changes are expected with hyperkalemia?
+Instructor answer: Peaked T waves; sometimes widened QRS.
+Source PDF page: 2
+
+QUESTION 13 — Electrolytes / Potassium imbalances
+Who is at particular risk for hyperkalemia and why?
+Instructor answer: End-stage renal disease due to impaired urinary potassium excretion.
+Source PDF page: 2
+
+QUESTION 14 — Electrolytes / Potassium imbalances
+What treatment is given first in Amy's hyperkalemia protocol, and why?
+Instructor answer: Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly.
+Source PDF page: 2
+
+QUESTION 15 — Electrolytes / Potassium imbalances
+What ECG changes are expected with hypokalemia?
+Instructor answer: Inverted T waves; possible ST depression.
+Source PDF page: 2
+
+QUESTION 16 — Electrolytes / Potassium imbalances
+What causes hypokalemia?
+Instructor answer: Loop diuretics such as furosemide; malnutrition.
+Source PDF page: 2
+
+QUESTION 17 — Electrolytes / Potassium imbalances
+How is IV potassium administered?
+Instructor answer: Diluted via infusion pump; never IV push.
+Source PDF page: 2
+
+QUESTION 18 — Electrolytes / Magnesium imbalances
+What electrolyte deficit is especially associated with alcoholism?
+Instructor answer: Hypomagnesemia
+Source PDF page: 2
+
+QUESTION 19 — Electrolytes / Calcium imbalances
+What is calcium's key association?
+Instructor answer: Bones and muscles
+Source PDF page: 2
+
+QUESTION 20 — Electrolytes / Calcium imbalances
+What signs suggest hypocalcemia?
+Instructor answer: Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs.
+Source PDF page: 2
+
+QUESTION 21 — Electrolytes / Calcium imbalances
+What are manifestations/causes of hypercalcemia?
+Instructor answer: Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity.
+Source PDF page: 3
+
+QUESTION 22 — Electrolytes / Calcium imbalances
+Which vitamin supports calcium absorption?
+Instructor answer: Vitamin D
+Source PDF page: 3
+
+QUESTION 23 — Electrolytes / Magnesium imbalances
+What should be monitored when administering magnesium?
+Instructor answer: Respiratory depression; administer slowly.
+Source PDF page: 3
+
+QUESTION 24 — Electrolytes / Magnesium imbalances
+What are manifestations of hypermagnesemia and its treatment?
+Instructor answer: Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization.
+Source PDF page: 3
+
+QUESTION 25 — Electrolytes / Fluid volume imbalances
+What is shown in the first patient picture?
+Instructor answer: Hypervolemia/fluid-volume excess
+Source PDF page: 3
+
+QUESTION 26 — Electrolytes / Fluid volume imbalances
+How is hypervolemia managed?
+Instructor answer: Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids.
+Source PDF page: 4
+
+QUESTION 27 — Electrolytes / Fluid volume imbalances
+What is shown in the second patient picture?
+Instructor answer: Hypovolemia
+Source PDF page: 4
+
+QUESTION 28 — Electrolytes / Fluid volume imbalances
+How is hypovolemia managed?
+Instructor answer: Oral or IV fluids as indicated; daily weights and I&O.
+Source PDF page: 4
+
+QUESTION 29 — Blood Transfusions / Before a blood transfusion
+What must be done before a transfusion?
+Instructor answer: Baseline vitals, informed consent, blood type and crossmatch.
+Source PDF page: 4
+
+QUESTION 30 — Blood Transfusions / Blood types and testing
+What is the difference between blood typing and crossmatching?
+Instructor answer: Typing identifies blood group; crossmatching tests donor-recipient compatibility.
+Source PDF page: 4
+
+QUESTION 31 — Blood Transfusions / Before a blood transfusion
+What safety checks and timing apply to routine blood transfusion?
+Instructor answer: Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line.
+Source PDF page: 5
+
+QUESTION 32 — Blood Transfusions / Before a blood transfusion
+How are patients monitored during a transfusion?
+Instructor answer: Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review.
+Source PDF page: 5
+
+QUESTION 33 — Blood Transfusions / Transfusion reactions
+What is the priority action if a transfusion reaction is suspected?
+Instructor answer: Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol.
+Source PDF page: 5
+
+QUESTION 34 — Blood Transfusions / Transfusion reactions
+What are the major transfusion reactions?
+Instructor answer: TACO, TRALI, allergic, hemolytic, febrile nonhemolytic.
+Source PDF page: 5
+
+QUESTION 35 — ABGs / Interpreting
+ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?
+Instructor answer: Uncompensated respiratory acidosis
+Source PDF page: 6
+
+QUESTION 36 — ABGs / Causes of imbalances
+What causes respiratory acidosis, and what interventions did Amy name?
+Instructor answer: Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions.
+Source PDF page: 6
+
+QUESTION 37 — ABGs / Interpreting
+ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?
+Instructor answer: Fully compensated metabolic acidosis (instructor interpretation flagged for review).
+Source PDF page: 6
+
+QUESTION 38 — ABGs / Causes of imbalances
+What causes metabolic acidosis and how is it managed?
+Instructor answer: DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause.
+Source PDF page: 6
+
+QUESTION 39 — ABGs / Interpreting
+ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?
+Instructor answer: Partially compensated metabolic alkalosis
+Source PDF page: 6
+
+QUESTION 40 — ABGs / Causes of imbalances
+What causes metabolic alkalosis and what symptoms can appear?
+Instructor answer: Vomiting, NG suction, loop diuretics; tingling, numbness, spasms.
+Source PDF page: 7
+
+QUESTION 41 — ABGs / Interpreting
+ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?
+Instructor answer: Uncompensated respiratory alkalosis
+Source PDF page: 7
+
+QUESTION 42 — ABGs / Causes of imbalances
+What causes respiratory alkalosis?
+Instructor answer: Hyperventilation from pain, anxiety, fever, or excessive ventilator settings.
+Source PDF page: 7
+
+QUESTION 43 — ABGs / Interventions for imbalances
+What did Amy say about paper-bag rebreathing as an exam answer?
+Instructor answer: Possible exam option, but outdated and potentially unsafe; do not routinely use clinically.
+Source PDF page: 7
+
+QUESTION 44 — ABGs / Causes of imbalances
+How do acid-base states relate to potassium?
+Instructor answer: Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught.
+Source PDF page: 7
+
+QUESTION 45 — Bowels / Urinary Elimination / Urinary devices and interventions
+When is an indwelling urinary catheter indicated?
+Instructor answer: HOUDINI indications reviewed: hematuria, obstruction/retention, urologic surgery, severe pressure injury, strict I&O, end-of-life, severe immobility.
+Source PDF page: 8
+
+QUESTION 46 — Bowels / Urinary Elimination / Catheterization
+How do you prevent CAUTI?
+Instructor answer: Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity.
+Source PDF page: 8
+
+QUESTION 47 — Bowels / Urinary Elimination / Urinary devices and interventions
+What is the first step with suspected urinary retention?
+Instructor answer: Assess and bladder scan before straight catheterization.
+Source PDF page: 8
+
+QUESTION 48 — Bowels / Urinary Elimination / Urinary diagnostics
+How do you perform a 24-hour urine collection?
+Instructor answer: Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed.
+Source PDF page: 8
+
+QUESTION 49 — Bowels / Urinary Elimination / Urinary diversions
+How does nephrostomy differ from urinary diversion?
+Instructor answer: Nephrostomy drains kidney directly; diversion reroutes urinary outflow.
+Source PDF page: 8
+
+QUESTION 50 — Bowels / Urinary Elimination / Urinary incontinence
+What are stress, functional and urge incontinence?
+Instructor answer: Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void.
+Source PDF page: 8
+
+QUESTION 51 — Bowels / Urinary Elimination / Urinary assessment terms
+What are polyuria, nocturia, oliguria, anuria, dysuria, hematuria?
+Instructor answer: Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine.
+Source PDF page: 9
+
+QUESTION 52 — Bowels / Urinary Elimination / Ostomies and stoma
+What does a healthy stoma look like, and what is concerning?
+Instructor answer: Beefy red and moist; black/dry/necrotic appearance requires notification.
+Source PDF page: 9
+
+QUESTION 53 — Bowels / Urinary Elimination / Ostomies and stoma
+How does ileostomy output compare with colostomy output?
+Instructor answer: Ileostomy usually watery; colostomy more formed depending on location.
+Source PDF page: 9
+
+QUESTION 54 — Bowels / Urinary Elimination / Ostomies and stoma
+What complication is especially important with ileostomy?
+Instructor answer: Dehydration from watery output.
+Source PDF page: 9
+
+QUESTION 55 — Bowels / Urinary Elimination / Bowel diagnostics
+What does a fecal occult blood test detect?
+Instructor answer: Blood in stool.
+Source PDF page: 9
+
+QUESTION 56 — Bowels / Urinary Elimination / Constipation, impaction and obstruction
+How do fecal impaction and constipation differ?
+Instructor answer: Impaction may cause overflow liquid stool around hard stool and urinary retention.
+Source PDF page: 9
+
+QUESTION 57 — Bowels / Urinary Elimination / Bowel interventions
+What is correct enema positioning and response to pain?
+Instructor answer: Left side; lower bag if pain occurs; retain as tolerated.
+Source PDF page: 9
+
+QUESTION 58 — Nutrition / Diets
+Which diet categories did Amy assign to milk, broth, popsicle, apple, apple juice and ice cream?
+Instructor answer: Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular.
+Source PDF page: 10
+
+QUESTION 59 — Nutrition / Diets
+What is a mechanical-soft diet example?
+Instructor answer: Soft or diced foods such as diced carrots.
+Source PDF page: 10
+
+QUESTION 60 — Nutrition / Enteral nutrition
+How do enteral and parenteral nutrition differ?
+Instructor answer: Enteral uses GI tract; parenteral uses IV access.
+Source PDF page: 10
+
+QUESTION 61 — Nutrition / Enteral nutrition
+What precautions apply to enteral feeding?
+Instructor answer: HOB at least 30 degrees, flush before/after, check placement and residual as taught.
+Source PDF page: 10
+
+QUESTION 62 — Nutrition / Parenteral nutrition
+How do TPN and PPN differ by access?
+Instructor answer: TPN central line; PPN may use peripheral line; sterile line care.
+Source PDF page: 10
+
+QUESTION 63 — Bowels / Urinary Elimination / C. diff case study
+What isolation measures for C. difficile?
+Instructor answer: Contact precautions with gown/gloves and handwashing.
+Source PDF page: 10
