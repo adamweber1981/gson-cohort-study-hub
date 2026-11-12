@@ -1151,7 +1151,7 @@
       "id": "amy-review-35",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?",
+      "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Uncompensated respiratory acidosis",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1195,7 +1195,7 @@
       "id": "amy-review-36",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes respiratory acidosis, and what interventions did Amy name?",
+      "stem": "What causes respiratory acidosis, and what interventions did Amy name?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1229,7 +1229,7 @@
       "id": "amy-review-37",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?",
+      "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Fully compensated metabolic acidosis (instructor interpretation flagged for review). The ABG interpretation is flagged for instructor confirmation.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1273,7 +1273,7 @@
       "id": "amy-review-38",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes metabolic acidosis and how is it managed?",
+      "stem": "What causes metabolic acidosis and how is it managed?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1307,7 +1307,7 @@
       "id": "amy-review-39",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?",
+      "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Partially compensated metabolic alkalosis",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1351,7 +1351,7 @@
       "id": "amy-review-40",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes metabolic alkalosis and what symptoms can appear?",
+      "stem": "What causes metabolic alkalosis and what symptoms can appear?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Vomiting, NG suction, loop diuretics; tingling, numbness, spasms.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1385,7 +1385,7 @@
       "id": "amy-review-41",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?",
+      "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Uncompensated respiratory alkalosis",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1429,7 +1429,7 @@
       "id": "amy-review-42",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes respiratory alkalosis?",
+      "stem": "What causes respiratory alkalosis?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Hyperventilation from pain, anxiety, fever, or excessive ventilator settings.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1463,7 +1463,7 @@
       "id": "amy-review-43",
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
-      "stem": "What did Amy say about paper-bag rebreathing as an exam answer?",
+      "stem": "What did Amy say about paper-bag rebreathing as an exam answer?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Possible exam option, but outdated and potentially unsafe; do not routinely use clinically.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -1497,7 +1497,7 @@
       "id": "amy-review-44",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "How do acid-base states relate to potassium?",
+      "stem": "How do acid-base states relate to potassium?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught.",
       "source": {
         "name": "Fundies Review.pdf",
