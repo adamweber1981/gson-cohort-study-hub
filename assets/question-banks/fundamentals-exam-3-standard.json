@@ -12620,7 +12620,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 1,
+        "crop": [
+          90,
+          413,
+          450,
+          554
+        ]
+      }
     },
     {
       "id": "amy-review-06",
@@ -12655,7 +12665,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 1,
+        "crop": [
+          90,
+          413,
+          450,
+          554
+        ]
+      }
     },
     {
       "id": "amy-review-07",
@@ -13320,7 +13340,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 3,
+        "crop": [
+          90,
+          285,
+          421,
+          691
+        ]
+      }
     },
     {
       "id": "amy-review-26",
@@ -13390,7 +13420,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 4,
+        "crop": [
+          90,
+          176,
+          421,
+          410
+        ]
+      }
     },
     {
       "id": "amy-review-28",
@@ -13670,7 +13710,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          90,
+          279,
+          299,
+          415
+        ]
+      }
     },
     {
       "id": "amy-review-36",
@@ -13740,7 +13790,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          299,
+          279,
+          508,
+          415
+        ]
+      }
     },
     {
       "id": "amy-review-38",
@@ -13810,7 +13870,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          90,
+          552,
+          299,
+          688
+        ]
+      }
     },
     {
       "id": "amy-review-40",
@@ -13880,7 +13950,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          299,
+          552,
+          508,
+          688
+        ]
+      }
     },
     {
       "id": "amy-review-42",
