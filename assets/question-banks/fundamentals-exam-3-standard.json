@@ -205,8 +205,8 @@
       "githubUrl": "https://github.com/adamweber1981/gson-cohort-study-hub/blob/pwa-redesign/References/Fundamentals/Exams/Exam%202/fundies%20gas%20exchange.pdf"
     },
     {
-      "name": "Fundies Review.pdf",
-      "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf"
+      "name": "Fundies Review — instructor question transcription",
+      "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt"
     }
   ],
   "questions": [
@@ -12514,8 +12514,8 @@
       "stem": "45-lb child prescribed amoxicillin 30 mg/kg/day: daily dose to tenth?",
       "rationale": "Instructor review answer: 613.6 mg/day",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 1
       },
       "approved": true,
@@ -12534,8 +12534,8 @@
       "stem": "Vancomycin 250 mL over 2 hours, 10 gtt/mL: drops/min?",
       "rationale": "Instructor review answer: 21 gtt/min",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 1
       },
       "approved": true,
@@ -12554,8 +12554,8 @@
       "stem": "Furosemide 40 mg ordered; 4 mg/mL available: volume?",
       "rationale": "Instructor review answer: 10 mL",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 1
       },
       "approved": true,
@@ -12574,8 +12574,8 @@
       "stem": "D5W 500 mL over 9 hours: pump rate?",
       "rationale": "Instructor review answer: 55.6 mL/hr (or 56 mL/hr if whole-number setting)",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 1
       },
       "approved": true,
@@ -12594,8 +12594,8 @@
       "stem": "What is the concentration on the fluconazole medication label?",
       "rationale": "Instructor review answer: 40 mg/mL",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 1
       },
       "approved": true,
@@ -12629,8 +12629,8 @@
       "stem": "How much diluent is added to reconstitute fluconazole suspension?",
       "rationale": "Instructor review answer: 24 mL (label-supported; not explicitly verbally confirmed)",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 1
       },
       "approved": true,
@@ -12664,8 +12664,8 @@
       "stem": "How quickly should sodium abnormalities be corrected, and why?",
       "rationale": "Instructor review answer: Slowly; rapid correction risks cerebral edema from fluid shifts.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12699,8 +12699,8 @@
       "stem": "What system is most associated with sodium imbalance?",
       "rationale": "Instructor review answer: Neurologic",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12734,8 +12734,8 @@
       "stem": "What fluid state commonly accompanies hyponatremia?",
       "rationale": "Instructor review answer: Hypervolemia/dilution, as taught in this review.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12769,8 +12769,8 @@
       "stem": "What fluid state commonly accompanies hypernatremia?",
       "rationale": "Instructor review answer: Hypovolemia/water deficit, as taught in this review.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12804,8 +12804,8 @@
       "stem": "What organ is the major concern with potassium disturbances?",
       "rationale": "Instructor review answer: Heart; dysrhythmias.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12839,8 +12839,8 @@
       "stem": "What ECG changes are expected with hyperkalemia?",
       "rationale": "Instructor review answer: Peaked T waves; sometimes widened QRS.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12874,8 +12874,8 @@
       "stem": "Who is at particular risk for hyperkalemia and why?",
       "rationale": "Instructor review answer: End-stage renal disease due to impaired urinary potassium excretion.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12909,8 +12909,8 @@
       "stem": "What treatment is given first in Amy's hyperkalemia protocol, and why?",
       "rationale": "Instructor review answer: Calcium gluconate to stabilize cardiac membrane; insulin/dextrose shifts potassium intracellularly.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12944,8 +12944,8 @@
       "stem": "What ECG changes are expected with hypokalemia?",
       "rationale": "Instructor review answer: Inverted T waves; possible ST depression.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -12979,8 +12979,8 @@
       "stem": "What causes hypokalemia?",
       "rationale": "Instructor review answer: Loop diuretics such as furosemide; malnutrition.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -13014,8 +13014,8 @@
       "stem": "How is IV potassium administered?",
       "rationale": "Instructor review answer: Diluted via infusion pump; never IV push.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -13049,8 +13049,8 @@
       "stem": "What electrolyte deficit is especially associated with alcoholism?",
       "rationale": "Instructor review answer: Hypomagnesemia",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -13084,8 +13084,8 @@
       "stem": "What is calcium's key association?",
       "rationale": "Instructor review answer: Bones and muscles",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -13119,8 +13119,8 @@
       "stem": "What signs suggest hypocalcemia?",
       "rationale": "Instructor review answer: Tingling, numbness, hyperreflexia, tetany, spasms, Chvostek and Trousseau signs.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 2
       },
       "approved": true,
@@ -13154,8 +13154,8 @@
       "stem": "What are manifestations/causes of hypercalcemia?",
       "rationale": "Instructor review answer: Bones, stones, groans; kidney stones, constipation; elevated PTH, immobility, possible vitamin D toxicity.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 3
       },
       "approved": true,
@@ -13189,8 +13189,8 @@
       "stem": "Which vitamin supports calcium absorption?",
       "rationale": "Instructor review answer: Vitamin D",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 3
       },
       "approved": true,
@@ -13224,8 +13224,8 @@
       "stem": "What should be monitored when administering magnesium?",
       "rationale": "Instructor review answer: Respiratory depression; administer slowly.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 3
       },
       "approved": true,
@@ -13259,8 +13259,8 @@
       "stem": "What are manifestations of hypermagnesemia and its treatment?",
       "rationale": "Instructor review answer: Decreased reflexes, respiratory depression, flushing; calcium discussed for cardiac stabilization.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 3
       },
       "approved": true,
@@ -13294,8 +13294,8 @@
       "stem": "What is shown in the first patient picture?",
       "rationale": "Instructor review answer: Hypervolemia/fluid-volume excess",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 3
       },
       "approved": true,
@@ -13329,8 +13329,8 @@
       "stem": "How is hypervolemia managed?",
       "rationale": "Instructor review answer: Diuretics, fluid restriction, daily weights, I&O; count ice and gelatin as fluids.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 4
       },
       "approved": true,
@@ -13364,8 +13364,8 @@
       "stem": "What is shown in the second patient picture?",
       "rationale": "Instructor review answer: Hypovolemia",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 4
       },
       "approved": true,
@@ -13399,8 +13399,8 @@
       "stem": "How is hypovolemia managed?",
       "rationale": "Instructor review answer: Oral or IV fluids as indicated; daily weights and I&O.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 4
       },
       "approved": true,
@@ -13434,8 +13434,8 @@
       "stem": "What must be done before a transfusion?",
       "rationale": "Instructor review answer: Baseline vitals, informed consent, blood type and crossmatch.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 4
       },
       "approved": true,
@@ -13469,8 +13469,8 @@
       "stem": "What is the difference between blood typing and crossmatching?",
       "rationale": "Instructor review answer: Typing identifies blood group; crossmatching tests donor-recipient compatibility.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 4
       },
       "approved": true,
@@ -13504,8 +13504,8 @@
       "stem": "What safety checks and timing apply to routine blood transfusion?",
       "rationale": "Instructor review answer: Two-RN verification; begin within about 30 minutes; finish within 4 hours; normal saline in line.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 5
       },
       "approved": true,
@@ -13539,8 +13539,8 @@
       "stem": "How are patients monitored during a transfusion?",
       "rationale": "Instructor review answer: Stay for first 15 minutes; obtain 15-minute vitals, then hourly per review.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 5
       },
       "approved": true,
@@ -13574,8 +13574,8 @@
       "stem": "What is the priority action if a transfusion reaction is suspected?",
       "rationale": "Instructor review answer: Stop transfusion immediately; assess, stay with patient, notify provider and follow protocol.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 5
       },
       "approved": true,
@@ -13609,8 +13609,8 @@
       "stem": "What are the major transfusion reactions?",
       "rationale": "Instructor review answer: TACO, TRALI, allergic, hemolytic, febrile nonhemolytic.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 5
       },
       "approved": true,
@@ -13644,8 +13644,8 @@
       "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?",
       "rationale": "Instructor review answer: Uncompensated respiratory acidosis",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 6
       },
       "approved": true,
@@ -13679,8 +13679,8 @@
       "stem": "What causes respiratory acidosis, and what interventions did Amy name?",
       "rationale": "Instructor review answer: Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 6
       },
       "approved": true,
@@ -13714,8 +13714,8 @@
       "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?",
       "rationale": "Instructor review answer: Fully compensated metabolic acidosis (instructor interpretation flagged for review). The ABG interpretation is flagged for instructor confirmation.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 6
       },
       "approved": true,
@@ -13749,8 +13749,8 @@
       "stem": "What causes metabolic acidosis and how is it managed?",
       "rationale": "Instructor review answer: DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 6
       },
       "approved": true,
@@ -13784,8 +13784,8 @@
       "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?",
       "rationale": "Instructor review answer: Partially compensated metabolic alkalosis",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 6
       },
       "approved": true,
@@ -13819,8 +13819,8 @@
       "stem": "What causes metabolic alkalosis and what symptoms can appear?",
       "rationale": "Instructor review answer: Vomiting, NG suction, loop diuretics; tingling, numbness, spasms.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 7
       },
       "approved": true,
@@ -13854,8 +13854,8 @@
       "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?",
       "rationale": "Instructor review answer: Uncompensated respiratory alkalosis",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 7
       },
       "approved": true,
@@ -13889,8 +13889,8 @@
       "stem": "What causes respiratory alkalosis?",
       "rationale": "Instructor review answer: Hyperventilation from pain, anxiety, fever, or excessive ventilator settings.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 7
       },
       "approved": true,
@@ -13924,8 +13924,8 @@
       "stem": "What did Amy say about paper-bag rebreathing as an exam answer?",
       "rationale": "Instructor review answer: Possible exam option, but outdated and potentially unsafe; do not routinely use clinically.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 7
       },
       "approved": true,
@@ -13959,8 +13959,8 @@
       "stem": "How do acid-base states relate to potassium?",
       "rationale": "Instructor review answer: Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 7
       },
       "approved": true,
@@ -13994,8 +13994,8 @@
       "stem": "When is an indwelling urinary catheter indicated?",
       "rationale": "Instructor review answer: HOUDINI indications reviewed: hematuria, obstruction/retention, urologic surgery, severe pressure injury, strict I&O, end-of-life, severe immobility.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 8
       },
       "approved": true,
@@ -14029,8 +14029,8 @@
       "stem": "How do you prevent CAUTI?",
       "rationale": "Instructor review answer: Sterile insertion, closed system, bag below bladder/off floor, no kinks, hygiene, reassess necessity.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 8
       },
       "approved": true,
@@ -14064,8 +14064,8 @@
       "stem": "What is the first step with suspected urinary retention?",
       "rationale": "Instructor review answer: Assess and bladder scan before straight catheterization.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 8
       },
       "approved": true,
@@ -14099,8 +14099,8 @@
       "stem": "How do you perform a 24-hour urine collection?",
       "rationale": "Instructor review answer: Discard first void, start clock, collect all subsequent voids for 24 hours, store as instructed.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 8
       },
       "approved": true,
@@ -14134,8 +14134,8 @@
       "stem": "How does nephrostomy differ from urinary diversion?",
       "rationale": "Instructor review answer: Nephrostomy drains kidney directly; diversion reroutes urinary outflow.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 8
       },
       "approved": true,
@@ -14169,8 +14169,8 @@
       "stem": "What are stress, functional and urge incontinence?",
       "rationale": "Instructor review answer: Stress: leakage with cough; functional: unable to reach toilet; urge: sudden need to void.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 8
       },
       "approved": true,
@@ -14204,8 +14204,8 @@
       "stem": "What are polyuria, nocturia, oliguria, anuria, dysuria, hematuria?",
       "rationale": "Instructor review answer: Excess urine; nighttime urination; low output; absent output; painful urination; blood in urine.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14239,8 +14239,8 @@
       "stem": "What does a healthy stoma look like, and what is concerning?",
       "rationale": "Instructor review answer: Beefy red and moist; black/dry/necrotic appearance requires notification.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14274,8 +14274,8 @@
       "stem": "How does ileostomy output compare with colostomy output?",
       "rationale": "Instructor review answer: Ileostomy usually watery; colostomy more formed depending on location.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14309,8 +14309,8 @@
       "stem": "What complication is especially important with ileostomy?",
       "rationale": "Instructor review answer: Dehydration from watery output.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14344,8 +14344,8 @@
       "stem": "What does a fecal occult blood test detect?",
       "rationale": "Instructor review answer: Blood in stool.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14379,8 +14379,8 @@
       "stem": "How do fecal impaction and constipation differ?",
       "rationale": "Instructor review answer: Impaction may cause overflow liquid stool around hard stool and urinary retention.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14414,8 +14414,8 @@
       "stem": "What is correct enema positioning and response to pain?",
       "rationale": "Instructor review answer: Left side; lower bag if pain occurs; retain as tolerated.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 9
       },
       "approved": true,
@@ -14449,8 +14449,8 @@
       "stem": "Which diet categories did Amy assign to milk, broth, popsicle, apple, apple juice and ice cream?",
       "rationale": "Instructor review answer: Milk/ice cream: full liquid; broth/popsicle/apple juice: clear liquid; apple: regular.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 10
       },
       "approved": true,
@@ -14484,8 +14484,8 @@
       "stem": "What is a mechanical-soft diet example?",
       "rationale": "Instructor review answer: Soft or diced foods such as diced carrots.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 10
       },
       "approved": true,
@@ -14519,8 +14519,8 @@
       "stem": "How do enteral and parenteral nutrition differ?",
       "rationale": "Instructor review answer: Enteral uses GI tract; parenteral uses IV access.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 10
       },
       "approved": true,
@@ -14554,8 +14554,8 @@
       "stem": "What precautions apply to enteral feeding?",
       "rationale": "Instructor review answer: HOB at least 30 degrees, flush before/after, check placement and residual as taught.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 10
       },
       "approved": true,
@@ -14589,8 +14589,8 @@
       "stem": "How do TPN and PPN differ by access?",
       "rationale": "Instructor review answer: TPN central line; PPN may use peripheral line; sterile line care.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 10
       },
       "approved": true,
@@ -14624,8 +14624,8 @@
       "stem": "What isolation measures for C. difficile?",
       "rationale": "Instructor review answer: Contact precautions with gown/gloves and handwashing.",
       "source": {
-        "name": "Fundies Review.pdf",
-        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "name": "Fundies Review — instructor questions",
+        "path": "assets/question-banks/source-material/fundamentals-exam-3-amy-review-63.txt",
         "page": 10
       },
       "approved": true,
