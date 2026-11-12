@@ -13,7 +13,35 @@ function sourceLink(q){
  for(const extra of s.relatedSources||[]){wrap.append(" · ",referenceAnchor(extra,extra.name+(extra.page?" (page "+extra.page+")":"")))}
  if(s.githubUrl){wrap.append(" · ");const g=document.createElement("a");g.href=s.githubUrl;g.target="_blank";g.rel="noopener noreferrer";g.textContent="Source on GitHub ↗";wrap.append(g)}return wrap
 }
+const sourcePdfDocuments=new Map();
+async function renderOriginalSourceImage(question,container){
+ const spec=question.sourceImage;
+ const status=document.createElement("p");status.className="muted";status.textContent="Loading original source image…";container.append(status);
+ const fallback=document.createElement("a");fallback.href=spec.path+"#page="+spec.page;fallback.target="_blank";fallback.rel="noopener noreferrer";fallback.textContent="Open original PDF page";fallback.hidden=true;container.append(fallback);
+ try{
+  const pdfjs=await loadPdfLibrary();
+  if(!sourcePdfDocuments.has(spec.path))sourcePdfDocuments.set(spec.path,pdfjs.getDocument({url:spec.path}).promise);
+  const pdf=await sourcePdfDocuments.get(spec.path);
+  const page=await pdf.getPage(spec.page);
+  const bounds=spec.crop;
+  const scale=2;
+  const viewport=page.getViewport({scale});
+  const canvas=document.createElement("canvas");
+  canvas.width=Math.round((bounds[2]-bounds[0])*scale);
+  canvas.height=Math.round((bounds[3]-bounds[1])*scale);
+  canvas.style.display="block";canvas.style.maxWidth="100%";canvas.style.height="auto";canvas.style.margin="0 auto";
+  const ctx=canvas.getContext("2d");
+  await page.render({canvasContext:ctx,viewport,transform:[1,0,0,1,-bounds[0]*scale,-bounds[1]*scale]}).promise;
+  if(!container.isConnected)return;
+  status.remove();container.append(canvas);
+ }catch(err){
+  status.textContent="The original image could not be loaded. Open its source PDF page instead.";
+  fallback.hidden=false;
+  console.error("Original source image failed:",err);
+ }
+}
 function showQuestion(){resetUI();selection=null;const q=engine.current();const submitted=engine.phase==="submitted";const prior=engine.answer;meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.append(Object.assign(document.createElement("p"),{className:"muted",textContent:"Question "+(engine.index+1)+" of "+engine.total}));if(q.caseText)root.append(Object.assign(document.createElement("aside"),{className:"case-panel",textContent:q.caseText}));root.append(Object.assign(document.createElement("h1"),{textContent:q.stem}));if(q.diagram&&window.HealthAssessmentDiagrams?.[q.diagram]){const figure=document.createElement("figure");figure.className="assessment-diagram";figure.innerHTML=window.HealthAssessmentDiagrams[q.diagram];figure.setAttribute("aria-label","Assessment illustration");root.append(figure)}
+ if(q.sourceImage){const figure=document.createElement("figure");figure.className="original-source-image";figure.style.margin="1rem 0";figure.setAttribute("aria-label","Original image from "+q.source.name);root.append(figure);renderOriginalSourceImage(q,figure)}
  const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=q.type==="sata"?"Select all that apply":q.type==="matching"?"Match every item":q.type==="dosage"?"Enter the calculated dose":"Choose one answer";field.append(legend);
  if(["mcq","visual","sata","truefalse"].includes(q.type)){const choices=q.options;for(const option of choices){const label=document.createElement("label");label.className="answer-option";label.style.setProperty("--answer-index",String(choices.indexOf(option)%4));label.classList.add("answer-color-"+(choices.indexOf(option)%4));const input=document.createElement("input");input.type=q.type==="sata"?"checkbox":"radio";input.name="answer";input.value=option.id;input.disabled=submitted;input.checked=submitted?(q.type==="sata"?prior.response.includes(option.id):prior.response===option.id):false;input.addEventListener("change",()=>{selection=q.type==="sata"?[...field.querySelectorAll("input:checked")].map(x=>x.value):input.value;submitButton.disabled=Array.isArray(selection)?!selection.length:!selection});label.append(input,document.createTextNode(" "+option.text));field.append(label)}}
  else if(q.type==="matching"){selection={};for(const pair of q.pairs){const label=document.createElement("label");label.className="match-row";label.append(document.createTextNode(pair.prompt));const select=document.createElement("select");select.disabled=submitted;select.append(new Option("Select match",""));for(const option of q.targets)select.append(new Option(option.text,option.id));if(submitted)select.value=prior.response[pair.id];select.addEventListener("change",()=>{selection[pair.id]=select.value;submitButton.disabled=q.pairs.some(p=>!selection[p.id])});label.append(select);field.append(label)}}
