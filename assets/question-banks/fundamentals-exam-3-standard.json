@@ -1545,7 +1545,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "sata",
-      "stem": "Which statements correctly use the ROME approach? Select all that apply.",
+      "stem": "Which statements correctly use the ROME approach? Select all that apply.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Respiratory changes move opposite pH; metabolic bicarbonate changes move with pH. Compensation can normalize pH while the other values remain abnormal.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1631,7 +1631,7 @@
       "topic": "ABGs",
       "subtopic": "Interpreting",
       "type": "truefalse",
-      "stem": "A pH of 7.40 by itself is sufficient to rule out an acid–base disorder.\n\nNormal reference range: pH 7.35–7.45.",
+      "stem": "A pH of 7.40 by itself is sufficient to rule out an acid–base disorder.\n\nNormal reference range: pH 7.35–7.45.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "The nurse must also evaluate PaCO2 and bicarbonate. Compensated disorders may have a pH within the expected interval.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 19–27",
@@ -1714,7 +1714,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "mcq",
-      "stem": "After an opioid dose, a client becomes difficult to arouse, with slow shallow breathing and respiratory acidosis. Which prescribed treatment addresses the likely cause?",
+      "stem": "After an opioid dose, a client becomes difficult to arouse, with slow shallow breathing and respiratory acidosis. Which prescribed treatment addresses the likely cause?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Opioid-related hypoventilation retains CO2. Naloxone can reverse opioid respiratory depression; ongoing respiratory assessment remains necessary.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 12",
@@ -1749,7 +1749,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "mcq",
-      "stem": "A client with a confirmed anxiety-related respiratory alkalosis has tingling fingers and rapid breathing. Oxygenation has been assessed. Which action is appropriate?",
+      "stem": "A client with a confirmed anxiety-related respiratory alkalosis has tingling fingers and rapid breathing. Oxygenation has been assessed. Which action is appropriate?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Calm coaching addresses hyperventilation once its cause is assessed. Tingling can accompany alkalosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 14",
@@ -1784,7 +1784,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "mcq",
-      "stem": "A client with DKA has deep rapid respirations and metabolic acidosis. Which action best supports the treatment plan?",
+      "stem": "A client with DKA has deep rapid respirations and metabolic acidosis. Which action best supports the treatment plan?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Kussmaul breathing is compensation. Treating DKA addresses the metabolic cause rather than suppressing the compensatory pattern.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 15–16",
@@ -1819,7 +1819,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "mcq",
-      "stem": "A client’s metabolic acidosis is improving during prescribed insulin treatment. Which laboratory trend requires particular attention?",
+      "stem": "A client’s metabolic acidosis is improving during prescribed insulin treatment. Which laboratory trend requires particular attention?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Potassium can shift into cells as acidosis is corrected and insulin takes effect. Monitor for hypokalemia during treatment.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 16",
@@ -1854,7 +1854,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "mcq",
-      "stem": "A client has metabolic alkalosis after prolonged vomiting. Which prescribed plan addresses the source of the problem?",
+      "stem": "A client has metabolic alkalosis after prolonged vomiting. Which prescribed plan addresses the source of the problem?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Gastric acid loss promotes metabolic alkalosis and can accompany potassium and volume losses. Treatment addresses those losses.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 17–18",
@@ -1924,7 +1924,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "sata",
-      "stem": "Which actions support care for respiratory acidosis from inadequate ventilation? Select all that apply.",
+      "stem": "Which actions support care for respiratory acidosis from inadequate ventilation? Select all that apply.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Improving ventilation helps eliminate retained CO2. Worsening fatigue or confusion may signal deterioration.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 12",
@@ -1967,7 +1967,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "sata",
-      "stem": "Which measures belong in the care plan for significant metabolic alkalosis with potassium loss? Select all that apply.",
+      "stem": "Which measures belong in the care plan for significant metabolic alkalosis with potassium loss? Select all that apply.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Care addresses the cause, concurrent electrolyte losses, and respiratory safety. Compensatory breathing must not be allowed to compromise oxygenation.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 18",
@@ -2010,7 +2010,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "truefalse",
-      "stem": "Deep rapid breathing during metabolic acidosis should routinely be suppressed because it is the source of the low pH.",
+      "stem": "Deep rapid breathing during metabolic acidosis should routinely be suppressed because it is the source of the low pH.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "The breathing can be a compensatory effort to exhale CO2. Treat the metabolic cause and assess respiratory adequacy.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 15–16",
@@ -2037,7 +2037,7 @@
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
       "type": "matching",
-      "stem": "Match the clinical problem to the intervention targeting its cause.",
+      "stem": "Match the clinical problem to the intervention targeting its cause.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Cause-directed treatment is more useful than treating every abnormal pH the same way.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 12–18",
@@ -2084,7 +2084,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "mcq",
-      "stem": "A client splints the chest after several rib fractures and takes shallow breaths. Which imbalance is the nurse concerned about?",
+      "stem": "A client splints the chest after several rib fractures and takes shallow breaths. Which imbalance is the nurse concerned about?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Inadequate ventilation can retain CO2 and produce respiratory acidosis. Pain-related shallow breathing is a risk.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 11",
@@ -2119,7 +2119,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "mcq",
-      "stem": "A client has prolonged NG suction and a rising pH. Which mechanism best explains the likely disorder?",
+      "stem": "A client has prolonged NG suction and a rising pH. Which mechanism best explains the likely disorder?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Gastric suction removes acid, favoring metabolic alkalosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 17",
@@ -2154,7 +2154,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "mcq",
-      "stem": "A client with severe diarrhea develops low bicarbonate and a low pH. What is the likely link?",
+      "stem": "A client with severe diarrhea develops low bicarbonate and a low pH. What is the likely link?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Severe diarrhea can remove bicarbonate, causing metabolic acidosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 15",
@@ -2189,7 +2189,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "mcq",
-      "stem": "A client in shock develops metabolic acidosis. Which process from the lecture explains this?",
+      "stem": "A client in shock develops metabolic acidosis. Which process from the lecture explains this?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "The lecture lists lactic acidosis associated with shock or sepsis as a metabolic cause.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 15",
@@ -2224,7 +2224,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "mcq",
-      "stem": "Which history most directly supports respiratory alkalosis?",
+      "stem": "Which history most directly supports respiratory alkalosis?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Hyperventilation lowers PaCO2 and can raise pH. The other histories suggest different primary disorders.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 13",
@@ -2259,7 +2259,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "mcq",
-      "stem": "A client repeatedly uses bicarbonate-containing antacids and develops alkalemia. Which imbalance should the nurse consider?",
+      "stem": "A client repeatedly uses bicarbonate-containing antacids and develops alkalemia. Which imbalance should the nurse consider?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Excess bicarbonate intake adds base and can cause metabolic alkalosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 17",
@@ -2294,7 +2294,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "sata",
-      "stem": "Which histories can contribute to metabolic acidosis? Select all that apply.",
+      "stem": "Which histories can contribute to metabolic acidosis? Select all that apply.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Acid accumulation or bicarbonate loss can produce metabolic acidosis. Gastric acid loss and excess base suggest alkalosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slide 15",
@@ -2342,7 +2342,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "sata",
-      "stem": "Which histories should prompt assessment for CO2 retention? Select all that apply.",
+      "stem": "Which histories should prompt assessment for CO2 retention? Select all that apply.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Poor ventilation favors respiratory acidosis. Hyperventilation typically lowers CO2.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 11–13",
@@ -2385,7 +2385,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "truefalse",
-      "stem": "Both repeated vomiting and severe diarrhea usually cause metabolic alkalosis through the same loss of gastric acid.",
+      "stem": "Both repeated vomiting and severe diarrhea usually cause metabolic alkalosis through the same loss of gastric acid.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Vomiting loses gastric acid and favors alkalosis. Severe diarrhea loses bicarbonate and favors acidosis.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 11–18",
@@ -2412,7 +2412,7 @@
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
       "type": "matching",
-      "stem": "Match each history with its likely primary imbalance.",
+      "stem": "Match each history with its likely primary imbalance.\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Identify whether the initial disturbance involves ventilation, acid accumulation, or loss of acid/base.",
       "source": {
         "name": "blood transfusions and ABGs.pptx — slides 11–18",
@@ -11293,7 +11293,7 @@
       "topic": "Concept Mastery",
       "subtopic": "Oxygenation and physiological adaptation",
       "type": "mcq",
-      "stem": "A client’s breathing becomes rapid during an anxiety episode. Which explanation connects ventilation to the possible ABG change?",
+      "stem": "A client’s breathing becomes rapid during an anxiety episode. Which explanation connects ventilation to the possible ABG change?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Hyperventilation can decrease PaCO2 and produce alkalosis. Assess the cause rather than assuming all rapid breathing is anxiety.",
       "source": {
         "name": "fundies gas exchange.pdf — PDF pages 3–4",
@@ -12620,7 +12620,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 1,
+        "crop": [
+          90,
+          413,
+          450,
+          554
+        ]
+      }
     },
     {
       "id": "amy-review-06",
@@ -12655,7 +12665,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 1,
+        "crop": [
+          90,
+          413,
+          450,
+          554
+        ]
+      }
     },
     {
       "id": "amy-review-07",
@@ -13320,7 +13340,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 3,
+        "crop": [
+          90,
+          285,
+          421,
+          691
+        ]
+      }
     },
     {
       "id": "amy-review-26",
@@ -13390,7 +13420,17 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 4,
+        "crop": [
+          90,
+          176,
+          421,
+          410
+        ]
+      }
     },
     {
       "id": "amy-review-28",
@@ -13641,7 +13681,7 @@
       "id": "amy-review-35",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?",
+      "stem": "ABG slide #1: pH 7.20, PaCO2 65, HCO3 25. What is the interpretation?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Uncompensated respiratory acidosis",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13670,13 +13710,23 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          90,
+          279,
+          299,
+          415
+        ]
+      }
     },
     {
       "id": "amy-review-36",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes respiratory acidosis, and what interventions did Amy name?",
+      "stem": "What causes respiratory acidosis, and what interventions did Amy name?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Hypoventilation; COPD, pneumonia, asthma, opioid overdose; treat cause with appropriate interventions.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13711,7 +13761,7 @@
       "id": "amy-review-37",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?",
+      "stem": "ABG slide #2: pH 7.38, PaCO2 45, HCO3 20. What interpretation did Amy give?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Fully compensated metabolic acidosis (instructor interpretation flagged for review). The ABG interpretation is flagged for instructor confirmation.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13740,13 +13790,23 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          299,
+          279,
+          508,
+          415
+        ]
+      }
     },
     {
       "id": "amy-review-38",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes metabolic acidosis and how is it managed?",
+      "stem": "What causes metabolic acidosis and how is it managed?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: DKA, lactic acidosis/shock, severe diarrhea, renal failure, ketoacidosis; treat underlying cause.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13781,7 +13841,7 @@
       "id": "amy-review-39",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?",
+      "stem": "ABG slide #3: pH 7.49, PaCO2 49, HCO3 30. What is the interpretation?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Partially compensated metabolic alkalosis",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13810,13 +13870,23 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          90,
+          552,
+          299,
+          688
+        ]
+      }
     },
     {
       "id": "amy-review-40",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes metabolic alkalosis and what symptoms can appear?",
+      "stem": "What causes metabolic alkalosis and what symptoms can appear?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Vomiting, NG suction, loop diuretics; tingling, numbness, spasms.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13851,7 +13921,7 @@
       "id": "amy-review-41",
       "topic": "ABGs",
       "subtopic": "Interpreting",
-      "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?",
+      "stem": "ABG slide #4: pH 7.47, PaCO2 30, HCO3 24. What is the interpretation?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Uncompensated respiratory alkalosis",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13880,13 +13950,23 @@
         }
       ],
       "correct": "o0",
-      "reviewSet": "Fundies Review — 63 questions"
+      "reviewSet": "Fundies Review — 63 questions",
+      "sourceImage": {
+        "path": "References/Fundamentals/Exams/Exam%203/Fundies%20Review.pdf",
+        "page": 5,
+        "crop": [
+          299,
+          552,
+          508,
+          688
+        ]
+      }
     },
     {
       "id": "amy-review-42",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "What causes respiratory alkalosis?",
+      "stem": "What causes respiratory alkalosis?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Hyperventilation from pain, anxiety, fever, or excessive ventilator settings.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13921,7 +14001,7 @@
       "id": "amy-review-43",
       "topic": "ABGs",
       "subtopic": "Interventions for imbalances",
-      "stem": "What did Amy say about paper-bag rebreathing as an exam answer?",
+      "stem": "What did Amy say about paper-bag rebreathing as an exam answer?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Possible exam option, but outdated and potentially unsafe; do not routinely use clinically.",
       "source": {
         "name": "Fundies Review.pdf",
@@ -13956,7 +14036,7 @@
       "id": "amy-review-44",
       "topic": "ABGs",
       "subtopic": "Causes of imbalances",
-      "stem": "How do acid-base states relate to potassium?",
+      "stem": "How do acid-base states relate to potassium?\n\nNormal reference ranges: pH 7.35–7.45; PaCO2 35–45 mmHg; HCO3 22–26 mEq/L.",
       "rationale": "Instructor review answer: Metabolic acidosis with hyperkalemia; metabolic alkalosis with hypokalemia, as taught.",
       "source": {
         "name": "Fundies Review.pdf",
