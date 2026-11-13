@@ -39,6 +39,10 @@ const STUDY_HUB = [
               version: "Cardiac practice preview",
               file: "exam.html?bank=pathophysiology-exam-4-cardiac-draft&v=cardiac-preview",
               description: "Take a 17-question Cardiac blueprint attempt or customize practice from 90 draft questions."
+            }, {
+              version: "GI/Hepatobiliary practice preview",
+              file: "exam.html?bank=pathophysiology-exam-4-gi-draft&v=gi-preview",
+              description: "Take a 20-question GI/Hepatobiliary blueprint attempt or customize practice from 110 draft questions."
             }]
           },
           {

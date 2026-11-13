@@ -1,3 +1,8 @@
+# November 13, 2026 — Pathophysiology Exam 4 GI/Hepatobiliary preview
+
+- Added a 20-question GI/Hepatobiliary blueprint attempt and custom practice from 110 draft questions across 11 subtopics.
+- Added original PDF page references to each GI/Hepatobiliary question.
+
 # November 13, 2026 — Pathophysiology Exam 4 Cardiac preview
 
 - Added a 17-question Cardiac blueprint attempt and custom practice from 90 draft questions.

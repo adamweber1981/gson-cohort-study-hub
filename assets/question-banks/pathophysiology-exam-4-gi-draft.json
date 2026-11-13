@@ -1,0 +1,3842 @@
+{
+  "id": "pathophysiology-exam-4-gi-draft",
+  "course": "Pathophysiology",
+  "examNumber": "Exam 4",
+  "practiceName": "GI/Hepatobiliary practice preview",
+  "notice": "Draft preview for testing. The full Exam 4 includes additional sections.",
+  "status": "draft",
+  "blueprint": {
+    "total": 20,
+    "topics": {
+      "GI/Hepatobiliary": 20
+    },
+    "subtopics": {
+      "GI/Hepatobiliary": {
+        "Nutrition": 2,
+        "GERD": 1,
+        "Peptic Ulcer Disease": 2,
+        "Vomiting, Constipation, Diarrhea": 2,
+        "IBD": 1,
+        "Appendicitis": 2,
+        "Small Bowel Obstruction": 2,
+        "Hepatitis": 2,
+        "Cirrhosis": 4,
+        "Cholelithiasis & Cholecystitis": 1,
+        "Acute Pancreatitis": 1
+      }
+    },
+    "standardLabel": "GI/Hepatobiliary blueprint (20 questions)"
+  },
+  "references": [
+    {
+      "name": "Exam 4 Worksheet.pdf",
+      "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf"
+    },
+    {
+      "name": "Week 9 Questions.pdf",
+      "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf"
+    },
+    {
+      "name": "Hepatitis Chart.pdf",
+      "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf"
+    },
+    {
+      "name": "Cirrhosis Transcript.pdf",
+      "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf"
+    },
+    {
+      "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+      "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "patho-e4-gi-001",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "Which calculation yields BMI for an adult whose weight is recorded in kilograms?",
+      "rationale": "BMI uses kilograms and meters squared.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Weight multiplied by height squared"
+        },
+        {
+          "id": "o0",
+          "text": "Weight divided by height in meters squared"
+        },
+        {
+          "id": "o1",
+          "text": "Weight divided by height in meters"
+        },
+        {
+          "id": "o2",
+          "text": "Height squared divided by weight"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-002",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "A 72-kg adult is 1.80 m tall. What is the BMI to one decimal place?",
+      "rationale": "72 divided by 3.24 equals 22.2.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "25.9 kg/m²"
+        },
+        {
+          "id": "o3",
+          "text": "40.0 kg/m²"
+        },
+        {
+          "id": "o0",
+          "text": "22.2 kg/m²"
+        },
+        {
+          "id": "o1",
+          "text": "20.0 kg/m²"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-003",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "Which measure estimates the energy used to sustain basic functions at rest?",
+      "rationale": "BMR describes resting energy needs for basic functions.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Daily caloric intake"
+        },
+        {
+          "id": "o3",
+          "text": "Waist circumference"
+        },
+        {
+          "id": "o0",
+          "text": "Basal metabolic rate"
+        },
+        {
+          "id": "o1",
+          "text": "Body mass index"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-004",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "A client consistently consumes more energy than they expend. What trend follows if the imbalance persists?",
+      "rationale": "A sustained energy surplus increases stored energy.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Weight loss"
+        },
+        {
+          "id": "o2",
+          "text": "Stable weight due to equal energy balance"
+        },
+        {
+          "id": "o3",
+          "text": "An immediate fall in BMI"
+        },
+        {
+          "id": "o0",
+          "text": "Weight gain"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-005",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "A client wants to understand why activity can influence weight even if food intake stays constant. Which explanation fits?",
+      "rationale": "Movement is a component of total energy expenditure.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Activity changes total energy expenditure"
+        },
+        {
+          "id": "o1",
+          "text": "Activity changes height in the BMI formula"
+        },
+        {
+          "id": "o2",
+          "text": "Activity is excluded from energy balance"
+        },
+        {
+          "id": "o3",
+          "text": "Activity automatically lowers basal energy needs"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-006",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "Two clients have identical BMI values. Which conclusion is supported by BMI alone?",
+      "rationale": "BMI reports a ratio and cannot distinguish fat from lean mass.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Their weight relative to height squared is the same"
+        },
+        {
+          "id": "o1",
+          "text": "They have the same body fat percentage"
+        },
+        {
+          "id": "o2",
+          "text": "They have the same resting energy needs"
+        },
+        {
+          "id": "o3",
+          "text": "They have the same daily caloric intake"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-007",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "Why can two adults of the same weight have different basal metabolic rates?",
+      "rationale": "Lean tissue contributes to resting energy use.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Resting energy use measures food intake"
+        },
+        {
+          "id": "o0",
+          "text": "Differences in lean tissue can alter resting energy use"
+        },
+        {
+          "id": "o1",
+          "text": "Weight fixes basal energy use at a single value"
+        },
+        {
+          "id": "o2",
+          "text": "Height is the only determinant of resting energy use"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-008",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "Match each adult BMI value to its category.",
+      "rationale": "Adult categories are under 18.5, 18.5–24.9, 25–29.9, and 30 or greater.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "type": "matching",
+      "targets": [
+        {
+          "id": "o3",
+          "text": "Obesity"
+        },
+        {
+          "id": "o2",
+          "text": "Overweight"
+        },
+        {
+          "id": "o1",
+          "text": "Normal BMI"
+        },
+        {
+          "id": "o0",
+          "text": "Underweight"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "14.8",
+          "correct": "o0"
+        },
+        {
+          "id": "p1",
+          "prompt": "24.6",
+          "correct": "o1"
+        },
+        {
+          "id": "p2",
+          "prompt": "27.5",
+          "correct": "o2"
+        },
+        {
+          "id": "p3",
+          "prompt": "32.0",
+          "correct": "o3"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-gi-009",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "An adult gains weight while height remains unchanged. What happens to BMI?",
+      "rationale": "At fixed height, BMI changes in the same direction as weight.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "It remains constant because height is unchanged"
+        },
+        {
+          "id": "o3",
+          "text": "It cannot be calculated without BMR"
+        },
+        {
+          "id": "o0",
+          "text": "It rises because the numerator increases"
+        },
+        {
+          "id": "o1",
+          "text": "It falls because the numerator increases"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-010",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Nutrition",
+      "stem": "Which two variables determine whether stored body energy tends to increase or decrease? Select exactly two.",
+      "rationale": "The difference between intake and expenditure determines energy balance.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "BMI category label"
+        },
+        {
+          "id": "o4",
+          "text": "Waist circumference alone"
+        },
+        {
+          "id": "o0",
+          "text": "Energy intake"
+        },
+        {
+          "id": "o1",
+          "text": "Total energy expenditure"
+        },
+        {
+          "id": "o2",
+          "text": "Height squared"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-011",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "A client describes sour fluid rising into the mouth. What process explains the sensation?",
+      "rationale": "Gastric contents move backward into the esophagus and can reach the mouth.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reflux of gastric contents into the esophagus"
+        },
+        {
+          "id": "o1",
+          "text": "Passage of bile into the duodenum"
+        },
+        {
+          "id": "o2",
+          "text": "Retention of stool in the colon"
+        },
+        {
+          "id": "o3",
+          "text": "Movement of food from esophagus into stomach"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-012",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "Which normal barrier limits backward flow from the stomach?",
+      "rationale": "The lower esophageal sphincter is the barrier at the gastroesophageal junction.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lower esophageal sphincter"
+        },
+        {
+          "id": "o1",
+          "text": "Pyloric sphincter"
+        },
+        {
+          "id": "o2",
+          "text": "Ileocecal valve"
+        },
+        {
+          "id": "o3",
+          "text": "Upper anal sphincter"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-013",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "Which history best supports GERD over an isolated reflux episode?",
+      "rationale": "Recurrent bothersome symptoms support a disease pattern.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "A brief change in stool consistency"
+        },
+        {
+          "id": "o0",
+          "text": "Recurrent bothersome heartburn and regurgitation"
+        },
+        {
+          "id": "o1",
+          "text": "One brief episode after an unusually large meal"
+        },
+        {
+          "id": "o2",
+          "text": "A single bout of nausea during travel"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-014",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "A client’s burning retrosternal discomfort is worse when lying down after eating. What explains the position effect?",
+      "rationale": "Gravity assists clearance when upright.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Recumbency increases gravity-assisted drainage into the stomach"
+        },
+        {
+          "id": "o3",
+          "text": "Recumbency stops contact between gastric contents and esophagus"
+        },
+        {
+          "id": "o0",
+          "text": "Recumbency reduces gravity-assisted clearance of refluxate"
+        },
+        {
+          "id": "o1",
+          "text": "Recumbency closes the lower esophageal sphincter more tightly"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-015",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "How can elevated abdominal pressure promote reflux?",
+      "rationale": "A larger pressure gradient favors retrograde flow when the barrier is weak.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "It blocks acid production by the stomach"
+        },
+        {
+          "id": "o3",
+          "text": "It speeds clearance of acid from the esophagus"
+        },
+        {
+          "id": "o0",
+          "text": "It increases the pressure driving stomach contents toward the esophagus"
+        },
+        {
+          "id": "o1",
+          "text": "It strengthens the esophageal barrier"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-016",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "Which tissue change can follow repeated exposure to refluxed acid?",
+      "rationale": "Repeated acid exposure can inflame esophageal mucosa.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Appendiceal obstruction"
+        },
+        {
+          "id": "o2",
+          "text": "Ileal fistula"
+        },
+        {
+          "id": "o3",
+          "text": "Pancreatic necrosis"
+        },
+        {
+          "id": "o0",
+          "text": "Esophagitis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-017",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "Which pattern best distinguishes regurgitation from vomiting?",
+      "rationale": "Regurgitation can occur without the forceful contractions of emesis.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Gastric contents rise with little or no forceful retching"
+        },
+        {
+          "id": "o1",
+          "text": "Gastric contents are expelled with repeated abdominal contractions"
+        },
+        {
+          "id": "o2",
+          "text": "Abdominal contractions continue after gastric contents are expelled"
+        },
+        {
+          "id": "o3",
+          "text": "Contents move from the esophagus into the stomach"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-018",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "Which two processes can increase esophageal acid exposure? Select exactly two.",
+      "rationale": "A weak barrier permits reflux and slow clearance prolongs contact.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Increased sphincter competence"
+        },
+        {
+          "id": "o3",
+          "text": "More effective esophageal clearance"
+        },
+        {
+          "id": "o4",
+          "text": "Reduced pressure within the stomach"
+        },
+        {
+          "id": "o0",
+          "text": "Weak lower esophageal sphincter barrier"
+        },
+        {
+          "id": "o1",
+          "text": "Impaired clearance of refluxed contents"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-019",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "What is Barrett esophagus in the context of long-standing reflux?",
+      "rationale": "Chronic reflux can lead to metaplasia of the distal esophageal lining.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "A gallstone lodged in the cystic duct"
+        },
+        {
+          "id": "o0",
+          "text": "A change in the distal esophageal lining associated with chronic injury"
+        },
+        {
+          "id": "o1",
+          "text": "A perforation of the duodenal wall"
+        },
+        {
+          "id": "o2",
+          "text": "An inflammatory lesion limited to the ileum"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-020",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "GERD",
+      "stem": "A client with chronic reflux develops progressive difficulty swallowing. Which complication can explain it?",
+      "rationale": "Healing after repeated injury can produce an esophageal stricture.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Excessive dilation of the esophagus from acid clearance"
+        },
+        {
+          "id": "o3",
+          "text": "Increased width of the esophageal lumen"
+        },
+        {
+          "id": "o0",
+          "text": "Scar-related narrowing of the esophagus"
+        },
+        {
+          "id": "o1",
+          "text": "Increased relaxation of the ileocecal valve"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-021",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "A client uses NSAIDs regularly and develops a gastric ulcer. Which effect explains the risk?",
+      "rationale": "NSAIDs reduce prostaglandin synthesis, which can impair mucus and bicarbonate defenses.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Enhanced bicarbonate delivery to the stomach surface"
+        },
+        {
+          "id": "o3",
+          "text": "Improved gastric mucosal blood flow"
+        },
+        {
+          "id": "o0",
+          "text": "Reduced prostaglandin-mediated mucosal protection"
+        },
+        {
+          "id": "o1",
+          "text": "Increased protective mucus secretion"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-022",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "Which organism is associated with chronic gastric inflammation and peptic ulcers?",
+      "rationale": "H. pylori can promote chronic gastritis and ulceration.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Clostridioides difficile"
+        },
+        {
+          "id": "o2",
+          "text": "Hepatitis A virus"
+        },
+        {
+          "id": "o3",
+          "text": "Enterococcus faecalis"
+        },
+        {
+          "id": "o0",
+          "text": "Helicobacter pylori"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-023",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "Where are common peptic ulcers located?",
+      "rationale": "Gastric and duodenal ulcers affect upper GI sites exposed to acid and pepsin.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Stomach or proximal duodenum"
+        },
+        {
+          "id": "o1",
+          "text": "Distal esophagus or rectum"
+        },
+        {
+          "id": "o2",
+          "text": "Appendix or ascending colon"
+        },
+        {
+          "id": "o3",
+          "text": "Gallbladder or pancreatic duct"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-024",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "Which mechanism allows ulcer injury to persist?",
+      "rationale": "Acid and pepsin injure tissue when protection is impaired.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Acid and pepsin contact tissue after mucosal defenses fail"
+        },
+        {
+          "id": "o1",
+          "text": "Excess mucus shields exposed tissue from acid"
+        },
+        {
+          "id": "o2",
+          "text": "Increased bicarbonate neutralizes gastric acid at the ulcer"
+        },
+        {
+          "id": "o3",
+          "text": "Repaired mucosa restores an intact barrier"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-025",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "A client with an ulcer develops black, tarry stools. What complication is suggested?",
+      "rationale": "Digested upper GI blood typically produces black tarry stool.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Rapid colonic transit alone"
+        },
+        {
+          "id": "o0",
+          "text": "Upper GI bleeding with digestion of blood"
+        },
+        {
+          "id": "o1",
+          "text": "Complete small bowel obstruction"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated gallbladder inflammation"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-026",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "A client with known PUD develops abrupt generalized pain and a rigid abdomen. Which complication fits?",
+      "rationale": "A full-thickness defect lets irritating gastric contents reach the peritoneum.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Mild constipation with intact bowel wall"
+        },
+        {
+          "id": "o3",
+          "text": "A contained mucosal erosion without leakage"
+        },
+        {
+          "id": "o0",
+          "text": "Perforation with irritation of the peritoneum"
+        },
+        {
+          "id": "o1",
+          "text": "Uncomplicated acid regurgitation"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-027",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "A bleeding ulcer causes lightheadedness on standing. Which mechanism explains the symptom?",
+      "rationale": "Blood loss reduces effective circulating volume and can cause orthostatic symptoms.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Increased red cell mass slows cerebral blood flow"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced gastric motility lowers venous pressure directly"
+        },
+        {
+          "id": "o0",
+          "text": "Loss of circulating volume reduces perfusion on standing"
+        },
+        {
+          "id": "o1",
+          "text": "Increased albumin draws fluid into vessels"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-028",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "Which pain location fits the usual description of ulcer discomfort?",
+      "rationale": "The epigastrium overlies the typical area of ulcer discomfort.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Left calf"
+        },
+        {
+          "id": "o2",
+          "text": "Suprapubic midline only"
+        },
+        {
+          "id": "o3",
+          "text": "Posterior cervical region"
+        },
+        {
+          "id": "o0",
+          "text": "Epigastrium"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-029",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "Which two processes can contribute to peptic ulcer formation? Select exactly two.",
+      "rationale": "A weakened barrier permits acid-peptic injury.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Increased protective mucus"
+        },
+        {
+          "id": "o3",
+          "text": "Improved gastric mucosal blood flow"
+        },
+        {
+          "id": "o4",
+          "text": "Complete neutralization of acid at the mucosa"
+        },
+        {
+          "id": "o0",
+          "text": "Impaired mucosal defenses"
+        },
+        {
+          "id": "o1",
+          "text": "Acid-peptic injury to exposed mucosa"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-030",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Peptic Ulcer Disease",
+      "stem": "Match each ulcer complication to its mechanism.",
+      "rationale": "Vessel erosion causes bleeding, a full-thickness defect causes perforation, and narrowing impairs emptying.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "type": "matching",
+      "targets": [
+        {
+          "id": "o2",
+          "text": "Edema or scarring impedes gastric emptying"
+        },
+        {
+          "id": "o1",
+          "text": "Ulcer extends through the wall"
+        },
+        {
+          "id": "o0",
+          "text": "Ulcer erodes a blood vessel"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Hemorrhage",
+          "correct": "o0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Perforation",
+          "correct": "o1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Gastric outlet obstruction",
+          "correct": "o2"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-gi-031",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Prolonged vomiting removes gastric hydrochloric acid. Which acid-base change is expected?",
+      "rationale": "Loss of hydrogen ions raises serum bicarbonate relative to acid.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Respiratory acidosis"
+        },
+        {
+          "id": "o0",
+          "text": "Metabolic alkalosis"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic acidosis"
+        },
+        {
+          "id": "o2",
+          "text": "Respiratory alkalosis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-032",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "A client with profuse diarrhea loses intestinal bicarbonate. What change can follow?",
+      "rationale": "Intestinal bicarbonate loss decreases the available base.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Respiratory acidosis"
+        },
+        {
+          "id": "o3",
+          "text": "Respiratory alkalosis"
+        },
+        {
+          "id": "o0",
+          "text": "Metabolic acidosis"
+        },
+        {
+          "id": "o1",
+          "text": "Metabolic alkalosis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-033",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Why does prolonged diarrhea threaten circulating volume?",
+      "rationale": "GI fluid loss can reduce effective circulating volume.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Stool loses solids but retains all electrolytes"
+        },
+        {
+          "id": "o3",
+          "text": "Increased absorption causes intravascular fluid overload"
+        },
+        {
+          "id": "o0",
+          "text": "Water and electrolytes are lost in stool"
+        },
+        {
+          "id": "o1",
+          "text": "The colon absorbs all fluid before stool passes"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-034",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Why can slow colonic transit make stool harder?",
+      "rationale": "Longer contact allows more water to leave stool.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Less water is absorbed before stool is passed"
+        },
+        {
+          "id": "o2",
+          "text": "The colon secretes enough water to liquefy stool"
+        },
+        {
+          "id": "o3",
+          "text": "Gastric acid accumulates in the stool"
+        },
+        {
+          "id": "o0",
+          "text": "More water is absorbed before stool is passed"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-035",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Which two factors can increase constipation risk? Select exactly two.",
+      "rationale": "Fiber supports stool bulk and activity supports motility.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Physical inactivity"
+        },
+        {
+          "id": "o2",
+          "text": "Regular physical activity"
+        },
+        {
+          "id": "o3",
+          "text": "Adequate fluid intake"
+        },
+        {
+          "id": "o4",
+          "text": "Routine response to the urge to defecate"
+        },
+        {
+          "id": "o0",
+          "text": "Low dietary fiber"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-036",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "A drowsy client vomits while supine. Which complication follows if gastric contents enter the airway?",
+      "rationale": "Aspiration occurs when gastric material enters the airway.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Aspiration"
+        },
+        {
+          "id": "o1",
+          "text": "Biliary obstruction"
+        },
+        {
+          "id": "o2",
+          "text": "Small bowel strangulation"
+        },
+        {
+          "id": "o3",
+          "text": "Lower GI hemorrhage"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-037",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Which description is consistent with melena?",
+      "rationale": "Digested blood produces the dark tarry appearance.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Watery stool without blood"
+        },
+        {
+          "id": "o0",
+          "text": "Black, tarry stool"
+        },
+        {
+          "id": "o1",
+          "text": "Bright red blood per rectum"
+        },
+        {
+          "id": "o2",
+          "text": "Pale, clay-colored stool"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-038",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Which description fits hematochezia?",
+      "rationale": "Red or maroon blood is passed through the rectum.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Vomiting blood with coffee-ground appearance"
+        },
+        {
+          "id": "o3",
+          "text": "Passage of pale stool due to absent bile pigment"
+        },
+        {
+          "id": "o0",
+          "text": "Passage of visible red or maroon blood per rectum"
+        },
+        {
+          "id": "o1",
+          "text": "Passage of black, tarry stool"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-039",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "A client with frequent watery stools becomes dizzy with low blood pressure. Which complication takes priority?",
+      "rationale": "Dizziness and low pressure suggest inadequate circulating volume.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Temporary loss of appetite"
+        },
+        {
+          "id": "o3",
+          "text": "Sleep disruption"
+        },
+        {
+          "id": "o0",
+          "text": "Intravascular volume depletion"
+        },
+        {
+          "id": "o1",
+          "text": "Perianal skin irritation"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-040",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Vomiting, Constipation, Diarrhea",
+      "stem": "Which finding in prolonged vomiting supports electrolyte loss?",
+      "rationale": "Prolonged gastric losses and renal responses can lower potassium.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "An isolated rise in serum potassium from increased intake"
+        },
+        {
+          "id": "o2",
+          "text": "A rise in serum bicarbonate from bicarbonate loss in stool"
+        },
+        {
+          "id": "o3",
+          "text": "An increase in intravascular volume"
+        },
+        {
+          "id": "o0",
+          "text": "A decline in serum potassium"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-041",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Endoscopy shows inflamed segments separated by normal bowel. Which disorder best fits?",
+      "rationale": "Skip lesions are inflamed areas separated by relatively unaffected bowel.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Crohn disease"
+        },
+        {
+          "id": "o1",
+          "text": "Ulcerative colitis"
+        },
+        {
+          "id": "o2",
+          "text": "GERD"
+        },
+        {
+          "id": "o3",
+          "text": "Peptic ulcer disease"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-042",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Inflammation starts in the rectum and extends continuously through part of the colon. Which pattern fits?",
+      "rationale": "Ulcerative colitis typically starts at the rectum and extends continuously.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ulcerative colitis"
+        },
+        {
+          "id": "o1",
+          "text": "Crohn disease with skip lesions"
+        },
+        {
+          "id": "o2",
+          "text": "Acute appendicitis"
+        },
+        {
+          "id": "o3",
+          "text": "Isolated small bowel obstruction"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-043",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "A client with Crohn disease develops a tract between the bowel and skin. What explains it?",
+      "rationale": "Full-thickness injury allows an abnormal tract to form.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Rectal inflammation remains isolated to the lining"
+        },
+        {
+          "id": "o0",
+          "text": "Transmural inflammation can penetrate the bowel wall"
+        },
+        {
+          "id": "o1",
+          "text": "Inflammation confined to the mucosal surface cannot extend"
+        },
+        {
+          "id": "o2",
+          "text": "Gastric acid enters the esophagus"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-044",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Which finding explains a cobblestone mucosal appearance in Crohn disease?",
+      "rationale": "Deep ulcers outline raised areas of remaining mucosa.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Diffuse smoothing of mucosa without ulceration"
+        },
+        {
+          "id": "o3",
+          "text": "Uniform vascular congestion without mucosal injury"
+        },
+        {
+          "id": "o0",
+          "text": "Intersecting ulcers with swollen intervening mucosa"
+        },
+        {
+          "id": "o1",
+          "text": "Continuous superficial erythema alone"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-045",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Why can extensive small bowel Crohn disease cause malnutrition?",
+      "rationale": "Small bowel inflammation can reduce absorption of nutrients.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Nutrient absorption shifts completely to the stomach"
+        },
+        {
+          "id": "o3",
+          "text": "Inflammation raises absorption above metabolic needs"
+        },
+        {
+          "id": "o0",
+          "text": "Inflammation reduces effective nutrient absorption"
+        },
+        {
+          "id": "o1",
+          "text": "Colonic inflammation increases nutrient uptake"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-046",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "A client with Crohn disease develops recurrent cramping from a narrowed bowel segment. Which process explains it?",
+      "rationale": "Scarring can narrow the lumen and impede transit.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Mucosal healing permanently increases lumen diameter"
+        },
+        {
+          "id": "o2",
+          "text": "Reflux increases lower esophageal sphincter pressure"
+        },
+        {
+          "id": "o3",
+          "text": "Increased absorption removes the bowel wall"
+        },
+        {
+          "id": "o0",
+          "text": "Chronic inflammation and scarring form a stricture"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-047",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Which complication is associated with long-standing ulcerative colitis?",
+      "rationale": "Long-standing colonic inflammation raises colorectal cancer risk.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Increased colorectal cancer risk"
+        },
+        {
+          "id": "o1",
+          "text": "Pancreatic duct obstruction"
+        },
+        {
+          "id": "o2",
+          "text": "Cystic duct obstruction"
+        },
+        {
+          "id": "o3",
+          "text": "Chronic gastric acid suppression"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-048",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Why can an ulcerative colitis flare produce bloody diarrhea?",
+      "rationale": "Mucosal injury provides a source of blood in loose stool.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Inflamed and ulcerated colonic mucosa bleeds into stool"
+        },
+        {
+          "id": "o1",
+          "text": "Small bowel villi increase nutrient absorption"
+        },
+        {
+          "id": "o2",
+          "text": "Bile flow increases into the duodenum"
+        },
+        {
+          "id": "o3",
+          "text": "The stomach empties into the esophagus"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-049",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Which two findings favor Crohn disease? Select exactly two.",
+      "rationale": "Both skip lesions and transmural disease favor Crohn disease.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o4",
+          "text": "Inflammation limited to the mucosa"
+        },
+        {
+          "id": "o0",
+          "text": "Transmural inflammation"
+        },
+        {
+          "id": "o1",
+          "text": "Skip lesions"
+        },
+        {
+          "id": "o2",
+          "text": "Continuous disease beginning in the rectum"
+        },
+        {
+          "id": "o3",
+          "text": "Disease confined to the colon and rectum"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-050",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "IBD",
+      "stem": "Which location is possible in Crohn disease and helps distinguish it from ulcerative colitis?",
+      "rationale": "Crohn disease can affect the ileum while ulcerative colitis is limited to the colon and rectum.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Sigmoid colon"
+        },
+        {
+          "id": "o3",
+          "text": "Descending colon"
+        },
+        {
+          "id": "o0",
+          "text": "Terminal ileum"
+        },
+        {
+          "id": "o1",
+          "text": "Rectum"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-051",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "What event often initiates acute appendicitis?",
+      "rationale": "A blocked lumen traps contents and initiates inflammation.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Occlusion of the common bile duct"
+        },
+        {
+          "id": "o3",
+          "text": "Inflammation starting in the distal rectum"
+        },
+        {
+          "id": "o0",
+          "text": "Obstruction of the appendiceal lumen"
+        },
+        {
+          "id": "o1",
+          "text": "Failure of the lower esophageal sphincter"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-052",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Why does early appendicitis often cause vague pain around the umbilicus?",
+      "rationale": "Visceral pain from the appendix is initially poorly localized near the umbilicus.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Parietal peritoneal irritation is localized from onset"
+        },
+        {
+          "id": "o2",
+          "text": "Gastric acid reflux refers pain to the umbilicus"
+        },
+        {
+          "id": "o3",
+          "text": "The appendix initially lies within the stomach"
+        },
+        {
+          "id": "o0",
+          "text": "Visceral afferents refer pain toward the midline"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-053",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Why can pain migrate to the right lower quadrant as inflammation progresses?",
+      "rationale": "Parietal peritoneal irritation is felt more precisely over the inflamed area.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Irritation reaches the adjacent parietal peritoneum"
+        },
+        {
+          "id": "o1",
+          "text": "Visceral pain becomes less localized as it spreads"
+        },
+        {
+          "id": "o2",
+          "text": "The appendix moves toward the abdominal wall"
+        },
+        {
+          "id": "o3",
+          "text": "Obstruction shifts from the appendix to the bile duct"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-054",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Which assessment trend suggests that inflammation has spread after perforation?",
+      "rationale": "Generalized pain and guarding suggest more widespread peritoneal irritation.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Localized pain becomes generalized with guarding"
+        },
+        {
+          "id": "o1",
+          "text": "Localized pain resolves and abdominal tenderness disappears"
+        },
+        {
+          "id": "o2",
+          "text": "Appetite returns and guarding resolves"
+        },
+        {
+          "id": "o3",
+          "text": "Right lower quadrant tenderness remains mild without change"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-055",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Why can pressure in an obstructed appendix cause tissue necrosis?",
+      "rationale": "Rising pressure can compress vessels and compromise blood flow.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Lumen obstruction enhances venous drainage"
+        },
+        {
+          "id": "o0",
+          "text": "Rising intraluminal pressure impairs perfusion"
+        },
+        {
+          "id": "o1",
+          "text": "Rising pressure increases arterial inflow"
+        },
+        {
+          "id": "o2",
+          "text": "The appendix absorbs excess pressure without changing blood flow"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-056",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Which complication can follow leakage of appendiceal contents into the abdomen?",
+      "rationale": "Leaked contents can inflame and contaminate the peritoneum.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Cholelithiasis"
+        },
+        {
+          "id": "o3",
+          "text": "Gastric outlet obstruction"
+        },
+        {
+          "id": "o0",
+          "text": "Peritonitis"
+        },
+        {
+          "id": "o1",
+          "text": "Esophagitis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-057",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Which cluster most supports acute appendicitis?",
+      "rationale": "Migrating pain and localized tenderness fit evolving appendiceal inflammation.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Calf pain on walking and weak pedal pulses"
+        },
+        {
+          "id": "o3",
+          "text": "Right upper quadrant discomfort after fatty meals"
+        },
+        {
+          "id": "o0",
+          "text": "Migrating abdominal pain, anorexia and localized right lower quadrant tenderness"
+        },
+        {
+          "id": "o1",
+          "text": "Post-meal retrosternal burning and sour taste"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-058",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "How can a localized abscess develop after the appendix perforates?",
+      "rationale": "Adjacent tissues may contain leaked material in an abscess.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Gastric secretions neutralize leaked contents"
+        },
+        {
+          "id": "o2",
+          "text": "Bile seals the appendiceal opening"
+        },
+        {
+          "id": "o3",
+          "text": "Peritoneal fluid prevents bacterial growth"
+        },
+        {
+          "id": "o0",
+          "text": "Surrounding tissue walls off contamination"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-059",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "Put the events in order from the initiating change to a major complication.",
+      "rationale": "Obstruction raises pressure, impairs blood flow, and can cause necrosis followed by perforation.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "type": "ordering",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Wall perfusion declines"
+        },
+        {
+          "id": "o0",
+          "text": "Appendiceal lumen becomes obstructed"
+        },
+        {
+          "id": "o3",
+          "text": "Necrotic wall perforates"
+        },
+        {
+          "id": "o1",
+          "text": "Pressure rises in the lumen"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ]
+    },
+    {
+      "id": "patho-e4-gi-060",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Appendicitis",
+      "stem": "What explains guarding when appendiceal inflammation irritates the abdominal lining?",
+      "rationale": "Peritoneal irritation can trigger protective abdominal muscle contraction.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Abdominal muscles contract in response to peritoneal irritation"
+        },
+        {
+          "id": "o1",
+          "text": "The appendix directly contracts skeletal muscles"
+        },
+        {
+          "id": "o2",
+          "text": "Gastric distention permanently relaxes abdominal muscles"
+        },
+        {
+          "id": "o3",
+          "text": "Intestinal absorption suppresses pain reflexes"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-061",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "After abdominal surgery, scar bands kink the ileum. Which type of obstruction is this?",
+      "rationale": "An adhesion physically obstructs passage through the lumen.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Inflammatory diarrhea"
+        },
+        {
+          "id": "o0",
+          "text": "Mechanical obstruction"
+        },
+        {
+          "id": "o1",
+          "text": "Functional ileus"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated gastric reflux"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-062",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Imaging shows bowel dilation without a physical transition point after surgery. Which mechanism best fits?",
+      "rationale": "Ileus impairs propulsion without a physical obstruction.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 5
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "An incarcerated hernia pinching a loop"
+        },
+        {
+          "id": "o3",
+          "text": "A tumor physically closing the lumen"
+        },
+        {
+          "id": "o0",
+          "text": "Impaired motility from postoperative ileus"
+        },
+        {
+          "id": "o1",
+          "text": "A focal adhesion causing mechanical blockage"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-063",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Why can the abdomen distend proximal to a small bowel blockage?",
+      "rationale": "Swallowed air and GI secretions collect above the blockage.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 19
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "The obstruction accelerates downstream transit"
+        },
+        {
+          "id": "o3",
+          "text": "The colon absorbs all proximal secretions"
+        },
+        {
+          "id": "o0",
+          "text": "Gas and secretions accumulate upstream"
+        },
+        {
+          "id": "o1",
+          "text": "Fluid moves freely across the blockage"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-064",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Which statements accurately explain the purpose of these orders in a client with persistent vomiting and a suspected small bowel obstruction? Select all that apply.",
+      "rationale": "Electrolytes can identify effects of GI losses, and intake and output help assess fluid balance. Neither establishes the site or anatomic cause of obstruction.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Serum electrolytes can identify an imbalance from GI losses."
+        },
+        {
+          "id": "o1",
+          "text": "Intake and output can help track fluid balance."
+        },
+        {
+          "id": "o2",
+          "text": "Serum electrolytes can locate the transition point."
+        },
+        {
+          "id": "o3",
+          "text": "Intake and output can distinguish an adhesion from a hernia."
+        }
+      ],
+      "type": "sata",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "exhibit": {
+        "title": "Provider orders",
+        "text": "Check serum electrolytes. Document intake and output."
+      }
+    },
+    {
+      "id": "patho-e4-gi-065",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "A complete obstruction has persisted long enough to empty bowel distal to the blockage. Which change is expected?",
+      "rationale": "Contents below the obstruction can pass initially, after which stool and flatus cease.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 20
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Failure to pass stool or flatus"
+        },
+        {
+          "id": "o1",
+          "text": "Increased passage of formed stool"
+        },
+        {
+          "id": "o2",
+          "text": "Normal flatus despite complete ongoing obstruction"
+        },
+        {
+          "id": "o3",
+          "text": "Repeated passage of large amounts of formed stool"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-066",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Why can small bowel obstruction cause hypovolemia even before losses are measured?",
+      "rationale": "Sequestration and vomiting reduce available circulating fluid.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Fluid is trapped in the bowel and may also be lost by vomiting"
+        },
+        {
+          "id": "o1",
+          "text": "The bowel returns trapped fluid immediately to circulation"
+        },
+        {
+          "id": "o2",
+          "text": "Increased nutrient uptake expands circulating volume"
+        },
+        {
+          "id": "o3",
+          "text": "Systemic arterial pressure pushes fluid into the heart"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-067",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Which event makes a strangulated obstruction especially dangerous?",
+      "rationale": "Strangulation impairs blood supply and can cause bowel necrosis.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "The muscular wall continues to receive normal blood flow"
+        },
+        {
+          "id": "o0",
+          "text": "Blood supply to the affected segment is compromised"
+        },
+        {
+          "id": "o1",
+          "text": "Bowel drainage returns to normal spontaneously"
+        },
+        {
+          "id": "o2",
+          "text": "Luminal gas is absorbed without changing perfusion"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-068",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Which symptom change raises concern for ischemia rather than uncomplicated intermittent cramping?",
+      "rationale": "Persistent severe pain can reflect threatened bowel perfusion.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Pain resolves after passing flatus"
+        },
+        {
+          "id": "o3",
+          "text": "Pain remains mild and episodic"
+        },
+        {
+          "id": "o0",
+          "text": "Pain becomes persistent and severe"
+        },
+        {
+          "id": "o1",
+          "text": "Pain becomes less frequent and less intense"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-069",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Which two findings are consistent with a small bowel obstruction? Select exactly two.",
+      "rationale": "Distention reflects accumulation and vomiting reflects impaired forward transit.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 20
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Vomiting"
+        },
+        {
+          "id": "o2",
+          "text": "Increased stool passage after complete obstruction"
+        },
+        {
+          "id": "o3",
+          "text": "A persistently flat abdomen with unrestricted transit"
+        },
+        {
+          "id": "o4",
+          "text": "Sour taste without abdominal symptoms"
+        },
+        {
+          "id": "o0",
+          "text": "Abdominal distention"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-070",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Small Bowel Obstruction",
+      "stem": "Which complication can follow necrosis of an obstructed bowel segment?",
+      "rationale": "Loss of wall integrity allows leakage and peritoneal contamination.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Increased mucosal absorption"
+        },
+        {
+          "id": "o2",
+          "text": "Restoration of motility from tissue loss"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced risk of infection"
+        },
+        {
+          "id": "o0",
+          "text": "Perforation and peritonitis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-071",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Which exposure most strongly suggests hepatitis A transmission?",
+      "rationale": "Hepatitis A primarily spreads by the fecal-oral route.",
+      "source": {
+        "name": "Hepatitis Chart.pdf",
+        "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Food contaminated by fecal material"
+        },
+        {
+          "id": "o1",
+          "text": "A needlestick with blood contaminated by hepatitis C"
+        },
+        {
+          "id": "o2",
+          "text": "Sexual contact with a partner infected with hepatitis B"
+        },
+        {
+          "id": "o3",
+          "text": "Shared injection equipment contaminated with hepatitis C"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-072",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Which virus has an important sexual transmission route and can also spread through blood?",
+      "rationale": "Hepatitis B can spread through blood and sexual exposure.",
+      "source": {
+        "name": "Hepatitis Chart.pdf",
+        "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hepatitis B"
+        },
+        {
+          "id": "o1",
+          "text": "Hepatitis A"
+        },
+        {
+          "id": "o2",
+          "text": "Norovirus"
+        },
+        {
+          "id": "o3",
+          "text": "Rotavirus"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-073",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Why does sharing injection equipment increase hepatitis C risk?",
+      "rationale": "Residual infected blood can expose the next person using the equipment.",
+      "source": {
+        "name": "Hepatitis Chart.pdf",
+        "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Intact skin readily absorbs the virus"
+        },
+        {
+          "id": "o0",
+          "text": "Infected blood can remain on the equipment"
+        },
+        {
+          "id": "o1",
+          "text": "The virus spreads mainly by contaminated food"
+        },
+        {
+          "id": "o2",
+          "text": "The virus spreads through airborne droplets"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-074",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Which two viruses can persist and increase cirrhosis risk? Select exactly two.",
+      "rationale": "Hepatitis B and C can become chronic and produce fibrosis.",
+      "source": {
+        "name": "Hepatitis Chart.pdf",
+        "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Hepatitis A"
+        },
+        {
+          "id": "o3",
+          "text": "Norovirus"
+        },
+        {
+          "id": "o4",
+          "text": "Rotavirus"
+        },
+        {
+          "id": "o0",
+          "text": "Hepatitis B"
+        },
+        {
+          "id": "o1",
+          "text": "Hepatitis C"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-075",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Which two hepatitis viruses have vaccines in the chart? Select exactly two.",
+      "rationale": "The course chart lists vaccines for A and B and no vaccine for C.",
+      "source": {
+        "name": "Hepatitis Chart.pdf",
+        "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hepatitis A"
+        },
+        {
+          "id": "o1",
+          "text": "Hepatitis B"
+        },
+        {
+          "id": "o2",
+          "text": "Hepatitis C"
+        },
+        {
+          "id": "o3",
+          "text": "Hepatitis E in routine US use"
+        },
+        {
+          "id": "o4",
+          "text": "All hepatitis viruses share one vaccine"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-076",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Which finding marks transition into the icteric phase?",
+      "rationale": "Icterus refers to jaundice from bilirubin accumulation.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 39
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Return of appetite without jaundice"
+        },
+        {
+          "id": "o2",
+          "text": "Complete resolution of symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Normal skin and sclera throughout recovery"
+        },
+        {
+          "id": "o0",
+          "text": "New jaundice"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-077",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "A client develops malaise, nausea and poor appetite before any jaundice. Which phase fits?",
+      "rationale": "Nonspecific symptoms before jaundice fit the prodrome.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Prodromal phase"
+        },
+        {
+          "id": "o1",
+          "text": "Icteric phase"
+        },
+        {
+          "id": "o2",
+          "text": "Convalescent phase"
+        },
+        {
+          "id": "o3",
+          "text": "Established chronic cirrhosis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-078",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Which course fits the convalescent phase of uncomplicated acute hepatitis?",
+      "rationale": "The convalescent phase is the recovery phase.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 39
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Jaundice fades and appetite gradually improves"
+        },
+        {
+          "id": "o1",
+          "text": "Jaundice first appears and worsens"
+        },
+        {
+          "id": "o2",
+          "text": "Malaise begins before jaundice"
+        },
+        {
+          "id": "o3",
+          "text": "The virus necessarily becomes chronic"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-079",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Why can chronic viral hepatitis increase liver cancer risk?",
+      "rationale": "Persistent hepatocyte injury and repair increase long-term cancer risk.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 38
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Vaccination drives chronic liver inflammation"
+        },
+        {
+          "id": "o0",
+          "text": "Ongoing injury and regeneration can lead to cirrhosis and malignant change"
+        },
+        {
+          "id": "o1",
+          "text": "Brief fecal-oral exposure always causes malignant change"
+        },
+        {
+          "id": "o2",
+          "text": "Hepatitis prevents liver cells from regenerating throughout recovery"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-080",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Hepatitis",
+      "stem": "Match the virus to a distinguishing profile.",
+      "rationale": "The profiles distinguish fecal-oral A, vaccine-preventable B, and bloodborne C without a vaccine.",
+      "source": {
+        "name": "Hepatitis Chart.pdf",
+        "path": "Pathophysiology/Exam%204/Hepatitis%20Chart.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "type": "matching",
+      "targets": [
+        {
+          "id": "o2",
+          "text": "Bloodborne infection with no vaccine"
+        },
+        {
+          "id": "o1",
+          "text": "Blood or sexual transmission and a vaccine"
+        },
+        {
+          "id": "o0",
+          "text": "Fecal-oral spread with no chronic infection"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Hepatitis A",
+          "correct": "o0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Hepatitis B",
+          "correct": "o1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Hepatitis C",
+          "correct": "o2"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-gi-081",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "What change increases resistance to portal blood flow in cirrhosis?",
+      "rationale": "Scar tissue increases resistance to flow through the liver.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 23
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Lower portal resistance redirects flow away from the liver"
+        },
+        {
+          "id": "o3",
+          "text": "Improved hepatic perfusion raises resistance"
+        },
+        {
+          "id": "o0",
+          "text": "Fibrosis distorts channels through the liver"
+        },
+        {
+          "id": "o1",
+          "text": "Intact hepatic tissue widens portal channels"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-082",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "How does low albumin contribute to ascites?",
+      "rationale": "Less albumin reduces the inward osmotic pull of plasma proteins.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 15
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Higher plasma oncotic pressure draws fluid into the peritoneum"
+        },
+        {
+          "id": "o2",
+          "text": "Higher albumin prevents intravascular fluid retention"
+        },
+        {
+          "id": "o3",
+          "text": "Lower portal pressure drives fluid into the abdomen"
+        },
+        {
+          "id": "o0",
+          "text": "Lower plasma oncotic pressure favors movement of fluid out of vessels"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-083",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "Why can cirrhosis produce esophageal varices?",
+      "rationale": "Portal hypertension redirects blood into collateral veins that can dilate.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 24
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Portal blood is diverted through fragile collateral veins"
+        },
+        {
+          "id": "o1",
+          "text": "The lower esophageal sphincter becomes fibrotic"
+        },
+        {
+          "id": "o2",
+          "text": "The arterial wall forms a false lumen"
+        },
+        {
+          "id": "o3",
+          "text": "Pancreatic enzymes digest the esophageal lining"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-084",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "A client with cirrhosis suddenly vomits bright red blood. Which complication best explains it?",
+      "rationale": "A ruptured varix can cause sudden upper GI hemorrhage.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 25
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ruptured esophageal varices"
+        },
+        {
+          "id": "o1",
+          "text": "Uncomplicated ascites"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated low serum albumin"
+        },
+        {
+          "id": "o3",
+          "text": "An early rise in ammonia alone"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-085",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "Why can PT and INR rise in advanced liver disease?",
+      "rationale": "Reduced synthesis of clotting factors prolongs clotting time.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 11
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Increased platelet production inhibits coagulation"
+        },
+        {
+          "id": "o0",
+          "text": "The liver synthesizes fewer clotting factors"
+        },
+        {
+          "id": "o1",
+          "text": "The liver makes excessive clotting factors"
+        },
+        {
+          "id": "o2",
+          "text": "Excess albumin delays clot formation"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-086",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "What explains jaundice when liver function deteriorates?",
+      "rationale": "Impaired processing or excretion allows bilirubin to accumulate.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Low bilirubin collects in skin because albumin rises"
+        },
+        {
+          "id": "o3",
+          "text": "Increased bile flow prevents bilirubin excretion"
+        },
+        {
+          "id": "o0",
+          "text": "Bilirubin accumulates because processing and excretion are impaired"
+        },
+        {
+          "id": "o1",
+          "text": "Increased clearance removes bilirubin from circulation"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-087",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "A client with cirrhosis becomes confused and develops a flapping hand tremor. Which complication fits?",
+      "rationale": "Cognitive change and asterixis support hepatic encephalopathy.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 20
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Uncomplicated cholelithiasis"
+        },
+        {
+          "id": "o3",
+          "text": "Gastroesophageal reflux"
+        },
+        {
+          "id": "o0",
+          "text": "Hepatic encephalopathy"
+        },
+        {
+          "id": "o1",
+          "text": "Isolated portal hypertension without cognitive effects"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-088",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "Why may blood glucose drop during fasting in advanced cirrhosis?",
+      "rationale": "Impaired glycogen storage and glucose production can limit fasting glucose availability.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 7
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "The damaged liver increases glucose output during fasting"
+        },
+        {
+          "id": "o2",
+          "text": "Low albumin directly increases intestinal glucose absorption"
+        },
+        {
+          "id": "o3",
+          "text": "Portal hypertension causes glucose to enter the stomach"
+        },
+        {
+          "id": "o0",
+          "text": "The damaged liver has reduced capacity to store or release glucose"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-089",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "Which two processes contribute to ascites? Select exactly two.",
+      "rationale": "High portal pressure promotes filtration while low albumin reduces fluid retention in vessels.",
+      "source": {
+        "name": "Cirrhosis Transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+        "page": 15
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Increased serum albumin"
+        },
+        {
+          "id": "o3",
+          "text": "Decreased portal venous pressure"
+        },
+        {
+          "id": "o4",
+          "text": "Increased effective fluid removal"
+        },
+        {
+          "id": "o0",
+          "text": "Increased portal hydrostatic pressure"
+        },
+        {
+          "id": "o1",
+          "text": "Decreased plasma oncotic pressure"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-090",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cirrhosis",
+      "stem": "A client with cirrhosis has a low platelet count and splenomegaly. Which mechanism links the findings?",
+      "rationale": "Congestive splenic enlargement can increase sequestration of circulating platelets.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Portal hypertension enlarges the spleen, increasing platelet sequestration"
+        },
+        {
+          "id": "o1",
+          "text": "The enlarged spleen releases excess platelets into circulation"
+        },
+        {
+          "id": "o2",
+          "text": "High albumin destroys platelets in the intestine"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced portal pressure traps platelets in the esophagus"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-091",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "A client has gallstones on imaging without signs of inflammation. Which term describes the finding?",
+      "rationale": "Cholelithiasis means stones are present. Cholecystitis requires gallbladder inflammation.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 8
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Hepatic encephalopathy"
+        },
+        {
+          "id": "o0",
+          "text": "Cholelithiasis"
+        },
+        {
+          "id": "o1",
+          "text": "Acute cholecystitis"
+        },
+        {
+          "id": "o2",
+          "text": "Acute pancreatitis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-092",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "Why can a fatty meal trigger pain in someone with a gallstone intermittently blocking the cystic duct?",
+      "rationale": "Dietary fat stimulates gallbladder contraction against the temporary obstruction.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "The pancreatic duct releases insulin into the gallbladder"
+        },
+        {
+          "id": "o3",
+          "text": "The stomach stops secreting acid"
+        },
+        {
+          "id": "o0",
+          "text": "Gallbladder contraction increases pressure against the obstruction"
+        },
+        {
+          "id": "o1",
+          "text": "The gallbladder relaxes and stops moving bile"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-093",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "Which pain pattern most strongly suggests a gallbladder source?",
+      "rationale": "Biliary pain can refer from the right upper quadrant toward the back or right shoulder.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 48
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Retrosternal burning when lying flat"
+        },
+        {
+          "id": "o3",
+          "text": "Periumbilical pain migrating to the right lower quadrant"
+        },
+        {
+          "id": "o0",
+          "text": "Right upper quadrant pain radiating to the right shoulder or back"
+        },
+        {
+          "id": "o1",
+          "text": "Left lower quadrant pain relieved by defecation"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-094",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "Which two findings favor acute cholecystitis over uncomplicated biliary colic? Select exactly two.",
+      "rationale": "Both fever and leukocytosis reflect an inflammatory response.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o4",
+          "text": "A normal temperature during the episode"
+        },
+        {
+          "id": "o0",
+          "text": "Fever"
+        },
+        {
+          "id": "o1",
+          "text": "Leukocytosis"
+        },
+        {
+          "id": "o2",
+          "text": "Brief pain that resolves without systemic findings"
+        },
+        {
+          "id": "o3",
+          "text": "An isolated incidental stone"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-095",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "How does persistent cystic duct obstruction lead to cholecystitis?",
+      "rationale": "Persistent obstruction can cause bile retention, distention and inflammation.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Trapped bile and rising pressure promote gallbladder inflammation"
+        },
+        {
+          "id": "o1",
+          "text": "Unrestricted bile flow relieves wall stress"
+        },
+        {
+          "id": "o2",
+          "text": "Bile drains directly into the pancreatic duct"
+        },
+        {
+          "id": "o3",
+          "text": "The obstruction causes intestinal contents to bypass the gallbladder"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-096",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "Why might a common bile duct stone cause jaundice when an isolated cystic duct stone does not?",
+      "rationale": "The common bile duct drains hepatic bile to the intestine.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Common duct obstruction impairs drainage from the liver"
+        },
+        {
+          "id": "o1",
+          "text": "Cystic duct obstruction always blocks bilirubin leaving the liver"
+        },
+        {
+          "id": "o2",
+          "text": "The common duct carries only pancreatic insulin"
+        },
+        {
+          "id": "o3",
+          "text": "The cystic duct controls bilirubin production in the blood"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-097",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "A client with jaundice has pale stool after a stone obstructs bile flow. Why?",
+      "rationale": "Less pigment reaches stool when bile flow is obstructed.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Red cells are digested in the colon"
+        },
+        {
+          "id": "o0",
+          "text": "Less bile pigment reaches the intestine"
+        },
+        {
+          "id": "o1",
+          "text": "More bile pigment enters the intestine"
+        },
+        {
+          "id": "o2",
+          "text": "More gastric acid reaches the colon"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-098",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "Which risk profile increases the likelihood of gallstones?",
+      "rationale": "Obesity and rapid weight loss both favor gallstone formation.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 49
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "A client with seasonal allergies and stable weight"
+        },
+        {
+          "id": "o3",
+          "text": "A client with a remote forearm fracture and stable weight"
+        },
+        {
+          "id": "o0",
+          "text": "A client with obesity and a history of rapid weight loss"
+        },
+        {
+          "id": "o1",
+          "text": "A client with a previous ankle sprain and stable weight"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-099",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "What explains dark urine with a stone blocking the common bile duct?",
+      "rationale": "Conjugated bilirubin is water soluble and can enter urine in obstructive jaundice.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Unconjugated bilirubin readily passes through the kidney"
+        },
+        {
+          "id": "o3",
+          "text": "Pancreatic enzymes replace normal urinary pigments"
+        },
+        {
+          "id": "o0",
+          "text": "Water-soluble conjugated bilirubin is excreted in urine"
+        },
+        {
+          "id": "o1",
+          "text": "Bile salts in stool make urine dark by contact"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-100",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Cholelithiasis & Cholecystitis",
+      "stem": "What feature distinguishes persistent gallbladder inflammation from transient biliary colic?",
+      "rationale": "Persistent pain plus inflammatory signs favors cholecystitis.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Pain resolves when the transient obstruction releases"
+        },
+        {
+          "id": "o2",
+          "text": "Only an incidental stone is found without symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Discomfort occurs solely with swallowing"
+        },
+        {
+          "id": "o0",
+          "text": "Pain persists as local and systemic inflammatory signs appear"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-101",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "Which two causes are emphasized for acute pancreatitis? Select exactly two.",
+      "rationale": "Gallstones and heavy alcohol use are major causes emphasized by the course.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 44
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Gallstones"
+        },
+        {
+          "id": "o1",
+          "text": "Heavy alcohol use"
+        },
+        {
+          "id": "o2",
+          "text": "Appendicitis"
+        },
+        {
+          "id": "o3",
+          "text": "Stable reflux"
+        },
+        {
+          "id": "o4",
+          "text": "Chronic constipation"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-102",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "How can a stone near the shared outlet trigger pancreatitis?",
+      "rationale": "Impaired pancreatic outflow can trigger premature activation of enzymes.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 17
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "It impairs pancreatic drainage and promotes early enzyme activation"
+        },
+        {
+          "id": "o1",
+          "text": "It increases enzyme drainage and protects the pancreas"
+        },
+        {
+          "id": "o2",
+          "text": "It blocks insulin release directly into the intestine"
+        },
+        {
+          "id": "o3",
+          "text": "It prevents gallbladder contraction while improving pancreatic drainage"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-103",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "What mechanism directly injures pancreatic tissue?",
+      "rationale": "Activated digestive enzymes damage pancreatic tissue.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 17
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Glucagon stops pancreatic inflammation immediately"
+        },
+        {
+          "id": "o0",
+          "text": "Premature activation of digestive enzymes causes autodigestion"
+        },
+        {
+          "id": "o1",
+          "text": "Insulin activates digestive enzymes in the bloodstream"
+        },
+        {
+          "id": "o2",
+          "text": "Bile breaks down pancreatic tissue during normal digestion"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-104",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "Which laboratory result most specifically supports pancreatic injury among these options?",
+      "rationale": "Serum lipase supports pancreatic injury in the appropriate clinical context.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 18
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Elevated serum INR alone"
+        },
+        {
+          "id": "o3",
+          "text": "Elevated serum troponin alone"
+        },
+        {
+          "id": "o0",
+          "text": "Elevated serum lipase"
+        },
+        {
+          "id": "o1",
+          "text": "Elevated serum BNP"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-105",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "Which pain pattern is characteristic of acute pancreatitis?",
+      "rationale": "Pain commonly localizes to the epigastrium and radiates to the back.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 19
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Burning retrosternal discomfort with sour taste"
+        },
+        {
+          "id": "o3",
+          "text": "Isolated suprapubic pain relieved by urination"
+        },
+        {
+          "id": "o0",
+          "text": "Severe epigastric pain radiating toward the back"
+        },
+        {
+          "id": "o1",
+          "text": "Brief lower abdominal cramping relieved by stool"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-106",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "How can severe pancreatitis produce hypotension?",
+      "rationale": "Capillary leak can shift fluid away from the circulation.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 20
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Pancreatic inflammation increases effective circulating volume"
+        },
+        {
+          "id": "o2",
+          "text": "Pancreatic enzymes increase arterial filling directly"
+        },
+        {
+          "id": "o3",
+          "text": "Reduced vascular permeability retains fluid in circulation"
+        },
+        {
+          "id": "o0",
+          "text": "Inflammation shifts fluid out of the vascular space"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-107",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "Why can blood glucose rise during acute pancreatitis?",
+      "rationale": "Inflammatory injury can impair endocrine function and insulin release.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 23
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pancreatic inflammation can impair insulin secretion"
+        },
+        {
+          "id": "o1",
+          "text": "Pancreatic inflammation always increases insulin secretion"
+        },
+        {
+          "id": "o2",
+          "text": "Digestive enzymes convert serum glucose into insulin"
+        },
+        {
+          "id": "o3",
+          "text": "The pancreas stores glycogen and releases it directly"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-gi-108",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "Which two findings support acute pancreatitis in a client with abdominal pain? Select exactly two.",
+      "rationale": "Both the pain pattern and a high lipase support pancreatitis.",
+      "source": {
+        "name": "Week 9 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%209%20Questions.pdf",
+        "page": 43
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Isolated calf claudication"
+        },
+        {
+          "id": "o3",
+          "text": "A normal lipase as the only finding"
+        },
+        {
+          "id": "o4",
+          "text": "Painless ankle edema"
+        },
+        {
+          "id": "o0",
+          "text": "Elevated lipase"
+        },
+        {
+          "id": "o1",
+          "text": "Epigastric pain radiating to the back"
+        }
+      ],
+      "type": "select-n",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "selectCount": 2
+    },
+    {
+      "id": "patho-e4-gi-109",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "Put the events in order for gallstone-triggered pancreatitis.",
+      "rationale": "Outflow obstruction precedes retention, enzyme activation and tissue injury.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 17
+      },
+      "approved": true,
+      "type": "ordering",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Digestive enzymes activate prematurely"
+        },
+        {
+          "id": "o0",
+          "text": "A stone obstructs drainage near the shared outlet"
+        },
+        {
+          "id": "o3",
+          "text": "Pancreatic tissue becomes inflamed"
+        },
+        {
+          "id": "o1",
+          "text": "Pancreatic secretions are retained"
+        }
+      ],
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ]
+    },
+    {
+      "id": "patho-e4-gi-110",
+      "topic": "GI/Hepatobiliary",
+      "subtopic": "Acute Pancreatitis",
+      "stem": "A client with severe pancreatitis develops shortness of breath and low oxygen saturation. Which associated complication explains the change?",
+      "rationale": "Severe pancreatic inflammation can produce pulmonary complications that impair oxygenation.",
+      "source": {
+        "name": "Cholelithiasis, Cholecystitis, Pancreatitis transcript.pdf",
+        "path": "Pathophysiology/Exam%204/Cholelithiasis%2C%20Cholecystitis%2C%20Pancreatitis%20transcript.pdf",
+        "page": 21
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Pancreatic enzymes directly increase oxygen carrying capacity"
+        },
+        {
+          "id": "o3",
+          "text": "Lung expansion increases as systemic inflammation worsens"
+        },
+        {
+          "id": "o0",
+          "text": "Inflammatory lung injury can impair gas exchange"
+        },
+        {
+          "id": "o1",
+          "text": "Improved pulmonary capillary integrity prevents oxygen transfer"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    }
+  ]
+}
