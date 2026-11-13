@@ -36,6 +36,14 @@ const STUDY_HUB = [
           {
             name: "Exam 4", updatedAt: "2026-11-13T12:00:00Z",
             versions: [{
+              version: "Standard Exam and Custom Practice",
+              file: "exam.html?bank=pathophysiology-exam-4-standard&v=endo-preview",
+              description: "Take the randomized 50-question blueprint exam or choose from 240 questions across all three sections."
+            }, {
+              version: "Endocrine practice preview",
+              file: "exam.html?bank=pathophysiology-exam-4-endocrine-draft&v=endo-preview",
+              description: "Take a 13-question Endocrine blueprint attempt or customize practice from 40 draft questions."
+            }, {
               version: "Cardiac practice preview",
               file: "exam.html?bank=pathophysiology-exam-4-cardiac-draft&v=cardiac-preview",
               description: "Take a 17-question Cardiac blueprint attempt or customize practice from 90 draft questions."

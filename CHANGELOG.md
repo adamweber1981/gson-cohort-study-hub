@@ -1,3 +1,8 @@
+# November 13, 2026 — Pathophysiology Exam 4 Endocrine and full practice
+
+- Added 40 Endocrine questions with original PDF page references and a 13-question section attempt.
+- Added the full randomized 50-question Exam 4 and custom practice from 240 questions across 24 subtopics.
+
 # November 13, 2026 — Pathophysiology Exam 4 GI/Hepatobiliary preview
 
 - Added a 20-question GI/Hepatobiliary blueprint attempt and custom practice from 110 draft questions across 11 subtopics.
