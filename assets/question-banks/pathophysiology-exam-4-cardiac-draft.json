@@ -2,55 +2,28 @@
   "id": "pathophysiology-exam-4-cardiac-draft",
   "course": "Pathophysiology",
   "examNumber": "Exam 4",
-  "practiceName": "Cardiac question bank",
+  "practiceName": "Cardiac practice preview",
   "status": "draft",
-  "blueprint": [
-    {
-      "topic": "Cardiac",
-      "subtopic": "Cardiac Terms",
-      "count": 1
+  "blueprint": {
+    "total": 17,
+    "topics": {
+      "Cardiac": 17
     },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Hypertension",
-      "count": 2
+    "subtopics": {
+      "Cardiac": {
+        "Cardiac Terms": 1,
+        "Hypertension": 2,
+        "Atherosclerosis": 1,
+        "Peripheral Vascular Disease": 2,
+        "Aneurysms": 1,
+        "Myocardial Infarction": 4,
+        "Pericardial Effusion": 1,
+        "Infective Endocarditis": 1,
+        "Heart Failure": 4
+      }
     },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Atherosclerosis",
-      "count": 1
-    },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Peripheral Vascular Disease",
-      "count": 2
-    },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Aneurysms",
-      "count": 1
-    },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Myocardial Infarction",
-      "count": 4
-    },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Pericardial Effusion",
-      "count": 1
-    },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Infective Endocarditis",
-      "count": 1
-    },
-    {
-      "topic": "Cardiac",
-      "subtopic": "Heart Failure",
-      "count": 4
-    }
-  ],
+    "standardLabel": "Cardiac blueprint (17 questions)"
+  },
   "references": [
     {
       "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
@@ -89,7 +62,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -122,7 +95,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -155,7 +128,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -188,7 +161,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 8
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -221,7 +194,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -254,7 +227,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -287,7 +260,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -320,7 +293,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -353,7 +326,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -386,7 +359,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -419,7 +392,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 16
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -452,7 +425,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 16
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -493,7 +466,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 19
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -526,7 +499,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
         "page": 24
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -559,7 +532,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 17
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -592,7 +565,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
         "page": 20
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -625,7 +598,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 19
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -658,7 +631,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
         "page": 23
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -691,7 +664,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 19
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o4",
@@ -732,7 +705,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 16
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -765,7 +738,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -798,7 +771,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -831,7 +804,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -864,7 +837,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -897,7 +870,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 23
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -930,7 +903,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -963,7 +936,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -996,7 +969,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 20
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1037,7 +1010,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 22
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1070,7 +1043,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 6
       },
-      "approved": false,
+      "approved": true,
       "type": "ordering",
       "correct": [
         "o0",
@@ -1108,7 +1081,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -1141,7 +1114,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -1174,7 +1147,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -1207,7 +1180,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 12
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -1240,7 +1213,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 13
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1273,7 +1246,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1306,7 +1279,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -1339,7 +1312,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -1372,7 +1345,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 1
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -1413,7 +1386,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 12
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -1446,7 +1419,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 9
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1479,7 +1452,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 9
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1512,7 +1485,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 10
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -1545,7 +1518,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 10
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -1578,7 +1551,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 9
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1619,7 +1592,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 9
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -1652,7 +1625,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 9
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1685,7 +1658,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 10
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1718,7 +1691,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 11
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -1751,7 +1724,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
         "page": 11
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -1784,7 +1757,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -1817,7 +1790,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -1850,7 +1823,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1883,7 +1856,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1916,7 +1889,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 35
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -1949,7 +1922,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 34
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -1990,7 +1963,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 39
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -2031,7 +2004,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 42
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -2064,7 +2037,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
         "page": 27
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2097,7 +2070,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
         "page": 2
       },
-      "approved": false,
+      "approved": true,
       "type": "matching",
       "targets": [
         {
@@ -2151,7 +2124,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 4
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -2184,7 +2157,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2217,7 +2190,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 4
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2250,7 +2223,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 45
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -2283,7 +2256,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 46
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2316,7 +2289,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 4
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o4",
@@ -2357,7 +2330,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 46
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -2390,7 +2363,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 4
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2423,7 +2396,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 4
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2456,7 +2429,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 4
       },
-      "approved": false,
+      "approved": true,
       "type": "ordering",
       "correct": [
         "o0",
@@ -2494,7 +2467,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2527,7 +2500,7 @@
         "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
         "page": 50
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2560,7 +2533,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -2593,7 +2566,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2626,7 +2599,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2659,7 +2632,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2699,7 +2672,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2732,7 +2705,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2773,7 +2746,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "type": "matching",
       "targets": [
         {
@@ -2827,7 +2800,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2860,7 +2833,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 11
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -2893,7 +2866,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 11
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -2926,7 +2899,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 13
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2959,7 +2932,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 13
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -2992,7 +2965,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 13
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o3",
@@ -3033,7 +3006,7 @@
         "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
         "page": 3
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -3066,7 +3039,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 14
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o2",
@@ -3099,7 +3072,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 14
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o1",
@@ -3132,7 +3105,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 13
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -3165,7 +3138,7 @@
         "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
         "page": 11
       },
-      "approved": false,
+      "approved": true,
       "options": [
         {
           "id": "o0",
@@ -3187,5 +3160,6 @@
       "type": "mcq",
       "correct": "o0"
     }
-  ]
+  ],
+  "notice": "Draft preview for testing. The full Exam 4 includes additional sections."
 }

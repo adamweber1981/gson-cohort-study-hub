@@ -34,6 +34,14 @@ const STUDY_HUB = [
             ]
           },
           {
+            name: "Exam 4", updatedAt: "2026-11-13T12:00:00Z",
+            versions: [{
+              version: "Cardiac practice preview",
+              file: "exam.html?bank=pathophysiology-exam-4-cardiac-draft&v=cardiac-preview",
+              description: "Take a 17-question Cardiac blueprint attempt or customize practice from 90 draft questions."
+            }]
+          },
+          {
             name: "Exam 3", updatedAt: "2026-10-28T12:00:00Z",
             versions: [{
               version: "Exam 3 — 232-question practice preview",

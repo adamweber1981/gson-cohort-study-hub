@@ -1,3 +1,8 @@
+# November 13, 2026 — Pathophysiology Exam 4 Cardiac preview
+
+- Added a 17-question Cardiac blueprint attempt and custom practice from 90 draft questions.
+- Added Select N, ordering, and provider-order exhibits. Question feedback and review open original PDFs at cited pages.
+
 # November 9, 2026 — ABG reference ranges
 
 - Reviewed all 30 Fundamentals Exam 3 ABG questions. Added normal reference ranges to the ten numeric interpretation prompts: fund-e3-0031–0036, 0038–0040, and 0046.
