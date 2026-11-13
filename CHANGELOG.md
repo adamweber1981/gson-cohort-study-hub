@@ -1,3 +1,8 @@
+# November 13, 2026 — Pathophysiology Exam 4 case studies
+
+- Added three sequential case studies to the Exam 4 practice mode menu. Each draws one item per stage, five total, from eight items.
+- Case study review reveals answers, rationales and PDF references after the fifth response.
+
 # November 13, 2026 — Pathophysiology Exam 4 Endocrine and full practice
 
 - Added 40 Endocrine questions with original PDF page references and a 13-question section attempt.
