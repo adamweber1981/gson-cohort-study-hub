@@ -1,0 +1,1033 @@
+[
+  {
+    "id": "case-1",
+    "title": "Case Study 1",
+    "questions": [
+      {
+        "id": "patho-e4-case-1-1",
+        "stage": 1,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. BP is now 82/54 mm Hg, HR 124/min, and heart sounds are muffled.",
+        "stem": "Which nursing actions are appropriate while the patient is deteriorating? Select all that apply.",
+        "rationale": "New hemodynamic instability with an effusion warrants immediate escalation, monitoring, and a focused handoff.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Activate the facility’s emergency response"
+          },
+          {
+            "id": "o1",
+            "text": "Continue bedside monitoring of blood pressure and heart rate"
+          },
+          {
+            "id": "o2",
+            "text": "Communicate the known effusion and new hypotension"
+          },
+          {
+            "id": "o3",
+            "text": "Send the patient to routine imaging alone"
+          },
+          {
+            "id": "o4",
+            "text": "Delay escalation until the next scheduled vital signs"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1",
+          "o2"
+        ],
+        "type": "sata"
+      },
+      {
+        "id": "patho-e4-case-1-2",
+        "stage": 2,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. The nurse has assessed the patient and the response team is available. This exercise follows the facility’s escalation pathway. Actions within a step may occur concurrently.",
+        "stem": "Place the escalation milestones in order.",
+        "rationale": "Escalation brings the team to the bedside, where the focused handoff informs urgent evaluation and subsequent reassessment.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "type": "ordering",
+        "correct": [
+          "o0",
+          "o1",
+          "o2",
+          "o3"
+        ],
+        "options": [
+          {
+            "id": "o2",
+            "text": "Assist with the team’s urgent bedside evaluation"
+          },
+          {
+            "id": "o0",
+            "text": "Activate the emergency response at the bedside"
+          },
+          {
+            "id": "o3",
+            "text": "Trend hemodynamics after the team intervenes"
+          },
+          {
+            "id": "o1",
+            "text": "Give the responding team the vital-sign trend and known effusion"
+          }
+        ]
+      },
+      {
+        "id": "patho-e4-case-1-3",
+        "stage": 3,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. The bedside echocardiogram shows right-sided chamber collapse during filling.",
+        "stem": "Which mechanism best explains the falling blood pressure?",
+        "rationale": "Compression limits filling, reducing stroke volume and cardiac output.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Pericardial pressure restricts ventricular filling"
+          },
+          {
+            "id": "o1",
+            "text": "Fluid raises end-diastolic volume"
+          },
+          {
+            "id": "o2",
+            "text": "Systemic vascular resistance falls from isolated vasodilation"
+          },
+          {
+            "id": "o3",
+            "text": "Ventricular filling rises as external pressure increases"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-1-4",
+        "stage": 3,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. The team documents cardiac tamponade.",
+        "stem": "Which type of shock is caused by this mechanical impairment of filling?",
+        "rationale": "External compression obstructs filling despite blood being available to return to the heart.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Obstructive"
+          },
+          {
+            "id": "o1",
+            "text": "Distributive"
+          },
+          {
+            "id": "o2",
+            "text": "Hypovolemic"
+          },
+          {
+            "id": "o3",
+            "text": "Neurogenic"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-1-5",
+        "stage": 4,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. The team relieves the pericardial pressure and asks the nurse to reassess.",
+        "stem": "Which two trends most directly support improved circulation? Select exactly two.",
+        "rationale": "Improved filling can increase stroke volume, blood pressure, and pulse strength.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Blood pressure rises"
+          },
+          {
+            "id": "o1",
+            "text": "Previously weak peripheral pulses become stronger"
+          },
+          {
+            "id": "o2",
+            "text": "Heart rate accelerates while pressure falls"
+          },
+          {
+            "id": "o3",
+            "text": "Mental status deteriorates"
+          },
+          {
+            "id": "o4",
+            "text": "Peripheral pulses become harder to detect"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1"
+        ],
+        "type": "select-n",
+        "selectCount": 2
+      },
+      {
+        "id": "patho-e4-case-1-6",
+        "stage": 4,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. After initial improvement, the patient again becomes hypotensive and tachycardic.",
+        "stem": "Which interpretation should guide the nurse’s report?",
+        "rationale": "Recurrent hypotension and tachycardia are deterioration cues, even after initial improvement.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Recurrent hemodynamic compromise requires immediate reassessment"
+          },
+          {
+            "id": "o1",
+            "text": "Initial improvement rules out recurrent compromise"
+          },
+          {
+            "id": "o2",
+            "text": "Tachycardia establishes adequate cardiac output"
+          },
+          {
+            "id": "o3",
+            "text": "The earlier effusion makes the blood pressure trend irrelevant"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-1-7",
+        "stage": 5,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. The nurse compares the earlier effusion with the later bedside assessment.",
+        "stem": "Match each term to its defining feature.",
+        "rationale": "These terms describe the fluid, the resulting compression, and the perfusion consequence.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "type": "matching",
+        "targets": [
+          {
+            "id": "o2",
+            "text": "Inadequate perfusion from mechanical obstruction to circulation"
+          },
+          {
+            "id": "o1",
+            "text": "Pericardial pressure impairs cardiac filling"
+          },
+          {
+            "id": "o0",
+            "text": "Fluid in the pericardial sac"
+          }
+        ],
+        "pairs": [
+          {
+            "id": "p0",
+            "prompt": "Pericardial effusion",
+            "correct": "o0"
+          },
+          {
+            "id": "p1",
+            "prompt": "Cardiac tamponade",
+            "correct": "o1"
+          },
+          {
+            "id": "p2",
+            "prompt": "Obstructive shock",
+            "correct": "o2"
+          }
+        ]
+      },
+      {
+        "id": "patho-e4-case-1-8",
+        "stage": 5,
+        "topic": "Cardiac",
+        "subtopic": "Pericardial Effusion",
+        "caseText": "A 57-year-old recovering from cardiac surgery reports worsening breathlessness. An earlier echocardiogram showed fluid in the pericardial sac. At handoff, the nurse is asked why an earlier stable effusion became urgent.",
+        "stem": "Which explanation is most accurate?",
+        "rationale": "The hemodynamic effect determines urgency. An effusion can become critical when pressure limits filling.",
+        "approved": true,
+        "source": {
+          "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+          "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+          "page": 4,
+          "pages": [
+            4
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "The urgency changed when signs of impaired cardiac filling and perfusion appeared"
+          },
+          {
+            "id": "o1",
+            "text": "Any amount of pericardial fluid causes the same hemodynamic effect"
+          },
+          {
+            "id": "o2",
+            "text": "Fluid around the heart improves filling until it enters a ventricle"
+          },
+          {
+            "id": "o3",
+            "text": "The concern depends solely on the size of the effusion"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      }
+    ]
+  },
+  {
+    "id": "case-2",
+    "title": "Case Study 2",
+    "questions": [
+      {
+        "id": "patho-e4-case-2-1",
+        "stage": 1,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. The patient is pale and dizzy. BP fell from 116/72 to 86/50 mm Hg and HR rose to 122/min.",
+        "stem": "Which nursing actions are appropriate now? Select all that apply.",
+        "rationale": "Active hematemesis with hypotension and tachycardia warrants urgent assessment and escalation.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Activate the emergency response"
+          },
+          {
+            "id": "o1",
+            "text": "Stay with the patient and reassess airway and circulation"
+          },
+          {
+            "id": "o2",
+            "text": "Report the volume and appearance of emesis and the vital-sign changes"
+          },
+          {
+            "id": "o3",
+            "text": "Give oral fluids while vomiting continues"
+          },
+          {
+            "id": "o4",
+            "text": "Delay escalation until the next scheduled assessment"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1",
+          "o2"
+        ],
+        "type": "sata"
+      },
+      {
+        "id": "patho-e4-case-2-2",
+        "stage": 2,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. A colleague is available to assist. Use the unit’s escalation pathway. Actions within a step may occur concurrently.",
+        "stem": "Place the milestones in order.",
+        "rationale": "Activation and handoff precede team-directed stabilization and subsequent reassessment.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        },
+        "type": "ordering",
+        "correct": [
+          "o0",
+          "o1",
+          "o2",
+          "o3"
+        ],
+        "options": [
+          {
+            "id": "o2",
+            "text": "Assist with the team’s ordered stabilization and source evaluation"
+          },
+          {
+            "id": "o0",
+            "text": "Activate the emergency response for active bleeding and instability"
+          },
+          {
+            "id": "o3",
+            "text": "Reassess circulation and watch for recurrent bleeding"
+          },
+          {
+            "id": "o1",
+            "text": "Give the team the bleeding history and vital-sign trend"
+          }
+        ]
+      },
+      {
+        "id": "patho-e4-case-2-3",
+        "stage": 3,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. After initial stabilization, endoscopy identifies bleeding esophageal varices.",
+        "stem": "What led to the formation of the varices?",
+        "rationale": "Portal hypertension diverts blood into collateral veins that can enlarge and bleed.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Portal blood was diverted through fragile collateral veins"
+          },
+          {
+            "id": "o1",
+            "text": "Albumin increased pressure inside esophageal arteries"
+          },
+          {
+            "id": "o2",
+            "text": "Bile obstruction increased flow into esophageal veins"
+          },
+          {
+            "id": "o3",
+            "text": "Pancreatic enzymes weakened the esophageal lining"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-2-4",
+        "stage": 3,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. The team asks why the patient lost circulating volume so quickly.",
+        "stem": "Which explanation best fits the bleeding source?",
+        "rationale": "Ruptured varices can cause substantial upper GI blood loss.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Dilated thin-walled veins can rupture and bleed into the upper GI tract"
+          },
+          {
+            "id": "o1",
+            "text": "Ascites alone transfers blood directly into the stomach"
+          },
+          {
+            "id": "o2",
+            "text": "Low albumin causes bleeding by increasing clotting-factor synthesis"
+          },
+          {
+            "id": "o3",
+            "text": "Esophageal collateral formation prevents blood loss when a vein ruptures"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-2-5",
+        "stage": 4,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. After bleeding control, abdominal distention persists. Albumin is below the laboratory’s reference range.",
+        "stem": "Which two mechanisms explain the ongoing ascites? Select exactly two.",
+        "rationale": "Portal hypertension promotes filtration, while low albumin reduces the force retaining water in vessels.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 15,
+          "pages": [
+            15
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Higher portal hydrostatic pressure"
+          },
+          {
+            "id": "o1",
+            "text": "Lower plasma oncotic pressure"
+          },
+          {
+            "id": "o2",
+            "text": "Increased plasma albumin"
+          },
+          {
+            "id": "o3",
+            "text": "Reduced portal pressure"
+          },
+          {
+            "id": "o4",
+            "text": "Increased fluid return to the circulation"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1"
+        ],
+        "type": "select-n",
+        "selectCount": 2
+      },
+      {
+        "id": "patho-e4-case-2-6",
+        "stage": 4,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. After circulation stabilizes, the patient becomes inattentive and develops a flapping hand tremor.",
+        "stem": "Which complication should the nurse report as a concern?",
+        "rationale": "New cognitive change with asterixis is consistent with hepatic encephalopathy and needs reassessment.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 20,
+          "pages": [
+            20
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Hepatic encephalopathy"
+          },
+          {
+            "id": "o1",
+            "text": "Uncomplicated ascites alone"
+          },
+          {
+            "id": "o2",
+            "text": "Isolated low albumin without neurologic effects"
+          },
+          {
+            "id": "o3",
+            "text": "Uncomplicated reflux"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-2-7",
+        "stage": 5,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. At handoff the nurse reviews the pathophysiology behind several findings.",
+        "stem": "Match each finding to its mechanism.",
+        "rationale": "These findings arise from altered portal flow, reduced protein synthesis, or both.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 15,
+          "pages": [
+            15,
+            24,
+            11
+          ]
+        },
+        "type": "matching",
+        "targets": [
+          {
+            "id": "o2",
+            "text": "Impaired hepatic clotting-factor synthesis"
+          },
+          {
+            "id": "o1",
+            "text": "Portal blood is diverted through collateral veins"
+          },
+          {
+            "id": "o0",
+            "text": "Portal pressure and reduced oncotic pressure promote fluid accumulation"
+          }
+        ],
+        "pairs": [
+          {
+            "id": "p0",
+            "prompt": "Ascites",
+            "correct": "o0"
+          },
+          {
+            "id": "p1",
+            "prompt": "Varices",
+            "correct": "o1"
+          },
+          {
+            "id": "p2",
+            "prompt": "Prolonged INR",
+            "correct": "o2"
+          }
+        ]
+      },
+      {
+        "id": "patho-e4-case-2-8",
+        "stage": 5,
+        "topic": "GI/Hepatobiliary",
+        "subtopic": "Cirrhosis",
+        "caseText": "A 61-year-old with cirrhosis and ascites suddenly vomits bright red blood on the inpatient unit. The patient has no further visible hematemesis, but BP falls and HR rises again.",
+        "stem": "Which response best addresses this change?",
+        "rationale": "Recurrent hemodynamic deterioration warrants urgent reassessment, even without visible emesis.",
+        "approved": true,
+        "source": {
+          "name": "Cirrhosis Transcript.pdf",
+          "path": "Pathophysiology/Exam%204/Cirrhosis%20Transcript.pdf",
+          "page": 25,
+          "pages": [
+            25
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Escalate immediately for recurrent bleeding or another cause of shock"
+          },
+          {
+            "id": "o1",
+            "text": "Assume bleeding has stopped permanently because no blood is visible"
+          },
+          {
+            "id": "o2",
+            "text": "Attribute the trend to stable ascites and wait"
+          },
+          {
+            "id": "o3",
+            "text": "Use a low albumin result alone to rule out recurrent bleeding"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      }
+    ]
+  },
+  {
+    "id": "case-3",
+    "title": "Case Study 3",
+    "questions": [
+      {
+        "id": "patho-e4-case-3-1",
+        "stage": 1,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. Glucose is 412 mg/dL. The patient is tachycardic and has dry mucous membranes.",
+        "stem": "Which nursing actions are appropriate during the initial evaluation? Select all that apply.",
+        "rationale": "The patient needs prompt evaluation of perfusion, neurologic status, ketones, and electrolytes. Glucose alone cannot distinguish DKA from other causes of hyperglycemia.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Repeat and trend vital signs and mental status"
+          },
+          {
+            "id": "o1",
+            "text": "Report the missed insulin and breathing pattern to the care team"
+          },
+          {
+            "id": "o2",
+            "text": "Obtain ordered ketone and electrolyte testing"
+          },
+          {
+            "id": "o3",
+            "text": "Use glucose alone to decide whether ketoacidosis is present"
+          },
+          {
+            "id": "o4",
+            "text": "Delay escalation until vomiting resolves"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1",
+          "o2"
+        ],
+        "type": "sata"
+      },
+      {
+        "id": "patho-e4-case-3-2",
+        "stage": 2,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. DKA is confirmed. The IV is ready, the isotonic fluid order can start immediately, and the potassium result is pending. The insulin order requires potassium verification. The monitoring schedule specifies repeat labs during treatment.",
+        "stem": "Place the protocol milestones in order.",
+        "rationale": "The specified protocol addresses volume loss and checks potassium before insulin, then tracks response.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "type": "ordering",
+        "correct": [
+          "o0",
+          "o1",
+          "o2",
+          "o3"
+        ],
+        "options": [
+          {
+            "id": "o2",
+            "text": "Start insulin per the protocol"
+          },
+          {
+            "id": "o0",
+            "text": "Start the ordered isotonic fluid"
+          },
+          {
+            "id": "o3",
+            "text": "Trend repeat glucose, electrolytes and ketones during treatment"
+          },
+          {
+            "id": "o1",
+            "text": "Verify potassium meets the protocol’s threshold for insulin"
+          }
+        ]
+      },
+      {
+        "id": "patho-e4-case-3-3",
+        "stage": 3,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. Before insulin, arterial pH is 7.21, bicarbonate 11 mEq/L and PaCO₂ 25 mm Hg. Reference ranges are pH 7.35–7.45, bicarbonate 22–26 mEq/L and PaCO₂ 35–45 mm Hg.",
+        "stem": "Which interpretation explains the breathing pattern?",
+        "rationale": "Low pH and bicarbonate support metabolic acidosis. Deep rapid breathing reduces PaCO₂.",
+        "approved": true,
+        "source": {
+          "name": "Exam 4 Worksheet.pdf",
+          "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+          "page": 9,
+          "pages": [
+            9
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Metabolic acidosis with a compensatory fall in PaCO₂"
+          },
+          {
+            "id": "o1",
+            "text": "Primary respiratory acidosis with renal compensation"
+          },
+          {
+            "id": "o2",
+            "text": "Metabolic alkalosis with a compensatory rise in PaCO₂"
+          },
+          {
+            "id": "o3",
+            "text": "Primary respiratory alkalosis with normal bicarbonate"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-3-4",
+        "stage": 3,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. Glucose is elevated and blood ketones are markedly elevated.",
+        "stem": "Which process produced the ketones?",
+        "rationale": "When insulin is severely deficient, fatty acids from lipolysis provide substrate for hepatic ketogenesis.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Severe insulin deficiency promoted fat breakdown and hepatic ketone production"
+          },
+          {
+            "id": "o1",
+            "text": "Excess insulin promoted lipolysis"
+          },
+          {
+            "id": "o2",
+            "text": "The kidney converted urinary glucose directly into ketones"
+          },
+          {
+            "id": "o3",
+            "text": "ADH stimulated ketone production"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-3-5",
+        "stage": 4,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. Glucose has fallen during treatment, but ketones remain elevated.",
+        "stem": "Which two trends best establish improvement in ketoacidosis itself? Select exactly two.",
+        "rationale": "Ketones and acid-base status indicate improvement in DKA. A lower glucose alone does not establish resolution.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Blood ketones decline"
+          },
+          {
+            "id": "o1",
+            "text": "Bicarbonate rises toward the reference range"
+          },
+          {
+            "id": "o2",
+            "text": "Glucose falls with no change in acid-base status"
+          },
+          {
+            "id": "o3",
+            "text": "Urine glucose is still detectable"
+          },
+          {
+            "id": "o4",
+            "text": "The patient reports thirst with no lab reassessment"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1"
+        ],
+        "type": "select-n",
+        "selectCount": 2
+      },
+      {
+        "id": "patho-e4-case-3-6",
+        "stage": 4,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. The nurse compares this episode with a case of HHS.",
+        "stem": "Which finding in this patient most strongly favors DKA?",
+        "rationale": "Significant ketonemia with metabolic acidosis distinguishes DKA from typical HHS. Both can cause severe dehydration.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Marked ketone elevation with metabolic acidosis"
+          },
+          {
+            "id": "o1",
+            "text": "Dehydration with tachycardia"
+          },
+          {
+            "id": "o2",
+            "text": "Glucosuria"
+          },
+          {
+            "id": "o3",
+            "text": "Elevated serum glucose"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-3-7",
+        "stage": 5,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. During recovery, the patient asks why the missed doses mattered during illness.",
+        "stem": "Which teaching response explains the risk?",
+        "rationale": "Illness can increase metabolic stress. A sick-day plan addresses insulin, monitoring, and when to seek help.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "id": "o0",
+            "text": "Illness can increase insulin needs, and inadequate insulin allows ketone production"
+          },
+          {
+            "id": "o1",
+            "text": "Vomiting eliminates the need for insulin until eating resumes"
+          },
+          {
+            "id": "o2",
+            "text": "A lower glucose reading guarantees ketone production has stopped"
+          },
+          {
+            "id": "o3",
+            "text": "Ketones are caused by taking prescribed insulin during illness"
+          }
+        ],
+        "correct": "o0",
+        "type": "mcq"
+      },
+      {
+        "id": "patho-e4-case-3-8",
+        "stage": 5,
+        "topic": "Endocrine",
+        "subtopic": "Diabetes Mellitus",
+        "caseText": "A 22-year-old with type 1 diabetes presents with vomiting, excessive thirst, and deep rapid breathing after missing insulin during an illness. The nurse uses teach-back to review the findings during admission.",
+        "stem": "Match each finding to the process it reflects.",
+        "rationale": "These findings reflect urinary water loss, respiratory compensation, and altered fuel use.",
+        "approved": true,
+        "source": {
+          "name": "Week 10 Charts.pdf",
+          "path": "Pathophysiology/Exam%204/Week%2010%20Charts.pdf",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        },
+        "type": "matching",
+        "targets": [
+          {
+            "id": "o2",
+            "text": "Insulin deficiency promotes fat breakdown and ketone production"
+          },
+          {
+            "id": "o1",
+            "text": "Increased ventilation helps compensate for metabolic acidosis"
+          },
+          {
+            "id": "o0",
+            "text": "Glucose in the filtrate promotes osmotic diuresis"
+          }
+        ],
+        "pairs": [
+          {
+            "id": "p0",
+            "prompt": "Polyuria",
+            "correct": "o0"
+          },
+          {
+            "id": "p1",
+            "prompt": "Kussmaul respirations",
+            "correct": "o1"
+          },
+          {
+            "id": "p2",
+            "prompt": "Ketonemia",
+            "correct": "o2"
+          }
+        ]
+      }
+    ]
+  }
+]

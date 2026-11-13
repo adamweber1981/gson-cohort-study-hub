@@ -1,3 +1,23 @@
+# November 13, 2026 — Pathophysiology Exam 4 case studies
+
+- Added three sequential case studies to the Exam 4 practice mode menu. Each draws one item per stage, five total, from eight items.
+- Case study review reveals answers, rationales and PDF references after the fifth response.
+
+# November 13, 2026 — Pathophysiology Exam 4 Endocrine and full practice
+
+- Added 40 Endocrine questions with original PDF page references and a 13-question section attempt.
+- Added the full randomized 50-question Exam 4 and custom practice from 240 questions across 24 subtopics.
+
+# November 13, 2026 — Pathophysiology Exam 4 GI/Hepatobiliary preview
+
+- Added a 20-question GI/Hepatobiliary blueprint attempt and custom practice from 110 draft questions across 11 subtopics.
+- Added original PDF page references to each GI/Hepatobiliary question.
+
+# November 13, 2026 — Pathophysiology Exam 4 Cardiac preview
+
+- Added a 17-question Cardiac blueprint attempt and custom practice from 90 draft questions.
+- Added Select N, ordering, and provider-order exhibits. Question feedback and review open original PDFs at cited pages.
+
 # November 9, 2026 — ABG reference ranges
 
 - Reviewed all 30 Fundamentals Exam 3 ABG questions. Added normal reference ranges to the ten numeric interpretation prompts: fund-e3-0031–0036, 0038–0040, and 0046.

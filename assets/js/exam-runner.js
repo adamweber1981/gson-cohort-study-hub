@@ -40,18 +40,46 @@ async function renderOriginalSourceImage(question,container){
   console.error("Original source image failed:",err);
  }
 }
-function showQuestion(){resetUI();selection=null;const q=engine.current();const submitted=engine.phase==="submitted";const prior=engine.answer;meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;root.append(Object.assign(document.createElement("p"),{className:"muted",textContent:"Question "+(engine.index+1)+" of "+engine.total}));if(q.caseText)root.append(Object.assign(document.createElement("aside"),{className:"case-panel",textContent:q.caseText}));root.append(Object.assign(document.createElement("h1"),{textContent:q.stem}));if(q.diagram&&window.HealthAssessmentDiagrams?.[q.diagram]){const figure=document.createElement("figure");figure.className="assessment-diagram";figure.innerHTML=window.HealthAssessmentDiagrams[q.diagram];figure.setAttribute("aria-label","Assessment illustration");root.append(figure)}
+let activeCase=null;
+function showQuestion(){resetUI();selection=null;const q=engine.current();const submitted=engine.phase==="submitted";const prior=engine.answer;meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+(activeCase?.title||engine.bank.practiceName);root.append(Object.assign(document.createElement("p"),{className:"muted",textContent:"Question "+(engine.index+1)+" of "+engine.total}));if(q.exhibit)root.append(Object.assign(document.createElement("aside"),{className:"case-panel",textContent:q.exhibit.title+": "+q.exhibit.text}));if(q.caseText)root.append(Object.assign(document.createElement("aside"),{className:"case-panel",textContent:q.caseText}));root.append(Object.assign(document.createElement("h1"),{textContent:q.stem}));if(q.diagram&&window.HealthAssessmentDiagrams?.[q.diagram]){const figure=document.createElement("figure");figure.className="assessment-diagram";figure.innerHTML=window.HealthAssessmentDiagrams[q.diagram];figure.setAttribute("aria-label","Assessment illustration");root.append(figure)}
  if(q.sourceImage){const figure=document.createElement("figure");figure.className="original-source-image";figure.style.margin="1rem 0";figure.setAttribute("aria-label","Original image from "+q.source.name);root.append(figure);renderOriginalSourceImage(q,figure)}
- const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=q.type==="sata"?"Select all that apply":q.type==="matching"?"Match every item":q.type==="dosage"?"Enter the calculated dose":"Choose one answer";field.append(legend);
- if(["mcq","visual","sata","truefalse"].includes(q.type)){const choices=q.options;for(const option of choices){const label=document.createElement("label");label.className="answer-option";label.style.setProperty("--answer-index",String(choices.indexOf(option)%4));label.classList.add("answer-color-"+(choices.indexOf(option)%4));const input=document.createElement("input");input.type=q.type==="sata"?"checkbox":"radio";input.name="answer";input.value=option.id;input.disabled=submitted;input.checked=submitted?(q.type==="sata"?prior.response.includes(option.id):prior.response===option.id):false;input.addEventListener("change",()=>{selection=q.type==="sata"?[...field.querySelectorAll("input:checked")].map(x=>x.value):input.value;submitButton.disabled=Array.isArray(selection)?!selection.length:!selection});label.append(input,document.createTextNode(" "+option.text));field.append(label)}}
+ const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=q.type==="ordering"?"Arrange in order":q.type==="select-n"?"Select exactly "+q.selectCount:q.type==="sata"?"Select all that apply":q.type==="matching"?"Match every item":q.type==="dosage"?"Enter the calculated dose":"Choose one answer";field.append(legend);
+ if(["mcq","visual","sata","select-n","truefalse"].includes(q.type)){const choices=q.options;const multi=["sata","select-n"].includes(q.type);const status=document.createElement("p");if(q.type==="select-n"&&!submitted){status.setAttribute("role","status");status.textContent="0 of "+q.selectCount+" selected";field.append(status)}for(const option of choices){const label=document.createElement("label");label.className="answer-option";label.style.setProperty("--answer-index",String(choices.indexOf(option)%4));label.classList.add("answer-color-"+(choices.indexOf(option)%4));const input=document.createElement("input");input.type=multi?"checkbox":"radio";input.name="answer";input.value=option.id;input.disabled=submitted;input.checked=submitted?(multi?prior.response.includes(option.id):prior.response===option.id):false;input.addEventListener("change",()=>{selection=multi?[...field.querySelectorAll("input:checked")].map(x=>x.value):input.value;submitButton.disabled=Array.isArray(selection)?!selection.length:!selection;if(q.type==="select-n"){submitButton.disabled=selection.length!==q.selectCount;status.textContent=selection.length+" of "+q.selectCount+" selected";for(const choice of field.querySelectorAll("input"))choice.disabled=!choice.checked&&selection.length>=q.selectCount}});label.append(input,document.createTextNode(" "+option.text));field.append(label)}}
+ else if(q.type==="ordering"){
+  selection=submitted?[...prior.response]:q.options.map(option=>option.id);
+  const list=document.createElement("ol");field.append(list);
+  function renderOrder(focusId,directionToFocus){
+   list.replaceChildren();
+   selection.forEach((id,index)=>{
+    const row=document.createElement("li"),text=q.options.find(option=>option.id===id).text;
+    row.append(document.createTextNode(text+" "));
+    if(!submitted)for(const direction of [-1,1]){
+     const move=document.createElement("button");move.type="button";
+     move.textContent=direction<0?"Move up":"Move down";
+     move.setAttribute("aria-label",move.textContent+" "+text);
+     move.disabled=index+direction<0||index+direction>=selection.length;
+     move.addEventListener("click",()=>{
+      [selection[index],selection[index+direction]]=[selection[index+direction],selection[index]];
+      renderOrder(id,direction);
+     });
+     row.append(move);
+     if(id===focusId&&direction===directionToFocus)queueMicrotask(()=>{if(move.disabled)row.querySelector("button:not([disabled])")?.focus();else move.focus()});
+    }
+    list.append(row);
+   });
+  }
+  renderOrder();
+ }
  else if(q.type==="matching"){selection={};for(const pair of q.pairs){const label=document.createElement("label");label.className="match-row";label.append(document.createTextNode(pair.prompt));const select=document.createElement("select");select.disabled=submitted;select.append(new Option("Select match",""));for(const option of q.targets)select.append(new Option(option.text,option.id));if(submitted)select.value=prior.response[pair.id];select.addEventListener("change",()=>{selection[pair.id]=select.value;submitButton.disabled=q.pairs.some(p=>!selection[p.id])});label.append(select);field.append(label)}}
  else if(q.type==="dosage"){const label=document.createElement("label");label.className="dosage-entry";const prompt=document.createElement("span");prompt.textContent=(q.instructions||"Enter a numeric answer")+" ("+(q.units||"units")+")";const input=document.createElement("input");input.setAttribute("aria-label","Calculated dose in "+(q.units||"units"));label.append(prompt);input.type="number";input.step="any";input.inputMode="decimal";input.disabled=submitted;if(submitted)input.value=prior.response;input.addEventListener("input",()=>{selection=input.value;submitButton.disabled=input.value.trim()===""});label.append(input);field.append(label)}
  root.append(field);root.append(reportLink(q,engine.index+1));let submitButton;
- if(!submitted){submitButton=button(q.type==="sata"?"Submit Answers":q.type==="matching"?"Submit Matches":"Submit Answer",()=>{engine.submit(selection);showQuestion()},true)}
+ if(!submitted){submitButton=button(q.type==="sata"?"Submit Answers":q.type==="matching"?"Submit Matches":"Submit Answer",()=>{engine.submit(selection);showQuestion()},q.type!=="ordering")}
+ else if(activeCase){if(engine.index===engine.total-1)button("Score Case Study",showResults);else button("Next Question",()=>{engine.next();showQuestion()});}
  else{const feedback=document.createElement("section");feedback.className="feedback "+(prior.correct?"feedback-correct":"feedback-incorrect");feedback.setAttribute("role","status");const verdict=document.createElement("h2");verdict.textContent=prior.correct?"Correct":"Incorrect";feedback.append(verdict);const correct=document.createElement("p");correct.textContent="Correct answer: "+formatAnswer(q,q.correct);feedback.append(correct,Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q));root.append(feedback);if(engine.index===engine.total-1)button("Score Exam",showResults);else button("Next Question",()=>{engine.next();showQuestion()})}
 }
 function formatAnswer(q,key){if(q.type==="matching")return q.pairs.map(p=>p.prompt+" → "+(q.targets.find(t=>t.id===(key?.[p.id]||p.correct))?.text||(key?.[p.id]||p.correct))).join("; ");if(q.type==="dosage")return key+" "+(q.units||"");const ids=Array.isArray(key)?key:[key];return ids.map(id=>q.options?.find(o=>o.id===id)?.text||id).join("; ")}
 function showIntro(){
+ activeCase=null;
  resetUI();meta.textContent=engine.bank.course+" · "+engine.bank.examNumber+" · "+engine.bank.practiceName;
  root.innerHTML="<h1>Ready to practice?</h1><p>Answer each question and select Submit to see feedback. You can only move forward until the exam is scored.</p>";
  if(!engine.bank.blueprint){root.append(Object.assign(document.createElement("p"),{textContent:(engine.bank.previewCount||engine.bank.questions.length)+" questions per attempt."}));button("Start Exam",()=>{engine.begin();showQuestion()});return}
@@ -71,11 +99,23 @@ function showIntro(){
  }
  function selections(){const selected=new Map();for(const e of entries){if(!e.toggle.checked||!e.input.checked)continue;if(e.whole)selected.set(e.topic,null);else if(selected.get(e.topic)!==null){if(!selected.has(e.topic))selected.set(e.topic,[]);selected.get(e.topic).push(e.subtopic)}}return [...selected].map(([topic,subtopics])=>({topic,subtopics}))}
  function updateCount(){const n=ExamCore.customPool(engine.bank,selections()).length;count.max=n;count.value=n?Math.min(Number(count.value)||20,n):"";status.textContent=n?n+" questions available. Choose 1–"+n+".":"Select topics and subtopics with available questions.";start.disabled=mode.value==="custom"&&!n}
+ if(bankId==="pathophysiology-exam-4-standard")for(let i=1;i<=3;i++)mode.append(new Option("Case Study "+i,"case-"+i));
  mode.addEventListener("change",()=>{$("custom-settings").hidden=mode.value!=="custom";updateCount()});
- const start=button("Start Exam",()=>{try{if(mode.value==="amy63"){location.href="exam.html?bank=fundamentals-exam-3-amy-review-63&v=amy63-20261111";return}if(mode.value==="standard")engine.begin();else{const value=count.valueAsNumber;if(!count.checkValidity()||!Number.isInteger(value))throw Error("Choose a whole number within the available range.");engine.begin({selections:selections(),count:value})}showQuestion()}catch(err){alertBox.textContent=err.message}});updateCount();
+ const start=button("Start Exam",async()=>{try{if(mode.value==="amy63"){location.href="exam.html?bank=fundamentals-exam-3-amy-review-63&v=amy63-20261111";return}if(/^case-[1-3]$/.test(mode.value)){
+ const id=mode.value;
+ start.disabled=true;
+ try{
+  const response=await fetch("assets/question-banks/pathophysiology-exam-4-cases.json?v=case-studies",{cache:"no-store"});
+  if(!response.ok)throw Error("Case studies unavailable");
+  const cases=await response.json(),study=cases.find(item=>item.id===id);
+  if(!study)throw Error("Case study unavailable");
+  engine.begin({caseStudy:study});
+  activeCase=study;
+ }finally{start.disabled=false}
+ }else if(mode.value==="standard")engine.begin();else{const value=count.valueAsNumber;if(!count.checkValidity()||!Number.isInteger(value))throw Error("Choose a whole number within the available range.");engine.begin({selections:selections(),count:value})}showQuestion()}catch(err){alertBox.textContent=err.message}});updateCount();
 }
 function showResults(){const result=engine.score();resetUI();root.innerHTML="<h1>Exam results</h1><p class='score'>"+result.percent+"%</p><p>"+result.correct+" correct · "+result.incorrect+" incorrect · "+result.total+" questions</p>";button("Review Entire Exam",showReview)}
-function showReview(){const items=engine.review();resetUI();root.append(Object.assign(document.createElement("h1"),{textContent:"Read-only exam review"}));items.forEach(({question:q,answer:a},i)=>{const section=document.createElement("section");section.className="review-item";section.append(Object.assign(document.createElement("h2"),{textContent:(i+1)+". "+q.stem}),Object.assign(document.createElement("p"),{textContent:"Your answer: "+formatAnswer(q,a.response)}),Object.assign(document.createElement("p"),{textContent:"Correct answer: "+formatAnswer(q,q.correct)}),Object.assign(document.createElement("p"),{textContent:a.correct?"Correct":"Incorrect"}),Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q),reportLink(q,i+1));root.append(section)})}
+function showReview(){const items=engine.review();resetUI();root.append(Object.assign(document.createElement("h1"),{textContent:"Read-only exam review"}));items.forEach(({question:q,answer:a},i)=>{const section=document.createElement("section");section.className="review-item";if(activeCase&&q.caseText)section.append(Object.assign(document.createElement("p"),{className:"case-panel",textContent:q.caseText}));section.append(Object.assign(document.createElement("h2"),{textContent:(i+1)+". "+q.stem}),Object.assign(document.createElement("p"),{textContent:"Your answer: "+formatAnswer(q,a.response)}),Object.assign(document.createElement("p"),{textContent:"Correct answer: "+formatAnswer(q,q.correct)}),Object.assign(document.createElement("p"),{textContent:a.correct?"Correct":"Incorrect"}),Object.assign(document.createElement("p"),{textContent:q.rationale}),sourceLink(q),reportLink(q,i+1));root.append(section)})}
 
 // A Google Form destination must be configured by the owner before submissions are enabled.
 // The student can still prepare and copy a report without losing the exam attempt.

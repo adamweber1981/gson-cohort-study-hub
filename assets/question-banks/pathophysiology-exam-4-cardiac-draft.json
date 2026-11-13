@@ -1,0 +1,3165 @@
+{
+  "id": "pathophysiology-exam-4-cardiac-draft",
+  "course": "Pathophysiology",
+  "examNumber": "Exam 4",
+  "practiceName": "Cardiac practice preview",
+  "status": "draft",
+  "blueprint": {
+    "total": 17,
+    "topics": {
+      "Cardiac": 17
+    },
+    "subtopics": {
+      "Cardiac": {
+        "Cardiac Terms": 1,
+        "Hypertension": 2,
+        "Atherosclerosis": 1,
+        "Peripheral Vascular Disease": 2,
+        "Aneurysms": 1,
+        "Myocardial Infarction": 4,
+        "Pericardial Effusion": 1,
+        "Infective Endocarditis": 1,
+        "Heart Failure": 4
+      }
+    },
+    "standardLabel": "Cardiac blueprint (17 questions)"
+  },
+  "references": [
+    {
+      "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+      "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf"
+    },
+    {
+      "name": "3140_7_Blood Flow & Pressure Disorders.pdf",
+      "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf"
+    },
+    {
+      "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+      "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf"
+    },
+    {
+      "name": "Week 8 Questions.pdf",
+      "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf"
+    },
+    {
+      "name": "Week 8 Charts.pdf",
+      "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf"
+    },
+    {
+      "name": "Exam 4 Worksheet.pdf",
+      "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "patho-e4-card-001",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "A pressure of 142/76 mm Hg is charted. Which phase produces the upper value?",
+      "rationale": "The upper reading reflects arterial pressure during ventricular contraction.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Isovolumetric relaxation"
+        },
+        {
+          "id": "o0",
+          "text": "Ventricular systole"
+        },
+        {
+          "id": "o1",
+          "text": "Ventricular diastole"
+        },
+        {
+          "id": "o2",
+          "text": "Passive ventricular filling"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-002",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "What does the lower number in a brachial blood pressure reflect?",
+      "rationale": "The lower reading reflects arterial pressure during ventricular relaxation.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "The difference between peak and minimum pressure"
+        },
+        {
+          "id": "o3",
+          "text": "The pressure averaged across a cardiac cycle"
+        },
+        {
+          "id": "o0",
+          "text": "Arterial pressure during cardiac relaxation"
+        },
+        {
+          "id": "o1",
+          "text": "Arterial pressure at peak ventricular contraction"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-003",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "A client's pressure changes from 126/74 to 148/74 mm Hg. Which calculated value rose by 22 mm Hg?",
+      "rationale": "Pulse pressure is systolic minus diastolic pressure, so a 22-point systolic rise with unchanged diastolic pressure raises pulse pressure by 22.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Mean arterial pressure"
+        },
+        {
+          "id": "o3",
+          "text": "Central venous pressure"
+        },
+        {
+          "id": "o0",
+          "text": "Pulse pressure"
+        },
+        {
+          "id": "o1",
+          "text": "Diastolic pressure"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-004",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "A sustained very rapid rhythm shortens the time between contractions. Which change can reduce stroke volume?",
+      "rationale": "A shortened diastolic interval leaves less time to fill and can reduce the volume ejected per beat.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 8
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "More time for ventricular filling"
+        },
+        {
+          "id": "o2",
+          "text": "Increased filling from prolonged relaxation"
+        },
+        {
+          "id": "o3",
+          "text": "Greater end-diastolic volume from slower cycling"
+        },
+        {
+          "id": "o0",
+          "text": "Less time for the ventricle to fill"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-005",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "An increase in circulating volume raises ventricular end-diastolic stretch. Which term describes the changed load?",
+      "rationale": "Preload describes the stretch present before contraction. Afterload is the resistance encountered during ejection.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Preload"
+        },
+        {
+          "id": "o1",
+          "text": "Afterload"
+        },
+        {
+          "id": "o2",
+          "text": "Cardiac output"
+        },
+        {
+          "id": "o3",
+          "text": "Pulse pressure"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-006",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "A patient develops marked systemic vasoconstriction. What ventricular load rises as the left ventricle ejects into the arterial system?",
+      "rationale": "Systemic vasoconstriction increases the resistance against which the left ventricle ejects.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Afterload"
+        },
+        {
+          "id": "o1",
+          "text": "Preload"
+        },
+        {
+          "id": "o2",
+          "text": "End-diastolic volume"
+        },
+        {
+          "id": "o3",
+          "text": "Venous return"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-007",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "The ventricle ejects 60 mL per beat at 80 beats/min. What is cardiac output?",
+      "rationale": "Multiply 60 mL by 80 beats/min to obtain 4,800 mL/min.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "8.0 L/min"
+        },
+        {
+          "id": "o0",
+          "text": "4.8 L/min"
+        },
+        {
+          "id": "o1",
+          "text": "1.3 L/min"
+        },
+        {
+          "id": "o2",
+          "text": "7.5 L/min"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-008",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "Heart rate rises from 60 to 90 beats/min while stroke volume falls from 90 to 60 mL. What happens to cardiac output?",
+      "rationale": "Both 60 × 90 and 90 × 60 yield 5,400 mL/min.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "It falls to 3.6 L/min"
+        },
+        {
+          "id": "o3",
+          "text": "It rises to 6.0 L/min"
+        },
+        {
+          "id": "o0",
+          "text": "It stays at 5.4 L/min"
+        },
+        {
+          "id": "o1",
+          "text": "It rises to 8.1 L/min"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-009",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "What measurement would establish whether more blood is pumped with each contraction?",
+      "rationale": "Stroke volume is measured per beat. Cardiac output is measured per minute.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Diastolic arterial pressure"
+        },
+        {
+          "id": "o3",
+          "text": "Heart rate"
+        },
+        {
+          "id": "o0",
+          "text": "Stroke volume"
+        },
+        {
+          "id": "o1",
+          "text": "Cardiac output per minute"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-010",
+      "topic": "Cardiac",
+      "subtopic": "Cardiac Terms",
+      "stem": "Two clients have the same heart rate. Which variable explains why one has lower cardiac output?",
+      "rationale": "With identical heart rates, a lower stroke volume yields lower cardiac output.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Lower diastolic arterial pressure alone"
+        },
+        {
+          "id": "o2",
+          "text": "Higher arterial pulse pressure alone"
+        },
+        {
+          "id": "o3",
+          "text": "Longer time between beats"
+        },
+        {
+          "id": "o0",
+          "text": "Lower volume ejected per beat"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-011",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which history supports evaluating hypertension for a secondary cause?",
+      "rationale": "Kidney disease can cause secondary hypertension. Family history and age are risk factors for primary hypertension.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 16
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Blood pressure rose after development of kidney disease"
+        },
+        {
+          "id": "o1",
+          "text": "Both parents had hypertension and no associated condition is known"
+        },
+        {
+          "id": "o2",
+          "text": "Blood pressure increased gradually with age without another identified disorder"
+        },
+        {
+          "id": "o3",
+          "text": "Family history and inactivity accompany longstanding hypertension"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-012",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which two characteristics can the client modify? Select exactly two.",
+      "rationale": "Tobacco exposure and activity level can change. Age and inherited risk cannot.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 16
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Inherited susceptibility"
+        },
+        {
+          "id": "o4",
+          "text": "Family history"
+        },
+        {
+          "id": "o0",
+          "text": "Tobacco use"
+        },
+        {
+          "id": "o1",
+          "text": "Physical inactivity"
+        },
+        {
+          "id": "o2",
+          "text": "Older age"
+        }
+      ],
+      "type": "select-n",
+      "selectCount": 2,
+      "correct": [
+        "o0",
+        "o1"
+      ]
+    },
+    {
+      "id": "patho-e4-card-013",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which finding represents ocular target-organ damage in longstanding hypertension?",
+      "rationale": "Hypertension injures small retinal vessels, producing retinopathy.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 19
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Dry eye"
+        },
+        {
+          "id": "o0",
+          "text": "Retinopathy"
+        },
+        {
+          "id": "o1",
+          "text": "Cataract"
+        },
+        {
+          "id": "o2",
+          "text": "Refractive error"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-014",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which situation most strongly suggests hypertensive emergency?",
+      "rationale": "Acute confusion suggests new target-organ dysfunction in the setting of severely elevated pressure.",
+      "source": {
+        "name": "3140_7_Blood Flow & Pressure Disorders.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
+        "page": 24
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Mildly elevated pressure after activity with no symptoms"
+        },
+        {
+          "id": "o3",
+          "text": "Longstanding controlled pressure with stable chronic kidney disease"
+        },
+        {
+          "id": "o0",
+          "text": "Markedly elevated pressure with new confusion"
+        },
+        {
+          "id": "o1",
+          "text": "Markedly elevated pressure with baseline cognition and no acute organ injury"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-015",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "How does persistent hypertension promote vascular injury?",
+      "rationale": "Persistent pressure stresses the arterial wall and can damage its endothelial lining.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 17
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "It decreases endothelial exposure to mechanical force"
+        },
+        {
+          "id": "o3",
+          "text": "It produces sustained arterial underfilling"
+        },
+        {
+          "id": "o0",
+          "text": "It increases mechanical stress on the vessel wall"
+        },
+        {
+          "id": "o1",
+          "text": "It lowers pressure against the arterial lining"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-016",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Why can a major fall in blood pressure threaten organ function?",
+      "rationale": "If arterial pressure falls too far, the pressure gradient driving organ blood flow may become inadequate.",
+      "source": {
+        "name": "3140_7_Blood Flow & Pressure Disorders.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
+        "page": 20
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Increased arterial pressure impairs vessel integrity"
+        },
+        {
+          "id": "o2",
+          "text": "The rise in systemic pressure causes retinal injury"
+        },
+        {
+          "id": "o3",
+          "text": "Elevated afterload prevents ventricular ejection"
+        },
+        {
+          "id": "o0",
+          "text": "Perfusion pressure can become inadequate"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-017",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which pair represents cerebral and renal target-organ complications, respectively?",
+      "rationale": "A TIA reflects transient cerebral ischemia, while chronic kidney disease reflects renal injury.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 19
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "TIA and chronic kidney disease"
+        },
+        {
+          "id": "o1",
+          "text": "Retinopathy and myocardial infarction"
+        },
+        {
+          "id": "o2",
+          "text": "Heart failure and retinopathy"
+        },
+        {
+          "id": "o3",
+          "text": "Peripheral artery disease and TIA"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-018",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which lunch selection best reflects a lower-sodium dietary approach for hypertension?",
+      "rationale": "Choosing fresh foods and avoiding added salt reduces sodium compared with cured, smoked, or packaged options.",
+      "source": {
+        "name": "3140_7_Blood Flow & Pressure Disorders.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
+        "page": 23
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Unsalted roasted chicken with fresh vegetables"
+        },
+        {
+          "id": "o1",
+          "text": "Cured ham with canned soup"
+        },
+        {
+          "id": "o2",
+          "text": "Smoked sausage with pickled vegetables"
+        },
+        {
+          "id": "o3",
+          "text": "Deli turkey with instant noodles"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-019",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Which complications in a patient with chronic uncontrolled hypertension affect the heart? Select all that apply.",
+      "rationale": "Heart failure, infarction, and dysrhythmias involve the heart. Retinopathy affects the eye, and a TIA affects the brain.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 19
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o4",
+          "text": "Transient ischemic attack"
+        },
+        {
+          "id": "o0",
+          "text": "Heart failure"
+        },
+        {
+          "id": "o1",
+          "text": "Myocardial infarction"
+        },
+        {
+          "id": "o2",
+          "text": "Cardiac dysrhythmia"
+        },
+        {
+          "id": "o3",
+          "text": "Retinopathy"
+        }
+      ],
+      "type": "sata",
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ]
+    },
+    {
+      "id": "patho-e4-card-020",
+      "topic": "Cardiac",
+      "subtopic": "Hypertension",
+      "stem": "Why can hypertension due to coarctation be classified as secondary?",
+      "rationale": "Aortic coarctation is an identifiable structural contributor, which supports classification as secondary hypertension.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 16
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "It is defined by an isolated elevated reading"
+        },
+        {
+          "id": "o3",
+          "text": "It is classified solely by whether symptoms occur"
+        },
+        {
+          "id": "o0",
+          "text": "A specific underlying structural cause is identifiable"
+        },
+        {
+          "id": "o1",
+          "text": "Its severity is determined by family history alone"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-021",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Which change initiates the described sequence of atherosclerosis?",
+      "rationale": "Endothelial injury precedes lipid deposition. Rupture and thrombosis are later complications.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Luminal thrombus formation"
+        },
+        {
+          "id": "o3",
+          "text": "Established plaque calcification"
+        },
+        {
+          "id": "o0",
+          "text": "Endothelial injury"
+        },
+        {
+          "id": "o1",
+          "text": "Fibrous plaque rupture"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-022",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Where does oxidized LDL accumulate early in plaque formation?",
+      "rationale": "Oxidized LDL accumulates in the innermost arterial layer, the intima.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Arterial adventitia"
+        },
+        {
+          "id": "o2",
+          "text": "Venous valve leaflets"
+        },
+        {
+          "id": "o3",
+          "text": "Pericardial sac"
+        },
+        {
+          "id": "o0",
+          "text": "Arterial intima"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-023",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Which cell takes up oxidized LDL and becomes a foam cell?",
+      "rationale": "Macrophages ingest oxidized LDL and become foam cells.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Macrophage"
+        },
+        {
+          "id": "o1",
+          "text": "Platelet"
+        },
+        {
+          "id": "o2",
+          "text": "Erythrocyte"
+        },
+        {
+          "id": "o3",
+          "text": "Vascular smooth muscle cell"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-024",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Which change directly adds extracellular matrix to the developing plaque?",
+      "rationale": "Smooth muscle cells migrate into the intima and secrete matrix, including collagen.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Smooth muscle migration and matrix secretion"
+        },
+        {
+          "id": "o1",
+          "text": "Platelet release of hemoglobin"
+        },
+        {
+          "id": "o2",
+          "text": "Macrophage release of circulating HDL"
+        },
+        {
+          "id": "o3",
+          "text": "Loss of all smooth muscle from the vessel wall"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-025",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Which plaque feature makes rupture more likely?",
+      "rationale": "A thin cap is more vulnerable to rupture than a thick, intact cap.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 23
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "A dense cap without fissuring"
+        },
+        {
+          "id": "o0",
+          "text": "A thin fibrous cap"
+        },
+        {
+          "id": "o1",
+          "text": "A thick fibrous cap"
+        },
+        {
+          "id": "o2",
+          "text": "An intact stable cap"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-026",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "A coronary plaque ruptures. Which immediate event can abruptly obstruct blood flow?",
+      "rationale": "Rupture exposes thrombogenic material, allowing a clot to form at the site.",
+      "source": {
+        "name": "3140_7_Blood Flow & Pressure Disorders.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Gradual regression of plaque"
+        },
+        {
+          "id": "o3",
+          "text": "Improved flow through the disrupted site"
+        },
+        {
+          "id": "o0",
+          "text": "Thrombus formation at the rupture"
+        },
+        {
+          "id": "o1",
+          "text": "Slow expansion of the vessel lumen"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-027",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "A plaque gradually enlarges without rupturing. Why can downstream tissue still become ischemic?",
+      "rationale": "As plaque grows into the lumen, it can restrict downstream flow even before rupture.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "The plaque increases the blood's oxygen-carrying capacity"
+        },
+        {
+          "id": "o3",
+          "text": "The plaque enlarges only outside the vessel lumen"
+        },
+        {
+          "id": "o0",
+          "text": "The plaque narrows the lumen and limits flow"
+        },
+        {
+          "id": "o1",
+          "text": "The plaque increases the lumen and lowers resistance"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-028",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Which two factors are modifiable risks for atherosclerosis? Select exactly two.",
+      "rationale": "Tobacco exposure and blood lipids can be modified. Age and inherited risk cannot.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 20
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Smoking"
+        },
+        {
+          "id": "o1",
+          "text": "Elevated blood lipids"
+        },
+        {
+          "id": "o2",
+          "text": "Advanced age"
+        },
+        {
+          "id": "o3",
+          "text": "Inherited susceptibility"
+        },
+        {
+          "id": "o4",
+          "text": "Family history"
+        }
+      ],
+      "type": "select-n",
+      "selectCount": 2,
+      "correct": [
+        "o0",
+        "o1"
+      ]
+    },
+    {
+      "id": "patho-e4-card-029",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Which explanation connects chronic high arterial pressure to plaque development?",
+      "rationale": "Mechanical stress from elevated pressure can injure the endothelial lining and promote plaque formation.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 22
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Mechanical stress can injure the endothelium"
+        },
+        {
+          "id": "o1",
+          "text": "Pressure protects the endothelium from disruption"
+        },
+        {
+          "id": "o2",
+          "text": "Pressure prevents LDL from accumulating in the intima"
+        },
+        {
+          "id": "o3",
+          "text": "Pressure stops inflammatory cells from entering the vessel wall"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-030",
+      "topic": "Cardiac",
+      "subtopic": "Atherosclerosis",
+      "stem": "Put the early events leading to a fatty streak in order.",
+      "rationale": "Endothelial injury precedes LDL deposition. Macrophages take up oxidized LDL, become foam cells, and accumulate as a fatty streak.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 6
+      },
+      "approved": true,
+      "type": "ordering",
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "options": [
+        {
+          "id": "o2",
+          "text": "Macrophage uptake of oxidized LDL"
+        },
+        {
+          "id": "o0",
+          "text": "Endothelial injury"
+        },
+        {
+          "id": "o3",
+          "text": "Foam cell accumulation"
+        },
+        {
+          "id": "o1",
+          "text": "Oxidized LDL deposition"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-card-031",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Calf pain develops at a reproducible walking distance and subsides after stopping. What best explains it?",
+      "rationale": "Exercise raises muscle oxygen demand. When narrowed arteries cannot increase supply, pain develops and eases when demand falls at rest.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Arterial flow rises beyond muscle demand"
+        },
+        {
+          "id": "o0",
+          "text": "Arterial supply cannot meet exercising muscle demand"
+        },
+        {
+          "id": "o1",
+          "text": "Venous valves close excessively during walking"
+        },
+        {
+          "id": "o2",
+          "text": "Skeletal muscle pumping stops during exercise"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-032",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Which pair most strongly favors arterial insufficiency in a client with leg discomfort?",
+      "rationale": "A cool foot and weak pulse support reduced arterial inflow. Edema and varicosities more strongly suggest venous disease.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Pitting edema and intact pedal pulses"
+        },
+        {
+          "id": "o3",
+          "text": "Ankle swelling and brown skin discoloration"
+        },
+        {
+          "id": "o0",
+          "text": "Cool foot and weak pedal pulse"
+        },
+        {
+          "id": "o1",
+          "text": "Warm foot and prominent varicosities"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-033",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "A foot turns pale when elevated and red when dependent. Which explanation fits this pattern?",
+      "rationale": "A poorly perfused limb can become pale when elevated and red when lowered.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Calf contractions obstruct arterial flow"
+        },
+        {
+          "id": "o3",
+          "text": "Normal pulses rule out a vascular cause"
+        },
+        {
+          "id": "o0",
+          "text": "Impaired arterial perfusion produces position-dependent color change"
+        },
+        {
+          "id": "o1",
+          "text": "Effective venous valves prevent blood from returning to the heart"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-034",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Which action directly activates the calf muscle pump?",
+      "rationale": "Calf contraction compresses leg veins and helps propel blood toward the heart.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Standing motionless"
+        },
+        {
+          "id": "o2",
+          "text": "Maintaining a fixed seated position"
+        },
+        {
+          "id": "o3",
+          "text": "Relaxing the calves continuously"
+        },
+        {
+          "id": "o0",
+          "text": "Repeated ankle movement and calf contraction"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-035",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "What causes elevated pressure in leg veins with incompetent valves?",
+      "rationale": "Valve incompetence allows backflow, pooling, and elevated venous pressure.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Retrograde blood flow and pooling"
+        },
+        {
+          "id": "o1",
+          "text": "Increased forward flow through competent valves"
+        },
+        {
+          "id": "o2",
+          "text": "Plaque rupture in the aorta"
+        },
+        {
+          "id": "o3",
+          "text": "Excess arterial dilation during exercise"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-036",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Which change suggests progression beyond intermittent claudication?",
+      "rationale": "Tissue necrosis suggests advanced ischemia. Reproducible pain that resolves with rest is consistent with claudication.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "A black, necrotic toe"
+        },
+        {
+          "id": "o1",
+          "text": "Pain that consistently resolves with rest"
+        },
+        {
+          "id": "o2",
+          "text": "Stable walking tolerance"
+        },
+        {
+          "id": "o3",
+          "text": "Return of normal foot color after warming"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-037",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Which wound pattern most strongly supports arterial insufficiency?",
+      "rationale": "Distal tissue loss with a cool foot and weak pulses points to impaired arterial inflow. Edematous ankle wounds favor venous disease.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Irregular gaiter-area wound with dependent swelling"
+        },
+        {
+          "id": "o0",
+          "text": "Distal toe ulcer with weak pulses and a cool foot"
+        },
+        {
+          "id": "o1",
+          "text": "Shallow medial ankle ulcer with edema and palpable pulses"
+        },
+        {
+          "id": "o2",
+          "text": "Weeping ankle wound with brown discoloration and warmth"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-038",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Which finding cluster best fits chronic venous insufficiency?",
+      "rationale": "Dependent swelling and discoloration with palpable pulses favor venous congestion.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Distal toe necrosis, absent pulse, cold skin"
+        },
+        {
+          "id": "o3",
+          "text": "Exercise-induced calf pain with diminished distal pulses"
+        },
+        {
+          "id": "o0",
+          "text": "Dependent edema, brown ankle discoloration, palpable pedal pulse"
+        },
+        {
+          "id": "o1",
+          "text": "Cool foot, weak pulse, elevation pallor"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-039",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "Which two findings support reduced distal arterial perfusion? Select exactly two.",
+      "rationale": "Delayed refill and a diminished distal pulse suggest poor arterial perfusion.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 1
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Diminished pedal pulse"
+        },
+        {
+          "id": "o2",
+          "text": "Warm foot"
+        },
+        {
+          "id": "o3",
+          "text": "Brisk refill"
+        },
+        {
+          "id": "o4",
+          "text": "Bounding pedal pulse"
+        },
+        {
+          "id": "o0",
+          "text": "Delayed capillary refill"
+        }
+      ],
+      "type": "select-n",
+      "selectCount": 2,
+      "correct": [
+        "o0",
+        "o1"
+      ]
+    },
+    {
+      "id": "patho-e4-card-040",
+      "topic": "Cardiac",
+      "subtopic": "Peripheral Vascular Disease",
+      "stem": "What is the normal function of one-way venous valves when calf muscles relax?",
+      "rationale": "Venous valves limit retrograde flow between calf contractions.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 12
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "They stop all blood from reaching the heart"
+        },
+        {
+          "id": "o2",
+          "text": "They direct blood into the leg arteries"
+        },
+        {
+          "id": "o3",
+          "text": "They increase arterial resistance during relaxation"
+        },
+        {
+          "id": "o0",
+          "text": "They prevent blood from falling back down the leg"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-041",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "Imaging shows localized dilation involving all layers of an artery. What is this finding?",
+      "rationale": "A true aneurysm includes all vessel-wall layers. A pseudoaneurysm is a contained leak outside the disrupted vessel wall.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "True aneurysm"
+        },
+        {
+          "id": "o1",
+          "text": "Pseudoaneurysm"
+        },
+        {
+          "id": "o2",
+          "text": "Aortic dissection"
+        },
+        {
+          "id": "o3",
+          "text": "Luminal thrombus"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-042",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "After an arterial puncture, blood collects outside the arterial wall in a contained pocket. What best classifies it?",
+      "rationale": "A contained arterial leak outside the vessel wall is a pseudoaneurysm.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pseudoaneurysm"
+        },
+        {
+          "id": "o1",
+          "text": "True fusiform aneurysm"
+        },
+        {
+          "id": "o2",
+          "text": "True saccular aneurysm"
+        },
+        {
+          "id": "o3",
+          "text": "Atherosclerotic stenosis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-043",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "A client describes abrupt severe tearing pain from the chest to the back. Which process fits this pattern?",
+      "rationale": "An intimal tear can allow pressurized blood to separate aortic wall layers, causing abrupt severe pain.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 10
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "A stable aneurysm slowly expands without wall separation"
+        },
+        {
+          "id": "o0",
+          "text": "Blood enters an inner aortic tear and tracks between wall layers"
+        },
+        {
+          "id": "o1",
+          "text": "A chronic venous valve leak raises pressure in leg veins"
+        },
+        {
+          "id": "o2",
+          "text": "A plaque gradually reduces flow to an exercising calf"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-044",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "What is the false lumen in aortic dissection?",
+      "rationale": "The dissection creates a second channel between layers of the wall.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 10
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "A dilated segment containing all wall layers"
+        },
+        {
+          "id": "o3",
+          "text": "A narrowed lumen caused by chronic plaque"
+        },
+        {
+          "id": "o0",
+          "text": "A new channel formed between layers of the aortic wall"
+        },
+        {
+          "id": "o1",
+          "text": "The original passage through the aorta"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-045",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "Which two histories increase risk for aortic aneurysm? Select exactly two.",
+      "rationale": "Chronic hypertension and smoking are listed risk factors.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Long-term smoking"
+        },
+        {
+          "id": "o1",
+          "text": "Chronic hypertension"
+        },
+        {
+          "id": "o2",
+          "text": "Consistent normal blood pressure"
+        },
+        {
+          "id": "o3",
+          "text": "Lifetime absence of tobacco exposure"
+        },
+        {
+          "id": "o4",
+          "text": "No known family history"
+        }
+      ],
+      "type": "select-n",
+      "selectCount": 2,
+      "correct": [
+        "o0",
+        "o1"
+      ]
+    },
+    {
+      "id": "patho-e4-card-046",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "Which finding may occur with an unruptured abdominal aortic aneurysm?",
+      "rationale": "An abdominal aortic aneurysm may cause a pulsating abdominal sensation or remain asymptomatic.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Calf pain reproducible with walking"
+        },
+        {
+          "id": "o2",
+          "text": "Breathlessness relieved by sitting up"
+        },
+        {
+          "id": "o3",
+          "text": "Brown discoloration at both ankles"
+        },
+        {
+          "id": "o0",
+          "text": "Pulsating sensation in the abdomen"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-047",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "What is the direct consequence if an aortic aneurysm ruptures into surrounding tissue?",
+      "rationale": "Rupture lets blood escape into adjacent tissue or a body cavity and can cause major blood loss.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 9
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Internal hemorrhage"
+        },
+        {
+          "id": "o1",
+          "text": "Increased effective circulating volume"
+        },
+        {
+          "id": "o2",
+          "text": "Improved tissue perfusion"
+        },
+        {
+          "id": "o3",
+          "text": "Increased blood return to the heart"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-048",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "Which inherited condition is listed as a risk for aortic dissection?",
+      "rationale": "Marfan syndrome affects connective tissue and is a risk factor for dissection.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 10
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Marfan syndrome"
+        },
+        {
+          "id": "o1",
+          "text": "Familial hypercholesterolemia"
+        },
+        {
+          "id": "o2",
+          "text": "Sickle cell trait"
+        },
+        {
+          "id": "o3",
+          "text": "Hereditary hemochromatosis"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-049",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "Which study is identified as the gold standard for defining a suspected acute aortic dissection when feasible?",
+      "rationale": "CT angiography can define the dissection and its extent. The other tests cannot map an aortic false lumen.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 11
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "A 12-lead ECG"
+        },
+        {
+          "id": "o0",
+          "text": "CT angiography"
+        },
+        {
+          "id": "o1",
+          "text": "A plain chest radiograph"
+        },
+        {
+          "id": "o2",
+          "text": "An ankle-brachial index"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-050",
+      "topic": "Cardiac",
+      "subtopic": "Aneurysms",
+      "stem": "Why is blood pressure control a goal in medical management of aortic disease?",
+      "rationale": "Reducing arterial pressure reduces the mechanical load on the aortic wall.",
+      "source": {
+        "name": "3140_7_Blood Pressure Disorders and Blood Pressure.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Pressure%20Disorders%20and%20Blood%20Pressure.pdf",
+        "page": 11
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "It widens the false lumen to restore flow"
+        },
+        {
+          "id": "o3",
+          "text": "It increases the pressure distending the aneurysm"
+        },
+        {
+          "id": "o0",
+          "text": "It reduces mechanical stress on the aortic wall"
+        },
+        {
+          "id": "o1",
+          "text": "It increases shear stress at the injured site"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-051",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "Chest pressure predictably occurs uphill and stops with rest. Which diagnosis best fits?",
+      "rationale": "Predictable exertional pain that resolves with rest is characteristic of stable angina.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "NSTEMI"
+        },
+        {
+          "id": "o3",
+          "text": "STEMI"
+        },
+        {
+          "id": "o0",
+          "text": "Stable angina"
+        },
+        {
+          "id": "o1",
+          "text": "Unstable angina"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-052",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "Chest pain begins at rest with transient ST depression and serial troponins remain negative. Which diagnosis fits best?",
+      "rationale": "Rest pain suggests unstable ischemia, and persistently negative serial troponins support angina rather than infarction in this scenario.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Stable angina"
+        },
+        {
+          "id": "o2",
+          "text": "NSTEMI"
+        },
+        {
+          "id": "o3",
+          "text": "STEMI"
+        },
+        {
+          "id": "o0",
+          "text": "Unstable angina"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-053",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "A client with acute chest pain has a rising troponin and ST depression. Which classification fits?",
+      "rationale": "A rising troponin with ischemic symptoms and without ST elevation supports NSTEMI.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "NSTEMI"
+        },
+        {
+          "id": "o1",
+          "text": "Unstable angina"
+        },
+        {
+          "id": "o2",
+          "text": "Stable angina"
+        },
+        {
+          "id": "o3",
+          "text": "STEMI"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-054",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "A client has ischemic chest pain, diagnostic ST elevation, and rising troponin. Which diagnosis fits?",
+      "rationale": "Diagnostic ST elevation in the setting of ischemic symptoms supports STEMI.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "STEMI"
+        },
+        {
+          "id": "o1",
+          "text": "NSTEMI"
+        },
+        {
+          "id": "o2",
+          "text": "Unstable angina"
+        },
+        {
+          "id": "o3",
+          "text": "Stable angina"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-055",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "What produces symptoms in angina?",
+      "rationale": "Angina occurs when myocardial oxygen supply is insufficient for demand. Infarction involves myocardial injury and cell death.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 35
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Inflammation of the endocardial surface"
+        },
+        {
+          "id": "o0",
+          "text": "A temporary mismatch between myocardial oxygen supply and demand"
+        },
+        {
+          "id": "o1",
+          "text": "Myocardial cell death after prolonged ischemia"
+        },
+        {
+          "id": "o2",
+          "text": "Impaired ventricular filling from fluid around the heart"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-056",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "Which two data sources together best help differentiate infarction from angina? Select exactly two.",
+      "rationale": "ECG changes characterize the ischemic pattern, while serial troponins help detect myocardial injury.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 34
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Serial cardiac troponin"
+        },
+        {
+          "id": "o1",
+          "text": "12-lead ECG findings"
+        },
+        {
+          "id": "o2",
+          "text": "Pain severity alone"
+        },
+        {
+          "id": "o3",
+          "text": "An isolated peripheral pulse measurement"
+        },
+        {
+          "id": "o4",
+          "text": "Presence of a family history"
+        }
+      ],
+      "type": "select-n",
+      "selectCount": 2,
+      "correct": [
+        "o0",
+        "o1"
+      ]
+    },
+    {
+      "id": "patho-e4-card-057",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "Which findings can accompany acute MI? Select all that apply.",
+      "rationale": "Sweating, nausea, and dyspnea can accompany acute MI. Chronic skin changes and reproducible calf pain are peripheral vascular cues.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 39
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Isolated chronic ankle hyperpigmentation"
+        },
+        {
+          "id": "o4",
+          "text": "Reproducible calf pain relieved by rest"
+        },
+        {
+          "id": "o0",
+          "text": "Diaphoresis"
+        },
+        {
+          "id": "o1",
+          "text": "Nausea"
+        },
+        {
+          "id": "o2",
+          "text": "Shortness of breath"
+        }
+      ],
+      "type": "sata",
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ]
+    },
+    {
+      "id": "patho-e4-card-058",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "A client develops a new unstable ventricular rhythm after an infarction. What best explains the new complication?",
+      "rationale": "Ischemic and injured myocardium can alter conduction and trigger a ventricular dysrhythmia.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 42
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "The infarct increases conduction uniformity throughout the ventricle"
+        },
+        {
+          "id": "o2",
+          "text": "Venous valve failure causes the ventricular rhythm change"
+        },
+        {
+          "id": "o3",
+          "text": "Pericardial fluid improves ventricular electrical stability"
+        },
+        {
+          "id": "o0",
+          "text": "Injured myocardium can disrupt electrical conduction"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-059",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "After MI, a client becomes hypotensive with cool extremities. What mechanism explains cardiogenic shock?",
+      "rationale": "Loss of pumping capacity after MI can cause inadequate cardiac output and systemic hypoperfusion.",
+      "source": {
+        "name": "3140_7_Blood Flow & Pressure Disorders.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Blood%20Flow%20%26%20Pressure%20Disorders.pdf",
+        "page": 27
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "The damaged heart cannot generate adequate forward flow"
+        },
+        {
+          "id": "o1",
+          "text": "Venous valve failure prevents local calf drainage"
+        },
+        {
+          "id": "o2",
+          "text": "Arterial plaque increases blood delivery to the tissues"
+        },
+        {
+          "id": "o3",
+          "text": "Improved cardiac contraction causes excess perfusion"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-060",
+      "topic": "Cardiac",
+      "subtopic": "Myocardial Infarction",
+      "stem": "Match each pattern to its chest-pain classification.",
+      "rationale": "The pattern of symptoms, ECG findings, and troponin distinguishes the four classifications.",
+      "source": {
+        "name": "Week 8 Charts.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Charts.pdf",
+        "page": 2
+      },
+      "approved": true,
+      "type": "matching",
+      "targets": [
+        {
+          "id": "o3",
+          "text": "STEMI"
+        },
+        {
+          "id": "o2",
+          "text": "NSTEMI"
+        },
+        {
+          "id": "o1",
+          "text": "Unstable angina"
+        },
+        {
+          "id": "o0",
+          "text": "Stable angina"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Exertional pain relieved by rest",
+          "correct": "o0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Rest pain with negative serial troponins",
+          "correct": "o1"
+        },
+        {
+          "id": "p2",
+          "prompt": "ST depression with rising troponin",
+          "correct": "o2"
+        },
+        {
+          "id": "p3",
+          "prompt": "ST elevation with rising troponin",
+          "correct": "o3"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-card-061",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "An echocardiogram shows fluid surrounding the heart within the pericardial sac. What does this finding describe?",
+      "rationale": "An effusion is excess fluid in the sac surrounding the heart.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Endocardial vegetation"
+        },
+        {
+          "id": "o0",
+          "text": "Pericardial effusion"
+        },
+        {
+          "id": "o1",
+          "text": "Pleural effusion"
+        },
+        {
+          "id": "o2",
+          "text": "Pulmonary edema"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-062",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Why can a smaller, rapidly developing effusion be more dangerous than a larger, gradual one?",
+      "rationale": "The pericardium can stretch over time. Rapid accumulation can raise pressure substantially even with less fluid.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Slow accumulation always produces higher pressure at a smaller volume"
+        },
+        {
+          "id": "o3",
+          "text": "Pressure depends exclusively on total fluid volume"
+        },
+        {
+          "id": "o0",
+          "text": "The pericardium has less time to stretch and accommodate the fluid"
+        },
+        {
+          "id": "o1",
+          "text": "Rapid accumulation gives the pericardium more time to stretch"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-063",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Which change directly limits cardiac output in tamponade?",
+      "rationale": "Rising pressure outside the chambers restricts filling and reduces stroke volume.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Coronary plaque increases contractile force"
+        },
+        {
+          "id": "o3",
+          "text": "Venous valves increase preload without obstruction"
+        },
+        {
+          "id": "o0",
+          "text": "External pressure restricts chamber filling"
+        },
+        {
+          "id": "o1",
+          "text": "External pressure improves ventricular filling"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-064",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Which auscultatory finding is consistent with fluid around the heart?",
+      "rationale": "Fluid surrounding the heart can dampen heart sounds.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 45
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "A loud opening snap"
+        },
+        {
+          "id": "o2",
+          "text": "A fixed split second heart sound"
+        },
+        {
+          "id": "o3",
+          "text": "An isolated carotid bruit"
+        },
+        {
+          "id": "o0",
+          "text": "Muffled heart sounds"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-065",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Why is new hypotension in a patient with an enlarging effusion concerning?",
+      "rationale": "Hypotension can reflect a fall in cardiac output from compression of the heart.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 46
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "The effusion may be compressing the heart and impairing output"
+        },
+        {
+          "id": "o1",
+          "text": "The effusion is likely increasing stroke volume"
+        },
+        {
+          "id": "o2",
+          "text": "The effusion demonstrates improved systemic perfusion"
+        },
+        {
+          "id": "o3",
+          "text": "The effusion typically raises effective circulating volume"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-066",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Which findings in a client with a known effusion are consistent with hemodynamic deterioration? Select all that apply.",
+      "rationale": "Hypotension, tachycardia, and worsening dyspnea can accompany compression and impaired output.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o4",
+          "text": "Progressively stronger peripheral pulses"
+        },
+        {
+          "id": "o0",
+          "text": "Falling blood pressure"
+        },
+        {
+          "id": "o1",
+          "text": "Rising heart rate"
+        },
+        {
+          "id": "o2",
+          "text": "Increasing dyspnea"
+        },
+        {
+          "id": "o3",
+          "text": "Improving exercise tolerance"
+        }
+      ],
+      "type": "sata",
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ]
+    },
+    {
+      "id": "patho-e4-card-067",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Which type of shock can result when pericardial pressure prevents adequate filling?",
+      "rationale": "Tamponade mechanically obstructs cardiac filling, producing obstructive shock.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 46
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Neurogenic shock"
+        },
+        {
+          "id": "o0",
+          "text": "Obstructive shock"
+        },
+        {
+          "id": "o1",
+          "text": "Distributive shock"
+        },
+        {
+          "id": "o2",
+          "text": "Hypovolemic shock"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-068",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Which development would explain an effusion following pericardial inflammation?",
+      "rationale": "Pericardial inflammation can increase fluid in the surrounding sac.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Inflammation traps fluid only within the pleural space"
+        },
+        {
+          "id": "o3",
+          "text": "Inflammation increases arterial blood volume within the ventricles"
+        },
+        {
+          "id": "o0",
+          "text": "Inflammation promotes fluid accumulation in the sac"
+        },
+        {
+          "id": "o1",
+          "text": "Inflammation drains fluid from the pericardial sac"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-069",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "What makes tamponade different from an uncomplicated effusion?",
+      "rationale": "Tamponade develops when pericardial pressure impairs cardiac function.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "The fluid moves into the ventricular myocardium"
+        },
+        {
+          "id": "o3",
+          "text": "The fluid produces an arterial plaque rupture"
+        },
+        {
+          "id": "o0",
+          "text": "The fluid creates pressure sufficient to impair cardiac function"
+        },
+        {
+          "id": "o1",
+          "text": "Any measurable fluid automatically produces hemodynamic compromise"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-070",
+      "topic": "Cardiac",
+      "subtopic": "Pericardial Effusion",
+      "stem": "Arrange the events in the progression from an enlarging effusion to impaired perfusion.",
+      "rationale": "Accumulating fluid raises external pressure, limits filling, and reduces output.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 4
+      },
+      "approved": true,
+      "type": "ordering",
+      "correct": [
+        "o0",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "options": [
+        {
+          "id": "o2",
+          "text": "Ventricular filling becomes restricted"
+        },
+        {
+          "id": "o0",
+          "text": "Fluid accumulates in the pericardial sac"
+        },
+        {
+          "id": "o3",
+          "text": "Cardiac output falls"
+        },
+        {
+          "id": "o1",
+          "text": "External pressure on the heart rises"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-card-071",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "Where is the primary infection in infective endocarditis?",
+      "rationale": "The infection affects the inner cardiac surface and often involves a valve.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Endocardial surface, commonly a valve"
+        },
+        {
+          "id": "o1",
+          "text": "Pericardial space"
+        },
+        {
+          "id": "o2",
+          "text": "Coronary artery intima"
+        },
+        {
+          "id": "o3",
+          "text": "Pleural space"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-072",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "Why does injecting drugs with nonsterile equipment increase endocarditis risk?",
+      "rationale": "Injecting with nonsterile equipment can introduce organisms directly into the bloodstream.",
+      "source": {
+        "name": "Week 8 Questions.pdf",
+        "path": "Pathophysiology/Exam%204/Week%208%20Questions.pdf",
+        "page": 50
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Organisms can enter the bloodstream and seed a valve"
+        },
+        {
+          "id": "o1",
+          "text": "The injection causes LDL deposition in the valve"
+        },
+        {
+          "id": "o2",
+          "text": "Increased venous pressure dissects the aorta"
+        },
+        {
+          "id": "o3",
+          "text": "The injection increases ventricular afterload directly"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-073",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "What explains increased infective endocarditis risk in a client with a prosthetic valve?",
+      "rationale": "A prosthetic surface can provide a site where circulating organisms adhere and grow.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "The valve directly raises pressure in the pericardial sac"
+        },
+        {
+          "id": "o0",
+          "text": "Circulating organisms can adhere to the prosthetic surface"
+        },
+        {
+          "id": "o1",
+          "text": "Prosthetic valves produce transient coronary vasospasm"
+        },
+        {
+          "id": "o2",
+          "text": "Prosthetic valves lower the oxygen-carrying capacity of blood"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-074",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "Which new finding with persistent fever supports evaluating for valve involvement?",
+      "rationale": "A new regurgitant murmur can reflect a valve that is no longer closing effectively.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "An isolated widened pulse pressure at baseline"
+        },
+        {
+          "id": "o3",
+          "text": "Bilateral chronic ankle hyperpigmentation"
+        },
+        {
+          "id": "o0",
+          "text": "A new regurgitant murmur"
+        },
+        {
+          "id": "o1",
+          "text": "Predictable calf discomfort on exertion"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-075",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "What causes an embolic complication of left-sided infective endocarditis?",
+      "rationale": "Fragments of infected vegetations can enter the systemic arterial circulation from the left heart.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Venous pooling forces blood through arterial valves"
+        },
+        {
+          "id": "o3",
+          "text": "A thickened valve cap breaks open inside the arterial intima"
+        },
+        {
+          "id": "o0",
+          "text": "Material breaks off a vegetation and travels into systemic circulation"
+        },
+        {
+          "id": "o1",
+          "text": "Pericardial fluid enters systemic arteries through intact myocardium"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-076",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "The nurse reviews the provider order exhibit for a client with fever and suspected infective endocarditis. Which statements correctly explain the purpose of the orders? Select all that apply.",
+      "rationale": "Cultures can identify the organism. Echocardiography evaluates valve structure and can detect vegetations or regurgitation. Neither test provides the other test’s result.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Blood cultures can identify an organism in the bloodstream."
+        },
+        {
+          "id": "o1",
+          "text": "Echocardiography can evaluate a valve for a vegetation."
+        },
+        {
+          "id": "o2",
+          "text": "Blood cultures measure the severity of valve regurgitation."
+        },
+        {
+          "id": "o3",
+          "text": "Echocardiography identifies the species of the bloodstream organism."
+        }
+      ],
+      "type": "sata",
+      "correct": [
+        "o0",
+        "o1"
+      ],
+      "exhibit": {
+        "title": "Provider orders",
+        "text": "Obtain blood cultures. Obtain echocardiogram to evaluate the valves."
+      }
+    },
+    {
+      "id": "patho-e4-card-077",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "A client with a left-sided vegetation develops sudden unilateral weakness. Which complication explains the change?",
+      "rationale": "A left-sided vegetation can embolize to a cerebral artery and produce focal neurologic findings.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cerebral embolization"
+        },
+        {
+          "id": "o1",
+          "text": "Stable angina"
+        },
+        {
+          "id": "o2",
+          "text": "Chronic venous insufficiency"
+        },
+        {
+          "id": "o3",
+          "text": "Isolated pericardial effusion"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-078",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "Which two findings are classic peripheral clues to infective endocarditis? Select exactly two.",
+      "rationale": "Osler nodes are tender. Janeway lesions are typically painless.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Dependent ankle edema"
+        },
+        {
+          "id": "o3",
+          "text": "Calf pain during walking"
+        },
+        {
+          "id": "o4",
+          "text": "Elevation pallor"
+        },
+        {
+          "id": "o0",
+          "text": "Tender Osler nodes"
+        },
+        {
+          "id": "o1",
+          "text": "Painless Janeway lesions"
+        }
+      ],
+      "type": "select-n",
+      "selectCount": 2,
+      "correct": [
+        "o0",
+        "o1"
+      ]
+    },
+    {
+      "id": "patho-e4-card-079",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "Match the lesion or process to its description.",
+      "rationale": "The lesions differ in tenderness and location. A vegetation remains attached until material breaks away and embolizes.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "type": "matching",
+      "targets": [
+        {
+          "id": "o3",
+          "text": "Detached material carried to a distant artery"
+        },
+        {
+          "id": "o2",
+          "text": "Infected material attached to a valve"
+        },
+        {
+          "id": "o1",
+          "text": "Painless lesions on palms or soles"
+        },
+        {
+          "id": "o0",
+          "text": "Tender lesions on fingers or toes"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "p0",
+          "prompt": "Osler nodes",
+          "correct": "o0"
+        },
+        {
+          "id": "p1",
+          "prompt": "Janeway lesions",
+          "correct": "o1"
+        },
+        {
+          "id": "p2",
+          "prompt": "Vegetation",
+          "correct": "o2"
+        },
+        {
+          "id": "p3",
+          "prompt": "Systemic embolus",
+          "correct": "o3"
+        }
+      ]
+    },
+    {
+      "id": "patho-e4-card-080",
+      "topic": "Cardiac",
+      "subtopic": "Infective Endocarditis",
+      "stem": "A client with known tricuspid valve endocarditis develops septic emboli. Which destination follows the path of blood leaving the right heart?",
+      "rationale": "Blood leaving the right ventricle enters the pulmonary arteries, where right-sided septic emboli can lodge.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Renal arteries"
+        },
+        {
+          "id": "o3",
+          "text": "Coronary arteries"
+        },
+        {
+          "id": "o0",
+          "text": "Pulmonary circulation"
+        },
+        {
+          "id": "o1",
+          "text": "Cerebral arteries"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-081",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Which mechanism explains reduced ejection fraction in systolic heart failure?",
+      "rationale": "Reduced contractility decreases the fraction of filled ventricular volume ejected.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 11
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Improved contractility increases the fraction ejected"
+        },
+        {
+          "id": "o3",
+          "text": "Increased filling always normalizes the fraction ejected"
+        },
+        {
+          "id": "o0",
+          "text": "Weak ventricular contraction reduces the fraction ejected"
+        },
+        {
+          "id": "o1",
+          "text": "Impaired relaxation alone maintains the fraction ejected"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-082",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Why can a client with diastolic heart failure have a preserved ejection fraction?",
+      "rationale": "Ejection fraction is a ratio. A normal ratio can coexist with low filling volume and impaired relaxation.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 11
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "A preserved fraction establishes normal filling"
+        },
+        {
+          "id": "o2",
+          "text": "Impaired relaxation always causes an increased end-diastolic volume"
+        },
+        {
+          "id": "o3",
+          "text": "Preserved ejection fraction proves absence of congestion"
+        },
+        {
+          "id": "o0",
+          "text": "A stiff ventricle can eject a normal fraction of a smaller filled volume"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-083",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Which symptom specifically describes orthopnea?",
+      "rationale": "Orthopnea is breathlessness when recumbent. Waking from sleep breathless describes paroxysmal nocturnal dyspnea.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Breathlessness when lying flat that improves upright"
+        },
+        {
+          "id": "o1",
+          "text": "Breathlessness only after climbing stairs"
+        },
+        {
+          "id": "o2",
+          "text": "Sudden waking from sleep with breathlessness"
+        },
+        {
+          "id": "o3",
+          "text": "Breathlessness that occurs only when standing"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-084",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "A client with left-sided failure develops bilateral crackles. What mechanism explains this?",
+      "rationale": "Left-sided dysfunction can raise pressure in the pulmonary circulation, resulting in congestion and crackles.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pressure backs up into the pulmonary circulation"
+        },
+        {
+          "id": "o1",
+          "text": "Pressure backs up primarily into the leg veins"
+        },
+        {
+          "id": "o2",
+          "text": "Low pressure in pulmonary capillaries pulls fluid into alveoli"
+        },
+        {
+          "id": "o3",
+          "text": "Systemic venous congestion first causes isolated ankle edema"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-085",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Which findings favor systemic venous congestion in right-sided failure? Select all that apply.",
+      "rationale": "Jugular venous distension, liver enlargement, and dependent edema reflect systemic venous congestion.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o3",
+          "text": "Isolated pulmonary crackles"
+        },
+        {
+          "id": "o4",
+          "text": "Isolated orthopnea"
+        },
+        {
+          "id": "o0",
+          "text": "Jugular venous distension"
+        },
+        {
+          "id": "o1",
+          "text": "Hepatomegaly"
+        },
+        {
+          "id": "o2",
+          "text": "Dependent edema"
+        }
+      ],
+      "type": "sata",
+      "correct": [
+        "o0",
+        "o1",
+        "o2"
+      ]
+    },
+    {
+      "id": "patho-e4-card-086",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Which lab test listed on the course worksheet supports ventricular wall stress in suspected heart failure?",
+      "rationale": "BNP rises in response to myocardial wall stretch and can support the assessment of suspected heart failure.",
+      "source": {
+        "name": "Exam 4 Worksheet.pdf",
+        "path": "Pathophysiology/Exam%204/Exam%204%20Worksheet.pdf",
+        "page": 3
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "INR"
+        },
+        {
+          "id": "o3",
+          "text": "Serum bilirubin"
+        },
+        {
+          "id": "o0",
+          "text": "BNP"
+        },
+        {
+          "id": "o1",
+          "text": "Troponin"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-087",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Which change links chronic hypertension to development of heart failure?",
+      "rationale": "The ventricle works against higher arterial pressure over time, increasing workload and promoting dysfunction.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o2",
+          "text": "Hypertension reverses ventricular remodeling"
+        },
+        {
+          "id": "o3",
+          "text": "High arterial resistance improves forward flow"
+        },
+        {
+          "id": "o0",
+          "text": "Sustained pressure load makes the ventricle work harder"
+        },
+        {
+          "id": "o1",
+          "text": "Sustained pressure reduces ventricular workload"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-088",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "Why can a previous myocardial infarction lead to systolic failure?",
+      "rationale": "Infarction can reduce the amount of myocardium available to generate contractile force.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 14
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o1",
+          "text": "Scar tissue increases the strength of ventricular contraction"
+        },
+        {
+          "id": "o2",
+          "text": "Myocardial injury improves ejection fraction"
+        },
+        {
+          "id": "o3",
+          "text": "The infarct increases the amount of viable muscle"
+        },
+        {
+          "id": "o0",
+          "text": "Loss of viable muscle reduces pumping strength"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-089",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "A client has jugular venous distension, edema and pulmonary crackles. What pattern best explains the combination?",
+      "rationale": "Jugular venous distension and edema indicate systemic congestion, while crackles suggest pulmonary congestion.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 13
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "Both systemic and pulmonary congestion"
+        },
+        {
+          "id": "o1",
+          "text": "Isolated systemic congestion with clear lungs"
+        },
+        {
+          "id": "o2",
+          "text": "Isolated pulmonary congestion without systemic signs"
+        },
+        {
+          "id": "o3",
+          "text": "Impaired arterial flow confined to the legs"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    },
+    {
+      "id": "patho-e4-card-090",
+      "topic": "Cardiac",
+      "subtopic": "Heart Failure",
+      "stem": "A ventricle holds 120 mL before systole and ejects 36 mL. What is its ejection fraction?",
+      "rationale": "Ejection fraction is 36 mL divided by 120 mL, or 30%.",
+      "source": {
+        "name": "3140_7_Disorders of Cardiac Function, Heart Failure and Circulatory Shock.pdf",
+        "path": "Pathophysiology/Exam%204/3140_7_Disorders%20of%20Cardiac%20Function%2C%20Heart%20Failure%20and%20Circulatory%20Shock.pdf",
+        "page": 11
+      },
+      "approved": true,
+      "options": [
+        {
+          "id": "o0",
+          "text": "30%"
+        },
+        {
+          "id": "o1",
+          "text": "43%"
+        },
+        {
+          "id": "o2",
+          "text": "70%"
+        },
+        {
+          "id": "o3",
+          "text": "84%"
+        }
+      ],
+      "type": "mcq",
+      "correct": "o0"
+    }
+  ],
+  "notice": "Draft preview for testing. The full Exam 4 includes additional sections."
+}
