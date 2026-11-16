@@ -70,6 +70,7 @@ const STUDY_HUB = [
         icon: "💊",
         description: "Medication classes, safety, adverse effects & nursing considerations",
         exams: [
+          {name:"Exam 4",updatedAt:"2026-11-16T06:40:00Z",versions:[{version:"Exam 4 — development preview",file:"exam.html?bank=pharmacology-exam-4-standard&v=pharm4-dev",description:"50-question standard exam, custom practice, and three five-question case studies."}]},
           {name:"Exam 3",updatedAt:"2026-10-30T03:21:10Z",versions:[{version:"Exam 3 — 278-question practice bank",file:"exam.html?bank=pharmacology-exam-3-standard&v=pharm3-distractors-v2-20261029",description:"Revised answer choices: 26 medication entries with 10–11 direct questions each. Mixed 50-question practice or choose categories, drugs/classes, and count."}]},
 
           // Exam 2: each entry below becomes one clickable practice-exam card.

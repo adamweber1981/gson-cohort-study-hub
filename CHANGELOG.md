@@ -1,3 +1,9 @@
+# November 16, 2026 — Pharmacology Exam 4 development preview
+
+- Added a 50-question standard practice blueprint across 40 prototype entries, customizable practice, and three five-question cases.
+- Added original course PDF links and separate blueprint accounting for provider-order exhibits. Sucralfate is excluded per request.
+- Draft bank depth and item-level rationale review are pending.
+
 # November 13, 2026 — Pathophysiology Exam 4 case studies
 
 - Added three sequential case studies to the Exam 4 practice mode menu. Each draws one item per stage, five total, from eight items.

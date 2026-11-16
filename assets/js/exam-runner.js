@@ -99,13 +99,13 @@ function showIntro(){
  }
  function selections(){const selected=new Map();for(const e of entries){if(!e.toggle.checked||!e.input.checked)continue;if(e.whole)selected.set(e.topic,null);else if(selected.get(e.topic)!==null){if(!selected.has(e.topic))selected.set(e.topic,[]);selected.get(e.topic).push(e.subtopic)}}return [...selected].map(([topic,subtopics])=>({topic,subtopics}))}
  function updateCount(){const n=ExamCore.customPool(engine.bank,selections()).length;count.max=n;count.value=n?Math.min(Number(count.value)||20,n):"";status.textContent=n?n+" questions available. Choose 1–"+n+".":"Select topics and subtopics with available questions.";start.disabled=mode.value==="custom"&&!n}
- if(bankId==="pathophysiology-exam-4-standard")for(let i=1;i<=3;i++)mode.append(new Option("Case Study "+i,"case-"+i));
+ if(["pathophysiology-exam-4-standard","pharmacology-exam-4-standard"].includes(bankId))for(let i=1;i<=3;i++)mode.append(new Option("Case Study "+i,"case-"+i));
  mode.addEventListener("change",()=>{$("custom-settings").hidden=mode.value!=="custom";updateCount()});
  const start=button("Start Exam",async()=>{try{if(mode.value==="amy63"){location.href="exam.html?bank=fundamentals-exam-3-amy-review-63&v=amy63-20261111";return}if(/^case-[1-3]$/.test(mode.value)){
  const id=mode.value;
  start.disabled=true;
  try{
-  const response=await fetch("assets/question-banks/pathophysiology-exam-4-cases.json?v=case-studies",{cache:"no-store"});
+  const response=await fetch("assets/question-banks/"+(bankId==="pharmacology-exam-4-standard"?"pharmacology":"pathophysiology")+"-exam-4-cases.json?v=pharm4-dev",{cache:"no-store"});
   if(!response.ok)throw Error("Case studies unavailable");
   const cases=await response.json(),study=cases.find(item=>item.id===id);
   if(!study)throw Error("Case study unavailable");
