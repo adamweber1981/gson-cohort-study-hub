@@ -1,0 +1,572 @@
+[
+  {
+    "id": "case-1",
+    "title": "Case Study 1",
+    "questions": [
+      {
+        "id": "pharm-e4-215",
+        "topic": "Medications to Treat Coagulation Disorders",
+        "subtopic": "heparin",
+        "stem": "Before starting the ordered infusion, which lab guides routine titration under the course protocol?",
+        "rationale": "The course protocol uses aPTT to monitor unfractionated heparin.",
+        "source": {
+          "name": "Cardiac.Renal In Class Pt 1 and 2.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Cardiac.Renal%20In%20Class%20Pt%201%20and%202.pdf",
+          "page": 6
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o0",
+            "text": "aPTT"
+          },
+          {
+            "id": "o1",
+            "text": "INR"
+          },
+          {
+            "id": "o2",
+            "text": "LDL"
+          },
+          {
+            "id": "o3",
+            "text": "Serum sodium"
+          }
+        ],
+        "stage": 1,
+        "caseText": "A hospitalized client is receiving IV unfractionated heparin after a confirmed venous thrombosis."
+      },
+      {
+        "id": "pharm-e4-216",
+        "topic": "Medications to Treat Coagulation Disorders",
+        "subtopic": "heparin",
+        "stem": "The nurse reviews the effects of treatment. Which findings should be reported as possible bleeding? Select all that apply.",
+        "rationale": "New blood in urine or stool can indicate bleeding. The other findings do not identify blood loss.",
+        "source": {
+          "name": "Cardiac.Renal In Class Pt 1 and 2.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Cardiac.Renal%20In%20Class%20Pt%201%20and%202.pdf",
+          "page": 6
+        },
+        "approved": true,
+        "type": "sata",
+        "correct": [
+          "o0",
+          "o1"
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "New hematuria"
+          },
+          {
+            "id": "o1",
+            "text": "Blood in stool"
+          },
+          {
+            "id": "o2",
+            "text": "Improvement in leg discomfort"
+          },
+          {
+            "id": "o3",
+            "text": "Blood pressure unchanged at baseline"
+          }
+        ],
+        "stage": 2,
+        "caseText": "A hospitalized client is receiving IV unfractionated heparin after a confirmed venous thrombosis."
+      },
+      {
+        "id": "pharm-e4-217",
+        "topic": "Medications to Treat Coagulation Disorders",
+        "subtopic": "heparin",
+        "stem": "On day six, platelets have fallen substantially and the leg is newly swollen. Which complication should the nurse suspect?",
+        "rationale": "A platelet decline with new signs of thrombosis suggests HIT.",
+        "source": {
+          "name": "Cardiac.Renal In Class Pt 1 and 2.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Cardiac.Renal%20In%20Class%20Pt%201%20and%202.pdf",
+          "page": 6
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o3",
+            "text": "Recurrent symptoms solely from immobility"
+          },
+          {
+            "id": "o0",
+            "text": "Heparin-induced thrombocytopenia"
+          },
+          {
+            "id": "o1",
+            "text": "Normal adjustment to therapeutic anticoagulation"
+          },
+          {
+            "id": "o2",
+            "text": "Vitamin K depletion"
+          }
+        ],
+        "stage": 3,
+        "caseText": "A hospitalized client is receiving IV unfractionated heparin after a confirmed venous thrombosis."
+      },
+      {
+        "id": "pharm-e4-218",
+        "topic": "Medications to Treat Coagulation Disorders",
+        "subtopic": "heparin",
+        "stem": "The unit protocol directs the nurse to pause the infusion when HIT is suspected and call the treating team. Place these milestones in order.",
+        "rationale": "Recognition triggers the protocol, followed by handoff and monitoring.",
+        "source": {
+          "name": "Cardiac.Renal In Class Pt 1 and 2.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Cardiac.Renal%20In%20Class%20Pt%201%20and%202.pdf",
+          "page": 6
+        },
+        "approved": true,
+        "type": "ordering",
+        "options": [
+          {
+            "id": "o2",
+            "text": "Notify the treating team with the platelet and symptom trend"
+          },
+          {
+            "id": "o0",
+            "text": "Recognize the platelet decline with a new thrombosis cue"
+          },
+          {
+            "id": "o3",
+            "text": "Follow the team’s monitoring plan"
+          },
+          {
+            "id": "o1",
+            "text": "Pause the infusion according to protocol"
+          }
+        ],
+        "correct": [
+          "o0",
+          "o1",
+          "o2",
+          "o3"
+        ],
+        "stage": 4,
+        "caseText": "A hospitalized client is receiving IV unfractionated heparin after a confirmed venous thrombosis."
+      },
+      {
+        "id": "pharm-e4-219",
+        "topic": "Medications to Treat Coagulation Disorders",
+        "subtopic": "heparin",
+        "stem": "The team reviews future medication choices. Which information should the nurse include in the handoff?",
+        "rationale": "The timing, platelet trend and thrombosis findings together explain the suspected reaction.",
+        "source": {
+          "name": "Cardiac.Renal In Class Pt 1 and 2.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Cardiac.Renal%20In%20Class%20Pt%201%20and%202.pdf",
+          "page": 6
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o2",
+            "text": "Only whether the client noticed a new bruise"
+          },
+          {
+            "id": "o3",
+            "text": "The most recent LDL and usual diet"
+          },
+          {
+            "id": "o0",
+            "text": "The timing of heparin exposure, platelet trend and new symptoms"
+          },
+          {
+            "id": "o1",
+            "text": "Only the patient’s most recent aPTT"
+          }
+        ],
+        "stage": 5,
+        "caseText": "A hospitalized client is receiving IV unfractionated heparin after a confirmed venous thrombosis."
+      }
+    ]
+  },
+  {
+    "id": "case-2",
+    "title": "Case Study 2",
+    "questions": [
+      {
+        "id": "pharm-e4-220",
+        "topic": "Medications to Treat Heart Failure",
+        "subtopic": "digoxin",
+        "stem": "Before digoxin is administered, which assessment should the nurse complete?",
+        "rationale": "A full-minute apical pulse identifies a rate that may require holding the drug.",
+        "source": {
+          "name": "Engage Pharm_CV and Renal Part 2 - Transcript.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_CV%20and%20Renal%20Part%202%20-%20Transcript.pdf",
+          "page": 26
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Estimate pulse from the most recent blood pressure"
+          },
+          {
+            "id": "o2",
+            "text": "Check the respiratory rate in place of a pulse"
+          },
+          {
+            "id": "o3",
+            "text": "Assess only the presence of ankle edema"
+          },
+          {
+            "id": "o0",
+            "text": "Count the apical pulse for one full minute"
+          }
+        ],
+        "stage": 1,
+        "caseText": "A client with heart failure takes digoxin and recently has had brisk diuresis on a loop diuretic."
+      },
+      {
+        "id": "pharm-e4-221",
+        "topic": "Medications to Treat Heart Failure",
+        "subtopic": "digoxin",
+        "stem": "The order says to hold if the apical pulse is below 60/min and to notify the provider. Which response follows the order when the pulse is 52/min?",
+        "rationale": "The measured pulse is below the explicit ordered parameter.",
+        "source": {
+          "name": "Engage Pharm_CV and Renal Part 2 - Transcript.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_CV%20and%20Renal%20Part%202%20-%20Transcript.pdf",
+          "page": 26
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o0",
+            "text": "Hold digoxin and notify the provider"
+          },
+          {
+            "id": "o1",
+            "text": "Give digoxin and recheck the pulse after administration"
+          },
+          {
+            "id": "o2",
+            "text": "Give half the dose without contacting the provider"
+          },
+          {
+            "id": "o3",
+            "text": "Delay the next pulse check until the following day"
+          }
+        ],
+        "stage": 2,
+        "caseText": "A client with heart failure takes digoxin and recently has had brisk diuresis on a loop diuretic."
+      },
+      {
+        "id": "pharm-e4-222",
+        "topic": "Medications to Treat Heart Failure",
+        "subtopic": "digoxin",
+        "stem": "New nausea and halos around lights are reported. Which two additional findings support concern for toxicity? Select exactly two.",
+        "rationale": "Hypokalemia increases susceptibility and bradycardia is a toxicity clue.",
+        "source": {
+          "name": "Engage Pharm_CV and Renal Part 2 - Transcript.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_CV%20and%20Renal%20Part%202%20-%20Transcript.pdf",
+          "page": 26
+        },
+        "approved": true,
+        "type": "select-n",
+        "selectCount": 2,
+        "correct": [
+          "o0",
+          "o1"
+        ],
+        "options": [
+          {
+            "id": "o3",
+            "text": "A stable temperature"
+          },
+          {
+            "id": "o4",
+            "text": "Less edema after diuresis"
+          },
+          {
+            "id": "o0",
+            "text": "Low potassium"
+          },
+          {
+            "id": "o1",
+            "text": "Bradycardia"
+          },
+          {
+            "id": "o2",
+            "text": "A normal LDL"
+          }
+        ],
+        "stage": 3,
+        "caseText": "A client with heart failure takes digoxin and recently has had brisk diuresis on a loop diuretic."
+      },
+      {
+        "id": "pharm-e4-223",
+        "topic": "Medications to Treat Heart Failure",
+        "subtopic": "digoxin",
+        "stem": "The provider orders a digoxin level and renal and electrolyte tests. Which statements correctly explain the tests? Select all that apply.",
+        "rationale": "Renal clearance and electrolyte status influence safety. Clinical assessment remains necessary.",
+        "source": {
+          "name": "Engage Pharm_CV and Renal Part 2 - Transcript.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_CV%20and%20Renal%20Part%202%20-%20Transcript.pdf",
+          "page": 26
+        },
+        "approved": true,
+        "type": "sata",
+        "correct": [
+          "o0",
+          "o1"
+        ],
+        "options": [
+          {
+            "id": "o3",
+            "text": "A digoxin level replaces assessment of pulse and symptoms"
+          },
+          {
+            "id": "o0",
+            "text": "Renal function affects digoxin clearance"
+          },
+          {
+            "id": "o1",
+            "text": "Potassium helps identify increased susceptibility to toxicity"
+          },
+          {
+            "id": "o2",
+            "text": "A lipid panel can substitute for the digoxin level"
+          }
+        ],
+        "stage": 4,
+        "caseText": "A client with heart failure takes digoxin and recently has had brisk diuresis on a loop diuretic."
+      },
+      {
+        "id": "pharm-e4-224",
+        "topic": "Medications to Treat Heart Failure",
+        "subtopic": "digoxin",
+        "stem": "Which statement shows understanding of discharge teaching after the team reviews the medication plan?",
+        "rationale": "Monitoring and early reporting help identify toxicity; dose changes should follow the prescribed plan.",
+        "source": {
+          "name": "Engage Pharm_CV and Renal Part 2 - Transcript.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_CV%20and%20Renal%20Part%202%20-%20Transcript.pdf",
+          "page": 26
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o2",
+            "text": "I’ll skip lab visits when my edema improves"
+          },
+          {
+            "id": "o3",
+            "text": "I’ll change the dose on my own if I feel tired"
+          },
+          {
+            "id": "o0",
+            "text": "I’ll report nausea or vision changes and keep my lab appointments"
+          },
+          {
+            "id": "o1",
+            "text": "I’ll take an extra dose if my pulse is low"
+          }
+        ],
+        "stage": 5,
+        "caseText": "A client with heart failure takes digoxin and recently has had brisk diuresis on a loop diuretic."
+      }
+    ]
+  },
+  {
+    "id": "case-3",
+    "title": "Case Study 3",
+    "questions": [
+      {
+        "id": "pharm-e4-225",
+        "topic": "Medications to Treat Bowel Disorders",
+        "subtopic": "infliximab",
+        "stem": "Which screening is particularly important before beginning this therapy?",
+        "rationale": "TNF inhibition can increase risk of serious infection, including reactivation of TB.",
+        "source": {
+          "name": "Engage Pharm_GI - Narrated.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_GI%20-%20Narrated.pdf",
+          "page": 20
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o2",
+            "text": "Visual field testing"
+          },
+          {
+            "id": "o3",
+            "text": "Baseline hearing thresholds only"
+          },
+          {
+            "id": "o0",
+            "text": "Tuberculosis screening"
+          },
+          {
+            "id": "o1",
+            "text": "Routine audiometry"
+          }
+        ],
+        "stage": 1,
+        "caseText": "A client with inflammatory bowel disease is being evaluated for infliximab after ongoing symptoms."
+      },
+      {
+        "id": "pharm-e4-226",
+        "topic": "Medications to Treat Bowel Disorders",
+        "subtopic": "infliximab",
+        "stem": "The client calls on the morning of the infusion to report fever and a new cough. Which action is most appropriate?",
+        "rationale": "New infection symptoms should be evaluated before immunosuppressive therapy proceeds.",
+        "source": {
+          "name": "Engage Pharm_GI - Narrated.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_GI%20-%20Narrated.pdf",
+          "page": 20
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o1",
+            "text": "Proceed on schedule because bowel symptoms are present"
+          },
+          {
+            "id": "o2",
+            "text": "Wait to mention the symptoms until the infusion has finished"
+          },
+          {
+            "id": "o3",
+            "text": "Assume infection risk only applies to the first infusion"
+          },
+          {
+            "id": "o0",
+            "text": "Notify the infusion team so the possible infection can be evaluated before treatment"
+          }
+        ],
+        "stage": 2,
+        "caseText": "A client with inflammatory bowel disease is being evaluated for infliximab after ongoing symptoms."
+      },
+      {
+        "id": "pharm-e4-227",
+        "topic": "Medications to Treat Bowel Disorders",
+        "subtopic": "infliximab",
+        "stem": "At a later visit the client is cleared for treatment. During infusion, which findings should be reported promptly? Select all that apply.",
+        "rationale": "New rash, chills or fever can indicate an infusion reaction.",
+        "source": {
+          "name": "Engage Pharm_GI - Narrated.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_GI%20-%20Narrated.pdf",
+          "page": 20
+        },
+        "approved": true,
+        "type": "sata",
+        "correct": [
+          "o0",
+          "o1",
+          "o2"
+        ],
+        "options": [
+          {
+            "id": "o4",
+            "text": "A normal temperature with no new symptoms"
+          },
+          {
+            "id": "o0",
+            "text": "New rash"
+          },
+          {
+            "id": "o1",
+            "text": "New chills"
+          },
+          {
+            "id": "o2",
+            "text": "Fever that develops during infusion"
+          },
+          {
+            "id": "o3",
+            "text": "Improved bowel urgency since the prior visit"
+          }
+        ],
+        "stage": 3,
+        "caseText": "A client with inflammatory bowel disease is being evaluated for infliximab after ongoing symptoms."
+      },
+      {
+        "id": "pharm-e4-228",
+        "topic": "Medications to Treat Bowel Disorders",
+        "subtopic": "infliximab",
+        "stem": "What makes infliximab a targeted therapy for this condition?",
+        "rationale": "TNF inhibition targets a specific inflammatory pathway.",
+        "source": {
+          "name": "Engage Pharm_GI - Narrated.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_GI%20-%20Narrated.pdf",
+          "page": 20
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o0",
+            "text": "It inhibits tumor necrosis factor involved in inflammation"
+          },
+          {
+            "id": "o1",
+            "text": "It inhibits intestinal chloride channels"
+          },
+          {
+            "id": "o2",
+            "text": "It neutralizes gastric acid already present"
+          },
+          {
+            "id": "o3",
+            "text": "It blocks acetylcholine-mediated bowel contractions"
+          }
+        ],
+        "stage": 4,
+        "caseText": "A client with inflammatory bowel disease is being evaluated for infliximab after ongoing symptoms."
+      },
+      {
+        "id": "pharm-e4-229",
+        "topic": "Medications to Treat Bowel Disorders",
+        "subtopic": "infliximab",
+        "stem": "Which statement at follow-up shows understanding of infection precautions?",
+        "rationale": "Reporting new infection symptoms allows the care team to evaluate whether treatment should proceed.",
+        "source": {
+          "name": "Engage Pharm_GI - Narrated.pdf",
+          "path": "References/Pharmacology/Exams/Exam%204/Engage%20Pharm_GI%20-%20Narrated.pdf",
+          "page": 20
+        },
+        "approved": true,
+        "type": "mcq",
+        "correct": "o0",
+        "options": [
+          {
+            "id": "o3",
+            "text": "I’ll skip infection screening if my bowel symptoms improve"
+          },
+          {
+            "id": "o0",
+            "text": "I’ll report new signs of infection before a scheduled infusion"
+          },
+          {
+            "id": "o1",
+            "text": "I’ll wait until my next clinic visit to mention a new fever"
+          },
+          {
+            "id": "o2",
+            "text": "I’ll assume a cough is from my bowel disease"
+          }
+        ],
+        "stage": 5,
+        "caseText": "A client with inflammatory bowel disease is being evaluated for infliximab after ongoing symptoms."
+      }
+    ]
+  }
+]
